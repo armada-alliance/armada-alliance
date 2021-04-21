@@ -31,8 +31,8 @@ jobs:
         git config --global user.email "olivier@andev.nl"
         PAT64=$(echo ":${{ secrets.PERSONAL_ACCESS_TOKEN }}" | base64)
         git -c http.extraHeader="Authorization: Basic $PAT64" clone https://github.com/ADA-Pi/pi-alliance.git .
-        cat /README.md
-        cp -R /home/runner/work/pi-alliance/pi-alliance/services/website/* .
+        cat README.md
+        cp -R /home/runner/work/pi-alliance/pi-alliance/services/website/out/* .
         git add --all 
         git commit -m 'update build' 
         git -c http.extraHeader="Authorization: Basic $PAT64" push origin master
