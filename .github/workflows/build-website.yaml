@@ -27,7 +27,7 @@ jobs:
       uses: actions/checkout@v2
       with:
         token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-        repository: ourcompany/whateverrepo
+        repository: ADA-Pi/ada-pi.github.io
         path: ./services/website/repo
     - name: build
       working-directory: ./services/website
