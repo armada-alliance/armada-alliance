@@ -32,6 +32,10 @@ jobs:
         cp -R repo/.git repo/README.md updated_repo
         cp -R out/* updated_repo
     - name: build
+      working-directory: ./
+      run: |
+        rm -rf .git 
+    - name: build
       working-directory: ./services/website/updated_repo
       run: |
         git add --all 
