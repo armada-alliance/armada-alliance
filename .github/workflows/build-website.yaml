@@ -23,10 +23,10 @@ jobs:
         npm install
         npm run build
         npm run export
-        git clone https://keyflight:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/ADA-pi/ada-pi.github.io repo
         git config user.name "keyflight"
         git config user.email "olivier@andev.nl"
-
+        PAT64=$(echo "${{ secrets.PERSONAL_ACCESS_TOKEN }}" | base64)
+        git -c http.extraHeader="Authorization: Basic $PAT64" clone https://github.com/ADA-Pi/pi-alliance.git repo
         cat repo/README.md
         mkdir updated_repo
         cp -R repo/.git repo/README.md updated_repo
@@ -34,4 +34,4 @@ jobs:
         cd updated_repo
         git add --all
         git commit -m 'update build'
-        git push origin master
+        git -c http.extraHeader="Authorization: Basic $PAT64" push origin master
