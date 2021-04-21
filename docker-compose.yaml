@@ -1,0 +1,20 @@
+version: "3"
+
+services:
+
+  proxy:
+    build: ./services/proxy
+    ports:
+      - 80:80
+    restart: always
+
+  website:
+    image: node:14
+    environment:
+      - PORT=3000
+    working_dir: /app
+    volumes:
+      - ./services/website:/app
+    ports:
+      - 3000:3000
+    command: ./entrypoint.sh

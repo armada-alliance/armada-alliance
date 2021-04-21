@@ -1,0 +1,33 @@
+name: Build Website
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js 14.x
+      uses: actions/setup-node@v1
+      with:
+        node-version: 14.x
+    - name: build
+      working-directory: ./services/website
+      run: |
+        npm install
+        npm run build
+        npm run export
+        git clone https://github.com/ADA-Pi/ada-pi.github.io.git repo
+        mkdir updated_repo
+        cp -R repo/.git repo/README.md updated_repo
+        cp -R out/* updated_repo
+        cd updated_repo
+        git add --all
+        git commit -m 'update build'
+        git push origin master
