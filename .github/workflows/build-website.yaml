@@ -31,4 +31,10 @@ jobs:
         mkdir updated_repo
         cp -R repo/.git repo/README.md updated_repo
         cp -R out/* updated_repo
-        cd updated_repo && git add --all && git commit -m 'update build' && git -c http.extraHeader="Authorization: Basic $PAT64" push origin master
+    - name: build
+      working-directory: ./services/website/updated_repo
+      run: |
+        git add --all 
+        git commit -m 'update build' 
+        PAT64=$(echo ":${{ secrets.PERSONAL_ACCESS_TOKEN }}" | base64)
+        git -c http.extraHeader="Authorization: Basic $PAT64" push origin master
