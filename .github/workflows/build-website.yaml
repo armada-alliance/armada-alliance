@@ -20,6 +20,7 @@ jobs:
     - name: build
       working-directory: ./services/website
       run: |
+        npm install
         npm run build
         npm run export
         cat out/index.html
