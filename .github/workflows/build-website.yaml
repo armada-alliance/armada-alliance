@@ -23,16 +23,10 @@ jobs:
         npm install
         npm run build
         npm run export
-    - name: 'Pushing new build'
-      uses: actions/checkout@v2
-      with:
-        token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-        repository: ADA-Pi/ada-pi.github.io
-        path: ./services/website/repo
-    - name: build
-      working-directory: ./services/website
-      run: |
-        echo "test"
+        git clone https://keyflight:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/ADA-pi/ada-pi.github.io repo
+        git config user.name "keyflight"
+        git config user.email "olivier@andev.nl"
+
         cat repo/README.md
         mkdir updated_repo
         cp -R repo/.git repo/README.md updated_repo
