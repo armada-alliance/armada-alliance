@@ -23,7 +23,7 @@ jobs:
         npm install
         npm run build
         npm run export
-        git clone https://github.com/ADA-Pi/ada-pi.github.io.git repo
+        git clone ${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com:ADA-Pi/ada-pi.github.io.git repo
         mkdir updated_repo
         cp -R repo/.git repo/README.md updated_repo
         cp -R out/* updated_repo
