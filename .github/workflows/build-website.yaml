@@ -26,13 +26,13 @@ jobs:
         git config --global user.name "keyflight"
         git config --global user.email "olivier@andev.nl"
         PAT64=$(echo ":${{ secrets.PERSONAL_ACCESS_TOKEN }}" | base64)
-        git -c http.extraHeader="Authorization: Basic $PAT64" clone https://github.com/ADA-Pi/pi-alliance.git repo
-        cat repo/README.md
-        mkdir updated_repo
-        cp -R repo/.git repo/README.md updated_repo
-        cp -R out/* updated_repo
+        git -c http.extraHeader="Authorization: Basic $PAT64" clone https://github.com/ADA-Pi/pi-alliance.git /tmp/repo
+        cat /tmp/repo/README.md
+        mkdir /tmp/updated_repo
+        cp -R /tmp/repo/.git /tmp/repo/README.md updated_repo
+        cp -R out/* /tmp/updated_repo
     - name: build
-      working-directory: ./services/website/updated_repo
+      working-directory: /tmp/updated_repo
       run: |
         pwd
         git add --all 
