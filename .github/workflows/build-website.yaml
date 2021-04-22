@@ -39,5 +39,5 @@ jobs:
         git commit -m 'update build' 
         git config --global user.name "keyflight"
         git config --global user.email "olivier@andev.nl"
-        git remote set-url origin https://:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/ADA-Pi/ada-pi.github.io.git
+        git remote set-url origin https://keyflight:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/ADA-Pi/ada-pi.github.io.git
         git push origin master
