@@ -1,5 +1,5 @@
-# pi-alliance
-Pi Alliance registry + website
+# Armada-Alliance
+Armada Alliance registry + website
 
 ## How to add your pool to the registry
 
