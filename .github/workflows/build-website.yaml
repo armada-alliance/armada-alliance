@@ -20,15 +20,13 @@ jobs:
     - name: Build static website
       working-directory: ./services/website
       run: |
-        # npm install
-        # npm run build
-        # npm run export
-        mkdir out
-        echo "<h1>this works!</h1>" > out/index.html
-        git config --global user.name "${{ secret.CI_USERNAME }}"
-        git config --global user.email "${{ secret.CI_EMAIL }}"
+        npm install
+        npm run build
+        npm run export
+        git config --global user.name "${{ secrets.CI_USERNAME }}"
+        git config --global user.email "${{ secrets.CI_EMAIL }}"
         PAT64=$(echo ":${{ secrets.PERSONAL_ACCESS_TOKEN }}" | base64)
-        git -c http.extraHeader="Authorization: Basic $PAT64" clone https://${{ secret.CI_USERNAME }}:${{ secrets.CI_PASSWORD }}@github.com/ADA-Pi/ada-pi.github.io.git /tmp/repo
+        git -c http.extraHeader="Authorization: Basic $PAT64" clone https://${{ secrets.CI_USERNAME }}:${{ secrets.CI_PASSWORD }}@github.com/ADA-Pi/ada-pi.github.io.git /tmp/repo
         cat /tmp/repo/README.md
         cp -R out/* /tmp/repo
     - name: Push changes to GitHub Pages repo
@@ -37,7 +35,7 @@ jobs:
         pwd
         git add --all 
         git commit -m 'update build' 
-        git config --global user.name "${{ secret.CI_USERNAME }}"
-        git config --global user.email "${{ secret.CI_EMAIL }}"
-        git remote set-url origin https://${{ secret.CI_USERNAME }}:${{ secrets.CI_PASSWORD }}@github.com/ADA-Pi/ada-pi.github.io.git
+        git config --global user.name "${{ secrets.CI_USERNAME }}"
+        git config --global user.email "${{ secrets.CI_EMAIL }}"
+        git remote set-url origin https://${{ secrets.CI_USERNAME }}:${{ secrets.CI_PASSWORD }}@github.com/ADA-Pi/ada-pi.github.io.git
         git push origin master
