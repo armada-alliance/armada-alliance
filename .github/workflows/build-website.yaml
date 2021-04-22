@@ -26,7 +26,7 @@ jobs:
         git config --global user.name "keyflight"
         git config --global user.email "olivier@andev.nl"
         PAT64=$(echo ":${{ secrets.PERSONAL_ACCESS_TOKEN }}" | base64)
-        git -c http.extraHeader="Authorization: Basic $PAT64" clone https://github.com/ADA-Pi/ada-pi.github.io.git /tmp/repo
+        git -c http.extraHeader="Authorization: Basic $PAT64" clone https://:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/ADA-Pi/ada-pi.github.io.git /tmp/repo
         cat /tmp/repo/README.md
         cp -R out/* /tmp/repo
     - name: build
@@ -37,6 +37,6 @@ jobs:
         git commit -m 'update build' 
         git config --global user.name "keyflight"
         git config --global user.email "olivier@andev.nl"
-        git remote set-url origin https://keyflight:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/ADA-Pi/ada-pi.github.io.git
+        git remote set-url origin https://:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/ADA-Pi/ada-pi.github.io.git
         PAT64=$(echo ":${{ secrets.PERSONAL_ACCESS_TOKEN }}" | base64)
         git -c http.extraHeader="Authorization: Basic $PAT64" push origin master
