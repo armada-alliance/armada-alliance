@@ -17,7 +17,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 14.x
-    - name: build
+    - name: Build static website
       working-directory: ./services/website
       run: |
         # npm install
@@ -25,19 +25,19 @@ jobs:
         # npm run export
         mkdir out
         echo "<h1>this works!</h1>" > out/index.html
-        git config --global user.name "keyflight"
-        git config --global user.email "olivier@andev.nl"
+        git config --global user.name "${{ secret.CI_USERNAME }}"
+        git config --global user.email "${{ secret.CI_EMAIL }}"
         PAT64=$(echo ":${{ secrets.PERSONAL_ACCESS_TOKEN }}" | base64)
-        git -c http.extraHeader="Authorization: Basic $PAT64" clone https://:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/ADA-Pi/ada-pi.github.io.git /tmp/repo
+        git -c http.extraHeader="Authorization: Basic $PAT64" clone https://${{ secret.CI_USERNAME }}:${{ secrets.CI_PASSWORD }}@github.com/ADA-Pi/ada-pi.github.io.git /tmp/repo
         cat /tmp/repo/README.md
         cp -R out/* /tmp/repo
-    - name: build
+    - name: Push changes to GitHub Pages repo
       working-directory: /tmp/repo
       run: |
         pwd
         git add --all 
         git commit -m 'update build' 
-        git config --global user.name "keyflight"
-        git config --global user.email "olivier@andev.nl"
-        git remote set-url origin https://keyflight:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/ADA-Pi/ada-pi.github.io.git
+        git config --global user.name "${{ secret.CI_USERNAME }}"
+        git config --global user.email "${{ secret.CI_EMAIL }}"
+        git remote set-url origin https://${{ secret.CI_USERNAME }}:${{ secrets.CI_PASSWORD }}@github.com/ADA-Pi/ada-pi.github.io.git
         git push origin master
