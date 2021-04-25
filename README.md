@@ -8,7 +8,7 @@ Armada Alliance registry + website
 
 Add a file named `<YOUR_TICKER>.json` to the registry directory.
 
-### Here is an example of a pool's registration JSON file.
+#### Here is an example of a pool's registration JSON file.
 ```json
 {
     "ticker": "PIADA",
