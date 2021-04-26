@@ -2,7 +2,7 @@
 Armada Alliance registry + website
 
 ## Our Mission
-- The Armada alliance was formed in efforts to build a community of decentralized, low-cost, and energy-efficient stake pool operations on Cardano. All Stake Pools that are apart of this alliance run on either Raspberry Pis exclusively or low power consuming ARM-based machines. If you want to join us you must use ARM or raspberry pi machines to run your stake pool, not split your pool, and your pool should have a clear mission. 
+- The Armada alliance was formed in efforts to build a community of decentralized, low-cost, and energy-efficient stake pool operations on Cardano. All Stake Pools that are apart of this alliance run on either Raspberry Pis exclusively or low power consuming ARM-based machines.
 
 ## How to add your pool to the registry
 
@@ -21,7 +21,7 @@ Add a file named `<YOUR_TICKER>.json` to the registry directory.
       "website": "https://ada-pi.io/",
       "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg"
     },
-    "telegram": "Qwail",
+    "telegram": "https://t.me/armada_alli",
     "operatorName": "Wael",
     "github": "AstroWa3l"
   }
