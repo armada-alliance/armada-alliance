@@ -21,7 +21,7 @@ Add a file named `<YOUR_TICKER>.json` to the registry directory.
       "website": "https://ada-pi.io/",
       "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg"
     },
-    "telegram": "https://t.me/armada_alli",
+    "telegram": "Qwail",
     "operatorName": "Wael",
     "github": "AstroWa3l"
   }
