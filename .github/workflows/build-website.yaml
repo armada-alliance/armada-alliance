@@ -1,10 +1,10 @@
-name: Build Website
+name: Build website
 
 on:
   push:
     branches: [ main ]
-  # pull_request:
-    # branches: [ main ]
+    paths:
+      - 'adapools.json'
 
 jobs:
   build:
