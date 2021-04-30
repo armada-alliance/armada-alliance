@@ -18,7 +18,7 @@ Add a file named `<YOUR_TICKER>.json` to the registry directory.
       "facebook": "",
       "reddit": "",
       "instagram": "https://www.instagram.com/ada_pi_/?igshid=b69vqwc42ura",
-      "website": "https://ada-pi.io/",
+      "website": "https://piada.io/",
       "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg"
     },
     "telegram": "Qwail",
