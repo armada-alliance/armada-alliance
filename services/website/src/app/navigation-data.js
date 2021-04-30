@@ -3,6 +3,7 @@ import schema from '../schema'
 const navigation = {
     main: [
         { name: 'Catalyst Proposal', href: schema.about.catalyst, target: "_blank" },
+        { name: 'Adafolio', href: schema.about.adafolio, target: "_blank" },
         { name: 'Tutorials', href: schema.about.gitbook, target: "_blank" },
         { name: 'Roadmap', href: '/roadmap' },
     ],

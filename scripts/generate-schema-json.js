@@ -17,6 +17,7 @@ const schema = {
         discord: "https://discord.gg/sVWNZfJB",
         gitbook: "https://armada-alliance.gitbook.io/",
         catalyst: "https://adapulse.io/arming-cardano-an-ecosystem-for-raspberry-pi-stakepool-operators/",
+        adafolio: "https://adafolio.com/portfolio/2027fd88-a9e1-11eb-a580-0242c0a80002",
         ...template.adapools.about
     },
     roadmap: {
