@@ -3,8 +3,8 @@ name: Generate adapools.json
 on:
   push:
     branches: [ main ]
-    paths-ignore:
-      - 'adapools.json'
+    paths:
+      - 'registry/**'
 
 jobs:
   build:
