@@ -14,17 +14,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
     - name: Use Node.js 14.x
       uses: actions/setup-node@v1
       with:
         node-version: 14.x
-    - name: Generate adapools.json
+    - name: Clone repo
+      run: |
+        git config --global user.name "${{ secrets.CI_USERNAME }}"
+        git config --global user.email "${{ secrets.CI_EMAIL }}"
+        PAT64=$(echo ":${{ secrets.PERSONAL_ACCESS_TOKEN }}" | base64)
+        git -c http.extraHeader="Authorization: Basic $PAT64" clone https://${{ secrets.CI_USERNAME }}:${{ secrets.CI_PASSWORD }}@github.com/ADA-Pi/Armada-alliance.git /tmp/repo
+        cp -R out/* /tmp/repo
+    - name: Generate adapools.json & Push changes to repo
+      working-directory: /tmp/repo
       run: |
         node scripts/generate-adapools-json.js
         git add --all 
-        git commit -m 'update adapools.json' 
+        git commit -m 'update build' 
         git config --global user.name "${{ secrets.CI_USERNAME }}"
         git config --global user.email "${{ secrets.CI_EMAIL }}"
         git remote set-url origin https://${{ secrets.CI_USERNAME }}:${{ secrets.CI_PASSWORD }}@github.com/ADA-Pi/Armada-alliance.git
-        git push origin main
+        git push origin master
