@@ -28,6 +28,7 @@ jobs:
       working-directory: /tmp/repo
       run: |
         node scripts/generate-adapools-json.js
+        cat adapools.json
         git add --all 
         git commit -m 'update build' 
         git config --global user.name "${{ secrets.CI_USERNAME }}"
