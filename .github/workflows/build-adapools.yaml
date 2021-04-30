@@ -1,0 +1,30 @@
+name: Generate adapools.json
+
+on:
+  push:
+    branches: [ main ]
+    paths-ignore:
+      - 'adapools.json'
+  # pull_request:
+    # branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js 14.x
+      uses: actions/setup-node@v1
+      with:
+        node-version: 14.x
+    - name: Generate adapools.json
+      run: |
+        node scripts/generate-adapools.json
+        git add --all 
+        git commit -m 'update adapools.json' 
+        git config --global user.name "${{ secrets.CI_USERNAME }}"
+        git config --global user.email "${{ secrets.CI_EMAIL }}"
+        git remote set-url origin https://${{ secrets.CI_USERNAME }}:${{ secrets.CI_PASSWORD }}@github.com/ADA-Pi/Armada-alliance.git
+        git push origin main
