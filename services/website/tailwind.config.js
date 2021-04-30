@@ -1,9 +1,9 @@
 const colors = require("tailwindcss/colors");
 
 const primaryColor = {
-  ...colors.red,
-  600: "#f63058",
-  700: "#c5165d",
+  ...colors.blue,
+  600: "#027da5",
+  700: "#003e6d",
 };
 
 const secondaryColor = {
