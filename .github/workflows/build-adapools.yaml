@@ -24,7 +24,6 @@ jobs:
         git config --global user.email "${{ secrets.CI_EMAIL }}"
         PAT64=$(echo ":${{ secrets.PERSONAL_ACCESS_TOKEN }}" | base64)
         git -c http.extraHeader="Authorization: Basic $PAT64" clone https://${{ secrets.CI_USERNAME }}:${{ secrets.CI_PASSWORD }}@github.com/ADA-Pi/Armada-alliance.git /tmp/repo
-        cp -R out/* /tmp/repo
     - name: Generate adapools.json & Push changes to repo
       working-directory: /tmp/repo
       run: |
