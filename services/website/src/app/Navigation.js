@@ -7,8 +7,8 @@ import navigation from './navigation-data'
 
 export default function Example() {
     return (
-        <div className="relative bg-gray-50 overflow-hidden">
-            <div className="relative pt-6 pb-6">
+        <div className="bg-gray-50">
+            <div className="pt-6 pb-6">
                 <Popover>
                     {({ open }) => (
                         <>
@@ -69,7 +69,7 @@ export default function Example() {
                                 <Popover.Panel
                                     focus
                                     static
-                                    className="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
+                                    className="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden z-10"
                                 >
                                     <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
                                         <div className="px-5 pt-4 flex items-center justify-between">
