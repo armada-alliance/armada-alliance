@@ -50,7 +50,7 @@ export default function HeroSection() {
                         </svg>
                     </div>
                 </div>
-                <main className="mt-16 mx-auto max-w-7xl px-4 sm:mt-24">
+                <main className="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 relative">
                     <div className="flex items-center justify-items-center">
                         <img
                             className="h-20 w-auto sm:h-32 mx-auto mb-10"
