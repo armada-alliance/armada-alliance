@@ -1,7 +1,15 @@
-export default function HomePage() {
+import HeroSection from './HeroSection'
+import PoolSection from './PoolSection'
+import FooterSection from './FooterSection'
+import Layout from './Layout'
+
+export default function HomePage({ pools }) {
   return (
-    <div>
-      ada pi alliance
-    </div>
+    <Layout>
+      <HeroSection />
+      <PoolSection
+        pools={pools}
+      />
+    </Layout>
   );
 }
