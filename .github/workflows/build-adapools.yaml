@@ -21,7 +21,7 @@ jobs:
         node-version: 14.x
     - name: Generate adapools.json
       run: |
-        node scripts/generate-adapools.js
+        node scripts/generate-adapools-json.js
         git add --all 
         git commit -m 'update adapools.json' 
         git config --global user.name "${{ secrets.CI_USERNAME }}"
