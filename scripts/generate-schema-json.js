@@ -12,10 +12,10 @@ const pools = files
 
 const schema = {
     about: {
-        github: 'https://github.com/ADA-Pi/Armada-alliance',
+        github: 'https://github.com/armada-alliance/armada-alliance',
         telegram: "https://t.me/armada_alli",
         discord: "https://discord.gg/sVWNZfJB",
-        gitbook: "https://ada-pi.gitbook.io/",
+        gitbook: "https://armada-alliance.gitbook.io/",
         catalyst: "https://adapulse.io/arming-cardano-an-ecosystem-for-raspberry-pi-stakepool-operators/",
         ...template.adapools.about
     },
@@ -24,8 +24,8 @@ const schema = {
             {
                 name: "April 2021",
                 items: [
-                    { name: "Launch first version of the [website](https://ada-pi.github.io)", completed: true, date: "Apr 30" },
-                    { name: "Create a [repository](https://github.com/ADA-Pi/Armada-alliance) where people can register", completed: true, date: "Apr 18" }
+                    { name: "Launch first version of the [website](https://armada-alliance.com)", completed: true, date: "Apr 30" },
+                    { name: "Create a [repository](https://github.com/armada-alliance/armada-alliance) where people can register", completed: true, date: "Apr 18" }
                 ]
             },
         ]
