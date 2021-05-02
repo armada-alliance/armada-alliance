@@ -22,7 +22,7 @@ jobs:
         node scripts/generate-adapools-json.js
         node scripts/generate-schema-json.js
         cat adapools.json
-        cat schema.json
+        cat services/website/src/schema.json
     - name: Commit files
       run: |
         git config --local user.name "${{ secrets.CI_USERNAME }}"
