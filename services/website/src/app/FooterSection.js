@@ -24,6 +24,7 @@ export default function FooterSection() {
                     ))}
                 </div>
                 <p className="mt-8 text-center text-base text-gray-400">{moment().format('YYYY')} {schema.about.name}.</p>
+                <p className="mt-1 text-center text-xs font-bold">Generated at {moment(schema.createdAt).calendar()}</p>
             </div>
         </footer>
     )

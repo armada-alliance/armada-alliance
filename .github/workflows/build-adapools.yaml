@@ -1,6 +1,8 @@
 name: Generate adapools.json
 
 on:
+  schedule:
+    - cron: "0 * * * *"
   push:
     branches: [ main ]
     paths-ignore:
