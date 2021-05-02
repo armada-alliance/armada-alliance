@@ -13,6 +13,7 @@ const members = pools.reduce((result, pool, index) => {
 }, {})
 
 const adapools = {
+    createdAt: new Date().toISOString(),
     ...template,
     adapools: {
         ...template.adapools,
