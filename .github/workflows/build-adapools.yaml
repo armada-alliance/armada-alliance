@@ -3,9 +3,9 @@ name: Generate adapools.json
 on:
   push:
     branches: [ main ]
-    paths:
-      - 'registry/**'
-      - 'scripts/**'
+    paths-ignore:
+      - 'adapools.json'
+      - 'services/website/src/schema.json'
 
 jobs:
   build:
