@@ -5,7 +5,9 @@ const basePath = __dirname + "/.."
 const files = fs.readdirSync(basePath + "/registry")
 
 function getGitCreationTimeForFile(file) {
-    const dateString = execSync(`git log --format=%aD ${file} | tail -1`).toString().split("\n").join("")
+    const output = execSync(`git log --format=%aD ${file} | tail -1`).toString()
+    console.log(`file: "${file}", output: "${output}"`)
+    const dateString = output.split("\n").join("")
     return new Date(dateString)
 }
 
