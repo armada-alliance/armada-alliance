@@ -18,10 +18,6 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 14.x
-    - name: Generate schema.json
-      working-directory: ./
-      run: |
-        node scripts/generate-schema-json.js
     - name: Build static website
       working-directory: ./services/website
       run: |

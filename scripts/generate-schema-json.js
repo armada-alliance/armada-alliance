@@ -4,6 +4,7 @@ const template = require(basePath + "/adapools-without-members.json")
 const pools = require("./pools")
 
 const schema = {
+    createdAt: new Date().toISOString(),
     about: {
         github: 'https://github.com/armada-alliance/armada-alliance',
         telegram: "https://t.me/armada_alli",
