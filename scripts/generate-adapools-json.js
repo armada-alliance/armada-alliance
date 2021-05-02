@@ -3,10 +3,6 @@ const basePath = __dirname + "/.."
 const template = require(basePath + "/adapools-without-members.json")
 const pools = require("./pools")
 
-console.log(
-    JSON.stringify(pools, null, 2)
-)
-
 const members = pools.reduce((result, pool, index) => {
     result[index] = {
         pool_id: pool.poolId,
