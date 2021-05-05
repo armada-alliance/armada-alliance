@@ -6,6 +6,7 @@ const navigation = {
         { name: 'Adafolio', href: schema.about.adafolio, target: "_blank" },
         { name: 'Tutorials', href: schema.about.gitbook, target: "_blank" },
         { name: 'Roadmap', href: '/roadmap' },
+        { name: 'Youtube', href: schema.about.youtube, target: "_blank" },
     ],
     social: [
         {
