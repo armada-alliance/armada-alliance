@@ -6,6 +6,7 @@ const pools = require("./pools")
 const schema = {
     createdAt: new Date().toISOString(),
     about: {
+        youtube: 'https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg',
         github: 'https://github.com/armada-alliance/armada-alliance',
         telegram: "https://t.me/armada_alli",
         discord: "https://discord.gg/sVWNZfJB",
