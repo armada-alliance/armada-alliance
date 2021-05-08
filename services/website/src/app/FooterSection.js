@@ -1,4 +1,5 @@
 import moment from 'moment'
+import lowerFirst from 'lodash/lowerFirst'
 import schema from '../schema'
 import navigation from './navigation-data'
 
@@ -24,7 +25,7 @@ export default function FooterSection() {
                     ))}
                 </div>
                 <p className="mt-8 text-center text-base text-gray-400">{moment().format('YYYY')} {schema.about.name}.</p>
-                <p className="mt-1 text-center text-xs font-bold">Generated {moment(schema.createdAt).calendar()}</p>
+                <p className="mt-1 text-center text-xs font-bold">Generated {lowerFirst(moment(schema.createdAt).calendar())}</p>
             </div>
         </footer>
     )

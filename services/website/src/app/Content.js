@@ -3,7 +3,7 @@ import ReactMarkdown from 'react-markdown'
 const renderers = {
     link: (props) => {
         return (
-            <a {...props} className="text-red-600">
+            <a {...props} className="text-primary-600">
                 {props.children}
             </a>
         )

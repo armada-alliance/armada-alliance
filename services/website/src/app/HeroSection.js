@@ -54,7 +54,7 @@ export default function HeroSection() {
                     <div className="flex items-center justify-items-center">
                         <img
                             className="h-20 w-auto sm:h-32 mx-auto mb-10"
-                            src={schema.about.url_png_icon_64x64}
+                            src={'/ship-420.png'}
                             alt={schema.about.name}
                         />
                     </div>

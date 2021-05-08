@@ -16,14 +16,9 @@ const schema = {
         ...template.adapools.about
     },
     roadmap: {
-        sprints: [
-            {
-                name: "April 2021",
-                items: [
-                    { name: "Launch first version of the [website](https://armada-alliance.com)", completed: true, date: "Apr 30" },
-                    { name: "Create a [repository](https://github.com/armada-alliance/armada-alliance) where people can register", completed: true, date: "Apr 18" }
-                ]
-            },
+        items: [
+            { name: "Launch first version of the [website](https://armada-alliance.com)", completed: true, date: "2021-04-30" },
+            { name: "Create a [repository](https://github.com/armada-alliance/armada-alliance) where people can register", completed: true, date: "2021-04-18" }
         ]
     },
     pools

@@ -1,3 +1,4 @@
+import moment from 'moment'
 import Layout from "./Layout"
 import Content from "./Content"
 import schema from "../schema"
@@ -33,7 +34,7 @@ function Item({ name, completed, date }) {
                     </div>
                     {date ? (
                         <div className="text-right text-sm whitespace-nowrap text-gray-500">
-                            <time dateTime="2020-10-04">{date}</time>
+                            {moment(date).format('MMM Do')}
                         </div>
                     ) : null}
                 </div>
@@ -65,7 +66,6 @@ function Sprint({ name, items }) {
         <div className="max-w-lg mx-auto p-4 ">
             <h1 className="text-lg font-bold text-center">{name}</h1>
             <div className="mt-4">
-
                 <Checklist items={items} />
             </div>
         </div>
@@ -74,6 +74,29 @@ function Sprint({ name, items }) {
 
 export default function RoadmapPage() {
 
+    const sprints = schema.roadmap.items
+        .sort((a, b) => b.date.localeCompare(a.date))
+        .reduce((result, item) => {
+
+            const sprintName = moment(item.date).format('MMMM YYYY')
+
+            let sprint = result.find(sprint => sprint.name === sprintName)
+
+            if (!sprint) {
+                sprint = {
+                    name: sprintName,
+                    items: []
+                }
+                result.push(sprint)
+            }
+
+            sprint.items.push(item)
+
+
+            return result
+
+        }, [])
+
     return (
         <Layout>
             <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8 lg:py-24">
@@ -81,7 +104,7 @@ export default function RoadmapPage() {
                 <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto text-center">
                 </p>
                 <div className="mt-10 space-y-10">
-                    {schema.roadmap.sprints.map((sprint, index) => {
+                    {sprints.map((sprint, index) => {
 
                         return (
                             <Sprint key={index} {...sprint} />

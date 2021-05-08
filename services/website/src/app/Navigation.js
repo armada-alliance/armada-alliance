@@ -1,5 +1,5 @@
 import schema from "../schema"
-
+import Link from 'next/link'
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
@@ -19,14 +19,16 @@ export default function Example() {
                                 >
                                     <div className="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
                                         <div className="flex items-center justify-between w-full md:w-auto">
-                                            <a href="#">
-                                                <span className="sr-only">Workflow</span>
-                                                <img
-                                                    className="h-8 w-auto sm:h-10"
-                                                    src={schema.about.url_png_icon_64x64}
-                                                    alt={schema.about.name}
-                                                />
-                                            </a>
+                                            <Link href="/">
+                                                <a>
+                                                    <span className="sr-only">Workflow</span>
+                                                    <img
+                                                        className="h-8 w-auto sm:h-10"
+                                                        src={'/ship-420.png'}
+                                                        alt={schema.about.name}
+                                                    />
+                                                </a>
+                                            </Link>
                                             <div className="-mr-2 flex items-center md:hidden">
                                                 <Popover.Button className="bg-gray-50 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary-500">
                                                     <span className="sr-only">Open main menu</span>
@@ -73,13 +75,15 @@ export default function Example() {
                                 >
                                     <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
                                         <div className="px-5 pt-4 flex items-center justify-between">
-                                            <div>
-                                                <img
-                                                    className="h-8 w-auto"
-                                                    src={schema.about.url_png_icon_64x64}
-                                                    alt={schema.about.name}
-                                                />
-                                            </div>
+                                            <Link href="/">
+                                                <a>
+                                                    <img
+                                                        className="h-8 w-auto"
+                                                        src={'/ship-420.png'}
+                                                        alt={schema.about.name}
+                                                    />
+                                                </a>
+                                            </Link>
                                             <div className="-mr-2">
                                                 <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary-500">
                                                     <span className="sr-only">Close menu</span>
