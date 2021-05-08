@@ -9,7 +9,7 @@ const schema = {
         youtube: 'https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg',
         github: 'https://github.com/armada-alliance/armada-alliance',
         telegram: "https://t.me/armada_alli",
-        discord: "https://discord.gg/sVWNZfJB",
+        discord: "https://discord.gg/6Q4mk7RTWn",
         gitbook: "https://armada-alliance.gitbook.io/",
         catalyst: "https://adapulse.io/arming-cardano-an-ecosystem-for-raspberry-pi-stakepool-operators/",
         adafolio: "https://adafolio.com/portfolio/2027fd88-a9e1-11eb-a580-0242c0a80002",
