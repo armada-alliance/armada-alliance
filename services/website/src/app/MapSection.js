@@ -41,13 +41,13 @@ class Tooltip extends React.Component {
         const pool = JSON.parse(feature.properties.data)
 
         return (
-            <div className="flex-parent-inline flex-parent--center-cross flex-parent--column absolute bottom">
-                <div className="flex-child px12 py12 bg-gray-dark color-white shadow-darken10 round txt-s w240 clip txt-truncate">
+            <div className="flex-parent-inline flex-parent--center-cross flex-parent--column absolute bottom-0">
+                <div className="flex-child px-6 py-6 bg-gray-700 text-white shadow-md rounded-lg w-60">
                     <PoolInfo
                         pool={pool}
                     />
                 </div>
-                <span className="flex-child color-gray-dark triangle triangle--d"></span>
+                <span className="flex-child text-gray-700 triangle triangle--d"></span>
             </div>
         );
     }
