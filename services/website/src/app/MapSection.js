@@ -78,7 +78,10 @@ export default function MapSection({ pools }) {
         .filter(
             pool => pool.location
         )
-        .map(pool => pool.location)
+        .reduce((result, pool) => {
+            result.extend(pool.location)
+            return result
+        }, new mapboxgl.LngLatBounds())
 
     const pools_with_location = pools
         .filter(
@@ -300,6 +303,8 @@ export default function MapSection({ pools }) {
                     map.current.getCanvas().style.cursor = '';
                 });
             })
+
+            map.current.fitBounds(map.current.getBounds());
         })
     });
 
