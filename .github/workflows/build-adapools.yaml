@@ -1,4 +1,4 @@
-name: Generate adapools.json
+name: Generate static data
 
 on:
   schedule:
@@ -7,6 +7,8 @@ on:
     branches: [ main ]
     paths-ignore:
       - 'adapools.json'
+      - 'services/website/src/pools_extended.json'
+      - 'services/website/src/pools.json'
       - 'services/website/src/schema.json'
 
 jobs:
@@ -22,14 +24,15 @@ jobs:
     - name: Create local changes
       run: |
         node scripts/generate-adapools-json.js
-        node scripts/generate-schema-json.js
+        node scripts/generate-data.js
         cat adapools.json
+        cat services/website/src/pools.json
         cat services/website/src/schema.json
     - name: Commit files
       run: |
         git config --local user.name "${{ secrets.CI_USERNAME }}"
         git config --local user.email "${{ secrets.CI_EMAIL }}"
-        git commit -m "update adapools.json" -a
+        git commit -m "update static data" -a
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
