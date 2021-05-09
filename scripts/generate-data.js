@@ -41,7 +41,9 @@ async function main() {
     const pools_extended = await Promise.all(
         pools.map(async pool => {
 
-            const result = {}
+            const result = {
+                icon: '/ship-420.png'
+            }
 
             const { data: metadata } = await axios.get(pool.metadata)
             result.metadata = metadata
@@ -56,8 +58,6 @@ async function main() {
                     const { data } = await axios.get(extended.info.url_png_icon_64x64, { responseType: 'arraybuffer' })
                     await writeFile(basePath + "/services/website/public/images/" + pool.id + ".png", data)
                     result.icon = "/images/" + pool.id + ".png"
-                } else {
-                    result.icon = '/ship-420.png'
                 }
             }
 
