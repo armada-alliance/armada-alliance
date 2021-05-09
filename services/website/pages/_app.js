@@ -14,7 +14,6 @@ function MyApp({ Component, pageProps }) {
         <meta name="theme-color" content="#ffffff" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-KBRWN5Y99K"></script>
         <link rel="stylesheet" type="text/css" href="https://api.mapbox.com/mapbox-gl-js/v0.39.1/mapbox-gl.css" />
-        <link rel="stylesheet" type="text/css" href="https://api.mapbox.com/mapbox-assembly/mbx/v0.18.0/assembly.min.css" />
         <script
           dangerouslySetInnerHTML={{
             __html: `window.dataLayer = window.dataLayer || [];

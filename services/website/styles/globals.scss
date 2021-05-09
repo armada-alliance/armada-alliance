@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.flex-parent-inline{display:-webkit-inline-flex!important;display:inline-flex!important}
+.flex-parent--center-cross{-webkit-align-items:center!important;align-items:center!important}
+.flex-parent--column{-webkit-flex-direction:column!important;flex-direction:column!important}
+.flex-child{display:block;max-width:100%}
+.triangle{width:12px!important;height:12px!important;font-size:0!important;line-height:0!important}
+.triangle--d{border-left:6px solid transparent!important;border-right:6px solid transparent!important;border-top:9px solid currentColor!important}
