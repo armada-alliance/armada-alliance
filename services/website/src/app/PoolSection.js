@@ -22,15 +22,15 @@ export default function PoolSection({ pools }) {
                         {pools.map(pool => {
 
                             return (
-                                <a href={pool.meta.data.db_url} target="_blank" className="p-2 cursor-pointer rounded-lg hover:bg-gray-50">
+                                <a href={pool.adapools.data.db_url} target="_blank" className="p-2 cursor-pointer rounded-lg hover:bg-gray-50">
                                     <div className="space-y-4">
                                         <div className="mx-auto h-12 w-12 rounded-full lg:w-20 lg:h-20 shadow border relative border-gray-200 bg-white">
-                                            <div className={cx("absolute top-2 left-2 right-2 bottom-2 bg-center bg-cover rounded-full", pool.meta.data.handles.icon ? "opacity-100" : "opacity-20")} style={{ backgroundImage: `url(${pool.meta.data.handles.icon || schema.about.url_png_icon_64x64})` }}></div>
+                                            <div className={cx("absolute top-2 left-2 right-2 bottom-2 bg-center bg-cover rounded-full", pool.adapools.data.handles.icon ? "opacity-100" : "opacity-20")} style={{ backgroundImage: `url(${pool.adapools.data.handles.icon || '/ship-420.png'})` }}></div>
                                         </div>
                                         <div className="space-y-2">
                                             <div className="text-xs font-medium lg:text-sm">
                                                 <h3>{pool.ticker}</h3>
-                                                <div className="text-xs">{toAda(pool.meta.data.total_stake)} ₳ / {toAda(pool.meta.data.pledge)} ₳</div>
+                                                <div className="text-xs">{toAda(pool.adapools.data.total_stake)} ₳ / {toAda(pool.adapools.data.pledge)} ₳</div>
                                                 <div className="text-xs text-gray-400">Joined {moment(pool.memberSince).format('YYYY-MM-DD')}</div>
                                             </div>
                                         </div>

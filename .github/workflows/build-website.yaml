@@ -28,7 +28,7 @@ jobs:
         PAT64=$(echo ":${{ secrets.PERSONAL_ACCESS_TOKEN }}" | base64)
         git -c http.extraHeader="Authorization: Basic $PAT64" clone https://${{ secrets.CI_USERNAME }}:${{ secrets.CI_PASSWORD }}@github.com/armada-alliance/armada-alliance.github.io.git /tmp/repo
         cat /tmp/repo/README.md
-        cp src/schema.json /tmp/repo
+        cp src/schema.json src/pools.json src/pools_extended.json /tmp/repo/
         rm -rf /tmp/repo/_next
         cp -R out/* /tmp/repo
     - name: Push changes to GitHub Pages repo

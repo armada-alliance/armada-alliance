@@ -25,3 +25,4 @@ const schema = {
 }
 
 fs.writeFileSync(basePath + "/services/website/src/schema.json", JSON.stringify(schema, null, 2))
+fs.writeFileSync(basePath + "/services/website/src/pools.json", JSON.stringify(pools, null, 2))
