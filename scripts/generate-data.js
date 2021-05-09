@@ -4,6 +4,19 @@ const poolIds = require('./pools').map(pool => pool.poolId)
 const basePath = __dirname + "/.."
 const template = require(basePath + "/adapools-without-members.json")
 
+async function getLocationForQuery({ query }) {
+
+    const { data } = await axios.get(`https://api.mapbox.com/geocoding/v5/mapbox.places/${encodeURIComponent(query)}.json?access_token=pk.eyJ1Ijoic3VibGF5ZXJpbyIsImEiOiJja29oMzRwYTMxMXJpMnVxcDJrczh1Zm1oIn0.lHS4NebmckI-T1NfLiwGXA`)
+
+    const [feature] = data.features
+
+    if (!feature) {
+        return null
+    }
+
+    return feature.center
+}
+
 async function getAdapoolsData({ poolId }) {
 
     const { data } = await axios.get(`https://js.adapools.org/pools/${poolId}/summary.json`)
@@ -35,6 +48,9 @@ async function main() {
             if (pool.extended) {
                 const { data: extended } = await axios.get(pool.extended)
                 result.extended = extended
+                if (extended.info.location) {
+                    result.location = await getLocationForQuery({ query: extended.info.location })
+                }
             }
 
             const adapools = await getAdapoolsData({ poolId: pool.id })

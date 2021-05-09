@@ -1,5 +1,4 @@
 import moment from 'moment'
-import schema from "../schema"
 import cx from "classnames"
 import numeral from 'numeral'
 
