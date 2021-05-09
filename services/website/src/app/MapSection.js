@@ -17,7 +17,7 @@ function PoolInfo({ pool }) {
         <div className="text-white text-center">
             <div className="space-y-4">
                 <div className="mx-auto h-12 w-12 rounded-full lg:w-20 lg:h-20 shadow border relative border-gray-200 bg-white">
-                    <div className={cx("absolute top-2 left-2 right-2 bottom-2 bg-center bg-cover rounded-full", pool.adapools.data.handles.icon ? "opacity-100" : "opacity-20")} style={{ backgroundImage: `url(${pool.adapools.data.handles.icon || '/ship-420.png'})` }}></div>
+                    <div className={cx("absolute top-2 left-2 right-2 bottom-2 bg-center bg-cover rounded-full", pool.adapools.data.handles.icon ? "opacity-100" : "opacity-20")} style={{ backgroundImage: `url(${pool.icon})` }}></div>
                 </div>
                 <div className="space-y-2">
                     <div className="text-xs font-medium lg:text-sm">
@@ -80,22 +80,10 @@ export default function MapSection({ pools }) {
         )
         .map(pool => pool.location)
 
-    const features = pools
+    const pools_with_location = pools
         .filter(
             pool => pool.location
         )
-        .map(pool => ({
-            id: pool.id,
-            'type': 'Feature',
-            'properties': {
-                type: 'pool',
-                data: JSON.stringify(pool)
-            },
-            'geometry': {
-                'type': 'Point',
-                'coordinates': pool.location
-            }
-        }))
 
     const mapContainer = useRef(null);
     const map = useRef(null);
@@ -129,117 +117,189 @@ export default function MapSection({ pools }) {
             setTooltip(features);
         });
 
+        let imagesByPoolId = {}
+        pools_with_location.forEach((pool) => {
+            const img = new Image()
+            img.crossOrigin = "Anonymous";
+            img.src = pool.icon;
+            img.onload = () => {
+                imagesByPoolId[pool.id] = img
+            }
+        })
+
         map.current.on('load', function () {
 
-            var size = 200;
+            pools_with_location.forEach(pool => {
 
-            // implementation of CustomLayerInterface to draw a pulsing dot icon on the map
-            // see https://docs.mapbox.com/mapbox-gl-js/api/#customlayerinterface for more info
-            var pulsingDot = {
-                width: size,
-                height: size,
-                data: new Uint8Array(size * size * 4),
+                var size = 200;
 
-                // get rendering context for the map canvas when layer is added to the map
-                onAdd: function () {
-                    var canvas = document.createElement('canvas');
-                    canvas.width = this.width;
-                    canvas.height = this.height;
-                    this.context = canvas.getContext('2d');
-                },
+                // implementation of CustomLayerInterface to draw a pulsing dot icon on the map
+                // see https://docs.mapbox.com/mapbox-gl-js/api/#customlayerinterface for more info
+                var pointer = {
+                    width: size,
+                    height: size,
+                    data: new Uint8Array(size * size * 4),
 
-                // called once before every frame where the icon will be used
-                render: function (params) {
-                    var duration = 1000;
-                    var t = (performance.now() % duration) / duration;
+                    // get rendering context for the map canvas when layer is added to the map
+                    onAdd: function () {
+                        var canvas = document.createElement('canvas');
+                        canvas.width = this.width;
+                        canvas.height = this.height;
+                        this.context = canvas.getContext('2d');
+                    },
 
-                    var radius = (size / 2) * 0.3;
-                    var outerRadius = (size / 2) * 0.7 * t + radius;
-                    var context = this.context;
+                    // called once before every frame where the icon will be used
+                    render: function (params) {
+                        var duration = 1000;
+                        var t = (performance.now() % duration) / duration;
 
-                    // draw outer circle
-                    context.clearRect(0, 0, this.width, this.height);
-                    context.beginPath();
-                    context.arc(
-                        this.width / 2,
-                        this.height / 2,
-                        outerRadius,
-                        0,
-                        Math.PI * 2
-                    );
-                    context.fillStyle = 'rgba(2, 125, 165,' + (1 - t) + ')';
-                    context.fill();
+                        var radius = (size / 2) * 0.3;
+                        var outerRadius = (size / 2) * 0.7 * t + radius;
+                        var context = this.context;
 
-                    // draw inner circle
-                    context.beginPath();
-                    context.arc(
-                        this.width / 2,
-                        this.height / 2,
-                        radius,
-                        0,
-                        Math.PI * 2
-                    );
-                    context.fillStyle = 'rgba(2, 125, 165, 1)';
-                    context.strokeStyle = 'white';
-                    context.lineWidth = 2 + 4 * (1 - t);
-                    context.fill();
-                    context.stroke();
+                        // draw outer circle
+                        context.clearRect(0, 0, this.width, this.height);
+                        context.beginPath();
+                        context.arc(
+                            this.width / 2,
+                            this.height / 2,
+                            outerRadius,
+                            0,
+                            Math.PI * 2
+                        );
+                        context.fillStyle = 'rgba(2, 125, 165,' + (1 - t) + ')';
+                        context.fill();
 
-                    // update this image's data with data from the canvas
-                    this.data = context.getImageData(
-                        0,
-                        0,
-                        this.width,
-                        this.height
-                    ).data;
+                        // draw inner circle
+                        context.beginPath();
+                        context.arc(
+                            this.width / 2,
+                            this.height / 2,
+                            radius,
+                            0,
+                            Math.PI * 2
+                        );
+                        context.fillStyle = 'white';
+                        context.strokeStyle = 'white';
+                        context.lineWidth = 2 + 4;
+                        context.fill();
+                        context.stroke();
 
-                    // continuously repaint the map, resulting in the smooth animation of the dot
-                    map.current.triggerRepaint();
+                        const img = imagesByPoolId[pool.id]
 
-                    // return `true` to let the map know that the image was updated
-                    return true;
-                }
-            };
+                        if (img) {
+                            context.save();
+                            context.beginPath();
+                            context.arc(
+                                this.width / 2,
+                                this.height / 2,
+                                radius,
+                                0,
+                                Math.PI * 2
+                            );
+                            context.closePath();
+                            context.clip();
 
-            map.current.addImage('pulsing-dot', pulsingDot, { pixelRatio: 2 });
+                            if (!pool.adapools.data.handles.icon) {
+                                context.globalAlpha = 0.2;
+                            }
+                            context.drawImage(img, 80, 80, 40, 40);
 
+                            context.beginPath();
+                            context.arc(
+                                this.width / 2,
+                                this.height / 2,
+                                radius,
+                                0,
+                                Math.PI * 2
+                            );
+                            context.clip();
+                            context.closePath();
+                            context.restore();
+                        }
 
-            // Add a GeoJSON source with 3 points.
-            map.current.addSource('points', {
-                'type': 'geojson',
-                'data': {
-                    'type': 'FeatureCollection',
-                    features
-                }
-            });
-            // Add a circle layer
-            map.current.addLayer({
-                'id': 'points',
-                'type': 'symbol',
-                'source': 'points',
-                'layout': {
-                    'icon-image': 'pulsing-dot',
-                    "icon-allow-overlap": true
-                }
-            });
+                        // draw inner circle
+                        context.beginPath();
+                        context.arc(
+                            this.width / 2,
+                            this.height / 2,
+                            radius,
+                            0,
+                            Math.PI * 2
+                        );
+                        context.fillStyle = 'rgba(255, 255, 255, 0)';
+                        context.strokeStyle = 'rgb(2, 125, 165)';
+                        context.lineWidth = 2 + 4;
+                        context.fill();
+                        context.stroke();
 
-            // Center the map on the coordinates of any clicked circle from the 'circle' layer.
-            map.current.on('click', 'points', function (e) {
-                map.current.flyTo({
-                    center: e.features[0].geometry.coordinates
+                        // update this image's data with data from the canvas
+                        this.data = context.getImageData(
+                            0,
+                            0,
+                            this.width,
+                            this.height
+                        ).data;
+
+                        // continuously repaint the map, resulting in the smooth animation of the dot
+                        map.current.triggerRepaint();
+
+                        // return `true` to let the map know that the image was updated
+                        return true;
+                    }
+                };
+
+                map.current.addImage(pool.id, pointer, { pixelRatio: 2 });
+
+                // Add a GeoJSON source with 3 points.
+                map.current.addSource(pool.id, {
+                    'type': 'geojson',
+                    'data': {
+                        'type': 'FeatureCollection',
+                        features: [
+                            {
+                                id: pool.id,
+                                'type': 'Feature',
+                                'properties': {
+                                    type: 'pool',
+                                    data: JSON.stringify(pool)
+                                },
+                                'geometry': {
+                                    'type': 'Point',
+                                    'coordinates': pool.location
+                                }
+                            }
+                        ]
+                    }
                 });
-            });
+                // Add a circle layer
+                map.current.addLayer({
+                    'id': pool.id,
+                    'type': 'symbol',
+                    'source': pool.id,
+                    'layout': {
+                        'icon-image': pool.id,
+                        "icon-allow-overlap": true
+                    }
+                });
 
-            // Change the cursor to a pointer when the it enters a feature in the 'circle' layer.
-            map.current.on('mouseenter', 'points', function () {
-                map.current.getCanvas().style.cursor = 'pointer';
-            });
+                // Center the map on the coordinates of any clicked circle from the 'circle' layer.
+                map.current.on('click', 'points', function (e) {
+                    map.current.flyTo({
+                        center: e.features[0].geometry.coordinates
+                    });
+                });
 
-            // Change it back to a pointer when it leaves.
-            map.current.on('mouseleave', 'points', function () {
-                map.current.getCanvas().style.cursor = '';
-            });
+                // Change the cursor to a pointer when the it enters a feature in the 'circle' layer.
+                map.current.on('mouseenter', 'points', function () {
+                    map.current.getCanvas().style.cursor = 'pointer';
+                });
 
+                // Change it back to a pointer when it leaves.
+                map.current.on('mouseleave', 'points', function () {
+                    map.current.getCanvas().style.cursor = '';
+                });
+            })
         })
     });
 

@@ -1,4 +1,5 @@
 const fs = require('fs')
+const { writeFile } = require('fs').promises
 const axios = require('axios')
 const poolIds = require('./pools').map(pool => pool.poolId)
 const basePath = __dirname + "/.."
@@ -50,6 +51,13 @@ async function main() {
                 result.extended = extended
                 if (extended.info.location) {
                     result.location = await getLocationForQuery({ query: extended.info.location })
+                }
+                if (extended.info.url_png_icon_64x64) {
+                    const { data } = await axios.get(extended.info.url_png_icon_64x64, { responseType: 'arraybuffer' })
+                    await writeFile(basePath + "/services/website/public/images/" + pool.id + ".png", data)
+                    result.icon = "/images/" + pool.id + ".png"
+                } else {
+                    result.icon = '/ship-420.png'
                 }
             }
 
