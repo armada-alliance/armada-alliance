@@ -72,7 +72,9 @@ function setTooltip(features) {
     }
 }
 
-export default function MapSection({ pools }) {
+export default function MapSection({ pools: allPools }) {
+
+    const pools = allPools.filter(pool => !pool.errors.length)
 
     const bounds = pools
         .filter(

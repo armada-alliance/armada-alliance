@@ -17,6 +17,14 @@ const schema = {
     },
     roadmap: {
         items: [
+            { name: "Explore the idea where we set up a treasury where people can delegate to that will be automatically assigned to pools that are in need of delegation using smart contracts", completed: false, date: "2021-07-01" },
+            { name: "Create a validation page for stake pool members of the alliance to check for missing info", completed: false, date: "2021-06-01" },
+            { name: "Maintain Armada Alliance Official ARM-based static build using GitHub Actions and put people on a mailinglist for new releases (including pre-releases)", completed: false, date: "2021-06-01" },
+            { name: "Release a YouTube video on how to setup a cardano node + cli & quick db sync with Docker in under 30 minutes", completed: false, date: "2021-06-01" },
+            { name: "Explore utility tokens for delegators of our community", completed: false, date: "2021-06-01" },
+            { name: "Mint specials tokens for delegators of our community", completed: false, date: "2021-06-01" },
+            { name: "Simplify the registration process for new stake pools, most data already comes from metadata & extended metadata", completed: false, date: "2021-06-01" },
+            { name: "Support metrics endpoint for stake pools that will expose basic metrics that can be shown on the website", completed: false, date: "2021-06-01" },
             { name: "Launch first version of the [website](https://armada-alliance.com)", completed: true, date: "2021-04-30" },
             { name: "Create a [repository](https://github.com/armada-alliance/armada-alliance) where people can register", completed: true, date: "2021-04-18" }
         ]

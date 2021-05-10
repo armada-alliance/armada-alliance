@@ -1,7 +1,7 @@
 const fs = require('fs')
 const { writeFile } = require('fs').promises
 const axios = require('axios')
-const poolIds = require('./pools').map(pool => pool.poolId)
+const registries = require('./pools')
 const basePath = __dirname + "/.."
 const template = require(basePath + "/adapools-without-members.json")
 
@@ -27,46 +27,69 @@ async function getAdapoolsData({ poolId }) {
 
 async function main() {
 
-
     const { data: { pools: poolsById } } = await axios.get('https://pool.pm/pools.json')
 
-    const pools = Object
-        .keys(poolsById)
-        .map(id => ({
-            id,
-            ...poolsById[id]
-        }))
-        .filter(pool => poolIds.includes(pool.id))
+    const pools = registries.reduce((result, registry) => {
+
+        const pool = poolsById[registry.poolId]
+
+        if (pool) {
+            result.push({
+                id: registry.poolId,
+                memberSince: registry.memberSince,
+                ...pool,
+            })
+        }
+
+        return result
+
+    }, [])
 
     const pools_extended = await Promise.all(
         pools.map(async pool => {
 
             const result = {
-                icon: '/ship-420.png'
+                icon: '/ship-420.png',
+                errors: []
             }
 
-            const { data: metadata } = await axios.get(pool.metadata)
-            result.metadata = metadata
+            try {
+                const { data: metadata } = await axios.get(pool.metadata)
+                result.metadata = metadata
+            } catch (e) {
+                result.errors.push(`could not fetch metadata at: ${pool.metadata}`)
+                console.log(`could not fetch metadata for ${pool.ticker}`)
+            }
 
             if (pool.extended) {
-                const { data: extended } = await axios.get(pool.extended)
-                result.extended = extended
-                if (extended.info.location) {
-                    result.location = await getLocationForQuery({ query: extended.info.location })
-                }
-                if (extended.info.url_png_icon_64x64) {
-                    const { data } = await axios.get(extended.info.url_png_icon_64x64, { responseType: 'arraybuffer' })
-                    await writeFile(basePath + "/services/website/public/images/" + pool.id + ".png", data)
-                    result.icon = "/images/" + pool.id + ".png"
+                try {
+                    const { data: extended } = await axios.get(pool.extended)
+                    result.extended = extended
+                    if (extended.info.location) {
+                        result.location = await getLocationForQuery({ query: extended.info.location })
+                    }
+                    if (extended.info.url_png_icon_64x64) {
+                        const { data } = await axios.get(extended.info.url_png_icon_64x64, { responseType: 'arraybuffer' })
+                        await writeFile(basePath + "/services/website/public/images/" + pool.id + ".png", data)
+                        result.icon = "/images/" + pool.id + ".png"
+                    }
+                } catch (e) {
+                    result.errors.push(`could not fetch extended metadata at: ${pool.extended}`)
+                    console.log(`could not fetch extended metadata for ${pool.ticker}`)
                 }
             }
 
-            const adapools = await getAdapoolsData({ poolId: pool.id })
+            try {
+                const adapools = await getAdapoolsData({ poolId: pool.id })
+                result.adapools = adapools
+            } catch (e) {
+                result.errors.push('could not fetch adapools data')
+                console.log(`could not fetch adapools data for ${pool.ticker}`)
+            }
 
             return {
                 ...pool,
-                ...result,
-                adapools
+                ...result
             }
         })
     )
