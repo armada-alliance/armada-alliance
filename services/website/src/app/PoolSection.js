@@ -18,7 +18,7 @@ export default function PoolSection({ pools }) {
                         </p>
                     </div>
                     <ul className="mx-auto grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-4 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-12 xl:grid-cols-6">
-                        {pools.map(pool => {
+                        {pools.filter(pool => !pool.errors.length).map(pool => {
 
                             return (
                                 <a href={pool.adapools.data.db_url} target="_blank" className="p-2 cursor-pointer rounded-lg hover:bg-gray-50">
