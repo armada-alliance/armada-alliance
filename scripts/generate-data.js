@@ -59,6 +59,7 @@ async function main() {
             } catch (e) {
                 result.errors.push(`could not fetch metadata at: ${pool.metadata}`)
                 console.log(`could not fetch metadata for ${pool.ticker}`)
+                console.log(e)
             }
 
             if (pool.extended) {
@@ -76,6 +77,7 @@ async function main() {
                 } catch (e) {
                     result.errors.push(`could not fetch extended metadata at: ${pool.extended}`)
                     console.log(`could not fetch extended metadata for ${pool.ticker}`)
+                    console.log(e)
                 }
             }
 
@@ -85,6 +87,7 @@ async function main() {
             } catch (e) {
                 result.errors.push('could not fetch adapools data')
                 console.log(`could not fetch adapools data for ${pool.ticker}`)
+                console.log(e)
             }
 
             return {
