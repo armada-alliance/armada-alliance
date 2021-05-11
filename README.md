@@ -8,9 +8,13 @@ https://armada-alliance.com
 
 ## How to add your pool to the registry
 
-Add a file named `<YOUR_TICKER>.json` to the registry directory.
+1. Fork this repo with your GitHub account
 
-#### Here is an example of a pool's registration JSON file.
+2. Add a file named `<YOUR_TICKER>.json` to the registry directory.
+
+3. Head back to the armada-allaince github and submit a pull request to add your pool to the registry
+
+#### Here is an example of a pool's registration JSON file. (Note: Only ticker and poolId fields are required to be filled in)
 ```json
 {
     "ticker": "PIADA",
