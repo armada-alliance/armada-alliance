@@ -40,8 +40,15 @@
       "extended": "https://cdn.sublayer.io/poolExtended.json"
     },
     "icon": "/images/8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8.png",
-    "errors": [
-      "could not fetch relays for: SBLYR"
+    "errors": [],
+    "relays": [
+      {
+        "ipv4": null,
+        "ipv6": null,
+        "dns": "relaynode1.sublayer.io",
+        "dns_srv": null,
+        "port": 6001
+      }
     ],
     "location": [
       4.1531,
@@ -82,7 +89,7 @@
         "active_stake": "113908120365",
         "active_blocks": "0",
         "direct": true,
-        "saturated": 0.00022512216154966,
+        "saturated": 0.00022512215939332,
         "patreon": 0,
         "rank": 1243,
         "handles": {
@@ -100,7 +107,7 @@
         "db_description": "Providing marketing pages and educational content for stake pool operators.",
         "owners": "2"
       },
-      "updated": "Fri, 14 May 2021 21:20:26 +0000"
+      "updated": "Fri, 14 May 2021 21:25:24 +0000"
     }
   },
   {
@@ -156,8 +163,22 @@
       "extended": "https://piada.io/piada.extended-metadata.json"
     },
     "icon": "/images/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65.png",
-    "errors": [
-      "could not fetch relays for: PIADA"
+    "errors": [],
+    "relays": [
+      {
+        "ipv4": null,
+        "ipv6": null,
+        "dns": "east.piada.io",
+        "dns_srv": null,
+        "port": 3000
+      },
+      {
+        "ipv4": null,
+        "ipv6": null,
+        "dns": "east.piada.io",
+        "dns_srv": null,
+        "port": 3002
+      }
     ],
     "location": [
       -78.6190526172645,
@@ -198,7 +219,7 @@
         "active_stake": "231606685499",
         "active_blocks": "0",
         "direct": true,
-        "saturated": 0.0024839933426038,
+        "saturated": 0.0024839933188108,
         "patreon": 0,
         "rank": 909,
         "handles": {
@@ -216,7 +237,7 @@
         "db_description": "Stake pool education hub for Raspberry Pi and ARM 64-bit SoC based low power devices.",
         "owners": "1"
       },
-      "updated": "Fri, 14 May 2021 21:20:19 +0000"
+      "updated": "Fri, 14 May 2021 21:25:17 +0000"
     }
   },
   {
@@ -260,8 +281,22 @@
       "extended": "https://adamantium.online/extendedPoolMetaData.json"
     },
     "icon": "/images/c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae.png",
-    "errors": [
-      "could not fetch relays for: OTG"
+    "errors": [],
+    "relays": [
+      {
+        "ipv4": null,
+        "ipv6": null,
+        "dns": "otg-relay-1.adamantium.online",
+        "dns_srv": null,
+        "port": 6001
+      },
+      {
+        "ipv4": null,
+        "ipv6": null,
+        "dns": "otg-relay-2.adamantium.online",
+        "dns_srv": null,
+        "port": 6002
+      }
     ],
     "location": [
       -71.5783054333969,
@@ -302,7 +337,7 @@
         "active_stake": "16658288145259",
         "active_blocks": "0",
         "direct": false,
-        "saturated": 0.25939419530245,
+        "saturated": 0.25939419281783,
         "patreon": 0,
         "rank": 320,
         "handles": {
@@ -320,7 +355,7 @@
         "db_description": "Off The Grid solar powered pool. 3.4 kWh homemade 18650 Tesla Powerwall &amp; 3 Raspberry Pi @ under 13 watts. Teaching the next generation open source is the $PATH &amp; DeFi is the future. Check out our project and please delegate if you can. Thank you!",
         "owners": "1"
       },
-      "updated": "Fri, 14 May 2021 21:20:10 +0000"
+      "updated": "Fri, 14 May 2021 21:25:11 +0000"
     }
   },
   {
@@ -361,8 +396,36 @@
       "extended": "https://github.com/alessandrokonrad/Pi-Pool/raw/master/meta/extended_poolmeta.json"
     },
     "icon": "/images/2a748e3885f6f73320ad16a8331247b81fe01b8d39f57eec9caa5091.png",
-    "errors": [
-      "could not fetch relays for: BERRY"
+    "errors": [],
+    "relays": [
+      {
+        "ipv4": null,
+        "ipv6": null,
+        "dns": "node.pipool.online",
+        "dns_srv": null,
+        "port": 3001
+      },
+      {
+        "ipv4": null,
+        "ipv6": null,
+        "dns": "relay.pasklab.com",
+        "dns_srv": null,
+        "port": 3001
+      },
+      {
+        "ipv4": null,
+        "ipv6": null,
+        "dns": "relay.pasklab.com",
+        "dns_srv": null,
+        "port": 3002
+      },
+      {
+        "ipv4": null,
+        "ipv6": null,
+        "dns": "relay.pasklab.com",
+        "dns_srv": null,
+        "port": 3003
+      }
     ],
     "location": [
       11.56667,
@@ -403,7 +466,7 @@
         "active_stake": "5510655946610",
         "active_blocks": "5",
         "direct": true,
-        "saturated": 0.086238033568934,
+        "saturated": 0.086238032742899,
         "patreon": 0,
         "rank": 249,
         "handles": {
@@ -421,7 +484,7 @@
         "db_description": "Decentralizing Cardano in the most beautiful way - Let's shape the future together!",
         "owners": "2"
       },
-      "updated": "Fri, 14 May 2021 21:20:10 +0000"
+      "updated": "Fri, 14 May 2021 21:25:11 +0000"
     }
   },
   {
@@ -439,8 +502,15 @@
       "homepage": "https://raspberryrpi.com/"
     },
     "icon": "/ship-420.png",
-    "errors": [
-      "could not fetch relays for: RPI"
+    "errors": [],
+    "relays": [
+      {
+        "ipv4": null,
+        "ipv6": null,
+        "dns": "81.206.174.48",
+        "dns_srv": null,
+        "port": 6001
+      }
     ],
     "adapools": {
       "created": "Thu, 11 Mar 2021 21:35:13 +0000",
@@ -477,7 +547,7 @@
         "active_stake": "74200065155",
         "active_blocks": "0",
         "direct": true,
-        "saturated": 0.001153161828206,
+        "saturated": 0.0011531618171604,
         "patreon": 0,
         "rank": 1362,
         "handles": {
@@ -495,7 +565,7 @@
         "db_description": "Raspberry Pi Pool",
         "owners": "3"
       },
-      "updated": "Fri, 14 May 2021 21:20:30 +0000"
+      "updated": "Fri, 14 May 2021 21:25:27 +0000"
     }
   },
   {
@@ -515,8 +585,22 @@
       "nonce": "1614273946"
     },
     "icon": "/ship-420.png",
-    "errors": [
-      "could not fetch relays for: SOLRP"
+    "errors": [],
+    "relays": [
+      {
+        "ipv4": "75.32.204.221",
+        "ipv6": null,
+        "dns": null,
+        "dns_srv": null,
+        "port": 6001
+      },
+      {
+        "ipv4": "75.32.204.221",
+        "ipv6": null,
+        "dns": null,
+        "dns_srv": null,
+        "port": 6002
+      }
     ],
     "adapools": {
       "created": "Fri, 26 Feb 2021 18:40:09 +0000",
@@ -553,7 +637,7 @@
         "active_stake": "10089467437",
         "active_blocks": "0",
         "direct": true,
-        "saturated": 0.00015720672867755,
+        "saturated": 0.00015720672717174,
         "patreon": 0,
         "rank": 1315,
         "handles": {
@@ -571,7 +655,7 @@
         "db_description": "Our goal is to create a fully solar powered raspberry pi for cardano staking",
         "owners": "2"
       },
-      "updated": "Fri, 14 May 2021 21:20:28 +0000"
+      "updated": "Fri, 14 May 2021 21:25:25 +0000"
     }
   },
   {
@@ -612,8 +696,15 @@
       "extended": "https://quixote.systems/ext_metadata.json"
     },
     "icon": "/images/351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8.png",
-    "errors": [
-      "could not fetch relays for: QXT"
+    "errors": [],
+    "relays": [
+      {
+        "ipv4": null,
+        "ipv6": null,
+        "dns": "80.24.134.251",
+        "dns_srv": null,
+        "port": 6000
+      }
     ],
     "location": [
       -4.03333,
@@ -654,7 +745,7 @@
         "active_stake": "169664758939",
         "active_blocks": "0",
         "direct": true,
-        "saturated": 0.0028676646167331,
+        "saturated": 0.002867664589265,
         "patreon": 0,
         "rank": 1195,
         "handles": {
@@ -672,7 +763,7 @@
         "db_description": "Dream the impossible dream like Quixote! Support Tech Projects in La Mancha, one of the most under-developed Regions in Europe",
         "owners": "1"
       },
-      "updated": "Fri, 14 May 2021 21:20:25 +0000"
+      "updated": "Fri, 14 May 2021 21:25:23 +0000"
     }
   },
   {
@@ -753,8 +844,15 @@
       "extended": "https://raw.githubusercontent.com/OYSTERPOOL/GIT/main/ext.json"
     },
     "icon": "/ship-420.png",
-    "errors": [
-      "could not fetch relays for: OYSTR"
+    "errors": [],
+    "relays": [
+      {
+        "ipv4": "90.251.253.249",
+        "ipv6": null,
+        "dns": null,
+        "dns_srv": null,
+        "port": 6001
+      }
     ],
     "location": [
       -3.1791934,
@@ -795,7 +893,7 @@
         "active_stake": "15952184118422",
         "active_blocks": "1",
         "direct": true,
-        "saturated": 0.25167051934706,
+        "saturated": 0.25167051693642,
         "patreon": 0,
         "rank": 266,
         "handles": {
@@ -813,7 +911,7 @@
         "db_description": "Single pool owner, first in Wales/Cymru. An independent pool run from an energy efficient and reliable network of Raspberry Pis. We are an ideas lab run by a long-term Cardanoista and one of the ‘unacknowledged legislators of the world’ (Shelley).",
         "owners": "4"
       },
-      "updated": "Fri, 14 May 2021 21:20:10 +0000"
+      "updated": "Fri, 14 May 2021 21:25:11 +0000"
     }
   },
   {
@@ -864,8 +962,15 @@
       "extended": "https://raw.githubusercontent.com/ZenenTreadwell/zenentreadwell.github.io/master/extended-poolData.json"
     },
     "icon": "/images/4f5e469a40547208cf9876b36ae9b23874c302ab8ab263a952bbae6a.png",
-    "errors": [
-      "could not fetch relays for: ZAZEN"
+    "errors": [],
+    "relays": [
+      {
+        "ipv4": null,
+        "ipv6": null,
+        "dns": "relay1.zenen.space",
+        "dns_srv": null,
+        "port": 6000
+      }
     ],
     "location": [
       -123.3649,
@@ -906,7 +1011,7 @@
         "active_stake": "471073832574",
         "active_blocks": "0",
         "direct": true,
-        "saturated": 0.0071269428984349,
+        "saturated": 0.0071269428301691,
         "patreon": 0,
         "rank": 990,
         "handles": {
@@ -924,7 +1029,7 @@
         "db_description": "A small-scale Cardano pool for friends and family",
         "owners": "1"
       },
-      "updated": "Fri, 14 May 2021 21:20:20 +0000"
+      "updated": "Fri, 14 May 2021 21:25:18 +0000"
     }
   },
   {
@@ -942,8 +1047,22 @@
       "homepage": "https://sbc-pool.tk"
     },
     "icon": "/ship-420.png",
-    "errors": [
-      "could not fetch relays for: SBC"
+    "errors": [],
+    "relays": [
+      {
+        "ipv4": null,
+        "ipv6": null,
+        "dns": "relay1.sbc-pool.tk",
+        "dns_srv": null,
+        "port": 3002
+      },
+      {
+        "ipv4": null,
+        "ipv6": null,
+        "dns": "relay2.sbc-pool.tk",
+        "dns_srv": null,
+        "port": 3003
+      }
     ],
     "adapools": {
       "created": "Thu, 01 Apr 2021 08:35:20 +0000",
@@ -980,7 +1099,7 @@
         "active_stake": "100620730",
         "active_blocks": "0",
         "direct": true,
-        "saturated": 0.0000015677988852453,
+        "saturated": 0.000001567798870228,
         "patreon": 0,
         "rank": 1865,
         "handles": {
@@ -998,7 +1117,7 @@
         "db_description": "SBC-Mining - Everything about cryptocurrency / cryptomining on single board computers. All income will be used to test and host further projects for you. ",
         "owners": "1"
       },
-      "updated": "Fri, 14 May 2021 21:20:39 +0000"
+      "updated": "Fri, 14 May 2021 21:25:35 +0000"
     }
   },
   {
@@ -1056,8 +1175,22 @@
       "extended": "https://www.adasrn.com/srn-mainnet.extended-metadata.json"
     },
     "icon": "/images/cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0.png",
-    "errors": [
-      "could not fetch relays for: SRN"
+    "errors": [],
+    "relays": [
+      {
+        "ipv4": null,
+        "ipv6": null,
+        "dns": "adasrn24x7.ddns.net",
+        "dns_srv": null,
+        "port": 3001
+      },
+      {
+        "ipv4": null,
+        "ipv6": null,
+        "dns": "adasrn24x7.ddns.net",
+        "dns_srv": null,
+        "port": 3002
+      }
     ],
     "location": [
       122.95591,
@@ -1098,7 +1231,7 @@
         "active_stake": "9119853271",
         "active_blocks": "0",
         "direct": true,
-        "saturated": 0.00014334140726901,
+        "saturated": 0.00014334140589601,
         "patreon": 0,
         "rank": 1266,
         "handles": {
@@ -1116,7 +1249,7 @@
         "db_description": "Growing wealth together. We keep costs low for the community with a 1% margin.",
         "owners": "1"
       },
-      "updated": "Fri, 14 May 2021 21:20:26 +0000"
+      "updated": "Fri, 14 May 2021 21:25:24 +0000"
     }
   },
   {
@@ -1161,8 +1294,15 @@
       "extended": "https://raw.githubusercontent.com/rakalto/Extended-meta/main/meta.json"
     },
     "icon": "/ship-420.png",
-    "errors": [
-      "could not fetch relays for: BHMT"
+    "errors": [],
+    "relays": [
+      {
+        "ipv4": "176.93.21.218",
+        "ipv6": null,
+        "dns": null,
+        "dns_srv": null,
+        "port": 6000
+      }
     ],
     "location": [
       22.37222,
@@ -1203,7 +1343,7 @@
         "active_stake": "466876136",
         "active_blocks": "0",
         "direct": true,
-        "saturated": 0.000013861329144065,
+        "saturated": 0.000013861329011294,
         "patreon": 0,
         "rank": 1534,
         "handles": {
@@ -1221,7 +1361,7 @@
         "db_description": "Towards sustainable and decentralized Cardano.",
         "owners": "1"
       },
-      "updated": "Fri, 14 May 2021 21:20:32 +0000"
+      "updated": "Fri, 14 May 2021 21:25:30 +0000"
     }
   },
   {
@@ -1276,8 +1416,22 @@
       "extended": "https://raw.githubusercontent.com/fisch192/southtyrolpool.github.io/main/extended.json"
     },
     "icon": "/images/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36.png",
-    "errors": [
-      "could not fetch relays for: sudti"
+    "errors": [],
+    "relays": [
+      {
+        "ipv4": "93.49.244.83",
+        "ipv6": null,
+        "dns": null,
+        "dns_srv": null,
+        "port": 6000
+      },
+      {
+        "ipv4": "93.49.244.83",
+        "ipv6": null,
+        "dns": null,
+        "dns_srv": null,
+        "port": 6001
+      }
     ],
     "location": [
       11.35,
@@ -1318,7 +1472,7 @@
         "active_stake": "20417704820",
         "active_blocks": "0",
         "direct": true,
-        "saturated": 0.00031813379664472,
+        "saturated": 0.00031813379359746,
         "patreon": 0,
         "rank": 1245,
         "handles": {
@@ -1336,7 +1490,7 @@
         "db_description": "A stable pool from South tyrol.",
         "owners": "1"
       },
-      "updated": "Fri, 14 May 2021 21:20:26 +0000"
+      "updated": "Fri, 14 May 2021 21:25:24 +0000"
     }
   }
 ]
