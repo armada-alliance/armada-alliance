@@ -1,9 +1,18 @@
 const fs = require('fs')
+const dotenv = require('dotenv')
+dotenv.config()
 const { writeFile } = require('fs').promises
 const axios = require('axios')
 const registries = require('./pools')
 const basePath = __dirname + "/.."
 const template = require(basePath + "/adapools-without-members.json")
+
+const blockfrost = axios.create({
+    baseURL: 'https://cardano-mainnet.blockfrost.io/api/v0',
+    headers: {
+        project_id: process.env.BLOCKFROST_PROJECT_ID
+    }
+})
 
 async function getLocationForQuery({ query }) {
 
@@ -59,6 +68,15 @@ async function main() {
             } catch (e) {
                 result.errors.push(`could not fetch metadata at: ${pool.metadata}`)
                 console.log(`could not fetch metadata for ${pool.ticker}`)
+                console.log(e)
+            }
+
+            try {
+                const { data } = await blockfrost.get(`/pools/${pool.id}/relays`)
+                result.relays = data
+            } catch (e) {
+                result.errors.push(`could not fetch relays for: ${pool.ticker}`)
+                console.log(`could not fetch relays for ${pool.ticker}`)
                 console.log(e)
             }
 
@@ -125,6 +143,24 @@ async function main() {
         }
     }
 
+    const topology = pools_extended.reduce((result, pool) => {
+
+        if (pool.relays) {
+            return [
+                ...result,
+                ...pool.relays.map(relay => ({
+                    pool_id: pool.id,
+                    pool_ticker: pool.ticker,
+                    ...relay
+                }))
+            ]
+        }
+
+        return result
+
+    }, [])
+
+    fs.writeFileSync(basePath + "/services/website/src/topology.json", JSON.stringify(topology, null, 2))
     fs.writeFileSync(basePath + "/services/website/src/pools.json", JSON.stringify(pools, null, 2))
     fs.writeFileSync(basePath + "/services/website/src/pools_extended.json", JSON.stringify(pools_extended, null, 2))
     fs.writeFileSync(basePath + "/services/website/src/schema.json", JSON.stringify(schema, null, 2))
