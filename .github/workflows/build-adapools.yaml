@@ -25,9 +25,9 @@ jobs:
     - name: Create local changes
       working-directory: ./scripts
       run: |
-        echo "BLOCKFROST_PROJECT_ID=${{ secrets.BLOCKFROST_PROJECT_ID }}"
-        node scripts/generate-adapools-json.js
-        node scripts/generate-data.js
+        echo "BLOCKFROST_PROJECT_ID=${{ secrets.BLOCKFROST_PROJECT_ID }}" >> .env
+        node generate-adapools-json.js
+        node generate-data.js
         cat adapools.json
         cat ./../services/website/src/pools.json
         cat ./../services/website/src/schema.json
