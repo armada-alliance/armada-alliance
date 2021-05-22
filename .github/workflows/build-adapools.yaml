@@ -36,7 +36,8 @@ jobs:
       run: |
         git config --local user.name "${{ secrets.CI_USERNAME }}"
         git config --local user.email "${{ secrets.CI_EMAIL }}"
-        git commit -m "update static data" -a
+        git add --all
+        git commit -m "update static data"
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
