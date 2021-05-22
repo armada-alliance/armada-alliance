@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }) {
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
           
-            gtag('config', 'CODE');`,
+            gtag('config', 'G-HJSKR6C882');`,
           }}
         />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
