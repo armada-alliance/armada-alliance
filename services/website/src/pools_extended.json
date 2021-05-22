@@ -1237,55 +1237,14 @@
     "description": "Growing wealth together. We keep costs low for the community with a 1% margin.",
     "ticker": "SRN",
     "homepage": "https://www.adasrn.com",
-    "extended": {
-      "info": {
-        "url_png_icon_64x64": "https://www.adasrn.com/ADASRN_64x64.png",
-        "url_png_logo": "https://www.adasrn.com/ADASRN_1024x1024.png",
-        "location": "Malaysia, Asia",
-        "social": {
-          "twitter_handle": "ADASRN1",
-          "telegram_handle": "Sayshar",
-          "facebook_handle": "ADASRN1",
-          "youtube_handle": "",
-          "twitch_handle": "",
-          "discord_handle": "Sayshar#0645",
-          "github_handle": "sayshar"
-        },
-        "company": {
-          "name": "",
-          "addr": "",
-          "city": "",
-          "country": "",
-          "company_id": "",
-          "vat_id": ""
-        },
-        "about": {
-          "me": "We are Malaysians who want to participate in the Cardano network as we believe DeFi is the future. We are donating some of our proceedings to charity once we are profitable. Follow our Twitter page to keep up with us.",
-          "server": "We have 3 separate bare metal nodes which comprise of 2 Relay nodes and 1 Block producing node. All three nodes run on Ubuntu 20.04 LTS server edition for maximum reliability. We are excited to let you know that two of our nodes are run from Raspberry Pi 4B 8GB with binaries compiled from source for the aarch64 architecture. We also have an additional x86-64 linux-PC to act as a backup relay/block node if needed.",
-          "company": ""
-        },
-        "rss": "http(s) url to valid RSS feed"
-      },
-      "telegram-admin-handle": [
-        ""
-      ],
-      "my-pool-ids": [
-        "cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0"
-      ],
-      "when-satured-then-recommend": [
-        "cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0"
-      ]
-    },
+    "extended": "https://www.adasrn.com/srn-mainnet.extended-metadata.json",
     "addr": "pool1esd3cqme3zzvvdnsx3p6ywudn6p86mqyz7fpvqpegxv2qzmtes0",
-    "metadata": {
-      "name": "ADASRN",
-      "description": "Growing wealth together. We keep costs low for the community with a 1% margin.",
-      "ticker": "SRN",
-      "homepage": "https://www.adasrn.com",
-      "extended": "https://www.adasrn.com/srn-mainnet.extended-metadata.json"
-    },
-    "icon": "/images/cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0.png",
-    "errors": [],
+    "metadata": "https://www.adasrn.com/srn-mainnet.metadata.json",
+    "icon": "/ship-420.png",
+    "errors": [
+      "could not fetch metadata at: https://www.adasrn.com/srn-mainnet.metadata.json",
+      "could not fetch extended metadata at: https://www.adasrn.com/srn-mainnet.extended-metadata.json"
+    ],
     "relays": [
       {
         "ipv4": null,
@@ -1301,10 +1260,6 @@
         "dns_srv": null,
         "port": 3002
       }
-    ],
-    "location": [
-      122.95591,
-      10.682961
     ],
     "adapools": {
       "created": "Mon, 22 Mar 2021 23:55:10 +0000",
@@ -1341,7 +1296,7 @@
         "active_stake": "9241213777",
         "active_blocks": "0",
         "direct": true,
-        "saturated": 0.050652968400579,
+        "saturated": 0.050652942118711,
         "patreon": 0,
         "rank": 1708,
         "handles": {
@@ -1359,7 +1314,7 @@
         "db_description": "Growing wealth together. We keep costs low for the community with a 1% margin.",
         "owners": "1"
       },
-      "updated": "Sat, 22 May 2021 09:55:36 +0000"
+      "updated": "Sat, 22 May 2021 10:00:45 +0000"
     }
   },
   {
@@ -1526,9 +1481,7 @@
       "extended": "https://raw.githubusercontent.com/fisch192/southtyrolpool.github.io/main/extended.json"
     },
     "icon": "/images/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36.png",
-    "errors": [
-      "could not fetch adapools data"
-    ],
+    "errors": [],
     "relays": [
       {
         "ipv4": "93.49.244.83",
@@ -1548,7 +1501,62 @@
     "location": [
       11.35,
       46.5
-    ]
+    ],
+    "adapools": {
+      "created": "Thu, 04 Mar 2021 20:35:09 +0000",
+      "data": {
+        "id": "2611",
+        "pool_id": "2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
+        "pool_id_bech32": "pool19k4azhj8tye5wwy5pfj7q6m938m8fg5nglds5dkhtfwnvcg3s0k",
+        "db_ticker": "sudti",
+        "db_name": "Southtyrolpool",
+        "db_url": "https://southtyrolpool.it",
+        "total_stake": "20417704820",
+        "rewards_epoch": "0",
+        "tax_ratio": "0",
+        "tax_fix": "340000000",
+        "roa": "0",
+        "blocks_epoch": "0",
+        "blocks_lifetime": "0",
+        "blocks_est_lifetime": "0",
+        "stamp_strike": "0",
+        "hist_roa": "[{\"val\":\"0\",\"time\":\"1621553412\",\"e\":258},{\"val\":\"0\",\"time\":\"1621553412\",\"e\":259},{\"val\":\"0\",\"time\":\"1621553412\",\"e\":260},{\"val\":\"0\",\"time\":\"1621553412\",\"e\":261},{\"val\":\"0\",\"time\":\"1621553412\",\"e\":262},{\"val\":\"0\",\"time\":\"1621553412\",\"e\":263},{\"val\":\"0\",\"time\":\"1621553412\",\"e\":264},{\"val\":\"0\",\"time\":\"1621553412\",\"e\":265}]",
+        "hist_bpe": "[{\"val\":\"0\",\"time\":\"1617660776\",\"e\":257},{\"val\":\"0\",\"time\":\"1618093065\",\"e\":258},{\"val\":\"0\",\"time\":\"1618526674\",\"e\":259},{\"val\":\"0\",\"time\":\"1618956751\",\"e\":260},{\"val\":\"0\",\"time\":\"1619388980\",\"e\":261},{\"val\":\"0\",\"time\":\"1619820928\",\"e\":262},{\"val\":\"0\",\"time\":\"1620253146\",\"e\":263},{\"val\":\"0\",\"time\":\"1620685142\",\"e\":264},{\"val\":\"0\",\"time\":\"1621117427\",\"e\":265},{\"val\":\"0\",\"time\":\"1621551194\",\"e\":266}]",
+        "pledge": "4000000000",
+        "hash_id": "2608",
+        "ticker_orig": "sudti",
+        "metric": -360.17779926663,
+        "delegators": "13",
+        "pledged": "4003373520",
+        "roa_lifetime": "0",
+        "luck_lifetime": "0",
+        "group_basic": "SOLO",
+        "tax_ratio_old": null,
+        "tax_fix_old": null,
+        "tax_real": 17.056856187291,
+        "active_stake": "20417704820",
+        "active_blocks": "0",
+        "direct": true,
+        "saturated": 0.00031789640156104,
+        "patreon": 0,
+        "rank": 1226,
+        "handles": {
+          "tw": "southtyrolpool",
+          "tg": "southtyrolpool",
+          "fb": "",
+          "yt": "",
+          "tc": "",
+          "di": "",
+          "gh": "",
+          "icon": "https://static.adapools.org/pool_logo/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36.png"
+        },
+        "blocks_estimated": 0.02,
+        "stake_x_deleg": 1570592678.4615,
+        "db_description": "A stable pool from South tyrol.",
+        "owners": "1"
+      },
+      "updated": "Sat, 22 May 2021 09:55:27 +0000"
+    }
   },
   {
     "id": "7aac5502d19cac8731e3b86ecc9553d69b26a02155e5c9cf262d224c",
