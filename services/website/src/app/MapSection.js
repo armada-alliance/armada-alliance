@@ -100,7 +100,7 @@ export default function MapSection({ pools: allPools }) {
 
         map.current = new mapboxgl.Map({
             container: mapContainer.current,
-            style: 'mapbox://styles/mapbox/light-v10',
+            style: 'mapbox://styles/mapbox/dark-v10',
             // center: [lng, lat],
             // zoom: zoom
         });
@@ -136,7 +136,7 @@ export default function MapSection({ pools: allPools }) {
 
             pools_with_location.forEach(pool => {
 
-                var size = 200;
+                var size = 50;
 
                 // implementation of CustomLayerInterface to draw a pulsing dot icon on the map
                 // see https://docs.mapbox.com/mapbox-gl-js/api/#customlayerinterface for more info
@@ -172,7 +172,7 @@ export default function MapSection({ pools: allPools }) {
                             0,
                             Math.PI * 2
                         );
-                        context.fillStyle = 'rgba(2, 125, 165,' + (1 - t) + ')';
+                        context.fillStyle = 'rgba(59, 214, 113,' + (1 - t) + ')';
                         context.fill();
 
                         // draw inner circle
@@ -184,44 +184,44 @@ export default function MapSection({ pools: allPools }) {
                             0,
                             Math.PI * 2
                         );
-                        context.fillStyle = 'white';
-                        context.strokeStyle = 'white';
+                        context.fillStyle = 'rgb(59, 214, 113)';
+                        context.strokeStyle = 'rgb(55, 181, 99)';
                         context.lineWidth = 2 + 4;
                         context.fill();
                         context.stroke();
 
-                        const img = imagesByPoolId[pool.id]
+                        // const img = imagesByPoolId[pool.id]
 
-                        if (img) {
-                            context.save();
-                            context.beginPath();
-                            context.arc(
-                                this.width / 2,
-                                this.height / 2,
-                                radius,
-                                0,
-                                Math.PI * 2
-                            );
-                            context.closePath();
-                            context.clip();
+                        // if (img) {
+                        //     context.save();
+                        //     context.beginPath();
+                        //     context.arc(
+                        //         this.width / 2,
+                        //         this.height / 2,
+                        //         radius,
+                        //         0,
+                        //         Math.PI * 2
+                        //     );
+                        //     context.closePath();
+                        //     context.clip();
 
-                            if (!pool.adapools.data.handles.icon) {
-                                context.globalAlpha = 0.2;
-                            }
-                            context.drawImage(img, 80, 80, 40, 40);
+                        //     if (!pool.adapools.data.handles.icon) {
+                        //         context.globalAlpha = 0.2;
+                        //     }
+                        //     context.drawImage(img, 80, 80, 40, 40);
 
-                            context.beginPath();
-                            context.arc(
-                                this.width / 2,
-                                this.height / 2,
-                                radius,
-                                0,
-                                Math.PI * 2
-                            );
-                            context.clip();
-                            context.closePath();
-                            context.restore();
-                        }
+                        //     context.beginPath();
+                        //     context.arc(
+                        //         this.width / 2,
+                        //         this.height / 2,
+                        //         radius,
+                        //         0,
+                        //         Math.PI * 2
+                        //     );
+                        //     context.clip();
+                        //     context.closePath();
+                        //     context.restore();
+                        // }
 
                         // draw inner circle
                         context.beginPath();
@@ -232,8 +232,8 @@ export default function MapSection({ pools: allPools }) {
                             0,
                             Math.PI * 2
                         );
-                        context.fillStyle = 'rgba(255, 255, 255, 0)';
-                        context.strokeStyle = 'rgb(2, 125, 165)';
+                        context.fillStyle = 'rgba(59, 214, 113, 0)';
+                        context.strokeStyle = 'rgb(59, 214, 113)';
                         context.lineWidth = 2 + 4;
                         context.fill();
                         context.stroke();
