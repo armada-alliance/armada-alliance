@@ -89,6 +89,7 @@ async function main() {
                     }
                     if (extended.info.url_png_icon_64x64) {
                         const { data } = await axios.get(extended.info.url_png_icon_64x64, { responseType: 'arraybuffer' })
+                        console.log('writing image to path', basePath + "/services/website/public/images/" + pool.id + ".png")
                         await writeFile(basePath + "/services/website/public/images/" + pool.id + ".png", data)
                         result.icon = "/images/" + pool.id + ".png"
                     }
