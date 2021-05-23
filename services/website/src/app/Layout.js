@@ -1,11 +1,11 @@
-import Navigation from "./Navigation"
+import Header from "./Header"
 import FooterSection from "./FooterSection"
 
 export default function Layout({ children }) {
 
     return (
-        <div className="relative">
-            <Navigation />
+        <div className="">
+            <Header />
             {children}
             <FooterSection />
         </div>

@@ -100,7 +100,7 @@ export default function MapSection({ pools: allPools }) {
 
         map.current = new mapboxgl.Map({
             container: mapContainer.current,
-            style: 'mapbox://styles/mapbox/dark-v10',
+            style: 'mapbox://styles/mapbox/light-v10',
             // center: [lng, lat],
             // zoom: zoom
         });
@@ -314,8 +314,7 @@ export default function MapSection({ pools: allPools }) {
         <div>
             <div
                 ref={mapContainer}
-                className="map-container h-screen overflow-hidden"
-
+                className="map-container h-96 relative"
             />
         </div>
     )

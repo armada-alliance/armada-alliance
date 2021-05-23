@@ -1,19 +1,17 @@
+import CalculatorSection from './CalculatorSection'
+import USPSection from './USPSection'
 import HeroSection from './HeroSection'
-import PoolSection from './PoolSection'
-import MapSection from './MapSection'
+import StatsSection from './StatsSection'
 import Layout from './Layout'
 
 export default function HomePage({ pools }) {
-  return (
-    <Layout>
-      <HeroSection />
-      <PoolSection
-        pools={pools}
-      />
-      <MapSection
-        pools={pools}
 
-      />
-    </Layout>
-  );
+    return (
+        <Layout>
+            <HeroSection />
+            <StatsSection pools={pools} />
+            <USPSection pools={pools} />
+            <CalculatorSection />
+        </Layout>
+    )
 }
