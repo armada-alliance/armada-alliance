@@ -1,18 +1,24 @@
-import Head from "next/head";
-import HomePage from "../src/app/HomePage";
-import schema from '../src/schema.json'
-import pools from '../src/pools_extended.json'
+import pages from '../src/pages.json'
+import DynamicPage from '../src/app/DynamicPage'
+import templates from '../src/app/templates'
 
-export default function Home() {
-  return (
-    <>
-      <Head>
-        <title>{schema.about.name}</title>
-        <meta name="description" content={schema.about.description} />
-      </Head>
-      <HomePage
-        pools={pools}
-      />
-    </>
-  );
+export default function IndexRoute(props) {
+    return <DynamicPage {...props} />
 }
+
+export async function getStaticProps() {
+
+    const page = pages.find(page => page.slug === '/')
+
+    const template = templates[page.template]
+
+    const mergeProps = template.getProps ? await template.getProps(page) : {}
+
+    return {
+        props: {
+            page,
+            ...mergeProps
+        }
+    }
+}
+
