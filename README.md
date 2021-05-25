@@ -4,7 +4,7 @@ Armada Alliance registry + website
 https://armada-alliance.com
 
 ## Our Mission
-- The Armada alliance was formed in efforts to build a community of decentralized, low-cost, and energy-efficient stake pool operations on Cardano. All Stake Pools that are apart of this alliance run on either Raspberry Pis exclusively or low power consuming ARM-based machines.
+- The Armada alliance was formed in efforts to build a community of decentralized, low-cost, and energy-efficient stake pool operations on Cardano. All Stake Pools that are apart of this alliance run on either **Raspberry Pis exclusively or low power consuming ARM-based machines.**
 
 ## How to add your pool to the registry
 
