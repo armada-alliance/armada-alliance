@@ -77,7 +77,7 @@
         "pledge": "25000000000",
         "hash_id": "3152",
         "ticker_orig": "SBLYR",
-        "metric": -351.57153207707,
+        "metric": -351.56860387965,
         "delegators": "9",
         "pledged": "28272139509",
         "roa_lifetime": "48.802",
@@ -89,7 +89,7 @@
         "active_stake": "30252455086",
         "active_blocks": "0",
         "direct": true,
-        "saturated": 0.00047960938060854,
+        "saturated": 0.00047960907543179,
         "patreon": 0,
         "rank": 1199,
         "handles": {
@@ -107,7 +107,7 @@
         "db_description": "Providing marketing pages and educational content for stake pool operators.",
         "owners": "3"
       },
-      "updated": "Tue, 08 Jun 2021 10:25:44 +0000"
+      "updated": "Tue, 08 Jun 2021 11:20:35 +0000"
     }
   },
   {
@@ -117,7 +117,43 @@
     "description": "Stake pool education hub for Raspberry Pi and ARM 64-bit SoC based low power devices.",
     "ticker": "PIADA",
     "homepage": "https://piada.io",
-    "extended": "https://piada.io/piada.extended-metadata.json",
+    "extended": {
+      "info": {
+        "url_png_icon_64x64": "https://piada.io/piada64.png",
+        "url_png_logo": "https://piada.io/piadaFull.png",
+        "location": "Virginia, USA",
+        "social": {
+          "twitter_handle": "StakePiada",
+          "telegram_handle": "piadapool",
+          "youtube_handle": "channel/UCligunhcmbMYaBUMvONsKwg",
+          "github_handle": "armada-alliance"
+        },
+        "company": {
+          "name": "PIADA",
+          "addr": "",
+          "city": "",
+          "country": "United States",
+          "company_id": "",
+          "vat_id": ""
+        },
+        "about": {
+          "me": "https://armada-alliance.gitbook.io/raspi-spo/",
+          "server": "3 x Raspberry Pi 4B 8GB",
+          "company": "piada.io is an education hub specializing in Raspberry Pi and ARM 64-bit SoC based stake pool operations."
+        },
+        "rss": ""
+      },
+      "telegram-admin-handle": {
+        "0": "eastpiada",
+        "1": "Qwailman"
+      },
+      "my-pool-ids": [
+        "b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65"
+      ],
+      "when-satured-then-recommend": [
+        "8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8"
+      ]
+    },
     "addr": "pool1hrv8gtrm0dgjg6zyss5uwa4nkruzfnh5vrdkr2sayj7x2nw6mjc",
     "metadata": {
       "name": "PIADA piada.io",
@@ -126,10 +162,8 @@
       "homepage": "https://piada.io",
       "extended": "https://piada.io/piada.extended-metadata.json"
     },
-    "icon": "/ship-420.png",
-    "errors": [
-      "could not fetch extended metadata at: https://piada.io/piada.extended-metadata.json"
-    ],
+    "icon": "/images/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65.png",
+    "errors": [],
     "relays": [
       {
         "ipv4": null,
@@ -145,6 +179,10 @@
         "dns_srv": null,
         "port": 3002
       }
+    ],
+    "location": [
+      -78.6190526172645,
+      37.677592044
     ],
     "adapools": {
       "created": "Mon, 15 Mar 2021 20:50:10 +0000",
@@ -169,7 +207,7 @@
         "pledge": "52000000000",
         "hash_id": "2841",
         "ticker_orig": "PIADA",
-        "metric": -317.25881281335,
+        "metric": -317.25641701546,
         "delegators": "11",
         "pledged": "52578003762",
         "roa_lifetime": "8.34",
@@ -181,7 +219,7 @@
         "active_stake": "69894026897",
         "active_blocks": "0",
         "direct": true,
-        "saturated": 0.0010231116605438,
+        "saturated": 0.001023111009535,
         "patreon": 0,
         "rank": 1087,
         "handles": {
@@ -199,7 +237,7 @@
         "db_description": "Stake pool education hub for Raspberry Pi and ARM 64-bit SoC based low power devices.",
         "owners": "1"
       },
-      "updated": "Tue, 08 Jun 2021 10:25:43 +0000"
+      "updated": "Tue, 08 Jun 2021 11:20:33 +0000"
     }
   },
   {
@@ -287,7 +325,7 @@
         "pledge": "500000000000",
         "hash_id": "1967",
         "ticker_orig": "OTG",
-        "metric": 2818.2433576247,
+        "metric": 2818.2737168373,
         "delegators": "29",
         "pledged": "507026110773",
         "roa_lifetime": "4.713",
@@ -299,7 +337,7 @@
         "active_stake": "16683410662016",
         "active_blocks": "14",
         "direct": false,
-        "saturated": 0.25983565624173,
+        "saturated": 0.25983549090759,
         "patreon": 0,
         "rank": 325,
         "handles": {
@@ -317,7 +355,7 @@
         "db_description": "Off The Grid solar powered pool. 3.4 kWh homemade 18650 Tesla Powerwall &amp; 3 Raspberry Pi @ under 13 watts. Teaching the next generation open source is the $PATH &amp; DeFi is the future. Check out our project and please delegate if you can. Thank you!",
         "owners": "1"
       },
-      "updated": "Tue, 08 Jun 2021 10:25:15 +0000"
+      "updated": "Tue, 08 Jun 2021 11:20:13 +0000"
     }
   },
   {
@@ -327,14 +365,38 @@
     "ticker": "BERRY",
     "description": "Decentralizing Cardano in the most beautiful way - Let's shape the future together!",
     "homepage": "https://pipool.online",
-    "extended": "https://github.com/alessandrokonrad/Pi-Pool/raw/master/meta/extended_poolmeta.json",
+    "extended": {
+      "info": {
+        "url_png_icon_64x64": "https://github.com/alessandrokonrad/Pi-Pool/raw/master/images/logo64_64.png",
+        "url_png_logo": "https://github.com/alessandrokonrad/Pi-Pool/raw/master/images/logo.png",
+        "location": "Munich, Germany",
+        "social": {
+          "twitter_handle": "berry_ales",
+          "telegram_handle": "berry_pool",
+          "github_handle": "alessandrokonrad"
+        },
+        "about": {
+          "me": "My name is Alessandro, I'm a single pool operator and a computer science student from Germany.",
+          "server": "Berry is the first Stake Pool on Raspberry Pis and it's operational since the first day of Shelley. Here to truly decentralize Cardano in a power efficient way!"
+        }
+      },
+      "my-pool-ids": {
+        "0": "2a748e3885f6f73320ad16a8331247b81fe01b8d39f57eec9caa5091"
+      },
+      "telegram-admin-handle": {
+        "0": "berry_ales"
+      }
+    },
     "addr": "pool19f6guwy97mmnxg9dz65rxyj8hq07qxud886hamyu4fgfz7dj9gl",
-    "metadata": "https://git.io/JUuUc",
-    "icon": "/ship-420.png",
-    "errors": [
-      "could not fetch metadata at: https://git.io/JUuUc",
-      "could not fetch extended metadata at: https://github.com/alessandrokonrad/Pi-Pool/raw/master/meta/extended_poolmeta.json"
-    ],
+    "metadata": {
+      "name": "Berry",
+      "ticker": "BERRY",
+      "description": "Decentralizing Cardano in the most beautiful way - Let's shape the future together!",
+      "homepage": "https://pipool.online",
+      "extended": "https://github.com/alessandrokonrad/Pi-Pool/raw/master/meta/extended_poolmeta.json"
+    },
+    "icon": "/images/2a748e3885f6f73320ad16a8331247b81fe01b8d39f57eec9caa5091.png",
+    "errors": [],
     "relays": [
       {
         "ipv4": null,
@@ -365,6 +427,10 @@
         "port": 3003
       }
     ],
+    "location": [
+      11.56667,
+      48.13333
+    ],
     "adapools": {
       "created": "Wed, 29 Jul 2020 23:02:02 +0000",
       "data": {
@@ -374,7 +440,7 @@
         "db_ticker": "BERRY",
         "db_name": "Berry",
         "db_url": "https://pipool.online",
-        "total_stake": "2374752020179",
+        "total_stake": "2374774813262",
         "rewards_epoch": "268",
         "tax_ratio": "0.015",
         "tax_fix": "340000000",
@@ -388,7 +454,7 @@
         "pledge": "450000000000",
         "hash_id": "74",
         "ticker_orig": "BERRY",
-        "metric": 1099.4195973983,
+        "metric": 1099.420172991,
         "delegators": "214",
         "pledged": "468597622146",
         "roa_lifetime": "4.029",
@@ -400,7 +466,7 @@
         "active_stake": "2293251012743",
         "active_blocks": "3",
         "direct": true,
-        "saturated": 0.036940380945834,
+        "saturated": 0.036940711997435,
         "patreon": 0,
         "rank": 565,
         "handles": {
@@ -414,11 +480,11 @@
           "icon": "https://static.adapools.org/pool_logo/2a748e3885f6f73320ad16a8331247b81fe01b8d39f57eec9caa5091.png"
         },
         "blocks_estimated": 2.2,
-        "stake_x_deleg": 11096972056.911,
+        "stake_x_deleg": 11097078566.645,
         "db_description": "Decentralizing Cardano in the most beautiful way - Let's shape the future together!",
         "owners": "2"
       },
-      "updated": "Tue, 08 Jun 2021 10:25:26 +0000"
+      "updated": "Tue, 08 Jun 2021 11:20:24 +0000"
     }
   },
   {
@@ -488,11 +554,15 @@
       }
     },
     "addr": "pool1wmzuwpa0ax5zf0v5d5ewexv4nts9lzlsaq5smmc3uqayym8muef",
-    "metadata": "https://git.io/Jqk46",
+    "metadata": {
+      "name": "Raspberry",
+      "description": "Raspberry Pi Pool",
+      "ticker": "RPI",
+      "homepage": "https://raspberryrpi.com/",
+      "extended": "https://raw.githubusercontent.com/thyes-MB/RPI/599cd3753740ee899ca4a80f2fa64c98ce9006b1/extended-RPI.json"
+    },
     "icon": "/images/76c5c707afe9a824bd946d32ec99959ae05f8bf0e8290def11e03a42.png",
-    "errors": [
-      "could not fetch metadata at: https://git.io/Jqk46"
-    ],
+    "errors": [],
     "relays": [
       {
         "ipv4": null,
@@ -529,7 +599,7 @@
         "pledge": "74000000000",
         "hash_id": "2678",
         "ticker_orig": "RPI",
-        "metric": -387.24029438212,
+        "metric": -387.22711749372,
         "delegators": "2",
         "pledged": "74008959302",
         "roa_lifetime": "0",
@@ -541,7 +611,7 @@
         "active_stake": "74009268846",
         "active_blocks": "0",
         "direct": true,
-        "saturated": 0.0011512440569751,
+        "saturated": 0.0011512433244353,
         "patreon": 0,
         "rank": 1444,
         "handles": {
@@ -559,7 +629,7 @@
         "db_description": "Raspberry Pi Pool",
         "owners": "3"
       },
-      "updated": "Tue, 08 Jun 2021 10:25:52 +0000"
+      "updated": "Tue, 08 Jun 2021 11:20:40 +0000"
     }
   },
   {
@@ -644,7 +714,7 @@
         "pledge": "8000000000",
         "hash_id": "2445",
         "ticker_orig": "SOLRP",
-        "metric": -438.25170125421,
+        "metric": -438.23723843824,
         "delegators": "12",
         "pledged": "8734046160",
         "roa_lifetime": "35.131",
@@ -656,9 +726,9 @@
         "active_stake": "5489268672",
         "active_blocks": "1",
         "direct": true,
-        "saturated": 0.051220563358751,
+        "saturated": 0.051220530766968,
         "patreon": 0,
-        "rank": 1785,
+        "rank": 1784,
         "handles": {
           "tw": null,
           "tg": "matt [SOLRP]",
@@ -674,7 +744,7 @@
         "db_description": "Our goal is to create a fully solar powered raspberry pi for cardano staking",
         "owners": "2"
       },
-      "updated": "Tue, 08 Jun 2021 10:25:57 +0000"
+      "updated": "Tue, 08 Jun 2021 11:20:45 +0000"
     }
   },
   {
@@ -723,13 +793,6 @@
         "dns": "80.24.134.251",
         "dns_srv": null,
         "port": 6000
-      },
-      {
-        "ipv4": null,
-        "ipv6": null,
-        "dns": "80.24.134.251",
-        "dns_srv": null,
-        "port": 6001
       }
     ],
     "location": [
@@ -756,10 +819,10 @@
         "stamp_strike": "0",
         "hist_roa": "[{\"val\":\"0\",\"time\":\"1622849415\",\"e\":261},{\"val\":\"0\",\"time\":\"1622849415\",\"e\":262},{\"val\":\"0\",\"time\":\"1622849415\",\"e\":263},{\"val\":\"0\",\"time\":\"1622849415\",\"e\":264},{\"val\":\"0\",\"time\":\"1622849415\",\"e\":265},{\"val\":\"0\",\"time\":\"1622849415\",\"e\":266},{\"val\":\"0\",\"time\":\"1622849415\",\"e\":267},{\"val\":\"0\",\"time\":\"1622849415\",\"e\":268}]",
         "hist_bpe": "[{\"val\":\"0\",\"time\":\"1618956753\",\"e\":260},{\"val\":\"0\",\"time\":\"1619388984\",\"e\":261},{\"val\":\"0\",\"time\":\"1619820931\",\"e\":262},{\"val\":\"0\",\"time\":\"1620253148\",\"e\":263},{\"val\":\"0\",\"time\":\"1620685146\",\"e\":264},{\"val\":\"0\",\"time\":\"1621117432\",\"e\":265},{\"val\":\"0\",\"time\":\"1621551198\",\"e\":266},{\"val\":\"0\",\"time\":\"1621981470\",\"e\":267},{\"val\":\"0\",\"time\":\"1622413556\",\"e\":268},{\"val\":\"0\",\"time\":\"1622847909\",\"e\":269}]",
-        "pledge": "998000000",
+        "pledge": "3000000000",
         "hash_id": "3169",
         "ticker_orig": "QXT",
-        "metric": -344.19505782214,
+        "metric": -328.22694930431,
         "delegators": "93",
         "pledged": "1952642141",
         "roa_lifetime": "0",
@@ -771,9 +834,9 @@
         "active_stake": "529306518170",
         "active_blocks": "0",
         "direct": true,
-        "saturated": 0.0095165808099139,
+        "saturated": 0.0095165747544878,
         "patreon": 0,
-        "rank": 1149,
+        "rank": 1113,
         "handles": {
           "tw": "QuixotePool",
           "tg": "QuixotePool",
@@ -789,7 +852,7 @@
         "db_description": "Dream the impossible dream like Quixote! Support Tech Projects in La Mancha, one of the most under-developed Regions in Europe",
         "owners": "1"
       },
-      "updated": "Tue, 08 Jun 2021 10:25:43 +0000"
+      "updated": "Tue, 08 Jun 2021 11:20:34 +0000"
     }
   },
   {
@@ -800,14 +863,77 @@
     "description": "Single pool owner, first in Wales/Cymru. An independent pool run from an energy efficient and reliable network of Raspberry Pis. We are an ideas lab run by a long-term Cardanoista and one of the ‘unacknowledged legislators of the world’ (Shelley).",
     "homepage": "https://twitter.com/OystrPool",
     "nonce": "1620737313",
-    "extended": "https://raw.githubusercontent.com/OYSTERPOOL/GIT/main/ext.json",
+    "extended": {
+      "info": {
+        "url_png_icon_64x64": "",
+        "url_png_logo": "",
+        "location": "Cardiff, Wales",
+        "social": {
+          "twitter_handle": "OystrPool",
+          "telegram_handle": "",
+          "facebook_handle": "",
+          "youtube_handle": "",
+          "twitch_handle": "",
+          "discord_handle": "",
+          "github_handle": ""
+        },
+        "company": {
+          "name": "",
+          "addr": "",
+          "city": "",
+          "country": "Wales",
+          "company_id": "",
+          "vat_id": ""
+        },
+        "about": {
+          "me": "Single Pool Operator",
+          "server": "",
+          "company": "..."
+        },
+        "rss": ""
+      },
+      "my-pool-ids": {
+        "0": "pool1l6aeyn35nkqkn9lqqlwqnpraakdzuukjrqprcrj3sctk6hhe32k",
+        "1": ""
+      },
+      "when-satured-then-recommend": {
+        "0": "",
+        "1": ""
+      },
+      "telegram-admin-handle": {
+        "0": ""
+      },
+      "adapools_ext": {
+        "prometheus": {
+          "0": {
+            "name": "",
+            "type": "",
+            "key": ""
+          },
+          "1": {
+            "name": "",
+            "type": "",
+            "key": ""
+          },
+          "2": {
+            "name": "",
+            "type": "",
+            "key": ""
+          }
+        }
+      }
+    },
     "addr": "pool1l6aeyn35nkqkn9lqqlwqnpraakdzuukjrqprcrj3sctk6hhe32k",
-    "metadata": "https://raw.githubusercontent.com/OYSTERPOOL/GIT/main/meta2.json",
+    "metadata": {
+      "name": "Oyster_Pool",
+      "ticker": "OYSTR",
+      "description": "Single pool owner, first in Wales/Cymru. An independent pool run from an energy efficient and reliable network of Raspberry Pis. We are an ideas lab run by a long-term Cardanoista and one of the ‘unacknowledged legislators of the world’ (Shelley).",
+      "homepage": "https://twitter.com/OystrPool",
+      "nonce": "1620737313",
+      "extended": "https://raw.githubusercontent.com/OYSTERPOOL/GIT/main/ext.json"
+    },
     "icon": "/ship-420.png",
-    "errors": [
-      "could not fetch metadata at: https://raw.githubusercontent.com/OYSTERPOOL/GIT/main/meta2.json",
-      "could not fetch extended metadata at: https://raw.githubusercontent.com/OYSTERPOOL/GIT/main/ext.json"
-    ],
+    "errors": [],
     "relays": [
       {
         "ipv4": "90.251.253.249",
@@ -823,6 +949,10 @@
         "dns_srv": null,
         "port": 6000
       }
+    ],
+    "location": [
+      -3.1791934,
+      51.481654599999985
     ],
     "adapools": {
       "created": "Sun, 14 Mar 2021 15:35:09 +0000",
@@ -847,7 +977,7 @@
         "pledge": "555400000000",
         "hash_id": "2791",
         "ticker_orig": "OYSTR",
-        "metric": 2956.248692095,
+        "metric": 2956.2620602906,
         "delegators": "73",
         "pledged": "561434659765",
         "roa_lifetime": "5.779",
@@ -859,7 +989,7 @@
         "active_stake": "16285121776548",
         "active_blocks": "19",
         "direct": true,
-        "saturated": 0.28800889130748,
+        "saturated": 0.28800870804664,
         "patreon": 0,
         "rank": 248,
         "handles": {
@@ -877,7 +1007,7 @@
         "db_description": "Single pool owner, first in Wales/Cymru. An independent pool run from an energy efficient and reliable network of Raspberry Pis. We are an ideas lab run by a long-term Cardanoista and one of the ‘unacknowledged legislators of the world’ (Shelley).",
         "owners": "4"
       },
-      "updated": "Tue, 08 Jun 2021 10:25:11 +0000"
+      "updated": "Tue, 08 Jun 2021 11:20:11 +0000"
     }
   },
   {
@@ -887,7 +1017,38 @@
     "description": "A small-scale Cardano pool for friends and family",
     "ticker": "ZAZEN",
     "homepage": "http://zenen.space",
-    "extended": "https://raw.githubusercontent.com/ZenenTreadwell/zenentreadwell.github.io/master/extended-poolData.json",
+    "extended": {
+      "info": {
+        "url_png_icon_64x64": "https://raw.githubusercontent.com/ZenenTreadwell/zenentreadwell.github.io/3f97391f669120a5ffcfba7c201833d6fef33d35/static/enso-icon.png",
+        "url_png_logo": "https://raw.githubusercontent.com/ZenenTreadwell/zenentreadwell.github.io/3f97391f669120a5ffcfba7c201833d6fef33d35/static/enso-small.png",
+        "location": "Victoria, BC",
+        "social": {
+          "twitter_handle": "",
+          "telegram_handle": "zenent",
+          "facebook_handle": "",
+          "youtube_handle": "",
+          "twitch_handle": "",
+          "discord_handle": "",
+          "github_handle": "zenentreadwell"
+        },
+        "company": {
+          "name": "Zazen Hosting",
+          "addr": "",
+          "city": "Victoria",
+          "country": "Canada",
+          "company_id": "",
+          "vat_id": ""
+        },
+        "about": {
+          "me": "Web Developer with a huge interest in riding the decentralisation wave",
+          "server": "Raspberry Pi Hosted at my Home in Victoria",
+          "company": ""
+        }
+      },
+      "my-pool-ids": {
+        "0": "4f5e469a40547208cf9876b36ae9b23874c302ab8ab263a952bbae6a"
+      }
+    },
     "addr": "pool1fa0ydxjq23eq3nucw6ek46dj8p6vxq4t32ex822jhwhx5fyvzze",
     "metadata": {
       "name": "ZenPool",
@@ -896,10 +1057,8 @@
       "homepage": "http://zenen.space",
       "extended": "https://raw.githubusercontent.com/ZenenTreadwell/zenentreadwell.github.io/master/extended-poolData.json"
     },
-    "icon": "/ship-420.png",
-    "errors": [
-      "could not fetch extended metadata at: https://raw.githubusercontent.com/ZenenTreadwell/zenentreadwell.github.io/master/extended-poolData.json"
-    ],
+    "icon": "/images/4f5e469a40547208cf9876b36ae9b23874c302ab8ab263a952bbae6a.png",
+    "errors": [],
     "relays": [
       {
         "ipv4": null,
@@ -908,6 +1067,10 @@
         "dns_srv": null,
         "port": 6000
       }
+    ],
+    "location": [
+      -123.3649,
+      48.4283
     ],
     "adapools": {
       "created": "Tue, 12 Jan 2021 06:20:16 +0000",
@@ -932,7 +1095,7 @@
         "pledge": "18000000000",
         "hash_id": "1934",
         "ticker_orig": "ZAZEN",
-        "metric": -236.88791881086,
+        "metric": -236.88572266279,
         "delegators": "12",
         "pledged": "18654859327",
         "roa_lifetime": "3.346",
@@ -944,7 +1107,7 @@
         "active_stake": "456901975081",
         "active_blocks": "0",
         "direct": true,
-        "saturated": 0.0071236374358863,
+        "saturated": 0.0071236329030965,
         "patreon": 0,
         "rank": 954,
         "handles": {
@@ -962,7 +1125,7 @@
         "db_description": "A small-scale Cardano pool for friends and family",
         "owners": "1"
       },
-      "updated": "Tue, 08 Jun 2021 10:25:32 +0000"
+      "updated": "Tue, 08 Jun 2021 11:20:31 +0000"
     }
   },
   {
@@ -972,14 +1135,43 @@
     "description": "SBC-Mining - Everything about cryptocurrency / cryptomining on single board computers. All income will be used to test and host further projects for you. ",
     "ticker": "SBC",
     "homepage": "https://sbc-pool.tk",
-    "extended": "https://raw.githubusercontent.com/sbc-mining/ada-pool/main/extendedPoolMetaData.json",
+    "extended": {
+      "info": {
+        "url_png_icon_64x64": "https://raw.githubusercontent.com/sbc-mining/ada-pool/main/64x64png.png",
+        "url_png_logo": "https://raw.githubusercontent.com/sbc-mining/ada-pool/main/512x512.png",
+        "location": "Hagen, Germany",
+        "social": {
+          "twitter_handle": "MiningSbc",
+          "telegram_handle": "sbcpool"
+        },
+        "company": {
+          "name": "SBC-Mining / SBC-Pool",
+          "city": "Hagen",
+          "country": "DE"
+        },
+        "about": {
+          "me": "Single pool operater from Germany. I try to generate some types of crypto on single board computers in different ways in order to enable people in countries where people are not doing so well and who have hardly any money the possibility of passive income. Therefore, 100% of all income goes into this and other projects",
+          "server": "Raspberry Pi 4 8GB powered with green energy. My equipment currently consists of 1 Block Producer and 2 Relay Nodes. I can guarantee an excellent internet connection (Glasfiber 1Gigabit) whit fallback to LTE and a big Battery Pack for Power failure.",
+          "company": "SBC-Mining ⛏"
+        },
+        "my-pool-ids": {
+          "0": "406a08532d2ca8dd08ea39e082dc8acdc2a3b34d0c517bd0e40af5e1"
+        },
+        "telegram-admin-handle": {
+          "0": "SBC_Mining"
+        }
+      }
+    },
     "addr": "pool1gp4qs5ed9j5d6z8288sg9hy2ehp28v6dp3ghh58ypt67zhn8r77",
-    "metadata": "https://git.io/JY20U",
-    "icon": "/ship-420.png",
-    "errors": [
-      "could not fetch metadata at: https://git.io/JY20U",
-      "could not fetch extended metadata at: https://raw.githubusercontent.com/sbc-mining/ada-pool/main/extendedPoolMetaData.json"
-    ],
+    "metadata": {
+      "name": "SBC-Mining",
+      "description": "SBC-Mining - Everything about cryptocurrency / cryptomining on single board computers. All income will be used to test and host further projects for you. ",
+      "ticker": "SBC",
+      "homepage": "https://sbc-pool.tk",
+      "extended": "https://raw.githubusercontent.com/sbc-mining/ada-pool/main/extendedPoolMetaData.json"
+    },
+    "icon": "/images/406a08532d2ca8dd08ea39e082dc8acdc2a3b34d0c517bd0e40af5e1.png",
+    "errors": [],
     "relays": [
       {
         "ipv4": null,
@@ -995,6 +1187,10 @@
         "dns_srv": null,
         "port": 3003
       }
+    ],
+    "location": [
+      7.475,
+      51.35944
     ],
     "adapools": {
       "created": "Thu, 01 Apr 2021 08:35:20 +0000",
@@ -1019,7 +1215,7 @@
         "pledge": "100000000",
         "hash_id": "3088",
         "ticker_orig": "SBC",
-        "metric": -390.94840330343,
+        "metric": -390.94181485923,
         "delegators": "4",
         "pledged": "104416817",
         "roa_lifetime": "0",
@@ -1031,7 +1227,7 @@
         "active_stake": "1364322371",
         "active_blocks": "0",
         "direct": true,
-        "saturated": 0.00026270829795955,
+        "saturated": 0.00026270813079755,
         "patreon": 0,
         "rank": 1489,
         "handles": {
@@ -1049,7 +1245,7 @@
         "db_description": "SBC-Mining - Everything about cryptocurrency / cryptomining on single board computers. All income will be used to test and host further projects for you. ",
         "owners": "1"
       },
-      "updated": "Tue, 08 Jun 2021 10:25:53 +0000"
+      "updated": "Tue, 08 Jun 2021 11:20:41 +0000"
     }
   },
   {
@@ -1059,14 +1255,55 @@
     "description": "Growing wealth together. We keep costs low for the community with a 1% margin.",
     "ticker": "SRN",
     "homepage": "https://www.adasrn.com",
-    "extended": "https://sayshar.github.io/srn-mainnet.extended-metadata.json",
+    "extended": {
+      "info": {
+        "url_png_icon_64x64": "https://www.adasrn.com/ADASRN_64x64.png",
+        "url_png_logo": "https://www.adasrn.com/ADASRN_1024x1024.png",
+        "location": "Rawang, Malaysia",
+        "social": {
+          "twitter_handle": "ADASRN1",
+          "telegram_handle": "Sayshar",
+          "facebook_handle": "ADASRN1",
+          "youtube_handle": "",
+          "twitch_handle": "",
+          "discord_handle": "",
+          "github_handle": "sayshar"
+        },
+        "company": {
+          "name": "",
+          "addr": "",
+          "city": "",
+          "country": "",
+          "company_id": "",
+          "vat_id": ""
+        },
+        "about": {
+          "me": "We are Malaysians who want to participate in the Cardano network as we believe DeFi is the future. We are glad to be part of the 100 pools chosen for the second cohort of 2021 to receive the IOG delegation fund. This would help us attract more delegators as we can now prove the capability of our pool operations. We are donating some of our proceedings to charity once we have received enough delegation to become profitable. Follow our Twitter page to chat and/or keep up with us.",
+          "server": "We have 3 separate bare metal nodes which comprise of 2 Relay nodes and 1 Block producing node. As fans of the little Raspberry Pi, 2 of our bare metal nodes (1 relay and 1 block producer), are run from Raspberry Pi 4B 8GB units with binaries built from source for the aarch64 architecture. For redundancy, we have an additional AMD64 Linux PC which can take the place of either the block producer or relay when performing extended maintenance. Our OS of choice is Ubuntu 20.04 LTS (for the relays) and AlpineOS 3.13.5 (for the block producer).",
+          "company": ""
+        },
+        "rss": "http(s) url to valid RSS feed"
+      },
+      "telegram-admin-handle": [
+        ""
+      ],
+      "my-pool-ids": [
+        "cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0"
+      ],
+      "when-satured-then-recommend": [
+        "cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0"
+      ]
+    },
     "addr": "pool1esd3cqme3zzvvdnsx3p6ywudn6p86mqyz7fpvqpegxv2qzmtes0",
-    "metadata": "https://sayshar.github.io/srn-mainnet.metadata.json",
-    "icon": "/ship-420.png",
-    "errors": [
-      "could not fetch metadata at: https://sayshar.github.io/srn-mainnet.metadata.json",
-      "could not fetch extended metadata at: https://sayshar.github.io/srn-mainnet.extended-metadata.json"
-    ],
+    "metadata": {
+      "name": "ADASRN",
+      "description": "Growing wealth together. We keep costs low for the community with a 1% margin.",
+      "ticker": "SRN",
+      "homepage": "https://www.adasrn.com",
+      "extended": "https://sayshar.github.io/srn-mainnet.extended-metadata.json"
+    },
+    "icon": "/images/cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0.png",
+    "errors": [],
     "relays": [
       {
         "ipv4": null,
@@ -1082,6 +1319,10 @@
         "dns_srv": null,
         "port": 3002
       }
+    ],
+    "location": [
+      101.58,
+      3.32
     ],
     "adapools": {
       "created": "Mon, 22 Mar 2021 23:55:10 +0000",
@@ -1106,7 +1347,7 @@
         "pledge": "4000000000",
         "hash_id": "2573",
         "ticker_orig": "SRN",
-        "metric": -223.89939599781,
+        "metric": -223.88618156042,
         "delegators": "13",
         "pledged": "4373496479",
         "roa_lifetime": "6.328",
@@ -1118,7 +1359,7 @@
         "active_stake": "3254989851870",
         "active_blocks": "4",
         "direct": true,
-        "saturated": 0.0506993363638,
+        "saturated": 0.050699304103675,
         "patreon": 0,
         "rank": 939,
         "handles": {
@@ -1136,7 +1377,7 @@
         "db_description": "Growing wealth together. We keep costs low for the community with a 1% margin.",
         "owners": "1"
       },
-      "updated": "Tue, 08 Jun 2021 10:25:32 +0000"
+      "updated": "Tue, 08 Jun 2021 11:20:31 +0000"
     }
   },
   {
@@ -1146,14 +1387,42 @@
     "description": "Towards sustainable and decentralized Cardano.",
     "ticker": "BHMT",
     "homepage": "https://www.behemothpool.com",
-    "extended": "https://raw.githubusercontent.com/rakalto/Extended-meta/main/meta.json",
+    "extended": {
+      "info": {
+        "url_png_icon_64x64": "https://behemothpool.files.wordpress.com/2021/05/bhmt_icon_64x64-5.png",
+        "location": "Kaarina, Finland",
+        "social": {
+          "twitter_handle": "Behemothpool",
+          "telegram_handle": "behemothpool",
+          "github_handle": "rakalto"
+        },
+        "about": {
+          "server": "Raspberry Pi Hosted at my home in Kaarina, Finland."
+        },
+        "my-pool-ids": {
+          "0": "052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e"
+        },
+        "adapools_ext": {
+          "prometheus": {
+            "0": {
+              "name": "relay 1 fi",
+              "type": "relay",
+              "key": "3f62526309ac1417217fad14d9caffca"
+            }
+          }
+        }
+      }
+    },
     "addr": "pool1q5h54ekx7wwqpfz78y8dppyl6uv7rpyvvr8nhf4es434un4mpx3",
-    "metadata": "https://git.io/JYGf2",
-    "icon": "/ship-420.png",
-    "errors": [
-      "could not fetch metadata at: https://git.io/JYGf2",
-      "could not fetch extended metadata at: https://raw.githubusercontent.com/rakalto/Extended-meta/main/meta.json"
-    ],
+    "metadata": {
+      "name": "Behemoth",
+      "description": "Towards sustainable and decentralized Cardano.",
+      "ticker": "BHMT",
+      "homepage": "https://www.behemothpool.com",
+      "extended": "https://raw.githubusercontent.com/rakalto/Extended-meta/main/meta.json"
+    },
+    "icon": "/images/052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e.png",
+    "errors": [],
     "relays": [
       {
         "ipv4": "176.93.21.218",
@@ -1162,6 +1431,10 @@
         "dns_srv": null,
         "port": 6000
       }
+    ],
+    "location": [
+      22.37222,
+      60.40694
     ],
     "adapools": {
       "created": "Mon, 10 May 2021 18:50:15 +0000",
@@ -1186,7 +1459,7 @@
         "pledge": "50000000",
         "hash_id": "3013",
         "ticker_orig": "BHMT",
-        "metric": -404.59787107124,
+        "metric": -404.58908647897,
         "delegators": "3",
         "pledged": "145881389",
         "roa_lifetime": "0",
@@ -1198,7 +1471,7 @@
         "active_stake": "860792837",
         "active_blocks": "0",
         "direct": true,
-        "saturated": 0.000013436414434044,
+        "saturated": 0.000013436405884417,
         "patreon": 0,
         "rank": 1590,
         "handles": {
@@ -1216,7 +1489,7 @@
         "db_description": "Towards sustainable and decentralized Cardano.",
         "owners": "1"
       },
-      "updated": "Tue, 08 Jun 2021 10:25:54 +0000"
+      "updated": "Tue, 08 Jun 2021 11:20:42 +0000"
     }
   },
   {
@@ -1226,7 +1499,42 @@
     "description": "A stable pool from South tyrol.",
     "ticker": "SUDTI",
     "homepage": "https://southtyrolpool.it",
-    "extended": "https://raw.githubusercontent.com/fisch192/southtyrolpool.github.io/main/extended.json",
+    "extended": {
+      "info": {
+        "url_png_icon_64x64": "https://github.com/fisch192/southtyrolpool.github.io/blob/main/berglogo-60x60@3x.png?raw=true",
+        "url_png_logo": "https://github.com/fisch192/southtyrolpool.github.io/blob/main/logo-512x512@2x.png?raw=true",
+        "location": "Bolzano | South Tyrol | Italy",
+        "social": {
+          "twitter_handle": "southtyrolpool",
+          "telegram_handle": "southtyrolpool",
+          "facebook_handle": "",
+          "youtube_handle": "",
+          "twitch_handle": "",
+          "discord_handle": "",
+          "github_handle": ""
+        },
+        "company": {
+          "name": "Southtyrolpool",
+          "addr": "",
+          "city": "Bolzano | South Tyrol | Italy",
+          "country": "IT",
+          "company_id": "",
+          "vat_id": ""
+        },
+        "about": {
+          "me": "Single pool operater from Southtyrol, North of Italy. Trying to bring the cardano World to Southtyrol. I´m happy to be part of the Cardano network and to support the community",
+          "server": "Raspberry Pi 4 powered with green energy.Our equipment currently consists of 1 Block Producer and 2 Relay Nodes.We can guarantee an excellent internet connection. BARE METAL SERVERS ",
+          "company": ""
+        },
+        "my-pool-ids": {
+          "0": "2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
+          "1": ""
+        },
+        "telegram-admin-handle": {
+          "0": "southtyrolpool"
+        }
+      }
+    },
     "addr": "pool19k4azhj8tye5wwy5pfj7q6m938m8fg5nglds5dkhtfwnvcg3s0k",
     "metadata": {
       "name": "Southtyrolpool",
@@ -1235,10 +1543,8 @@
       "homepage": "https://southtyrolpool.it",
       "extended": "https://raw.githubusercontent.com/fisch192/southtyrolpool.github.io/main/extended.json"
     },
-    "icon": "/ship-420.png",
-    "errors": [
-      "could not fetch extended metadata at: https://raw.githubusercontent.com/fisch192/southtyrolpool.github.io/main/extended.json"
-    ],
+    "icon": "/images/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36.png",
+    "errors": [],
     "relays": [
       {
         "ipv4": "93.49.244.83",
@@ -1254,6 +1560,10 @@
         "dns_srv": null,
         "port": 6001
       }
+    ],
+    "location": [
+      11.35,
+      46.5
     ],
     "adapools": {
       "created": "Thu, 04 Mar 2021 20:35:09 +0000",
@@ -1278,7 +1588,7 @@
         "pledge": "6000000000",
         "hash_id": "2608",
         "ticker_orig": "sudti",
-        "metric": -360.68617255186,
+        "metric": -360.68414533826,
         "delegators": "13",
         "pledged": "6002995570",
         "roa_lifetime": "0",
@@ -1290,7 +1600,7 @@
         "active_stake": "20417704820",
         "active_blocks": "0",
         "direct": true,
-        "saturated": 0.00033116297667404,
+        "saturated": 0.00033116276595414,
         "patreon": "1",
         "rank": 1263,
         "handles": {
@@ -1308,7 +1618,7 @@
         "db_description": "A stable pool from South tyrol.",
         "owners": "1"
       },
-      "updated": "Tue, 08 Jun 2021 10:25:45 +0000"
+      "updated": "Tue, 08 Jun 2021 11:20:36 +0000"
     }
   },
   {
@@ -1318,14 +1628,52 @@
     "description": "Pool com objetivo de usar RaspBerry PI com energia solar no Brasil. Venha ajudar o planeta?",
     "ticker": "PIEBR",
     "homepage": "https://github.com/karnagge/piebr",
-    "extended": "https://karnagge.github.io/extended-metadata.json",
+    "extended": {
+      "info": {
+        "url_png_icon_64x64": "",
+        "url_png_logo": "",
+        "location": "Brasilia, BRL",
+        "social": {
+          "twitter_handle": "",
+          "telegram_handle": "feu_franco",
+          "youtube_handle": "",
+          "github_handle": "karnagge"
+        },
+        "company": {
+          "name": "PIEBR",
+          "addr": "",
+          "city": "",
+          "country": "Brazil",
+          "company_id": "",
+          "vat_id": ""
+        },
+        "about": {
+          "me": "",
+          "server": "",
+          "company": ""
+        },
+        "rss": ""
+      },
+      "telegram-admin-handle": {
+        "0": "feu_franco"
+      },
+      "my-pool-ids": [
+        "7aac5502d19cac8731e3b86ecc9553d69b26a02155e5c9cf262d224c"
+      ],
+      "when-satured-then-recommend": [
+        "b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65"
+      ]
+    },
     "addr": "pool102k92qk3njkgwv0rhphve92n66djdgpp2hjunnex953yc3qdldv",
-    "metadata": "https://karnagge.github.io/metadata.json",
+    "metadata": {
+      "name": "PIEBR Pool",
+      "description": "Pool com objetivo de usar RaspBerry PI com energia solar no Brasil. Venha ajudar o planeta?",
+      "ticker": "PIEBR",
+      "homepage": "https://github.com/karnagge/piebr",
+      "extended": "https://karnagge.github.io/extended-metadata.json"
+    },
     "icon": "/ship-420.png",
-    "errors": [
-      "could not fetch metadata at: https://karnagge.github.io/metadata.json",
-      "could not fetch extended metadata at: https://karnagge.github.io/extended-metadata.json"
-    ],
+    "errors": [],
     "relays": [
       {
         "ipv4": "34.95.221.38",
@@ -1334,6 +1682,10 @@
         "dns_srv": null,
         "port": 3001
       }
+    ],
+    "location": [
+      -48.83409,
+      -26.269948
     ],
     "adapools": {
       "created": "Wed, 28 Apr 2021 04:20:16 +0000",
@@ -1358,7 +1710,7 @@
         "pledge": "800000000",
         "hash_id": "3348",
         "ticker_orig": "PIEBR",
-        "metric": -364.76277570033,
+        "metric": -364.76037990244,
         "delegators": "11",
         "pledged": "808947537",
         "roa_lifetime": "0",
@@ -1370,7 +1722,7 @@
         "active_stake": "13848544043",
         "active_blocks": "0",
         "direct": false,
-        "saturated": 0.0002154178724327,
+        "saturated": 0.00021541773536172,
         "patreon": 0,
         "rank": 1291,
         "handles": {
@@ -1388,7 +1740,7 @@
         "db_description": "Pool com objetivo de usar RaspBerry PI com energia solar no Brasil. Venha ajudar o planeta?",
         "owners": "1"
       },
-      "updated": "Tue, 08 Jun 2021 10:25:45 +0000"
+      "updated": "Tue, 08 Jun 2021 11:20:36 +0000"
     }
   },
   {
@@ -1452,12 +1804,16 @@
     },
     "nonce": "1620699514",
     "addr": "pool1jc24u7v5xsaw9dw6s0vftjat8ssc8ru4c0uhrj8zpm3usnrp03t",
-    "metadata": "https://raw.githubusercontent.com/reignxx/m/master/meta.json",
-    "icon": "/ship-420.png",
-    "errors": [
-      "could not fetch metadata at: https://raw.githubusercontent.com/reignxx/m/master/meta.json",
-      "could not fetch extended metadata at: https://raw.githubusercontent.com/reignxx/m/master/Xmeta.json"
-    ],
+    "metadata": {
+      "name": "Halo Stake Pool",
+      "ticker": "HALO",
+      "description": "Sustainable decentralization with new single pool. Always low fees on a Raspberry Pi cluster! 😇",
+      "homepage": "https://www.halostake.com",
+      "extended": "https://raw.githubusercontent.com/reignxx/m/master/Xmeta.json",
+      "nonce": "1620699514"
+    },
+    "icon": "/images/96155e7994343ae2b5da83d895cbab3c21838f95c3f971c8e20ee3c8.png",
+    "errors": [],
     "relays": [
       {
         "ipv4": null,
@@ -1494,7 +1850,7 @@
         "pledge": "3000000000",
         "hash_id": "3448",
         "ticker_orig": "HALO",
-        "metric": -374.42886636112,
+        "metric": -374.42447406499,
         "delegators": "6",
         "pledged": "3002007384",
         "roa_lifetime": "0",
@@ -1506,7 +1862,7 @@
         "active_stake": "60773002374",
         "active_blocks": "0",
         "direct": true,
-        "saturated": 0.00096558678551725,
+        "saturated": 0.00096558617111176,
         "patreon": 0,
         "rank": 1362,
         "handles": {
@@ -1524,7 +1880,7 @@
         "db_description": "Sustainable decentralization with new single pool. Always low fees on a Raspberry Pi cluster! 😇",
         "owners": "2"
       },
-      "updated": "Tue, 08 Jun 2021 10:25:49 +0000"
+      "updated": "Tue, 08 Jun 2021 11:20:38 +0000"
     }
   },
   {
@@ -1535,11 +1891,14 @@
     "ticker": "BONE",
     "homepage": "https://poolbone.github.io/meta/",
     "addr": "pool1j742gcsul7u8c05rsqmkgpkvj5qadj0pew69nctu6crqy9wjjn4",
-    "metadata": "https://git.io/JqqYI",
+    "metadata": {
+      "name": "BONE pool",
+      "description": "Our aim is to promote decentralization, one small bone in the skeleton supporting the future",
+      "ticker": "BONE",
+      "homepage": "https://poolbone.github.io/meta/"
+    },
     "icon": "/ship-420.png",
-    "errors": [
-      "could not fetch metadata at: https://git.io/JqqYI"
-    ],
+    "errors": [],
     "relays": [
       {
         "ipv4": null,
@@ -1586,7 +1945,7 @@
         "pledge": "52000000000",
         "hash_id": "2720",
         "ticker_orig": "BONE",
-        "metric": -263.90605694213,
+        "metric": -263.90366114424,
         "delegators": "11",
         "pledged": "59074839982",
         "roa_lifetime": "6.915",
@@ -1598,7 +1957,7 @@
         "active_stake": "158101117738",
         "active_blocks": "2",
         "direct": true,
-        "saturated": 0.0025067329360893,
+        "saturated": 0.0025067313410483,
         "patreon": 0,
         "rank": 986,
         "handles": {
@@ -1616,7 +1975,7 @@
         "db_description": "Our aim is to promote decentralization, one small bone in the skeleton supporting the future",
         "owners": "1"
       },
-      "updated": "Tue, 08 Jun 2021 10:25:33 +0000"
+      "updated": "Tue, 08 Jun 2021 11:20:32 +0000"
     }
   },
   {
@@ -1695,7 +2054,7 @@
         "pledge": "32000000000",
         "hash_id": "3586",
         "ticker_orig": "APSP",
-        "metric": -416.5886579986,
+        "metric": -416.57548111019,
         "delegators": "2",
         "pledged": "32136341492",
         "roa_lifetime": "0",
@@ -1707,7 +2066,7 @@
         "active_stake": "32093039144",
         "active_blocks": "0",
         "direct": false,
-        "saturated": 0.0004998958572653,
+        "saturated": 0.00049989553918021,
         "patreon": 0,
         "rank": 1620,
         "handles": {
@@ -1725,7 +2084,7 @@
         "db_description": "Please delegate your Cardano stake to our mission-driven Adaberry Pi Stake Pool. 🥧 Be rewarded for helping heal the environment and economy. ( π ≈ 3.14 :: ₳ ≡ ∞ ) 😃",
         "owners": "2"
       },
-      "updated": "Tue, 08 Jun 2021 10:25:54 +0000"
+      "updated": "Tue, 08 Jun 2021 11:20:43 +0000"
     }
   },
   {
@@ -1735,14 +2094,35 @@
     "description": "Minimum fees, maximum reliability, helping to secure the Cardano blockchain",
     "ticker": "AMDLO",
     "homepage": "https://armadillo-pool.org",
-    "extended": "https://raw.githubusercontent.com/Zebra-Danio/meta/main/extendedPoolMetaData.json",
+    "extended": {
+      "info": {
+        "url_png_icon_64x64": "https://raw.githubusercontent.com/Zebra-Danio/meta/main/icon64.png",
+        "url_png_logo": "https://raw.githubusercontent.com/Zebra-Danio/meta/main/logo.png",
+        "location": "London, UK",
+        "social": {
+          "twitter_handle": "Armadillo_Pool",
+          "discord_handle": "Zebra Danio#2501",
+          "github_handle": "Zebra-Danio"
+        },
+        "my-pool-ids": {
+          "0": "2730ca79a60b3b3f29b709bd39c21d66cb2c83e5441c479f755d0a3d"
+        },
+        "when-satured-then-recommend": {
+          "0": "c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae",
+          "1": "2a748e3885f6f73320ad16a8331247b81fe01b8d39f57eec9caa5091"
+        }
+      }
+    },
     "addr": "pool1yucv57dxpvan72dhpx7nnssavm9jeql9gswy08m4t59r6cshny6",
-    "metadata": "https://git.io/JGT5t",
-    "icon": "/ship-420.png",
-    "errors": [
-      "could not fetch metadata at: https://git.io/JGT5t",
-      "could not fetch extended metadata at: https://raw.githubusercontent.com/Zebra-Danio/meta/main/extendedPoolMetaData.json"
-    ],
+    "metadata": {
+      "name": "Armadillo",
+      "description": "Minimum fees, maximum reliability, helping to secure the Cardano blockchain",
+      "ticker": "AMDLO",
+      "homepage": "https://armadillo-pool.org",
+      "extended": "https://raw.githubusercontent.com/Zebra-Danio/meta/main/extendedPoolMetaData.json"
+    },
+    "icon": "/images/2730ca79a60b3b3f29b709bd39c21d66cb2c83e5441c479f755d0a3d.png",
+    "errors": [],
     "relays": [
       {
         "ipv4": null,
@@ -1758,6 +2138,10 @@
         "dns_srv": null,
         "port": 3002
       }
+    ],
+    "location": [
+      -0.12764739999999997,
+      51.507321899999994
     ],
     "adapools": {
       "created": "Fri, 28 May 2021 17:35:19 +0000",
@@ -1782,7 +2166,7 @@
         "pledge": "9500000000",
         "hash_id": "3590",
         "ticker_orig": "AMDLO",
-        "metric": -512.27888520901,
+        "metric": -512.25253143221,
         "delegators": "1",
         "pledged": "9633182784",
         "roa_lifetime": "0",
@@ -1794,9 +2178,9 @@
         "active_stake": "9633182784",
         "active_blocks": "0",
         "direct": true,
-        "saturated": 0.00014984867419335,
+        "saturated": 0.00014984857884423,
         "patreon": 0,
-        "rank": 1837,
+        "rank": 1836,
         "handles": {
           "tw": "Armadillo_Pool",
           "tg": null,
@@ -1812,7 +2196,7 @@
         "db_description": "Minimum fees, maximum reliability, helping to secure the Cardano blockchain",
         "owners": "1"
       },
-      "updated": "Tue, 08 Jun 2021 10:25:59 +0000"
+      "updated": "Tue, 08 Jun 2021 11:20:46 +0000"
     }
   },
   {
@@ -1822,14 +2206,52 @@
     "description": "A reliable and eco-friendly stake pool running on Raspberry Pi's",
     "ticker": "MINI1",
     "homepage": "https://www.adaministake.com",
-    "extended": "https://git.io/JGjRk",
+    "extended": {
+      "info": {
+        "url_png_icon_64x64": "https://raw.githubusercontent.com/jterrier84/minipool/main/Mini1LogoSmall.png",
+        "url_png_logo": "https://github.com/jterrier84/minipool/blob/main/MINI1_logo.png?raw=true",
+        "location": "Weiningen | Zurich | Switzerland",
+        "social": {
+          "twitter_handle": "JuL71695233",
+          "telegram_handle": "mini1pool",
+          "facebook_handle": "",
+          "youtube_handle": "",
+          "twitch_handle": "",
+          "discord_handle": "",
+          "github_handle": "jterrier84"
+        },
+        "company": {
+          "name": "Mini Stake Pool",
+          "addr": "",
+          "city": "Weiningen | Zurich | Switzerland",
+          "country": "CH",
+          "company_id": "",
+          "vat_id": ""
+        },
+        "about": {
+          "me": "Dedicated Cardano pool operator located in Weiningen, Zurich. Always put sustainability first. Big supporter of the Cardano dream and vision.",
+          "server": "The entire pool is running on totally 3 Raspberry Pi's, 1 Core and 2 Relays. The entire power consumption including router is 30 Watt. The electricity comes from 100% hydropower-plants from Switzerland and abroad.",
+          "company": ""
+        },
+        "my-pool-ids": {
+          "0": "c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2",
+          "1": ""
+        },
+        "telegram-admin-handle": {
+          "0": "mini1pool"
+        }
+      }
+    },
     "addr": "pool1c0nsyh46ucuwn9xpf8jhq05zvxdnrztuncwkflrgf7quyvh82q0",
-    "metadata": "https://git.io/JGznW",
-    "icon": "/ship-420.png",
-    "errors": [
-      "could not fetch metadata at: https://git.io/JGznW",
-      "could not fetch extended metadata at: https://git.io/JGjRk"
-    ],
+    "metadata": {
+      "name": "Cardano ADA Mini Pool Switzerland",
+      "description": "A reliable and eco-friendly stake pool running on Raspberry Pi's",
+      "ticker": "MINI1",
+      "homepage": "https://www.adaministake.com",
+      "extended": "https://git.io/JGjRk"
+    },
+    "icon": "/images/c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2.png",
+    "errors": [],
     "relays": [
       {
         "ipv4": null,
@@ -1838,6 +2260,10 @@
         "dns_srv": null,
         "port": 30001
       }
+    ],
+    "location": [
+      8.42,
+      47.42
     ],
     "adapools": {
       "created": "Tue, 01 Jun 2021 21:50:27 +0000",
@@ -1874,7 +2300,7 @@
         "active_stake": "0",
         "active_blocks": "0",
         "direct": true,
-        "saturated": 0.00021026118999184,
+        "saturated": 0.00021026117965592,
         "patreon": 0,
         "rank": 1691,
         "handles": {
@@ -1892,7 +2318,7 @@
         "db_description": "A reliable and eco-friendly stake pool running on Raspberry Pi's",
         "owners": "1"
       },
-      "updated": "Tue, 08 Jun 2021 10:25:55 +0000"
+      "updated": "Tue, 08 Jun 2021 10:30:53 +0000"
     }
   },
   {
@@ -1978,7 +2404,7 @@
         "pledge": "25000000000",
         "hash_id": "2809",
         "ticker_orig": "MEME",
-        "metric": -345.31782459829,
+        "metric": -345.31636049958,
         "delegators": "18",
         "pledged": "25824356169",
         "roa_lifetime": "19.052",
@@ -1990,9 +2416,9 @@
         "active_stake": "35037743172",
         "active_blocks": "0",
         "direct": true,
-        "saturated": 0.00055187674860667,
+        "saturated": 0.00055187639744599,
         "patreon": 0,
-        "rank": 1165,
+        "rank": 1166,
         "handles": {
           "tw": "meme_pool",
           "tg": "sporke",
@@ -2008,7 +2434,7 @@
         "db_description": "They don't know I run a Cardano stake pool.",
         "owners": "2"
       },
-      "updated": "Tue, 08 Jun 2021 10:25:43 +0000"
+      "updated": "Tue, 08 Jun 2021 11:20:34 +0000"
     }
   }
 ]
