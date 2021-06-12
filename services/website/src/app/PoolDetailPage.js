@@ -296,6 +296,7 @@ export default function Example(props) {
                         <Tabs
                             tabs={[
                                 { name: 'About', href: getSlugForTab(page, 'about'), count: null, current: page.params.tab === 'about' },
+                                { name: 'Assigned slots', href: getSlugForTab(page, 'assigned-slots'), count: 0, current: page.params.tab === 'assigned-slots' },
                                 { name: 'Blocks', href: getSlugForTab(page, 'blocks'), count: blocks.length, current: page.params.tab === 'blocks' },
                                 { name: 'Delegators', href: getSlugForTab(page, 'delegators'), count: delegators.length, current: page.params.tab === 'delegators' },
                                 { name: 'Hardware', href: getSlugForTab(page, 'hardware'), count: devices.length, current: page.params.tab === 'hardware' },
@@ -338,7 +339,7 @@ export default function Example(props) {
                                     fields={[
                                         { id: 'stake', name: 'stake' },
                                         { id: 'epoch', name: 'epoch' },
-                                        { id: 'time', name: 'time' },
+                                        { id: 'time', type: 'date', name: 'time' },
                                         { id: 'amount', type: 'ada', name: 'amount' },
                                         { id: 'reward', type: 'ada', name: 'reward' },
                                         { id: 'owner', type: 'boolean', name: 'owner' },
@@ -355,7 +356,7 @@ export default function Example(props) {
                                         { id: 'amount', type: 'ada', name: 'amount' },
                                         { id: 'fees', type: 'ada', name: 'fees' },
                                         { id: 'txs', name: 'txs' },
-                                        { id: 'time', name: 'time' },
+                                        { id: 'time', type: 'date', name: 'time' },
                                     ]}
                                     records={blocks}
                                 />
@@ -369,6 +370,11 @@ export default function Example(props) {
                         {page.params.tab === 'issues' ? (
                             <div>
                                 issues
+                            </div>
+                        ) : null}
+                        {page.params.tab === 'assigned-slots' ? (
+                            <div>
+                                assigned slots
                             </div>
                         ) : null}
                     </div>

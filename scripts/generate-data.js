@@ -119,6 +119,7 @@ async function main() {
     const schema = {
         createdAt: new Date().toISOString(),
         about: {
+            twitter: 'https://twitter.com/alliance_armada',
             youtube: 'https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg',
             github: 'https://github.com/armada-alliance/armada-alliance',
             telegram: "https://t.me/armada_alli",

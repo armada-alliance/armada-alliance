@@ -24,6 +24,7 @@ const translations_en = [
     'Pledge',
     'Fixed cost',
     'Member since',
+    'Assigned slots',
     'Blocks',
     'Delegators',
     'About',
