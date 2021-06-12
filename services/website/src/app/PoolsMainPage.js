@@ -7,7 +7,6 @@ export default function HomePage({ pools }) {
     <Layout>
       <MapSection
         pools={pools}
-
       />
       <PoolSection
         pools={pools}

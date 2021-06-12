@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import moment from 'moment'
 import toAda from './toAda'
 
 const RECORD_LIMIT = 5
@@ -23,7 +24,12 @@ function BooleanField({ value }) {
         )
 }
 
+function DateField({ value }) {
+    return <span>{value ? moment(value * 1000).calendar() : value}</span>
+}
+
 const fieldTypes = {
+    date: DateField,
     text: TextField,
     ada: AdaField,
     boolean: BooleanField,

@@ -34,6 +34,19 @@ const templates = [
         }
     },
     {
+        id: 'TermsMainPage',
+        title: 'Terminology',
+        getPages: (props) => {
+            return [
+                {
+                    ...props,
+                    origin: `${dashify(props.originalTitle)}`,
+                    slug: `${dashify(props.title)}`
+                }
+            ]
+        }
+    },
+    {
         id: 'RoadmapPage',
         title: 'Roadmap',
         getPages: (props) => {
@@ -69,7 +82,7 @@ const templates = [
 
             pools.forEach(pool => {
 
-                const mergePages = ['about', 'delegators', 'blocks', 'hardware', 'issues'].map(tab => {
+                const mergePages = ['about', 'delegators', 'blocks', 'assigned-slots', 'hardware', 'issues'].map(tab => {
 
                     return {
                         ...props,
