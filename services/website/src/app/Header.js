@@ -21,69 +21,10 @@ import {
     SupportIcon,
     ViewGridIcon,
     XIcon,
+    BookOpenIcon,
 } from '@heroicons/react/outline'
 import { ChevronDownIcon } from '@heroicons/react/solid'
 
-const publicLinks = [
-    {
-        name: 'How does staking work?',
-        description: 'Get a better understanding of how staking works.',
-        href: '#',
-        icon: ChartBarIcon,
-    },
-    {
-        name: 'Engagement',
-        description: 'Speak directly to your customers in a more meaningful way.',
-        href: '#',
-        icon: CursorClickIcon,
-    },
-    { name: 'Security', description: "Your customers' data will be safe and secure.", href: '#', icon: ShieldCheckIcon },
-    {
-        name: 'Integrations',
-        description: "Connect with third-party tools that you're already using.",
-        href: '#',
-        icon: ViewGridIcon,
-    },
-    {
-        name: 'Automations',
-        description: 'Build strategic funnels that will drive your customers to convert',
-        href: '#',
-        icon: RefreshIcon,
-    },
-]
-
-const spoLinks = [
-    {
-        name: 'How to register my pool?',
-        description: 'Join the alliance by registering your pool.',
-        href: '#',
-        icon: ChartBarIcon,
-    },
-    {
-        name: 'Engagement',
-        description: 'Speak directly to your customers in a more meaningful way.',
-        href: '#',
-        icon: CursorClickIcon,
-    },
-    { name: 'Security', description: "Your customers' data will be safe and secure.", href: '#', icon: ShieldCheckIcon },
-    {
-        name: 'Integrations',
-        description: "Connect with third-party tools that you're already using.",
-        href: '#',
-        icon: ViewGridIcon,
-    },
-    {
-        name: 'Automations',
-        description: 'Build strategic funnels that will drive your customers to convert',
-        href: '#',
-        icon: RefreshIcon,
-    },
-]
-
-const callsToAction = [
-    { name: 'Watch Demo', href: '#', icon: PlayIcon },
-    { name: 'Contact Sales', href: '#', icon: PhoneIcon },
-]
 const resources = [
     {
         name: 'Help Center',
@@ -105,12 +46,6 @@ const resources = [
     },
     { name: 'Security', description: 'Understand how we take your privacy seriously.', href: '#', icon: ShieldCheckIcon },
 ]
-const recentPosts = [
-    { id: 1, name: 'Boost your conversion rate', href: '#' },
-    { id: 2, name: 'How to use search engine optimization to drive traffic to your site', href: '#' },
-    { id: 3, name: 'Improve your customer experience', href: '#' },
-]
-
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
 }
@@ -184,6 +119,9 @@ function LanguageButton() {
 }
 
 export default function Header() {
+
+    const { navigation } = schema
+
     return (
         <Popover className="relative bg-white">
             {({ open }) => (
@@ -218,7 +156,7 @@ export default function Header() {
                                                     'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500'
                                                 )}
                                             >
-                                                <span><Text>Learn about Cardano</Text></span>
+                                                <span><Text>{navigation.general.name}</Text></span>
                                                 <ChevronDownIcon
                                                     className={classNames(
                                                         open ? 'text-gray-600' : 'text-gray-400',
@@ -244,20 +182,29 @@ export default function Header() {
                                                 >
                                                     <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                                                         <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                                                            {publicLinks.map((item) => (
+                                                            {navigation.general.navItems.map((navItem) => (
                                                                 <a
-                                                                    key={item.name}
-                                                                    href={item.href}
+                                                                    key={navItem.name}
+                                                                    href={navItem.href}
                                                                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                                                                 >
-                                                                    <item.icon className="flex-shrink-0 h-6 w-6 text-primary-600" aria-hidden="true" />
+                                                                    <BookOpenIcon className="flex-shrink-0 h-6 w-6 text-primary-600" aria-hidden="true" />
                                                                     <div className="ml-4">
-                                                                        <p className="text-base font-medium text-gray-900">{item.name}</p>
-                                                                        <p className="mt-1 text-sm text-gray-500">{item.description}</p>
+                                                                        <p className="text-base font-medium text-gray-900">{navItem.name}</p>
+                                                                        <p className="mt-1 text-sm text-gray-500">{navItem.description}</p>
                                                                     </div>
                                                                 </a>
                                                             ))}
                                                         </div>
+                                                        {navigation.general.readMore ? (
+                                                            <div className="px-5 py-5 bg-gray-50 text-center sm:px-8">
+                                                                <Link href={navigation.general.readMore.href}>
+                                                                    <a href="#" className="font-medium text-primary-600 hover:text-primary-500">
+                                                                        {navigation.general.readMore.name} <span aria-hidden="true">&rarr;</span>
+                                                                    </a>
+                                                                </Link>
+                                                            </div>
+                                                        ) : null}
                                                     </div>
                                                 </Popover.Panel>
                                             </Transition>
@@ -273,7 +220,7 @@ export default function Header() {
                                                     'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500'
                                                 )}
                                             >
-                                                <span><Text>Stake pool operation</Text></span>
+                                                <span><Text>{navigation.stakePoolOperation.name}</Text></span>
                                                 <ChevronDownIcon
                                                     className={classNames(
                                                         open ? 'text-gray-600' : 'text-gray-400',
@@ -298,13 +245,13 @@ export default function Header() {
                                                 >
                                                     <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                                                         <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                                                            {spoLinks.map((item) => (
+                                                            {navigation.stakePoolOperation.navItems.map((item) => (
                                                                 <a
                                                                     key={item.name}
                                                                     href={item.href}
                                                                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                                                                 >
-                                                                    <item.icon className="flex-shrink-0 h-6 w-6 text-primary-600" aria-hidden="true" />
+                                                                    <BookOpenIcon className="flex-shrink-0 h-6 w-6 text-primary-600" aria-hidden="true" />
                                                                     <div className="ml-4">
                                                                         <p className="text-base font-medium text-gray-900">{item.name}</p>
                                                                         <p className="mt-1 text-sm text-gray-500">{item.description}</p>
@@ -312,6 +259,15 @@ export default function Header() {
                                                                 </a>
                                                             ))}
                                                         </div>
+                                                        {navigation.stakePoolOperation.readMore ? (
+                                                            <div className="px-5 py-5 bg-gray-50 text-center sm:px-8">
+                                                                <Link href={navigation.stakePoolOperation.readMore.href}>
+                                                                    <a href="#" className="font-medium text-primary-600 hover:text-primary-500">
+                                                                        {navigation.stakePoolOperation.readMore.name} <span aria-hidden="true">&rarr;</span>
+                                                                    </a>
+                                                                </Link>
+                                                            </div>
+                                                        ) : null}
                                                     </div>
                                                 </Popover.Panel>
                                             </Transition>
@@ -340,7 +296,7 @@ export default function Header() {
                         <Popover.Panel
                             focus
                             static
-                            className="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
+                            className="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
                         >
                             <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
                                 <div className="pt-5 pb-6 px-5">
@@ -348,8 +304,8 @@ export default function Header() {
                                         <div>
                                             <img
                                                 className="h-8 w-auto"
-                                                src="https://tailwindui.com/img/logos/workflow-mark-primary-600.svg"
-                                                alt="Workflow"
+                                                src={'/ship-420.png'}
+                                                alt={schema.about.name}
                                             />
                                         </div>
                                         <div className="-mr-2">
@@ -359,53 +315,39 @@ export default function Header() {
                                             </Popover.Button>
                                         </div>
                                     </div>
-                                    <div className="mt-6">
+                                    <div className="mt-6 text-sm text-gray-500 uppercase">
+                                        {navigation.general.name}
+                                    </div>
+                                    <div className="mt-4">
                                         <nav className="grid gap-y-8">
-                                            {publicLinks.map((item) => (
+                                            {navigation.general.navItems.map((navItem) => (
                                                 <a
-                                                    key={item.name}
-                                                    href={item.href}
+                                                    key={navItem.name}
+                                                    href={navItem.href}
                                                     className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
                                                 >
-                                                    <item.icon className="flex-shrink-0 h-6 w-6 text-primary-600" aria-hidden="true" />
-                                                    <span className="ml-3 text-base font-medium text-gray-900">{item.name}</span>
+                                                    <BookOpenIcon className="flex-shrink-0 h-6 w-6 text-primary-600" aria-hidden="true" />
+                                                    <span className="ml-3 text-base font-medium text-gray-900">{navItem.name}</span>
                                                 </a>
                                             ))}
                                         </nav>
                                     </div>
-                                </div>
-                                <div className="py-6 px-5 space-y-6">
-                                    <div className="grid grid-cols-2 gap-y-4 gap-x-8">
-                                        <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
-                                            Pricing
-                    </a>
-
-                                        <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
-                                            Docs
-                    </a>
-                                        {resources.map((item) => (
-                                            <a
-                                                key={item.name}
-                                                href={item.href}
-                                                className="text-base font-medium text-gray-900 hover:text-gray-700"
-                                            >
-                                                {item.name}
-                                            </a>
-                                        ))}
+                                    <div className="mt-6 text-sm text-gray-500 uppercase">
+                                        {navigation.stakePoolOperation.name}
                                     </div>
-                                    <div>
-                                        <a
-                                            href="#"
-                                            className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-primary-600 hover:bg-primary-700"
-                                        >
-                                            Sign up
-                    </a>
-                                        <p className="mt-6 text-center text-base font-medium text-gray-500">
-                                            Existing customer?{' '}
-                                            <a href="#" className="text-primary-600 hover:text-primary-500">
-                                                Sign in
-                      </a>
-                                        </p>
+                                    <div className="mt-4">
+                                        <nav className="grid gap-y-8">
+                                            {navigation.stakePoolOperation.navItems.map((navItem) => (
+                                                <a
+                                                    key={navItem.name}
+                                                    href={navItem.href}
+                                                    className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
+                                                >
+                                                    <BookOpenIcon className="flex-shrink-0 h-6 w-6 text-primary-600" aria-hidden="true" />
+                                                    <span className="ml-3 text-base font-medium text-gray-900">{navItem.name}</span>
+                                                </a>
+                                            ))}
+                                        </nav>
                                     </div>
                                 </div>
                             </div>
