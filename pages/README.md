@@ -1,0 +1,55 @@
+# Armada Pages
+
+## Metadata
+
+The following properties are supported in each layout: layout, title, description, keywords
+
+```
+---
+layout: Blog
+title: A blog post
+authors: CAP'N Salty Whale
+keywords: a, blog, post
+---
+```
+
+Per layout different metadata properties are supported:
+
+Term: aliases (names the term also is known as)
+
+## Layouts
+
+We will support different layouts for pages, based on the layout defined the page will be rendered using a different template.
+
+```
+---
+layout: Blog
+title: A blog post
+authors: CAP'N Salty Whale
+keywords: a, blog, post
+---
+```
+
+```
+---
+layout: Term
+title: Term XYZ
+description: A definition of a term
+aliases: Term XYZ alias 1, Term XYZ alias 2, Term XYZ alias 3
+keywords: X, Y, Z
+---
+```
+
+## Translations
+
+The original page will always be the english page. Whenever you add a translation you can add a directory with the name of that language `en`, `de`, `es` etc. In order to refer back to the original (english page) you can add metadata refering back to the english page.
+
+
+/es/a-blog-post-title-in-spanish.md
+```
+---
+layout: Blog
+title: A blog post title in Spanish
+source: /en/a-blog-post-title-in-english.md
+----
+```

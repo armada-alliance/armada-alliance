@@ -142,6 +142,66 @@ async function main() {
                 { name: "Launch first version of the [website](https://armada-alliance.com)", completed: true, date: "2021-04-30" },
                 { name: "Create a [repository](https://github.com/armada-alliance/armada-alliance) where people can register", completed: true, date: "2021-04-18" }
             ]
+        },
+        navigation: {
+            general: {
+                name: "Learn about Cardano",
+                navItems: [
+                    {
+                        name: 'What is Cardano?',
+                        description: 'The blockchain system upon which the Plutus Platform is built.',
+                        href: '/resources/what-is-cardano'
+                    },
+                    {
+                        name: 'What is Staking?',
+                        description: 'The process by which Ada owners can participate in the network and earn rewards by delegating the stake associated with their Ada holdings to a stake pool.',
+                        href: '/resources/what-is-staking'
+                    },
+                    {
+                        name: 'What are Native Assets?',
+                        description: 'An asset that is interchangeable and indistinguishable with some other asset(s). Same denomination bills and coins are fungible assets, for example, like equal quantities of ada to lovelaces.',
+                        href: '/resources/what-are-native-assets'
+                    },
+                    {
+                        name: 'What are Smart Contracts?',
+                        description: 'A smart contract is an automated digital agreement, written in code, that tracks, verifies, and executes the binding transactions of a contract between various parties',
+                        href: '/resources/what-are-smart-contracts'
+                    }
+                ],
+                readMore: {
+                    name: 'Go to the full glossary',
+                    href: '/terms'
+                }
+            },
+            stakePoolOperation: {
+                name: "Stake pool operation",
+                navItems: [
+                    {
+                        name: 'When should I run a stake pool?',
+                        description: 'Find out of running a stake pool is something that\'s right for you.',
+                        href: '/resources/what-is-cardano'
+                    },
+                    {
+                        name: 'How do I run a stake pool?',
+                        description: 'We guide you through the steps on how to setup a stake pool and keep it running over time.',
+                        href: '/resources/what-is-staking'
+                    },
+                    {
+                        name: 'What are the costs of running a stake pool?',
+                        description: 'We try to give you a clear overview of the costs associated with running a stake pool.',
+                        href: '/resources/what-are-native-assets'
+                    },
+                    {
+                        name: 'How much can I earn running a stake pool?',
+                        description: '',
+                        href: '/resources/what-are-smart-contracts'
+                    }
+                ],
+                readMore: {
+                    name: 'Read more about stake pool operation',
+                    href: '/resources/stake-pool-operation'
+                }
+            }
         }
     }
 
