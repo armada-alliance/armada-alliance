@@ -187,7 +187,7 @@ async function main() {
                 ],
                 readMore: {
                     name: 'View all guides',
-                    href: '/spo-guides'
+                    href: '/guides'
                 }
             },
             social: [
