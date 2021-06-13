@@ -1,0 +1,46 @@
+name: Generate Data (Staging)
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  push:
+    branches: [ staging ]
+    paths-ignore:
+      - 'services/website/src/adapools.json'
+      - 'services/website/src/languages.json'
+      - 'services/website/src/pages.json'
+      - 'services/website/src/pools_extended.json'
+      - 'services/website/src/pools.json'
+      - 'services/website/src/schema.json'
+      - 'services/website/src/topology.json'
+      - 'services/website/src/translations.json'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
+        fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
+    - name: Create local changes
+      working-directory: ./services/website
+      env: # Or as an environment variable
+        BLOCKFROST_PROJECT_ID: ${{ secrets.BLOCKFROST_PROJECT_ID }}
+      run: |
+        npm install
+        node generateAdapoolsJson.js
+        node generateData.js
+    - name: Commit files
+      run: |
+        git config --local user.name "${{ secrets.CI_USERNAME }}"
+        git config --local user.email "${{ secrets.CI_EMAIL }}"
+        git add --all
+        git commit -m "update static data"
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.CI_PASSWORD }}
+        branch: ${{ github.ref }}

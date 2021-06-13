@@ -3,10 +3,11 @@ import { Fragment, useContext } from 'react'
 import Link from './Link'
 import Text from './Text'
 import schema from '../schema'
-import languages from './languages'
+import languages from '../languages.json'
 import Context from './Context'
 import pages from '../pages'
 import cx from 'classnames'
+import markdownToText from 'markdown-to-text'
 import { Popover, Transition } from '@headlessui/react'
 import {
     BookmarkAltIcon,
@@ -205,19 +206,26 @@ export default function Header() {
                                                 >
                                                     <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                                                         <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                                                            {navigation.general.navItems.map((navItem) => (
-                                                                <a
-                                                                    key={navItem.name}
-                                                                    href={navItem.href}
-                                                                    className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
-                                                                >
-                                                                    <BookOpenIcon className="flex-shrink-0 h-6 w-6 text-primary-600" aria-hidden="true" />
-                                                                    <div className="ml-4">
-                                                                        <p className="text-base font-medium text-gray-900">{navItem.name}</p>
-                                                                        <p className="mt-1 text-sm text-gray-500">{navItem.description}</p>
-                                                                    </div>
-                                                                </a>
-                                                            ))}
+                                                            {navigation.general.navItems.map((navItem) => {
+
+                                                                const page = pages.find(page => page.slug === navItem.href)
+
+                                                                return (
+                                                                    <a
+                                                                        key={navItem.name}
+                                                                        href={navItem.href}
+                                                                        className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
+                                                                    >
+                                                                        <BookOpenIcon className="flex-shrink-0 h-6 w-6 text-primary-600" aria-hidden="true" />
+                                                                        <div className="ml-4">
+                                                                            <p className="text-base font-medium text-gray-900">{navItem.name}</p>
+                                                                            {page ? (
+                                                                                <p className="mt-1 text-sm text-gray-500">{markdownToText(page.description)}</p>
+                                                                            ) : null}
+                                                                        </div>
+                                                                    </a>
+                                                                )
+                                                            })}
                                                         </div>
                                                         {navigation.general.readMore ? (
                                                             <div className="px-5 py-5 bg-gray-50 text-center sm:px-8">
@@ -243,7 +251,7 @@ export default function Header() {
                                                     'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500'
                                                 )}
                                             >
-                                                <span><Text>{navigation.stakePoolOperation.name}</Text></span>
+                                                <span><Text>{navigation.technical.name}</Text></span>
                                                 <ChevronDownIcon
                                                     className={classNames(
                                                         open ? 'text-gray-600' : 'text-gray-400',
@@ -268,25 +276,32 @@ export default function Header() {
                                                 >
                                                     <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                                                         <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                                                            {navigation.stakePoolOperation.navItems.map((item) => (
-                                                                <a
-                                                                    key={item.name}
-                                                                    href={item.href}
-                                                                    className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
-                                                                >
-                                                                    <BookOpenIcon className="flex-shrink-0 h-6 w-6 text-primary-600" aria-hidden="true" />
-                                                                    <div className="ml-4">
-                                                                        <p className="text-base font-medium text-gray-900">{item.name}</p>
-                                                                        <p className="mt-1 text-sm text-gray-500">{item.description}</p>
-                                                                    </div>
-                                                                </a>
-                                                            ))}
+                                                            {navigation.technical.navItems.map((navItem) => {
+
+                                                                const page = pages.find(page => page.slug === navItem.href)
+
+                                                                return (
+                                                                    <a
+                                                                        key={navItem.name}
+                                                                        href={navItem.href}
+                                                                        className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
+                                                                    >
+                                                                        <BookOpenIcon className="flex-shrink-0 h-6 w-6 text-primary-600" aria-hidden="true" />
+                                                                        <div className="ml-4">
+                                                                            <p className="text-base font-medium text-gray-900">{navItem.name}</p>
+                                                                            {page ? (
+                                                                                <p className="mt-1 text-sm text-gray-500">{markdownToText(page.description)}</p>
+                                                                            ) : null}
+                                                                        </div>
+                                                                    </a>
+                                                                )
+                                                            })}
                                                         </div>
-                                                        {navigation.stakePoolOperation.readMore ? (
+                                                        {navigation.technical.readMore ? (
                                                             <div className="px-5 py-5 bg-gray-50 text-center sm:px-8">
-                                                                <Link href={navigation.stakePoolOperation.readMore.href}>
+                                                                <Link href={navigation.technical.readMore.href}>
                                                                     <a href="#" className="font-medium text-primary-600 hover:text-primary-500">
-                                                                        {navigation.stakePoolOperation.readMore.name} <span aria-hidden="true">&rarr;</span>
+                                                                        {navigation.technical.readMore.name} <span aria-hidden="true">&rarr;</span>
                                                                     </a>
                                                                 </Link>
                                                             </div>
@@ -356,11 +371,11 @@ export default function Header() {
                                         </nav>
                                     </div>
                                     <div className="mt-6 text-sm text-gray-500 uppercase">
-                                        {navigation.stakePoolOperation.name}
+                                        {navigation.technical.name}
                                     </div>
                                     <div className="mt-4">
                                         <nav className="grid gap-y-8">
-                                            {navigation.stakePoolOperation.navItems.map((navItem) => (
+                                            {navigation.technical.navItems.map((navItem) => (
                                                 <a
                                                     key={navItem.name}
                                                     href={navItem.href}

@@ -4,7 +4,7 @@ import Container from './Container'
 import Layout from './Layout'
 import Link from './Link'
 import pages from '../pages.json'
-import languages from '../tables/languages'
+import languages from '../languages.json'
 
 function PageList(props) {
 

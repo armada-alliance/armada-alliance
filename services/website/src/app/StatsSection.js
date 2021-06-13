@@ -1,8 +1,8 @@
 import DualColorText from './DualColorText'
-import TermTooltip from './TermTooltip'
+import PageTooltip from './PageTooltip'
 import Text from './Text'
-import toAda from './toAda'
 import AdaPrice from './AdaPrice'
+
 const getBlocksMinted = pools => pools.reduce((result, pool) => {
     return result + parseInt(pool.adapools.data.blocks_lifetime, 10)
 }, 0)
@@ -37,17 +37,17 @@ export default function StatsSection({ pools }) {
                             <dl className="rounded-lg bg-white shadow-lg sm:grid sm:grid-cols-3">
                                 <div className="flex flex-col border-b border-gray-100 p-6 text-center sm:border-0 sm:border-r">
                                     <dt className="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">
-                                        <TermTooltip id={'Block'}>
+                                        <PageTooltip slug={'/terms/block'}>
                                             <Text>Blocks minted</Text>
-                                        </TermTooltip>
+                                        </PageTooltip>
                                     </dt>
                                     <dd className="order-1 text-5xl font-extrabold text-primary-500">{getBlocksMinted(pools)}</dd>
                                 </div>
                                 <div className="flex flex-col border-t border-b border-gray-100 p-6 text-center sm:border-0 sm:border-l sm:border-r">
                                     <dt className="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">
-                                        <TermTooltip id={'Live stake'}>
+                                        <PageTooltip slug={'/terms/live-stake'}>
                                             <Text>Live stake</Text>
-                                        </TermTooltip>
+                                        </PageTooltip>
                                     </dt>
                                     <dd className="order-1 text-5xl font-extrabold text-primary-500">
                                         <AdaPrice
@@ -57,9 +57,9 @@ export default function StatsSection({ pools }) {
                                 </div>
                                 <div className="flex flex-col border-t border-gray-100 p-6 text-center sm:border-0 sm:border-l">
                                     <dt className="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">
-                                        <TermTooltip id={'Delegation'}>
+                                        <PageTooltip slug={'/terms/delegate'}>
                                             <Text>Delegators</Text>
-                                        </TermTooltip>
+                                        </PageTooltip>
                                     </dt>
                                     <dd className="order-1 text-5xl font-extrabold text-primary-500">{getDelegators(pools)}</dd>
                                 </div>

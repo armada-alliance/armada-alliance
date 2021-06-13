@@ -10,11 +10,14 @@ services:
 
   website:
     image: node:14
+    env_file:
+      - ./environment/website.development.env
     environment:
       - PORT=3000
     working_dir: /app
     volumes:
       - ./services/website:/app
+      - ./.git:/app/.git
     ports:
       - 3000:3000
     command: ./entrypoint.sh

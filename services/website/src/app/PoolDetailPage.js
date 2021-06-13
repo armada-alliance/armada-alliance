@@ -211,7 +211,8 @@ const getBlocks = feed => Object.keys(feed).reduce((result, epochNo) => {
 
 export default function Example(props) {
 
-    const { pool, stake, feed, devices, page } = props
+    const { page } = props
+    const { pool, stake, feed, devices } = page.props
 
     const delegators = getDelegators(stake)
     const blocks = getBlocks(feed)
