@@ -32,9 +32,9 @@ jobs:
         BLOCKFROST_PROJECT_ID: ${{ secrets.BLOCKFROST_PROJECT_ID }}
       run: |
         npm install
-        node generateAdapoolsJson.js
-        node generateData.js
-        node generatePages.js
+        node src/scripts/generateAdapoolsJson.js
+        node src/scripts/generateData.js
+        node src/scripts/generatePages.js
     - name: Commit files
       run: |
         git config --local user.name "${{ secrets.CI_USERNAME }}"
