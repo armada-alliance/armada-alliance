@@ -1,0 +1,210 @@
+{
+  "originalTitle": "Stake Pool",
+  "title": "Adaberry Pi — Stake Pool",
+  "template": "PoolDetailPage",
+  "language": "th",
+  "translateSlug": false,
+  "origin": "/stake-pool/33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4/assigned-slots",
+  "slug": "/th/stake-pool/33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4/assigned-slots",
+  "params": {
+    "poolId": "33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4",
+    "tab": "assigned-slots"
+  },
+  "props": {
+    "feed": {
+      "268": {
+        "1622199742": [
+          {
+            "type": "pool",
+            "pool": "33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4",
+            "pledge": 0,
+            "margin": 0.03,
+            "fee": 340000000,
+            "last_pledge": null,
+            "last_margin": null,
+            "last_fee": null,
+            "retiring": null
+          }
+        ],
+        "1622203512": [
+          {
+            "type": "delegation",
+            "addr": "stake1u8tnjc7xlc57vyzwp86mfrk4dvw7fxa7jatq77gv6lrypvqwh8d68",
+            "amount": 32090618059,
+            "reward": 0,
+            "pool": "33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4",
+            "last_pool": "16d216d074625d2dbb75c20948e4d9a1efe0fe79c4c915d4b5391de1"
+          }
+        ],
+        "1622247486": [
+          {
+            "type": "pool",
+            "pool": "33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4",
+            "pledge": 32000000000,
+            "margin": 0.03,
+            "fee": 340000000,
+            "last_pledge": 0,
+            "last_margin": 0.03,
+            "last_fee": 340000000,
+            "retiring": null
+          }
+        ]
+      },
+      "271": {
+        "1623394478": [
+          {
+            "type": "stake",
+            "addr": "stake1u8tnjc7xlc57vyzwp86mfrk4dvw7fxa7jatq77gv6lrypvqwh8d68",
+            "amount": 32150266882,
+            "last_amount": 32150438411
+          }
+        ],
+        "1623547464": [
+          {
+            "type": "stake",
+            "addr": "stake1u9fq0cufj6a7hslz5vzdl6e8hq6tkf3505dxee9l6s44a2gk9gfyz",
+            "amount": 2218272,
+            "last_amount": 2421085
+          },
+          {
+            "type": "pool",
+            "pool": "33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4",
+            "pledge": 32000000000,
+            "margin": 0.0314,
+            "fee": 340000000,
+            "last_pledge": 32000000000,
+            "last_margin": 0.03,
+            "last_fee": 340000000,
+            "retiring": null
+          }
+        ]
+      }
+    },
+    "stake": {
+      "stake1u8tnjc7xlc57vyzwp86mfrk4dvw7fxa7jatq77gv6lrypvqwh8d68": {
+        "epoch": 268,
+        "time": 1622203512,
+        "amount": 32150266882,
+        "reward": 0,
+        "owner": true
+      },
+      "stake1u9fq0cufj6a7hslz5vzdl6e8hq6tkf3505dxee9l6s44a2gk9gfyz": {
+        "epoch": 268,
+        "time": 1622199742,
+        "amount": 2218272,
+        "reward": 0,
+        "owner": true
+      }
+    },
+    "devices": [],
+    "pool": {
+      "id": "33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4",
+      "memberSince": "2021-06-12T18:10:25.000Z",
+      "name": "Adaberry Pi",
+      "description": "Delegate to our mission-driven Adaberry Pi Cardano stake pool and be rewarded for helping heal the environment and economy. 🥧 ( π ≈ 3.14 :: ₳ ≡ ∞ ) 😃",
+      "ticker": "00000",
+      "homepage": "https://adaberrypi.com",
+      "extended": {
+        "info": {
+          "url_png_icon_64x64": "https://adaberrypi.com/Adaberry-Pi-Stake-Pool-APSP-64x64.png",
+          "url_png_logo": "https://adaberrypi.com/Adaberry_Pi_Stake_Pool-APSP-1000x1000.png",
+          "location": "Arizona, USA",
+          "social": {
+            "twitter_handle": "AdaberryPi"
+          },
+          "about": {
+            "server": "Get rewarded for helping heal the environment and economy when you delegate your Cardano stake to our mission-driven Adaberry Pi Stake Pool. 🥧 ( π ≈ 3.14 :: ₳ ≡ ∞ ) 😃"
+          }
+        },
+        "my-pool-ids": {
+          "0": "33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4"
+        }
+      },
+      "addr": "pool1xdcg6kg0g4y3wqf92f8uh44urz06suglhff036k5yak2g0m8zlc",
+      "metadata": {
+        "name": "Adaberry Pi",
+        "description": "Delegate to our mission-driven Adaberry Pi Cardano stake pool and be rewarded for helping heal the environment and economy. 🥧 ( π ≈ 3.14 :: ₳ ≡ ∞ ) 😃",
+        "ticker": "00000",
+        "homepage": "https://adaberrypi.com",
+        "extended": "https://adaberrypi.com/ext.00000.json"
+      },
+      "icon": "/images/33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4.png",
+      "errors": [],
+      "relays": [
+        {
+          "ipv4": null,
+          "ipv6": null,
+          "dns": "relay1.adaberrypi.com",
+          "dns_srv": null,
+          "port": 3001
+        },
+        {
+          "ipv4": null,
+          "ipv6": null,
+          "dns": "relay2.adaberrypi.com",
+          "dns_srv": null,
+          "port": 3002
+        }
+      ],
+      "location": [
+        -111.422127989113,
+        34.2202611707
+      ],
+      "adapools": {
+        "created": "Fri, 28 May 2021 11:20:17 +0000",
+        "data": {
+          "id": "3589",
+          "pool_id": "33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4",
+          "pool_id_bech32": "pool1xdcg6kg0g4y3wqf92f8uh44urz06suglhff036k5yak2g0m8zlc",
+          "db_ticker": "APSP",
+          "db_name": "Adaberry Pi Stake Pool",
+          "db_url": "https://pool.adaberrypi.com",
+          "total_stake": "32152485154",
+          "rewards_epoch": "0",
+          "tax_ratio": "0.0314",
+          "tax_fix": "340000000",
+          "roa": "0",
+          "blocks_epoch": "0",
+          "blocks_lifetime": "0",
+          "blocks_est_lifetime": "0",
+          "stamp_strike": "0",
+          "hist_roa": "[{\"val\":null,\"time\":\"1623281415\",\"e\":262},{\"val\":null,\"time\":\"1623281415\",\"e\":263},{\"val\":null,\"time\":\"1623281415\",\"e\":264},{\"val\":null,\"time\":\"1623281415\",\"e\":265},{\"val\":null,\"time\":\"1623281415\",\"e\":266},{\"val\":\"0\",\"time\":\"1623281415\",\"e\":267},{\"val\":\"0\",\"time\":\"1623281415\",\"e\":268},{\"val\":\"0\",\"time\":\"1623281415\",\"e\":269}]",
+          "hist_bpe": "[{\"val\":\"0\",\"time\":\"1622413558\",\"e\":268},{\"val\":\"0\",\"time\":\"1622847911\",\"e\":269},{\"val\":\"0\",\"time\":\"1623277777\",\"e\":270}]",
+          "pledge": "32000000000",
+          "hash_id": "3586",
+          "ticker_orig": "APSP",
+          "metric": -418.09222496154,
+          "delegators": "2",
+          "pledged": "32152485154",
+          "roa_lifetime": "0",
+          "luck_lifetime": "0",
+          "group_basic": "SOLO",
+          "tax_ratio_old": "0.03",
+          "tax_fix_old": "340000000",
+          "tax_real": 21.382548539233,
+          "active_stake": "32116012809",
+          "active_blocks": "0",
+          "direct": false,
+          "saturated": 0.00050000797501235,
+          "patreon": 0,
+          "rank": 1629,
+          "handles": {
+            "tw": null,
+            "tg": null,
+            "fb": null,
+            "yt": null,
+            "tc": null,
+            "di": null,
+            "gh": null,
+            "icon": 0
+          },
+          "blocks_estimated": 0.03,
+          "stake_x_deleg": 16076242577,
+          "db_description": "Please delegate your Cardano stake to our mission-driven Adaberry Pi Stake Pool. 🥧 Be rewarded for helping heal the environment and economy. ( π ≈ 3.14 :: ₳ ≡ ∞ ) 😃",
+          "owners": "2"
+        },
+        "updated": "Sun, 13 Jun 2021 19:55:49 +0000"
+      }
+    }
+  }
+}

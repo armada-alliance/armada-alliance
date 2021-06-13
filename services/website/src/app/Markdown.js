@@ -1,5 +1,4 @@
 import React from 'react'
-import { css } from '@emotion/react'
 import ReactMarkdown from 'react-markdown'
 
 const Markdown = props => (
@@ -8,9 +7,6 @@ const Markdown = props => (
         components={{
             a: (props) => (
                 <a {...props} className="font-bold underline" />
-            ),
-            list: ({ children }) => (
-                <ul css={css`padding-left: 18px;`}>{children}</ul>
             )
         }}
     />
