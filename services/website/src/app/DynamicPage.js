@@ -10,6 +10,10 @@ export default function DynamicPage(props) {
 
     const template = templates[page.template]
 
+    if (!template || !template.component) {
+        throw new Error(`Template component for "${page.template}" not defined`)
+    }
+
     return (
         <Context.Provider value={{ page: page, language: page.language, translations: translations[page.language] }}>
             <Head>

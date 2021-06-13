@@ -201,7 +201,29 @@ async function main() {
                     name: 'Read more about stake pool operation',
                     href: '/resources/stake-pool-operation'
                 }
-            }
+            },
+            social: [
+                {
+                    name: 'GitHub',
+                    href: schema.about.github,
+                    icon: 'GitHubIcon',
+                },
+                {
+                    name: 'Discord',
+                    href: schema.about.discord,
+                    icon: 'DiscordIcon',
+                },
+                {
+                    name: 'Telegram',
+                    href: schema.about.telegram,
+                    icon: 'TelegramIcon',
+                },
+                {
+                    name: 'YouTube',
+                    href: schema.about.youtube,
+                    icon: 'YouTubeIcon',
+                },
+            ]
         }
     }
 

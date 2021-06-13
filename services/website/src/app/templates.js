@@ -3,11 +3,23 @@ import HomePage from "./HomePage";
 import TermsMainPage from "./TermsMainPage";
 import PoolsMainPage from "./PoolsMainPage";
 import PoolDetailPage from "./PoolDetailPage";
+import SitemapPage from "./SitemapPage";
+import BlogDetailPage from "./BlogDetailPage";
 import RoadmapPage from "./RoadmapPage";
+import TermDetailPage from "./TermDetailPage";
 import pools from "../pools_extended.json";
 import terms from "../tables/terms";
 
 const templates = {
+    SitemapPage: {
+        component: SitemapPage
+    },
+    BlogDetailPage: {
+        component: BlogDetailPage
+    },
+    TermDetailPage: {
+        component: TermDetailPage
+    },
     HomePage: {
         component: HomePage
     },

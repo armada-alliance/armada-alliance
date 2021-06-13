@@ -2,7 +2,7 @@
 template: BlogDetailPage
 title: What is [delegating](/en/terms/delegation.md)?
 keywords: ada, cardano, delegating ada, how to delegate, staking ada, staking
-authors: [Wael](https://piada.io)
+authors: "[Wael](https://piada.io)"
 ---
 
 # What is [delegating](/en/terms/delegation.md)?

@@ -94,16 +94,39 @@ function LanguageButton() {
 
                                         const alternatePage = pages.find(page => page.language === language.id && page.origin === ctx.page.origin)
 
+                                        const disabled = !alternatePage
+
+                                        const className = cx(
+                                            "-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 cursor-pointer",
+                                            disabled ? "bg-gray-50 cursor-not-allowed opacity-50" : null
+                                        )
+
+                                        const content = (
+                                            <>
+                                                <div className="flex-shrink-0 h-6 w-6 text-primary-600" aria-hidden="true">{language.icon}</div>
+                                                <div className="ml-1">
+                                                    <p className={cx(
+                                                        "text-base font-medium",
+                                                        language.id === ctx.language ? "text-primary-500" : "text-gray-900"
+                                                    )}>{language.name}</p>
+                                                </div>
+                                            </>
+                                        )
+
+                                        if (!alternatePage) {
+                                            return (
+                                                <div key={language.name} className={className}>
+                                                    {content}
+                                                </div>
+                                            )
+                                        }
+
                                         return (
-                                            <Link href={alternatePage.slug}>
+                                            <Link key={language.name} href={alternatePage.slug}>
                                                 <a
-                                                    key={language.name}
-                                                    className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 cursor-pointer"
+                                                    className={className}
                                                 >
-                                                    <div className="flex-shrink-0 h-6 w-6 text-primary-600" aria-hidden="true">{language.icon}</div>
-                                                    <div className="ml-1">
-                                                        <p className={cx("text-base font-medium", language.id === ctx.language ? "text-primary-500" : "text-gray-900")}>{language.name}</p>
-                                                    </div>
+                                                    {content}
                                                 </a>
                                             </Link>
                                         )

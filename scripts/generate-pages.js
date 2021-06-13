@@ -4,6 +4,8 @@ const compact = require('lodash/compact')
 const dashify = require('./dashify')
 dotenv.config()
 const translate = require('./translate')
+const readMarkdownPages = require('./read-markdown-pages')
+const generatePageObjects = require('./generatePageObjects')
 const pools = require('../services/website/src/pools_extended.json')
 const basePath = __dirname + "/.."
 const languages = [
@@ -36,6 +38,19 @@ const templates = [
     {
         id: 'TermsMainPage',
         title: 'Terminology',
+        getPages: (props) => {
+            return [
+                {
+                    ...props,
+                    origin: `${dashify(props.originalTitle)}`,
+                    slug: `${dashify(props.title)}`
+                }
+            ]
+        }
+    },
+    {
+        id: 'SitemapPage',
+        title: 'Sitemap',
         getPages: (props) => {
             return [
                 {
@@ -86,6 +101,7 @@ const templates = [
 
                     return {
                         ...props,
+                        title: `${pool.name} — ${props.originalTitle}`,
                         origin: `${slug}/${pool.id}${tab === 'about' ? '' : '/' + tab}`,
                         slug: `${dashify(props.translateSlug ? props.title : props.originalTitle)}/${pool.id}${tab === 'about' ? '' : '/' + tab}`,
                         params: {
@@ -133,6 +149,23 @@ async function main() {
             ]
         }
     }
+
+    const markdownPages = await readMarkdownPages()
+
+    pages = [
+        ...pages,
+        ...markdownPages
+    ]
+
+    pages = pages.filter(page => {
+        if (page.error) {
+            console.log('page has error', page)
+            return false
+        }
+        return true
+    })
+
+    await generatePageObjects(pages)
 
     await fs.writeFile(basePath + `/services/website/src/pages.json`, JSON.stringify(pages, null, 2))
 
