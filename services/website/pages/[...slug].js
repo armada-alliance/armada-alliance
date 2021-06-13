@@ -13,6 +13,10 @@ export async function getStaticProps(ctx) {
 
   const template = templates[page.template]
 
+  if (!template || !template.component) {
+    throw new Error(`Template component for "${page.template}" not defined`)
+  }
+
   const mergeProps = template.getProps ? await template.getProps(page) : {}
 
   return {

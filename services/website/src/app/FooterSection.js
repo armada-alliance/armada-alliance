@@ -4,6 +4,7 @@ import moment from 'moment'
 import lowerFirst from 'lodash/lowerFirst'
 import schema from '../schema'
 import pages from '../pages'
+import Link from './Link'
 
 function SubscribeForm() {
 
@@ -103,7 +104,7 @@ const navigation = {
         { name: 'Privacy', href: '#' },
         { name: 'Terms', href: '#' },
     ],
-    social: 
+    social: []
 }
 
 export default function Example() {
@@ -187,8 +188,13 @@ export default function Example() {
                             </a>
                         ))}
                     </div>
-                    <p className="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
-                        {moment().format('YYYY')} {schema.about.name} <span className="ml-2 text-xs text-gray-600 font-bold px-2 py-1 rounded-md bg-gray-50">{pages.length} pages generated {lowerFirst(moment(schema.createdAt).calendar())}</span>
+                    <p className="mt-8 flex items-center text-base text-gray-400 md:mt-0 md:order-1">
+                        <div>
+                            {moment().format('YYYY')} {schema.about.name}
+                        </div>
+                        <Link href={'/sitemap'}>
+                            <a target="_blank" className="ml-2 text-xs text-gray-600 font-bold px-2 py-1 rounded-md bg-gray-50 hover:bg-gray-100">{pages.length} pages generated {lowerFirst(moment(schema.createdAt).calendar())}</a>
+                        </Link>
                     </p>
                 </div>
             </div>
