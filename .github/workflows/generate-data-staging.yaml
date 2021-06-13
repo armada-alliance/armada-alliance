@@ -6,6 +6,7 @@ on:
   push:
     branches: [ staging ]
     paths-ignore:
+      - 'services/website/src/page-data'
       - 'services/website/src/adapools.json'
       - 'services/website/src/languages.json'
       - 'services/website/src/pages.json'
@@ -33,6 +34,7 @@ jobs:
         npm install
         node generateAdapoolsJson.js
         node generateData.js
+        node generatePages.js
     - name: Commit files
       run: |
         git config --local user.name "${{ secrets.CI_USERNAME }}"
