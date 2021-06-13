@@ -1,366 +1,228 @@
 [
   {
-    "id": "8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8",
-    "memberSince": "2021-04-18T13:57:07.000Z",
-    "name": "Sublayer Pool",
-    "description": "Providing marketing pages and educational content for stake pool operators.",
-    "ticker": "SBLYR",
-    "homepage": "https://pool.sublayer.io",
+    "id": "2730ca79a60b3b3f29b709bd39c21d66cb2c83e5441c479f755d0a3d",
+    "memberSince": "2021-06-13T19:59:54.000Z",
+    "name": "Armadillo",
+    "description": "Minimum fees, maximum reliability, helping to secure the Cardano blockchain",
+    "ticker": "AMDLO",
+    "homepage": "https://armadillo-pool.org",
     "extended": {
       "info": {
-        "url_png_icon_64x64": "https://cdn.sublayer.io/logo.png",
-        "url_png_logo": "https://cdn.sublayer.io/logo.png",
-        "location": "Sommelsdijk, The Netherlands",
+        "url_png_icon_64x64": "https://raw.githubusercontent.com/Zebra-Danio/meta/main/icon64.png",
+        "url_png_logo": "https://raw.githubusercontent.com/Zebra-Danio/meta/main/logo.png",
+        "location": "London, UK",
         "social": {
-          "twitter_handle": "sublayerio",
-          "youtube_handle": "channel/UCg488irL6TBwT5fFiCQVBzw"
+          "twitter_handle": "Armadillo_Pool",
+          "discord_handle": "Zebra Danio#2501",
+          "github_handle": "Zebra-Danio"
         },
-        "company": {
-          "name": "Sublayer"
+        "my-pool-ids": {
+          "0": "2730ca79a60b3b3f29b709bd39c21d66cb2c83e5441c479f755d0a3d"
         },
-        "about": {
-          "me": "Providing marketing pages and educational content for stake pool operators.",
-          "server": "Hosted on a Raspberry Pi, always online, 100MB up/down, solar energy. Margin stays 1%."
+        "when-satured-then-recommend": {
+          "0": "c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae",
+          "1": "2a748e3885f6f73320ad16a8331247b81fe01b8d39f57eec9caa5091"
         }
-      },
-      "adapools": "ed6d9672a5ea74667cb0ca867d7479fb",
-      "my-pool-ids": [
-        "8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8"
-      ],
-      "when-satured-then-recommend": [
-        "b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65"
-      ]
-    },
-    "addr": "pool1sfjdu0xmz7vdmp6cufxd55gprp95g4p703zzr3upt70dst0fur2",
-    "metadata": {
-      "name": "Sublayer Pool",
-      "description": "Providing marketing pages and educational content for stake pool operators.",
-      "ticker": "SBLYR",
-      "homepage": "https://pool.sublayer.io",
-      "extended": "https://cdn.sublayer.io/poolExtended.json"
-    },
-    "icon": "/images/8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8.png",
-    "errors": [],
-    "relays": [
-      {
-        "ipv4": null,
-        "ipv6": null,
-        "dns": "relaynode1.sublayer.io",
-        "dns_srv": null,
-        "port": 6001
       }
-    ],
-    "location": [
-      4.1531,
-      51.7547
-    ],
-    "adapools": {
-      "created": "Tue, 06 Apr 2021 21:55:16 +0000",
-      "data": {
-        "id": "3155",
-        "pool_id": "8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8",
-        "pool_id_bech32": "pool1sfjdu0xmz7vdmp6cufxd55gprp95g4p703zzr3upt70dst0fur2",
-        "db_ticker": "SBLYR",
-        "db_name": "Sublayer Pool",
-        "db_url": "https://pool.sublayer.io",
-        "total_stake": "42577845533",
-        "rewards_epoch": "270",
-        "tax_ratio": "0.01",
-        "tax_fix": "340000000",
-        "roa": "5",
-        "blocks_epoch": "0",
-        "blocks_lifetime": "4",
-        "blocks_est_lifetime": "0",
-        "stamp_strike": "0",
-        "hist_roa": "[{\"val\":\"0\",\"time\":\"1623281414\",\"e\":262},{\"val\":\"0\",\"time\":\"1623281414\",\"e\":263},{\"val\":\"0\",\"time\":\"1623281414\",\"e\":264},{\"val\":\"94.909\",\"time\":\"1623281414\",\"e\":265},{\"val\":\"54.646\",\"time\":\"1623281414\",\"e\":266},{\"val\":\"0\",\"time\":\"1623281414\",\"e\":267},{\"val\":\"0\",\"time\":\"1623281414\",\"e\":268},{\"val\":\"0\",\"time\":\"1623281414\",\"e\":269}]",
-        "hist_bpe": "[{\"val\":\"0\",\"time\":\"1619388984\",\"e\":261},{\"val\":\"0\",\"time\":\"1619820931\",\"e\":262},{\"val\":\"0\",\"time\":\"1620253148\",\"e\":263},{\"val\":\"0\",\"time\":\"1620685146\",\"e\":264},{\"val\":\"2\",\"time\":\"1621117432\",\"e\":265},{\"val\":\"1\",\"time\":\"1621551198\",\"e\":266},{\"val\":\"0\",\"time\":\"1621981470\",\"e\":267},{\"val\":\"0\",\"time\":\"1622413556\",\"e\":268},{\"val\":\"0\",\"time\":\"1622847909\",\"e\":269},{\"val\":\"1\",\"time\":\"1623277775\",\"e\":270}]",
-        "pledge": "25000000000",
-        "hash_id": "3152",
-        "ticker_orig": "SBLYR",
-        "metric": -347.67998980244,
-        "delegators": "12",
-        "pledged": "28272139509",
-        "roa_lifetime": "44.471",
-        "luck_lifetime": "869",
-        "group_basic": "SOLO",
-        "tax_ratio_old": "0.01",
-        "tax_fix_old": "340000000",
-        "tax_real": 18.429428121545,
-        "active_stake": "30258741206",
-        "active_blocks": "0",
-        "direct": true,
-        "saturated": 0.00066213427121963,
-        "patreon": 0,
-        "rank": 1185,
-        "handles": {
-          "tw": "sublayerio",
-          "tg": null,
-          "fb": null,
-          "yt": "channel/UCg488irL6TBwT5fFiCQVBzw",
-          "tc": null,
-          "di": null,
-          "gh": null,
-          "icon": "https://static.adapools.org/pool_logo/8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8.png"
-        },
-        "blocks_estimated": 0.03,
-        "stake_x_deleg": 3548153794.4167,
-        "db_description": "Providing marketing pages and educational content for stake pool operators.",
-        "owners": "3"
-      },
-      "updated": "Sun, 13 Jun 2021 19:55:35 +0000"
-    }
-  },
-  {
-    "id": "b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65",
-    "memberSince": "2021-04-18T18:01:32.000Z",
-    "name": "PIADA piada.io",
-    "description": "Stake pool education hub for Raspberry Pi and ARM 64-bit SoC based low power devices.",
-    "ticker": "PIADA",
-    "homepage": "https://piada.io",
-    "extended": {
-      "info": {
-        "url_png_icon_64x64": "https://piada.io/piada64.png",
-        "url_png_logo": "https://piada.io/piadaFull.png",
-        "location": "Virginia, USA",
-        "social": {
-          "twitter_handle": "StakePiada",
-          "telegram_handle": "piadapool",
-          "youtube_handle": "channel/UCligunhcmbMYaBUMvONsKwg",
-          "github_handle": "armada-alliance"
-        },
-        "company": {
-          "name": "PIADA",
-          "addr": "",
-          "city": "",
-          "country": "United States",
-          "company_id": "",
-          "vat_id": ""
-        },
-        "about": {
-          "me": "https://armada-alliance.gitbook.io/raspi-spo/",
-          "server": "3 x Raspberry Pi 4B 8GB",
-          "company": "piada.io is an education hub specializing in Raspberry Pi and ARM 64-bit SoC based stake pool operations."
-        },
-        "rss": ""
-      },
-      "telegram-admin-handle": {
-        "0": "eastpiada",
-        "1": "Qwailman"
-      },
-      "my-pool-ids": [
-        "b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65"
-      ],
-      "when-satured-then-recommend": [
-        "8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8"
-      ]
     },
-    "addr": "pool1hrv8gtrm0dgjg6zyss5uwa4nkruzfnh5vrdkr2sayj7x2nw6mjc",
+    "addr": "pool1yucv57dxpvan72dhpx7nnssavm9jeql9gswy08m4t59r6cshny6",
     "metadata": {
-      "name": "PIADA piada.io",
-      "description": "Stake pool education hub for Raspberry Pi and ARM 64-bit SoC based low power devices.",
-      "ticker": "PIADA",
-      "homepage": "https://piada.io",
-      "extended": "https://piada.io/piada.extended-metadata.json"
+      "name": "Armadillo",
+      "description": "Minimum fees, maximum reliability, helping to secure the Cardano blockchain",
+      "ticker": "AMDLO",
+      "homepage": "https://armadillo-pool.org",
+      "extended": "https://raw.githubusercontent.com/Zebra-Danio/meta/main/extendedPoolMetaData.json"
     },
-    "icon": "/images/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65.png",
+    "icon": "/images/2730ca79a60b3b3f29b709bd39c21d66cb2c83e5441c479f755d0a3d.png",
     "errors": [],
     "relays": [
       {
         "ipv4": null,
         "ipv6": null,
-        "dns": "east.piada.io",
+        "dns": "relay1.armadillo-pool.com",
         "dns_srv": null,
-        "port": 3000
+        "port": 3001
       },
       {
         "ipv4": null,
         "ipv6": null,
-        "dns": "east.piada.io",
+        "dns": "relay2.armadillo-pool.com",
         "dns_srv": null,
         "port": 3002
       }
     ],
     "location": [
-      -78.6190526172645,
-      37.677592044
+      -0.12764739999999997,
+      51.507321899999994
     ],
     "adapools": {
-      "created": "Mon, 15 Mar 2021 20:50:10 +0000",
+      "created": "Fri, 28 May 2021 17:35:19 +0000",
       "data": {
-        "id": "2844",
-        "pool_id": "b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65",
-        "pool_id_bech32": "pool1hrv8gtrm0dgjg6zyss5uwa4nkruzfnh5vrdkr2sayj7x2nw6mjc",
-        "db_ticker": "PIADA",
-        "db_name": "PIADA piada.io",
-        "db_url": "https://piada.io",
-        "total_stake": "65766663163",
-        "rewards_epoch": "267",
-        "tax_ratio": "0.015",
+        "id": "3593",
+        "pool_id": "2730ca79a60b3b3f29b709bd39c21d66cb2c83e5441c479f755d0a3d",
+        "pool_id_bech32": "pool1yucv57dxpvan72dhpx7nnssavm9jeql9gswy08m4t59r6cshny6",
+        "db_ticker": "AMDLO",
+        "db_name": "Armadillo",
+        "db_url": "https://armadillo-pool.org",
+        "total_stake": "9633182784",
+        "rewards_epoch": "0",
+        "tax_ratio": "0",
         "tax_fix": "340000000",
-        "roa": "2.5",
-        "blocks_epoch": "1",
-        "blocks_lifetime": "4",
+        "roa": "0",
+        "blocks_epoch": "0",
+        "blocks_lifetime": "0",
         "blocks_est_lifetime": "0",
         "stamp_strike": "0",
-        "hist_roa": "[{\"val\":\"0\",\"time\":\"1623281404\",\"e\":262},{\"val\":\"0\",\"time\":\"1623281404\",\"e\":263},{\"val\":\"0\",\"time\":\"1623281404\",\"e\":264},{\"val\":\"0\",\"time\":\"1623281404\",\"e\":265},{\"val\":\"0\",\"time\":\"1623281404\",\"e\":266},{\"val\":\"33.549\",\"time\":\"1623281404\",\"e\":267},{\"val\":\"0\",\"time\":\"1623281404\",\"e\":268},{\"val\":\"0\",\"time\":\"1623281404\",\"e\":269}]",
-        "hist_bpe": "[{\"val\":\"0\",\"time\":\"1619388925\",\"e\":261},{\"val\":\"0\",\"time\":\"1619820869\",\"e\":262},{\"val\":\"0\",\"time\":\"1620253088\",\"e\":263},{\"val\":\"0\",\"time\":\"1620685074\",\"e\":264},{\"val\":\"0\",\"time\":\"1621117356\",\"e\":265},{\"val\":\"0\",\"time\":\"1621551116\",\"e\":266},{\"val\":\"1\",\"time\":\"1621981380\",\"e\":267},{\"val\":\"0\",\"time\":\"1622413466\",\"e\":268},{\"val\":\"0\",\"time\":\"1622847811\",\"e\":269},{\"val\":\"0\",\"time\":\"1623277672\",\"e\":270}]",
-        "pledge": "52000000000",
-        "hash_id": "2841",
-        "ticker_orig": "PIADA",
-        "metric": -324.34854634373,
-        "delegators": "11",
-        "pledged": "52578003762",
-        "roa_lifetime": "8.115",
-        "luck_lifetime": "152",
+        "hist_roa": "[{\"val\":null,\"time\":\"1623281415\",\"e\":262},{\"val\":null,\"time\":\"1623281415\",\"e\":263},{\"val\":null,\"time\":\"1623281415\",\"e\":264},{\"val\":null,\"time\":\"1623281415\",\"e\":265},{\"val\":null,\"time\":\"1623281415\",\"e\":266},{\"val\":\"0\",\"time\":\"1623281415\",\"e\":267},{\"val\":\"0\",\"time\":\"1623281415\",\"e\":268},{\"val\":\"0\",\"time\":\"1623281415\",\"e\":269}]",
+        "hist_bpe": "[{\"val\":\"0\",\"time\":\"1622413558\",\"e\":268},{\"val\":\"0\",\"time\":\"1622847911\",\"e\":269},{\"val\":\"0\",\"time\":\"1623277777\",\"e\":270}]",
+        "pledge": "9500000000",
+        "hash_id": "3590",
+        "ticker_orig": "AMDLO",
+        "metric": -515.31497560487,
+        "delegators": "1",
+        "pledged": "9633182784",
+        "roa_lifetime": "0",
+        "luck_lifetime": "0",
         "group_basic": "SOLO",
-        "tax_ratio_old": null,
-        "tax_fix_old": null,
-        "tax_real": 19.117474474827,
-        "active_stake": "65772009125",
+        "tax_ratio_old": "0",
+        "tax_fix_old": "340000000",
+        "tax_real": 17.056856187291,
+        "active_stake": "9633182784",
         "active_blocks": "0",
         "direct": true,
-        "saturated": 0.001022746948298,
+        "saturated": 0.0001498070123064,
         "patreon": 0,
-        "rank": 1105,
+        "rank": 1848,
         "handles": {
-          "tw": "StakePiada",
-          "tg": "piadapool",
+          "tw": "Armadillo_Pool",
+          "tg": null,
           "fb": null,
-          "yt": "channel/UCligunhcmbMYaBUMvONsKwg",
+          "yt": null,
           "tc": null,
-          "di": null,
-          "gh": "armada-alliance",
-          "icon": "https://static.adapools.org/pool_logo/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65.png"
+          "di": "Zebra Danio#2501",
+          "gh": "Zebra-Danio",
+          "icon": "https://static.adapools.org/pool_logo/2730ca79a60b3b3f29b709bd39c21d66cb2c83e5441c479f755d0a3d.png"
         },
-        "blocks_estimated": 0.06,
-        "stake_x_deleg": 5978787560.2727,
-        "db_description": "Stake pool education hub for Raspberry Pi and ARM 64-bit SoC based low power devices.",
+        "blocks_estimated": 0.01,
+        "stake_x_deleg": 9633182784,
+        "db_description": "Minimum fees, maximum reliability, helping to secure the Cardano blockchain",
         "owners": "1"
       },
-      "updated": "Sun, 13 Jun 2021 19:55:33 +0000"
+      "updated": "Sun, 13 Jun 2021 20:05:52 +0000"
     }
   },
   {
-    "id": "c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae",
-    "memberSince": "2021-04-19T08:35:16.000Z",
-    "name": "🌟 Star Forge ⚡",
-    "description": "Off The Grid solar powered pool. 3.4 kWh homemade 18650 Tesla Powerwall & 3 Raspberry Pi @ under 13 watts. Teaching the next generation open source is the $PATH & DeFi is the future. Check out our project and please delegate if you can. Thank you!",
-    "ticker": "OTG",
-    "homepage": "https://adamantium.online",
+    "id": "33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4",
+    "memberSince": "2021-06-13T19:59:54.000Z",
+    "name": "Adaberry Pi",
+    "description": "Delegate to our mission-driven Adaberry Pi Cardano stake pool and be rewarded for helping heal the environment and economy. 🥧 ( π ≈ 3.14 :: ₳ ≡ ∞ ) 😃",
+    "ticker": "00000",
+    "homepage": "https://adaberrypi.com",
     "extended": {
       "info": {
-        "url_png_icon_64x64": "https://adamantium.online/images/sun.png",
-        "url_png_logo": "https://adamantium.online/images/sun.jpg",
-        "location": "New Hampshire, USA",
+        "url_png_icon_64x64": "https://adaberrypi.com/Adaberry-Pi-Stake-Pool-APSP-64x64.png",
+        "url_png_logo": "https://adaberrypi.com/Adaberry_Pi_Stake_Pool-APSP-1000x1000.png",
+        "location": "Arizona, USA",
         "social": {
-          "twitter_handle": "OTG_WCat",
-          "telegram_handle": "WCatz",
-          "discord_handle": "WCat#6737",
-          "github_handle": "wcatz"
+          "twitter_handle": "AdaberryPi"
         },
         "about": {
-          "me": "https://ada-pi.gitbook.io/raspi-spo/intermediate-guide/pi-pool-tutorial",
-          "server": "Mac M1 Mini native Linux! Raspberry Pi Relays, DIY Tesla powerwall, Starlink(coming soon), Off The Grid Solar Pool lest than 20 watts",
-          "company": "🌟 Star Forge ⚡"
-        },
-        "my-pool-ids": {
-          "0": "c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae"
-        },
-        "when-satured-then-recommend": {
-          "0": "1fd1a22c53e08de6bae42053ce40d5c0f7e0b52b33eb728867505a36",
-          "1": "2a748e3885f6f73320ad16a8331247b81fe01b8d39f57eec9caa5091"
+          "server": "Get rewarded for helping heal the environment and economy when you delegate your Cardano stake to our mission-driven Adaberry Pi Stake Pool. 🥧 ( π ≈ 3.14 :: ₳ ≡ ∞ ) 😃"
         }
+      },
+      "my-pool-ids": {
+        "0": "33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4"
       }
     },
-    "addr": "pool1eqj3dzpkcklc2r0v8pt8adrhrshq8m4zsev072ga7a52uj5wv5c",
+    "addr": "pool1xdcg6kg0g4y3wqf92f8uh44urz06suglhff036k5yak2g0m8zlc",
     "metadata": {
-      "name": "🌟 Star Forge ⚡",
-      "description": "Off The Grid solar powered pool. 3.4 kWh homemade 18650 Tesla Powerwall & 3 Raspberry Pi @ under 13 watts. Teaching the next generation open source is the $PATH & DeFi is the future. Check out our project and please delegate if you can. Thank you!",
-      "ticker": "OTG",
-      "homepage": "https://adamantium.online",
-      "extended": "https://adamantium.online/extendedPoolMetaData.json"
+      "name": "Adaberry Pi",
+      "description": "Delegate to our mission-driven Adaberry Pi Cardano stake pool and be rewarded for helping heal the environment and economy. 🥧 ( π ≈ 3.14 :: ₳ ≡ ∞ ) 😃",
+      "ticker": "00000",
+      "homepage": "https://adaberrypi.com",
+      "extended": "https://adaberrypi.com/ext.00000.json"
     },
-    "icon": "/images/c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae.png",
+    "icon": "/images/33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4.png",
     "errors": [],
     "relays": [
       {
         "ipv4": null,
         "ipv6": null,
-        "dns": "otg-relay-1.adamantium.online",
+        "dns": "relay1.adaberrypi.com",
         "dns_srv": null,
-        "port": 6001
+        "port": 3001
       },
       {
         "ipv4": null,
         "ipv6": null,
-        "dns": "otg-relay-2.adamantium.online",
+        "dns": "relay2.adaberrypi.com",
         "dns_srv": null,
-        "port": 6002
+        "port": 3002
       }
     ],
     "location": [
-      -71.5783054333969,
-      43.6898878153
+      -111.422127989113,
+      34.2202611707
     ],
     "adapools": {
-      "created": "Thu, 14 Jan 2021 21:33:11 +0000",
+      "created": "Fri, 28 May 2021 11:20:17 +0000",
       "data": {
-        "id": "1969",
-        "pool_id": "c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae",
-        "pool_id_bech32": "pool1eqj3dzpkcklc2r0v8pt8adrhrshq8m4zsev072ga7a52uj5wv5c",
-        "db_ticker": "OTG",
-        "db_name": " Star Forge ",
-        "db_url": "https://adamantium.online",
-        "total_stake": "16718998885395",
-        "rewards_epoch": "270",
-        "tax_ratio": "0.0125",
+        "id": "3589",
+        "pool_id": "33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4",
+        "pool_id_bech32": "pool1xdcg6kg0g4y3wqf92f8uh44urz06suglhff036k5yak2g0m8zlc",
+        "db_ticker": "APSP",
+        "db_name": "Adaberry Pi Stake Pool",
+        "db_url": "https://pool.adaberrypi.com",
+        "total_stake": "32152485154",
+        "rewards_epoch": "0",
+        "tax_ratio": "0.0314",
         "tax_fix": "340000000",
-        "roa": "5.141",
-        "blocks_epoch": "9",
-        "blocks_lifetime": "135",
-        "blocks_est_lifetime": "118",
+        "roa": "0",
+        "blocks_epoch": "0",
+        "blocks_lifetime": "0",
+        "blocks_est_lifetime": "0",
         "stamp_strike": "0",
-        "hist_roa": "[{\"val\":\"3.677\",\"time\":\"1623281411\",\"e\":262},{\"val\":\"0\",\"time\":\"1623281411\",\"e\":263},{\"val\":\"3.877\",\"time\":\"1623281411\",\"e\":264},{\"val\":\"6.827\",\"time\":\"1623281411\",\"e\":265},{\"val\":\"4.23\",\"time\":\"1623281411\",\"e\":266},{\"val\":\"3.486\",\"time\":\"1623281411\",\"e\":267},{\"val\":\"4.476\",\"time\":\"1623281411\",\"e\":268},{\"val\":\"7.947\",\"time\":\"1623281411\",\"e\":269}]",
-        "hist_bpe": "[{\"val\":\"0\",\"time\":\"1619388974\",\"e\":261},{\"val\":\"1\",\"time\":\"1619820921\",\"e\":262},{\"val\":\"0\",\"time\":\"1620253138\",\"e\":263},{\"val\":\"12\",\"time\":\"1620685134\",\"e\":264},{\"val\":\"21\",\"time\":\"1621117417\",\"e\":265},{\"val\":\"13\",\"time\":\"1621551184\",\"e\":266},{\"val\":\"11\",\"time\":\"1621981456\",\"e\":267},{\"val\":\"14\",\"time\":\"1622413541\",\"e\":268},{\"val\":\"25\",\"time\":\"1622847892\",\"e\":269},{\"val\":\"18\",\"time\":\"1623277759\",\"e\":270}]",
-        "pledge": "500000000000",
-        "hash_id": "1967",
-        "ticker_orig": "OTG",
-        "metric": 2845.8343040243,
-        "delegators": "30",
-        "pledged": "508132950670",
-        "roa_lifetime": "5.144",
-        "luck_lifetime": "101",
+        "hist_roa": "[{\"val\":null,\"time\":\"1623281415\",\"e\":262},{\"val\":null,\"time\":\"1623281415\",\"e\":263},{\"val\":null,\"time\":\"1623281415\",\"e\":264},{\"val\":null,\"time\":\"1623281415\",\"e\":265},{\"val\":null,\"time\":\"1623281415\",\"e\":266},{\"val\":\"0\",\"time\":\"1623281415\",\"e\":267},{\"val\":\"0\",\"time\":\"1623281415\",\"e\":268},{\"val\":\"0\",\"time\":\"1623281415\",\"e\":269}]",
+        "hist_bpe": "[{\"val\":\"0\",\"time\":\"1622413558\",\"e\":268},{\"val\":\"0\",\"time\":\"1622847911\",\"e\":269},{\"val\":\"0\",\"time\":\"1623277777\",\"e\":270}]",
+        "pledge": "32000000000",
+        "hash_id": "3586",
+        "ticker_orig": "APSP",
+        "metric": -418.09222496154,
+        "delegators": "2",
+        "pledged": "32152485154",
+        "roa_lifetime": "0",
+        "luck_lifetime": "0",
         "group_basic": "SOLO",
-        "tax_ratio_old": null,
-        "tax_fix_old": null,
-        "tax_real": 4.003311294245,
-        "active_stake": "16693426202151",
-        "active_blocks": "25",
+        "tax_ratio_old": "0.03",
+        "tax_fix_old": "340000000",
+        "tax_real": 21.382548539233,
+        "active_stake": "32116012809",
+        "active_blocks": "0",
         "direct": false,
-        "saturated": 0.25999958438298,
+        "saturated": 0.00050000792543318,
         "patreon": 0,
-        "rank": 319,
+        "rank": 1629,
         "handles": {
-          "tw": "OTG_WCat",
-          "tg": "WCatz",
+          "tw": null,
+          "tg": null,
           "fb": null,
           "yt": null,
           "tc": null,
-          "di": "WCat#6737",
-          "gh": "wcatz",
-          "icon": "https://static.adapools.org/pool_logo/c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae.png"
+          "di": null,
+          "gh": null,
+          "icon": 0
         },
-        "blocks_estimated": 15.7,
-        "stake_x_deleg": 557299962846.5,
-        "db_description": "Off The Grid solar powered pool. 3.4 kWh homemade 18650 Tesla Powerwall &amp; 3 Raspberry Pi @ under 13 watts. Teaching the next generation open source is the $PATH &amp; DeFi is the future. Check out our project and please delegate if you can. Thank you!",
-        "owners": "1"
+        "blocks_estimated": 0.03,
+        "stake_x_deleg": 16076242577,
+        "db_description": "Please delegate your Cardano stake to our mission-driven Adaberry Pi Stake Pool. 🥧 Be rewarded for helping heal the environment and economy. ( π ≈ 3.14 :: ₳ ≡ ∞ ) 😃",
+        "owners": "2"
       },
-      "updated": "Sun, 13 Jun 2021 19:55:12 +0000"
+      "updated": "Sun, 13 Jun 2021 20:05:43 +0000"
     }
   },
   {
     "id": "2a748e3885f6f73320ad16a8331247b81fe01b8d39f57eec9caa5091",
-    "memberSince": "2021-04-21T02:27:29.000Z",
+    "memberSince": "2021-06-13T19:59:54.000Z",
     "name": "Berry",
     "ticker": "BERRY",
     "description": "Decentralizing Cardano in the most beautiful way - Let's shape the future together!",
@@ -466,7 +328,7 @@
         "active_stake": "2323593379823",
         "active_blocks": "0",
         "direct": true,
-        "saturated": 0.036205217192418,
+        "saturated": 0.036205213602426,
         "patreon": 0,
         "rank": 564,
         "handles": {
@@ -484,341 +346,310 @@
         "db_description": "Decentralizing Cardano in the most beautiful way - Let's shape the future together!",
         "owners": "2"
       },
-      "updated": "Sun, 13 Jun 2021 19:55:24 +0000"
+      "updated": "Sun, 13 Jun 2021 20:05:25 +0000"
     }
   },
   {
-    "id": "76c5c707afe9a824bd946d32ec99959ae05f8bf0e8290def11e03a42",
-    "memberSince": "2021-04-25T10:10:42.000Z",
-    "name": "Raspberry",
-    "description": "Raspberry Pi Pool",
-    "ticker": "RPI",
-    "homepage": "https://raspberryrpi.com/",
+    "id": "052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e",
+    "memberSince": "2021-06-13T19:59:54.000Z",
+    "name": "Behemoth",
+    "description": "Towards sustainable and decentralized Cardano.",
+    "ticker": "BHMT",
+    "homepage": "https://www.behemothpool.com",
     "extended": {
       "info": {
-        "url_png_icon_64x64": "https://raspberryrpi.com/wp-content/uploads/2021/05/RPI-Logo-Nederlandse-stakepool-e1621180854953.png",
-        "url_png_logo": "https://raspberryrpi.com/wp-content/uploads/2021/05/RPI-Logo-Nederlandse-stakepool-e1621180854953.png",
-        "location": "Utrecht, The Netherlands",
+        "url_png_icon_64x64": "https://behemothpool.files.wordpress.com/2021/05/bhmt_icon_64x64-5.png",
+        "location": "Kaarina, Finland",
         "social": {
-          "twitter_handle": "Stakepool_RPI",
-          "telegram_handle": "thyesMB",
-          "facebook_handle": "",
-          "youtube_handle": "",
-          "twitch_handle": "",
-          "discord_handle": "",
-          "github_handle": ""
-        },
-        "company": {
-          "name": "",
-          "addr": "",
-          "city": "Utrecht",
-          "country": "The Netherlands",
-          "company_id": "",
-          "vat_id": ""
+          "twitter_handle": "Behemothpool",
+          "telegram_handle": "behemothpool",
+          "github_handle": "rakalto"
         },
         "about": {
-          "me": "A Dutch stake pool operator who joined the Cardano blockchain in March 2021 with the 'Raspberry Pi Pool' stake pool",
-          "server": "Raspberry Pi Hosted at my Home in Utrecht 100MB up/down.",
-          "company": ""
-        }
-      },
-      "my-pool-ids": {
-        "0": "76c5c707afe9a824bd946d32ec99959ae05f8bf0e8290def11e03a42",
-        "1": ""
-      },
-      "when-satured-then-recommend": {
-        "0": "",
-        "1": ""
-      },
-      "telegram-admin-handle": {
-        "0": "thyesMB"
-      },
-      "adapools_ext": {
-        "prometheus": {
-          "0": {
-            "name": "",
-            "type": "",
-            "key": ""
-          },
-          "1": {
-            "name": "",
-            "type": "",
-            "key": ""
-          },
-          "2": {
-            "name": "",
-            "type": "",
-            "key": ""
+          "server": "Raspberry Pi Hosted at my home in Kaarina, Finland."
+        },
+        "my-pool-ids": {
+          "0": "052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e"
+        },
+        "adapools_ext": {
+          "prometheus": {
+            "0": {
+              "name": "relay 1 fi",
+              "type": "relay",
+              "key": "3f62526309ac1417217fad14d9caffca"
+            }
           }
         }
       }
     },
-    "addr": "pool1wmzuwpa0ax5zf0v5d5ewexv4nts9lzlsaq5smmc3uqayym8muef",
+    "addr": "pool1q5h54ekx7wwqpfz78y8dppyl6uv7rpyvvr8nhf4es434un4mpx3",
     "metadata": {
-      "name": "Raspberry",
-      "description": "Raspberry Pi Pool",
-      "ticker": "RPI",
-      "homepage": "https://raspberryrpi.com/",
-      "extended": "https://raw.githubusercontent.com/thyes-MB/RPI/599cd3753740ee899ca4a80f2fa64c98ce9006b1/extended-RPI.json"
+      "name": "Behemoth",
+      "description": "Towards sustainable and decentralized Cardano.",
+      "ticker": "BHMT",
+      "homepage": "https://www.behemothpool.com",
+      "extended": "https://raw.githubusercontent.com/rakalto/Extended-meta/main/meta.json"
     },
-    "icon": "/images/76c5c707afe9a824bd946d32ec99959ae05f8bf0e8290def11e03a42.png",
+    "icon": "/images/052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e.png",
     "errors": [],
     "relays": [
       {
-        "ipv4": null,
+        "ipv4": "176.93.21.218",
         "ipv6": null,
-        "dns": "81.206.174.48",
+        "dns": null,
         "dns_srv": null,
-        "port": 6001
+        "port": 6000
       }
     ],
     "location": [
-      5.11556,
-      52.08889
+      22.37222,
+      60.40694
     ],
     "adapools": {
-      "created": "Thu, 11 Mar 2021 21:35:13 +0000",
+      "created": "Mon, 10 May 2021 18:50:15 +0000",
       "data": {
-        "id": "2681",
-        "pool_id": "76c5c707afe9a824bd946d32ec99959ae05f8bf0e8290def11e03a42",
-        "pool_id_bech32": "pool1wmzuwpa0ax5zf0v5d5ewexv4nts9lzlsaq5smmc3uqayym8muef",
-        "db_ticker": "RPI",
-        "db_name": "Raspberry",
-        "db_url": "https://raspberryrpi.com/",
-        "total_stake": "74008959302",
+        "id": "3016",
+        "pool_id": "052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e",
+        "pool_id_bech32": "pool1q5h54ekx7wwqpfz78y8dppyl6uv7rpyvvr8nhf4es434un4mpx3",
+        "db_ticker": "BHMT",
+        "db_name": "Behemoth",
+        "db_url": "https://www.behemothpool.com",
+        "total_stake": "863774317",
         "rewards_epoch": "0",
-        "tax_ratio": "0.01",
-        "tax_fix": "340000000",
+        "tax_ratio": "0",
+        "tax_fix": "345000000",
         "roa": "0",
         "blocks_epoch": "0",
         "blocks_lifetime": "0",
         "blocks_est_lifetime": "0",
         "stamp_strike": "0",
-        "hist_roa": "[{\"val\":\"0\",\"time\":\"1623281413\",\"e\":262},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":263},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":264},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":265},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":266},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":267},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":268},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":269}]",
-        "hist_bpe": "[{\"val\":\"0\",\"time\":\"1619388981\",\"e\":261},{\"val\":\"0\",\"time\":\"1619820929\",\"e\":262},{\"val\":\"0\",\"time\":\"1620253146\",\"e\":263},{\"val\":\"0\",\"time\":\"1620685143\",\"e\":264},{\"val\":\"0\",\"time\":\"1621117427\",\"e\":265},{\"val\":\"0\",\"time\":\"1621551194\",\"e\":266},{\"val\":\"0\",\"time\":\"1621981467\",\"e\":267},{\"val\":\"0\",\"time\":\"1622413553\",\"e\":268},{\"val\":\"0\",\"time\":\"1622847905\",\"e\":269},{\"val\":\"0\",\"time\":\"1623277772\",\"e\":270}]",
-        "pledge": "74000000000",
-        "hash_id": "2678",
-        "ticker_orig": "RPI",
-        "metric": -388.65944827744,
-        "delegators": "2",
-        "pledged": "74008959302",
+        "hist_roa": "[{\"val\":\"0\",\"time\":\"1623281414\",\"e\":262},{\"val\":\"0\",\"time\":\"1623281414\",\"e\":263},{\"val\":\"0\",\"time\":\"1623281414\",\"e\":264},{\"val\":\"0\",\"time\":\"1623281414\",\"e\":265},{\"val\":\"0\",\"time\":\"1623281414\",\"e\":266},{\"val\":\"0\",\"time\":\"1623281414\",\"e\":267},{\"val\":\"0\",\"time\":\"1623281414\",\"e\":268},{\"val\":\"0\",\"time\":\"1623281414\",\"e\":269}]",
+        "hist_bpe": "[{\"val\":\"0\",\"time\":\"1619388983\",\"e\":261},{\"val\":\"0\",\"time\":\"1619820930\",\"e\":262},{\"val\":\"0\",\"time\":\"1620253147\",\"e\":263},{\"val\":\"0\",\"time\":\"1620685145\",\"e\":264},{\"val\":\"0\",\"time\":\"1621117430\",\"e\":265},{\"val\":\"0\",\"time\":\"1621551196\",\"e\":266},{\"val\":\"0\",\"time\":\"1621981469\",\"e\":267},{\"val\":\"0\",\"time\":\"1622413555\",\"e\":268},{\"val\":\"0\",\"time\":\"1622847908\",\"e\":269},{\"val\":\"0\",\"time\":\"1623277774\",\"e\":270}]",
+        "pledge": "50000000",
+        "hash_id": "3013",
+        "ticker_orig": "BHMT",
+        "metric": -405.61004509669,
+        "delegators": "3",
+        "pledged": "145881389",
         "roa_lifetime": "0",
         "luck_lifetime": "0",
         "group_basic": "SOLO",
-        "tax_ratio_old": "0.01",
-        "tax_fix_old": "340000000",
-        "tax_real": 18.429428121545,
-        "active_stake": "74009268846",
+        "tax_ratio_old": null,
+        "tax_fix_old": null,
+        "tax_real": 17.351215423303,
+        "active_stake": "863774317",
         "active_blocks": "0",
         "direct": true,
-        "saturated": 0.0011509240948599,
+        "saturated": 0.000013432678756152,
         "patreon": 0,
-        "rank": 1456,
+        "rank": 1596,
         "handles": {
-          "tw": "Stakepool_RPI",
-          "tg": "thyesMB",
-          "fb": "",
-          "yt": "",
-          "tc": "",
-          "di": "",
-          "gh": "",
-          "icon": "https://static.adapools.org/pool_logo/76c5c707afe9a824bd946d32ec99959ae05f8bf0e8290def11e03a42.png"
-        },
-        "blocks_estimated": 0.07,
-        "stake_x_deleg": 37004479651,
-        "db_description": "Raspberry Pi Pool",
-        "owners": "3"
-      },
-      "updated": "Sun, 13 Jun 2021 19:55:41 +0000"
-    }
-  },
-  {
-    "id": "9728b10a926c048af938e5c52053319db5be921e8b698842c3afd3cc",
-    "memberSince": "2021-04-27T00:27:47.000Z",
-    "name": "SOLAR Raspberry PI",
-    "ticker": "SOLRP",
-    "description": "Our goal is to create a fully solar powered raspberry pi for cardano staking",
-    "homepage": "https://solarcardano.com/",
-    "nonce": "1623102206",
-    "extended": {
-      "info": {
-        "url_png_icon_64x64": "https://solarcardano.com/icon.png",
-        "location": "Texas, USA",
-        "social": {
-          "telegram_handle": "solrp_ada_pool",
-          "github_handle": "canad1an",
-          "twitter_handle": "SOLRP_StakePool"
-        },
-        "about": {
-          "me": "Single Pool Operator",
-          "server": "Raspberry Pi Producer + Raspberry 2 Pi Relay located in Fort Worth Texas, USA running 500gb ssd all solar powered with very low energy draw."
-        },
-        "my-pool-ids": {
-          "0": "9728b10a926c048af938e5c52053319db5be921e8b698842c3afd3cc"
-        },
-        "when-satured-then-recommend": {
-          "0": "Small pools - support Decentralization"
-        }
-      }
-    },
-    "addr": "pool1ju5tzz5jdszg47fcuhzjq5e3nk6mays73d5csskr4lfucg397c3",
-    "metadata": {
-      "name": "SOLAR Raspberry PI",
-      "ticker": "SOLRP",
-      "description": "Our goal is to create a fully solar powered raspberry pi for cardano staking",
-      "homepage": "https://solarcardano.com/",
-      "nonce": "1623102206",
-      "extended": "https://solarcardano.com/ext_metadata.json"
-    },
-    "icon": "/ship-420.png",
-    "errors": [
-      "could not fetch extended metadata at: https://solarcardano.com/ext_metadata.json"
-    ],
-    "relays": [
-      {
-        "ipv4": "75.32.204.221",
-        "ipv6": null,
-        "dns": null,
-        "dns_srv": null,
-        "port": 6001
-      },
-      {
-        "ipv4": "75.32.204.221",
-        "ipv6": null,
-        "dns": null,
-        "dns_srv": null,
-        "port": 6002
-      }
-    ],
-    "location": [
-      -98.8223185136653,
-      31.8039734986
-    ],
-    "adapools": {
-      "created": "Fri, 26 Feb 2021 18:40:09 +0000",
-      "data": {
-        "id": "2448",
-        "pool_id": "9728b10a926c048af938e5c52053319db5be921e8b698842c3afd3cc",
-        "pool_id_bech32": "pool1ju5tzz5jdszg47fcuhzjq5e3nk6mays73d5csskr4lfucg397c3",
-        "db_ticker": "SOLRP",
-        "db_name": "SOLAR Raspberry PI",
-        "db_url": "https://solarcardano.com/",
-        "total_stake": "3453521586276",
-        "rewards_epoch": "268",
-        "tax_ratio": "0.01",
-        "tax_fix": "340000000",
-        "roa": "2.5",
-        "blocks_epoch": "5",
-        "blocks_lifetime": "1",
-        "blocks_est_lifetime": "0",
-        "stamp_strike": "0",
-        "hist_roa": "[{\"val\":\"0\",\"time\":\"1623281412\",\"e\":262},{\"val\":\"0\",\"time\":\"1623281412\",\"e\":263},{\"val\":\"0\",\"time\":\"1623281412\",\"e\":264},{\"val\":\"0\",\"time\":\"1623281412\",\"e\":265},{\"val\":\"0\",\"time\":\"1623281412\",\"e\":266},{\"val\":\"0\",\"time\":\"1623281412\",\"e\":267},{\"val\":\"527.152\",\"time\":\"1623281412\",\"e\":268},{\"val\":\"0\",\"time\":\"1623281412\",\"e\":269}]",
-        "hist_bpe": "[{\"val\":\"0\",\"time\":\"1619388979\",\"e\":261},{\"val\":\"0\",\"time\":\"1619820927\",\"e\":262},{\"val\":\"0\",\"time\":\"1620253144\",\"e\":263},{\"val\":\"0\",\"time\":\"1620685141\",\"e\":264},{\"val\":\"0\",\"time\":\"1621117425\",\"e\":265},{\"val\":\"0\",\"time\":\"1621551192\",\"e\":266},{\"val\":\"0\",\"time\":\"1621981465\",\"e\":267},{\"val\":\"1\",\"time\":\"1622413550\",\"e\":268},{\"val\":\"0\",\"time\":\"1622847902\",\"e\":269},{\"val\":\"0\",\"time\":\"1623277770\",\"e\":270}]",
-        "pledge": "8000000000",
-        "hash_id": "2445",
-        "ticker_orig": "SOLRP",
-        "metric": 65.575000996274,
-        "delegators": "16",
-        "pledged": "8000692982",
-        "roa_lifetime": "33.902",
-        "luck_lifetime": "643",
-        "group_basic": "SOLO",
-        "tax_ratio_old": "0.01",
-        "tax_fix_old": "340000000",
-        "tax_real": 15.8050580252,
-        "active_stake": "3150946063724",
-        "active_blocks": "0",
-        "direct": true,
-        "saturated": 0.053706216696611,
-        "patreon": 0,
-        "rank": 776,
-        "handles": {
-          "tw": "SOLRP_StakePool",
-          "tg": "solrp_ada_pool",
+          "tw": "Behemothpool",
+          "tg": "behemothpool",
           "fb": null,
           "yt": null,
           "tc": null,
           "di": null,
-          "gh": "canad1an",
-          "icon": "https://static.adapools.org/pool_logo/9728b10a926c048af938e5c52053319db5be921e8b698842c3afd3cc.png"
+          "gh": "rakalto",
+          "icon": "https://static.adapools.org/pool_logo/052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e.png"
         },
-        "blocks_estimated": 3,
-        "stake_x_deleg": 215845099142.25,
-        "db_description": "Our goal is to create a fully solar powered raspberry pi for cardano staking",
-        "owners": "2"
+        "blocks_estimated": 0,
+        "stake_x_deleg": 287924772.33333,
+        "db_description": "Towards sustainable and decentralized Cardano.",
+        "owners": "1"
       },
-      "updated": "Sun, 13 Jun 2021 19:55:29 +0000"
+      "updated": "Sun, 13 Jun 2021 20:05:42 +0000"
     }
   },
   {
-    "id": "351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8",
-    "memberSince": "2021-04-28T15:43:30.000Z",
-    "name": "Quixote Dream Pool",
-    "ticker": "QXT",
-    "description": "Dream the impossible dream like Quixote! Support Tech Projects in La Mancha, one of the most under-developed Regions in Europe",
-    "homepage": "https://quixote.systems",
-    "extended": {
-      "info": {
-        "url_png_icon_64x64": "https://quixote.systems/iconoQuixote.png",
-        "location": "Toledo, Spain",
-        "social": {
-          "telegram_handle": "QuixotePool",
-          "twitter_handle": "QuixotePool",
-          "github_handle": "quixotesystems",
-          "instagram_handle": "quixotepool"
-        },
-        "about": {
-          "me": "Single Pool Operator",
-          "server": "Raspberry Pi Producer + Raspberry Pi Relay located in Toledo (Spain) with UPS and FTTx | HW configuration of each Raspberry Pi <CPU:RPi|RAM:8G|SSD:240G"
-        },
-        "my-pool-ids": {
-          "0": "351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8"
-        },
-        "when-satured-then-recommend": {
-          "0": "Small pools - support Decentralization"
-        }
-      }
-    },
-    "addr": "pool1x5dfpgp987e4jhxvgczr3wv50nv2pwd873tlx3uthvcasm422q6",
+    "id": "97aaa4621cffb87c3e8380376406cc9501d6c9e1cbb459e17cd60602",
+    "memberSince": "2021-06-13T19:59:54.000Z",
+    "name": "BONE pool",
+    "description": "Our aim is to promote decentralization, one small bone in the skeleton supporting the future",
+    "ticker": "BONE",
+    "homepage": "https://poolbone.github.io/meta/",
+    "addr": "pool1j742gcsul7u8c05rsqmkgpkvj5qadj0pew69nctu6crqy9wjjn4",
     "metadata": {
-      "name": "Quixote Dream Pool",
-      "ticker": "QXT",
-      "description": "Dream the impossible dream like Quixote! Support Tech Projects in La Mancha, one of the most under-developed Regions in Europe",
-      "homepage": "https://quixote.systems",
-      "extended": "https://quixote.systems/ext_metadata.json"
+      "name": "BONE pool",
+      "description": "Our aim is to promote decentralization, one small bone in the skeleton supporting the future",
+      "ticker": "BONE",
+      "homepage": "https://poolbone.github.io/meta/"
     },
-    "icon": "/images/351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8.png",
+    "icon": "/ship-420.png",
     "errors": [],
     "relays": [
       {
         "ipv4": null,
         "ipv6": null,
-        "dns": "80.24.134.251",
+        "dns": "metallov.duckdns.org",
         "dns_srv": null,
-        "port": 6000
+        "port": 8682
       },
       {
         "ipv4": null,
         "ipv6": null,
-        "dns": "80.24.134.251",
+        "dns": "metallov.duckdns.org",
         "dns_srv": null,
-        "port": 6001
+        "port": 8683
+      },
+      {
+        "ipv4": null,
+        "ipv6": null,
+        "dns": "metallov.duckdns.org",
+        "dns_srv": null,
+        "port": 8684
+      }
+    ],
+    "adapools": {
+      "created": "Tue, 09 Mar 2021 17:05:09 +0000",
+      "data": {
+        "id": "2723",
+        "pool_id": "97aaa4621cffb87c3e8380376406cc9501d6c9e1cbb459e17cd60602",
+        "pool_id_bech32": "pool1j742gcsul7u8c05rsqmkgpkvj5qadj0pew69nctu6crqy9wjjn4",
+        "db_ticker": "BONE",
+        "db_name": "BONE pool",
+        "db_url": "https://poolbone.github.io/meta/",
+        "total_stake": "161318367850",
+        "rewards_epoch": "270",
+        "tax_ratio": "0.01",
+        "tax_fix": "340000000",
+        "roa": "2.5",
+        "blocks_epoch": "1",
+        "blocks_lifetime": "4",
+        "blocks_est_lifetime": "0",
+        "stamp_strike": "0",
+        "hist_roa": "[{\"val\":\"0\",\"time\":\"1623281413\",\"e\":262},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":263},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":264},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":265},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":266},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":267},{\"val\":\"67.657\",\"time\":\"1623281413\",\"e\":268},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":269}]",
+        "hist_bpe": "[{\"val\":\"0\",\"time\":\"1619388981\",\"e\":261},{\"val\":\"0\",\"time\":\"1619820929\",\"e\":262},{\"val\":\"0\",\"time\":\"1620253146\",\"e\":263},{\"val\":\"0\",\"time\":\"1620685143\",\"e\":264},{\"val\":\"0\",\"time\":\"1621117428\",\"e\":265},{\"val\":\"0\",\"time\":\"1621551195\",\"e\":266},{\"val\":\"0\",\"time\":\"1621981467\",\"e\":267},{\"val\":\"2\",\"time\":\"1622413553\",\"e\":268},{\"val\":\"0\",\"time\":\"1622847905\",\"e\":269},{\"val\":\"1\",\"time\":\"1623277773\",\"e\":270}]",
+        "pledge": "52000000000",
+        "hash_id": "2720",
+        "ticker_orig": "BONE",
+        "metric": -230.76964276867,
+        "delegators": "11",
+        "pledged": "59074661193",
+        "roa_lifetime": "6.476",
+        "luck_lifetime": "126",
+        "group_basic": "SOLO",
+        "tax_ratio_old": null,
+        "tax_fix_old": null,
+        "tax_real": 18.429428121545,
+        "active_stake": "211729000820",
+        "active_blocks": "0",
+        "direct": true,
+        "saturated": 0.0025086851624877,
+        "patreon": 0,
+        "rank": 956,
+        "handles": {
+          "tw": null,
+          "tg": null,
+          "fb": null,
+          "yt": null,
+          "tc": null,
+          "di": null,
+          "gh": null,
+          "icon": 0
+        },
+        "blocks_estimated": 0.2,
+        "stake_x_deleg": 14665306168.182,
+        "db_description": "Our aim is to promote decentralization, one small bone in the skeleton supporting the future",
+        "owners": "1"
+      },
+      "updated": "Sun, 13 Jun 2021 20:05:31 +0000"
+    }
+  },
+  {
+    "id": "96155e7994343ae2b5da83d895cbab3c21838f95c3f971c8e20ee3c8",
+    "memberSince": "2021-06-13T19:59:54.000Z",
+    "name": "Halo Stake Pool",
+    "ticker": "HALO",
+    "description": "Sustainable decentralization with new single pool. Always low fees on a Raspberry Pi cluster! 😇",
+    "homepage": "https://www.halostake.com",
+    "extended": {
+      "info": {
+        "url_png_icon_64x64": "https://raw.githubusercontent.com/reignxx/m/master/halostakeclean_64px.png",
+        "url_png_logo": "https://raw.githubusercontent.com/reignxx/m/master/halostakeclean_small.png",
+        "location": "Omaha, Nebraska",
+        "social": {
+          "twitter_handle": "",
+          "telegram_handle": "https://t.me/HALOSTAKEPOOL",
+          "facebook_handle": "",
+          "youtube_handle": "",
+          "twitch_handle": "",
+          "discord_handle": "https://discord.gg/U93B6XCr6Z",
+          "github_handle": "reignxx"
+        },
+        "company": {
+          "name": "",
+          "addr": "",
+          "city": "",
+          "country": "",
+          "company_id": "",
+          "vat_id": ""
+        },
+        "about": {
+          "me": "",
+          "server": "Raspberry Pi Cluster hosted on dedicated connection. Super fast 99.9% uptime.",
+          "company": ""
+        }
+      },
+      "my-pool-ids": {
+        "0": "96155e7994343ae2b5da83d895cbab3c21838f95c3f971c8e20ee3c8"
+      },
+      "when-satured-then-recommend": {
+        "0": "96155e7994343ae2b5da83d895cbab3c21838f95c3f971c8e20ee3c8"
+      },
+      "telegram-admin-handle": {
+        "0": "Chris_Rain"
+      },
+      "adapools_ext": {
+        "prometheus": {
+          "0": {
+            "name": "Relay 1 Omaha",
+            "type": "relay",
+            "key": "8ea5662d9edf7b75ceafa833ff4816be"
+          },
+          "1": {
+            "name": "Core",
+            "type": "bp",
+            "key": "e77c6fbd3b4937aa38bd165d2ba8365f"
+          }
+        }
+      }
+    },
+    "nonce": "1620699514",
+    "addr": "pool1jc24u7v5xsaw9dw6s0vftjat8ssc8ru4c0uhrj8zpm3usnrp03t",
+    "metadata": {
+      "name": "Halo Stake Pool",
+      "ticker": "HALO",
+      "description": "Sustainable decentralization with new single pool. Always low fees on a Raspberry Pi cluster! 😇",
+      "homepage": "https://www.halostake.com",
+      "extended": "https://raw.githubusercontent.com/reignxx/m/master/Xmeta.json",
+      "nonce": "1620699514"
+    },
+    "icon": "/images/96155e7994343ae2b5da83d895cbab3c21838f95c3f971c8e20ee3c8.png",
+    "errors": [],
+    "relays": [
+      {
+        "ipv4": null,
+        "ipv6": null,
+        "dns": "relay.halostake.com",
+        "dns_srv": null,
+        "port": 6000
       }
     ],
     "location": [
-      -4.03333,
-      39.86667
+      -95.9379,
+      41.2587
     ],
     "adapools": {
-      "created": "Fri, 09 Apr 2021 09:20:21 +0000",
+      "created": "Tue, 11 May 2021 02:35:14 +0000",
       "data": {
-        "id": "3172",
-        "pool_id": "351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8",
-        "pool_id_bech32": "pool1x5dfpgp987e4jhxvgczr3wv50nv2pwd873tlx3uthvcasm422q6",
-        "db_ticker": "QXT",
-        "db_name": "Quixote Dream Pool",
-        "db_url": "https://quixote.systems",
-        "total_stake": "617958504872",
+        "id": "3451",
+        "pool_id": "96155e7994343ae2b5da83d895cbab3c21838f95c3f971c8e20ee3c8",
+        "pool_id_bech32": "pool1jc24u7v5xsaw9dw6s0vftjat8ssc8ru4c0uhrj8zpm3usnrp03t",
+        "db_ticker": "HALO",
+        "db_name": "Halo Stake Pool",
+        "db_url": "https://www.halostake.com",
+        "total_stake": "62073782426",
         "rewards_epoch": "0",
         "tax_ratio": "0",
         "tax_fix": "340000000",
@@ -827,47 +658,403 @@
         "blocks_lifetime": "0",
         "blocks_est_lifetime": "0",
         "stamp_strike": "0",
-        "hist_roa": "[{\"val\":\"0\",\"time\":\"1623281414\",\"e\":262},{\"val\":\"0\",\"time\":\"1623281414\",\"e\":263},{\"val\":\"0\",\"time\":\"1623281414\",\"e\":264},{\"val\":\"0\",\"time\":\"1623281414\",\"e\":265},{\"val\":\"0\",\"time\":\"1623281414\",\"e\":266},{\"val\":\"0\",\"time\":\"1623281414\",\"e\":267},{\"val\":\"0\",\"time\":\"1623281414\",\"e\":268},{\"val\":\"0\",\"time\":\"1623281414\",\"e\":269}]",
-        "hist_bpe": "[{\"val\":\"0\",\"time\":\"1619388984\",\"e\":261},{\"val\":\"0\",\"time\":\"1619820931\",\"e\":262},{\"val\":\"0\",\"time\":\"1620253148\",\"e\":263},{\"val\":\"0\",\"time\":\"1620685146\",\"e\":264},{\"val\":\"0\",\"time\":\"1621117432\",\"e\":265},{\"val\":\"0\",\"time\":\"1621551198\",\"e\":266},{\"val\":\"0\",\"time\":\"1621981470\",\"e\":267},{\"val\":\"0\",\"time\":\"1622413556\",\"e\":268},{\"val\":\"0\",\"time\":\"1622847909\",\"e\":269},{\"val\":\"0\",\"time\":\"1623277775\",\"e\":270}]",
+        "hist_roa": "[{\"val\":null,\"time\":\"1623281415\",\"e\":262},{\"val\":null,\"time\":\"1623281415\",\"e\":263},{\"val\":\"0\",\"time\":\"1623281415\",\"e\":264},{\"val\":\"0\",\"time\":\"1623281415\",\"e\":265},{\"val\":\"0\",\"time\":\"1623281415\",\"e\":266},{\"val\":\"0\",\"time\":\"1623281415\",\"e\":267},{\"val\":\"0\",\"time\":\"1623281415\",\"e\":268},{\"val\":\"0\",\"time\":\"1623281415\",\"e\":269}]",
+        "hist_bpe": "[{\"val\":\"0\",\"time\":\"1621117433\",\"e\":265},{\"val\":\"0\",\"time\":\"1621551200\",\"e\":266},{\"val\":\"0\",\"time\":\"1621981471\",\"e\":267},{\"val\":\"0\",\"time\":\"1622413557\",\"e\":268},{\"val\":\"0\",\"time\":\"1622847910\",\"e\":269},{\"val\":\"0\",\"time\":\"1623277777\",\"e\":270}]",
         "pledge": "3000000000",
-        "hash_id": "3169",
-        "ticker_orig": "QXT",
-        "metric": -328.17393015047,
-        "delegators": "98",
-        "pledged": "3052253543",
+        "hash_id": "3448",
+        "ticker_orig": "HALO",
+        "metric": -374.93469508303,
+        "delegators": "6",
+        "pledged": "3002007384",
         "roa_lifetime": "0",
         "luck_lifetime": "0",
         "group_basic": "SOLO",
         "tax_ratio_old": "0",
         "tax_fix_old": "340000000",
         "tax_real": 17.056856187291,
-        "active_stake": "575008714856",
+        "active_stake": "62073782426",
         "active_blocks": "0",
         "direct": true,
-        "saturated": 0.0096099626259922,
+        "saturated": 0.00096531832690245,
         "patreon": 0,
-        "rank": 1118,
+        "rank": 1366,
         "handles": {
-          "tw": "QuixotePool",
-          "tg": "QuixotePool",
+          "tw": "",
+          "tg": "https://t.me/HALOSTAKEPOOL",
+          "fb": "",
+          "yt": "",
+          "tc": "",
+          "di": "https://discord.gg/U93B6XCr6Z",
+          "gh": "reignxx",
+          "icon": "https://static.adapools.org/pool_logo/96155e7994343ae2b5da83d895cbab3c21838f95c3f971c8e20ee3c8.png"
+        },
+        "blocks_estimated": 0.06,
+        "stake_x_deleg": 10345630404.333,
+        "db_description": "Sustainable decentralization with new single pool. Always low fees on a Raspberry Pi cluster! 😇",
+        "owners": "2"
+      },
+      "updated": "Sun, 13 Jun 2021 20:05:37 +0000"
+    }
+  },
+  {
+    "id": "c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386",
+    "memberSince": "2021-06-13T19:59:54.000Z",
+    "name": "MEME Pool",
+    "description": "They don't know I run a Cardano stake pool.",
+    "ticker": "MEME",
+    "homepage": "https://meme.best",
+    "extended": {
+      "info": {
+        "about": {
+          "me": "",
+          "server": "The MEME stake pool runs on a trio of Raspberry Pi microcomputers with SSD hard drives and a gigabit fiber optic connection to the internet. Our servers consume about 0.2kWh per day, which is about the same as running one 9W (60W equivalent) LED light bulb."
+        },
+        "company": {
+          "city": "New York`",
+          "country": "USA"
+        },
+        "location": "Westchester, New York",
+        "rss": "https://meme.best/rss.xml",
+        "social": {
+          "telegram_handle": "sporke",
+          "twitter_handle": "meme_pool"
+        },
+        "url_png_icon_64x64": "https://meme.best/icons/apple-touch-icon.png",
+        "url_png_logo": "https://meme.best/icons/apple-touch-icon.png"
+      },
+      "my-pool-ids": {
+        "0": "c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386"
+      }
+    },
+    "addr": "pool1ex4gapjdtnpf9u8fxe560x6p6elcaf3ysxsdskc5h63cv0zq5cv",
+    "metadata": {
+      "name": "MEME Pool",
+      "description": "They don't know I run a Cardano stake pool.",
+      "ticker": "MEME",
+      "homepage": "https://meme.best",
+      "extended": "https://meme.best/node/extended.json"
+    },
+    "icon": "/images/c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386.png",
+    "errors": [],
+    "relays": [
+      {
+        "ipv4": null,
+        "ipv6": null,
+        "dns": "node.meme.best",
+        "dns_srv": null,
+        "port": 3000
+      },
+      {
+        "ipv4": null,
+        "ipv6": null,
+        "dns": "node.meme.best",
+        "dns_srv": null,
+        "port": 3001
+      }
+    ],
+    "location": [
+      -73.84,
+      40.84
+    ],
+    "adapools": {
+      "created": "Sat, 13 Mar 2021 20:20:09 +0000",
+      "data": {
+        "id": "2812",
+        "pool_id": "c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386",
+        "pool_id_bech32": "pool1ex4gapjdtnpf9u8fxe560x6p6elcaf3ysxsdskc5h63cv0zq5cv",
+        "db_ticker": "MEME",
+        "db_name": "MEME Pool",
+        "db_url": "https://meme.best",
+        "total_stake": "35275840158",
+        "rewards_epoch": "264",
+        "tax_ratio": "0.02",
+        "tax_fix": "341000000",
+        "roa": "2.5",
+        "blocks_epoch": "1",
+        "blocks_lifetime": "1",
+        "blocks_est_lifetime": "0",
+        "stamp_strike": "0",
+        "hist_roa": "[{\"val\":\"0\",\"time\":\"1623281413\",\"e\":262},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":263},{\"val\":\"197.281\",\"time\":\"1623281413\",\"e\":264},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":265},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":266},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":267},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":268},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":269}]",
+        "hist_bpe": "[{\"val\":\"0\",\"time\":\"1619388982\",\"e\":261},{\"val\":\"0\",\"time\":\"1619820930\",\"e\":262},{\"val\":\"0\",\"time\":\"1620253147\",\"e\":263},{\"val\":\"1\",\"time\":\"1620685144\",\"e\":264},{\"val\":\"0\",\"time\":\"1621117428\",\"e\":265},{\"val\":\"0\",\"time\":\"1621551195\",\"e\":266},{\"val\":\"0\",\"time\":\"1621981468\",\"e\":267},{\"val\":\"0\",\"time\":\"1622413554\",\"e\":268},{\"val\":\"0\",\"time\":\"1622847906\",\"e\":269},{\"val\":\"0\",\"time\":\"1623277773\",\"e\":270}]",
+        "pledge": "25000000000",
+        "hash_id": "2809",
+        "ticker_orig": "MEME",
+        "metric": -345.67500275149,
+        "delegators": "18",
+        "pledged": "25824356169",
+        "roa_lifetime": "16.988",
+        "luck_lifetime": "287",
+        "group_basic": "SOLO",
+        "tax_ratio_old": "0.02",
+        "tax_fix_old": "341000000",
+        "tax_real": 19.868245659393,
+        "active_stake": "35477931711",
+        "active_blocks": "0",
+        "direct": true,
+        "saturated": 0.00054857966875136,
+        "patreon": 0,
+        "rank": 1175,
+        "handles": {
+          "tw": "meme_pool",
+          "tg": "sporke",
           "fb": null,
           "yt": null,
           "tc": null,
           "di": null,
-          "gh": "quixotesystems",
-          "icon": "https://static.adapools.org/pool_logo/351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8.png"
+          "gh": null,
+          "icon": "https://static.adapools.org/pool_logo/c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386.png"
         },
-        "blocks_estimated": 0.5,
-        "stake_x_deleg": 6305699029.3061,
-        "db_description": "Dream the impossible dream like Quixote! Support Tech Projects in La Mancha, one of the most under-developed Regions in Europe",
+        "blocks_estimated": 0.03,
+        "stake_x_deleg": 1959768897.6667,
+        "db_description": "They don't know I run a Cardano stake pool.",
+        "owners": "2"
+      },
+      "updated": "Sun, 13 Jun 2021 20:05:33 +0000"
+    }
+  },
+  {
+    "id": "c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2",
+    "memberSince": "2021-06-13T19:59:54.000Z",
+    "name": "Cardano ADA Mini Pool Switzerland",
+    "description": "A reliable and eco-friendly stake pool running on Raspberry Pi's",
+    "ticker": "MINI1",
+    "homepage": "https://www.adaministake.com",
+    "extended": {
+      "info": {
+        "url_png_icon_64x64": "https://raw.githubusercontent.com/jterrier84/minipool/main/Mini1LogoSmall.png",
+        "url_png_logo": "https://github.com/jterrier84/minipool/blob/main/MINI1_logo.png?raw=true",
+        "location": "Weiningen | Zurich | Switzerland",
+        "social": {
+          "twitter_handle": "JuL71695233",
+          "telegram_handle": "mini1pool",
+          "facebook_handle": "",
+          "youtube_handle": "",
+          "twitch_handle": "",
+          "discord_handle": "",
+          "github_handle": "jterrier84"
+        },
+        "company": {
+          "name": "Mini Stake Pool",
+          "addr": "",
+          "city": "Weiningen | Zurich | Switzerland",
+          "country": "CH",
+          "company_id": "",
+          "vat_id": ""
+        },
+        "about": {
+          "me": "Dedicated Cardano pool operator located in Weiningen, Zurich. Always put sustainability first. Big supporter of the Cardano dream and vision.",
+          "server": "The entire pool is running on totally 3 Raspberry Pi's, 1 Core and 2 Relays. The entire power consumption including router is 30 Watt. The electricity comes from 100% hydropower-plants from Switzerland and abroad.",
+          "company": ""
+        },
+        "my-pool-ids": {
+          "0": "c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2",
+          "1": ""
+        },
+        "telegram-admin-handle": {
+          "0": "mini1pool"
+        }
+      }
+    },
+    "addr": "pool1c0nsyh46ucuwn9xpf8jhq05zvxdnrztuncwkflrgf7quyvh82q0",
+    "metadata": {
+      "name": "Cardano ADA Mini Pool Switzerland",
+      "description": "A reliable and eco-friendly stake pool running on Raspberry Pi's",
+      "ticker": "MINI1",
+      "homepage": "https://www.adaministake.com",
+      "extended": "https://git.io/JGjRk"
+    },
+    "icon": "/images/c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2.png",
+    "errors": [],
+    "relays": [
+      {
+        "ipv4": null,
+        "ipv6": null,
+        "dns": "terrier.internet-box.ch",
+        "dns_srv": null,
+        "port": 30001
+      }
+    ],
+    "location": [
+      8.42,
+      47.42
+    ],
+    "adapools": {
+      "created": "Tue, 01 Jun 2021 21:50:27 +0000",
+      "data": {
+        "id": "3638",
+        "pool_id": "c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2",
+        "pool_id_bech32": "pool1c0nsyh46ucuwn9xpf8jhq05zvxdnrztuncwkflrgf7quyvh82q0",
+        "db_ticker": "MINI1",
+        "db_name": "Cardano ADA Mini Pool Switzerland",
+        "db_url": "https://www.adaministake.com",
+        "total_stake": "14227751624",
+        "rewards_epoch": "0",
+        "tax_ratio": "0",
+        "tax_fix": "340000000",
+        "roa": "0",
+        "blocks_epoch": "0",
+        "blocks_lifetime": "0",
+        "blocks_est_lifetime": "0",
+        "stamp_strike": "0",
+        "hist_roa": "[{\"val\":null,\"time\":\"1623281405\",\"e\":262},{\"val\":null,\"time\":\"1623281405\",\"e\":263},{\"val\":null,\"time\":\"1623281405\",\"e\":264},{\"val\":null,\"time\":\"1623281405\",\"e\":265},{\"val\":null,\"time\":\"1623281405\",\"e\":266},{\"val\":null,\"time\":\"1623281405\",\"e\":267},{\"val\":\"0\",\"time\":\"1623281405\",\"e\":268},{\"val\":\"0\",\"time\":\"1623281405\",\"e\":269}]",
+        "hist_bpe": "[{\"val\":\"0\",\"time\":\"1622847838\",\"e\":269},{\"val\":\"0\",\"time\":\"1623277699\",\"e\":270}]",
+        "pledge": "10000000000",
+        "hash_id": "3635",
+        "ticker_orig": "MINI1",
+        "metric": -404.01510773136,
+        "delegators": "3",
+        "pledged": "10004423945",
+        "roa_lifetime": "0",
+        "luck_lifetime": "0",
+        "group_basic": "SOLO",
+        "tax_ratio_old": "0",
+        "tax_fix_old": "340000000",
+        "tax_real": 17.056856187291,
+        "active_stake": "13514765488",
+        "active_blocks": "0",
+        "direct": true,
+        "saturated": 0.00022125781379017,
+        "patreon": 0,
+        "rank": 1544,
+        "handles": {
+          "tw": "JuL71695233",
+          "tg": "mini1pool",
+          "fb": "",
+          "yt": "",
+          "tc": "",
+          "di": "",
+          "gh": "jterrier84",
+          "icon": "https://static.adapools.org/pool_logo/c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2.png"
+        },
+        "blocks_estimated": 0.01,
+        "stake_x_deleg": 4742583874.6667,
+        "db_description": "A reliable and eco-friendly stake pool running on Raspberry Pi's",
         "owners": "1"
       },
-      "updated": "Sun, 13 Jun 2021 19:55:33 +0000"
+      "updated": "Sun, 13 Jun 2021 20:05:42 +0000"
+    }
+  },
+  {
+    "id": "c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae",
+    "memberSince": "2021-06-13T19:59:54.000Z",
+    "name": "🌟 Star Forge ⚡",
+    "description": "Off The Grid solar powered pool. 3.4 kWh homemade 18650 Tesla Powerwall & 3 Raspberry Pi @ under 13 watts. Teaching the next generation open source is the $PATH & DeFi is the future. Check out our project and please delegate if you can. Thank you!",
+    "ticker": "OTG",
+    "homepage": "https://adamantium.online",
+    "extended": {
+      "info": {
+        "url_png_icon_64x64": "https://adamantium.online/images/sun.png",
+        "url_png_logo": "https://adamantium.online/images/sun.jpg",
+        "location": "New Hampshire, USA",
+        "social": {
+          "twitter_handle": "OTG_WCat",
+          "telegram_handle": "WCatz",
+          "discord_handle": "WCat#6737",
+          "github_handle": "wcatz"
+        },
+        "about": {
+          "me": "https://ada-pi.gitbook.io/raspi-spo/intermediate-guide/pi-pool-tutorial",
+          "server": "Mac M1 Mini native Linux! Raspberry Pi Relays, DIY Tesla powerwall, Starlink(coming soon), Off The Grid Solar Pool lest than 20 watts",
+          "company": "🌟 Star Forge ⚡"
+        },
+        "my-pool-ids": {
+          "0": "c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae"
+        },
+        "when-satured-then-recommend": {
+          "0": "1fd1a22c53e08de6bae42053ce40d5c0f7e0b52b33eb728867505a36",
+          "1": "2a748e3885f6f73320ad16a8331247b81fe01b8d39f57eec9caa5091"
+        }
+      }
+    },
+    "addr": "pool1eqj3dzpkcklc2r0v8pt8adrhrshq8m4zsev072ga7a52uj5wv5c",
+    "metadata": {
+      "name": "🌟 Star Forge ⚡",
+      "description": "Off The Grid solar powered pool. 3.4 kWh homemade 18650 Tesla Powerwall & 3 Raspberry Pi @ under 13 watts. Teaching the next generation open source is the $PATH & DeFi is the future. Check out our project and please delegate if you can. Thank you!",
+      "ticker": "OTG",
+      "homepage": "https://adamantium.online",
+      "extended": "https://adamantium.online/extendedPoolMetaData.json"
+    },
+    "icon": "/images/c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae.png",
+    "errors": [],
+    "relays": [
+      {
+        "ipv4": null,
+        "ipv6": null,
+        "dns": "otg-relay-1.adamantium.online",
+        "dns_srv": null,
+        "port": 6001
+      },
+      {
+        "ipv4": null,
+        "ipv6": null,
+        "dns": "otg-relay-2.adamantium.online",
+        "dns_srv": null,
+        "port": 6002
+      }
+    ],
+    "location": [
+      -71.5783054333969,
+      43.6898878153
+    ],
+    "adapools": {
+      "created": "Thu, 14 Jan 2021 21:33:11 +0000",
+      "data": {
+        "id": "1969",
+        "pool_id": "c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae",
+        "pool_id_bech32": "pool1eqj3dzpkcklc2r0v8pt8adrhrshq8m4zsev072ga7a52uj5wv5c",
+        "db_ticker": "OTG",
+        "db_name": " Star Forge ",
+        "db_url": "https://adamantium.online",
+        "total_stake": "16718998885395",
+        "rewards_epoch": "270",
+        "tax_ratio": "0.0125",
+        "tax_fix": "340000000",
+        "roa": "5.141",
+        "blocks_epoch": "9",
+        "blocks_lifetime": "135",
+        "blocks_est_lifetime": "118",
+        "stamp_strike": "0",
+        "hist_roa": "[{\"val\":\"3.677\",\"time\":\"1623281411\",\"e\":262},{\"val\":\"0\",\"time\":\"1623281411\",\"e\":263},{\"val\":\"3.877\",\"time\":\"1623281411\",\"e\":264},{\"val\":\"6.827\",\"time\":\"1623281411\",\"e\":265},{\"val\":\"4.23\",\"time\":\"1623281411\",\"e\":266},{\"val\":\"3.486\",\"time\":\"1623281411\",\"e\":267},{\"val\":\"4.476\",\"time\":\"1623281411\",\"e\":268},{\"val\":\"7.947\",\"time\":\"1623281411\",\"e\":269}]",
+        "hist_bpe": "[{\"val\":\"0\",\"time\":\"1619388974\",\"e\":261},{\"val\":\"1\",\"time\":\"1619820921\",\"e\":262},{\"val\":\"0\",\"time\":\"1620253138\",\"e\":263},{\"val\":\"12\",\"time\":\"1620685134\",\"e\":264},{\"val\":\"21\",\"time\":\"1621117417\",\"e\":265},{\"val\":\"13\",\"time\":\"1621551184\",\"e\":266},{\"val\":\"11\",\"time\":\"1621981456\",\"e\":267},{\"val\":\"14\",\"time\":\"1622413541\",\"e\":268},{\"val\":\"25\",\"time\":\"1622847892\",\"e\":269},{\"val\":\"18\",\"time\":\"1623277759\",\"e\":270}]",
+        "pledge": "500000000000",
+        "hash_id": "1967",
+        "ticker_orig": "OTG",
+        "metric": 2845.8343040243,
+        "delegators": "30",
+        "pledged": "508132950670",
+        "roa_lifetime": "5.144",
+        "luck_lifetime": "101",
+        "group_basic": "SOLO",
+        "tax_ratio_old": null,
+        "tax_fix_old": null,
+        "tax_real": 4.003311294245,
+        "active_stake": "16693426202151",
+        "active_blocks": "25",
+        "direct": false,
+        "saturated": 0.25999955860227,
+        "patreon": 0,
+        "rank": 319,
+        "handles": {
+          "tw": "OTG_WCat",
+          "tg": "WCatz",
+          "fb": null,
+          "yt": null,
+          "tc": null,
+          "di": "WCat#6737",
+          "gh": "wcatz",
+          "icon": "https://static.adapools.org/pool_logo/c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae.png"
+        },
+        "blocks_estimated": 15.7,
+        "stake_x_deleg": 557299962846.5,
+        "db_description": "Off The Grid solar powered pool. 3.4 kWh homemade 18650 Tesla Powerwall &amp; 3 Raspberry Pi @ under 13 watts. Teaching the next generation open source is the $PATH &amp; DeFi is the future. Check out our project and please delegate if you can. Thank you!",
+        "owners": "1"
+      },
+      "updated": "Sun, 13 Jun 2021 20:05:14 +0000"
     }
   },
   {
     "id": "febb924e349d816997e007dc09847ded9a2e72d218023c0e5186176d",
-    "memberSince": "2021-04-28T16:50:53.000Z",
+    "memberSince": "2021-06-13T19:59:54.000Z",
     "name": "Oyster_Pool",
     "ticker": "OYSTR",
     "description": "Single pool owner, first in Wales/Cymru. An independent pool run from an energy efficient and reliable network of Raspberry Pis. We are an ideas lab run by a long-term Cardanoista and one of the ‘unacknowledged legislators of the world’ (Shelley).",
@@ -999,7 +1186,7 @@
         "active_stake": "16290328125090",
         "active_blocks": "14",
         "direct": true,
-        "saturated": 0.28880345225241,
+        "saturated": 0.2888034236156,
         "patreon": 0,
         "rank": 244,
         "handles": {
@@ -1017,130 +1204,524 @@
         "db_description": "Single pool owner, first in Wales/Cymru. An independent pool run from an energy efficient and reliable network of Raspberry Pis. We are an ideas lab run by a long-term Cardanoista and one of the ‘unacknowledged legislators of the world’ (Shelley).",
         "owners": "4"
       },
-      "updated": "Sun, 13 Jun 2021 19:55:10 +0000"
+      "updated": "Sun, 13 Jun 2021 20:05:12 +0000"
     }
   },
   {
-    "id": "4f5e469a40547208cf9876b36ae9b23874c302ab8ab263a952bbae6a",
-    "memberSince": "2021-04-28T19:42:55.000Z",
-    "name": "ZenPool",
-    "description": "A small-scale Cardano pool for friends and family",
-    "ticker": "ZAZEN",
-    "homepage": "http://zenen.space",
+    "id": "b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65",
+    "memberSince": "2021-06-13T19:59:54.000Z",
+    "name": "PIADA piada.io",
+    "description": "Stake pool education hub for Raspberry Pi and ARM 64-bit SoC based low power devices.",
+    "ticker": "PIADA",
+    "homepage": "https://piada.io",
     "extended": {
       "info": {
-        "url_png_icon_64x64": "https://raw.githubusercontent.com/ZenenTreadwell/zenentreadwell.github.io/3f97391f669120a5ffcfba7c201833d6fef33d35/static/enso-icon.png",
-        "url_png_logo": "https://raw.githubusercontent.com/ZenenTreadwell/zenentreadwell.github.io/3f97391f669120a5ffcfba7c201833d6fef33d35/static/enso-small.png",
-        "location": "Victoria, BC",
+        "url_png_icon_64x64": "https://piada.io/piada64.png",
+        "url_png_logo": "https://piada.io/piadaFull.png",
+        "location": "Virginia, USA",
         "social": {
-          "twitter_handle": "",
-          "telegram_handle": "zenent",
-          "facebook_handle": "",
-          "youtube_handle": "",
-          "twitch_handle": "",
-          "discord_handle": "",
-          "github_handle": "zenentreadwell"
+          "twitter_handle": "StakePiada",
+          "telegram_handle": "piadapool",
+          "youtube_handle": "channel/UCligunhcmbMYaBUMvONsKwg",
+          "github_handle": "armada-alliance"
         },
         "company": {
-          "name": "Zazen Hosting",
+          "name": "PIADA",
           "addr": "",
-          "city": "Victoria",
-          "country": "Canada",
+          "city": "",
+          "country": "United States",
           "company_id": "",
           "vat_id": ""
         },
         "about": {
-          "me": "Web Developer with a huge interest in riding the decentralisation wave",
-          "server": "Raspberry Pi Hosted at my Home in Victoria",
-          "company": ""
-        }
+          "me": "https://armada-alliance.gitbook.io/raspi-spo/",
+          "server": "3 x Raspberry Pi 4B 8GB",
+          "company": "piada.io is an education hub specializing in Raspberry Pi and ARM 64-bit SoC based stake pool operations."
+        },
+        "rss": ""
       },
-      "my-pool-ids": {
-        "0": "4f5e469a40547208cf9876b36ae9b23874c302ab8ab263a952bbae6a"
-      }
+      "telegram-admin-handle": {
+        "0": "eastpiada",
+        "1": "Qwailman"
+      },
+      "my-pool-ids": [
+        "b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65"
+      ],
+      "when-satured-then-recommend": [
+        "8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8"
+      ]
     },
-    "addr": "pool1fa0ydxjq23eq3nucw6ek46dj8p6vxq4t32ex822jhwhx5fyvzze",
+    "addr": "pool1hrv8gtrm0dgjg6zyss5uwa4nkruzfnh5vrdkr2sayj7x2nw6mjc",
     "metadata": {
-      "name": "ZenPool",
-      "description": "A small-scale Cardano pool for friends and family",
-      "ticker": "ZAZEN",
-      "homepage": "http://zenen.space",
-      "extended": "https://raw.githubusercontent.com/ZenenTreadwell/zenentreadwell.github.io/master/extended-poolData.json"
+      "name": "PIADA piada.io",
+      "description": "Stake pool education hub for Raspberry Pi and ARM 64-bit SoC based low power devices.",
+      "ticker": "PIADA",
+      "homepage": "https://piada.io",
+      "extended": "https://piada.io/piada.extended-metadata.json"
     },
-    "icon": "/images/4f5e469a40547208cf9876b36ae9b23874c302ab8ab263a952bbae6a.png",
+    "icon": "/images/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65.png",
     "errors": [],
     "relays": [
       {
         "ipv4": null,
         "ipv6": null,
-        "dns": "relay1.zenen.space",
+        "dns": "east.piada.io",
         "dns_srv": null,
-        "port": 6000
+        "port": 3000
+      },
+      {
+        "ipv4": null,
+        "ipv6": null,
+        "dns": "east.piada.io",
+        "dns_srv": null,
+        "port": 3002
       }
     ],
     "location": [
-      -123.3649,
-      48.4283
+      -78.6190526172645,
+      37.677592044
     ],
     "adapools": {
-      "created": "Tue, 12 Jan 2021 06:20:16 +0000",
+      "created": "Mon, 15 Mar 2021 20:50:10 +0000",
       "data": {
-        "id": "1936",
-        "pool_id": "4f5e469a40547208cf9876b36ae9b23874c302ab8ab263a952bbae6a",
-        "pool_id_bech32": "pool1fa0ydxjq23eq3nucw6ek46dj8p6vxq4t32ex822jhwhx5fyvzze",
-        "db_ticker": "ZAZEN",
-        "db_name": "ZenPool",
-        "db_url": "http://zenen.space",
-        "total_stake": "457950675081",
-        "rewards_epoch": "256",
+        "id": "2844",
+        "pool_id": "b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65",
+        "pool_id_bech32": "pool1hrv8gtrm0dgjg6zyss5uwa4nkruzfnh5vrdkr2sayj7x2nw6mjc",
+        "db_ticker": "PIADA",
+        "db_name": "PIADA piada.io",
+        "db_url": "https://piada.io",
+        "total_stake": "65766663163",
+        "rewards_epoch": "267",
+        "tax_ratio": "0.015",
+        "tax_fix": "340000000",
+        "roa": "2.5",
+        "blocks_epoch": "1",
+        "blocks_lifetime": "4",
+        "blocks_est_lifetime": "0",
+        "stamp_strike": "0",
+        "hist_roa": "[{\"val\":\"0\",\"time\":\"1623281404\",\"e\":262},{\"val\":\"0\",\"time\":\"1623281404\",\"e\":263},{\"val\":\"0\",\"time\":\"1623281404\",\"e\":264},{\"val\":\"0\",\"time\":\"1623281404\",\"e\":265},{\"val\":\"0\",\"time\":\"1623281404\",\"e\":266},{\"val\":\"33.549\",\"time\":\"1623281404\",\"e\":267},{\"val\":\"0\",\"time\":\"1623281404\",\"e\":268},{\"val\":\"0\",\"time\":\"1623281404\",\"e\":269}]",
+        "hist_bpe": "[{\"val\":\"0\",\"time\":\"1619388925\",\"e\":261},{\"val\":\"0\",\"time\":\"1619820869\",\"e\":262},{\"val\":\"0\",\"time\":\"1620253088\",\"e\":263},{\"val\":\"0\",\"time\":\"1620685074\",\"e\":264},{\"val\":\"0\",\"time\":\"1621117356\",\"e\":265},{\"val\":\"0\",\"time\":\"1621551116\",\"e\":266},{\"val\":\"1\",\"time\":\"1621981380\",\"e\":267},{\"val\":\"0\",\"time\":\"1622413466\",\"e\":268},{\"val\":\"0\",\"time\":\"1622847811\",\"e\":269},{\"val\":\"0\",\"time\":\"1623277672\",\"e\":270}]",
+        "pledge": "52000000000",
+        "hash_id": "2841",
+        "ticker_orig": "PIADA",
+        "metric": -324.34854634373,
+        "delegators": "11",
+        "pledged": "52578003762",
+        "roa_lifetime": "8.115",
+        "luck_lifetime": "152",
+        "group_basic": "SOLO",
+        "tax_ratio_old": null,
+        "tax_fix_old": null,
+        "tax_real": 19.117474474827,
+        "active_stake": "65772009125",
+        "active_blocks": "0",
+        "direct": true,
+        "saturated": 0.0010227468468858,
+        "patreon": 0,
+        "rank": 1105,
+        "handles": {
+          "tw": "StakePiada",
+          "tg": "piadapool",
+          "fb": null,
+          "yt": "channel/UCligunhcmbMYaBUMvONsKwg",
+          "tc": null,
+          "di": null,
+          "gh": "armada-alliance",
+          "icon": "https://static.adapools.org/pool_logo/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65.png"
+        },
+        "blocks_estimated": 0.06,
+        "stake_x_deleg": 5978787560.2727,
+        "db_description": "Stake pool education hub for Raspberry Pi and ARM 64-bit SoC based low power devices.",
+        "owners": "1"
+      },
+      "updated": "Sun, 13 Jun 2021 20:05:33 +0000"
+    }
+  },
+  {
+    "id": "7aac5502d19cac8731e3b86ecc9553d69b26a02155e5c9cf262d224c",
+    "memberSince": "2021-06-13T19:59:54.000Z",
+    "name": "PIEBR Pool",
+    "description": "Pool com objetivo de usar RaspBerry PI com energia solar no Brasil. Venha ajudar o planeta?",
+    "ticker": "PIEBR",
+    "homepage": "https://github.com/karnagge/piebr",
+    "extended": {
+      "info": {
+        "url_png_icon_64x64": "",
+        "url_png_logo": "",
+        "location": "Brasilia, BRL",
+        "social": {
+          "twitter_handle": "",
+          "telegram_handle": "feu_franco",
+          "youtube_handle": "",
+          "github_handle": "karnagge"
+        },
+        "company": {
+          "name": "PIEBR",
+          "addr": "",
+          "city": "",
+          "country": "Brazil",
+          "company_id": "",
+          "vat_id": ""
+        },
+        "about": {
+          "me": "",
+          "server": "",
+          "company": ""
+        },
+        "rss": ""
+      },
+      "telegram-admin-handle": {
+        "0": "feu_franco"
+      },
+      "my-pool-ids": [
+        "7aac5502d19cac8731e3b86ecc9553d69b26a02155e5c9cf262d224c"
+      ],
+      "when-satured-then-recommend": [
+        "b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65"
+      ]
+    },
+    "addr": "pool102k92qk3njkgwv0rhphve92n66djdgpp2hjunnex953yc3qdldv",
+    "metadata": {
+      "name": "PIEBR Pool",
+      "description": "Pool com objetivo de usar RaspBerry PI com energia solar no Brasil. Venha ajudar o planeta?",
+      "ticker": "PIEBR",
+      "homepage": "https://github.com/karnagge/piebr",
+      "extended": "https://karnagge.github.io/extended-metadata.json"
+    },
+    "icon": "/ship-420.png",
+    "errors": [],
+    "relays": [
+      {
+        "ipv4": "34.95.221.38",
+        "ipv6": null,
+        "dns": null,
+        "dns_srv": null,
+        "port": 3001
+      }
+    ],
+    "location": [
+      -48.83409,
+      -26.269948
+    ],
+    "adapools": {
+      "created": "Wed, 28 Apr 2021 04:20:16 +0000",
+      "data": {
+        "id": "3351",
+        "pool_id": "7aac5502d19cac8731e3b86ecc9553d69b26a02155e5c9cf262d224c",
+        "pool_id_bech32": "pool102k92qk3njkgwv0rhphve92n66djdgpp2hjunnex953yc3qdldv",
+        "db_ticker": "PIEBR",
+        "db_name": "PIEBR Pool",
+        "db_url": "https://github.com/karnagge/piebr",
+        "total_stake": "13836800725",
+        "rewards_epoch": "0",
+        "tax_ratio": "0",
+        "tax_fix": "340000000",
+        "roa": "0",
+        "blocks_epoch": "0",
+        "blocks_lifetime": "0",
+        "blocks_est_lifetime": "0",
+        "stamp_strike": "0",
+        "hist_roa": "[{\"val\":\"0\",\"time\":\"1623281413\",\"e\":262},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":263},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":264},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":265},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":266},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":267},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":268},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":269}]",
+        "hist_bpe": "[{\"val\":\"0\",\"time\":\"1619820930\",\"e\":262},{\"val\":\"0\",\"time\":\"1620253147\",\"e\":263},{\"val\":\"0\",\"time\":\"1620685144\",\"e\":264},{\"val\":\"0\",\"time\":\"1621117429\",\"e\":265},{\"val\":\"0\",\"time\":\"1621551196\",\"e\":266},{\"val\":\"0\",\"time\":\"1621981468\",\"e\":267},{\"val\":\"0\",\"time\":\"1622413554\",\"e\":268},{\"val\":\"0\",\"time\":\"1622847907\",\"e\":269},{\"val\":\"0\",\"time\":\"1623277774\",\"e\":270}]",
+        "pledge": "800000000",
+        "hash_id": "3348",
+        "ticker_orig": "PIEBR",
+        "metric": -365.03882010177,
+        "delegators": "11",
+        "pledged": "808772532",
+        "roa_lifetime": "0",
+        "luck_lifetime": "0",
+        "group_basic": "SOLO",
+        "tax_ratio_old": "0",
+        "tax_fix_old": "340000000",
+        "tax_real": 17.056856187291,
+        "active_stake": "13848369038",
+        "active_blocks": "0",
+        "direct": false,
+        "saturated": 0.00021517808007693,
+        "patreon": 0,
+        "rank": 1292,
+        "handles": {
+          "tw": "",
+          "tg": "feu_franco",
+          "fb": null,
+          "yt": "",
+          "tc": null,
+          "di": null,
+          "gh": "karnagge",
+          "icon": 0
+        },
+        "blocks_estimated": 0.01,
+        "stake_x_deleg": 1257890975,
+        "db_description": "Pool com objetivo de usar RaspBerry PI com energia solar no Brasil. Venha ajudar o planeta?",
+        "owners": "1"
+      },
+      "updated": "Sun, 13 Jun 2021 20:05:34 +0000"
+    }
+  },
+  {
+    "id": "351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8",
+    "memberSince": "2021-06-13T19:59:54.000Z",
+    "name": "Quixote Dream Pool",
+    "ticker": "QXT",
+    "description": "Dream the impossible dream like Quixote! Support Tech Projects in La Mancha, one of the most under-developed Regions in Europe",
+    "homepage": "https://quixote.systems",
+    "extended": {
+      "info": {
+        "url_png_icon_64x64": "https://quixote.systems/iconoQuixote.png",
+        "location": "Toledo, Spain",
+        "social": {
+          "telegram_handle": "QuixotePool",
+          "twitter_handle": "QuixotePool",
+          "github_handle": "quixotesystems",
+          "instagram_handle": "quixotepool"
+        },
+        "about": {
+          "me": "Single Pool Operator",
+          "server": "Raspberry Pi Producer + Raspberry Pi Relay located in Toledo (Spain) with UPS and FTTx | HW configuration of each Raspberry Pi <CPU:RPi|RAM:8G|SSD:240G"
+        },
+        "my-pool-ids": {
+          "0": "351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8"
+        },
+        "when-satured-then-recommend": {
+          "0": "Small pools - support Decentralization"
+        }
+      }
+    },
+    "addr": "pool1x5dfpgp987e4jhxvgczr3wv50nv2pwd873tlx3uthvcasm422q6",
+    "metadata": {
+      "name": "Quixote Dream Pool",
+      "ticker": "QXT",
+      "description": "Dream the impossible dream like Quixote! Support Tech Projects in La Mancha, one of the most under-developed Regions in Europe",
+      "homepage": "https://quixote.systems",
+      "extended": "https://quixote.systems/ext_metadata.json"
+    },
+    "icon": "/images/351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8.png",
+    "errors": [],
+    "relays": [
+      {
+        "ipv4": null,
+        "ipv6": null,
+        "dns": "80.24.134.251",
+        "dns_srv": null,
+        "port": 6000
+      },
+      {
+        "ipv4": null,
+        "ipv6": null,
+        "dns": "80.24.134.251",
+        "dns_srv": null,
+        "port": 6001
+      }
+    ],
+    "location": [
+      -4.03333,
+      39.86667
+    ],
+    "adapools": {
+      "created": "Fri, 09 Apr 2021 09:20:21 +0000",
+      "data": {
+        "id": "3172",
+        "pool_id": "351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8",
+        "pool_id_bech32": "pool1x5dfpgp987e4jhxvgczr3wv50nv2pwd873tlx3uthvcasm422q6",
+        "db_ticker": "QXT",
+        "db_name": "Quixote Dream Pool",
+        "db_url": "https://quixote.systems",
+        "total_stake": "617958504872",
+        "rewards_epoch": "0",
+        "tax_ratio": "0",
+        "tax_fix": "340000000",
+        "roa": "0",
+        "blocks_epoch": "0",
+        "blocks_lifetime": "0",
+        "blocks_est_lifetime": "0",
+        "stamp_strike": "0",
+        "hist_roa": "[{\"val\":\"0\",\"time\":\"1623281414\",\"e\":262},{\"val\":\"0\",\"time\":\"1623281414\",\"e\":263},{\"val\":\"0\",\"time\":\"1623281414\",\"e\":264},{\"val\":\"0\",\"time\":\"1623281414\",\"e\":265},{\"val\":\"0\",\"time\":\"1623281414\",\"e\":266},{\"val\":\"0\",\"time\":\"1623281414\",\"e\":267},{\"val\":\"0\",\"time\":\"1623281414\",\"e\":268},{\"val\":\"0\",\"time\":\"1623281414\",\"e\":269}]",
+        "hist_bpe": "[{\"val\":\"0\",\"time\":\"1619388984\",\"e\":261},{\"val\":\"0\",\"time\":\"1619820931\",\"e\":262},{\"val\":\"0\",\"time\":\"1620253148\",\"e\":263},{\"val\":\"0\",\"time\":\"1620685146\",\"e\":264},{\"val\":\"0\",\"time\":\"1621117432\",\"e\":265},{\"val\":\"0\",\"time\":\"1621551198\",\"e\":266},{\"val\":\"0\",\"time\":\"1621981470\",\"e\":267},{\"val\":\"0\",\"time\":\"1622413556\",\"e\":268},{\"val\":\"0\",\"time\":\"1622847909\",\"e\":269},{\"val\":\"0\",\"time\":\"1623277775\",\"e\":270}]",
+        "pledge": "3000000000",
+        "hash_id": "3169",
+        "ticker_orig": "QXT",
+        "metric": -328.17393015047,
+        "delegators": "98",
+        "pledged": "3052253543",
+        "roa_lifetime": "0",
+        "luck_lifetime": "0",
+        "group_basic": "SOLO",
+        "tax_ratio_old": "0",
+        "tax_fix_old": "340000000",
+        "tax_real": 17.056856187291,
+        "active_stake": "575008714856",
+        "active_blocks": "0",
+        "direct": true,
+        "saturated": 0.0096099616730995,
+        "patreon": 0,
+        "rank": 1118,
+        "handles": {
+          "tw": "QuixotePool",
+          "tg": "QuixotePool",
+          "fb": null,
+          "yt": null,
+          "tc": null,
+          "di": null,
+          "gh": "quixotesystems",
+          "icon": "https://static.adapools.org/pool_logo/351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8.png"
+        },
+        "blocks_estimated": 0.5,
+        "stake_x_deleg": 6305699029.3061,
+        "db_description": "Dream the impossible dream like Quixote! Support Tech Projects in La Mancha, one of the most under-developed Regions in Europe",
+        "owners": "1"
+      },
+      "updated": "Sun, 13 Jun 2021 20:05:33 +0000"
+    }
+  },
+  {
+    "id": "76c5c707afe9a824bd946d32ec99959ae05f8bf0e8290def11e03a42",
+    "memberSince": "2021-06-13T19:59:54.000Z",
+    "name": "Raspberry",
+    "description": "Raspberry Pi Pool",
+    "ticker": "RPI",
+    "homepage": "https://raspberryrpi.com/",
+    "extended": {
+      "info": {
+        "url_png_icon_64x64": "https://raspberryrpi.com/wp-content/uploads/2021/05/RPI-Logo-Nederlandse-stakepool-e1621180854953.png",
+        "url_png_logo": "https://raspberryrpi.com/wp-content/uploads/2021/05/RPI-Logo-Nederlandse-stakepool-e1621180854953.png",
+        "location": "Utrecht, The Netherlands",
+        "social": {
+          "twitter_handle": "Stakepool_RPI",
+          "telegram_handle": "thyesMB",
+          "facebook_handle": "",
+          "youtube_handle": "",
+          "twitch_handle": "",
+          "discord_handle": "",
+          "github_handle": ""
+        },
+        "company": {
+          "name": "",
+          "addr": "",
+          "city": "Utrecht",
+          "country": "The Netherlands",
+          "company_id": "",
+          "vat_id": ""
+        },
+        "about": {
+          "me": "A Dutch stake pool operator who joined the Cardano blockchain in March 2021 with the 'Raspberry Pi Pool' stake pool",
+          "server": "Raspberry Pi Hosted at my Home in Utrecht 100MB up/down.",
+          "company": ""
+        }
+      },
+      "my-pool-ids": {
+        "0": "76c5c707afe9a824bd946d32ec99959ae05f8bf0e8290def11e03a42",
+        "1": ""
+      },
+      "when-satured-then-recommend": {
+        "0": "",
+        "1": ""
+      },
+      "telegram-admin-handle": {
+        "0": "thyesMB"
+      },
+      "adapools_ext": {
+        "prometheus": {
+          "0": {
+            "name": "",
+            "type": "",
+            "key": ""
+          },
+          "1": {
+            "name": "",
+            "type": "",
+            "key": ""
+          },
+          "2": {
+            "name": "",
+            "type": "",
+            "key": ""
+          }
+        }
+      }
+    },
+    "addr": "pool1wmzuwpa0ax5zf0v5d5ewexv4nts9lzlsaq5smmc3uqayym8muef",
+    "metadata": {
+      "name": "Raspberry",
+      "description": "Raspberry Pi Pool",
+      "ticker": "RPI",
+      "homepage": "https://raspberryrpi.com/",
+      "extended": "https://raw.githubusercontent.com/thyes-MB/RPI/599cd3753740ee899ca4a80f2fa64c98ce9006b1/extended-RPI.json"
+    },
+    "icon": "/images/76c5c707afe9a824bd946d32ec99959ae05f8bf0e8290def11e03a42.png",
+    "errors": [],
+    "relays": [
+      {
+        "ipv4": null,
+        "ipv6": null,
+        "dns": "81.206.174.48",
+        "dns_srv": null,
+        "port": 6001
+      }
+    ],
+    "location": [
+      5.11556,
+      52.08889
+    ],
+    "adapools": {
+      "created": "Thu, 11 Mar 2021 21:35:13 +0000",
+      "data": {
+        "id": "2681",
+        "pool_id": "76c5c707afe9a824bd946d32ec99959ae05f8bf0e8290def11e03a42",
+        "pool_id_bech32": "pool1wmzuwpa0ax5zf0v5d5ewexv4nts9lzlsaq5smmc3uqayym8muef",
+        "db_ticker": "RPI",
+        "db_name": "Raspberry",
+        "db_url": "https://raspberryrpi.com/",
+        "total_stake": "74008959302",
+        "rewards_epoch": "0",
         "tax_ratio": "0.01",
         "tax_fix": "340000000",
         "roa": "0",
         "blocks_epoch": "0",
-        "blocks_lifetime": "6",
+        "blocks_lifetime": "0",
         "blocks_est_lifetime": "0",
         "stamp_strike": "0",
-        "hist_roa": "[{\"val\":\"0\",\"time\":\"1623281410\",\"e\":262},{\"val\":\"0\",\"time\":\"1623281410\",\"e\":263},{\"val\":\"0\",\"time\":\"1623281410\",\"e\":264},{\"val\":\"0\",\"time\":\"1623281410\",\"e\":265},{\"val\":\"0\",\"time\":\"1623281410\",\"e\":266},{\"val\":\"0\",\"time\":\"1623281410\",\"e\":267},{\"val\":\"0\",\"time\":\"1623281410\",\"e\":268},{\"val\":\"0\",\"time\":\"1623281410\",\"e\":269}]",
-        "hist_bpe": "[{\"val\":\"0\",\"time\":\"1619388973\",\"e\":261},{\"val\":\"0\",\"time\":\"1619820921\",\"e\":262},{\"val\":\"0\",\"time\":\"1620253137\",\"e\":263},{\"val\":\"0\",\"time\":\"1620685133\",\"e\":264},{\"val\":\"0\",\"time\":\"1621117417\",\"e\":265},{\"val\":\"0\",\"time\":\"1621551184\",\"e\":266},{\"val\":\"0\",\"time\":\"1621981455\",\"e\":267},{\"val\":\"0\",\"time\":\"1622413541\",\"e\":268},{\"val\":\"0\",\"time\":\"1622847892\",\"e\":269},{\"val\":\"0\",\"time\":\"1623277759\",\"e\":270}]",
-        "pledge": "18000000000",
-        "hash_id": "1934",
-        "ticker_orig": "ZAZEN",
-        "metric": -237.20858859273,
-        "delegators": "12",
-        "pledged": "18654859327",
-        "roa_lifetime": "3.21",
-        "luck_lifetime": "61",
+        "hist_roa": "[{\"val\":\"0\",\"time\":\"1623281413\",\"e\":262},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":263},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":264},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":265},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":266},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":267},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":268},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":269}]",
+        "hist_bpe": "[{\"val\":\"0\",\"time\":\"1619388981\",\"e\":261},{\"val\":\"0\",\"time\":\"1619820929\",\"e\":262},{\"val\":\"0\",\"time\":\"1620253146\",\"e\":263},{\"val\":\"0\",\"time\":\"1620685143\",\"e\":264},{\"val\":\"0\",\"time\":\"1621117427\",\"e\":265},{\"val\":\"0\",\"time\":\"1621551194\",\"e\":266},{\"val\":\"0\",\"time\":\"1621981467\",\"e\":267},{\"val\":\"0\",\"time\":\"1622413553\",\"e\":268},{\"val\":\"0\",\"time\":\"1622847905\",\"e\":269},{\"val\":\"0\",\"time\":\"1623277772\",\"e\":270}]",
+        "pledge": "74000000000",
+        "hash_id": "2678",
+        "ticker_orig": "RPI",
+        "metric": -388.65944827744,
+        "delegators": "2",
+        "pledged": "74008959302",
+        "roa_lifetime": "0",
+        "luck_lifetime": "0",
         "group_basic": "SOLO",
         "tax_ratio_old": "0.01",
         "tax_fix_old": "340000000",
         "tax_real": 18.429428121545,
-        "active_stake": "457950675081",
+        "active_stake": "74009268846",
         "active_blocks": "0",
         "direct": true,
-        "saturated": 0.0071216575827981,
+        "saturated": 0.001150923980738,
         "patreon": 0,
-        "rank": 963,
+        "rank": 1456,
         "handles": {
-          "tw": "",
-          "tg": "zenent",
+          "tw": "Stakepool_RPI",
+          "tg": "thyesMB",
           "fb": "",
           "yt": "",
           "tc": "",
           "di": "",
-          "gh": "zenentreadwell",
-          "icon": "https://static.adapools.org/pool_logo/4f5e469a40547208cf9876b36ae9b23874c302ab8ab263a952bbae6a.png"
+          "gh": "",
+          "icon": "https://static.adapools.org/pool_logo/76c5c707afe9a824bd946d32ec99959ae05f8bf0e8290def11e03a42.png"
         },
-        "blocks_estimated": 0.43,
-        "stake_x_deleg": 38162556256.75,
-        "db_description": "A small-scale Cardano pool for friends and family",
-        "owners": "1"
+        "blocks_estimated": 0.07,
+        "stake_x_deleg": 37004479651,
+        "db_description": "Raspberry Pi Pool",
+        "owners": "3"
       },
-      "updated": "Sun, 13 Jun 2021 19:55:31 +0000"
+      "updated": "Sun, 13 Jun 2021 20:05:39 +0000"
     }
   },
   {
     "id": "406a08532d2ca8dd08ea39e082dc8acdc2a3b34d0c517bd0e40af5e1",
-    "memberSince": "2021-04-29T16:16:48.000Z",
+    "memberSince": "2021-06-13T19:59:54.000Z",
     "name": "SBC-Mining",
     "description": "SBC-Mining - Everything about cryptocurrency / cryptomining on single board computers. All income will be used to test and host further projects for you. ",
     "ticker": "SBC",
@@ -1237,7 +1818,7 @@
         "active_stake": "6887659915",
         "active_blocks": "0",
         "direct": true,
-        "saturated": 0.00026263528416011,
+        "saturated": 0.00026263525811805,
         "patreon": 0,
         "rank": 1485,
         "handles": {
@@ -1255,12 +1836,241 @@
         "db_description": "SBC-Mining - Everything about cryptocurrency / cryptomining on single board computers. All income will be used to test and host further projects for you. ",
         "owners": "1"
       },
-      "updated": "Sun, 13 Jun 2021 19:55:42 +0000"
+      "updated": "Sun, 13 Jun 2021 20:05:40 +0000"
+    }
+  },
+  {
+    "id": "8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8",
+    "memberSince": "2021-06-13T19:59:54.000Z",
+    "name": "Sublayer Pool",
+    "description": "Providing marketing pages and educational content for stake pool operators.",
+    "ticker": "SBLYR",
+    "homepage": "https://pool.sublayer.io",
+    "extended": {
+      "info": {
+        "url_png_icon_64x64": "https://cdn.sublayer.io/logo.png",
+        "url_png_logo": "https://cdn.sublayer.io/logo.png",
+        "location": "Sommelsdijk, The Netherlands",
+        "social": {
+          "twitter_handle": "sublayerio",
+          "youtube_handle": "channel/UCg488irL6TBwT5fFiCQVBzw"
+        },
+        "company": {
+          "name": "Sublayer"
+        },
+        "about": {
+          "me": "Providing marketing pages and educational content for stake pool operators.",
+          "server": "Hosted on a Raspberry Pi, always online, 100MB up/down, solar energy. Margin stays 1%."
+        }
+      },
+      "adapools": "ed6d9672a5ea74667cb0ca867d7479fb",
+      "my-pool-ids": [
+        "8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8"
+      ],
+      "when-satured-then-recommend": [
+        "b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65"
+      ]
+    },
+    "addr": "pool1sfjdu0xmz7vdmp6cufxd55gprp95g4p703zzr3upt70dst0fur2",
+    "metadata": {
+      "name": "Sublayer Pool",
+      "description": "Providing marketing pages and educational content for stake pool operators.",
+      "ticker": "SBLYR",
+      "homepage": "https://pool.sublayer.io",
+      "extended": "https://cdn.sublayer.io/poolExtended.json"
+    },
+    "icon": "/images/8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8.png",
+    "errors": [],
+    "relays": [
+      {
+        "ipv4": null,
+        "ipv6": null,
+        "dns": "relaynode1.sublayer.io",
+        "dns_srv": null,
+        "port": 6001
+      }
+    ],
+    "location": [
+      4.1531,
+      51.7547
+    ],
+    "adapools": {
+      "created": "Tue, 06 Apr 2021 21:55:16 +0000",
+      "data": {
+        "id": "3155",
+        "pool_id": "8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8",
+        "pool_id_bech32": "pool1sfjdu0xmz7vdmp6cufxd55gprp95g4p703zzr3upt70dst0fur2",
+        "db_ticker": "SBLYR",
+        "db_name": "Sublayer Pool",
+        "db_url": "https://pool.sublayer.io",
+        "total_stake": "42577845533",
+        "rewards_epoch": "270",
+        "tax_ratio": "0.01",
+        "tax_fix": "340000000",
+        "roa": "5",
+        "blocks_epoch": "0",
+        "blocks_lifetime": "4",
+        "blocks_est_lifetime": "0",
+        "stamp_strike": "0",
+        "hist_roa": "[{\"val\":\"0\",\"time\":\"1623281414\",\"e\":262},{\"val\":\"0\",\"time\":\"1623281414\",\"e\":263},{\"val\":\"0\",\"time\":\"1623281414\",\"e\":264},{\"val\":\"94.909\",\"time\":\"1623281414\",\"e\":265},{\"val\":\"54.646\",\"time\":\"1623281414\",\"e\":266},{\"val\":\"0\",\"time\":\"1623281414\",\"e\":267},{\"val\":\"0\",\"time\":\"1623281414\",\"e\":268},{\"val\":\"0\",\"time\":\"1623281414\",\"e\":269}]",
+        "hist_bpe": "[{\"val\":\"0\",\"time\":\"1619388984\",\"e\":261},{\"val\":\"0\",\"time\":\"1619820931\",\"e\":262},{\"val\":\"0\",\"time\":\"1620253148\",\"e\":263},{\"val\":\"0\",\"time\":\"1620685146\",\"e\":264},{\"val\":\"2\",\"time\":\"1621117432\",\"e\":265},{\"val\":\"1\",\"time\":\"1621551198\",\"e\":266},{\"val\":\"0\",\"time\":\"1621981470\",\"e\":267},{\"val\":\"0\",\"time\":\"1622413556\",\"e\":268},{\"val\":\"0\",\"time\":\"1622847909\",\"e\":269},{\"val\":\"1\",\"time\":\"1623277775\",\"e\":270}]",
+        "pledge": "25000000000",
+        "hash_id": "3152",
+        "ticker_orig": "SBLYR",
+        "metric": -347.67998980244,
+        "delegators": "12",
+        "pledged": "28272139509",
+        "roa_lifetime": "44.471",
+        "luck_lifetime": "869",
+        "group_basic": "SOLO",
+        "tax_ratio_old": "0.01",
+        "tax_fix_old": "340000000",
+        "tax_real": 18.429428121545,
+        "active_stake": "30258741206",
+        "active_blocks": "0",
+        "direct": true,
+        "saturated": 0.00066213420556455,
+        "patreon": 0,
+        "rank": 1185,
+        "handles": {
+          "tw": "sublayerio",
+          "tg": null,
+          "fb": null,
+          "yt": "channel/UCg488irL6TBwT5fFiCQVBzw",
+          "tc": null,
+          "di": null,
+          "gh": null,
+          "icon": "https://static.adapools.org/pool_logo/8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8.png"
+        },
+        "blocks_estimated": 0.03,
+        "stake_x_deleg": 3548153794.4167,
+        "db_description": "Providing marketing pages and educational content for stake pool operators.",
+        "owners": "3"
+      },
+      "updated": "Sun, 13 Jun 2021 20:05:34 +0000"
+    }
+  },
+  {
+    "id": "9728b10a926c048af938e5c52053319db5be921e8b698842c3afd3cc",
+    "memberSince": "2021-06-13T19:59:54.000Z",
+    "name": "SOLAR Raspberry PI",
+    "ticker": "SOLRP",
+    "description": "Our goal is to create a fully solar powered raspberry pi for cardano staking",
+    "homepage": "https://solarcardano.com/",
+    "nonce": "1623102206",
+    "extended": {
+      "info": {
+        "url_png_icon_64x64": "https://solarcardano.com/icon.png",
+        "location": "Texas, USA",
+        "social": {
+          "telegram_handle": "solrp_ada_pool",
+          "github_handle": "canad1an",
+          "twitter_handle": "SOLRP_StakePool"
+        },
+        "about": {
+          "me": "Single Pool Operator",
+          "server": "Raspberry Pi Producer + Raspberry 2 Pi Relay located in Fort Worth Texas, USA running 500gb ssd all solar powered with very low energy draw."
+        },
+        "my-pool-ids": {
+          "0": "9728b10a926c048af938e5c52053319db5be921e8b698842c3afd3cc"
+        },
+        "when-satured-then-recommend": {
+          "0": "Small pools - support Decentralization"
+        }
+      }
+    },
+    "addr": "pool1ju5tzz5jdszg47fcuhzjq5e3nk6mays73d5csskr4lfucg397c3",
+    "metadata": {
+      "name": "SOLAR Raspberry PI",
+      "ticker": "SOLRP",
+      "description": "Our goal is to create a fully solar powered raspberry pi for cardano staking",
+      "homepage": "https://solarcardano.com/",
+      "nonce": "1623102206",
+      "extended": "https://solarcardano.com/ext_metadata.json"
+    },
+    "icon": "/ship-420.png",
+    "errors": [
+      "could not fetch extended metadata at: https://solarcardano.com/ext_metadata.json"
+    ],
+    "relays": [
+      {
+        "ipv4": "75.32.204.221",
+        "ipv6": null,
+        "dns": null,
+        "dns_srv": null,
+        "port": 6001
+      },
+      {
+        "ipv4": "75.32.204.221",
+        "ipv6": null,
+        "dns": null,
+        "dns_srv": null,
+        "port": 6002
+      }
+    ],
+    "location": [
+      -98.8223185136653,
+      31.8039734986
+    ],
+    "adapools": {
+      "created": "Fri, 26 Feb 2021 18:40:09 +0000",
+      "data": {
+        "id": "2448",
+        "pool_id": "9728b10a926c048af938e5c52053319db5be921e8b698842c3afd3cc",
+        "pool_id_bech32": "pool1ju5tzz5jdszg47fcuhzjq5e3nk6mays73d5csskr4lfucg397c3",
+        "db_ticker": "SOLRP",
+        "db_name": "SOLAR Raspberry PI",
+        "db_url": "https://solarcardano.com/",
+        "total_stake": "3453521586276",
+        "rewards_epoch": "268",
+        "tax_ratio": "0.01",
+        "tax_fix": "340000000",
+        "roa": "2.5",
+        "blocks_epoch": "5",
+        "blocks_lifetime": "1",
+        "blocks_est_lifetime": "0",
+        "stamp_strike": "0",
+        "hist_roa": "[{\"val\":\"0\",\"time\":\"1623281412\",\"e\":262},{\"val\":\"0\",\"time\":\"1623281412\",\"e\":263},{\"val\":\"0\",\"time\":\"1623281412\",\"e\":264},{\"val\":\"0\",\"time\":\"1623281412\",\"e\":265},{\"val\":\"0\",\"time\":\"1623281412\",\"e\":266},{\"val\":\"0\",\"time\":\"1623281412\",\"e\":267},{\"val\":\"527.152\",\"time\":\"1623281412\",\"e\":268},{\"val\":\"0\",\"time\":\"1623281412\",\"e\":269}]",
+        "hist_bpe": "[{\"val\":\"0\",\"time\":\"1619388979\",\"e\":261},{\"val\":\"0\",\"time\":\"1619820927\",\"e\":262},{\"val\":\"0\",\"time\":\"1620253144\",\"e\":263},{\"val\":\"0\",\"time\":\"1620685141\",\"e\":264},{\"val\":\"0\",\"time\":\"1621117425\",\"e\":265},{\"val\":\"0\",\"time\":\"1621551192\",\"e\":266},{\"val\":\"0\",\"time\":\"1621981465\",\"e\":267},{\"val\":\"1\",\"time\":\"1622413550\",\"e\":268},{\"val\":\"0\",\"time\":\"1622847902\",\"e\":269},{\"val\":\"0\",\"time\":\"1623277770\",\"e\":270}]",
+        "pledge": "8000000000",
+        "hash_id": "2445",
+        "ticker_orig": "SOLRP",
+        "metric": 65.575000996274,
+        "delegators": "16",
+        "pledged": "8000692982",
+        "roa_lifetime": "33.902",
+        "luck_lifetime": "643",
+        "group_basic": "SOLO",
+        "tax_ratio_old": "0.01",
+        "tax_fix_old": "340000000",
+        "tax_real": 15.8050580252,
+        "active_stake": "3150946063724",
+        "active_blocks": "0",
+        "direct": true,
+        "saturated": 0.053706211371277,
+        "patreon": 0,
+        "rank": 776,
+        "handles": {
+          "tw": "SOLRP_StakePool",
+          "tg": "solrp_ada_pool",
+          "fb": null,
+          "yt": null,
+          "tc": null,
+          "di": null,
+          "gh": "canad1an",
+          "icon": "https://static.adapools.org/pool_logo/9728b10a926c048af938e5c52053319db5be921e8b698842c3afd3cc.png"
+        },
+        "blocks_estimated": 3,
+        "stake_x_deleg": 215845099142.25,
+        "db_description": "Our goal is to create a fully solar powered raspberry pi for cardano staking",
+        "owners": "2"
+      },
+      "updated": "Sun, 13 Jun 2021 20:05:29 +0000"
     }
   },
   {
     "id": "cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0",
-    "memberSince": "2021-05-01T13:14:41.000Z",
+    "memberSince": "2021-06-13T19:59:54.000Z",
     "name": "ADASRN",
     "description": "Growing wealth together. We keep costs low for the community with a 1% margin.",
     "ticker": "SRN",
@@ -1312,8 +2122,10 @@
       "homepage": "https://www.adasrn.com",
       "extended": "https://sayshar.github.io/srn-mainnet.extended-metadata.json"
     },
-    "icon": "/images/cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0.png",
-    "errors": [],
+    "icon": "/ship-420.png",
+    "errors": [
+      "could not fetch extended metadata at: https://sayshar.github.io/srn-mainnet.extended-metadata.json"
+    ],
     "relays": [
       {
         "ipv4": null,
@@ -1369,7 +2181,7 @@
         "active_stake": "3256306743982",
         "active_blocks": "5",
         "direct": true,
-        "saturated": 0.050742410306145,
+        "saturated": 0.050742405020895,
         "patreon": 0,
         "rank": 945,
         "handles": {
@@ -1387,124 +2199,130 @@
         "db_description": "Growing wealth together. We keep costs low for the community with a 1% margin.",
         "owners": "1"
       },
-      "updated": "Sun, 13 Jun 2021 19:55:30 +0000"
+      "updated": "Sun, 13 Jun 2021 20:10:33 +0000"
     }
   },
   {
-    "id": "052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e",
-    "memberSince": "2021-05-11T20:00:18.000Z",
-    "name": "Behemoth",
-    "description": "Towards sustainable and decentralized Cardano.",
-    "ticker": "BHMT",
-    "homepage": "https://www.behemothpool.com",
+    "id": "4f5e469a40547208cf9876b36ae9b23874c302ab8ab263a952bbae6a",
+    "memberSince": "2021-06-13T19:59:54.000Z",
+    "name": "ZenPool",
+    "description": "A small-scale Cardano pool for friends and family",
+    "ticker": "ZAZEN",
+    "homepage": "http://zenen.space",
     "extended": {
       "info": {
-        "url_png_icon_64x64": "https://behemothpool.files.wordpress.com/2021/05/bhmt_icon_64x64-5.png",
-        "location": "Kaarina, Finland",
+        "url_png_icon_64x64": "https://raw.githubusercontent.com/ZenenTreadwell/zenentreadwell.github.io/3f97391f669120a5ffcfba7c201833d6fef33d35/static/enso-icon.png",
+        "url_png_logo": "https://raw.githubusercontent.com/ZenenTreadwell/zenentreadwell.github.io/3f97391f669120a5ffcfba7c201833d6fef33d35/static/enso-small.png",
+        "location": "Victoria, BC",
         "social": {
-          "twitter_handle": "Behemothpool",
-          "telegram_handle": "behemothpool",
-          "github_handle": "rakalto"
+          "twitter_handle": "",
+          "telegram_handle": "zenent",
+          "facebook_handle": "",
+          "youtube_handle": "",
+          "twitch_handle": "",
+          "discord_handle": "",
+          "github_handle": "zenentreadwell"
+        },
+        "company": {
+          "name": "Zazen Hosting",
+          "addr": "",
+          "city": "Victoria",
+          "country": "Canada",
+          "company_id": "",
+          "vat_id": ""
         },
         "about": {
-          "server": "Raspberry Pi Hosted at my home in Kaarina, Finland."
-        },
-        "my-pool-ids": {
-          "0": "052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e"
-        },
-        "adapools_ext": {
-          "prometheus": {
-            "0": {
-              "name": "relay 1 fi",
-              "type": "relay",
-              "key": "3f62526309ac1417217fad14d9caffca"
-            }
-          }
+          "me": "Web Developer with a huge interest in riding the decentralisation wave",
+          "server": "Raspberry Pi Hosted at my Home in Victoria",
+          "company": ""
         }
+      },
+      "my-pool-ids": {
+        "0": "4f5e469a40547208cf9876b36ae9b23874c302ab8ab263a952bbae6a"
       }
     },
-    "addr": "pool1q5h54ekx7wwqpfz78y8dppyl6uv7rpyvvr8nhf4es434un4mpx3",
+    "addr": "pool1fa0ydxjq23eq3nucw6ek46dj8p6vxq4t32ex822jhwhx5fyvzze",
     "metadata": {
-      "name": "Behemoth",
-      "description": "Towards sustainable and decentralized Cardano.",
-      "ticker": "BHMT",
-      "homepage": "https://www.behemothpool.com",
-      "extended": "https://raw.githubusercontent.com/rakalto/Extended-meta/main/meta.json"
+      "name": "ZenPool",
+      "description": "A small-scale Cardano pool for friends and family",
+      "ticker": "ZAZEN",
+      "homepage": "http://zenen.space",
+      "extended": "https://raw.githubusercontent.com/ZenenTreadwell/zenentreadwell.github.io/master/extended-poolData.json"
     },
-    "icon": "/images/052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e.png",
+    "icon": "/images/4f5e469a40547208cf9876b36ae9b23874c302ab8ab263a952bbae6a.png",
     "errors": [],
     "relays": [
       {
-        "ipv4": "176.93.21.218",
+        "ipv4": null,
         "ipv6": null,
-        "dns": null,
+        "dns": "relay1.zenen.space",
         "dns_srv": null,
         "port": 6000
       }
     ],
     "location": [
-      22.37222,
-      60.40694
+      -123.3649,
+      48.4283
     ],
     "adapools": {
-      "created": "Mon, 10 May 2021 18:50:15 +0000",
+      "created": "Tue, 12 Jan 2021 06:20:16 +0000",
       "data": {
-        "id": "3016",
-        "pool_id": "052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e",
-        "pool_id_bech32": "pool1q5h54ekx7wwqpfz78y8dppyl6uv7rpyvvr8nhf4es434un4mpx3",
-        "db_ticker": "BHMT",
-        "db_name": "Behemoth",
-        "db_url": "https://www.behemothpool.com",
-        "total_stake": "863774317",
-        "rewards_epoch": "0",
-        "tax_ratio": "0",
-        "tax_fix": "345000000",
+        "id": "1936",
+        "pool_id": "4f5e469a40547208cf9876b36ae9b23874c302ab8ab263a952bbae6a",
+        "pool_id_bech32": "pool1fa0ydxjq23eq3nucw6ek46dj8p6vxq4t32ex822jhwhx5fyvzze",
+        "db_ticker": "ZAZEN",
+        "db_name": "ZenPool",
+        "db_url": "http://zenen.space",
+        "total_stake": "457950675081",
+        "rewards_epoch": "256",
+        "tax_ratio": "0.01",
+        "tax_fix": "340000000",
         "roa": "0",
         "blocks_epoch": "0",
-        "blocks_lifetime": "0",
+        "blocks_lifetime": "6",
         "blocks_est_lifetime": "0",
         "stamp_strike": "0",
-        "hist_roa": "[{\"val\":\"0\",\"time\":\"1623281414\",\"e\":262},{\"val\":\"0\",\"time\":\"1623281414\",\"e\":263},{\"val\":\"0\",\"time\":\"1623281414\",\"e\":264},{\"val\":\"0\",\"time\":\"1623281414\",\"e\":265},{\"val\":\"0\",\"time\":\"1623281414\",\"e\":266},{\"val\":\"0\",\"time\":\"1623281414\",\"e\":267},{\"val\":\"0\",\"time\":\"1623281414\",\"e\":268},{\"val\":\"0\",\"time\":\"1623281414\",\"e\":269}]",
-        "hist_bpe": "[{\"val\":\"0\",\"time\":\"1619388983\",\"e\":261},{\"val\":\"0\",\"time\":\"1619820930\",\"e\":262},{\"val\":\"0\",\"time\":\"1620253147\",\"e\":263},{\"val\":\"0\",\"time\":\"1620685145\",\"e\":264},{\"val\":\"0\",\"time\":\"1621117430\",\"e\":265},{\"val\":\"0\",\"time\":\"1621551196\",\"e\":266},{\"val\":\"0\",\"time\":\"1621981469\",\"e\":267},{\"val\":\"0\",\"time\":\"1622413555\",\"e\":268},{\"val\":\"0\",\"time\":\"1622847908\",\"e\":269},{\"val\":\"0\",\"time\":\"1623277774\",\"e\":270}]",
-        "pledge": "50000000",
-        "hash_id": "3013",
-        "ticker_orig": "BHMT",
-        "metric": -405.61004509669,
-        "delegators": "3",
-        "pledged": "145881389",
-        "roa_lifetime": "0",
-        "luck_lifetime": "0",
+        "hist_roa": "[{\"val\":\"0\",\"time\":\"1623281410\",\"e\":262},{\"val\":\"0\",\"time\":\"1623281410\",\"e\":263},{\"val\":\"0\",\"time\":\"1623281410\",\"e\":264},{\"val\":\"0\",\"time\":\"1623281410\",\"e\":265},{\"val\":\"0\",\"time\":\"1623281410\",\"e\":266},{\"val\":\"0\",\"time\":\"1623281410\",\"e\":267},{\"val\":\"0\",\"time\":\"1623281410\",\"e\":268},{\"val\":\"0\",\"time\":\"1623281410\",\"e\":269}]",
+        "hist_bpe": "[{\"val\":\"0\",\"time\":\"1619388973\",\"e\":261},{\"val\":\"0\",\"time\":\"1619820921\",\"e\":262},{\"val\":\"0\",\"time\":\"1620253137\",\"e\":263},{\"val\":\"0\",\"time\":\"1620685133\",\"e\":264},{\"val\":\"0\",\"time\":\"1621117417\",\"e\":265},{\"val\":\"0\",\"time\":\"1621551184\",\"e\":266},{\"val\":\"0\",\"time\":\"1621981455\",\"e\":267},{\"val\":\"0\",\"time\":\"1622413541\",\"e\":268},{\"val\":\"0\",\"time\":\"1622847892\",\"e\":269},{\"val\":\"0\",\"time\":\"1623277759\",\"e\":270}]",
+        "pledge": "18000000000",
+        "hash_id": "1934",
+        "ticker_orig": "ZAZEN",
+        "metric": -237.20858859273,
+        "delegators": "12",
+        "pledged": "18654859327",
+        "roa_lifetime": "3.21",
+        "luck_lifetime": "61",
         "group_basic": "SOLO",
-        "tax_ratio_old": null,
-        "tax_fix_old": null,
-        "tax_real": 17.351215423303,
-        "active_stake": "863774317",
+        "tax_ratio_old": "0.01",
+        "tax_fix_old": "340000000",
+        "tax_real": 18.429428121545,
+        "active_stake": "457950675081",
         "active_blocks": "0",
         "direct": true,
-        "saturated": 0.000013432680088093,
+        "saturated": 0.0071216568766378,
         "patreon": 0,
-        "rank": 1596,
+        "rank": 963,
         "handles": {
-          "tw": "Behemothpool",
-          "tg": "behemothpool",
-          "fb": null,
-          "yt": null,
-          "tc": null,
-          "di": null,
-          "gh": "rakalto",
-          "icon": "https://static.adapools.org/pool_logo/052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e.png"
+          "tw": "",
+          "tg": "zenent",
+          "fb": "",
+          "yt": "",
+          "tc": "",
+          "di": "",
+          "gh": "zenentreadwell",
+          "icon": "https://static.adapools.org/pool_logo/4f5e469a40547208cf9876b36ae9b23874c302ab8ab263a952bbae6a.png"
         },
-        "blocks_estimated": 0,
-        "stake_x_deleg": 287924772.33333,
-        "db_description": "Towards sustainable and decentralized Cardano.",
+        "blocks_estimated": 0.43,
+        "stake_x_deleg": 38162556256.75,
+        "db_description": "A small-scale Cardano pool for friends and family",
         "owners": "1"
       },
-      "updated": "Sun, 13 Jun 2021 19:55:49 +0000"
+      "updated": "Sun, 13 Jun 2021 20:05:31 +0000"
     }
   },
   {
     "id": "2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
-    "memberSince": "2021-05-12T11:49:17.000Z",
+    "memberSince": "2021-06-13T19:59:54.000Z",
     "name": "Southtyrolpool",
     "description": "A stable pool from South tyrol.",
     "ticker": "SUDTI",
@@ -1610,7 +2428,7 @@
         "active_stake": "21289141012",
         "active_blocks": "0",
         "direct": true,
-        "saturated": 0.0012976727020117,
+        "saturated": 0.0012976725733387,
         "patreon": "1",
         "rank": 1252,
         "handles": {
@@ -1628,823 +2446,7 @@
         "db_description": "A stable pool from South tyrol.",
         "owners": "1"
       },
-      "updated": "Sun, 13 Jun 2021 19:55:35 +0000"
-    }
-  },
-  {
-    "id": "7aac5502d19cac8731e3b86ecc9553d69b26a02155e5c9cf262d224c",
-    "memberSince": "2021-05-16T00:58:38.000Z",
-    "name": "PIEBR Pool",
-    "description": "Pool com objetivo de usar RaspBerry PI com energia solar no Brasil. Venha ajudar o planeta?",
-    "ticker": "PIEBR",
-    "homepage": "https://github.com/karnagge/piebr",
-    "extended": {
-      "info": {
-        "url_png_icon_64x64": "",
-        "url_png_logo": "",
-        "location": "Brasilia, BRL",
-        "social": {
-          "twitter_handle": "",
-          "telegram_handle": "feu_franco",
-          "youtube_handle": "",
-          "github_handle": "karnagge"
-        },
-        "company": {
-          "name": "PIEBR",
-          "addr": "",
-          "city": "",
-          "country": "Brazil",
-          "company_id": "",
-          "vat_id": ""
-        },
-        "about": {
-          "me": "",
-          "server": "",
-          "company": ""
-        },
-        "rss": ""
-      },
-      "telegram-admin-handle": {
-        "0": "feu_franco"
-      },
-      "my-pool-ids": [
-        "7aac5502d19cac8731e3b86ecc9553d69b26a02155e5c9cf262d224c"
-      ],
-      "when-satured-then-recommend": [
-        "b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65"
-      ]
-    },
-    "addr": "pool102k92qk3njkgwv0rhphve92n66djdgpp2hjunnex953yc3qdldv",
-    "metadata": {
-      "name": "PIEBR Pool",
-      "description": "Pool com objetivo de usar RaspBerry PI com energia solar no Brasil. Venha ajudar o planeta?",
-      "ticker": "PIEBR",
-      "homepage": "https://github.com/karnagge/piebr",
-      "extended": "https://karnagge.github.io/extended-metadata.json"
-    },
-    "icon": "/ship-420.png",
-    "errors": [],
-    "relays": [
-      {
-        "ipv4": "34.95.221.38",
-        "ipv6": null,
-        "dns": null,
-        "dns_srv": null,
-        "port": 3001
-      }
-    ],
-    "location": [
-      -48.83409,
-      -26.269948
-    ],
-    "adapools": {
-      "created": "Wed, 28 Apr 2021 04:20:16 +0000",
-      "data": {
-        "id": "3351",
-        "pool_id": "7aac5502d19cac8731e3b86ecc9553d69b26a02155e5c9cf262d224c",
-        "pool_id_bech32": "pool102k92qk3njkgwv0rhphve92n66djdgpp2hjunnex953yc3qdldv",
-        "db_ticker": "PIEBR",
-        "db_name": "PIEBR Pool",
-        "db_url": "https://github.com/karnagge/piebr",
-        "total_stake": "13836800725",
-        "rewards_epoch": "0",
-        "tax_ratio": "0",
-        "tax_fix": "340000000",
-        "roa": "0",
-        "blocks_epoch": "0",
-        "blocks_lifetime": "0",
-        "blocks_est_lifetime": "0",
-        "stamp_strike": "0",
-        "hist_roa": "[{\"val\":\"0\",\"time\":\"1623281413\",\"e\":262},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":263},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":264},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":265},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":266},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":267},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":268},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":269}]",
-        "hist_bpe": "[{\"val\":\"0\",\"time\":\"1619820930\",\"e\":262},{\"val\":\"0\",\"time\":\"1620253147\",\"e\":263},{\"val\":\"0\",\"time\":\"1620685144\",\"e\":264},{\"val\":\"0\",\"time\":\"1621117429\",\"e\":265},{\"val\":\"0\",\"time\":\"1621551196\",\"e\":266},{\"val\":\"0\",\"time\":\"1621981468\",\"e\":267},{\"val\":\"0\",\"time\":\"1622413554\",\"e\":268},{\"val\":\"0\",\"time\":\"1622847907\",\"e\":269},{\"val\":\"0\",\"time\":\"1623277774\",\"e\":270}]",
-        "pledge": "800000000",
-        "hash_id": "3348",
-        "ticker_orig": "PIEBR",
-        "metric": -365.03882010177,
-        "delegators": "11",
-        "pledged": "808772532",
-        "roa_lifetime": "0",
-        "luck_lifetime": "0",
-        "group_basic": "SOLO",
-        "tax_ratio_old": "0",
-        "tax_fix_old": "340000000",
-        "tax_real": 17.056856187291,
-        "active_stake": "13848369038",
-        "active_blocks": "0",
-        "direct": false,
-        "saturated": 0.00021517810141329,
-        "patreon": 0,
-        "rank": 1292,
-        "handles": {
-          "tw": "",
-          "tg": "feu_franco",
-          "fb": null,
-          "yt": "",
-          "tc": null,
-          "di": null,
-          "gh": "karnagge",
-          "icon": 0
-        },
-        "blocks_estimated": 0.01,
-        "stake_x_deleg": 1257890975,
-        "db_description": "Pool com objetivo de usar RaspBerry PI com energia solar no Brasil. Venha ajudar o planeta?",
-        "owners": "1"
-      },
-      "updated": "Sun, 13 Jun 2021 19:55:35 +0000"
-    }
-  },
-  {
-    "id": "96155e7994343ae2b5da83d895cbab3c21838f95c3f971c8e20ee3c8",
-    "memberSince": "2021-05-18T15:58:23.000Z",
-    "name": "Halo Stake Pool",
-    "ticker": "HALO",
-    "description": "Sustainable decentralization with new single pool. Always low fees on a Raspberry Pi cluster! 😇",
-    "homepage": "https://www.halostake.com",
-    "extended": {
-      "info": {
-        "url_png_icon_64x64": "https://raw.githubusercontent.com/reignxx/m/master/halostakeclean_64px.png",
-        "url_png_logo": "https://raw.githubusercontent.com/reignxx/m/master/halostakeclean_small.png",
-        "location": "Omaha, Nebraska",
-        "social": {
-          "twitter_handle": "",
-          "telegram_handle": "https://t.me/HALOSTAKEPOOL",
-          "facebook_handle": "",
-          "youtube_handle": "",
-          "twitch_handle": "",
-          "discord_handle": "https://discord.gg/U93B6XCr6Z",
-          "github_handle": "reignxx"
-        },
-        "company": {
-          "name": "",
-          "addr": "",
-          "city": "",
-          "country": "",
-          "company_id": "",
-          "vat_id": ""
-        },
-        "about": {
-          "me": "",
-          "server": "Raspberry Pi Cluster hosted on dedicated connection. Super fast 99.9% uptime.",
-          "company": ""
-        }
-      },
-      "my-pool-ids": {
-        "0": "96155e7994343ae2b5da83d895cbab3c21838f95c3f971c8e20ee3c8"
-      },
-      "when-satured-then-recommend": {
-        "0": "96155e7994343ae2b5da83d895cbab3c21838f95c3f971c8e20ee3c8"
-      },
-      "telegram-admin-handle": {
-        "0": "Chris_Rain"
-      },
-      "adapools_ext": {
-        "prometheus": {
-          "0": {
-            "name": "Relay 1 Omaha",
-            "type": "relay",
-            "key": "8ea5662d9edf7b75ceafa833ff4816be"
-          },
-          "1": {
-            "name": "Core",
-            "type": "bp",
-            "key": "e77c6fbd3b4937aa38bd165d2ba8365f"
-          }
-        }
-      }
-    },
-    "nonce": "1620699514",
-    "addr": "pool1jc24u7v5xsaw9dw6s0vftjat8ssc8ru4c0uhrj8zpm3usnrp03t",
-    "metadata": {
-      "name": "Halo Stake Pool",
-      "ticker": "HALO",
-      "description": "Sustainable decentralization with new single pool. Always low fees on a Raspberry Pi cluster! 😇",
-      "homepage": "https://www.halostake.com",
-      "extended": "https://raw.githubusercontent.com/reignxx/m/master/Xmeta.json",
-      "nonce": "1620699514"
-    },
-    "icon": "/images/96155e7994343ae2b5da83d895cbab3c21838f95c3f971c8e20ee3c8.png",
-    "errors": [],
-    "relays": [
-      {
-        "ipv4": null,
-        "ipv6": null,
-        "dns": "relay.halostake.com",
-        "dns_srv": null,
-        "port": 6000
-      }
-    ],
-    "location": [
-      -95.9379,
-      41.2587
-    ],
-    "adapools": {
-      "created": "Tue, 11 May 2021 02:35:14 +0000",
-      "data": {
-        "id": "3451",
-        "pool_id": "96155e7994343ae2b5da83d895cbab3c21838f95c3f971c8e20ee3c8",
-        "pool_id_bech32": "pool1jc24u7v5xsaw9dw6s0vftjat8ssc8ru4c0uhrj8zpm3usnrp03t",
-        "db_ticker": "HALO",
-        "db_name": "Halo Stake Pool",
-        "db_url": "https://www.halostake.com",
-        "total_stake": "62073782426",
-        "rewards_epoch": "0",
-        "tax_ratio": "0",
-        "tax_fix": "340000000",
-        "roa": "0",
-        "blocks_epoch": "0",
-        "blocks_lifetime": "0",
-        "blocks_est_lifetime": "0",
-        "stamp_strike": "0",
-        "hist_roa": "[{\"val\":null,\"time\":\"1623281415\",\"e\":262},{\"val\":null,\"time\":\"1623281415\",\"e\":263},{\"val\":\"0\",\"time\":\"1623281415\",\"e\":264},{\"val\":\"0\",\"time\":\"1623281415\",\"e\":265},{\"val\":\"0\",\"time\":\"1623281415\",\"e\":266},{\"val\":\"0\",\"time\":\"1623281415\",\"e\":267},{\"val\":\"0\",\"time\":\"1623281415\",\"e\":268},{\"val\":\"0\",\"time\":\"1623281415\",\"e\":269}]",
-        "hist_bpe": "[{\"val\":\"0\",\"time\":\"1621117433\",\"e\":265},{\"val\":\"0\",\"time\":\"1621551200\",\"e\":266},{\"val\":\"0\",\"time\":\"1621981471\",\"e\":267},{\"val\":\"0\",\"time\":\"1622413557\",\"e\":268},{\"val\":\"0\",\"time\":\"1622847910\",\"e\":269},{\"val\":\"0\",\"time\":\"1623277777\",\"e\":270}]",
-        "pledge": "3000000000",
-        "hash_id": "3448",
-        "ticker_orig": "HALO",
-        "metric": -374.93469508303,
-        "delegators": "6",
-        "pledged": "3002007384",
-        "roa_lifetime": "0",
-        "luck_lifetime": "0",
-        "group_basic": "SOLO",
-        "tax_ratio_old": "0",
-        "tax_fix_old": "340000000",
-        "tax_real": 17.056856187291,
-        "active_stake": "62073782426",
-        "active_blocks": "0",
-        "direct": true,
-        "saturated": 0.00096531842262028,
-        "patreon": 0,
-        "rank": 1366,
-        "handles": {
-          "tw": "",
-          "tg": "https://t.me/HALOSTAKEPOOL",
-          "fb": "",
-          "yt": "",
-          "tc": "",
-          "di": "https://discord.gg/U93B6XCr6Z",
-          "gh": "reignxx",
-          "icon": "https://static.adapools.org/pool_logo/96155e7994343ae2b5da83d895cbab3c21838f95c3f971c8e20ee3c8.png"
-        },
-        "blocks_estimated": 0.06,
-        "stake_x_deleg": 10345630404.333,
-        "db_description": "Sustainable decentralization with new single pool. Always low fees on a Raspberry Pi cluster! 😇",
-        "owners": "2"
-      },
-      "updated": "Sun, 13 Jun 2021 19:55:38 +0000"
-    }
-  },
-  {
-    "id": "2730ca79a60b3b3f29b709bd39c21d66cb2c83e5441c479f755d0a3d",
-    "memberSince": "2021-06-12T18:10:25.000Z",
-    "name": "Armadillo",
-    "description": "Minimum fees, maximum reliability, helping to secure the Cardano blockchain",
-    "ticker": "AMDLO",
-    "homepage": "https://armadillo-pool.org",
-    "extended": {
-      "info": {
-        "url_png_icon_64x64": "https://raw.githubusercontent.com/Zebra-Danio/meta/main/icon64.png",
-        "url_png_logo": "https://raw.githubusercontent.com/Zebra-Danio/meta/main/logo.png",
-        "location": "London, UK",
-        "social": {
-          "twitter_handle": "Armadillo_Pool",
-          "discord_handle": "Zebra Danio#2501",
-          "github_handle": "Zebra-Danio"
-        },
-        "my-pool-ids": {
-          "0": "2730ca79a60b3b3f29b709bd39c21d66cb2c83e5441c479f755d0a3d"
-        },
-        "when-satured-then-recommend": {
-          "0": "c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae",
-          "1": "2a748e3885f6f73320ad16a8331247b81fe01b8d39f57eec9caa5091"
-        }
-      }
-    },
-    "addr": "pool1yucv57dxpvan72dhpx7nnssavm9jeql9gswy08m4t59r6cshny6",
-    "metadata": {
-      "name": "Armadillo",
-      "description": "Minimum fees, maximum reliability, helping to secure the Cardano blockchain",
-      "ticker": "AMDLO",
-      "homepage": "https://armadillo-pool.org",
-      "extended": "https://raw.githubusercontent.com/Zebra-Danio/meta/main/extendedPoolMetaData.json"
-    },
-    "icon": "/images/2730ca79a60b3b3f29b709bd39c21d66cb2c83e5441c479f755d0a3d.png",
-    "errors": [],
-    "relays": [
-      {
-        "ipv4": null,
-        "ipv6": null,
-        "dns": "relay1.armadillo-pool.com",
-        "dns_srv": null,
-        "port": 3001
-      },
-      {
-        "ipv4": null,
-        "ipv6": null,
-        "dns": "relay2.armadillo-pool.com",
-        "dns_srv": null,
-        "port": 3002
-      }
-    ],
-    "location": [
-      -0.12764739999999997,
-      51.507321899999994
-    ],
-    "adapools": {
-      "created": "Fri, 28 May 2021 17:35:19 +0000",
-      "data": {
-        "id": "3593",
-        "pool_id": "2730ca79a60b3b3f29b709bd39c21d66cb2c83e5441c479f755d0a3d",
-        "pool_id_bech32": "pool1yucv57dxpvan72dhpx7nnssavm9jeql9gswy08m4t59r6cshny6",
-        "db_ticker": "AMDLO",
-        "db_name": "Armadillo",
-        "db_url": "https://armadillo-pool.org",
-        "total_stake": "9633182784",
-        "rewards_epoch": "0",
-        "tax_ratio": "0",
-        "tax_fix": "340000000",
-        "roa": "0",
-        "blocks_epoch": "0",
-        "blocks_lifetime": "0",
-        "blocks_est_lifetime": "0",
-        "stamp_strike": "0",
-        "hist_roa": "[{\"val\":null,\"time\":\"1623281415\",\"e\":262},{\"val\":null,\"time\":\"1623281415\",\"e\":263},{\"val\":null,\"time\":\"1623281415\",\"e\":264},{\"val\":null,\"time\":\"1623281415\",\"e\":265},{\"val\":null,\"time\":\"1623281415\",\"e\":266},{\"val\":\"0\",\"time\":\"1623281415\",\"e\":267},{\"val\":\"0\",\"time\":\"1623281415\",\"e\":268},{\"val\":\"0\",\"time\":\"1623281415\",\"e\":269}]",
-        "hist_bpe": "[{\"val\":\"0\",\"time\":\"1622413558\",\"e\":268},{\"val\":\"0\",\"time\":\"1622847911\",\"e\":269},{\"val\":\"0\",\"time\":\"1623277777\",\"e\":270}]",
-        "pledge": "9500000000",
-        "hash_id": "3590",
-        "ticker_orig": "AMDLO",
-        "metric": -515.31497560487,
-        "delegators": "1",
-        "pledged": "9633182784",
-        "roa_lifetime": "0",
-        "luck_lifetime": "0",
-        "group_basic": "SOLO",
-        "tax_ratio_old": "0",
-        "tax_fix_old": "340000000",
-        "tax_real": 17.056856187291,
-        "active_stake": "9633182784",
-        "active_blocks": "0",
-        "direct": true,
-        "saturated": 0.00014980702716077,
-        "patreon": 0,
-        "rank": 1848,
-        "handles": {
-          "tw": "Armadillo_Pool",
-          "tg": null,
-          "fb": null,
-          "yt": null,
-          "tc": null,
-          "di": "Zebra Danio#2501",
-          "gh": "Zebra-Danio",
-          "icon": "https://static.adapools.org/pool_logo/2730ca79a60b3b3f29b709bd39c21d66cb2c83e5441c479f755d0a3d.png"
-        },
-        "blocks_estimated": 0.01,
-        "stake_x_deleg": 9633182784,
-        "db_description": "Minimum fees, maximum reliability, helping to secure the Cardano blockchain",
-        "owners": "1"
-      },
-      "updated": "Sun, 13 Jun 2021 19:55:59 +0000"
-    }
-  },
-  {
-    "id": "33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4",
-    "memberSince": "2021-06-12T18:10:25.000Z",
-    "name": "Adaberry Pi",
-    "description": "Delegate to our mission-driven Adaberry Pi Cardano stake pool and be rewarded for helping heal the environment and economy. 🥧 ( π ≈ 3.14 :: ₳ ≡ ∞ ) 😃",
-    "ticker": "00000",
-    "homepage": "https://adaberrypi.com",
-    "extended": {
-      "info": {
-        "url_png_icon_64x64": "https://adaberrypi.com/Adaberry-Pi-Stake-Pool-APSP-64x64.png",
-        "url_png_logo": "https://adaberrypi.com/Adaberry_Pi_Stake_Pool-APSP-1000x1000.png",
-        "location": "Arizona, USA",
-        "social": {
-          "twitter_handle": "AdaberryPi"
-        },
-        "about": {
-          "server": "Get rewarded for helping heal the environment and economy when you delegate your Cardano stake to our mission-driven Adaberry Pi Stake Pool. 🥧 ( π ≈ 3.14 :: ₳ ≡ ∞ ) 😃"
-        }
-      },
-      "my-pool-ids": {
-        "0": "33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4"
-      }
-    },
-    "addr": "pool1xdcg6kg0g4y3wqf92f8uh44urz06suglhff036k5yak2g0m8zlc",
-    "metadata": {
-      "name": "Adaberry Pi",
-      "description": "Delegate to our mission-driven Adaberry Pi Cardano stake pool and be rewarded for helping heal the environment and economy. 🥧 ( π ≈ 3.14 :: ₳ ≡ ∞ ) 😃",
-      "ticker": "00000",
-      "homepage": "https://adaberrypi.com",
-      "extended": "https://adaberrypi.com/ext.00000.json"
-    },
-    "icon": "/images/33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4.png",
-    "errors": [],
-    "relays": [
-      {
-        "ipv4": null,
-        "ipv6": null,
-        "dns": "relay1.adaberrypi.com",
-        "dns_srv": null,
-        "port": 3001
-      },
-      {
-        "ipv4": null,
-        "ipv6": null,
-        "dns": "relay2.adaberrypi.com",
-        "dns_srv": null,
-        "port": 3002
-      }
-    ],
-    "location": [
-      -111.422127989113,
-      34.2202611707
-    ],
-    "adapools": {
-      "created": "Fri, 28 May 2021 11:20:17 +0000",
-      "data": {
-        "id": "3589",
-        "pool_id": "33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4",
-        "pool_id_bech32": "pool1xdcg6kg0g4y3wqf92f8uh44urz06suglhff036k5yak2g0m8zlc",
-        "db_ticker": "APSP",
-        "db_name": "Adaberry Pi Stake Pool",
-        "db_url": "https://pool.adaberrypi.com",
-        "total_stake": "32152485154",
-        "rewards_epoch": "0",
-        "tax_ratio": "0.0314",
-        "tax_fix": "340000000",
-        "roa": "0",
-        "blocks_epoch": "0",
-        "blocks_lifetime": "0",
-        "blocks_est_lifetime": "0",
-        "stamp_strike": "0",
-        "hist_roa": "[{\"val\":null,\"time\":\"1623281415\",\"e\":262},{\"val\":null,\"time\":\"1623281415\",\"e\":263},{\"val\":null,\"time\":\"1623281415\",\"e\":264},{\"val\":null,\"time\":\"1623281415\",\"e\":265},{\"val\":null,\"time\":\"1623281415\",\"e\":266},{\"val\":\"0\",\"time\":\"1623281415\",\"e\":267},{\"val\":\"0\",\"time\":\"1623281415\",\"e\":268},{\"val\":\"0\",\"time\":\"1623281415\",\"e\":269}]",
-        "hist_bpe": "[{\"val\":\"0\",\"time\":\"1622413558\",\"e\":268},{\"val\":\"0\",\"time\":\"1622847911\",\"e\":269},{\"val\":\"0\",\"time\":\"1623277777\",\"e\":270}]",
-        "pledge": "32000000000",
-        "hash_id": "3586",
-        "ticker_orig": "APSP",
-        "metric": -418.09222496154,
-        "delegators": "2",
-        "pledged": "32152485154",
-        "roa_lifetime": "0",
-        "luck_lifetime": "0",
-        "group_basic": "SOLO",
-        "tax_ratio_old": "0.03",
-        "tax_fix_old": "340000000",
-        "tax_real": 21.382548539233,
-        "active_stake": "32116012809",
-        "active_blocks": "0",
-        "direct": false,
-        "saturated": 0.00050000797501235,
-        "patreon": 0,
-        "rank": 1629,
-        "handles": {
-          "tw": null,
-          "tg": null,
-          "fb": null,
-          "yt": null,
-          "tc": null,
-          "di": null,
-          "gh": null,
-          "icon": 0
-        },
-        "blocks_estimated": 0.03,
-        "stake_x_deleg": 16076242577,
-        "db_description": "Please delegate your Cardano stake to our mission-driven Adaberry Pi Stake Pool. 🥧 Be rewarded for helping heal the environment and economy. ( π ≈ 3.14 :: ₳ ≡ ∞ ) 😃",
-        "owners": "2"
-      },
-      "updated": "Sun, 13 Jun 2021 19:55:49 +0000"
-    }
-  },
-  {
-    "id": "97aaa4621cffb87c3e8380376406cc9501d6c9e1cbb459e17cd60602",
-    "memberSince": "2021-06-12T18:10:25.000Z",
-    "name": "BONE pool",
-    "description": "Our aim is to promote decentralization, one small bone in the skeleton supporting the future",
-    "ticker": "BONE",
-    "homepage": "https://poolbone.github.io/meta/",
-    "addr": "pool1j742gcsul7u8c05rsqmkgpkvj5qadj0pew69nctu6crqy9wjjn4",
-    "metadata": {
-      "name": "BONE pool",
-      "description": "Our aim is to promote decentralization, one small bone in the skeleton supporting the future",
-      "ticker": "BONE",
-      "homepage": "https://poolbone.github.io/meta/"
-    },
-    "icon": "/ship-420.png",
-    "errors": [],
-    "relays": [
-      {
-        "ipv4": null,
-        "ipv6": null,
-        "dns": "metallov.duckdns.org",
-        "dns_srv": null,
-        "port": 8682
-      },
-      {
-        "ipv4": null,
-        "ipv6": null,
-        "dns": "metallov.duckdns.org",
-        "dns_srv": null,
-        "port": 8683
-      },
-      {
-        "ipv4": null,
-        "ipv6": null,
-        "dns": "metallov.duckdns.org",
-        "dns_srv": null,
-        "port": 8684
-      }
-    ],
-    "adapools": {
-      "created": "Tue, 09 Mar 2021 17:05:09 +0000",
-      "data": {
-        "id": "2723",
-        "pool_id": "97aaa4621cffb87c3e8380376406cc9501d6c9e1cbb459e17cd60602",
-        "pool_id_bech32": "pool1j742gcsul7u8c05rsqmkgpkvj5qadj0pew69nctu6crqy9wjjn4",
-        "db_ticker": "BONE",
-        "db_name": "BONE pool",
-        "db_url": "https://poolbone.github.io/meta/",
-        "total_stake": "161318367850",
-        "rewards_epoch": "270",
-        "tax_ratio": "0.01",
-        "tax_fix": "340000000",
-        "roa": "2.5",
-        "blocks_epoch": "1",
-        "blocks_lifetime": "4",
-        "blocks_est_lifetime": "0",
-        "stamp_strike": "0",
-        "hist_roa": "[{\"val\":\"0\",\"time\":\"1623281413\",\"e\":262},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":263},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":264},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":265},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":266},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":267},{\"val\":\"67.657\",\"time\":\"1623281413\",\"e\":268},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":269}]",
-        "hist_bpe": "[{\"val\":\"0\",\"time\":\"1619388981\",\"e\":261},{\"val\":\"0\",\"time\":\"1619820929\",\"e\":262},{\"val\":\"0\",\"time\":\"1620253146\",\"e\":263},{\"val\":\"0\",\"time\":\"1620685143\",\"e\":264},{\"val\":\"0\",\"time\":\"1621117428\",\"e\":265},{\"val\":\"0\",\"time\":\"1621551195\",\"e\":266},{\"val\":\"0\",\"time\":\"1621981467\",\"e\":267},{\"val\":\"2\",\"time\":\"1622413553\",\"e\":268},{\"val\":\"0\",\"time\":\"1622847905\",\"e\":269},{\"val\":\"1\",\"time\":\"1623277773\",\"e\":270}]",
-        "pledge": "52000000000",
-        "hash_id": "2720",
-        "ticker_orig": "BONE",
-        "metric": -230.76964276867,
-        "delegators": "11",
-        "pledged": "59074661193",
-        "roa_lifetime": "6.476",
-        "luck_lifetime": "126",
-        "group_basic": "SOLO",
-        "tax_ratio_old": null,
-        "tax_fix_old": null,
-        "tax_real": 18.429428121545,
-        "active_stake": "211729000820",
-        "active_blocks": "0",
-        "direct": true,
-        "saturated": 0.0025086854112408,
-        "patreon": 0,
-        "rank": 956,
-        "handles": {
-          "tw": null,
-          "tg": null,
-          "fb": null,
-          "yt": null,
-          "tc": null,
-          "di": null,
-          "gh": null,
-          "icon": 0
-        },
-        "blocks_estimated": 0.2,
-        "stake_x_deleg": 14665306168.182,
-        "db_description": "Our aim is to promote decentralization, one small bone in the skeleton supporting the future",
-        "owners": "1"
-      },
-      "updated": "Sun, 13 Jun 2021 19:55:31 +0000"
-    }
-  },
-  {
-    "id": "c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386",
-    "memberSince": "2021-06-12T18:10:25.000Z",
-    "name": "MEME Pool",
-    "description": "They don't know I run a Cardano stake pool.",
-    "ticker": "MEME",
-    "homepage": "https://meme.best",
-    "extended": {
-      "info": {
-        "about": {
-          "me": "",
-          "server": "The MEME stake pool runs on a trio of Raspberry Pi microcomputers with SSD hard drives and a gigabit fiber optic connection to the internet. Our servers consume about 0.2kWh per day, which is about the same as running one 9W (60W equivalent) LED light bulb."
-        },
-        "company": {
-          "city": "New York`",
-          "country": "USA"
-        },
-        "location": "Westchester, New York",
-        "rss": "https://meme.best/rss.xml",
-        "social": {
-          "telegram_handle": "sporke",
-          "twitter_handle": "meme_pool"
-        },
-        "url_png_icon_64x64": "https://meme.best/icons/apple-touch-icon.png",
-        "url_png_logo": "https://meme.best/icons/apple-touch-icon.png"
-      },
-      "my-pool-ids": {
-        "0": "c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386"
-      }
-    },
-    "addr": "pool1ex4gapjdtnpf9u8fxe560x6p6elcaf3ysxsdskc5h63cv0zq5cv",
-    "metadata": {
-      "name": "MEME Pool",
-      "description": "They don't know I run a Cardano stake pool.",
-      "ticker": "MEME",
-      "homepage": "https://meme.best",
-      "extended": "https://meme.best/node/extended.json"
-    },
-    "icon": "/images/c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386.png",
-    "errors": [],
-    "relays": [
-      {
-        "ipv4": null,
-        "ipv6": null,
-        "dns": "node.meme.best",
-        "dns_srv": null,
-        "port": 3000
-      },
-      {
-        "ipv4": null,
-        "ipv6": null,
-        "dns": "node.meme.best",
-        "dns_srv": null,
-        "port": 3001
-      }
-    ],
-    "location": [
-      -73.84,
-      40.84
-    ],
-    "adapools": {
-      "created": "Sat, 13 Mar 2021 20:20:09 +0000",
-      "data": {
-        "id": "2812",
-        "pool_id": "c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386",
-        "pool_id_bech32": "pool1ex4gapjdtnpf9u8fxe560x6p6elcaf3ysxsdskc5h63cv0zq5cv",
-        "db_ticker": "MEME",
-        "db_name": "MEME Pool",
-        "db_url": "https://meme.best",
-        "total_stake": "35275840158",
-        "rewards_epoch": "264",
-        "tax_ratio": "0.02",
-        "tax_fix": "341000000",
-        "roa": "2.5",
-        "blocks_epoch": "1",
-        "blocks_lifetime": "1",
-        "blocks_est_lifetime": "0",
-        "stamp_strike": "0",
-        "hist_roa": "[{\"val\":\"0\",\"time\":\"1623281413\",\"e\":262},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":263},{\"val\":\"197.281\",\"time\":\"1623281413\",\"e\":264},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":265},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":266},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":267},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":268},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":269}]",
-        "hist_bpe": "[{\"val\":\"0\",\"time\":\"1619388982\",\"e\":261},{\"val\":\"0\",\"time\":\"1619820930\",\"e\":262},{\"val\":\"0\",\"time\":\"1620253147\",\"e\":263},{\"val\":\"1\",\"time\":\"1620685144\",\"e\":264},{\"val\":\"0\",\"time\":\"1621117428\",\"e\":265},{\"val\":\"0\",\"time\":\"1621551195\",\"e\":266},{\"val\":\"0\",\"time\":\"1621981468\",\"e\":267},{\"val\":\"0\",\"time\":\"1622413554\",\"e\":268},{\"val\":\"0\",\"time\":\"1622847906\",\"e\":269},{\"val\":\"0\",\"time\":\"1623277773\",\"e\":270}]",
-        "pledge": "25000000000",
-        "hash_id": "2809",
-        "ticker_orig": "MEME",
-        "metric": -345.67500275149,
-        "delegators": "18",
-        "pledged": "25824356169",
-        "roa_lifetime": "16.988",
-        "luck_lifetime": "287",
-        "group_basic": "SOLO",
-        "tax_ratio_old": "0.02",
-        "tax_fix_old": "341000000",
-        "tax_real": 19.868245659393,
-        "active_stake": "35477931711",
-        "active_blocks": "0",
-        "direct": true,
-        "saturated": 0.00054857972314674,
-        "patreon": 0,
-        "rank": 1175,
-        "handles": {
-          "tw": "meme_pool",
-          "tg": "sporke",
-          "fb": null,
-          "yt": null,
-          "tc": null,
-          "di": null,
-          "gh": null,
-          "icon": "https://static.adapools.org/pool_logo/c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386.png"
-        },
-        "blocks_estimated": 0.03,
-        "stake_x_deleg": 1959768897.6667,
-        "db_description": "They don't know I run a Cardano stake pool.",
-        "owners": "2"
-      },
-      "updated": "Sun, 13 Jun 2021 19:55:34 +0000"
-    }
-  },
-  {
-    "id": "c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2",
-    "memberSince": "2021-06-12T18:10:25.000Z",
-    "name": "Cardano ADA Mini Pool Switzerland",
-    "description": "A reliable and eco-friendly stake pool running on Raspberry Pi's",
-    "ticker": "MINI1",
-    "homepage": "https://www.adaministake.com",
-    "extended": {
-      "info": {
-        "url_png_icon_64x64": "https://raw.githubusercontent.com/jterrier84/minipool/main/Mini1LogoSmall.png",
-        "url_png_logo": "https://github.com/jterrier84/minipool/blob/main/MINI1_logo.png?raw=true",
-        "location": "Weiningen | Zurich | Switzerland",
-        "social": {
-          "twitter_handle": "JuL71695233",
-          "telegram_handle": "mini1pool",
-          "facebook_handle": "",
-          "youtube_handle": "",
-          "twitch_handle": "",
-          "discord_handle": "",
-          "github_handle": "jterrier84"
-        },
-        "company": {
-          "name": "Mini Stake Pool",
-          "addr": "",
-          "city": "Weiningen | Zurich | Switzerland",
-          "country": "CH",
-          "company_id": "",
-          "vat_id": ""
-        },
-        "about": {
-          "me": "Dedicated Cardano pool operator located in Weiningen, Zurich. Always put sustainability first. Big supporter of the Cardano dream and vision.",
-          "server": "The entire pool is running on totally 3 Raspberry Pi's, 1 Core and 2 Relays. The entire power consumption including router is 30 Watt. The electricity comes from 100% hydropower-plants from Switzerland and abroad.",
-          "company": ""
-        },
-        "my-pool-ids": {
-          "0": "c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2",
-          "1": ""
-        },
-        "telegram-admin-handle": {
-          "0": "mini1pool"
-        }
-      }
-    },
-    "addr": "pool1c0nsyh46ucuwn9xpf8jhq05zvxdnrztuncwkflrgf7quyvh82q0",
-    "metadata": {
-      "name": "Cardano ADA Mini Pool Switzerland",
-      "description": "A reliable and eco-friendly stake pool running on Raspberry Pi's",
-      "ticker": "MINI1",
-      "homepage": "https://www.adaministake.com",
-      "extended": "https://git.io/JGjRk"
-    },
-    "icon": "/images/c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2.png",
-    "errors": [],
-    "relays": [
-      {
-        "ipv4": null,
-        "ipv6": null,
-        "dns": "terrier.internet-box.ch",
-        "dns_srv": null,
-        "port": 30001
-      }
-    ],
-    "location": [
-      8.42,
-      47.42
-    ],
-    "adapools": {
-      "created": "Tue, 01 Jun 2021 21:50:27 +0000",
-      "data": {
-        "id": "3638",
-        "pool_id": "c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2",
-        "pool_id_bech32": "pool1c0nsyh46ucuwn9xpf8jhq05zvxdnrztuncwkflrgf7quyvh82q0",
-        "db_ticker": "MINI1",
-        "db_name": "Cardano ADA Mini Pool Switzerland",
-        "db_url": "https://www.adaministake.com",
-        "total_stake": "14227751624",
-        "rewards_epoch": "0",
-        "tax_ratio": "0",
-        "tax_fix": "340000000",
-        "roa": "0",
-        "blocks_epoch": "0",
-        "blocks_lifetime": "0",
-        "blocks_est_lifetime": "0",
-        "stamp_strike": "0",
-        "hist_roa": "[{\"val\":null,\"time\":\"1623281405\",\"e\":262},{\"val\":null,\"time\":\"1623281405\",\"e\":263},{\"val\":null,\"time\":\"1623281405\",\"e\":264},{\"val\":null,\"time\":\"1623281405\",\"e\":265},{\"val\":null,\"time\":\"1623281405\",\"e\":266},{\"val\":null,\"time\":\"1623281405\",\"e\":267},{\"val\":\"0\",\"time\":\"1623281405\",\"e\":268},{\"val\":\"0\",\"time\":\"1623281405\",\"e\":269}]",
-        "hist_bpe": "[{\"val\":\"0\",\"time\":\"1622847838\",\"e\":269},{\"val\":\"0\",\"time\":\"1623277699\",\"e\":270}]",
-        "pledge": "10000000000",
-        "hash_id": "3635",
-        "ticker_orig": "MINI1",
-        "metric": -404.01510773136,
-        "delegators": "3",
-        "pledged": "10004423945",
-        "roa_lifetime": "0",
-        "luck_lifetime": "0",
-        "group_basic": "SOLO",
-        "tax_ratio_old": "0",
-        "tax_fix_old": "340000000",
-        "tax_real": 17.056856187291,
-        "active_stake": "13514765488",
-        "active_blocks": "0",
-        "direct": true,
-        "saturated": 0.00022125783572937,
-        "patreon": 0,
-        "rank": 1544,
-        "handles": {
-          "tw": "JuL71695233",
-          "tg": "mini1pool",
-          "fb": "",
-          "yt": "",
-          "tc": "",
-          "di": "",
-          "gh": "jterrier84",
-          "icon": "https://static.adapools.org/pool_logo/c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2.png"
-        },
-        "blocks_estimated": 0.01,
-        "stake_x_deleg": 4742583874.6667,
-        "db_description": "A reliable and eco-friendly stake pool running on Raspberry Pi's",
-        "owners": "1"
-      },
-      "updated": "Sun, 13 Jun 2021 19:55:49 +0000"
+      "updated": "Sun, 13 Jun 2021 20:05:34 +0000"
     }
   }
 ]
