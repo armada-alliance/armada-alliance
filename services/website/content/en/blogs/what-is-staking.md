@@ -19,7 +19,7 @@ While you are delegating with the pool of your choice, you will take part in the
 Security of the Cardano network through pledge and delegation is another benefit of Cardano's groundbreaking Ouroboros PoS and Consensus mechanism research. Proof-of-stake blockchains like Cardano use a virtual resource or stake to achieve consensus on the blockchain. The stake is recorded on the blockchain's ledger as a native token (ada).
 
 Not to go into too many technicals, but due to Cardano PoS design and the enormous amount of ada staked, it is capable of defending off many attacks like:
-- 51% Attack
+- [51% Attack](/en/terms/fifty-one-percent-attack.md)
 - [Sybil Attack](/en/terms/sybil-attack.md)
 - Fake Stake Attack 
 
