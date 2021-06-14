@@ -1,0 +1,9 @@
+---
+layout: Term
+title: Minting transaction
+description: Transactions with a field specifying token minting details.
+aliases: minting transaction, nft forging, nft transaction, minting a native asset, nft minting, cardano nft minting, nft making transaction
+keywords: minting, transaction, nft, forging, making, producing, tx, cnft, cardano, native, asset
+---
+
+Transactions with a field specifying token minting details. These transactions also carry the minting policies to be checked during validation.
