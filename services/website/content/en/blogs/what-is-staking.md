@@ -10,7 +10,7 @@ Pledge is the amount of ada a stake pool owner has decided to delegate to their 
 
 Cardano stake pools are vital for the decentralization of the network along with maintaining its overall well-being. Stake pool operators pledge their ada, time, and skills to continuously keep Cardano nodes online. They do this so that other users can take part in the protocal and gain rewards without having to support the network. 
 
-Delegation or also known as staking your ADA is a vital role for all Cardano users who choose not to run a stake pool. Staking is the mechanism by which all users experience things like the rewards sharing schema of Cardano, liquidity pools, De-Fi, and governance. If you are an average user and just want to take part the network staking is the best place to start putting your ada to work today. 
+Delegation or also known as staking your ADA is a vital feature of Cardano that allows users who choose not to run a stake pool to still share in all the benefits of the ecosystem. Staking is the mechanism by which all users experience things like the rewards sharing schema of Cardano, liquidity pools, De-Fi, and governance. If you are an average user and just want to take part the network staking is the best place to start putting your ada to work today. 
 
 The total staked ada currently in Cardano Stake Pools is around 32.5 billion or 71% of the total supply of ada. This amount of stake is impressive for two reasons it shows the faith that the community has in Cardano, and secondly, it signifies the security of the Cardano network. 
 
@@ -20,14 +20,14 @@ By delegating your ada to a Cardano Stake Pool, you will support the community, 
 
 Delegating is a great way to be a part of the overall Cardano community that is active, engaged, and working together every day to shape the future of decentralization. Choosing a Stake Pool that aligns with your interest can improve Cardano by supporting them and their missions with the delegation of your stake. Many Stake Pool operators are active on social media, youtube, and forums to engage with their community of delegators.
 
-While you are delegating with the pool of your choice, you will take part in the [rewards sharing scheme](https://arxiv.org/abs/1807.11218) of Cardano and be paid by a well-performing stake pool around 5% APY on your total stake. On top of this reward, many stake pools offer NFT/token airdrops, ada dividends, and services. 
+While you are delegating with the pool of your choice, you will take part in the rewards sharing scheme <Link url="https://arxiv.org/abs/1807.11218"/> of Cardano and be paid by a well-performing stake pool around 5% APY on your total stake. On top of this reward, many stake pools offer NFT/token airdrops, ada dividends, and services. 
 
 Security of the Cardano network through pledge and delegation is another benefit of Cardano's groundbreaking Ouroboros PoS and Consensus mechanism research. Proof-of-stake blockchains like Cardano use a virtual resource or stake to achieve consensus on the blockchain. The stake is recorded on the blockchain's ledger as a native token (ada).
 
 Not to go into too many technicals, but due to Cardano PoS design and the enormous amount of ada staked, it is capable of defending off many attacks like:
 - [51% Attack](/en/terms/fifty-one-percent-attack.md)
 - [Sybil Attack](/en/terms/sybil-attack.md)
-- Fake Stake Attack
+- [Fake Stake Attack](/en/terms/fake-stake.md)
 
 
 **Refrences**
