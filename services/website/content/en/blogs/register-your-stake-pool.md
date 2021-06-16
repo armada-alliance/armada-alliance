@@ -14,15 +14,6 @@ authors: wael-ivie
 **Welcome to the Armada Alliance** ⛵ 🏴‍☠️
 
 
-***What is the Armada Alliance?*** 
-
-- We are a Cardano stake pool alliance formed in April of 2021 
-
-
-***Who are we?*** 
-
-- The Armada Alliance consists of single-stake-pool operators that use Arm-based computers, including single board computers like the Raspberry Pi, to run their Cardano stake pools. Using Arm-based CPUs, this alliance can maintain efficient block-producing stake pools at lower costs both economically and environmentally. 
-
 ***Why are we here?***
 - The Armada alliance was formed to build a sustainable community of decentralized, low-cost, and energy-efficient stake pool operations on the Cardano blockchain. 
 
@@ -31,9 +22,16 @@ authors: wael-ivie
 - Since Arm-based computers like the Raspberry Pi are not officially supported by IOHK the Cardano node is not compatible out of the box. That is why this alliance exists, to help other Arm-based stake pools with hardware support, software support, and other Cardano stake pool operation requirements. We hope that by aiding others in creating more Arm-based low energy, low cost, single stake pools around the globe we can acheive true decentralization. We at the Armada Aliiance offer documentation, tutorials, stake pool operator resources, and even prebuilt Cardano node images to help get new stake pools online faster. 
 
 
+***Who are we?*** 
+
+- The Armada Alliance consists of single-stake-pool operators that use Arm-based computers, including single board computers like the Raspberry Pi, to run their Cardano stake pools. Using Arm-based CPUs, this alliance can maintain efficient block-producing stake pools at lower costs both economically and environmentally. 
+
+
 ***Why should I join?***
 
 - If you are an Arm-based stake pool operator who shares in the mission we have to see a fully decentralized world, then join us.
+
+- You want to become an Armada Alliance supporter and get receive the plentiful booty of our plunders by delegating to one of our stake pools. 
 
 - If you want to become a full-fledged Armada Alliance stake pool operator and help spread our mission even further then come aboard. For assistance in setting up your stake pool see our <Docs url="https://docs.armada-alliance.com/learn/"/>, or contact us (link to email).
 
