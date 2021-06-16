@@ -1,6 +1,6 @@
 ---
 template: TermDetailPage
-title: altcoins
+title: Altcoins
 description: Altcoin is an abbreviation of “Bitcoin alternative”.
 aliases: altcoins, small caps, bitcoin alternative
 keywords: altcoins, alt, coins, bitcoin, alternative
