@@ -5,5 +5,3 @@ description: Also referred to as “Token minting”. The process by which new b
 aliases: Forging, Creating, making
 keywords: nft, native tokens
 ---
-
-Also referred to as “Token minting”. The process by which new blocks are created.
