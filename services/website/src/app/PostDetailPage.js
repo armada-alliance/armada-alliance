@@ -51,13 +51,15 @@ export default function TermDetailPage(props) {
                             </div>
                         ) : null}
                     </div>
-                    <div className="mt-4 text-lg max-w-prose mx-auto">
-                        <div className="mt-6 text-gray-500 font-light mx-auto">
-                            <MarkdownContent
-                                source={props.page.props.source}
-                            />
+                    {props.page.props.source ? (
+                        <div className="mt-4 text-lg max-w-prose mx-auto">
+                            <div className="mt-6 text-gray-500 font-light mx-auto">
+                                <MarkdownContent
+                                    source={props.page.props.source}
+                                />
+                            </div>
                         </div>
-                    </div>
+                    ) : null}
                     <div className="mt-4">
                         <Link href={'https://github.com/armada-alliance'}>
                             <a>

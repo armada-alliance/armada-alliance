@@ -39,6 +39,21 @@ const templates = {
             }
         }
     },
+    IdentityDetailPage: {
+        getProps: async ({ params }) => {
+
+            const string = await fs.readFile(path.join(contentPath, params.source), 'utf-8')
+
+            const data = fm(string)
+
+            const body = preprocessMarkdown(data.body)
+
+            return {
+                body,
+                source: await serialize(body)
+            }
+        }
+    },
     PoolDetailPage: {
         getProps: async ({ params }) => {
 
