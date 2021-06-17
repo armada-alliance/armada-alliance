@@ -6,7 +6,7 @@ aliases: raspberry pi stake pool, cardano raspberry pi stake pool, how to make a
 keywords: arm, rasberry-pi, rasberry, pi, 4, rpi4, rpi, cardano, stake, pool, alliance, eco, friendly, low, cost
 authors: wael-ivie
 ---
-
+[](https://github.com/armada-alliance/Logo/blob/main/banner-armada%20copy.png?raw=true)
 <Logo url="https://github.com/armada-alliance/Logo/blob/main/banner-armada%20copy.png?raw=true"/>
 
 ## **Ahoy Matey!** 💣 ☠️
