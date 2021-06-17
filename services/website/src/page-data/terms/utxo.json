@@ -1,0 +1,26 @@
+{
+  "language": "en",
+  "slug": "/terms/utxo",
+  "template": "TermDetailPage",
+  "title": "UTXO",
+  "description": "UTXO stands for “Unspent Transaction Output”. In cryptocurrencies, a UTXO is an abstraction of electronic money. Each UTXO is analogous to a coin, and holds a certain amount of value in its respective currency.",
+  "aliases": [
+    "utxo",
+    "utxo model",
+    "cardano utxo model"
+  ],
+  "keywords": [
+    "utxo",
+    "cardano"
+  ],
+  "params": {
+    "source": "/en/terms/utxo.md"
+  },
+  "props": {
+    "body": "UTXO stands for “Unspent Transaction Output”. In cryptocurrencies, a UTXO is an abstraction of electronic money. Each UTXO is analogous to a coin, and holds a certain amount of value in its respective currency. Another way to look at it, using a fiat money analogy, is that UTXOs represent various amounts of “change” available to any particular user. The unspent values in each block are UTXOs, and when they are “spent” (used in a transaction) they create new “change” (new UTXOs). [Detailed information](https://medium.com/bitbees/what-the-heck-is-utxo-ca68f2651819).\n\n<YoutubeVideo url=\"https://www.youtube.com/watch?v=hKft6E4K8KY\" description=\"Video explaining the UTXO Model\" />\n",
+    "source": {
+      "compiledSource": "var d=Object.defineProperty,h=Object.defineProperties;var l=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var i=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var c=(e,t,o)=>t in e?d(e,t,{enumerable:!0,configurable:!0,writable:!0,value:o}):e[t]=o,a=(e,t)=>{for(var o in t||(t={}))i.call(t,o)&&c(e,o,t[o]);if(r)for(var o of r(t))s.call(t,o)&&c(e,o,t[o]);return e},u=(e,t)=>h(e,l(t));var p=(e,t)=>{var o={};for(var n in e)i.call(e,n)&&t.indexOf(n)<0&&(o[n]=e[n]);if(e!=null&&r)for(var n of r(e))t.indexOf(n)<0&&s.call(e,n)&&(o[n]=e[n]);return o};const makeShortcode=e=>function(o){return console.warn(\"Component \"+e+\" was not imported, exported, or provided by MDXProvider as global scope\"),mdx(\"div\",a({},o))},YoutubeVideo=makeShortcode(\"YoutubeVideo\"),layoutProps={},MDXLayout=\"wrapper\";function MDXContent(o){var n=o,{components:e}=n,t=p(n,[\"components\"]);return mdx(MDXLayout,u(a(a({},layoutProps),t),{components:e,mdxType:\"MDXLayout\"}),mdx(\"p\",null,\"UTXO stands for \\u201CUnspent Transaction Output\\u201D. In cryptocurrencies, a UTXO is an abstraction of electronic money. Each UTXO is analogous to a coin, and holds a certain amount of value in its respective currency. Another way to look at it, using a fiat money analogy, is that UTXOs represent various amounts of \\u201Cchange\\u201D available to any particular user. The unspent values in each block are UTXOs, and when they are \\u201Cspent\\u201D (used in a transaction) they create new \\u201Cchange\\u201D (new UTXOs). \",mdx(\"a\",a({parentName:\"p\"},{href:\"https://medium.com/bitbees/what-the-heck-is-utxo-ca68f2651819\"}),\"Detailed information\"),\".\"),mdx(YoutubeVideo,{url:\"https://www.youtube.com/watch?v=hKft6E4K8KY\",description:\"Video explaining the UTXO Model\",mdxType:\"YoutubeVideo\"}))}MDXContent.isMDXComponent=!0;\n",
+      "scope": {}
+    }
+  }
+}

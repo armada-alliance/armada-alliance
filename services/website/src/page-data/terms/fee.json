@@ -1,0 +1,28 @@
+{
+  "language": "en",
+  "slug": "/terms/fee",
+  "template": "TermDetailPage",
+  "title": "Fee",
+  "description": "Amount of ada or other cryptocurrency charged for transaction processing.",
+  "aliases": [
+    "fee",
+    "transaction fee",
+    "cardano transaction fees"
+  ],
+  "keywords": [
+    "transaction",
+    "fee",
+    "fees",
+    "cardano"
+  ],
+  "params": {
+    "source": "/en/terms/fee.md"
+  },
+  "props": {
+    "body": "Amount of ada or other cryptocurrency charged for transaction processing.\n",
+    "source": {
+      "compiledSource": "var D=Object.defineProperty,M=Object.defineProperties;var X=Object.getOwnPropertyDescriptors;var e=Object.getOwnPropertySymbols;var c=Object.prototype.hasOwnProperty,p=Object.prototype.propertyIsEnumerable;var u=(o,t,n)=>t in o?D(o,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):o[t]=n,a=(o,t)=>{for(var n in t||(t={}))c.call(t,n)&&u(o,n,t[n]);if(e)for(var n of e(t))p.call(t,n)&&u(o,n,t[n]);return o},s=(o,t)=>M(o,X(t));var y=(o,t)=>{var n={};for(var r in o)c.call(o,r)&&t.indexOf(r)<0&&(n[r]=o[r]);if(o!=null&&e)for(var r of e(o))t.indexOf(r)<0&&p.call(o,r)&&(n[r]=o[r]);return n};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(n){var r=n,{components:o}=r,t=y(r,[\"components\"]);return mdx(MDXLayout,s(a(a({},layoutProps),t),{components:o,mdxType:\"MDXLayout\"}),mdx(\"p\",null,\"Amount of ada or other cryptocurrency charged for transaction processing.\"))}MDXContent.isMDXComponent=!0;\n",
+      "scope": {}
+    }
+  }
+}

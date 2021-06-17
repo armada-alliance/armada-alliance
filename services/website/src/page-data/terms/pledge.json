@@ -1,0 +1,30 @@
+{
+  "language": "en",
+  "slug": "/terms/pledge",
+  "template": "TermDetailPage",
+  "title": "Pledge",
+  "description": "Pledging is an important mechanism that encourages the growth of a healthy ecosystem within the Cardano blockchain.m",
+  "aliases": [
+    "pledge",
+    "pledging",
+    "pledge ada",
+    "stake pool pledge"
+  ],
+  "keywords": [
+    "pledge",
+    "pledging",
+    "ada",
+    "stake",
+    "pool"
+  ],
+  "params": {
+    "source": "/en/terms/pledge.md"
+  },
+  "props": {
+    "body": "Pledging is an important mechanism that encourages the growth of a healthy ecosystem within the Cardano blockchain. When you register a stake pool you can choose to pledge some, or all, of your ada to the pool, to make it more attractive to people that want to delegate. Although pledging is not required when setting up a stake pool, it can make the stake pool more attractive to delegators, as the higher the amount of ada that is pledged, the higher the rewards that will be paid out. The a0 protocol parameter defines the influence of the pledge on the pool reward.",
+    "source": {
+      "compiledSource": "var d=Object.defineProperty,u=Object.defineProperties;var c=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,i=Object.prototype.propertyIsEnumerable;var p=(e,t,o)=>t in e?d(e,t,{enumerable:!0,configurable:!0,writable:!0,value:o}):e[t]=o,h=(e,t)=>{for(var o in t||(t={}))r.call(t,o)&&p(e,o,t[o]);if(n)for(var o of n(t))i.call(t,o)&&p(e,o,t[o]);return e},l=(e,t)=>u(e,c(t));var s=(e,t)=>{var o={};for(var a in e)r.call(e,a)&&t.indexOf(a)<0&&(o[a]=e[a]);if(e!=null&&n)for(var a of n(e))t.indexOf(a)<0&&i.call(e,a)&&(o[a]=e[a]);return o};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(o){var a=o,{components:e}=a,t=s(a,[\"components\"]);return mdx(MDXLayout,l(h(h({},layoutProps),t),{components:e,mdxType:\"MDXLayout\"}),mdx(\"p\",null,\"Pledging is an important mechanism that encourages the growth of a healthy ecosystem within the Cardano blockchain. When you register a stake pool you can choose to pledge some, or all, of your ada to the pool, to make it more attractive to people that want to delegate. Although pledging is not required when setting up a stake pool, it can make the stake pool more attractive to delegators, as the higher the amount of ada that is pledged, the higher the rewards that will be paid out. The a0 protocol parameter defines the influence of the pledge on the pool reward.\"))}MDXContent.isMDXComponent=!0;\n",
+      "scope": {}
+    }
+  }
+}

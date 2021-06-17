@@ -1,0 +1,26 @@
+{
+  "language": "en",
+  "slug": "/terms/forging-policy-script",
+  "template": "TermDetailPage",
+  "title": "Forging policy script",
+  "description": "A script which must be satisfied in order for a transaction to forge tokens of the corresponding currency.",
+  "aliases": [
+    "forging policy script",
+    "forging policy"
+  ],
+  "keywords": [
+    "forging",
+    "policy",
+    "script"
+  ],
+  "params": {
+    "source": "/en/terms/forging-policy-script.md"
+  },
+  "props": {
+    "body": "A script which must be satisfied in order for a transaction to forge tokens of the corresponding currency.",
+    "source": {
+      "compiledSource": "var y=Object.defineProperty,f=Object.defineProperties;var D=Object.getOwnPropertyDescriptors;var e=Object.getOwnPropertySymbols;var c=Object.prototype.hasOwnProperty,p=Object.prototype.propertyIsEnumerable;var a=(o,t,n)=>t in o?y(o,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):o[t]=n,s=(o,t)=>{for(var n in t||(t={}))c.call(t,n)&&a(o,n,t[n]);if(e)for(var n of e(t))p.call(t,n)&&a(o,n,t[n]);return o},i=(o,t)=>f(o,D(t));var u=(o,t)=>{var n={};for(var r in o)c.call(o,r)&&t.indexOf(r)<0&&(n[r]=o[r]);if(o!=null&&e)for(var r of e(o))t.indexOf(r)<0&&p.call(o,r)&&(n[r]=o[r]);return n};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(n){var r=n,{components:o}=r,t=u(r,[\"components\"]);return mdx(MDXLayout,i(s(s({},layoutProps),t),{components:o,mdxType:\"MDXLayout\"}),mdx(\"p\",null,\"A script which must be satisfied in order for a transaction to forge tokens of the corresponding currency.\"))}MDXContent.isMDXComponent=!0;\n",
+      "scope": {}
+    }
+  }
+}

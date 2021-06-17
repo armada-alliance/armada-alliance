@@ -1,0 +1,44 @@
+{
+  "language": "en",
+  "slug": "/terms/blockchain",
+  "template": "TermDetailPage",
+  "title": "Blockchain",
+  "description": "A growing list of records, called blocks, that are linked using cryptography. Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data. Blockchain is a fundamental system underpinning cryptocurrencies, acting as the public transaction ledger.",
+  "aliases": [
+    "blockchain",
+    "cardano blockchain",
+    "bitcoin blockchain",
+    "what is a blockchain",
+    "cryptocurrency blockchains",
+    "blockchain developer",
+    "ledger",
+    "block",
+    "proof-of-work blockchain",
+    "proof-of-stake blockchain",
+    "proof-of-work blockchains",
+    "proof-of-stake blockchains",
+    "ethereum",
+    "doge coin",
+    "doge"
+  ],
+  "keywords": [
+    "blockchain",
+    "cardano",
+    "bitcoin",
+    "ada",
+    "btc",
+    "eth",
+    "ethereum",
+    "doge"
+  ],
+  "params": {
+    "source": "/en/terms/blockchain.md"
+  },
+  "props": {
+    "body": "A growing list of records, called blocks, that are linked using cryptography. Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data. Blockchain is a fundamental system underpinning cryptocurrencies, acting as the public transaction ledger. You can think of them as being a mathematical structure for storing digital transactions or data in an immutable, distributed, decentralized digital ledger consisting of blocks that are linked via cryptographic signature that is nearly impossible to fake, hack or disrupt.",
+    "source": {
+      "compiledSource": "var u=Object.defineProperty,d=Object.defineProperties;var g=Object.getOwnPropertyDescriptors;var o=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var c=(t,a,n)=>a in t?u(t,a,{enumerable:!0,configurable:!0,writable:!0,value:n}):t[a]=n,e=(t,a)=>{for(var n in a||(a={}))r.call(a,n)&&c(t,n,a[n]);if(o)for(var n of o(a))s.call(a,n)&&c(t,n,a[n]);return t},l=(t,a)=>d(t,g(a));var p=(t,a)=>{var n={};for(var i in t)r.call(t,i)&&a.indexOf(i)<0&&(n[i]=t[i]);if(t!=null&&o)for(var i of o(t))a.indexOf(i)<0&&s.call(t,i)&&(n[i]=t[i]);return n};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(n){var i=n,{components:t}=i,a=p(i,[\"components\"]);return mdx(MDXLayout,l(e(e({},layoutProps),a),{components:t,mdxType:\"MDXLayout\"}),mdx(\"p\",null,\"A growing list of records, called blocks, that are linked using cryptography. Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data. Blockchain is a fundamental system underpinning cryptocurrencies, acting as the public transaction ledger. You can think of them as being a mathematical structure for storing digital transactions or data in an immutable, distributed, decentralized digital ledger consisting of blocks that are linked via cryptographic signature that is nearly impossible to fake, hack or disrupt.\"))}MDXContent.isMDXComponent=!0;\n",
+      "scope": {}
+    }
+  }
+}

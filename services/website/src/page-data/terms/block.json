@@ -1,0 +1,25 @@
+{
+  "language": "en",
+  "slug": "/terms/block",
+  "template": "TermDetailPage",
+  "title": "Block",
+  "description": "A slot that contains a set of recent transactions on a blockchain network. Each block contains data required to manage the blockchain, including an encrypted version of the previous block.",
+  "aliases": [
+    "Block"
+  ],
+  "keywords": [
+    "Hard Fork",
+    "Hard Fork Combinator",
+    "HFC"
+  ],
+  "params": {
+    "source": "/en/terms/block.md"
+  },
+  "props": {
+    "body": "A slot that contains a set of recent transactions on a blockchain network. Each block contains data required to manage the blockchain, including an encrypted version of the previous block.\n",
+    "source": {
+      "compiledSource": "var l=Object.defineProperty,h=Object.defineProperties;var y=Object.getOwnPropertyDescriptors;var e=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var i=(n,o,t)=>o in n?l(n,o,{enumerable:!0,configurable:!0,writable:!0,value:t}):n[o]=t,c=(n,o)=>{for(var t in o||(o={}))r.call(o,t)&&i(n,t,o[t]);if(e)for(var t of e(o))s.call(o,t)&&i(n,t,o[t]);return n},p=(n,o)=>h(n,y(o));var u=(n,o)=>{var t={};for(var a in n)r.call(n,a)&&o.indexOf(a)<0&&(t[a]=n[a]);if(n!=null&&e)for(var a of e(n))o.indexOf(a)<0&&s.call(n,a)&&(t[a]=n[a]);return t};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(t){var a=t,{components:n}=a,o=u(a,[\"components\"]);return mdx(MDXLayout,p(c(c({},layoutProps),o),{components:n,mdxType:\"MDXLayout\"}),mdx(\"p\",null,\"A slot that contains a set of recent transactions on a blockchain network. Each block contains data required to manage the blockchain, including an encrypted version of the previous block.\"))}MDXContent.isMDXComponent=!0;\n",
+      "scope": {}
+    }
+  }
+}

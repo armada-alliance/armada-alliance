@@ -1,0 +1,27 @@
+{
+  "language": "en",
+  "slug": "/terms/contract-application",
+  "template": "TermDetailPage",
+  "title": "Contract application",
+  "description": "An application written against the contract application API, which runs in the PAB.",
+  "aliases": [
+    "contract application",
+    "plutus application backend"
+  ],
+  "keywords": [
+    "contract",
+    "application",
+    "plutus",
+    "backend"
+  ],
+  "params": {
+    "source": "/en/terms/contract-application.md"
+  },
+  "props": {
+    "body": "An application written against the contract application API, which runs in the PAB.",
+    "source": {
+      "compiledSource": "var y=Object.defineProperty,D=Object.defineProperties;var M=Object.getOwnPropertyDescriptors;var p=Object.getOwnPropertySymbols;var i=Object.prototype.hasOwnProperty,c=Object.prototype.propertyIsEnumerable;var r=(t,n,o)=>n in t?y(t,n,{enumerable:!0,configurable:!0,writable:!0,value:o}):t[n]=o,e=(t,n)=>{for(var o in n||(n={}))i.call(n,o)&&r(t,o,n[o]);if(p)for(var o of p(n))c.call(n,o)&&r(t,o,n[o]);return t},u=(t,n)=>D(t,M(n));var s=(t,n)=>{var o={};for(var a in t)i.call(t,a)&&n.indexOf(a)<0&&(o[a]=t[a]);if(t!=null&&p)for(var a of p(t))n.indexOf(a)<0&&c.call(t,a)&&(o[a]=t[a]);return o};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(o){var a=o,{components:t}=a,n=s(a,[\"components\"]);return mdx(MDXLayout,u(e(e({},layoutProps),n),{components:t,mdxType:\"MDXLayout\"}),mdx(\"p\",null,\"An application written against the contract application API, which runs in the PAB.\"))}MDXContent.isMDXComponent=!0;\n",
+      "scope": {}
+    }
+  }
+}

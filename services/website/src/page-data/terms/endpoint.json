@@ -1,0 +1,30 @@
+{
+  "language": "en",
+  "slug": "/terms/endpoint",
+  "template": "TermDetailPage",
+  "title": "Endpoint",
+  "description": "A potential request made by a contract application for user input. Every endpoint has a name and a type.",
+  "aliases": [
+    "plutus endpoint",
+    "marlowe endpoints",
+    "plutus smart contract endpoints",
+    "utxo smart contracts"
+  ],
+  "keywords": [
+    "plutus",
+    "cardano",
+    "endpoint",
+    "marlowe",
+    "smart"
+  ],
+  "params": {
+    "source": "/en/terms/endpoint.md"
+  },
+  "props": {
+    "body": "A potential request made by a contract application for user input. Every endpoint has a name and a type.",
+    "source": {
+      "compiledSource": "var i=Object.defineProperty,m=Object.defineProperties;var D=Object.getOwnPropertyDescriptors;var e=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,u=Object.prototype.propertyIsEnumerable;var s=(t,n,o)=>n in t?i(t,n,{enumerable:!0,configurable:!0,writable:!0,value:o}):t[n]=o,p=(t,n)=>{for(var o in n||(n={}))r.call(n,o)&&s(t,o,n[o]);if(e)for(var o of e(n))u.call(n,o)&&s(t,o,n[o]);return t},y=(t,n)=>m(t,D(n));var c=(t,n)=>{var o={};for(var a in t)r.call(t,a)&&n.indexOf(a)<0&&(o[a]=t[a]);if(t!=null&&e)for(var a of e(t))n.indexOf(a)<0&&u.call(t,a)&&(o[a]=t[a]);return o};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(o){var a=o,{components:t}=a,n=c(a,[\"components\"]);return mdx(MDXLayout,y(p(p({},layoutProps),n),{components:t,mdxType:\"MDXLayout\"}),mdx(\"p\",null,\"A potential request made by a contract application for user input. Every endpoint has a name and a type.\"))}MDXContent.isMDXComponent=!0;\n",
+      "scope": {}
+    }
+  }
+}

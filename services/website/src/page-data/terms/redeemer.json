@@ -1,0 +1,23 @@
+{
+  "language": "en",
+  "slug": "/terms/redeemer",
+  "template": "TermDetailPage",
+  "title": "Redeemer",
+  "description": "The argument to the validator script which is provided by the transaction which spends a script output.",
+  "aliases": [
+    "redeemer"
+  ],
+  "keywords": [
+    "redeemer"
+  ],
+  "params": {
+    "source": "/en/terms/redeemer.md"
+  },
+  "props": {
+    "body": "The argument to the validator script which is provided by the transaction which spends a script output.",
+    "source": {
+      "compiledSource": "var h=Object.defineProperty,y=Object.defineProperties;var d=Object.getOwnPropertyDescriptors;var p=Object.getOwnPropertySymbols;var a=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var i=(t,o,n)=>o in t?h(t,o,{enumerable:!0,configurable:!0,writable:!0,value:n}):t[o]=n,r=(t,o)=>{for(var n in o||(o={}))a.call(o,n)&&i(t,n,o[n]);if(p)for(var n of p(o))s.call(o,n)&&i(t,n,o[n]);return t},u=(t,o)=>y(t,d(o));var c=(t,o)=>{var n={};for(var e in t)a.call(t,e)&&o.indexOf(e)<0&&(n[e]=t[e]);if(t!=null&&p)for(var e of p(t))o.indexOf(e)<0&&s.call(t,e)&&(n[e]=t[e]);return n};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(n){var e=n,{components:t}=e,o=c(e,[\"components\"]);return mdx(MDXLayout,u(r(r({},layoutProps),o),{components:t,mdxType:\"MDXLayout\"}),mdx(\"p\",null,\"The argument to the validator script which is provided by the transaction which spends a script output.\"))}MDXContent.isMDXComponent=!0;\n",
+      "scope": {}
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "language": "en",
+  "slug": "/terms/address",
+  "template": "TermDetailPage",
+  "title": "address",
+  "description": "The address of an UTXO says where the output is “going”.",
+  "aliases": [
+    "cardano address",
+    "UTXO address"
+  ],
+  "keywords": [
+    "cardano",
+    "address",
+    "utxo"
+  ],
+  "params": {
+    "source": "/en/terms/address.md"
+  },
+  "props": {
+    "body": "The address of an UTXO says where the output is “going”. The address stipulates the conditions for unlocking the output. This can be a public key hash, or (in the Extended UTXO model) a script hash. \tMuch like a URL, a blockchain address is the location to or from which transactions occur on the blockchain. ",
+    "source": {
+      "compiledSource": "var p=Object.defineProperty,d=Object.defineProperties;var l=Object.getOwnPropertyDescriptors;var s=Object.getOwnPropertySymbols;var c=Object.prototype.hasOwnProperty,h=Object.prototype.propertyIsEnumerable;var i=(o,t,e)=>t in o?p(o,t,{enumerable:!0,configurable:!0,writable:!0,value:e}):o[t]=e,a=(o,t)=>{for(var e in t||(t={}))c.call(t,e)&&i(o,e,t[e]);if(s)for(var e of s(t))h.call(t,e)&&i(o,e,t[e]);return o},r=(o,t)=>d(o,l(t));var u=(o,t)=>{var e={};for(var n in o)c.call(o,n)&&t.indexOf(n)<0&&(e[n]=o[n]);if(o!=null&&s)for(var n of s(o))t.indexOf(n)<0&&h.call(o,n)&&(e[n]=o[n]);return e};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(e){var n=e,{components:o}=n,t=u(n,[\"components\"]);return mdx(MDXLayout,r(a(a({},layoutProps),t),{components:o,mdxType:\"MDXLayout\"}),mdx(\"p\",null,\"The address of an UTXO says where the output is \\u201Cgoing\\u201D. The address stipulates the conditions for unlocking the output. This can be a public key hash, or (in the Extended UTXO model) a script hash. \tMuch like a URL, a blockchain address is the location to or from which transactions occur on the blockchain. \"))}MDXContent.isMDXComponent=!0;\n",
+      "scope": {}
+    }
+  }
+}

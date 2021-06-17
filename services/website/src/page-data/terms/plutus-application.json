@@ -1,0 +1,28 @@
+{
+  "language": "en",
+  "slug": "/terms/plutus-application",
+  "template": "TermDetailPage",
+  "title": "Plutus application",
+  "description": "An application written using the Plutus Application Framework.",
+  "aliases": [
+    "plutus application",
+    "plutus smart contracts"
+  ],
+  "keywords": [
+    "plutus",
+    "application",
+    "smart",
+    "contracts",
+    "cardano"
+  ],
+  "params": {
+    "source": "/en/terms/plutus-application.md"
+  },
+  "props": {
+    "body": "An application written using the Plutus Application Framework.",
+    "source": {
+      "compiledSource": "var y=Object.defineProperty,D=Object.defineProperties;var M=Object.getOwnPropertyDescriptors;var e=Object.getOwnPropertySymbols;var a=Object.prototype.hasOwnProperty,r=Object.prototype.propertyIsEnumerable;var i=(t,n,o)=>n in t?y(t,n,{enumerable:!0,configurable:!0,writable:!0,value:o}):t[n]=o,u=(t,n)=>{for(var o in n||(n={}))a.call(n,o)&&i(t,o,n[o]);if(e)for(var o of e(n))r.call(n,o)&&i(t,o,n[o]);return t},s=(t,n)=>D(t,M(n));var c=(t,n)=>{var o={};for(var p in t)a.call(t,p)&&n.indexOf(p)<0&&(o[p]=t[p]);if(t!=null&&e)for(var p of e(t))n.indexOf(p)<0&&r.call(t,p)&&(o[p]=t[p]);return o};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(o){var p=o,{components:t}=p,n=c(p,[\"components\"]);return mdx(MDXLayout,s(u(u({},layoutProps),n),{components:t,mdxType:\"MDXLayout\"}),mdx(\"p\",null,\"An application written using the Plutus Application Framework.\"))}MDXContent.isMDXComponent=!0;\n",
+      "scope": {}
+    }
+  }
+}

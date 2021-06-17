@@ -1,0 +1,25 @@
+{
+  "language": "en",
+  "slug": "/terms/blockchain-explorer",
+  "template": "TermDetailPage",
+  "title": "Blockchain explorer",
+  "description": "An online tool for exploring the blockchain of a particular cryptocurrency",
+  "aliases": [
+    "Blockchain explorer"
+  ],
+  "keywords": [
+    "blockchain",
+    "explorer",
+    "analysis"
+  ],
+  "params": {
+    "source": "/en/terms/blockchain-explorer.md"
+  },
+  "props": {
+    "body": "An online tool for exploring the blockchain of a particular cryptocurrency, where you can watch and follow live all the transactions happening on the blockchain. Block explorers can serve as blockchain analysis and provide information such as total network hash rate, coin supply, transaction growth, etc.",
+    "source": {
+      "compiledSource": "var h=Object.defineProperty,u=Object.defineProperties;var y=Object.getOwnPropertyDescriptors;var e=Object.getOwnPropertySymbols;var c=Object.prototype.hasOwnProperty,l=Object.prototype.propertyIsEnumerable;var i=(o,n,t)=>n in o?h(o,n,{enumerable:!0,configurable:!0,writable:!0,value:t}):o[n]=t,r=(o,n)=>{for(var t in n||(n={}))c.call(n,t)&&i(o,t,n[t]);if(e)for(var t of e(n))l.call(n,t)&&i(o,t,n[t]);return o},p=(o,n)=>u(o,y(n));var s=(o,n)=>{var t={};for(var a in o)c.call(o,a)&&n.indexOf(a)<0&&(t[a]=o[a]);if(o!=null&&e)for(var a of e(o))n.indexOf(a)<0&&l.call(o,a)&&(t[a]=o[a]);return t};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(t){var a=t,{components:o}=a,n=s(a,[\"components\"]);return mdx(MDXLayout,p(r(r({},layoutProps),n),{components:o,mdxType:\"MDXLayout\"}),mdx(\"p\",null,\"An online tool for exploring the blockchain of a particular cryptocurrency, where you can watch and follow live all the transactions happening on the blockchain. Block explorers can serve as blockchain analysis and provide information such as total network hash rate, coin supply, transaction growth, etc.\"))}MDXContent.isMDXComponent=!0;\n",
+      "scope": {}
+    }
+  }
+}

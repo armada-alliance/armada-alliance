@@ -1,0 +1,38 @@
+{
+  "language": "en",
+  "slug": "/terms/rewards-wallet",
+  "template": "TermDetailPage",
+  "title": "Rewards wallet",
+  "description": "A wallet that stores ada which can be used in stake delegation. The stake from a single Rewards wallet can only be delegated to a single stake pool.",
+  "aliases": [
+    "cardano stake pool operator rewards wallet",
+    "cardano stake pool owner rewards wallets",
+    "cardano wallet",
+    "yoroi wallet",
+    "daedulus wallet"
+  ],
+  "keywords": [
+    "cardano",
+    "stake",
+    "pool",
+    "operator",
+    "rewards",
+    "wallet",
+    "owner",
+    "delegate",
+    "staking",
+    "stake",
+    "yoroi",
+    "daedulus"
+  ],
+  "params": {
+    "source": "/en/terms/rewards-wallet.md"
+  },
+  "props": {
+    "body": "To delegate to more than one stake pool, you will need to create multiple Rewards wallets and distribute ada among them.",
+    "source": {
+      "compiledSource": "var m=Object.defineProperty,i=Object.defineProperties;var y=Object.getOwnPropertyDescriptors;var a=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,u=Object.prototype.propertyIsEnumerable;var l=(t,e,o)=>e in t?m(t,e,{enumerable:!0,configurable:!0,writable:!0,value:o}):t[e]=o,p=(t,e)=>{for(var o in e||(e={}))r.call(e,o)&&l(t,o,e[o]);if(a)for(var o of a(e))u.call(e,o)&&l(t,o,e[o]);return t},s=(t,e)=>i(t,y(e));var d=(t,e)=>{var o={};for(var n in t)r.call(t,n)&&e.indexOf(n)<0&&(o[n]=t[n]);if(t!=null&&a)for(var n of a(t))e.indexOf(n)<0&&u.call(t,n)&&(o[n]=t[n]);return o};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(o){var n=o,{components:t}=n,e=d(n,[\"components\"]);return mdx(MDXLayout,s(p(p({},layoutProps),e),{components:t,mdxType:\"MDXLayout\"}),mdx(\"p\",null,\"To delegate to more than one stake pool, you will need to create multiple Rewards wallets and distribute ada among them.\"))}MDXContent.isMDXComponent=!0;\n",
+      "scope": {}
+    }
+  }
+}

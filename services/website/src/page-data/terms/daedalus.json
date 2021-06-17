@@ -1,0 +1,25 @@
+{
+  "language": "en",
+  "slug": "/terms/daedalus",
+  "template": "TermDetailPage",
+  "title": "Daedalus",
+  "description": "A secure wallet for Ada that manages balances and provides the ability to send and receive payments. Daedalus is a full node wallet which means that it downloads a full copy of the Cardano blockchain and independently validates every transaction in its history. It has a friendly user interface and is recommended for new users to start with. [More information](https://daedaluswallet.io/).",
+  "aliases": [
+    "Hard Fork"
+  ],
+  "keywords": [
+    "Hard Fork",
+    "Hard Fork Combinator",
+    "HFC"
+  ],
+  "params": {
+    "source": "/en/terms/daedalus.md"
+  },
+  "props": {
+    "body": "A secure wallet for Ada that manages balances and provides the ability to send and receive payments. Daedalus is a full node wallet which means that it downloads a full copy of the Cardano blockchain and independently validates every transaction in its history. It has a friendly user interface and is recommended for new users to start with. [More information](https://daedaluswallet.io/).\n",
+    "source": {
+      "compiledSource": "var c=Object.defineProperty,u=Object.defineProperties;var h=Object.getOwnPropertyDescriptors;var o=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,i=Object.prototype.propertyIsEnumerable;var d=(a,e,t)=>e in a?c(a,e,{enumerable:!0,configurable:!0,writable:!0,value:t}):a[e]=t,s=(a,e)=>{for(var t in e||(e={}))r.call(e,t)&&d(a,t,e[t]);if(o)for(var t of o(e))i.call(e,t)&&d(a,t,e[t]);return a},l=(a,e)=>u(a,h(e));var p=(a,e)=>{var t={};for(var n in a)r.call(a,n)&&e.indexOf(n)<0&&(t[n]=a[n]);if(a!=null&&o)for(var n of o(a))e.indexOf(n)<0&&i.call(a,n)&&(t[n]=a[n]);return t};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(t){var n=t,{components:a}=n,e=p(n,[\"components\"]);return mdx(MDXLayout,l(s(s({},layoutProps),e),{components:a,mdxType:\"MDXLayout\"}),mdx(\"p\",null,\"A secure wallet for Ada that manages balances and provides the ability to send and receive payments. Daedalus is a full node wallet which means that it downloads a full copy of the Cardano blockchain and independently validates every transaction in its history. It has a friendly user interface and is recommended for new users to start with. \",mdx(\"a\",s({parentName:\"p\"},{href:\"https://daedaluswallet.io/\"}),\"More information\"),\".\"))}MDXContent.isMDXComponent=!0;\n",
+      "scope": {}
+    }
+  }
+}

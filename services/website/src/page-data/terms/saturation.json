@@ -1,0 +1,32 @@
+{
+  "language": "en",
+  "slug": "/terms/saturation",
+  "template": "TermDetailPage",
+  "title": "Saturation",
+  "description": "A term used to indicate that a particular stake pool has more stake delegated to it than is ideal for the network.",
+  "aliases": [
+    "cardano stake pool saturation point",
+    "cardano stake pool saturation",
+    "cardano stake pool over saturated pools",
+    "cardano stake pool over saturation"
+  ],
+  "keywords": [
+    "cardano",
+    "stake",
+    "pool",
+    "over",
+    "saturated",
+    "saturation",
+    "point"
+  ],
+  "params": {
+    "source": "/en/terms/saturation.md"
+  },
+  "props": {
+    "body": "Saturation is displayed as a percentage. Once a stake pool reaches 100% saturation, it will offer diminishing rewards.The saturation mechanism was designed to prevent centralization by encouraging delegators to delegate to different stake pools, and operators to set up alternative pools so that they can continue earning maximum rewards. Saturation, therefore, exists to preserve the interests of both ada holders delegating their stake and stake pool operators.",
+    "source": {
+      "compiledSource": "var l=Object.defineProperty,c=Object.defineProperties;var h=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var s=Object.prototype.hasOwnProperty,i=Object.prototype.propertyIsEnumerable;var p=(e,t,a)=>t in e?l(e,t,{enumerable:!0,configurable:!0,writable:!0,value:a}):e[t]=a,r=(e,t)=>{for(var a in t||(t={}))s.call(t,a)&&p(e,a,t[a]);if(n)for(var a of n(t))i.call(t,a)&&p(e,a,t[a]);return e},d=(e,t)=>c(e,h(t));var u=(e,t)=>{var a={};for(var o in e)s.call(e,o)&&t.indexOf(o)<0&&(a[o]=e[o]);if(e!=null&&n)for(var o of n(e))t.indexOf(o)<0&&i.call(e,o)&&(a[o]=e[o]);return a};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(a){var o=a,{components:e}=o,t=u(o,[\"components\"]);return mdx(MDXLayout,d(r(r({},layoutProps),t),{components:e,mdxType:\"MDXLayout\"}),mdx(\"p\",null,\"Saturation is displayed as a percentage. Once a stake pool reaches 100% saturation, it will offer diminishing rewards.The saturation mechanism was designed to prevent centralization by encouraging delegators to delegate to different stake pools, and operators to set up alternative pools so that they can continue earning maximum rewards. Saturation, therefore, exists to preserve the interests of both ada holders delegating their stake and stake pool operators.\"))}MDXContent.isMDXComponent=!0;\n",
+      "scope": {}
+    }
+  }
+}

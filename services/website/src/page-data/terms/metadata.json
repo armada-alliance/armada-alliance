@@ -1,0 +1,40 @@
+{
+  "language": "en",
+  "slug": "/terms/metadata",
+  "template": "TermDetailPage",
+  "title": "Metadata",
+  "description": "A set of additional data stating certain transaction conditions or owner details.",
+  "aliases": [
+    "metadata",
+    "data",
+    "transaction metadata",
+    "nft metadata",
+    "store metadata on blockchain",
+    "cardano metadata size limit",
+    "cardano token metadata",
+    "token metadata",
+    "smart contract metadata",
+    "cardano smart contract metadata"
+  ],
+  "keywords": [
+    "metadata",
+    "data",
+    "transaction",
+    "nft",
+    "token",
+    "smart",
+    "contracts",
+    "cardano",
+    "blockchain"
+  ],
+  "params": {
+    "source": "/en/terms/metadata.md"
+  },
+  "props": {
+    "body": "In smart contracts, metadata represents conditions under which a deal should execute. In a non-fungible token, metadata can store owner ID, ownership status, or intellectual rights.",
+    "source": {
+      "compiledSource": "var d=Object.defineProperty,l=Object.defineProperties;var m=Object.getOwnPropertyDescriptors;var a=Object.getOwnPropertySymbols;var s=Object.prototype.hasOwnProperty,u=Object.prototype.propertyIsEnumerable;var c=(t,n,e)=>n in t?d(t,n,{enumerable:!0,configurable:!0,writable:!0,value:e}):t[n]=e,r=(t,n)=>{for(var e in n||(n={}))s.call(n,e)&&c(t,e,n[e]);if(a)for(var e of a(n))u.call(n,e)&&c(t,e,n[e]);return t},p=(t,n)=>l(t,m(n));var i=(t,n)=>{var e={};for(var o in t)s.call(t,o)&&n.indexOf(o)<0&&(e[o]=t[o]);if(t!=null&&a)for(var o of a(t))n.indexOf(o)<0&&u.call(t,o)&&(e[o]=t[o]);return e};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(e){var o=e,{components:t}=o,n=i(o,[\"components\"]);return mdx(MDXLayout,p(r(r({},layoutProps),n),{components:t,mdxType:\"MDXLayout\"}),mdx(\"p\",null,\"In smart contracts, metadata represents conditions under which a deal should execute. In a non-fungible token, metadata can store owner ID, ownership status, or intellectual rights.\"))}MDXContent.isMDXComponent=!0;\n",
+      "scope": {}
+    }
+  }
+}

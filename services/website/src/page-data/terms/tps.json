@@ -1,0 +1,29 @@
+{
+  "language": "en",
+  "slug": "/terms/tps",
+  "template": "TermDetailPage",
+  "title": "TPS",
+  "description": "Transaction per second",
+  "aliases": [
+    "tps",
+    "transactions per second"
+  ],
+  "keywords": [
+    "t",
+    "p",
+    "s",
+    "transactions",
+    "per",
+    "second"
+  ],
+  "params": {
+    "source": "/en/terms/tps.md"
+  },
+  "props": {
+    "body": "Transaction per second.",
+    "source": {
+      "compiledSource": "var D=Object.defineProperty,M=Object.defineProperties;var X=Object.getOwnPropertyDescriptors;var p=Object.getOwnPropertySymbols;var a=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var u=(o,n,t)=>n in o?D(o,n,{enumerable:!0,configurable:!0,writable:!0,value:t}):o[n]=t,r=(o,n)=>{for(var t in n||(n={}))a.call(n,t)&&u(o,t,n[t]);if(p)for(var t of p(n))s.call(n,t)&&u(o,t,n[t]);return o},c=(o,n)=>M(o,X(n));var y=(o,n)=>{var t={};for(var e in o)a.call(o,e)&&n.indexOf(e)<0&&(t[e]=o[e]);if(o!=null&&p)for(var e of p(o))n.indexOf(e)<0&&s.call(o,e)&&(t[e]=o[e]);return t};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(t){var e=t,{components:o}=e,n=y(e,[\"components\"]);return mdx(MDXLayout,c(r(r({},layoutProps),n),{components:o,mdxType:\"MDXLayout\"}),mdx(\"p\",null,\"Transaction per second.\"))}MDXContent.isMDXComponent=!0;\n",
+      "scope": {}
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "language": "en",
+  "slug": "/terms/ASIC",
+  "template": "TermDetailPage",
+  "title": "ASIC",
+  "description": "An “Application Specific Integrated Circuit” is a silicon chip specifically designed to do a single task.",
+  "aliases": [
+    "ASIC"
+  ],
+  "keywords": [
+    "ASIC",
+    "Application",
+    "Specific",
+    "Integrated",
+    "Circuit"
+  ],
+  "params": {
+    "source": "/en/terms/ASIC.md"
+  },
+  "props": {
+    "body": "An “Application Specific Integrated Circuit” is a silicon chip specifically designed to do a single task. In the case of Bitcoin, they are designed to process SHA-256 hashing problems to mine new bitcoins. ASICs are considered to be much more efficient than conventional hardware(CPUs, GPUs). Using a regular computer for Bitcoin mining is seen as unprofitable and only results in higher electricity bill\n",
+    "source": {
+      "compiledSource": "var u=Object.defineProperty,d=Object.defineProperties;var h=Object.getOwnPropertyDescriptors;var o=Object.getOwnPropertySymbols;var a=Object.prototype.hasOwnProperty,c=Object.prototype.propertyIsEnumerable;var r=(e,i,n)=>i in e?u(e,i,{enumerable:!0,configurable:!0,writable:!0,value:n}):e[i]=n,s=(e,i)=>{for(var n in i||(i={}))a.call(i,n)&&r(e,n,i[n]);if(o)for(var n of o(i))c.call(i,n)&&r(e,n,i[n]);return e},p=(e,i)=>d(e,h(i));var l=(e,i)=>{var n={};for(var t in e)a.call(e,t)&&i.indexOf(t)<0&&(n[t]=e[t]);if(e!=null&&o)for(var t of o(e))i.indexOf(t)<0&&c.call(e,t)&&(n[t]=e[t]);return n};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(n){var t=n,{components:e}=t,i=l(t,[\"components\"]);return mdx(MDXLayout,p(s(s({},layoutProps),i),{components:e,mdxType:\"MDXLayout\"}),mdx(\"p\",null,\"An \\u201CApplication Specific Integrated Circuit\\u201D is a silicon chip specifically designed to do a single task. In the case of Bitcoin, they are designed to process SHA-256 hashing problems to mine new bitcoins. ASICs are considered to be much more efficient than conventional hardware(CPUs, GPUs). Using a regular computer for Bitcoin mining is seen as unprofitable and only results in higher electricity bill\"))}MDXContent.isMDXComponent=!0;\n",
+      "scope": {}
+    }
+  }
+}

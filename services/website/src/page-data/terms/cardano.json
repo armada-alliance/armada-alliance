@@ -1,0 +1,30 @@
+{
+  "language": "en",
+  "slug": "/terms/cardano",
+  "template": "TermDetailPage",
+  "title": "Cardano",
+  "description": "Cardano is a proof-of-stake blockchain platform: the first to be founded on peer-reviewed research and developed through evidence-based methods.",
+  "aliases": [
+    "Cardano",
+    "Cardano blockchain",
+    "Cardano Cryptocurrency",
+    "ADA"
+  ],
+  "keywords": [
+    "Cardano",
+    "Blockchain",
+    "altcoin",
+    "cryptocurrency",
+    "ada"
+  ],
+  "params": {
+    "source": "/en/terms/cardano.md"
+  },
+  "props": {
+    "body": "It combines pioneering technologies to provide unparalleled security and sustainability to decentralized applications, systems, and societies.\n\nWith a leading team of engineers, Cardano exists to redistribute power from unaccountable structures to the margins – to individuals – and be an enabling force for positive change and progress.",
+    "source": {
+      "compiledSource": "var d=Object.defineProperty,l=Object.defineProperties;var g=Object.getOwnPropertyDescriptors;var i=Object.getOwnPropertySymbols;var s=Object.prototype.hasOwnProperty,r=Object.prototype.propertyIsEnumerable;var p=(e,t,n)=>t in e?d(e,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):e[t]=n,a=(e,t)=>{for(var n in t||(t={}))s.call(t,n)&&p(e,n,t[n]);if(i)for(var n of i(t))r.call(t,n)&&p(e,n,t[n]);return e},u=(e,t)=>l(e,g(t));var c=(e,t)=>{var n={};for(var o in e)s.call(e,o)&&t.indexOf(o)<0&&(n[o]=e[o]);if(e!=null&&i)for(var o of i(e))t.indexOf(o)<0&&r.call(e,o)&&(n[o]=e[o]);return n};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(n){var o=n,{components:e}=o,t=c(o,[\"components\"]);return mdx(MDXLayout,u(a(a({},layoutProps),t),{components:e,mdxType:\"MDXLayout\"}),mdx(\"p\",null,\"It combines pioneering technologies to provide unparalleled security and sustainability to decentralized applications, systems, and societies.\"),mdx(\"p\",null,\"With a leading team of engineers, Cardano exists to redistribute power from unaccountable structures to the margins \\u2013 to individuals \\u2013 and be an enabling force for positive change and progress.\"))}MDXContent.isMDXComponent=!0;\n",
+      "scope": {}
+    }
+  }
+}

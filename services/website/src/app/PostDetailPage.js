@@ -1,6 +1,7 @@
 import Layout from './Layout'
 import ContentContainer from './ContentContainer'
 import Image from 'next/image'
+import Markdown from './Markdown'
 import MarkdownContent from './MarkdownContent'
 import markdownToText from 'markdown-to-text'
 import cx from 'classnames'
@@ -44,8 +45,8 @@ export default function TermDetailPage(props) {
                                 </div> */}
                         {props.page.description ? (
                             <div className={cx("mt-4 text-xl font-normal text-gray-500 leading-8", props.page.props.body ? "text-left" : "text-center")}>
-                                <MarkdownContent
-                                    children={props.page.description}
+                                <Markdown
+                                    source={props.page.description}
                                 />
                             </div>
                         ) : null}
@@ -53,7 +54,7 @@ export default function TermDetailPage(props) {
                     <div className="mt-4 text-lg max-w-prose mx-auto">
                         <div className="mt-6 text-gray-500 font-light mx-auto">
                             <MarkdownContent
-                                children={props.page.props.body}
+                                source={props.page.props.source}
                             />
                         </div>
                     </div>

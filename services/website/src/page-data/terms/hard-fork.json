@@ -1,0 +1,33 @@
+{
+  "language": "en",
+  "slug": "/terms/hard-fork",
+  "template": "TermDetailPage",
+  "title": "Hard Fork",
+  "description": "A radical change of the network’s protocol changing the state of operational flow from one model to a completely different one.",
+  "aliases": [
+    "hard fork event",
+    "cardano smart contract hard fork",
+    "cardano native asset hard fork event",
+    "cardano goguen"
+  ],
+  "keywords": [
+    "hard",
+    "fork",
+    "event",
+    "cardano",
+    "smart",
+    "contract",
+    "native",
+    "asset"
+  ],
+  "params": {
+    "source": "/en/terms/hard-fork.md"
+  },
+  "props": {
+    "body": "Cardano has undergone a hard fork to transition from a federated model (Byron) to a decentralized one (Shelley). And now there will be the next hard fork event coming to bring smart contracts live on Cardano (Alonzo).",
+    "source": {
+      "compiledSource": "var p=Object.defineProperty,u=Object.defineProperties;var m=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var d=Object.prototype.hasOwnProperty,i=Object.prototype.propertyIsEnumerable;var l=(o,n,e)=>n in o?p(o,n,{enumerable:!0,configurable:!0,writable:!0,value:e}):o[n]=e,a=(o,n)=>{for(var e in n||(n={}))d.call(n,e)&&l(o,e,n[e]);if(r)for(var e of r(n))i.call(n,e)&&l(o,e,n[e]);return o},s=(o,n)=>u(o,m(n));var c=(o,n)=>{var e={};for(var t in o)d.call(o,t)&&n.indexOf(t)<0&&(e[t]=o[t]);if(o!=null&&r)for(var t of r(o))n.indexOf(t)<0&&i.call(o,t)&&(e[t]=o[t]);return e};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(e){var t=e,{components:o}=t,n=c(t,[\"components\"]);return mdx(MDXLayout,s(a(a({},layoutProps),n),{components:o,mdxType:\"MDXLayout\"}),mdx(\"p\",null,\"Cardano has undergone a hard fork to transition from a federated model (Byron) to a decentralized one (Shelley). And now there will be the next hard fork event coming to bring smart contracts live on Cardano (Alonzo).\"))}MDXContent.isMDXComponent=!0;\n",
+      "scope": {}
+    }
+  }
+}

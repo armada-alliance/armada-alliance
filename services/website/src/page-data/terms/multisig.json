@@ -1,0 +1,33 @@
+{
+  "language": "en",
+  "slug": "/terms/multisig",
+  "template": "TermDetailPage",
+  "title": "Multisig",
+  "description": "Simple multiple signature scripting language supported by Cardano Shelly.",
+  "aliases": [
+    "cardano multisig",
+    "mutlisig",
+    "bitcoin multisig",
+    "ethereum multisig",
+    "multisig wallet",
+    "multisig hardware wallet"
+  ],
+  "keywords": [
+    "cardano",
+    "multisig",
+    "bitcoin",
+    "ethereum",
+    "wallet",
+    "hardware"
+  ],
+  "params": {
+    "source": "/en/terms/multisig.md"
+  },
+  "props": {
+    "body": "Multisig specifies a minimal set of signatures required to allow a transaction to perform certain actions, and can also be used to specify simple minting policies.",
+    "source": {
+      "compiledSource": "var l=Object.defineProperty,m=Object.defineProperties;var y=Object.getOwnPropertyDescriptors;var i=Object.getOwnPropertySymbols;var a=Object.prototype.hasOwnProperty,p=Object.prototype.propertyIsEnumerable;var r=(t,o,n)=>o in t?l(t,o,{enumerable:!0,configurable:!0,writable:!0,value:n}):t[o]=n,s=(t,o)=>{for(var n in o||(o={}))a.call(o,n)&&r(t,n,o[n]);if(i)for(var n of i(o))p.call(o,n)&&r(t,n,o[n]);return t},c=(t,o)=>m(t,y(o));var u=(t,o)=>{var n={};for(var e in t)a.call(t,e)&&o.indexOf(e)<0&&(n[e]=t[e]);if(t!=null&&i)for(var e of i(t))o.indexOf(e)<0&&p.call(t,e)&&(n[e]=t[e]);return n};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(n){var e=n,{components:t}=e,o=u(e,[\"components\"]);return mdx(MDXLayout,c(s(s({},layoutProps),o),{components:t,mdxType:\"MDXLayout\"}),mdx(\"p\",null,\"Multisig specifies a minimal set of signatures required to allow a transaction to perform certain actions, and can also be used to specify simple minting policies.\"))}MDXContent.isMDXComponent=!0;\n",
+      "scope": {}
+    }
+  }
+}

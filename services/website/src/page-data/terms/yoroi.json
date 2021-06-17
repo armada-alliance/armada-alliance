@@ -1,0 +1,24 @@
+{
+  "language": "en",
+  "slug": "/terms/yoroi",
+  "template": "TermDetailPage",
+  "title": "Yoroi",
+  "description": "A light wallet for Cardano that is used to manage Ada balances and conduct transactions. A simple, fast, and secure wallet for daily use purposes that is developed by Emurgo. [More information](https://yoroi-wallet.com/#/).",
+  "aliases": [
+    "yoroi wallet",
+    "cardano wallet"
+  ],
+  "keywords": [
+    "cardano wallet"
+  ],
+  "params": {
+    "source": "/en/terms/yoroi.md"
+  },
+  "props": {
+    "body": "A light wallet for Cardano that is used to manage Ada balances and conduct transactions. A simple, fast, and secure wallet for daily use purposes that is developed by Emurgo. [More information](https://yoroi-wallet.com/#/).\n",
+    "source": {
+      "compiledSource": "var c=Object.defineProperty,d=Object.defineProperties;var m=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var s=Object.prototype.hasOwnProperty,p=Object.prototype.propertyIsEnumerable;var u=(t,a,o)=>a in t?c(t,a,{enumerable:!0,configurable:!0,writable:!0,value:o}):t[a]=o,r=(t,a)=>{for(var o in a||(a={}))s.call(a,o)&&u(t,o,a[o]);if(n)for(var o of n(a))p.call(a,o)&&u(t,o,a[o]);return t},l=(t,a)=>d(t,m(a));var i=(t,a)=>{var o={};for(var e in t)s.call(t,e)&&a.indexOf(e)<0&&(o[e]=t[e]);if(t!=null&&n)for(var e of n(t))a.indexOf(e)<0&&p.call(t,e)&&(o[e]=t[e]);return o};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(o){var e=o,{components:t}=e,a=i(e,[\"components\"]);return mdx(MDXLayout,l(r(r({},layoutProps),a),{components:t,mdxType:\"MDXLayout\"}),mdx(\"p\",null,\"A light wallet for Cardano that is used to manage Ada balances and conduct transactions. A simple, fast, and secure wallet for daily use purposes that is developed by Emurgo. \",mdx(\"a\",r({parentName:\"p\"},{href:\"https://yoroi-wallet.com/#/\"}),\"More information\"),\".\"))}MDXContent.isMDXComponent=!0;\n",
+      "scope": {}
+    }
+  }
+}
