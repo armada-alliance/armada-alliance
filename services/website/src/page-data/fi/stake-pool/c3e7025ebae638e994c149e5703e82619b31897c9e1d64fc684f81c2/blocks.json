@@ -46,14 +46,6 @@
         ]
       },
       "270": {
-        "1622980446": [
-          {
-            "type": "stake",
-            "addr": "stake1uxmr6u52dszcnqj57u3lrgfkc56vz6lcuzllqdf3hapeeyq74f4lq",
-            "amount": 10004423945,
-            "last_amount": 10004620290
-          }
-        ],
         "1623215486": [
           {
             "type": "delegation",
@@ -64,6 +56,18 @@
             "last_pool": null
           }
         ]
+      },
+      "272": {
+        "1623919758": [
+          {
+            "type": "delegation",
+            "addr": "stake1u9sh7zq5ztwff0hnacr2p7hje2prhwjw9u6cqgs9x9v82csr7eg69",
+            "amount": 2436165796,
+            "reward": 4368498,
+            "pool": "c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2",
+            "last_pool": "3116c834a09b0060aef7284f63d3275456364e3309b3c19ec328af60"
+          }
+        ]
       }
     },
     "stake": {
@@ -71,7 +75,13 @@
         "epoch": 269,
         "time": 1622609850,
         "amount": 3510145198,
-        "reward": 2297032
+        "reward": 17376430
+      },
+      "stake1u9sh7zq5ztwff0hnacr2p7hje2prhwjw9u6cqgs9x9v82csr7eg69": {
+        "epoch": 272,
+        "time": 1623919758,
+        "amount": 2436165796,
+        "reward": 4368498
       },
       "stake1uxmr6u52dszcnqj57u3lrgfkc56vz6lcuzllqdf3hapeeyq74f4lq": {
         "epoch": 269,
@@ -90,7 +100,7 @@
     "devices": [],
     "pool": {
       "id": "c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2",
-      "memberSince": "2021-06-13T19:59:54.000Z",
+      "memberSince": "2021-06-12T18:10:25.000Z",
       "name": "Cardano ADA Mini Pool Switzerland",
       "description": "A reliable and eco-friendly stake pool running on Raspberry Pi's",
       "ticker": "MINI1",
@@ -177,7 +187,7 @@
           "pledge": "10000000000",
           "hash_id": "3635",
           "ticker_orig": "MINI1",
-          "metric": -355.30041166869,
+          "metric": -355.35022141341,
           "delegators": "3",
           "pledged": "10004423945",
           "roa_lifetime": "0",
@@ -189,9 +199,9 @@
           "active_stake": "14221691038",
           "active_blocks": "0",
           "direct": true,
-          "saturated": 0.00021735050247299,
+          "saturated": 0.00021734938882139,
           "patreon": 0,
-          "rank": 1546,
+          "rank": 1540,
           "handles": {
             "tw": "JuL71695233",
             "tg": "mini1pool",
@@ -207,7 +217,7 @@
           "db_description": "A reliable and eco-friendly stake pool running on Raspberry Pi's",
           "owners": "1"
         },
-        "updated": "Wed, 16 Jun 2021 22:45:39 +0000"
+        "updated": "Thu, 17 Jun 2021 08:45:43 +0000"
       }
     }
   }

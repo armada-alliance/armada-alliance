@@ -14,6 +14,8 @@ module.exports = async (pages) => {
 
             const filePath = path.join(basePath, page.slug === "/" ? "/index" : page.slug)
 
+            console.log(`started generating page: ${filePath + '.json'}`)
+
             const dirname = path.dirname(filePath)
 
             await mkdirp(dirname)
@@ -35,6 +37,4 @@ module.exports = async (pages) => {
             console.log(`generated page: ${filePath + '.json'}`)
         })
     )
-
-    console.log('basePath', basePath)
 }

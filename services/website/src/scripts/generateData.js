@@ -1,3 +1,4 @@
+const perf = require('execution-time')();
 const fs = require('fs')
 const dotenv = require('dotenv')
 dotenv.config()
@@ -35,6 +36,10 @@ async function getAdapoolsData({ poolId }) {
 }
 
 async function main() {
+
+    console.log(`generateData started`)
+
+    perf.start()
 
     const { data: { pools: poolsById } } = await axios.get('https://pool.pm/pools.json')
 
@@ -88,10 +93,18 @@ async function main() {
                         result.location = await getLocationForQuery({ query: extended.info.location })
                     }
                     if (extended.info.url_png_icon_64x64) {
-                        const { data } = await axios.get(extended.info.url_png_icon_64x64, { responseType: 'arraybuffer' })
-                        console.log('writing image to path', basePath + "/../public/images/" + pool.id + ".png")
-                        await writeFile(basePath + "/../public/images/" + pool.id + ".png", data)
-                        result.icon = "/images/" + pool.id + ".png"
+
+                        try {
+                            const { data } = await axios.get(extended.info.url_png_icon_64x64, { responseType: 'arraybuffer' })
+                            console.log('writing image to path', basePath + "/../public/images/" + pool.id + ".png")
+                            await writeFile(basePath + "/../public/images/" + pool.id + ".png", data)
+                            result.icon = "/images/" + pool.id + ".png"
+                        } catch (e) {
+                            result.errors.push(`could not fetch image: ${extended.info.url_png_icon_64x64}`)
+                            console.log(`could not fetch image for ${pool.ticker}`)
+                            console.log(e)
+                        }
+
                     }
                 } catch (e) {
                     result.errors.push(`could not fetch extended metadata at: ${pool.extended}`)
@@ -250,6 +263,10 @@ async function main() {
     fs.writeFileSync(basePath + "/pools.json", JSON.stringify(pools, null, 2))
     fs.writeFileSync(basePath + "/pools_extended.json", JSON.stringify(pools_extended, null, 2))
     fs.writeFileSync(basePath + "/schema.json", JSON.stringify(schema, null, 2))
+
+    const result = perf.stop()
+
+    console.log(`generateData completed in ${result.words}`)
 }
 
 main()
