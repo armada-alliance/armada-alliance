@@ -1,3 +1,4 @@
+const perf = require('execution-time')();
 const fs = require('fs').promises
 const dotenv = require('dotenv')
 const path = require('path')
@@ -127,6 +128,10 @@ const templates = [
 
 async function main() {
 
+    console.log(`generatePages started`)
+
+    perf.start()
+
     let pages = []
 
     for (const template of templates) {
@@ -172,7 +177,9 @@ async function main() {
 
     await fs.writeFile(basePath + `/pages.json`, JSON.stringify(pages, null, 2))
 
-    console.log(`generated (${pages.length}) pages :)`)
+    const result = perf.stop()
+
+    console.log(`generated (${pages.length}) pages in ${result.words}`)
 }
 
 main()

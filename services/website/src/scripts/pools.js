@@ -1,20 +1,21 @@
 const { execSync } = require("child_process")
 const fs = require("fs")
-const basePath = __dirname + "/../../"
+const path = require('path')
+const basePath = path.join(__dirname, "../../")
 
-const files = fs.readdirSync(basePath + "/registry")
+const files = fs.readdirSync(path.join(basePath, "registry"))
 
 function getGitCreationTimeForFile(file) {
     const output = execSync(`git log --format=%aD ${file} | tail -1`).toString()
-    console.log(`file: "${file}", output: "${output}"`)
     const dateString = output.split("\n").join("")
+    console.log(`file: "${file}", output: "${dateString}"`)
     return new Date(dateString)
 }
 
 const pools = files
     .map(file => {
-        const data = require(basePath + "/registry/" + file)
-        const memberSince = getGitCreationTimeForFile(basePath + "/registry/" + file)
+        const data = require(path.join(basePath, "registry", file))
+        const memberSince = getGitCreationTimeForFile(path.join(basePath, "registry", file))
         return {
             ...data,
             memberSince
