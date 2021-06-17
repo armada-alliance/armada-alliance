@@ -1,5 +1,5 @@
 ---
-layout: Term
+template: TermDetailPage
 title: Byzantine Fault Tolerance (BFT)
 description: Byzantine fault tolerance (BFT), is a property in the system that ensures there is resistance to certain types of failures.
 aliases: bft, byzantine fault tolerant nodes, byzantine fault tolerant blockchains, byzantine fault tolerant algorithms

@@ -1,5 +1,5 @@
 ---
-layout: Term
+template: TermDetailPage
 title: Minting transaction
 description: Transactions with a field specifying token minting details.
 aliases: minting transaction, nft forging, nft transaction, minting a native asset, nft minting, cardano nft minting, nft making transaction

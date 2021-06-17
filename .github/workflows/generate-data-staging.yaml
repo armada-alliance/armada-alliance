@@ -30,6 +30,7 @@ jobs:
       working-directory: ./services/website
       env: # Or as an environment variable
         BLOCKFROST_PROJECT_ID: ${{ secrets.BLOCKFROST_PROJECT_ID }}
+        GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
       run: |
         npm install
         node src/scripts/generateAdapoolsJson.js

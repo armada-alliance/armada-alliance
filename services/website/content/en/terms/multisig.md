@@ -1,5 +1,5 @@
 ---
-layout: Term
+template: TermDetailPage
 title: Multisig
 description: Simple multiple signature scripting language supported by Cardano Shelly.
 aliases: cardano multisig, mutlisig, bitcoin multisig, ethereum multisig, multisig wallet, multisig hardware wallet

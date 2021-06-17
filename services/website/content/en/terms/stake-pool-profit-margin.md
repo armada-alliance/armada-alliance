@@ -1,5 +1,5 @@
 ---
-layout: Term
+template: TermDetailPage
 title: Stake pool profit margin
 description: The percentage of total ada rewards that the stake pool operator takes before sharing the rest of the rewards between all the delegators to the pool.
 aliases: cardano stake pool rewards, cardano stake pool profit margin, cardano stake pool revenue

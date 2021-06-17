@@ -1,5 +1,5 @@
 ---
-layout: Term
+template: TermDetailPage
 title: Smart contract
 description: An automated agreement, written in code, that tracks, verifies, and executes the binding transactions of a contract between various parties.
 aliases: cardano smart contracts, cardano smart contracts, cardano alonzo hard fork smart contracts, cardano smart contract release​, cardano smart contract release date​, cardano smart contracts launch​, cardano ada smart contracts​, cardano smart contract launch date​, cardano roadmap​, when will cardano get smart contracts​, when are smart contracts coming to cardano​

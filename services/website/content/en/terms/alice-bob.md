@@ -1,5 +1,5 @@
 ---
-layout: Term
+template: TermDetailPage
 title: Alice and Bob
 description: Cryptographic protocols are often made clearer by considering parties A and B, or Alice and Bob, performing some protocol.
 aliases: alice and bob, alice, bob, cryptography, blockchain glossary, crypto glossary, understanding blockchains, crypto whitepaper

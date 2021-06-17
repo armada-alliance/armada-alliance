@@ -1,5 +1,5 @@
 ---
-layout: Term
+template: TermDetailPage
 title: Non-fungible token/asset (NFT)
 description: Non-fungible tokens (NFTs) are digital assets that are provably unique, creating digital scarcity. They can't be duplicated or divided.
 aliases: nft, token, non-fungible token, cardano nft market​, free cardano nfts​, cardano nft games​, cardano tales nft​, cardano token address​, ada nft​, spacebudz nft​, how do nft's work

@@ -1,5 +1,5 @@
 ---
-layout: Term
+template: TermDetailPage
 title: Plutus
 description: A Turing-complete programming platform for writing functional smart contracts on the Cardano blockchain.
 aliases: a turing-complete programming languages, cardano programming language, cardano smart contract programming language, solidity programming language, functional programming languages, haskell programming language, cardano coding languages, cardano smart contracts platform, cardano smart contracts platform, turning complete, plutus programming language

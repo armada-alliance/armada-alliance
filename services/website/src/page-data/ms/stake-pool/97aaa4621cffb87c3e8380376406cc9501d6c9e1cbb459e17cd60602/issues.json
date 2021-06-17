@@ -179,14 +179,6 @@
         ]
       },
       "269": {
-        "1622416267": [
-          {
-            "type": "stake",
-            "addr": "stake1u8tgw8jz3jhd4qegnp92j8hlfjgt9fm3ek5esasecdgas9gtwma69",
-            "amount": 11367577472,
-            "last_amount": 11105041272
-          }
-        ],
         "1622436457": [
           {
             "type": "delegation",
@@ -230,30 +222,6 @@
         ]
       },
       "271": {
-        "1623326826": [
-          {
-            "type": "stake",
-            "addr": "stake1u940j55yz5sxhtj95vkutzdmrhl2f6zg4ptzrk5jpcjgudg82q8u3",
-            "amount": 59074661193,
-            "last_amount": 59074839982
-          }
-        ],
-        "1623390080": [
-          {
-            "type": "stake",
-            "addr": "stake1uxuexdxdw398mrufspkwa8n7c7hhmpp246egr9t34dehyxq2ch33n",
-            "amount": 80231087404,
-            "last_amount": 80202987404
-          }
-        ],
-        "1623390654": [
-          {
-            "type": "stake",
-            "addr": "stake1uxuexdxdw398mrufspkwa8n7c7hhmpp246egr9t34dehyxq2ch33n",
-            "amount": 80270040908,
-            "last_amount": 80231087404
-          }
-        ],
         "1623415025": [
           {
             "type": "stake",
@@ -271,6 +239,24 @@
             "fees": 176061
           }
         ]
+      },
+      "272": {
+        "1623761437": [
+          {
+            "type": "stake",
+            "addr": "stake1uye5acvltdw4dcx74x7h7gaky3uujqv4ehdg0t79ewksx8gm32tfl",
+            "amount": 125071962,
+            "last_amount": 122161049
+          }
+        ],
+        "1623860066": [
+          {
+            "type": "stake",
+            "addr": "stake1uxcujus76kgffur6cn8eu4cyjjuptmtfml3u4nvn8mcxuuqerakuf",
+            "amount": 1845502004,
+            "last_amount": 1461602004
+          }
+        ]
       }
     },
     "stake": {
@@ -278,56 +264,56 @@
         "epoch": 255,
         "time": 1616727298,
         "amount": 5012658966,
-        "reward": 1733381183
+        "reward": 1750009920
       },
       "stake1uxuexdxdw398mrufspkwa8n7c7hhmpp246egr9t34dehyxq2ch33n": {
         "epoch": 252,
         "time": 1615329572,
         "amount": 76236056567,
-        "reward": 4033984341
+        "reward": 4231537608
       },
       "stake1u8tgw8jz3jhd4qegnp92j8hlfjgt9fm3ek5esasecdgas9gtwma69": {
         "epoch": 252,
         "time": 1615324168,
         "amount": 11300310263,
-        "reward": 146804730
+        "reward": 174374299
       },
       "stake1u8k6uu0q7ksjj66r2l55k4fwk8sk84jaz47kk2wf27hf5ncf2lqzw": {
         "epoch": 252,
         "time": 1615311747,
         "amount": 743202445,
-        "reward": 2889759
+        "reward": 4737647
       },
       "stake1uyedxk2g4m85tfexmlarysmfp0r8385t66qpayh6cr84fygzrykd2": {
         "epoch": 269,
         "time": 1622477818,
         "amount": 1233774393,
-        "reward": 13696577
+        "reward": 14620577
       },
       "stake1uye5acvltdw4dcx74x7h7gaky3uujqv4ehdg0t79ewksx8gm32tfl": {
         "epoch": 256,
         "time": 1617221603,
-        "amount": 120162643,
-        "reward": 1697993
+        "amount": 123073556,
+        "reward": 1998406
       },
       "stake1u90rj8qkvsznstvacrfwk38gyhpeca3u55an3w90ta72kvcgn7h8k": {
         "epoch": 252,
         "time": 1615388602,
         "amount": 49105876,
-        "reward": 482581
+        "reward": 604814
       },
       "stake1u940j55yz5sxhtj95vkutzdmrhl2f6zg4ptzrk5jpcjgudg82q8u3": {
         "epoch": 252,
         "time": 1615308866,
         "amount": 59074661193,
-        "reward": 0,
+        "reward": 488715840,
         "owner": true
       },
       "stake1uxcujus76kgffur6cn8eu4cyjjuptmtfml3u4nvn8mcxuuqerakuf": {
         "epoch": 260,
         "time": 1618676421,
-        "amount": 1453661918,
-        "reward": 4585871
+        "amount": 1837561918,
+        "reward": 7940086
       },
       "stake1uxmwjudxqv3f92dyhtexgs22pu46889f930cdksn4jpkwhc5lqaft": {
         "epoch": 260,
@@ -339,13 +325,13 @@
         "epoch": 263,
         "time": 1620161663,
         "amount": 151906324,
-        "reward": 1087997
+        "reward": 1465122
       }
     },
     "devices": [],
     "pool": {
       "id": "97aaa4621cffb87c3e8380376406cc9501d6c9e1cbb459e17cd60602",
-      "memberSince": "2021-06-12T18:10:25.000Z",
+      "memberSince": "2021-06-13T19:59:54.000Z",
       "name": "BONE pool",
       "description": "Our aim is to promote decentralization, one small bone in the skeleton supporting the future",
       "ticker": "BONE",
@@ -391,35 +377,35 @@
           "db_ticker": "BONE",
           "db_name": "BONE pool",
           "db_url": "https://poolbone.github.io/meta/",
-          "total_stake": "161318367850",
-          "rewards_epoch": "270",
+          "total_stake": "162442572050",
+          "rewards_epoch": "271",
           "tax_ratio": "0.01",
           "tax_fix": "340000000",
-          "roa": "2.5",
-          "blocks_epoch": "1",
-          "blocks_lifetime": "4",
+          "roa": "5",
+          "blocks_epoch": "0",
+          "blocks_lifetime": "5",
           "blocks_est_lifetime": "0",
           "stamp_strike": "0",
-          "hist_roa": "[{\"val\":\"0\",\"time\":\"1623281413\",\"e\":262},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":263},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":264},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":265},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":266},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":267},{\"val\":\"67.657\",\"time\":\"1623281413\",\"e\":268},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":269}]",
-          "hist_bpe": "[{\"val\":\"0\",\"time\":\"1619388981\",\"e\":261},{\"val\":\"0\",\"time\":\"1619820929\",\"e\":262},{\"val\":\"0\",\"time\":\"1620253146\",\"e\":263},{\"val\":\"0\",\"time\":\"1620685143\",\"e\":264},{\"val\":\"0\",\"time\":\"1621117428\",\"e\":265},{\"val\":\"0\",\"time\":\"1621551195\",\"e\":266},{\"val\":\"0\",\"time\":\"1621981467\",\"e\":267},{\"val\":\"2\",\"time\":\"1622413553\",\"e\":268},{\"val\":\"0\",\"time\":\"1622847905\",\"e\":269},{\"val\":\"1\",\"time\":\"1623277773\",\"e\":270}]",
+          "hist_roa": "[{\"val\":\"0\",\"time\":\"1623713416\",\"e\":263},{\"val\":\"0\",\"time\":\"1623713416\",\"e\":264},{\"val\":\"0\",\"time\":\"1623713416\",\"e\":265},{\"val\":\"0\",\"time\":\"1623713416\",\"e\":266},{\"val\":\"0\",\"time\":\"1623713416\",\"e\":267},{\"val\":\"67.657\",\"time\":\"1623713416\",\"e\":268},{\"val\":\"0\",\"time\":\"1623713416\",\"e\":269},{\"val\":\"33.539\",\"time\":\"1623713416\",\"e\":270}]",
+          "hist_bpe": "[{\"val\":\"0\",\"time\":\"1619820929\",\"e\":262},{\"val\":\"0\",\"time\":\"1620253146\",\"e\":263},{\"val\":\"0\",\"time\":\"1620685143\",\"e\":264},{\"val\":\"0\",\"time\":\"1621117428\",\"e\":265},{\"val\":\"0\",\"time\":\"1621551195\",\"e\":266},{\"val\":\"0\",\"time\":\"1621981467\",\"e\":267},{\"val\":\"2\",\"time\":\"1622413553\",\"e\":268},{\"val\":\"0\",\"time\":\"1622847905\",\"e\":269},{\"val\":\"1\",\"time\":\"1623277773\",\"e\":270},{\"val\":\"1\",\"time\":\"1623712645\",\"e\":271}]",
           "pledge": "52000000000",
           "hash_id": "2720",
           "ticker_orig": "BONE",
-          "metric": -230.76964276867,
+          "metric": -213.71187344837,
           "delegators": "11",
-          "pledged": "59074661193",
-          "roa_lifetime": "6.476",
-          "luck_lifetime": "126",
+          "pledged": "59563377033",
+          "roa_lifetime": "8.097",
+          "luck_lifetime": "159",
           "group_basic": "SOLO",
           "tax_ratio_old": null,
           "tax_fix_old": null,
           "tax_real": 18.429428121545,
-          "active_stake": "211729000820",
-          "active_blocks": "0",
+          "active_stake": "161148016117",
+          "active_blocks": "1",
           "direct": true,
-          "saturated": 0.0025086854112408,
+          "saturated": 0.0024799848263897,
           "patreon": 0,
-          "rank": 956,
+          "rank": 1001,
           "handles": {
             "tw": null,
             "tg": null,
@@ -430,12 +416,12 @@
             "gh": null,
             "icon": 0
           },
-          "blocks_estimated": 0.2,
-          "stake_x_deleg": 14665306168.182,
+          "blocks_estimated": 0.15,
+          "stake_x_deleg": 14767506550,
           "db_description": "Our aim is to promote decentralization, one small bone in the skeleton supporting the future",
           "owners": "1"
         },
-        "updated": "Sun, 13 Jun 2021 19:55:31 +0000"
+        "updated": "Wed, 16 Jun 2021 22:45:28 +0000"
       }
     }
   }

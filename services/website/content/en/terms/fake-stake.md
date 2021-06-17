@@ -1,5 +1,5 @@
 ---
-layout: Term
+template: TermDetailPage
 title: Fake Stake Attack
 description: This is the umbrella term that references the various vulnerabilities of Proof-of-Stake cryptocurrencies like Cardano. 
 aliases: fake stake attacks, fake stake attack, fake stake attack cardano, cardano hack, PoS hacks, proof-of-stake hacks, proof-of-stake attacks, proof-of-stake vulnerabilities, utxo model hacks

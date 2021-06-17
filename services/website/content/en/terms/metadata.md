@@ -1,5 +1,5 @@
 ---
-layout: Term
+template: TermDetailPage
 title: Metadata
 description: A set of additional data stating certain transaction conditions or owner details.
 aliases: metadata, data, transaction metadata, nft metadata, store metadata on blockchain, cardano metadata size limit, cardano token metadata, token metadata, smart contract metadata, cardano smart contract metadata

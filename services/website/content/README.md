@@ -2,28 +2,28 @@
 
 ## Metadata
 
-The following properties are supported in each layout: layout, title, description, keywords
+The following properties are supported in each template: template, title, description, keywords
 
 ```
 ---
-layout: Blog
+template: BlogDetailPage
 title: A blog post
 authors: CAP'N Salty Whale
 keywords: a, blog, post
 ---
 ```
 
-Per layout different metadata properties are supported:
+Per template different metadata properties are supported:
 
 Term: aliases (names the term also is known as)
 
-## Layouts
+## Templates
 
-We will support different layouts for pages, based on the layout defined the page will be rendered using a different template.
+We will support different templates for pages, based on the template defined the page will be rendered using a different template.
 
 ```
 ---
-layout: Blog
+template: BlogDetailPage
 title: A blog post
 authors: CAP'N Salty Whale
 keywords: a, blog, post
@@ -32,7 +32,7 @@ keywords: a, blog, post
 
 ```
 ---
-layout: Term
+template: TermDetailPage
 title: Term XYZ
 description: A definition of a term
 aliases: Term XYZ alias 1, Term XYZ alias 2, Term XYZ alias 3
@@ -48,7 +48,7 @@ The original page will always be the english page. Whenever you add a translatio
 /es/a-blog-post-title-in-spanish.md
 ```
 ---
-layout: Blog
+template: BlogDetailPage
 title: A blog post title in Spanish
 source: /en/a-blog-post-title-in-english.md
 ----

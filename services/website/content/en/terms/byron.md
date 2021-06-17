@@ -1,5 +1,5 @@
 ---
-layout: Term
+template: TermDetailPage
 title: Byron
 description: The name of the first ‘boot strap’ phase of Cardano development. The first era of the Cardano blockchain.
 aliases: byron era, cardano bootstrap era, cardano development

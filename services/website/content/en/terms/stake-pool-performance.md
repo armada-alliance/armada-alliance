@@ -1,5 +1,5 @@
 ---
-layout: Term
+template: TermDetailPage
 title: Stake pool performance
 description: A measure of the efficiency of a stake pool, given as a percentage, is measured by how many blocks the stake pool has produced (and that are recorded on the main chain) compared to how many it was nominated to produce.
 aliases: cardano stake pool performance, block performance, stake pool block performance, stake pool performance, blocks, produced block, rank
