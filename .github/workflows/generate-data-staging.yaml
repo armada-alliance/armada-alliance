@@ -7,7 +7,6 @@ on:
     branches: [ staging ]
     paths-ignore:
       - 'services/website/src/package-lock.json'
-      - 'services/website/src/page-data'
       - 'services/website/src/adapools.json'
       - 'services/website/src/languages.json'
       - 'services/website/src/pages.json'
@@ -36,7 +35,6 @@ jobs:
         npm install
         node src/scripts/generateAdapoolsJson.js
         node src/scripts/generateData.js
-        node src/scripts/generatePages.js
     - name: Commit files
       run: |
         git config --local user.name "${{ secrets.CI_USERNAME }}"

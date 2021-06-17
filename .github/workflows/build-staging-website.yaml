@@ -21,6 +21,7 @@ jobs:
       working-directory: ./services/website
       run: |
         npm install
+        node src/scripts/generatePages.js
         npm run build
         npm run export
         git config --global user.name "${{ secrets.CI_USERNAME }}"
@@ -29,7 +30,9 @@ jobs:
         git -c http.extraHeader="Authorization: Basic $PAT64" clone https://${{ secrets.CI_USERNAME }}:${{ secrets.CI_PASSWORD }}@github.com/ada-pi-machine/ada-pi-machine.github.io.git /tmp/repo
         cp src/topology.json src/schema.json src/pools.json src/pools_extended.json /tmp/repo/
         rm -rf /tmp/repo/_next
+        rm -rf /tmp/repo/page-data
         cp -R out/* /tmp/repo
+        cp -R src/page-data/* /tmp/repo/page-data
     - name: Push changes to GitHub Pages repo
       working-directory: /tmp/repo
       run: |
