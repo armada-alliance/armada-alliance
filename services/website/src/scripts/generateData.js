@@ -255,7 +255,7 @@ async function main() {
         { id: 'pt', icon: '🇵🇹', name: 'Português', translateSlug: false },
         { id: 'fi', icon: '🇫🇮', name: 'Suomeksi', translateSlug: false },
         { id: 'it', icon: '🇮🇹', name: 'Italiano', translateSlug: false },
-        { id: 'th', icon: '🇹🇭', name: 'ไทย', translateSlug: false },
+        // { id: 'th', icon: '🇹🇭', name: 'ไทย', translateSlug: false },
     ]
 
     fs.writeFileSync(basePath + "/languages.json", JSON.stringify(languages, null, 2))
