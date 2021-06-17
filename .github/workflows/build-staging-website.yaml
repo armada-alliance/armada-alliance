@@ -31,7 +31,7 @@ jobs:
         git config --global user.email "${{ secrets.CI_EMAIL }}"
         PAT64=$(echo ":${{ secrets.PERSONAL_ACCESS_TOKEN }}" | base64)
         git -c http.extraHeader="Authorization: Basic $PAT64" clone https://${{ secrets.CI_USERNAME }}:${{ secrets.CI_PASSWORD }}@github.com/ada-pi-machine/ada-pi-machine.github.io.git /tmp/repo
-        cp src/topology.json src/schema.json src/pools.json src/pools_extended.json /tmp/repo/
+        cp src/topology.json src/schema.json src/pools.json src/pools_extended.json src/topology.json src/adapools.json src/translations.json src/languages.json src/pages.json /tmp/repo/
         rm -rf /tmp/repo/_next
         rm -rf /tmp/repo/page-data
         cp -R out/* /tmp/repo
