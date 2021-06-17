@@ -5,5 +5,3 @@ description: The process by which Ada owners can participate in the network and 
 aliases: delegation, delegating, delegate, staking
 keywords: delegation, delegating, delegate, staking 
 ---
-
-The process by which Ada owners can participate in the network and earn rewards by delegating the stake associated with their Ada holdings to a stake pool.
