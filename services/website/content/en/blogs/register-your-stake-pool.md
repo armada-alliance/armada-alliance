@@ -32,6 +32,4 @@ authors: wael-ivie
 
 - You want to become an Armada Alliance supporter and get receive the plentiful booty of our plunders by delegating to one of our stake pools. 
 
-- If you want to become a full-fledged Armada Alliance stake pool operator and help spread our mission even further then come aboard. For assistance in setting up your stake pool see our <Docs url="https://docs.armada-alliance.com/learn/"/>, or contact us (link to email).
-
-Link to GitHub
+- If you want to become a full-fledged Armada Alliance stake pool operator and help spread our mission even further then come aboard. For assistance in setting up your stake pool see our technical guides, or contact us.
