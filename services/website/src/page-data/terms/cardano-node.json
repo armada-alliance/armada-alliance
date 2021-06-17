@@ -1,0 +1,33 @@
+{
+  "language": "en",
+  "slug": "/terms/cardano-node",
+  "template": "TermDetailPage",
+  "title": "Cardano node",
+  "description": "A participant on the Cardano blockchain network, continuously making, sending, receiving, and validating blocks.",
+  "aliases": [
+    "cardano node",
+    "cardano network nodes",
+    "cardano network node",
+    "cardano validator nodes",
+    "cardano mining nodes",
+    "cardano proof-of-stake nodes"
+  ],
+  "keywords": [
+    "cardano",
+    "network",
+    "node",
+    "stake",
+    "pool",
+    "validator"
+  ],
+  "params": {
+    "source": "/en/terms/cardano-node.md"
+  },
+  "props": {
+    "body": "Each Cardano node is responsible to make sure that all the rules of the protocol are followed and the security of the network is maintained.",
+    "source": {
+      "compiledSource": "var c=Object.defineProperty,d=Object.defineProperties;var h=Object.getOwnPropertyDescriptors;var a=Object.getOwnPropertySymbols;var s=Object.prototype.hasOwnProperty,p=Object.prototype.propertyIsEnumerable;var u=(o,t,e)=>t in o?c(o,t,{enumerable:!0,configurable:!0,writable:!0,value:e}):o[t]=e,r=(o,t)=>{for(var e in t||(t={}))s.call(t,e)&&u(o,e,t[e]);if(a)for(var e of a(t))p.call(t,e)&&u(o,e,t[e]);return o},i=(o,t)=>d(o,h(t));var l=(o,t)=>{var e={};for(var n in o)s.call(o,n)&&t.indexOf(n)<0&&(e[n]=o[n]);if(o!=null&&a)for(var n of a(o))t.indexOf(n)<0&&p.call(o,n)&&(e[n]=o[n]);return e};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(e){var n=e,{components:o}=n,t=l(n,[\"components\"]);return mdx(MDXLayout,i(r(r({},layoutProps),t),{components:o,mdxType:\"MDXLayout\"}),mdx(\"p\",null,\"Each Cardano node is responsible to make sure that all the rules of the protocol are followed and the security of the network is maintained.\"))}MDXContent.isMDXComponent=!0;\n",
+      "scope": {}
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "language": "en",
+  "slug": "/terms/nft",
+  "template": "TermDetailPage",
+  "title": "Non-fungible token/asset (NFT)",
+  "description": "Non-fungible tokens (NFTs) are digital assets that are provably unique, creating digital scarcity. They can't be duplicated or divided.",
+  "aliases": [
+    "nft",
+    "token",
+    "non-fungible token",
+    "cardano nft market​",
+    "free cardano nfts​",
+    "cardano nft games​",
+    "cardano tales nft​",
+    "cardano token address​",
+    "ada nft​",
+    "spacebudz nft​",
+    "how do nft's work"
+  ],
+  "keywords": [
+    "nft",
+    "token",
+    "asset",
+    "cardano",
+    "spacebudz",
+    "non-fungible",
+    "ada"
+  ],
+  "params": {
+    "source": "/en/terms/nft.md"
+  },
+  "props": {
+    "body": "A unique asset that is not interchangeable with any other asset(s). \nNon-fungible assets represent specific information (IP rights for example), and act as one unit that cannot be divided into smaller fractions. Non-fungible tokens have unique attributes; they are usually linked to a specific asset. They can be used to prove the ownership of digital items like game skins right through to the ownership of physical assets.\n\nOther tokens are fungible, in the same way as coins or banknotes. Fungible tokens are identical, they have the same attributes and value when exchanged.\n\nFollow our guide to making a NFT on cardano located [here](https://docs.armada-alliance.com/learn/cardano-developer-guides/cardano-nft-collection-tutorial-coming-soon)",
+    "source": {
+      "compiledSource": "var u=Object.defineProperty,p=Object.defineProperties;var d=Object.getOwnPropertyDescriptors;var o=Object.getOwnPropertySymbols;var i=Object.prototype.hasOwnProperty,r=Object.prototype.propertyIsEnumerable;var c=(e,t,a)=>t in e?u(e,t,{enumerable:!0,configurable:!0,writable:!0,value:a}):e[t]=a,s=(e,t)=>{for(var a in t||(t={}))i.call(t,a)&&c(e,a,t[a]);if(o)for(var a of o(t))r.call(t,a)&&c(e,a,t[a]);return e},h=(e,t)=>p(e,d(t));var l=(e,t)=>{var a={};for(var n in e)i.call(e,n)&&t.indexOf(n)<0&&(a[n]=e[n]);if(e!=null&&o)for(var n of o(e))t.indexOf(n)<0&&r.call(e,n)&&(a[n]=e[n]);return a};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(a){var n=a,{components:e}=n,t=l(n,[\"components\"]);return mdx(MDXLayout,h(s(s({},layoutProps),t),{components:e,mdxType:\"MDXLayout\"}),mdx(\"p\",null,`A unique asset that is not interchangeable with any other asset(s).\nNon-fungible assets represent specific information (IP rights for example), and act as one unit that cannot be divided into smaller fractions. Non-fungible tokens have unique attributes; they are usually linked to a specific asset. They can be used to prove the ownership of digital items like game skins right through to the ownership of physical assets.`),mdx(\"p\",null,\"Other tokens are fungible, in the same way as coins or banknotes. Fungible tokens are identical, they have the same attributes and value when exchanged.\"),mdx(\"p\",null,\"Follow our guide to making a NFT on cardano located \",mdx(\"a\",s({parentName:\"p\"},{href:\"https://docs.armada-alliance.com/learn/cardano-developer-guides/cardano-nft-collection-tutorial-coming-soon\"}),\"here\")))}MDXContent.isMDXComponent=!0;\n",
+      "scope": {}
+    }
+  }
+}

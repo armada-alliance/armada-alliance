@@ -1,0 +1,44 @@
+{
+  "language": "en",
+  "slug": "/terms/fake-stake",
+  "template": "TermDetailPage",
+  "title": "Fake Stake Attack",
+  "description": "This is the umbrella term that references the various vulnerabilities of Proof-of-Stake cryptocurrencies like Cardano.",
+  "aliases": [
+    "fake stake attacks",
+    "fake stake attack",
+    "fake stake attack cardano",
+    "cardano hack",
+    "PoS hacks",
+    "proof-of-stake hacks",
+    "proof-of-stake attacks",
+    "proof-of-stake vulnerabilities",
+    "utxo model hacks"
+  ],
+  "keywords": [
+    "vulnerabilities",
+    "fake",
+    "stake",
+    "attack",
+    "attacks",
+    "cardano",
+    "hack",
+    "hacks",
+    "PoSv3",
+    "3rd-generation",
+    "blockchain",
+    "PoS",
+    "ada",
+    "51%"
+  ],
+  "params": {
+    "source": "/en/terms/fake-stake.md"
+  },
+  "props": {
+    "body": "We call the vulnerabilities we found “Fake Stake” attacks. Fake Stake attacks work because 3rd generation Proof-of-Stake blockchain implementations do not adequately validate network data before committing expensive resources, mainly disk-space and RAM. The consequence is that an attacker without much stake (in some cases none at all) can cause a victim node to crash by filling up its disk or RAM with bogus data. Unlike Cardano, many cryptocurrency blockchains that use the UTXO and longest-chain Proof-of-Stake model are susceptible to these Fake Stake vulnerabilities. For more information please see this blog from IOHK below.",
+    "source": {
+      "compiledSource": "var k=Object.defineProperty,m=Object.defineProperties;var d=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var i=Object.prototype.hasOwnProperty,c=Object.prototype.propertyIsEnumerable;var r=(e,t,a)=>t in e?k(e,t,{enumerable:!0,configurable:!0,writable:!0,value:a}):e[t]=a,s=(e,t)=>{for(var a in t||(t={}))i.call(t,a)&&r(e,a,t[a]);if(n)for(var a of n(t))c.call(t,a)&&r(e,a,t[a]);return e},l=(e,t)=>m(e,d(t));var u=(e,t)=>{var a={};for(var o in e)i.call(e,o)&&t.indexOf(o)<0&&(a[o]=e[o]);if(e!=null&&n)for(var o of n(e))t.indexOf(o)<0&&c.call(e,o)&&(a[o]=e[o]);return a};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(a){var o=a,{components:e}=o,t=u(o,[\"components\"]);return mdx(MDXLayout,l(s(s({},layoutProps),t),{components:e,mdxType:\"MDXLayout\"}),mdx(\"p\",null,\"We call the vulnerabilities we found \\u201CFake Stake\\u201D attacks. Fake Stake attacks work because 3rd generation Proof-of-Stake blockchain implementations do not adequately validate network data before committing expensive resources, mainly disk-space and RAM. The consequence is that an attacker without much stake (in some cases none at all) can cause a victim node to crash by filling up its disk or RAM with bogus data. Unlike Cardano, many cryptocurrency blockchains that use the UTXO and longest-chain Proof-of-Stake model are susceptible to these Fake Stake vulnerabilities. For more information please see this blog from IOHK below.\"))}MDXContent.isMDXComponent=!0;\n",
+      "scope": {}
+    }
+  }
+}

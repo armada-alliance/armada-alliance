@@ -1,0 +1,33 @@
+{
+  "language": "en",
+  "slug": "/terms/adrestia",
+  "template": "TermDetailPage",
+  "title": "Adrestia",
+  "description": "Adrestia is a collection of products which makes it easier to integrate with [Cardano](/en/terms/cardano).",
+  "aliases": [
+    "adrestia",
+    "cardano",
+    "api",
+    "apis",
+    "cli",
+    "sdk"
+  ],
+  "keywords": [
+    "adrestia",
+    "cardano",
+    "api",
+    "apis",
+    "cli",
+    "sdk"
+  ],
+  "params": {
+    "source": "/en/terms/adrestia.md"
+  },
+  "props": {
+    "body": "Adrestia is a collection of products which makes it easier to integrate with [Cardano](/terms/cardano). It is made of several application programming interfaces (APIs), command-line interfaces (CLIs), and software development kits (SDKs). Alternatively, Adrestia may also refer to the team working on the project itself.\n",
+    "source": {
+      "compiledSource": "var l=Object.defineProperty,d=Object.defineProperties;var f=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var s=Object.prototype.hasOwnProperty,i=Object.prototype.propertyIsEnumerable;var p=(e,t,a)=>t in e?l(e,t,{enumerable:!0,configurable:!0,writable:!0,value:a}):e[t]=a,r=(e,t)=>{for(var a in t||(t={}))s.call(t,a)&&p(e,a,t[a]);if(n)for(var a of n(t))i.call(t,a)&&p(e,a,t[a]);return e},c=(e,t)=>d(e,f(t));var m=(e,t)=>{var a={};for(var o in e)s.call(e,o)&&t.indexOf(o)<0&&(a[o]=e[o]);if(e!=null&&n)for(var o of n(e))t.indexOf(o)<0&&i.call(e,o)&&(a[o]=e[o]);return a};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(a){var o=a,{components:e}=o,t=m(o,[\"components\"]);return mdx(MDXLayout,c(r(r({},layoutProps),t),{components:e,mdxType:\"MDXLayout\"}),mdx(\"p\",null,\"Adrestia is a collection of products which makes it easier to integrate with \",mdx(\"a\",r({parentName:\"p\"},{href:\"/terms/cardano\"}),\"Cardano\"),\". It is made of several application programming interfaces (APIs), command-line interfaces (CLIs), and software development kits (SDKs). Alternatively, Adrestia may also refer to the team working on the project itself.\"))}MDXContent.isMDXComponent=!0;\n",
+      "scope": {}
+    }
+  }
+}

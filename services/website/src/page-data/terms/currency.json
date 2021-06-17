@@ -1,0 +1,29 @@
+{
+  "language": "en",
+  "slug": "/terms/currency",
+  "template": "TermDetailPage",
+  "title": "Currency",
+  "description": "A class of token whose forging is controlled by a particular monetary policy script.",
+  "aliases": [
+    "Cardano currency",
+    "ADA",
+    "Cardano tokens",
+    "Cardano"
+  ],
+  "keywords": [
+    "Cardano",
+    "tokens",
+    "currency",
+    "ada"
+  ],
+  "params": {
+    "source": "/en/terms/currency.md"
+  },
+  "props": {
+    "body": "A class of token whose forging is controlled by a particular monetary policy script. On the Cardano ledger there is a special currency called Ada which can never be forged and which is controlled separately.",
+    "source": {
+      "compiledSource": "var y=Object.defineProperty,d=Object.defineProperties;var u=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var c=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var l=(e,o,n)=>o in e?y(e,o,{enumerable:!0,configurable:!0,writable:!0,value:n}):e[o]=n,a=(e,o)=>{for(var n in o||(o={}))c.call(o,n)&&l(e,n,o[n]);if(r)for(var n of r(o))s.call(o,n)&&l(e,n,o[n]);return e},p=(e,o)=>d(e,u(o));var i=(e,o)=>{var n={};for(var t in e)c.call(e,t)&&o.indexOf(t)<0&&(n[t]=e[t]);if(e!=null&&r)for(var t of r(e))o.indexOf(t)<0&&s.call(e,t)&&(n[t]=e[t]);return n};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(n){var t=n,{components:e}=t,o=i(t,[\"components\"]);return mdx(MDXLayout,p(a(a({},layoutProps),o),{components:e,mdxType:\"MDXLayout\"}),mdx(\"p\",null,\"A class of token whose forging is controlled by a particular monetary policy script. On the Cardano ledger there is a special currency called Ada which can never be forged and which is controlled separately.\"))}MDXContent.isMDXComponent=!0;\n",
+      "scope": {}
+    }
+  }
+}

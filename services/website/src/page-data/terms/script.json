@@ -1,0 +1,24 @@
+{
+  "language": "en",
+  "slug": "/terms/script",
+  "template": "TermDetailPage",
+  "title": "Script",
+  "description": "A generic term for an executable program in the ledger.",
+  "aliases": [
+    "script",
+    "scripts"
+  ],
+  "keywords": [
+    "script"
+  ],
+  "params": {
+    "source": "/en/terms/script.md"
+  },
+  "props": {
+    "body": "A generic term for an executable program used in the ledger. In the Cardano blockchain, these are written in Plutus Core.",
+    "source": {
+      "compiledSource": "var l=Object.defineProperty,m=Object.defineProperties;var y=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var u=Object.prototype.hasOwnProperty,p=Object.prototype.propertyIsEnumerable;var c=(e,t,n)=>t in e?l(e,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):e[t]=n,a=(e,t)=>{for(var n in t||(t={}))u.call(t,n)&&c(e,n,t[n]);if(r)for(var n of r(t))p.call(t,n)&&c(e,n,t[n]);return e},s=(e,t)=>m(e,y(t));var i=(e,t)=>{var n={};for(var o in e)u.call(e,o)&&t.indexOf(o)<0&&(n[o]=e[o]);if(e!=null&&r)for(var o of r(e))t.indexOf(o)<0&&p.call(e,o)&&(n[o]=e[o]);return n};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(n){var o=n,{components:e}=o,t=i(o,[\"components\"]);return mdx(MDXLayout,s(a(a({},layoutProps),t),{components:e,mdxType:\"MDXLayout\"}),mdx(\"p\",null,\"A generic term for an executable program used in the ledger. In the Cardano blockchain, these are written in Plutus Core.\"))}MDXContent.isMDXComponent=!0;\n",
+      "scope": {}
+    }
+  }
+}

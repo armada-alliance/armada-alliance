@@ -1,0 +1,28 @@
+{
+  "language": "en",
+  "slug": "/terms/satoshi",
+  "template": "TermDetailPage",
+  "title": "Satoshi",
+  "description": "The smallest unit of Bitcoin.",
+  "aliases": [
+    "Satoshi",
+    "one Satoshi",
+    "Bitcoin"
+  ],
+  "keywords": [
+    "Satoshi",
+    "Satoshi Nakamoto",
+    "Bitcoin",
+    "Nakamoto"
+  ],
+  "params": {
+    "source": "/en/terms/satoshi.md"
+  },
+  "props": {
+    "body": "The smallest unit of Bitcoin, equal to 0.00000001 BTC.",
+    "source": {
+      "compiledSource": "var y=Object.defineProperty,D=Object.defineProperties;var M=Object.getOwnPropertyDescriptors;var u=Object.getOwnPropertySymbols;var a=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var r=(t,o,n)=>o in t?y(t,o,{enumerable:!0,configurable:!0,writable:!0,value:n}):t[o]=n,p=(t,o)=>{for(var n in o||(o={}))a.call(o,n)&&r(t,n,o[n]);if(u)for(var n of u(o))s.call(o,n)&&r(t,n,o[n]);return t},c=(t,o)=>D(t,M(o));var i=(t,o)=>{var n={};for(var e in t)a.call(t,e)&&o.indexOf(e)<0&&(n[e]=t[e]);if(t!=null&&u)for(var e of u(t))o.indexOf(e)<0&&s.call(t,e)&&(n[e]=t[e]);return n};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(n){var e=n,{components:t}=e,o=i(e,[\"components\"]);return mdx(MDXLayout,c(p(p({},layoutProps),o),{components:t,mdxType:\"MDXLayout\"}),mdx(\"p\",null,\"The smallest unit of Bitcoin, equal to 0.00000001 BTC.\"))}MDXContent.isMDXComponent=!0;\n",
+      "scope": {}
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "language": "en",
+  "slug": "/terms/chain",
+  "template": "TermDetailPage",
+  "title": "Chain",
+  "description": "A set of blocks that have been produced and are connected to one another in consecutive order.",
+  "aliases": [
+    "Hard Fork"
+  ],
+  "keywords": [
+    "Hard Fork",
+    "Hard Fork Combinator",
+    "HFC"
+  ],
+  "params": {
+    "source": "/en/terms/chain.md"
+  },
+  "props": {
+    "body": "A set of blocks that have been produced and are connected to one another in consecutive order.\n",
+    "source": {
+      "compiledSource": "var y=Object.defineProperty,D=Object.defineProperties;var M=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var c=Object.prototype.hasOwnProperty,p=Object.prototype.propertyIsEnumerable;var u=(o,e,t)=>e in o?y(o,e,{enumerable:!0,configurable:!0,writable:!0,value:t}):o[e]=t,a=(o,e)=>{for(var t in e||(e={}))c.call(e,t)&&u(o,t,e[t]);if(r)for(var t of r(e))p.call(e,t)&&u(o,t,e[t]);return o},s=(o,e)=>D(o,M(e));var d=(o,e)=>{var t={};for(var n in o)c.call(o,n)&&e.indexOf(n)<0&&(t[n]=o[n]);if(o!=null&&r)for(var n of r(o))e.indexOf(n)<0&&p.call(o,n)&&(t[n]=o[n]);return t};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(t){var n=t,{components:o}=n,e=d(n,[\"components\"]);return mdx(MDXLayout,s(a(a({},layoutProps),e),{components:o,mdxType:\"MDXLayout\"}),mdx(\"p\",null,\"A set of blocks that have been produced and are connected to one another in consecutive order.\"))}MDXContent.isMDXComponent=!0;\n",
+      "scope": {}
+    }
+  }
+}

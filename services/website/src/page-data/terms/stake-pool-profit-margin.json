@@ -1,0 +1,32 @@
+{
+  "language": "en",
+  "slug": "/terms/stake-pool-profit-margin",
+  "template": "TermDetailPage",
+  "title": "Stake pool profit margin",
+  "description": "The percentage of total ada rewards that the stake pool operator takes before sharing the rest of the rewards between all the delegators to the pool.",
+  "aliases": [
+    "cardano stake pool rewards",
+    "cardano stake pool profit margin",
+    "cardano stake pool revenue"
+  ],
+  "keywords": [
+    "profit",
+    "margin",
+    "cardano",
+    "stake",
+    "pool",
+    "operator",
+    "rewards",
+    "revenue"
+  ],
+  "params": {
+    "source": "/en/terms/stake-pool-profit-margin.md"
+  },
+  "props": {
+    "body": "A lower profit margin for the operator means they are taking less, which means that delegators can expect to receive more of the rewards for their delegated stake. A private pool is a pool with a profit margin of 100%, meaning that all the rewards will go to the operator and none to the delegators.",
+    "source": {
+      "compiledSource": "var m=Object.defineProperty,c=Object.defineProperties;var d=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var p=Object.prototype.hasOwnProperty,i=Object.prototype.propertyIsEnumerable;var s=(e,t,o)=>t in e?m(e,t,{enumerable:!0,configurable:!0,writable:!0,value:o}):e[t]=o,n=(e,t)=>{for(var o in t||(t={}))p.call(t,o)&&s(e,o,t[o]);if(r)for(var o of r(t))i.call(t,o)&&s(e,o,t[o]);return e},h=(e,t)=>c(e,d(t));var l=(e,t)=>{var o={};for(var a in e)p.call(e,a)&&t.indexOf(a)<0&&(o[a]=e[a]);if(e!=null&&r)for(var a of r(e))t.indexOf(a)<0&&i.call(e,a)&&(o[a]=e[a]);return o};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(o){var a=o,{components:e}=a,t=l(a,[\"components\"]);return mdx(MDXLayout,h(n(n({},layoutProps),t),{components:e,mdxType:\"MDXLayout\"}),mdx(\"p\",null,\"A lower profit margin for the operator means they are taking less, which means that delegators can expect to receive more of the rewards for their delegated stake. A private pool is a pool with a profit margin of 100%, meaning that all the rewards will go to the operator and none to the delegators.\"))}MDXContent.isMDXComponent=!0;\n",
+      "scope": {}
+    }
+  }
+}

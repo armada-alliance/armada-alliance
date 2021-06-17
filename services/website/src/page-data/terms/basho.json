@@ -1,0 +1,31 @@
+{
+  "language": "en",
+  "slug": "/terms/basho",
+  "template": "TermDetailPage",
+  "title": "Basho",
+  "description": "Fourth phase of Cardano development in which performance improvements will be integrated.",
+  "aliases": [
+    "basho era cardano",
+    "goguen era of cardano",
+    "shelly era of cardano",
+    "voltaire era of cardano",
+    "what are the phases of cardano",
+    "cardano road map"
+  ],
+  "keywords": [
+    "basho",
+    "goguen",
+    "shelly",
+    "voltaire"
+  ],
+  "params": {
+    "source": "/en/terms/basho.md"
+  },
+  "props": {
+    "body": "The Basho era of Cardano is an era of optimization, improving the scalability and interoperability of the network. Whereas previous development eras focused on decentralization and new functionality, Basho is about improving the underlying performance of the Cardano network to better support growth and adoption for applications with high transaction volume.\n\nOne of the core developments of Basho will be the introduction of sidechains: new blockchains, interoperable with the main Cardano chain, with immense potential to extend the capabilities of the network. Sidechains can be used as a sharding mechanism by off-loading work from the main chain onto a sidechain to increase the capacity of the network. They can also be used to introduce experimental features without affecting the security of the main blockchain.\n\nBasho will also see the introduction of parallel accounting styles. While the main Cardano blockchain will continue to use a UTXO model, the ability to support and switch between UTXO and account-based models will be added using sidechains. The result will be greater interoperability for Cardano, as well as the ability to support new kinds of use cases on the network.\n\nOverall, the Basho era will see Cardano become one of the most high performance, resilient, and flexible blockchain platforms in the industry. This will provide a network infrastructure with the capability to scale in a sustainable, secure way, as well as the ability to add new functionality without compromising the reliability at the core of the network.\n<Link url=\"https://roadmap.cardano.org/en/basho/\"/>",
+    "source": {
+      "compiledSource": "var d=Object.defineProperty,p=Object.defineProperties;var u=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var l=(e,o,t)=>o in e?d(e,o,{enumerable:!0,configurable:!0,writable:!0,value:t}):e[o]=t,i=(e,o)=>{for(var t in o||(o={}))r.call(o,t)&&l(e,t,o[t]);if(n)for(var t of n(o))s.call(o,t)&&l(e,t,o[t]);return e},h=(e,o)=>p(e,u(o));var c=(e,o)=>{var t={};for(var a in e)r.call(e,a)&&o.indexOf(a)<0&&(t[a]=e[a]);if(e!=null&&n)for(var a of n(e))o.indexOf(a)<0&&s.call(e,a)&&(t[a]=e[a]);return t};const makeShortcode=e=>function(t){return console.warn(\"Component \"+e+\" was not imported, exported, or provided by MDXProvider as global scope\"),mdx(\"div\",i({},t))},Link=makeShortcode(\"Link\"),layoutProps={},MDXLayout=\"wrapper\";function MDXContent(t){var a=t,{components:e}=a,o=c(a,[\"components\"]);return mdx(MDXLayout,h(i(i({},layoutProps),o),{components:e,mdxType:\"MDXLayout\"}),mdx(\"p\",null,\"The Basho era of Cardano is an era of optimization, improving the scalability and interoperability of the network. Whereas previous development eras focused on decentralization and new functionality, Basho is about improving the underlying performance of the Cardano network to better support growth and adoption for applications with high transaction volume.\"),mdx(\"p\",null,\"One of the core developments of Basho will be the introduction of sidechains: new blockchains, interoperable with the main Cardano chain, with immense potential to extend the capabilities of the network. Sidechains can be used as a sharding mechanism by off-loading work from the main chain onto a sidechain to increase the capacity of the network. They can also be used to introduce experimental features without affecting the security of the main blockchain.\"),mdx(\"p\",null,\"Basho will also see the introduction of parallel accounting styles. While the main Cardano blockchain will continue to use a UTXO model, the ability to support and switch between UTXO and account-based models will be added using sidechains. The result will be greater interoperability for Cardano, as well as the ability to support new kinds of use cases on the network.\"),mdx(\"p\",null,\"Overall, the Basho era will see Cardano become one of the most high performance, resilient, and flexible blockchain platforms in the industry. This will provide a network infrastructure with the capability to scale in a sustainable, secure way, as well as the ability to add new functionality without compromising the reliability at the core of the network.\"),mdx(Link,{url:\"https://roadmap.cardano.org/en/basho/\",mdxType:\"Link\"}))}MDXContent.isMDXComponent=!0;\n",
+      "scope": {}
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "language": "en",
+  "slug": "/terms/digital-asset",
+  "template": "TermDetailPage",
+  "title": "Digital Asset",
+  "description": "A digital item of property that holds value stored in the distributed ledger.",
+  "aliases": [
+    "asset",
+    "cardano native asset",
+    "digital asset",
+    "what is a native asset",
+    "what are digital assets",
+    "blockchain asset",
+    "cryptocurrency asset",
+    "is XRP a asset",
+    "fungible tokens",
+    "non-fungible tokens",
+    "bitcoin asset class",
+    "ethereum assets"
+  ],
+  "keywords": [
+    "cardano",
+    "assets",
+    "asset",
+    "token",
+    "tokens",
+    "bitcoin",
+    "ethereum",
+    "digital"
+  ],
+  "params": {
+    "source": "/en/terms/digital-asset.md"
+  },
+  "props": {
+    "body": "An asset can represent security, or utility tokens of a fungible or non-fungible nature.",
+    "source": {
+      "compiledSource": "var c=Object.defineProperty,D=Object.defineProperties;var M=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var s=Object.prototype.hasOwnProperty,a=Object.prototype.propertyIsEnumerable;var p=(n,t,o)=>t in n?c(n,t,{enumerable:!0,configurable:!0,writable:!0,value:o}):n[t]=o,u=(n,t)=>{for(var o in t||(t={}))s.call(t,o)&&p(n,o,t[o]);if(r)for(var o of r(t))a.call(t,o)&&p(n,o,t[o]);return n},i=(n,t)=>D(n,M(t));var y=(n,t)=>{var o={};for(var e in n)s.call(n,e)&&t.indexOf(e)<0&&(o[e]=n[e]);if(n!=null&&r)for(var e of r(n))t.indexOf(e)<0&&a.call(n,e)&&(o[e]=n[e]);return o};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(o){var e=o,{components:n}=e,t=y(e,[\"components\"]);return mdx(MDXLayout,i(u(u({},layoutProps),t),{components:n,mdxType:\"MDXLayout\"}),mdx(\"p\",null,\"An asset can represent security, or utility tokens of a fungible or non-fungible nature.\"))}MDXContent.isMDXComponent=!0;\n",
+      "scope": {}
+    }
+  }
+}

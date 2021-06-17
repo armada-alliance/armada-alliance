@@ -1,0 +1,25 @@
+{
+  "language": "en",
+  "slug": "/terms/pab-client-api",
+  "template": "TermDetailPage",
+  "title": "PAB client API",
+  "description": "A program which interacts with a contract application instance via the PAB’s client API.",
+  "aliases": [
+    "PAB client API"
+  ],
+  "keywords": [
+    "PAB",
+    "client",
+    "api"
+  ],
+  "params": {
+    "source": "/en/terms/pab-client-api.md"
+  },
+  "props": {
+    "body": "A program which interacts with a contract application instance via the PAB’s client API. Examples of PAB clients include:\n\n1. Wallet frontends such as Daedalus.\n\n2. Other user software which uses the contract application as part of a wider system.",
+    "source": {
+      "compiledSource": "var u=Object.defineProperty,m=Object.defineProperties;var h=Object.getOwnPropertyDescriptors;var o=Object.getOwnPropertySymbols;var i=Object.prototype.hasOwnProperty,r=Object.prototype.propertyIsEnumerable;var s=(t,a,e)=>a in t?u(t,a,{enumerable:!0,configurable:!0,writable:!0,value:e}):t[a]=e,p=(t,a)=>{for(var e in a||(a={}))i.call(a,e)&&s(t,e,a[e]);if(o)for(var e of o(a))r.call(a,e)&&s(t,e,a[e]);return t},l=(t,a)=>m(t,h(a));var c=(t,a)=>{var e={};for(var n in t)i.call(t,n)&&a.indexOf(n)<0&&(e[n]=t[n]);if(t!=null&&o)for(var n of o(t))a.indexOf(n)<0&&r.call(t,n)&&(e[n]=t[n]);return e};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(e){var n=e,{components:t}=n,a=c(n,[\"components\"]);return mdx(MDXLayout,l(p(p({},layoutProps),a),{components:t,mdxType:\"MDXLayout\"}),mdx(\"p\",null,\"A program which interacts with a contract application instance via the PAB\\u2019s client API. Examples of PAB clients include:\"),mdx(\"ol\",null,mdx(\"li\",{parentName:\"ol\"},mdx(\"p\",{parentName:\"li\"},\"Wallet frontends such as Daedalus.\")),mdx(\"li\",{parentName:\"ol\"},mdx(\"p\",{parentName:\"li\"},\"Other user software which uses the contract application as part of a wider system.\"))))}MDXContent.isMDXComponent=!0;\n",
+      "scope": {}
+    }
+  }
+}

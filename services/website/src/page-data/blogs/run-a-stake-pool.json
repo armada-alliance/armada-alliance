@@ -1,0 +1,20 @@
+{
+  "language": "en",
+  "slug": "/blogs/run-a-stake-pool",
+  "template": "BlogDetailPage",
+  "title": "Run a stake pool",
+  "description": "Find out if running a stake pool is something for you.",
+  "keywords": null,
+  "authors": "wael-ivie",
+  "aliases": null,
+  "params": {
+    "source": "/en/blogs/run-a-stake-pool.md"
+  },
+  "props": {
+    "body": "## Why run a stake pool?\n## How do I run a stake pool?\n## Operational costs\n## How much can I earn running a stake pool?",
+    "source": {
+      "compiledSource": "var y=Object.defineProperty,l=Object.defineProperties;var D=Object.getOwnPropertyDescriptors;var e=Object.getOwnPropertySymbols;var u=Object.prototype.hasOwnProperty,h=Object.prototype.propertyIsEnumerable;var p=(o,n,t)=>n in o?y(o,n,{enumerable:!0,configurable:!0,writable:!0,value:t}):o[n]=t,r=(o,n)=>{for(var t in n||(n={}))u.call(n,t)&&p(o,t,n[t]);if(e)for(var t of e(n))h.call(n,t)&&p(o,t,n[t]);return o},s=(o,n)=>l(o,D(n));var c=(o,n)=>{var t={};for(var a in o)u.call(o,a)&&n.indexOf(a)<0&&(t[a]=o[a]);if(o!=null&&e)for(var a of e(o))n.indexOf(a)<0&&h.call(o,a)&&(t[a]=o[a]);return t};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(t){var a=t,{components:o}=a,n=c(a,[\"components\"]);return mdx(MDXLayout,s(r(r({},layoutProps),n),{components:o,mdxType:\"MDXLayout\"}),mdx(\"h2\",null,\"Why run a stake pool?\"),mdx(\"h2\",null,\"How do I run a stake pool?\"),mdx(\"h2\",null,\"Operational costs\"),mdx(\"h2\",null,\"How much can I earn running a stake pool?\"))}MDXContent.isMDXComponent=!0;\n",
+      "scope": {}
+    }
+  }
+}

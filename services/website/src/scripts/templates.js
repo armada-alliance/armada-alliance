@@ -4,6 +4,7 @@ const fs = require('fs/promises')
 const fm = require('front-matter')
 const path = require('path')
 const preprocessMarkdown = require('./preprocessMarkdown')
+const { serialize } = require('next-mdx-remote/serialize')
 
 const contentPath = path.join(__dirname, '..', '..', 'content')
 
@@ -15,10 +16,11 @@ const templates = {
 
             const data = fm(string)
 
-            console.log('data', data)
+            const body = preprocessMarkdown(data.body)
 
             return {
-                body: preprocessMarkdown(data.body)
+                body,
+                source: await serialize(body)
             }
         }
     },
@@ -29,10 +31,11 @@ const templates = {
 
             const data = fm(string)
 
-            console.log('data', data)
+            const body = preprocessMarkdown(data.body)
 
             return {
-                body: preprocessMarkdown(data.body)
+                body,
+                source: await serialize(body)
             }
         }
     },

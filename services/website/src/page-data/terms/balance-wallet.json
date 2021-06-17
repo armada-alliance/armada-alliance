@@ -1,0 +1,27 @@
+{
+  "language": "en",
+  "slug": "/terms/balance-wallet",
+  "template": "TermDetailPage",
+  "title": "Balance wallet",
+  "description": "A wallet that stores your initial testnet ada balance, copied from the mainnet via the balance snapshot.",
+  "aliases": [
+    "cardano balance wallet",
+    "cardano wallet balance",
+    "check your cardano wallet's balance"
+  ],
+  "keywords": [
+    "cardano",
+    "balance",
+    "wallet"
+  ],
+  "params": {
+    "source": "/en/terms/balance-wallet.md"
+  },
+  "props": {
+    "body": "The stake from this wallet cannot be delegated but can be transferred to and delegated from a Rewards wallet.",
+    "source": {
+      "compiledSource": "var c=Object.defineProperty,m=Object.defineProperties;var y=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var s=Object.prototype.hasOwnProperty,d=Object.prototype.propertyIsEnumerable;var p=(t,e,o)=>e in t?c(t,e,{enumerable:!0,configurable:!0,writable:!0,value:o}):t[e]=o,r=(t,e)=>{for(var o in e||(e={}))s.call(e,o)&&p(t,o,e[o]);if(n)for(var o of n(e))d.call(e,o)&&p(t,o,e[o]);return t},u=(t,e)=>m(t,y(e));var l=(t,e)=>{var o={};for(var a in t)s.call(t,a)&&e.indexOf(a)<0&&(o[a]=t[a]);if(t!=null&&n)for(var a of n(t))e.indexOf(a)<0&&d.call(t,a)&&(o[a]=t[a]);return o};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(o){var a=o,{components:t}=a,e=l(a,[\"components\"]);return mdx(MDXLayout,u(r(r({},layoutProps),e),{components:t,mdxType:\"MDXLayout\"}),mdx(\"p\",null,\"The stake from this wallet cannot be delegated but can be transferred to and delegated from a Rewards wallet.\"))}MDXContent.isMDXComponent=!0;\n",
+      "scope": {}
+    }
+  }
+}

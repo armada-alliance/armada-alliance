@@ -1,0 +1,35 @@
+{
+  "language": "en",
+  "slug": "/terms/stake-pool-performance",
+  "template": "TermDetailPage",
+  "title": "Stake pool performance",
+  "description": "A measure of the efficiency of a stake pool, given as a percentage, is measured by how many blocks the stake pool has produced (and that are recorded on the main chain) compared to how many it was nominated to produce.",
+  "aliases": [
+    "cardano stake pool performance",
+    "block performance",
+    "stake pool block performance",
+    "stake pool performance",
+    "blocks",
+    "produced block",
+    "rank"
+  ],
+  "keywords": [
+    "cardano",
+    "stake",
+    "pool",
+    "performance",
+    "block",
+    "blocks",
+    "rank"
+  ],
+  "params": {
+    "source": "/en/terms/stake-pool-performance.md"
+  },
+  "props": {
+    "body": "For example, if a pool only produces half the number of blocks that were nominated, its performance rating is 50%. This could happen because the pool has a poor network connection, or has been turned off by its operator. Performance ratings make more sense over a longer period of time.",
+    "source": {
+      "compiledSource": "var m=Object.defineProperty,f=Object.defineProperties;var l=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var p=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var i=(o,e,n)=>e in o?m(o,e,{enumerable:!0,configurable:!0,writable:!0,value:n}):o[e]=n,a=(o,e)=>{for(var n in e||(e={}))p.call(e,n)&&i(o,n,e[n]);if(r)for(var n of r(e))s.call(e,n)&&i(o,n,e[n]);return o},c=(o,e)=>f(o,l(e));var u=(o,e)=>{var n={};for(var t in o)p.call(o,t)&&e.indexOf(t)<0&&(n[t]=o[t]);if(o!=null&&r)for(var t of r(o))e.indexOf(t)<0&&s.call(o,t)&&(n[t]=o[t]);return n};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(n){var t=n,{components:o}=t,e=u(t,[\"components\"]);return mdx(MDXLayout,c(a(a({},layoutProps),e),{components:o,mdxType:\"MDXLayout\"}),mdx(\"p\",null,\"For example, if a pool only produces half the number of blocks that were nominated, its performance rating is 50%. This could happen because the pool has a poor network connection, or has been turned off by its operator. Performance ratings make more sense over a longer period of time.\"))}MDXContent.isMDXComponent=!0;\n",
+      "scope": {}
+    }
+  }
+}

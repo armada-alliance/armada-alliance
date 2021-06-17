@@ -1,0 +1,30 @@
+{
+  "language": "en",
+  "slug": "/terms/marlowe",
+  "template": "TermDetailPage",
+  "title": "Marlowe",
+  "description": "the domain-specific language (DSL) for writing and executing financial contracts on blockchain.",
+  "aliases": [
+    "Marlowe",
+    "Cardano Marlowe",
+    "Cardano Domain Specific Language",
+    ""
+  ],
+  "keywords": [
+    "Marlowe",
+    "Domain Specific Language",
+    "Cardano Marlowe smart contracts",
+    "Marlowe playground",
+    "plutus playground"
+  ],
+  "params": {
+    "source": "/en/terms/marlowe.md"
+  },
+  "props": {
+    "body": "the domain-specific language (DSL) for writing and executing financial contracts on blockchain.\n",
+    "source": {
+      "compiledSource": "var D=Object.defineProperty,y=Object.defineProperties;var M=Object.getOwnPropertyDescriptors;var c=Object.getOwnPropertySymbols;var i=Object.prototype.hasOwnProperty,p=Object.prototype.propertyIsEnumerable;var r=(n,o,t)=>o in n?D(n,o,{enumerable:!0,configurable:!0,writable:!0,value:t}):n[o]=t,e=(n,o)=>{for(var t in o||(o={}))i.call(o,t)&&r(n,t,o[t]);if(c)for(var t of c(o))p.call(o,t)&&r(n,t,o[t]);return n},u=(n,o)=>y(n,M(o));var s=(n,o)=>{var t={};for(var a in n)i.call(n,a)&&o.indexOf(a)<0&&(t[a]=n[a]);if(n!=null&&c)for(var a of c(n))o.indexOf(a)<0&&p.call(n,a)&&(t[a]=n[a]);return t};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(t){var a=t,{components:n}=a,o=s(a,[\"components\"]);return mdx(MDXLayout,u(e(e({},layoutProps),o),{components:n,mdxType:\"MDXLayout\"}),mdx(\"p\",null,\"the domain-specific language (DSL) for writing and executing financial contracts on blockchain.\"))}MDXContent.isMDXComponent=!0;\n",
+      "scope": {}
+    }
+  }
+}

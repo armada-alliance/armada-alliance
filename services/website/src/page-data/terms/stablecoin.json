@@ -1,0 +1,28 @@
+{
+  "language": "en",
+  "slug": "/terms/stablecoin",
+  "template": "TermDetailPage",
+  "title": "Stablecoin",
+  "description": "A cryptocurrency that attempts to offer stability and generally (preferably) backed by a reserve asset. USD Tether and USD Coin are examples of stablecoins backed by US dollars.",
+  "aliases": [
+    "stablecoin",
+    "ageUSD",
+    "cardano stable coins",
+    "cardano stable coin"
+  ],
+  "keywords": [
+    "stablecoin",
+    "stablecoins",
+    "ageUSD"
+  ],
+  "params": {
+    "source": "/en/terms/stablecoin.md"
+  },
+  "props": {
+    "body": "A cryptocurrency that attempts to offer stability and generally (preferably) backed by a reserve asset. USD Tether and USD Coin are examples of stablecoins backed by US dollars.",
+    "source": {
+      "compiledSource": "var u=Object.defineProperty,b=Object.defineProperties;var D=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var s=Object.prototype.hasOwnProperty,p=Object.prototype.propertyIsEnumerable;var y=(e,t,a)=>t in e?u(e,t,{enumerable:!0,configurable:!0,writable:!0,value:a}):e[t]=a,n=(e,t)=>{for(var a in t||(t={}))s.call(t,a)&&y(e,a,t[a]);if(r)for(var a of r(t))p.call(t,a)&&y(e,a,t[a]);return e},c=(e,t)=>b(e,D(t));var l=(e,t)=>{var a={};for(var o in e)s.call(e,o)&&t.indexOf(o)<0&&(a[o]=e[o]);if(e!=null&&r)for(var o of r(e))t.indexOf(o)<0&&p.call(e,o)&&(a[o]=e[o]);return a};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(a){var o=a,{components:e}=o,t=l(o,[\"components\"]);return mdx(MDXLayout,c(n(n({},layoutProps),t),{components:e,mdxType:\"MDXLayout\"}),mdx(\"p\",null,\"A cryptocurrency that attempts to offer stability and generally (preferably) backed by a reserve asset. USD Tether and USD Coin are examples of stablecoins backed by US dollars.\"))}MDXContent.isMDXComponent=!0;\n",
+      "scope": {}
+    }
+  }
+}

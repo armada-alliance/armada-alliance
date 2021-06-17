@@ -1,0 +1,29 @@
+{
+  "language": "en",
+  "slug": "/terms/proof-of-work",
+  "template": "TermDetailPage",
+  "title": "Proof of work (PoW)",
+  "description": "The original consensus algorithm in early blockchain networks, such as Bitcoin. This algorithm is used to confirm transactions and produce new blocks to the chain. With PoW, “miners” (those performing the computational work) compete against each other to complete transactions on the network and get rewarded.",
+  "aliases": [
+    "pow",
+    "proof of work",
+    "bitcoin"
+  ],
+  "keywords": [
+    "pow",
+    "proof",
+    "of",
+    "work",
+    "bitcoin"
+  ],
+  "params": {
+    "source": "/en/terms/proof-of-work.md"
+  },
+  "props": {
+    "body": "The original consensus algorithm in early blockchain networks, such as Bitcoin. This algorithm is used to confirm transactions and produce new blocks to the chain. With PoW, “miners” (those performing the computational work) compete against each other to complete transactions on the network and get rewarded.\n",
+    "source": {
+      "compiledSource": "var u=Object.defineProperty,m=Object.defineProperties;var l=Object.getOwnPropertyDescriptors;var a=Object.getOwnPropertySymbols;var s=Object.prototype.hasOwnProperty,i=Object.prototype.propertyIsEnumerable;var c=(o,t,n)=>t in o?u(o,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):o[t]=n,r=(o,t)=>{for(var n in t||(t={}))s.call(t,n)&&c(o,n,t[n]);if(a)for(var n of a(t))i.call(t,n)&&c(o,n,t[n]);return o},h=(o,t)=>m(o,l(t));var p=(o,t)=>{var n={};for(var e in o)s.call(o,e)&&t.indexOf(e)<0&&(n[e]=o[e]);if(o!=null&&a)for(var e of a(o))t.indexOf(e)<0&&i.call(o,e)&&(n[e]=o[e]);return n};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(n){var e=n,{components:o}=e,t=p(e,[\"components\"]);return mdx(MDXLayout,h(r(r({},layoutProps),t),{components:o,mdxType:\"MDXLayout\"}),mdx(\"p\",null,\"The original consensus algorithm in early blockchain networks, such as Bitcoin. This algorithm is used to confirm transactions and produce new blocks to the chain. With PoW, \\u201Cminers\\u201D (those performing the computational work) compete against each other to complete transactions on the network and get rewarded.\"))}MDXContent.isMDXComponent=!0;\n",
+      "scope": {}
+    }
+  }
+}

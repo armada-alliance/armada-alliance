@@ -1,0 +1,24 @@
+{
+  "language": "en",
+  "slug": "/terms/oracle",
+  "template": "TermDetailPage",
+  "title": "Oracle",
+  "description": "A mechanism by which critical external information that isn’t known or available to a blockchain network is transferred to the network. This can be any kind of information (currency or commodity exchange rates, events happening in the real world, etc.). Cardano has steadily been working on partnerships to connect to a variety of data sources to serve as Oracles for the Cardano network. [Intro to Oracles](https://www.youtube.com/watch?v=BLR8eX73SA4).",
+  "aliases": [
+    "oracle"
+  ],
+  "keywords": [
+    "oracle",
+    "information"
+  ],
+  "params": {
+    "source": "/en/terms/oracle.md"
+  },
+  "props": {
+    "body": "A mechanism by which critical external information that isn’t known or available to a blockchain network is transferred to the network. This can be any kind of information (currency or commodity exchange rates, events happening in the real world, etc.). Cardano has steadily been working on partnerships to connect to a variety of data sources to serve as Oracles for the Cardano network. [Intro to Oracles](https://www.youtube.com/watch?v=BLR8eX73SA4).\n",
+    "source": {
+      "compiledSource": "var w=Object.defineProperty,y=Object.defineProperties;var l=Object.getOwnPropertyDescriptors;var a=Object.getOwnPropertySymbols;var c=Object.prototype.hasOwnProperty,i=Object.prototype.propertyIsEnumerable;var s=(t,e,o)=>e in t?w(t,e,{enumerable:!0,configurable:!0,writable:!0,value:o}):t[e]=o,r=(t,e)=>{for(var o in e||(e={}))c.call(e,o)&&s(t,o,e[o]);if(a)for(var o of a(e))i.call(e,o)&&s(t,o,e[o]);return t},h=(t,e)=>y(t,l(e));var p=(t,e)=>{var o={};for(var n in t)c.call(t,n)&&e.indexOf(n)<0&&(o[n]=t[n]);if(t!=null&&a)for(var n of a(t))e.indexOf(n)<0&&i.call(t,n)&&(o[n]=t[n]);return o};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(o){var n=o,{components:t}=n,e=p(n,[\"components\"]);return mdx(MDXLayout,h(r(r({},layoutProps),e),{components:t,mdxType:\"MDXLayout\"}),mdx(\"p\",null,\"A mechanism by which critical external information that isn\\u2019t known or available to a blockchain network is transferred to the network. This can be any kind of information (currency or commodity exchange rates, events happening in the real world, etc.). Cardano has steadily been working on partnerships to connect to a variety of data sources to serve as Oracles for the Cardano network. \",mdx(\"a\",r({parentName:\"p\"},{href:\"https://www.youtube.com/watch?v=BLR8eX73SA4\"}),\"Intro to Oracles\"),\".\"))}MDXContent.isMDXComponent=!0;\n",
+      "scope": {}
+    }
+  }
+}
