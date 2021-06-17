@@ -1,5 +1,5 @@
 ---
-layout: Term
+template: TermDetailPage
 title: Cardano node
 description: A participant on the Cardano blockchain network, continuously making, sending, receiving, and validating blocks.
 aliases: cardano node, cardano network nodes, cardano network node, cardano validator nodes, cardano mining nodes, cardano proof-of-stake nodes

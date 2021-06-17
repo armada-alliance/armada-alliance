@@ -1,5 +1,5 @@
 ---
-layout: Term
+template: TermDetailPage
 title: Balance wallet
 description: A wallet that stores your initial testnet ada balance, copied from the mainnet via the balance snapshot.
 aliases: cardano balance wallet, cardano wallet balance, check your cardano wallet's balance

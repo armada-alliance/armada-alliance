@@ -1,5 +1,5 @@
 ---
-layout: Term
+template: TermDetailPage
 title: Peer discovery
 description: The process by which nodes find each other on the network and initiate contact
 aliases: peer discovery, peer to peer networks, peer-to-peer topology, cardano network peer discovery

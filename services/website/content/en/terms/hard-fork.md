@@ -1,5 +1,5 @@
 ---
-layout: Term
+template: TermDetailPage
 title: Hard Fork 
 description: A radical change of the network’s protocol changing the state of operational flow from one model to a completely different one.
 aliases: hard fork event, cardano smart contract hard fork, cardano native asset hard fork event, cardano goguen

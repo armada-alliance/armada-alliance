@@ -1,5 +1,5 @@
 ---
-layout: Term
+template: TermDetailPage
 title: Basho
 description: Fourth phase of Cardano development in which performance improvements will be integrated.
 aliases: basho era cardano, goguen era of cardano, shelly era of cardano, voltaire era of cardano, what are the phases of cardano, cardano road map 

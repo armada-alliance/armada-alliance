@@ -267,6 +267,16 @@
             "pool": "2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
             "last_pool": "e0d0ce6856aa952a99cb376b4f882dd376aa6e095dc36c886faaa19c"
           }
+        ],
+        "1623679430": [
+          {
+            "type": "delegation",
+            "addr": "stake1u86yenmm29lqnhzgts6u2yh8d3dmcm6mgw98zs3gaevsxggnwr5pg",
+            "amount": 61388523257,
+            "reward": 767458620,
+            "pool": "903c38e5905f1587d5ecf8c875a181725fb4b12b3eb06ce1d20bb1c6",
+            "last_pool": "2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36"
+          }
         ]
       }
     },
@@ -282,12 +292,6 @@
         "time": 1615188864,
         "amount": 2104825743,
         "reward": 0
-      },
-      "stake1u86yenmm29lqnhzgts6u2yh8d3dmcm6mgw98zs3gaevsxggnwr5pg": {
-        "epoch": 271,
-        "time": 1623281717,
-        "amount": 61388696018,
-        "reward": 767458620
       },
       "stake1uxds5j5lkprjc5mvkam4jg8dpvc08cxw4n0c0ef5ftknsvs4fg5gc": {
         "epoch": 254,
@@ -366,7 +370,7 @@
     "devices": [],
     "pool": {
       "id": "2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
-      "memberSince": "2021-05-12T11:49:17.000Z",
+      "memberSince": "2021-06-13T19:59:54.000Z",
       "name": "Southtyrolpool",
       "description": "A stable pool from South tyrol.",
       "ticker": "SUDTI",
@@ -446,7 +450,7 @@
           "db_ticker": "sudti",
           "db_name": "Southtyrolpool",
           "db_url": "https://southtyrolpool.it",
-          "total_stake": "83445473615",
+          "total_stake": "21289587499",
           "rewards_epoch": "0",
           "tax_ratio": "0",
           "tax_fix": "340000000",
@@ -455,13 +459,13 @@
           "blocks_lifetime": "0",
           "blocks_est_lifetime": "0",
           "stamp_strike": "0",
-          "hist_roa": "[{\"val\":\"0\",\"time\":\"1623281412\",\"e\":262},{\"val\":\"0\",\"time\":\"1623281412\",\"e\":263},{\"val\":\"0\",\"time\":\"1623281412\",\"e\":264},{\"val\":\"0\",\"time\":\"1623281412\",\"e\":265},{\"val\":\"0\",\"time\":\"1623281412\",\"e\":266},{\"val\":\"0\",\"time\":\"1623281412\",\"e\":267},{\"val\":\"0\",\"time\":\"1623281412\",\"e\":268},{\"val\":\"0\",\"time\":\"1623281412\",\"e\":269}]",
-          "hist_bpe": "[{\"val\":\"0\",\"time\":\"1619388980\",\"e\":261},{\"val\":\"0\",\"time\":\"1619820928\",\"e\":262},{\"val\":\"0\",\"time\":\"1620253146\",\"e\":263},{\"val\":\"0\",\"time\":\"1620685142\",\"e\":264},{\"val\":\"0\",\"time\":\"1621117427\",\"e\":265},{\"val\":\"0\",\"time\":\"1621551194\",\"e\":266},{\"val\":\"0\",\"time\":\"1621981466\",\"e\":267},{\"val\":\"0\",\"time\":\"1622413552\",\"e\":268},{\"val\":\"0\",\"time\":\"1622847904\",\"e\":269},{\"val\":\"0\",\"time\":\"1623277772\",\"e\":270}]",
+          "hist_roa": "[{\"val\":\"0\",\"time\":\"1623713416\",\"e\":263},{\"val\":\"0\",\"time\":\"1623713416\",\"e\":264},{\"val\":\"0\",\"time\":\"1623713416\",\"e\":265},{\"val\":\"0\",\"time\":\"1623713416\",\"e\":266},{\"val\":\"0\",\"time\":\"1623713416\",\"e\":267},{\"val\":\"0\",\"time\":\"1623713416\",\"e\":268},{\"val\":\"0\",\"time\":\"1623713416\",\"e\":269},{\"val\":\"0\",\"time\":\"1623713416\",\"e\":270}]",
+          "hist_bpe": "[{\"val\":\"0\",\"time\":\"1619820928\",\"e\":262},{\"val\":\"0\",\"time\":\"1620253146\",\"e\":263},{\"val\":\"0\",\"time\":\"1620685142\",\"e\":264},{\"val\":\"0\",\"time\":\"1621117427\",\"e\":265},{\"val\":\"0\",\"time\":\"1621551194\",\"e\":266},{\"val\":\"0\",\"time\":\"1621981466\",\"e\":267},{\"val\":\"0\",\"time\":\"1622413552\",\"e\":268},{\"val\":\"0\",\"time\":\"1622847904\",\"e\":269},{\"val\":\"0\",\"time\":\"1623277772\",\"e\":270},{\"val\":\"0\",\"time\":\"1623712644\",\"e\":271}]",
           "pledge": "6000000000",
           "hash_id": "2608",
           "ticker_orig": "sudti",
-          "metric": -360.00266255316,
-          "delegators": "14",
+          "metric": -311.67446261369,
+          "delegators": "13",
           "pledged": "6002995570",
           "roa_lifetime": "0",
           "luck_lifetime": "0",
@@ -469,12 +473,12 @@
           "tax_ratio_old": "0",
           "tax_fix_old": "340000000",
           "tax_real": 17.056856187291,
-          "active_stake": "21289141012",
+          "active_stake": "21289167240",
           "active_blocks": "0",
           "direct": true,
-          "saturated": 0.0012976727020117,
+          "saturated": 0.00032502473514987,
           "patreon": "1",
-          "rank": 1252,
+          "rank": 1270,
           "handles": {
             "tw": "southtyrolpool",
             "tg": "southtyrolpool",
@@ -486,11 +490,11 @@
             "icon": "https://static.adapools.org/pool_logo/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36.png"
           },
           "blocks_estimated": 0.02,
-          "stake_x_deleg": 5960390972.5,
+          "stake_x_deleg": 1637660576.8462,
           "db_description": "A stable pool from South tyrol.",
           "owners": "1"
         },
-        "updated": "Sun, 13 Jun 2021 19:55:35 +0000"
+        "updated": "Wed, 16 Jun 2021 22:45:31 +0000"
       }
     }
   }

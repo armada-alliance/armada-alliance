@@ -1,5 +1,5 @@
 ---
-layout: Term
+template: TermDetailPage
 title: Rewards wallet
 description: A wallet that stores ada which can be used in stake delegation. The stake from a single Rewards wallet can only be delegated to a single stake pool.
 aliases: cardano stake pool operator rewards wallet, cardano stake pool owner rewards wallets, cardano wallet, yoroi wallet, daedulus wallet

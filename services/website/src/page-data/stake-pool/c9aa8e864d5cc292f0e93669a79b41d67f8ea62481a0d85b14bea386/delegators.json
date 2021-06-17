@@ -103,16 +103,6 @@
             "amount": 1546708760,
             "fees": 351242
           }
-        ],
-        "1620673065": [
-          {
-            "type": "delegation",
-            "addr": "stake1uyv4u78d6xwn7ze6adl3wxpek5hwrxyhfla9ucwcv2f4avcn0jyev",
-            "amount": 722647741,
-            "reward": 0,
-            "pool": "c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386",
-            "last_pool": null
-          }
         ]
       },
       "266": {
@@ -211,16 +201,6 @@
         ]
       },
       "269": {
-        "1622484848": [
-          {
-            "type": "delegation",
-            "addr": "stake1u9l6ev0wxj7h7lt5wn6w0znllme6svueqva57g7ax8tjn5sl5zh98",
-            "amount": 204494932,
-            "reward": 0,
-            "pool": "c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386",
-            "last_pool": "79c4d4fe108f480fee98f307adac12571df2959651f833b595141cd1"
-          }
-        ],
         "1622650192": [
           {
             "type": "stake",
@@ -258,6 +238,38 @@
             "fees": 572755
           }
         ]
+      },
+      "272": {
+        "1623769313": [
+          {
+            "type": "delegation",
+            "addr": "stake1uycgazpz8ktlpzea4j8yd3w32nntxpx3hm2p8gv679tedpqdmj50p",
+            "amount": 1517722982,
+            "reward": 0,
+            "pool": "849cdde779a0a0faaa4276dac342f762bd6c84d6cbf637a92a20bb88",
+            "last_pool": "c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386"
+          }
+        ],
+        "1623780310": [
+          {
+            "type": "delegation",
+            "addr": "stake1u986ehxy28tqhjd5slp532aljug3mr66at7p0rrcw7zkrkc95xz0j",
+            "amount": 1158652982,
+            "reward": 0,
+            "pool": "849cdde779a0a0faaa4276dac342f762bd6c84d6cbf637a92a20bb88",
+            "last_pool": "c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386"
+          }
+        ],
+        "1623894584": [
+          {
+            "type": "delegation",
+            "addr": "stake1uxmrczdpaay48tttt2d7m9kgyqnlr0s9pujt8p3s6lukucqw7x4af",
+            "amount": 10922710,
+            "reward": 0,
+            "pool": "c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386",
+            "last_pool": null
+          }
+        ]
       }
     },
     "stake": {
@@ -271,7 +283,7 @@
         "epoch": 269,
         "time": 1622515871,
         "amount": 101078514,
-        "reward": 252025
+        "reward": 339156
       },
       "stake1u8wtzn4599884velcezx0u7hecvncaplqa05le6auu6mavghj5ymh": {
         "epoch": 253,
@@ -359,18 +371,6 @@
         "amount": 27302242,
         "reward": 0
       },
-      "stake1u986ehxy28tqhjd5slp532aljug3mr66at7p0rrcw7zkrkc95xz0j": {
-        "epoch": 267,
-        "time": 1621730337,
-        "amount": 1158825743,
-        "reward": 0
-      },
-      "stake1uycgazpz8ktlpzea4j8yd3w32nntxpx3hm2p8gv679tedpqdmj50p": {
-        "epoch": 267,
-        "time": 1621900613,
-        "amount": 1517895743,
-        "reward": 0
-      },
       "stake1u9t37rrz44jrg5vqccvljcj9yrqr6xrwsfxtlv507rtgwcgn4tne4": {
         "epoch": 268,
         "time": 1622207087,
@@ -388,12 +388,18 @@
         "time": 1623221894,
         "amount": 2264832,
         "reward": 0
+      },
+      "stake1uxmrczdpaay48tttt2d7m9kgyqnlr0s9pujt8p3s6lukucqw7x4af": {
+        "epoch": 272,
+        "time": 1623894584,
+        "amount": 10922710,
+        "reward": 0
       }
     },
     "devices": [],
     "pool": {
       "id": "c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386",
-      "memberSince": "2021-06-12T18:10:25.000Z",
+      "memberSince": "2021-06-13T19:59:54.000Z",
       "name": "MEME Pool",
       "description": "They don't know I run a Cardano stake pool.",
       "ticker": "MEME",
@@ -460,35 +466,35 @@
           "db_ticker": "MEME",
           "db_name": "MEME Pool",
           "db_url": "https://meme.best",
-          "total_stake": "35275840158",
-          "rewards_epoch": "264",
+          "total_stake": "32599205803",
+          "rewards_epoch": "271",
           "tax_ratio": "0.02",
           "tax_fix": "341000000",
-          "roa": "2.5",
-          "blocks_epoch": "1",
-          "blocks_lifetime": "1",
+          "roa": "0",
+          "blocks_epoch": "0",
+          "blocks_lifetime": "2",
           "blocks_est_lifetime": "0",
           "stamp_strike": "0",
-          "hist_roa": "[{\"val\":\"0\",\"time\":\"1623281413\",\"e\":262},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":263},{\"val\":\"197.281\",\"time\":\"1623281413\",\"e\":264},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":265},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":266},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":267},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":268},{\"val\":\"0\",\"time\":\"1623281413\",\"e\":269}]",
-          "hist_bpe": "[{\"val\":\"0\",\"time\":\"1619388982\",\"e\":261},{\"val\":\"0\",\"time\":\"1619820930\",\"e\":262},{\"val\":\"0\",\"time\":\"1620253147\",\"e\":263},{\"val\":\"1\",\"time\":\"1620685144\",\"e\":264},{\"val\":\"0\",\"time\":\"1621117428\",\"e\":265},{\"val\":\"0\",\"time\":\"1621551195\",\"e\":266},{\"val\":\"0\",\"time\":\"1621981468\",\"e\":267},{\"val\":\"0\",\"time\":\"1622413554\",\"e\":268},{\"val\":\"0\",\"time\":\"1622847906\",\"e\":269},{\"val\":\"0\",\"time\":\"1623277773\",\"e\":270}]",
+          "hist_roa": "[{\"val\":\"0\",\"time\":\"1623713416\",\"e\":263},{\"val\":\"197.281\",\"time\":\"1623713416\",\"e\":264},{\"val\":\"0\",\"time\":\"1623713416\",\"e\":265},{\"val\":\"0\",\"time\":\"1623713416\",\"e\":266},{\"val\":\"0\",\"time\":\"1623713416\",\"e\":267},{\"val\":\"0\",\"time\":\"1623713416\",\"e\":268},{\"val\":\"0\",\"time\":\"1623713416\",\"e\":269},{\"val\":\"0\",\"time\":\"1623713416\",\"e\":270}]",
+          "hist_bpe": "[{\"val\":\"0\",\"time\":\"1619820930\",\"e\":262},{\"val\":\"0\",\"time\":\"1620253147\",\"e\":263},{\"val\":\"1\",\"time\":\"1620685144\",\"e\":264},{\"val\":\"0\",\"time\":\"1621117428\",\"e\":265},{\"val\":\"0\",\"time\":\"1621551195\",\"e\":266},{\"val\":\"0\",\"time\":\"1621981468\",\"e\":267},{\"val\":\"0\",\"time\":\"1622413554\",\"e\":268},{\"val\":\"0\",\"time\":\"1622847906\",\"e\":269},{\"val\":\"0\",\"time\":\"1623277773\",\"e\":270},{\"val\":\"1\",\"time\":\"1623712647\",\"e\":271}]",
           "pledge": "25000000000",
           "hash_id": "2809",
           "ticker_orig": "MEME",
-          "metric": -345.67500275149,
-          "delegators": "18",
+          "metric": -297.697087772,
+          "delegators": "16",
           "pledged": "25824356169",
-          "roa_lifetime": "16.988",
-          "luck_lifetime": "287",
+          "roa_lifetime": "15.302",
+          "luck_lifetime": "259",
           "group_basic": "SOLO",
           "tax_ratio_old": "0.02",
           "tax_fix_old": "341000000",
           "tax_real": 19.868245659393,
-          "active_stake": "35477931711",
+          "active_stake": "35480253691",
           "active_blocks": "0",
-          "direct": true,
-          "saturated": 0.00054857972314674,
+          "direct": false,
+          "saturated": 0.00049768687311175,
           "patreon": 0,
-          "rank": 1175,
+          "rank": 1190,
           "handles": {
             "tw": "meme_pool",
             "tg": "sporke",
@@ -500,11 +506,11 @@
             "icon": "https://static.adapools.org/pool_logo/c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386.png"
           },
           "blocks_estimated": 0.03,
-          "stake_x_deleg": 1959768897.6667,
+          "stake_x_deleg": 2037450362.6875,
           "db_description": "They don't know I run a Cardano stake pool.",
           "owners": "2"
         },
-        "updated": "Sun, 13 Jun 2021 19:55:34 +0000"
+        "updated": "Wed, 16 Jun 2021 22:45:31 +0000"
       }
     }
   }

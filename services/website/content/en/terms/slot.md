@@ -1,5 +1,5 @@
 ---
-layout: Term
+template: TermDetailPage
 title: Slot
 description: A fixed period of time within an epoch.
 aliases: slot, cardano slots, cardano slots per epoch, how many slots per epoch, block rewards

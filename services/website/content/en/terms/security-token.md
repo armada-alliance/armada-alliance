@@ -1,5 +1,5 @@
 ---
-layout: Term
+template: TermDetailPage
 title: Security token
 description: A digital asset that derives its value from an external asset that can be traded.
 aliases: security token, asset-backed security tokens, stocks, bonds, synthetic assets
