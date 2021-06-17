@@ -416,7 +416,7 @@
     "devices": [],
     "pool": {
       "id": "cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0",
-      "memberSince": "2021-05-01T13:14:41.000Z",
+      "memberSince": "2021-06-13T19:59:54.000Z",
       "name": "ADASRN",
       "description": "Growing wealth together. We keep costs low for the community with a 1% margin.",
       "ticker": "SRN",
@@ -468,8 +468,10 @@
         "homepage": "https://www.adasrn.com",
         "extended": "https://sayshar.github.io/srn-mainnet.extended-metadata.json"
       },
-      "icon": "/images/cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0.png",
-      "errors": [],
+      "icon": "/ship-420.png",
+      "errors": [
+        "could not fetch image: https://www.adasrn.com/ADASRN_64x64.png"
+      ],
       "relays": [
         {
           "ipv4": null,
@@ -499,7 +501,7 @@
           "db_ticker": "SRN",
           "db_name": "ADASRN",
           "db_url": "https://www.adasrn.com",
-          "total_stake": "3266280677214",
+          "total_stake": "3266295006673",
           "rewards_epoch": "271",
           "tax_ratio": "0.01",
           "tax_fix": "340000000",
@@ -513,21 +515,21 @@
           "pledge": "4000000000",
           "hash_id": "2573",
           "ticker_orig": "SRN",
-          "metric": -166.21329279947,
-          "delegators": "15",
+          "metric": -161.63391899067,
+          "delegators": "16",
           "pledged": "5103610365",
           "roa_lifetime": "5.908",
           "luck_lifetime": "117",
           "group_basic": "SOLO",
           "tax_ratio_old": "0.01",
           "tax_fix_old": "340000000",
-          "tax_real": 16.786417946394,
+          "tax_real": 16.786337865549,
           "active_stake": "3259261230365",
           "active_blocks": "2",
           "direct": true,
-          "saturated": 0.049865530395602,
+          "saturated": 0.049865745598722,
           "patreon": 0,
-          "rank": 939,
+          "rank": 934,
           "handles": {
             "tw": "ADASRN1",
             "tg": "Sayshar",
@@ -539,11 +541,11 @@
             "icon": "https://static.adapools.org/pool_logo/cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0.png"
           },
           "blocks_estimated": 3.1,
-          "stake_x_deleg": 217752045147.6,
+          "stake_x_deleg": 204143437917.06,
           "db_description": "Growing wealth together. We keep costs low for the community with a 1% margin.",
           "owners": "1"
         },
-        "updated": "Thu, 17 Jun 2021 08:45:31 +0000"
+        "updated": "Thu, 17 Jun 2021 09:05:29 +0000"
       }
     }
   }
