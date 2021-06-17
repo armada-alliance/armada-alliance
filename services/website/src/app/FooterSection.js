@@ -193,7 +193,7 @@ export default function Example() {
                             {moment().format('YYYY')} {schema.about.name}
                         </div>
                         <Link href={'/sitemap'}>
-                            <a target="_blank" className="ml-2 text-xs text-gray-600 font-bold px-2 py-1 rounded-md bg-gray-50 hover:bg-gray-100">{pages.length} pages generated {lowerFirst(moment(schema.createdAt).calendar())}</a>
+                            <a className="ml-2 text-xs text-gray-600 font-bold px-2 py-1 rounded-md bg-gray-50 hover:bg-gray-100">{pages.length} pages generated {lowerFirst(moment(schema.createdAt).calendar())}</a>
                         </Link>
                     </p>
                 </div>
