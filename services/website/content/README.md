@@ -40,6 +40,17 @@ keywords: X, Y, Z
 ---
 ```
 
+```
+---
+template: IdentityDetailPage
+title: CAP'N Salty Whale 
+description: Founder, SPO
+image: /some.jpg
+website: https://armada-alliance.com
+donationAddress: addr1q8ae4ja0yrqy49g9pj48t4hhnc6zpamy4kecm7ay3d8m930k7hlxjrthyxvhjkjkxc5xjffs5w2tjqyh9ruv0kwqwv4qrq0gdt
+---
+```
+
 ## Translations
 
 The original page will always be the english page. Whenever you add a translation you can add a directory with the name of that language `en`, `de`, `es` etc. In order to refer back to the original (english page) you can add metadata refering back to the english page.
