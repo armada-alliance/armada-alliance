@@ -24,7 +24,7 @@ export default function IdentitiesMainPage(props) {
                     {identities.map(identity => {
 
                         return (
-                            <Link internal={true} href={identity.slug}>
+                            <Link href={identity.slug}>
                                 <a className="p-2 cursor-pointer rounded-lg hover:bg-gray-50">
                                     <div className="space-y-4">
                                         <div className="mx-auto h-12 w-12 rounded-full lg:w-20 lg:h-20 shadow border relative border-gray-200 bg-white">
