@@ -12,19 +12,20 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - working-directory: ./services/website
     - uses: actions/checkout@v2
     - name: Use Node.js 14.x
       uses: actions/setup-node@v1
       with:
         node-version: 14.x
     - name: Cache Node Modules
+      working-directory: ./services/website
       id: cache-node-modules
       uses: actions/cache@v2
       with:
         path: node_modules
         key: node-modules-${{ hashFiles('package-lock.json') }}
     - name: Install Dependencies
+      working-directory: ./services/website
       if: steps.cache.outputs.cache-hit != 'true'
       run: npm install
     - name: Build static website
