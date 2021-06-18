@@ -45,7 +45,7 @@ keywords: X, Y, Z
 template: IdentityDetailPage
 title: CAP'N Salty Whale 
 description: Founder, SPO
-image: /some.jpg
+image: /wael.jpg
 website: https://armada-alliance.com
 donationAddress: addr1q8ae4ja0yrqy49g9pj48t4hhnc6zpamy4kecm7ay3d8m930k7hlxjrthyxvhjkjkxc5xjffs5w2tjqyh9ruv0kwqwv4qrq0gdt
 ---
