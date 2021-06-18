@@ -8,17 +8,47 @@ const { serialize } = require('next-mdx-remote/serialize')
 
 const contentPath = path.join(__dirname, '..', '..', 'content')
 
+function getAttributes(data) {
+    let attributes = { ...data.attributes }
+    delete attributes.title
+    delete attributes.origin
+    delete attributes.description
+    delete attributes.keywords
+    delete attributes.aliases
+    delete attributes.template
+    return attributes
+}
+
 const templates = {
+    GuideDetailPage: {
+        getProps: async ({ params }) => {
+
+            const string = await fs.readFile(path.join(contentPath, params.source), 'utf-8')
+
+            const data = fm(string)
+            const attributes = getAttributes(data)
+
+            const body = preprocessMarkdown(data.body)
+
+            return {
+                ...attributes,
+                body,
+                source: await serialize(body)
+            }
+        }
+    },
     BlogDetailPage: {
         getProps: async ({ params }) => {
 
             const string = await fs.readFile(path.join(contentPath, params.source), 'utf-8')
 
             const data = fm(string)
+            const attributes = getAttributes(data)
 
             const body = preprocessMarkdown(data.body)
 
             return {
+                ...attributes,
                 body,
                 source: await serialize(body)
             }
@@ -30,10 +60,12 @@ const templates = {
             const string = await fs.readFile(path.join(contentPath, params.source), 'utf-8')
 
             const data = fm(string)
+            const attributes = getAttributes(data)
 
             const body = preprocessMarkdown(data.body)
 
             return {
+                ...attributes,
                 body,
                 source: await serialize(body)
             }
@@ -45,10 +77,12 @@ const templates = {
             const string = await fs.readFile(path.join(contentPath, params.source), 'utf-8')
 
             const data = fm(string)
+            const attributes = getAttributes(data)
 
             const body = preprocessMarkdown(data.body)
 
             return {
+                ...attributes,
                 body,
                 source: await serialize(body)
             }

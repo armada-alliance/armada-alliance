@@ -1,120 +1,19 @@
-import { useState } from 'react'
+import { useState, useContext } from 'react'
 import Layout from './Layout'
 import ContentContainer from './ContentContainer'
 import * as icons from './icons'
 import uniq from 'lodash/uniq'
 import intersection from 'lodash/intersection'
 import cx from 'classnames'
-
-const guides = [
-    {
-        title: 'Launch a Cardano Stake Pool',
-        description: 'A full guide to creating a stake pool in which we set up a Block Producer Node & Relay Node.',
-        labels: [
-            'Stake Pool Operation',
-            'Raspberry Pi',
-            'ARM',
-        ],
-        href: '#',
-        icon: '🚀',
-        iconForeground: 'text-gray-700',
-        iconBackground: 'bg-gray-50',
-    },
-    {
-        title: 'Monitor your stake pool using Grafana',
-        description: 'Configure your nodes to export metrics to be displayed on Grafana dashboards.',
-        labels: [
-            'Stake Pool Operation',
-            'Raspberry Pi',
-            'ARM',
-        ],
-        href: '#',
-        icon: '📊',
-        iconForeground: 'text-gray-700',
-        iconBackground: 'bg-gray-50',
-    },
-    {
-        title: 'Run a Cardano Node',
-        description: 'Set up and run a Cardano Node on Raspberry Pi OS.',
-        labels: [
-            'Stake Pool Operation',
-            'Raspberry Pi',
-            'ARM',
-        ],
-        href: '#',
-        icon: '🍓',
-        iconForeground: 'text-red-700',
-        iconBackground: 'bg-red-50',
-    },
-    {
-        title: 'Run a Cardano Node using a prebuilt image',
-        description: 'Download a preconfigured image with everything installed to run a Cardano Node on a Raspberry Pi out of the box.',
-        labels: [
-            'Stake Pool Operation',
-            'Raspberry Pi',
-            'ARM',
-        ],
-        href: '#',
-        icon: '🍓',
-        iconForeground: 'text-red-700',
-        iconBackground: 'bg-red-50',
-    },
-    {
-        title: 'Run a Cardano Node on Alpine Linux OS',
-        description: 'Set up and run a Cardano Node on a very lightweight 🪶 Linux OS',
-        labels: [
-            'Stake Pool Operation',
-            'Raspberry Pi',
-            'ARM'
-        ],
-        href: '#',
-        icon: '🗻',
-        iconForeground: 'text-blue-700',
-        iconBackground: 'bg-blue-50',
-    },
-    {
-        title: 'Create Single Non-Fungible Token',
-        description: 'How to create a Non-Fungible on Cardano with JavaScript.',
-        labels: [
-            'NFT',
-            'JavaScript'
-        ],
-        href: '#',
-        icon: '💰',
-        iconForeground: 'text-yellow-700',
-        iconBackground: 'bg-yellow-50'
-    },
-    {
-        title: 'Create Collection of Non-Fungible Tokens',
-        description: 'A guide to creating a NFT collection on Cardano with JavaScript.',
-        labels: [
-            'NFT',
-            'JavaScript'
-        ],
-        href: '#',
-        icon: '💰',
-        iconForeground: 'text-yellow-700',
-        iconBackground: 'bg-yellow-50'
-    },
-    {
-        title: 'Run a Cardano Node on a Mac Mini M1',
-        description: 'Get more performance out of your stake pool by setting up and run a Cardano Node on Apple Silicon',
-        labels: [
-            'Coming Soon',
-            'Apple SOC',
-        ],
-        href: '#',
-        icon: '🍎',
-        iconForeground: 'text-red-700',
-        iconBackground: 'bg-red-50'
-    },
-]
+import Context from './Context'
+import Link from './Link'
+import pages from '../pages'
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
 }
 
-function Guides({ }) {
+function Guides({ guides }) {
 
     const [filters, setFilters] = useState([])
 
@@ -172,59 +71,56 @@ function Guides({ }) {
                     const Icon = icons[guide.icon]
 
                     return (
-                        <div
-                            key={guide.title}
-                            className={classNames(
-                                index === 0 ? 'rounded-tl-lg rounded-tr-lg sm:rounded-tr-none' : '',
-                                index === 1 ? 'sm:rounded-tr-lg' : '',
-                                index === guides.length - 2 ? 'sm:rounded-bl-lg' : '',
-                                index === guides.length - 1 ? 'rounded-bl-lg rounded-br-lg sm:rounded-bl-none' : '',
-                                'relative group bg-white p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500'
-                            )}
-                        >
-                            <div>
-                                <span
-                                    className={classNames(
-                                        guide.iconBackground,
-                                        guide.iconForeground,
-                                        'rounded-lg inline-flex p-3 ring-4 ring-white'
-                                    )}
-                                >
-                                    {Icon ? (<Icon className="h-6 w-6" aria-hidden="true" />) : <div className="text-xl w-6 h-6 flex items-center justify-center">{guide.icon}</div>}
-                                </span>
-                            </div>
-                            <div className="mt-8">
-                                <h3 className="text-lg font-medium">
-                                    <a href={guide.href} className="focus:outline-none">
-                                        {/* Extend touch target to entire panel */}
-                                        <span className="absolute inset-0" aria-hidden="true" />
-                                        {guide.title}
-                                    </a>
-                                </h3>
-                                <p className="mt-2 text-sm text-gray-500">
-                                    {guide.description}
-                                </p>
-                                {guide.labels ? (
-                                    <div className="mt-4 flex items-center space-x-1">
-                                        {guide.labels.map(label => {
-                                            return (
-                                                <span className="flex-shrink-0 inline-block px-2 py-0.5 text-gray-800 text-xs font-medium bg-gray-100 rounded-full">
-                                                    {label}
-                                                </span>
-                                            )
-                                        })}
-                                    </div>
-                                ) : null}
-                            </div>
-                            <span
-                                className="pointer-events-none absolute top-6 right-6 text-gray-300 group-hover:text-gray-400"
-                                aria-hidden="true"
+                        <Link key={guide.title} href={guide.slug}>
+                            <a
+                                className={classNames(
+                                    index === 0 ? 'rounded-tl-lg rounded-tr-lg sm:rounded-tr-none' : '',
+                                    index === 1 ? 'sm:rounded-tr-lg' : '',
+                                    index === guides.length - 2 ? 'sm:rounded-bl-lg' : '',
+                                    index === guides.length - 1 ? 'rounded-bl-lg rounded-br-lg sm:rounded-bl-none' : '',
+                                    'relative group bg-white p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-primary-500'
+                                )}
                             >
-                                <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M20 4h1a1 1 0 00-1-1v1zm-1 12a1 1 0 102 0h-2zM8 3a1 1 0 000 2V3zM3.293 19.293a1 1 0 101.414 1.414l-1.414-1.414zM19 4v12h2V4h-2zm1-1H8v2h12V3zm-.707.293l-16 16 1.414 1.414 16-16-1.414-1.414z" />
-                                </svg>
-                            </span>
-                        </div>
+                                <div>
+                                    <span
+                                        className={classNames(
+                                            'rounded-lg inline-flex p-3 ring-4 ring-white bg-gray-100'
+                                        )}
+                                    >
+                                        {Icon ? (<Icon className="h-6 w-6" aria-hidden="true" />) : <div className="text-xl w-6 h-6 flex items-center justify-center">{guide.icon}</div>}
+                                    </span>
+                                </div>
+                                <div className="mt-8">
+                                    <h3 className="text-lg font-medium">
+                                        <div>
+                                            {guide.title}
+                                        </div>
+                                    </h3>
+                                    <p className="mt-2 text-sm text-gray-500">
+                                        {guide.description}
+                                    </p>
+                                    {guide.labels ? (
+                                        <div className="mt-4 flex items-center space-x-1">
+                                            {guide.labels.map(label => {
+                                                return (
+                                                    <span className="flex-shrink-0 inline-block px-2 py-0.5 text-gray-800 text-xs font-medium bg-gray-100 rounded-full">
+                                                        {label}
+                                                    </span>
+                                                )
+                                            })}
+                                        </div>
+                                    ) : null}
+                                </div>
+                                <span
+                                    className="pointer-events-none absolute top-6 right-6 text-gray-300 group-hover:text-gray-400"
+                                    aria-hidden="true"
+                                >
+                                    <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M20 4h1a1 1 0 00-1-1v1zm-1 12a1 1 0 102 0h-2zM8 3a1 1 0 000 2V3zM3.293 19.293a1 1 0 101.414 1.414l-1.414-1.414zM19 4v12h2V4h-2zm1-1H8v2h12V3zm-.707.293l-16 16 1.414 1.414 16-16-1.414-1.414z" />
+                                    </svg>
+                                </span>
+                            </a>
+                        </Link>
                     )
                 })}
             </div>
@@ -235,6 +131,10 @@ function Guides({ }) {
 
 export default function GuidesPage(props) {
 
+    const ctx = useContext(Context)
+
+    const guides = pages.filter(page => page.template === "GuideDetailPage" && page.language === ctx.language)
+
     return (
         <Layout>
             <ContentContainer>
@@ -244,36 +144,9 @@ export default function GuidesPage(props) {
                     </span>
                 </h1>
                 <div className="mt-8 space-y-12">
-                    <Guides />
-                    {/* <Guides
-                        title={'Native Assets'}
-                        guides={[
-                            {
-                                title: 'Create Single Non-Fungible Token',
-                                description: 'How to create a Non-Fungible on Cardano with JavaScript.',
-                                labels: [
-                                    'NFT',
-                                    'JavaScript'
-                                ],
-                                href: '#',
-                                icon: '💰',
-                                iconForeground: 'text-yellow-700',
-                                iconBackground: 'bg-yellow-50'
-                            },
-                            {
-                                title: 'Create Collection of Non-Fungible Tokens',
-                                description: 'A guide to creating a NFT collection on Cardano with JavaScript.',
-                                labels: [
-                                    'NFT',
-                                    'JavaScript'
-                                ],
-                                href: '#',
-                                icon: '💰',
-                                iconForeground: 'text-yellow-700',
-                                iconBackground: 'bg-yellow-50'
-                            },
-                        ]}
-                    /> */}
+                    <Guides
+                        guides={guides}
+                    />
                 </div>
             </ContentContainer>
         </Layout >

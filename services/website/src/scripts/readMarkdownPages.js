@@ -47,6 +47,7 @@ module.exports = async () => {
                     keywords: data.attributes.keywords ? data.attributes.keywords.split(',').map(trim) : null,
                     template: data.attributes.template,
                     image: data.attributes.image,
+                    icon: data.attributes.icon,
                     params: {
                         source: relPath
                     }
