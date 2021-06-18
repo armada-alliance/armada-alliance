@@ -9,9 +9,13 @@ import BlogDetailPage from "./BlogDetailPage";
 import RoadmapPage from "./RoadmapPage";
 import GuidesPage from "./GuidesPage";
 import TermDetailPage from "./TermDetailPage";
+import GuideDetailPage from "./GuideDetailPage";
+import IdentitiesMainPage from "./IdentitiesMainPage";
 
 const templates = {
+    IdentitiesMainPage,
     GuidesPage,
+    GuideDetailPage,
     ResourceDetailPage,
     IdentityDetailPage,
     SitemapPage,

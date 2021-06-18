@@ -1,13 +1,17 @@
+import { useContext } from 'react'
 import { ChevronRightIcon } from '@heroicons/react/solid'
 import Layout from './Layout'
 import ContentContainer from './ContentContainer'
 import Link from './Link'
+import Context from './Context'
 import pages from '../pages'
 import markdownToText from 'markdown-to-text'
 
 export default function TermsMainPage(props) {
 
-    const termPages = pages.filter(page => page.template === "TermDetailPage")
+    const ctx = useContext(Context)
+
+    const termPages = pages.filter(page => page.template === "TermDetailPage" && page.language === ctx.language)
 
     return (
         <Layout>

@@ -12,3 +12,5 @@ Non-fungible assets represent specific information (IP rights for example), and 
 Other tokens are fungible, in the same way as coins or banknotes. Fungible tokens are identical, they have the same attributes and value when exchanged.
 
 Follow our guide to making a NFT on cardano located [here](https://docs.armada-alliance.com/learn/cardano-developer-guides/cardano-nft-collection-tutorial-coming-soon)
+
+<Page url={'/identities/spacebudz'} />

@@ -228,13 +228,13 @@ export default function Header() {
                                                             })}
                                                         </div>
                                                         {navigation.general.readMore ? (
-                                                            <div className="px-5 py-5 bg-gray-50 text-center sm:px-8">
-                                                                <Link href={navigation.general.readMore.href}>
-                                                                    <a href="#" className="font-medium text-primary-600 hover:text-primary-500">
+                                                            <Link href={navigation.general.readMore.href}>
+                                                                <a className="block px-5 py-5 bg-gray-50 hover:bg-gray-100 text-center sm:px-8">
+                                                                    <div className="font-medium text-primary-600 hover:text-primary-500">
                                                                         {navigation.general.readMore.name} <span aria-hidden="true">&rarr;</span>
-                                                                    </a>
-                                                                </Link>
-                                                            </div>
+                                                                    </div>
+                                                                </a>
+                                                            </Link>
                                                         ) : null}
                                                     </div>
                                                 </Popover.Panel>
@@ -298,13 +298,13 @@ export default function Header() {
                                                             })}
                                                         </div>
                                                         {navigation.technical.readMore ? (
-                                                            <div className="px-5 py-5 bg-gray-50 text-center sm:px-8">
-                                                                <Link href={navigation.technical.readMore.href}>
-                                                                    <a href="#" className="font-medium text-primary-600 hover:text-primary-500">
+                                                            <Link href={navigation.technical.readMore.href}>
+                                                                <a className="block px-5 py-5 bg-gray-50 hover:bg-gray-100 text-center sm:px-8">
+                                                                    <div className="font-medium text-primary-600 hover:text-primary-500">
                                                                         {navigation.technical.readMore.name} <span aria-hidden="true">&rarr;</span>
-                                                                    </a>
-                                                                </Link>
-                                                            </div>
+                                                                    </div>
+                                                                </a>
+                                                            </Link>
                                                         ) : null}
                                                     </div>
                                                 </Popover.Panel>
