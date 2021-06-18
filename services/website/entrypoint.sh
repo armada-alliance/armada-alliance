@@ -1,8 +1,8 @@
 #!/bin/bash
 
-yarn install
+npm install
 
-# yarn dev
+# npm run dev
 
 echo "Press [CTRL+C] to stop.."
 while true

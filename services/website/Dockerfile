@@ -10,16 +10,16 @@ COPY package.json /app
 
 # We then run npm install to install
 # the npm dependencies for our application
-RUN yarn install
+RUN npm install
 
 # We then copy the rest of our application
 # To the app directory
 COPY . /app
 
-RUN yarn build
+RUN npm run build
 
 # We start our application by calling
 # npm start
-CMD ["yarn", "start"]
+CMD ["npm", "start"]
 
 EXPOSE 3000
