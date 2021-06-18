@@ -3,7 +3,9 @@ template: BlogDetailPage
 title: What is [staking](/en/terms/staking.md)?
 description: On the [Cardano](/en/terms/cardano.md) blockchain, the ada held by wallets represents the stake in the network; the ability to use your stake to either [pledge](/en/terms/pledge.md) or delegate is one of the core elements of Cardano.
 keywords: ada, cardano, delegating ada, how to delegate, staking ada, staking
-authors: wael-ivie
+identities: 
+    - id: wael-ivie
+      role: author
 ---
 
 Pledge is the amount of ada a stake pool owner has decided to delegate to their [stake pool](/en/terms/stake-pool.md). Currently, there is no minimum ada requirement to the amount of pledge needed to open a Cardano stake pool. Thus, a stake pool owner may delegate some or all of their ada when creating a stake pool. However, a stake pool owner's pledge does affect things like their stake pool's attractiveness to delegates, a0 parameter, rewards distribution, and security of the network.
