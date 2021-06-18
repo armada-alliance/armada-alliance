@@ -20,10 +20,9 @@ jobs:
     - name: Cache Node Modules
       id: cache-node-modules
       uses: actions/cache@v2
-      working-directory: ./services/website
       with:
-        path: node_modules
-        key: node-modules-${{ hashFiles('package-lock.json') }}
+        path: services/website/node_modules
+        key: node-modules-${{ hashFiles('services/website/package-lock.json') }}
     - name: Install Dependencies
       working-directory: ./services/website
       if: steps.cache.outputs.cache-hit != 'true'
