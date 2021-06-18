@@ -1,10 +1,10 @@
 name: Build Website (Staging)
 
 on:
+  schedule:
+    - cron: "0 * * * *"
   push:
     branches: [ staging ]
-    paths:
-      - 'services/website/src/adapools.json'
 
 jobs:
   build:
@@ -24,6 +24,8 @@ jobs:
         GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
       run: |
         npm install
+        node src/scripts/generateAdapoolsJson.js
+        node src/scripts/generateData.js
         node src/scripts/generatePages.js
         npm run build
         npm run export
