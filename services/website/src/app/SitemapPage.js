@@ -21,7 +21,7 @@ function PageList(props) {
                                     <div className="min-w-0 flex-1 sm:flex sm:items-center sm:justify-between">
                                         <div className="truncate">
                                             <div className="text-sm">
-                                                <p className="font-medium text-indigo-600 truncate">{page.title}</p>
+                                                <p className="font-medium text-primary-600 truncate">{page.title}</p>
                                                 <p className="font-normal text-gray-500">{page.slug}</p>
                                             </div>
                                             {/* <div className="mt-2 flex">
