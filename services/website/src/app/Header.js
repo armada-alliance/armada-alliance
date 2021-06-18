@@ -93,7 +93,12 @@ function LanguageButton() {
                                 <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
                                     {languages.map((language) => {
 
-                                        const alternatePage = pages.find(page => page.language === language.id && page.origin === ctx.page.origin)
+                                        const alternatePage = pages.find(page => {
+                                            if (!ctx.page.origin) {
+                                                return false
+                                            }
+                                            return page.language === language.id && page.origin === ctx.page.origin || page.slug === ctx.page.origin
+                                        })
 
                                         const disabled = !alternatePage
 
