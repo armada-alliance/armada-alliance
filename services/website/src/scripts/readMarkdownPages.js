@@ -41,6 +41,7 @@ module.exports = async () => {
                     language,
                     slug,
                     ...data.attributes,
+                    origin: data.attributes.origin ? data.attributes.origin : slug,
                     title: data.attributes.title,
                     description: data.attributes.description,
                     aliases: data.attributes.aliases ? data.attributes.aliases.split(',').map(trim) : null,

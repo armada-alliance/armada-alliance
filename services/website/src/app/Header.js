@@ -94,13 +94,10 @@ function LanguageButton() {
                                     {languages.map((language) => {
 
                                         const alternatePage = pages.find(page => {
-                                            if (!ctx.page.origin) {
-                                                return false
-                                            }
-                                            return page.language === language.id && page.origin === ctx.page.origin || page.slug === ctx.page.origin
+                                            return page.language === language.id && page.origin === ctx.page.origin
                                         })
 
-                                        const disabled = !alternatePage
+                                        const disabled = language.id !== ctx.language && !alternatePage
 
                                         const className = cx(
                                             "-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 cursor-pointer",
