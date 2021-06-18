@@ -11,4 +11,4 @@ Hi I am Wael Ivie, the founder of the Armada Alliance and the ARMing Cardano pro
 
 <YoutubeVideo url="https://www.youtube.com/watch?v=Py3Xy3ScVas" description="ARMing Cardano" />
 
-https://www.linkedin.com/in/wael-ivie/
+https://adapulse.io/arming-cardano-an-ecosystem-for-raspberry-pi-stakepool-operators/
