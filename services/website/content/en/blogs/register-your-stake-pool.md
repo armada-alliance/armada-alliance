@@ -4,7 +4,9 @@ title: Register your stake pool
 description: 
 aliases: raspberry pi stake pool, cardano raspberry pi stake pool, how to make a cardano stake pool using a raspberry pi, armada alliance, armada
 keywords: arm, rasberry-pi, rasberry, pi, 4, rpi4, rpi, cardano, stake, pool, alliance, eco, friendly, low, cost
-authors: wael-ivie
+identities: 
+    - id: wael-ivie
+      role: author
 ---
 <Logo url="https://github.com/armada-alliance/Logo/blob/main/banner-armada%20copy.png?raw=true" />
 
