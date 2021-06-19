@@ -76,7 +76,7 @@ function YoutubeVideo({ url, description }) {
     return (
         <div>
             <div
-                className="relative rounded-lg overflow-hidden shadow-md"
+                className="bg-gray-100 relative rounded-lg overflow-hidden shadow-md"
                 style={{
                     WebkitMaskImage: "-webkit-radial-gradient(white, black)", // Safari HACK for rounded corners
                 }}
