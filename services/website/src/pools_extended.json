@@ -208,7 +208,7 @@
         "pledge": "52000000000",
         "hash_id": "2841",
         "ticker_orig": "PIADA",
-        "metric": -276.74378158954,
+        "metric": -276.74583893279,
         "delegators": "10",
         "pledged": "52578003762",
         "roa_lifetime": "7.914",
@@ -220,9 +220,9 @@
         "active_stake": "65771830732",
         "active_blocks": "0",
         "direct": true,
-        "saturated": 0.001002798364301,
+        "saturated": 0.0010027973590501,
         "patreon": 0,
-        "rank": 1123,
+        "rank": 1121,
         "handles": {
           "tw": "StakePiada",
           "tg": "piadapool",
@@ -238,7 +238,7 @@
         "db_description": "Stake pool education hub for Raspberry Pi and ARM 64-bit SoC based low power devices.",
         "owners": "1"
       },
-      "updated": "Fri, 18 Jun 2021 23:15:23 +0000"
+      "updated": "Sat, 19 Jun 2021 01:00:23 +0000"
     }
   },
   {
@@ -282,9 +282,7 @@
       "extended": "https://adamantium.online/extendedPoolMetaData.json"
     },
     "icon": "/images/c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae.png",
-    "errors": [
-      "could not fetch adapools data"
-    ],
+    "errors": [],
     "relays": [
       {
         "ipv4": null,
@@ -304,7 +302,62 @@
     "location": [
       -71.5783054333969,
       43.6898878153
-    ]
+    ],
+    "adapools": {
+      "created": "Thu, 14 Jan 2021 21:33:11 +0000",
+      "data": {
+        "id": "1969",
+        "pool_id": "c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae",
+        "pool_id_bech32": "pool1eqj3dzpkcklc2r0v8pt8adrhrshq8m4zsev072ga7a52uj5wv5c",
+        "db_ticker": "OTG",
+        "db_name": " Star Forge ",
+        "db_url": "https://adamantium.online",
+        "total_stake": "16733013306338",
+        "rewards_epoch": "271",
+        "tax_ratio": "0.0125",
+        "tax_fix": "340000000",
+        "roa": "5.449",
+        "blocks_epoch": "15",
+        "blocks_lifetime": "145",
+        "blocks_est_lifetime": "133",
+        "stamp_strike": "0",
+        "hist_roa": "[{\"val\":\"0\",\"time\":\"1623713413\",\"e\":263},{\"val\":\"3.877\",\"time\":\"1623713413\",\"e\":264},{\"val\":\"6.827\",\"time\":\"1623713413\",\"e\":265},{\"val\":\"4.23\",\"time\":\"1623713413\",\"e\":266},{\"val\":\"3.486\",\"time\":\"1623713413\",\"e\":267},{\"val\":\"4.476\",\"time\":\"1623713413\",\"e\":268},{\"val\":\"7.947\",\"time\":\"1623713413\",\"e\":269},{\"val\":\"5.73\",\"time\":\"1623713413\",\"e\":270}]",
+        "hist_bpe": "[{\"val\":\"1\",\"time\":\"1619820921\",\"e\":262},{\"val\":\"0\",\"time\":\"1620253138\",\"e\":263},{\"val\":\"12\",\"time\":\"1620685134\",\"e\":264},{\"val\":\"21\",\"time\":\"1621117417\",\"e\":265},{\"val\":\"13\",\"time\":\"1621551184\",\"e\":266},{\"val\":\"11\",\"time\":\"1621981456\",\"e\":267},{\"val\":\"14\",\"time\":\"1622413541\",\"e\":268},{\"val\":\"25\",\"time\":\"1622847892\",\"e\":269},{\"val\":\"18\",\"time\":\"1623277759\",\"e\":270},{\"val\":\"10\",\"time\":\"1623712622\",\"e\":271}]",
+        "pledge": "500000000000",
+        "hash_id": "1967",
+        "ticker_orig": "OTG",
+        "metric": 2906.3994291314,
+        "delegators": "31",
+        "pledged": "509022440683",
+        "roa_lifetime": "5.213",
+        "luck_lifetime": "103",
+        "group_basic": "SOLO",
+        "tax_ratio_old": null,
+        "tax_fix_old": null,
+        "tax_real": 4.0009426569577,
+        "active_stake": "16703813748283",
+        "active_blocks": "18",
+        "direct": false,
+        "saturated": 0.25544997021773,
+        "patreon": 0,
+        "rank": 310,
+        "handles": {
+          "tw": "OTG_WCat",
+          "tg": "WCatz",
+          "fb": null,
+          "yt": null,
+          "tc": null,
+          "di": "WCat#6737",
+          "gh": "wcatz",
+          "icon": "https://static.adapools.org/pool_logo/c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae.png"
+        },
+        "blocks_estimated": 15.7,
+        "stake_x_deleg": 539774622785.1,
+        "db_description": "Off The Grid solar powered pool. 3.4 kWh homemade 18650 Tesla Powerwall &amp; 3 Raspberry Pi @ under 13 watts. Teaching the next generation open source is the $PATH &amp; DeFi is the future. Check out our project and please delegate if you can. Thank you!",
+        "owners": "1"
+      },
+      "updated": "Sat, 19 Jun 2021 01:00:11 +0000"
+    }
   },
   {
     "id": "2a748e3885f6f73320ad16a8331247b81fe01b8d39f57eec9caa5091",
@@ -388,7 +441,7 @@
         "db_ticker": "BERRY",
         "db_name": "Berry",
         "db_url": "https://pipool.online",
-        "total_stake": "2561923670454",
+        "total_stake": "2561959497323",
         "rewards_epoch": "271",
         "tax_ratio": "0.015",
         "tax_fix": "340000000",
@@ -402,7 +455,7 @@
         "pledge": "450000000000",
         "hash_id": "74",
         "ticker_orig": "BERRY",
-        "metric": 1156.2772991831,
+        "metric": 1156.2767714361,
         "delegators": "207",
         "pledged": "468597622146",
         "roa_lifetime": "3.903",
@@ -414,7 +467,7 @@
         "active_stake": "2377176010082",
         "active_blocks": "0",
         "direct": true,
-        "saturated": 0.039110946090876,
+        "saturated": 0.039111453825372,
         "patreon": 0,
         "rank": 570,
         "handles": {
@@ -428,11 +481,11 @@
           "icon": "https://static.adapools.org/pool_logo/2a748e3885f6f73320ad16a8331247b81fe01b8d39f57eec9caa5091.png"
         },
         "blocks_estimated": 2.2,
-        "stake_x_deleg": 12376442852.435,
+        "stake_x_deleg": 12376615929.097,
         "db_description": "Decentralizing Cardano in the most beautiful way - Let's shape the future together!",
         "owners": "2"
       },
-      "updated": "Fri, 18 Jun 2021 23:15:14 +0000"
+      "updated": "Sat, 19 Jun 2021 01:00:15 +0000"
     }
   },
   {
@@ -547,7 +600,7 @@
         "pledge": "74000000000",
         "hash_id": "2678",
         "ticker_orig": "RPI",
-        "metric": -340.66282305852,
+        "metric": -340.67310977477,
         "delegators": "2",
         "pledged": "74008959302",
         "roa_lifetime": "0",
@@ -559,7 +612,7 @@
         "active_stake": "74008959302",
         "active_blocks": "0",
         "direct": true,
-        "saturated": 0.0011298386641587,
+        "saturated": 0.0011298375315568,
         "patreon": 0,
         "rank": 1457,
         "handles": {
@@ -577,7 +630,7 @@
         "db_description": "Raspberry Pi Pool",
         "owners": "3"
       },
-      "updated": "Fri, 18 Jun 2021 23:15:30 +0000"
+      "updated": "Sat, 19 Jun 2021 01:00:31 +0000"
     }
   },
   {
@@ -663,7 +716,7 @@
         "pledge": "8000000000",
         "hash_id": "2445",
         "ticker_orig": "SOLRP",
-        "metric": 123.23035931014,
+        "metric": 123.22293624436,
         "delegators": "20",
         "pledged": "8000692982",
         "roa_lifetime": "32.756",
@@ -675,7 +728,7 @@
         "active_stake": "3172159591632",
         "active_blocks": "0",
         "direct": true,
-        "saturated": 0.055081871587355,
+        "saturated": 0.055081816370771,
         "patreon": 0,
         "rank": 774,
         "handles": {
@@ -693,7 +746,7 @@
         "db_description": "Our goal is to create a fully solar powered raspberry pi for cardano staking",
         "owners": "2"
       },
-      "updated": "Fri, 18 Jun 2021 23:15:18 +0000"
+      "updated": "Sat, 19 Jun 2021 01:00:18 +0000"
     }
   },
   {
@@ -778,7 +831,7 @@
         "pledge": "3000000000",
         "hash_id": "3169",
         "ticker_orig": "QXT",
-        "metric": -273.84541317485,
+        "metric": -273.84565779936,
         "delegators": "106",
         "pledged": "3052253543",
         "roa_lifetime": "0",
@@ -790,9 +843,9 @@
         "active_stake": "618332265028",
         "active_blocks": "0",
         "direct": true,
-        "saturated": 0.0096205787973141,
+        "saturated": 0.0096205691532065,
         "patreon": 0,
-        "rank": 1117,
+        "rank": 1115,
         "handles": {
           "tw": "QuixotePool",
           "tg": "QuixotePool",
@@ -808,7 +861,7 @@
         "db_description": "Dream the impossible dream like Quixote! Support Tech Projects in La Mancha, one of the most under-developed Regions in Europe",
         "owners": "1"
       },
-      "updated": "Fri, 18 Jun 2021 23:15:23 +0000"
+      "updated": "Sat, 19 Jun 2021 01:00:23 +0000"
     }
   },
   {
@@ -919,7 +972,7 @@
         "db_ticker": "OYSTR",
         "db_name": "Oyster_Pool",
         "db_url": "https://twitter.com/OystrPool",
-        "total_stake": "18679610674056",
+        "total_stake": "18680109654056",
         "rewards_epoch": "271",
         "tax_ratio": "0.03",
         "tax_fix": "340000000",
@@ -933,7 +986,7 @@
         "pledge": "555400000000",
         "hash_id": "2791",
         "ticker_orig": "OYSTR",
-        "metric": 3037.7356297314,
+        "metric": 3037.7262449873,
         "delegators": "88",
         "pledged": "563750300118",
         "roa_lifetime": "5.804",
@@ -941,11 +994,11 @@
         "group_basic": "SOLO",
         "tax_ratio_old": null,
         "tax_fix_old": null,
-        "tax_real": 5.5440554232993,
+        "tax_real": 5.5439857884641,
         "active_stake": "18519145309091",
         "active_blocks": "22",
         "direct": true,
-        "saturated": 0.28516745229263,
+        "saturated": 0.28517478396942,
         "patreon": 0,
         "rank": 225,
         "handles": {
@@ -959,11 +1012,11 @@
           "icon": 0
         },
         "blocks_estimated": 17.4,
-        "stake_x_deleg": 212268303114.27,
+        "stake_x_deleg": 212273973341.55,
         "db_description": "Single pool owner, first in Wales/Cymru. An independent pool run from an energy efficient and reliable network of Raspberry Pis. We are an ideas lab run by a long-term Cardanoista and one of the ‘unacknowledged legislators of the world’ (Shelley).",
         "owners": "4"
       },
-      "updated": "Fri, 18 Jun 2021 23:15:10 +0000"
+      "updated": "Sat, 19 Jun 2021 01:00:10 +0000"
     }
   },
   {
@@ -1051,7 +1104,7 @@
         "pledge": "18000000000",
         "hash_id": "1934",
         "ticker_orig": "ZAZEN",
-        "metric": -187.92865672686,
+        "metric": -187.93037117957,
         "delegators": "12",
         "pledged": "18654859327",
         "roa_lifetime": "3.084",
@@ -1063,9 +1116,9 @@
         "active_stake": "457950675081",
         "active_blocks": "0",
         "direct": true,
-        "saturated": 0.0069911857140534,
+        "saturated": 0.0069911787057695,
         "patreon": 0,
-        "rank": 968,
+        "rank": 966,
         "handles": {
           "tw": "",
           "tg": "zenent",
@@ -1081,7 +1134,7 @@
         "db_description": "A small-scale Cardano pool for friends and family",
         "owners": "1"
       },
-      "updated": "Fri, 18 Jun 2021 23:15:21 +0000"
+      "updated": "Sat, 19 Jun 2021 01:00:21 +0000"
     }
   },
   {
@@ -1171,7 +1224,7 @@
         "pledge": "100000000",
         "hash_id": "3088",
         "ticker_orig": "SBC",
-        "metric": -343.02202476362,
+        "metric": -343.02716812174,
         "delegators": "4",
         "pledged": "104416817",
         "roa_lifetime": "0",
@@ -1183,7 +1236,7 @@
         "active_stake": "16888484778",
         "active_blocks": "0",
         "direct": true,
-        "saturated": 0.00025782369136388,
+        "saturated": 0.00025782343290963,
         "patreon": 0,
         "rank": 1486,
         "handles": {
@@ -1201,7 +1254,7 @@
         "db_description": "SBC-Mining - Everything about cryptocurrency / cryptomining on single board computers. All income will be used to test and host further projects for you. ",
         "owners": "1"
       },
-      "updated": "Fri, 18 Jun 2021 23:15:31 +0000"
+      "updated": "Sat, 19 Jun 2021 01:00:31 +0000"
     }
   },
   {
@@ -1303,7 +1356,7 @@
         "pledge": "4000000000",
         "hash_id": "2573",
         "ticker_orig": "SRN",
-        "metric": -161.92853106925,
+        "metric": -161.9369311079,
         "delegators": "16",
         "pledged": "5103610365",
         "roa_lifetime": "5.908",
@@ -1315,9 +1368,9 @@
         "active_stake": "3259261230365",
         "active_blocks": "2",
         "direct": true,
-        "saturated": 0.049865094964757,
+        "saturated": 0.049865044977709,
         "patreon": 0,
-        "rank": 938,
+        "rank": 936,
         "handles": {
           "tw": "ADASRN1",
           "tg": "Sayshar",
@@ -1333,7 +1386,7 @@
         "db_description": "Growing wealth together. We keep costs low for the community with a 1% margin.",
         "owners": "1"
       },
-      "updated": "Fri, 18 Jun 2021 23:15:21 +0000"
+      "updated": "Sat, 19 Jun 2021 01:00:20 +0000"
     }
   },
   {
@@ -1415,7 +1468,7 @@
         "pledge": "50000000",
         "hash_id": "3013",
         "ticker_orig": "BHMT",
-        "metric": -357.20530244324,
+        "metric": -357.21216025407,
         "delegators": "3",
         "pledged": "145881389",
         "roa_lifetime": "0",
@@ -1427,7 +1480,7 @@
         "active_stake": "863774317",
         "active_blocks": "0",
         "direct": true,
-        "saturated": 0.000013186587538294,
+        "saturated": 0.000013186574319457,
         "patreon": 0,
         "rank": 1603,
         "handles": {
@@ -1445,7 +1498,7 @@
         "db_description": "Towards sustainable and decentralized Cardano.",
         "owners": "1"
       },
-      "updated": "Fri, 18 Jun 2021 23:15:33 +0000"
+      "updated": "Sat, 19 Jun 2021 01:00:33 +0000"
     }
   },
   {
@@ -1544,7 +1597,7 @@
         "pledge": "6000000000",
         "hash_id": "2608",
         "ticker_orig": "sudti",
-        "metric": -311.74525419591,
+        "metric": -311.74683676764,
         "delegators": "13",
         "pledged": "6002995570",
         "roa_lifetime": "0",
@@ -1556,7 +1609,7 @@
         "active_stake": "21289167240",
         "active_blocks": "0",
         "direct": true,
-        "saturated": 0.00032501198945667,
+        "saturated": 0.0003250116636498,
         "patreon": 0,
         "rank": 1266,
         "handles": {
@@ -1574,7 +1627,7 @@
         "db_description": "A stable pool from South tyrol.",
         "owners": "1"
       },
-      "updated": "Fri, 18 Jun 2021 23:15:25 +0000"
+      "updated": "Sat, 19 Jun 2021 01:00:25 +0000"
     }
   },
   {
@@ -1806,7 +1859,7 @@
         "pledge": "3000000000",
         "hash_id": "3448",
         "ticker_orig": "HALO",
-        "metric": -326.02658310137,
+        "metric": -326.03001200679,
         "delegators": "6",
         "pledged": "3002007384",
         "roa_lifetime": "0",
@@ -1818,7 +1871,7 @@
         "active_stake": "62073782426",
         "active_blocks": "0",
         "direct": true,
-        "saturated": 0.00094763336867481,
+        "saturated": 0.00094763241872384,
         "patreon": 0,
         "rank": 1379,
         "handles": {
@@ -1836,7 +1889,7 @@
         "db_description": "Sustainable decentralization with new single pool. Always low fees on a Raspberry Pi cluster! 😇",
         "owners": "2"
       },
-      "updated": "Fri, 18 Jun 2021 23:15:28 +0000"
+      "updated": "Sat, 19 Jun 2021 01:00:28 +0000"
     }
   },
   {
@@ -1901,7 +1954,7 @@
         "pledge": "52000000000",
         "hash_id": "2720",
         "ticker_orig": "BONE",
-        "metric": -213.79553359142,
+        "metric": -213.79740390347,
         "delegators": "11",
         "pledged": "59563377033",
         "roa_lifetime": "8.097",
@@ -1913,9 +1966,9 @@
         "active_stake": "161148016117",
         "active_blocks": "1",
         "direct": true,
-        "saturated": 0.0024804123390571,
+        "saturated": 0.0024804098525785,
         "patreon": 0,
-        "rank": 1004,
+        "rank": 1002,
         "handles": {
           "tw": null,
           "tg": null,
@@ -1931,7 +1984,7 @@
         "db_description": "Our aim is to promote decentralization, one small bone in the skeleton supporting the future",
         "owners": "1"
       },
-      "updated": "Fri, 18 Jun 2021 23:15:21 +0000"
+      "updated": "Sat, 19 Jun 2021 01:00:21 +0000"
     }
   },
   {
@@ -2013,7 +2066,7 @@
         "pledge": "9500000000",
         "hash_id": "3590",
         "ticker_orig": "AMDLO",
-        "metric": -383.98976308637,
+        "metric": -384.00004980262,
         "delegators": "2",
         "pledged": "9633182784",
         "roa_lifetime": "0",
@@ -2025,7 +2078,7 @@
         "active_stake": "9633182784",
         "active_blocks": "0",
         "direct": true,
-        "saturated": 0.00015427872848066,
+        "saturated": 0.00015427857382462,
         "patreon": 0,
         "rank": 1675,
         "handles": {
@@ -2043,7 +2096,7 @@
         "db_description": "Minimum fees, maximum reliability, helping to secure the Cardano blockchain",
         "owners": "1"
       },
-      "updated": "Fri, 18 Jun 2021 23:15:35 +0000"
+      "updated": "Sat, 19 Jun 2021 01:00:34 +0000"
     }
   },
   {
@@ -2135,7 +2188,7 @@
         "pledge": "10000000000",
         "hash_id": "3635",
         "ticker_orig": "MINI1",
-        "metric": -341.45584587075,
+        "metric": -341.46098922887,
         "delegators": "4",
         "pledged": "10004423945",
         "roa_lifetime": "0",
@@ -2147,7 +2200,7 @@
         "active_stake": "14221691038",
         "active_blocks": "0",
         "direct": true,
-        "saturated": 0.00026165844969514,
+        "saturated": 0.00026165818739676,
         "patreon": 0,
         "rank": 1463,
         "handles": {
@@ -2165,7 +2218,7 @@
         "db_description": "A reliable and eco-friendly stake pool running on Raspberry Pi's",
         "owners": "1"
       },
-      "updated": "Fri, 18 Jun 2021 23:15:30 +0000"
+      "updated": "Sat, 19 Jun 2021 01:00:31 +0000"
     }
   },
   {
@@ -2251,7 +2304,7 @@
         "pledge": "25000000000",
         "hash_id": "2809",
         "ticker_orig": "MEME",
-        "metric": -297.75460564508,
+        "metric": -297.75589148461,
         "delegators": "16",
         "pledged": "25824356169",
         "roa_lifetime": "15.302",
@@ -2263,9 +2316,9 @@
         "active_stake": "35480253691",
         "active_blocks": "0",
         "direct": false,
-        "saturated": 0.00049812520854694,
+        "saturated": 0.00049812470920348,
         "patreon": 0,
-        "rank": 1188,
+        "rank": 1187,
         "handles": {
           "tw": "meme_pool",
           "tg": "sporke",
@@ -2281,7 +2334,7 @@
         "db_description": "They don't know I run a Cardano stake pool.",
         "owners": "2"
       },
-      "updated": "Fri, 18 Jun 2021 23:15:25 +0000"
+      "updated": "Sat, 19 Jun 2021 01:00:25 +0000"
     }
   },
   {
@@ -2361,7 +2414,7 @@
         "pledge": "32000000000",
         "hash_id": "3586",
         "ticker_orig": "00000",
-        "metric": -384.18246529599,
+        "metric": -384.19275201225,
         "delegators": "2",
         "pledged": "32152485154",
         "roa_lifetime": "0",
@@ -2373,7 +2426,7 @@
         "active_stake": "32136341492",
         "active_blocks": "0",
         "direct": true,
-        "saturated": 0.00049084761113236,
+        "saturated": 0.00049084711908429,
         "patreon": 0,
         "rank": 1676,
         "handles": {
@@ -2391,7 +2444,7 @@
         "db_description": "Delegate to our mission-driven Adaberry Pi Cardano stake pool and be rewarded for helping heal the environment and economy. 🥧 ( π ≈ 3.14 :: ₳ ≡ ∞ ) 😃",
         "owners": "2"
       },
-      "updated": "Fri, 18 Jun 2021 23:15:36 +0000"
+      "updated": "Sat, 19 Jun 2021 01:00:35 +0000"
     }
   },
   {
@@ -2442,7 +2495,7 @@
         "pledge": "100000000",
         "hash_id": "3721",
         "ticker_orig": "PGWAD",
-        "metric": -470.41590732971,
+        "metric": -470.43648076221,
         "delegators": "1",
         "pledged": "628348804",
         "roa_lifetime": "0",
@@ -2454,7 +2507,7 @@
         "active_stake": "0",
         "active_blocks": "0",
         "direct": false,
-        "saturated": 0.0000095925247433915,
+        "saturated": 0.0000095925151274066,
         "patreon": 0,
         "rank": 1975,
         "handles": {
@@ -2472,7 +2525,7 @@
         "db_description": "Stake pool operated by father and son exploring AI and blockchain",
         "owners": "1"
       },
-      "updated": "Fri, 18 Jun 2021 23:15:39 +0000"
+      "updated": "Sat, 19 Jun 2021 01:00:39 +0000"
     }
   }
 ]
