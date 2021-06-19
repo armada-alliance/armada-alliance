@@ -7,6 +7,13 @@ import cx from 'classnames'
 import Link from './Link'
 import Image from './Image'
 import { GitHubIcon } from './icons'
+import QRCode from 'qrcode.react'
+import CopyToClipboard from './CopyToClipboard'
+import Tooltip from './Tooltip'
+
+function formatAddress(input) {
+    return [input.slice(0, 20), '...', input.slice(-20)].join('')
+}
 
 export default function TermDetailPage(props) {
 
@@ -71,6 +78,25 @@ export default function TermDetailPage(props) {
                                         Open the full {props.type.toLowerCase()}
                                     </a>
                                 </Link>
+                            </div>
+                        ) : null}
+                        {props.page.props.donationAddress ? (
+                            <div className="p-6 rounded-lg bg-white flex shadow-sm">
+                                <div className="mr-4 flex-grow">
+                                    <div className="text-lg font-bold">Support our work</div>
+                                    <div className="text-gray-400 text-sm">Donate ADA to this address to support <strong>{props.page.title}</strong> directly.</div>
+                                    <div className="mt-3 flex items-center">
+                                        <Tooltip text="Go to CardanoScan explorer">
+                                            <a href={`https://cardanoscan.io/address/${props.page.props.donationAddress}`} target="_blank" className="inline-flex bg-gray-50 text-gray-500 rounded-lg px-4 py-3 tracking-wider text-sm hover:underline cursor-pointer">
+                                                {formatAddress(props.page.props.donationAddress)}
+                                            </a>
+                                        </Tooltip>
+                                        <CopyToClipboard />
+                                    </div>
+                                </div>
+                                <div className="flex-shrink-0 rounded-lg bg-white w-28 h-28 flex items-center justify-center">
+                                    <QRCode value={props.page.props.donationAddress} renderAs={'svg'} size="100" />
+                                </div>
                             </div>
                         ) : null}
                         <div className="mt-4 flex justify-end">
