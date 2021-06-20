@@ -5,5 +5,3 @@ description: A method by which Oracles are decentralized, such that the external
 aliases: 
 keywords: 
 ---
-
-A method by which Oracles are decentralized, such that the external data they provide can be done so with greater assurance and trust. [More information](https://www.youtube.com/watch?v=QcNZYhAa2xU).

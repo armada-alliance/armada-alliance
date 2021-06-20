@@ -6,7 +6,7 @@ aliases: plutus platform
 keywords: plutus, platform
 ---
 
-The combined software support for writing contract applications, including:
+This includes:
 
 1. Plutus Foundation, and
 

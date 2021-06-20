@@ -6,7 +6,7 @@ aliases: PAB client API
 keywords: PAB, client, api
 ---
 
-A program which interacts with a contract application instance via the PAB’s client API. Examples of PAB clients include:
+Examples of PAB clients include:
 
 1. Wallet frontends such as Daedalus.
 

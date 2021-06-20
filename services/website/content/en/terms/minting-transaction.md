@@ -6,4 +6,4 @@ aliases: minting transaction, nft forging, nft transaction, minting a native ass
 keywords: minting, transaction, nft, forging, making, producing, tx, cnft, cardano, native, asset
 ---
 
-Transactions with a field specifying token minting details. These transactions also carry the minting policies to be checked during validation.
+These transactions also carry the minting policies to be checked during validation.

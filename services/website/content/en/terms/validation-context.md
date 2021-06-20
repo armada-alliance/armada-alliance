@@ -5,5 +5,3 @@ description: A data structure containing a summary of the transaction being vali
 aliases: validator context
 keywords: validator, context
 ---
-
-A data structure containing a summary of the transaction being validated, and the current input whose validator is being run.
