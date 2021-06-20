@@ -10,4 +10,4 @@ externalLink: https://docs.armada-alliance.com/learn/intermediate-guide/alpine-l
 ## Introduction
 ***Are you a raspberry pi hobbyist or tinkerer? Do you want to know how to run a [Cardano node](/en/terms/cardano-node.md) on a raspberry pi?***
 
-If you answered yes to any of the previous questions, check out our guide on getting a passive Cardano node running on a raspberry pi 4. We go over the initial setup of the raspberry pi, how to boot from a USB storage device, and getting the Cardano node installed on the pi 4.
+If you answered yes to any of the previous questions, check out our guide on getting a [passive Cardano node](/en/terms/passive-node.md) running on a raspberry pi 4. We go over the initial setup of the raspberry pi, how to boot from a USB storage device, and getting the Cardano node installed on the pi 4.
