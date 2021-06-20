@@ -13,7 +13,7 @@ const pools = require('../pools_extended.json')
 const languages = require('../languages.json')
 const basePath = path.join(__dirname, "..")
 
-const templates = [
+const legacy_templates = [
     {
         id: 'HomePage',
         title: 'Homepage',
@@ -102,16 +102,23 @@ const templates = [
 
             pools.forEach(pool => {
 
-                const mergePages = ['about', 'delegators', 'blocks', 'assigned-slots', 'hardware', 'issues'].map(tab => {
+                const mergePages = [
+                    { title: 'About', slug: 'about' },
+                    { title: 'Delegators', slug: 'delegators' },
+                    { title: 'Blocks', slug: 'blocks' },
+                    { title: 'Assigned Slots', slug: 'assigned-slots' },
+                    { title: 'Hardware', slug: 'hardware' },
+                    { title: 'Issues', slug: 'issues' }
+                ].map(tab => {
 
                     return {
                         ...props,
-                        title: `${pool.name} — ${props.originalTitle}`,
-                        origin: `${slug}/${pool.id}${tab === 'about' ? '' : '/' + tab}`,
-                        slug: `${dashify(props.translateSlug ? props.title : props.originalTitle)}/${pool.id}${tab === 'about' ? '' : '/' + tab}`,
+                        title: `${pool.name}${tab.slug === 'about' ? '' : ' / ' + tab.title}`,
+                        origin: `${slug} — ${pool.id}${tab.slug === 'about' ? '' : '/' + tab.slug}`,
+                        slug: `${dashify(props.translateSlug ? props.title : props.originalTitle)}/${pool.id}${tab.slug === 'about' ? '' : '/' + tab.slug}`,
                         params: {
                             poolId: pool.id,
-                            tab
+                            tab: tab.slug
                         }
                     }
                 })
@@ -135,7 +142,7 @@ async function main() {
 
     let pages = []
 
-    for (const template of templates) {
+    for (const template of legacy_templates) {
 
         for (const language of languages) {
 
@@ -183,6 +190,63 @@ async function main() {
         ])
         , [])
 
+
+    const templates = [
+        {
+            id: "IdentitiesMainPage",
+            page: "Page"
+        },
+        {
+            id: "GuidesPage",
+            name: "Page"
+        },
+        {
+            id: "GuideDetailPage",
+            name: "Guide"
+        },
+        {
+            id: "ResourceDetailPage",
+            name: "Resource"
+        },
+        {
+            id: "IdentityDetailPage",
+            name: "Identity"
+        },
+        {
+            id: "SitemapPage",
+            name: "Page"
+        },
+        {
+            id: "BlogDetailPage",
+            name: "Blog"
+        },
+        {
+            id: "HomePage",
+            name: "Page"
+        },
+        {
+            id: "TermDetailPage",
+            name: "Term"
+        },
+        {
+            id: "RoadmapPage",
+            name: "Page"
+        },
+        {
+            id: "TermsMainPage",
+            name: "Page"
+        },
+        {
+            id: "PoolsMainPage",
+            name: "Page"
+        },
+        {
+            id: "PoolDetailPage",
+            name: "Stake Pool"
+        },
+    ]
+
+    await fs.writeFile(basePath + `/templates.json`, JSON.stringify(templates, null, 2))
     await fs.writeFile(basePath + `/pages.json`, JSON.stringify(pages, null, 2))
     await fs.writeFile(basePath + `/keywords.json`, JSON.stringify(keywords, null, 2))
 
