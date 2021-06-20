@@ -9,6 +9,7 @@ import pages from '../pages'
 import cx from 'classnames'
 import markdownToText from 'markdown-to-text'
 import { Popover, Transition } from '@headlessui/react'
+import SearchBox from './SearchBox'
 import {
     BookmarkAltIcon,
     CalendarIcon,
@@ -172,6 +173,7 @@ export default function Header() {
                                     <MenuIcon className="h-6 w-6" aria-hidden="true" />
                                 </Popover.Button>
                             </div>
+                            <SearchBox />
                             <Popover.Group as="nav" className="hidden md:flex space-x-10">
                                 <Popover className="relative">
                                     {({ open }) => (
