@@ -5,5 +5,3 @@ description: A script which must be satisfied in order for a transaction to forg
 aliases: forging policy script, forging policy
 keywords: forging, policy, script
 ---
-
-A script which must be satisfied in order for a transaction to forge tokens of the corresponding currency.
