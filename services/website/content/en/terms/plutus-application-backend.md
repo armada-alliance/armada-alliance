@@ -6,7 +6,7 @@ aliases: plutus application backend
 keywords: plutus, application, backend, PAB
 ---
 
-The component which manages Plutus Applications that run on users’ machines. It handles:
+It handles:
 
 1. Interactions with the node
 

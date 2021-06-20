@@ -5,5 +5,3 @@ description: The fifth phase of Cardano development in which treasury and govern
 aliases: voltaire, cardano
 keywords: voltaire, cardano
 ---
-
-The fifth phase of Cardano development in which treasury and governance capabilities will be delivered.
