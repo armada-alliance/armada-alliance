@@ -71,6 +71,12 @@ export default function SearchBox() {
         }
     }
 
+    const handleQuery = value => {
+
+        setQuery(value)
+        setIndex(0)
+    }
+
     const handleKeyDown = (e) => {
         let nextIndex = index
 
@@ -87,6 +93,8 @@ export default function SearchBox() {
         }
 
         if (e.code === "Enter") {
+            setQuery('')
+            setOpen(false)
             const page = results[index]
             router.push(page.slug)
         }
@@ -158,7 +166,7 @@ export default function SearchBox() {
                                             type="text"
                                             placeholder="Search"
                                             value={query}
-                                            onChange={e => setQuery(e.target.value)}
+                                            onChange={e => handleQuery(e.target.value)}
                                         />
                                     </div>
                                     <button
