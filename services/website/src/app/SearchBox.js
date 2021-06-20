@@ -21,15 +21,20 @@ export default function SearchBox() {
     const [query, setQuery] = useState('')
     const [open, setOpen] = useState(false)
     const [index, setIndex] = useState(0)
+    const [moved, setMoved] = useState(false)
 
     useEffect(() => {
 
+        document.addEventListener('mousemove', handleMove)
         document.addEventListener('keydown', handleKeyDown)
 
         return () => {
             document.removeEventListener('keydown', handleKeyDown)
+            document.removeEventListener('mousemove', handleMove)
         }
     })
+
+    const handleMove = () => setMoved(true)
 
     const templatesById = templates.reduce((result, template) => {
         result[template.id] = template
@@ -100,6 +105,7 @@ export default function SearchBox() {
         }
 
         if (index !== nextIndex) {
+            setMoved(false)
             e.preventDefault()
             handleSetIndex(nextIndex, true)
         }
@@ -178,7 +184,7 @@ export default function SearchBox() {
                                     </button>
                                 </div>
                                 {results.length ? (
-                                    <div ref={searchViewRef} className="h-96 overflow-x-hidden overflow-y-auto">
+                                    <div ref={searchViewRef} className={cx("h-96 overflow-x-hidden overflow-y-auto", !moved ? "pointer-events-none" : null)}>
                                         <div className="space-y-2 py-4 px-4">
                                             {results.map((page, resultIndex) => {
 
@@ -187,6 +193,7 @@ export default function SearchBox() {
                                                         <a
                                                             className={cx("px-6 py-4 rounded-lg bg-gray-50 cursor-pointer flex items-center", index === resultIndex ? "bg-primary-500 text-white" : null)}
                                                             onMouseEnter={() => handleSetIndex(resultIndex)}
+                                                            onClick={() => setOpen(false)}
                                                         >
                                                             <div className="font-bold text-sm">
                                                                 {page.title}
