@@ -7,3 +7,5 @@ keywords: cardano, network, node, stake, pool, validator
 ---
 
 Each Cardano node is responsible to make sure that all the rules of the protocol are followed and the security of the network is maintained.
+
+<Page url={'/guides/run-a-cardano-node'} />
