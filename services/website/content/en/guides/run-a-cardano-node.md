@@ -4,7 +4,7 @@ title: Run a Cardano Node
 description: Set up and run a Cardano node on Raspberry Pi OS.
 keywords: Stake Pool Operation, Raspberry Pi, ARM, raspberry pi 4, raspberry pi 400, raspberry pi 3, raspberry pi zero, raspberry pi 4 8gb, pi4, r pi 
 icon: 🍓
-externalLink: https://docs.armada-alliance.com/learn/intermediate-guide/alpine-linux-os
+externalLink: https://docs.armada-alliance.com/learn/beginner-guide-1/beginner-guide
 ---
 
 ## Introduction
