@@ -5,5 +5,3 @@ description: a defined group of slots that constitute a period of time. In Carda
 aliases: epoch, slot
 keywords: epoch, slot
 ---
-
-A defined group of slots that constitute a period of time. In Cardano, one epoch is 5 days long.

@@ -5,5 +5,3 @@ description: An application written against the contract application API, which 
 aliases: contract application, plutus application backend
 keywords: contract, application, plutus, backend
 ---
-
-An application written against the contract application API, which runs in the PAB.

@@ -20,7 +20,7 @@ The total staked ada currently in Cardano Stake Pools is around 32.5 billion or 
 
 By delegating your ada to a Cardano Stake Pool, you will support the community, benefit from the rewards sharing scheme, and help to secure the overall network. 
 
-Delegating is a great way to be a part of the overall Cardano community that is active, engaged, and working together every day to shape the future of decentralization. Choosing a Stake Pool that aligns with your interest can improve Cardano by supporting them and their missions with the delegation of your stake. Many Stake Pool operators are active on social media, youtube, and forums to engage with their community of delegates.
+Delegating is a great way to be a part of the overall Cardano community that is active, engaged, and working together every day to shape the future of decentralization. Choosing a Stake Pool that aligns with your interest can improve Cardano by supporting them and their missions with the delegation of your stake. Many Stake Pool operators are active on social media, YouTube, and forums to engage with their community of delegates.
 
 While you are delegating with the pool of your choice, you will take part in the rewards sharing scheme <Link url="https://arxiv.org/abs/1807.11218"/> of Cardano and be paid by a well-performing stake pool around 5% APY on your total stake. On top of this reward, many stake pools offer NFT/token airdrops, ada dividends, and services. 
 
@@ -32,12 +32,11 @@ Without going into too many technical details, due to Cardano PoS design and the
 - [Fake Stake Attack](/en/terms/fake-stake.md)
 
 
-**Refrences**
+**References**
 
-https://iohk.io/en/blog/posts/2020/11/13/the-general-perspective-on-staking-in-cardano/
-
-https://heraldsheets.com/why-51-attack-on-cardano-network-is-relatively-impossible/
-https://forum.cardano.org/t/staking-and-delegating-for-beginners-a-step-by-step-guide/36681
+- https://iohk.io/en/blog/posts/2020/11/13/the-general-perspective-on-staking-in-cardano/
+- https://heraldsheets.com/why-51-attack-on-cardano-network-is-relatively-impossible/
+- https://forum.cardano.org/t/staking-and-delegating-for-beginners-a-step-by-step-guide/36681
 https://forum.cardano.org/t/consensus-on-cardano-vs-other-blockchains/38738
-https://forum.cardano.org/t/how-cardano-uses-significantly-less-energy-while-maintaining-the-same-level-of-security-as-bitcoin/62629
-https://emurgo.io/en/blog/explain-proof-of-stake-pos-dpos
+- https://forum.cardano.org/t/how-cardano-uses-significantly-less-energy-while-maintaining-the-same-level-of-security-as-bitcoin/62629
+- https://emurgo.io/en/blog/explain-proof-of-stake-pos-dpos
