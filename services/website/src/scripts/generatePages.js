@@ -2,6 +2,7 @@ const perf = require('execution-time')();
 const fs = require('fs').promises
 const dotenv = require('dotenv')
 const path = require('path')
+const uniq = require('lodash/uniq')
 const compact = require('lodash/compact')
 const dashify = require('./dashify')
 dotenv.config()
@@ -175,7 +176,15 @@ async function main() {
 
     await generatePageObjects(pages)
 
+    const keywords = pages.reduce((result, page) =>
+        uniq([
+            ...result,
+            ...(page.keywords ? page.keywords : [])
+        ])
+        , [])
+
     await fs.writeFile(basePath + `/pages.json`, JSON.stringify(pages, null, 2))
+    await fs.writeFile(basePath + `/keywords.json`, JSON.stringify(keywords, null, 2))
 
     const result = perf.stop()
 
