@@ -1,7 +1,7 @@
 ---
 template: BlogDetailPage
 title: Market your stake pool
-description: 
+description: Stake pool marketing advice 
 keywords: 
 identities: 
     - id: wael-ivie
