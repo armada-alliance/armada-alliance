@@ -66,6 +66,9 @@ async function getPostProps(page, pages) {
 }
 
 const templates = {
+    StakePoolDetailPage: {
+        getProps: getPostProps
+    },
     GuideDetailPage: {
         getProps: getPostProps
     },

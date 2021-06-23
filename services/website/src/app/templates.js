@@ -11,8 +11,10 @@ import GuidesPage from "./GuidesPage";
 import TermDetailPage from "./TermDetailPage";
 import GuideDetailPage from "./GuideDetailPage";
 import IdentitiesMainPage from "./IdentitiesMainPage";
+import StakePoolDetailPage from "./StakePoolDetailPage";
 
 const templates = {
+    StakePoolDetailPage,
     IdentitiesMainPage,
     GuidesPage,
     GuideDetailPage,
