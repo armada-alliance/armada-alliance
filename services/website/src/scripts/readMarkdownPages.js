@@ -42,7 +42,7 @@ module.exports = async () => {
                     slug,
                     // ...data.attributes,
                     origin: data.attributes.origin ? data.attributes.origin : slug,
-                    title: data.attributes.title,
+                    title: data.attributes.title ? data.attributes.title : slug.split("/").pop(),
                     description: data.attributes.description,
                     aliases: data.attributes.aliases ? data.attributes.aliases.split(',').map(trim) : null,
                     keywords: data.attributes.keywords ? data.attributes.keywords.split(',').map(trim) : null,
