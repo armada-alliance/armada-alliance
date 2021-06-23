@@ -32,7 +32,7 @@ export default function TermsMainPage(props) {
                                                 <div className="min-w-0 flex-1 sm:flex sm:items-center sm:justify-between">
                                                     <div className="truncate">
                                                         <div className="text-sm">
-                                                            <p className="font-medium text-primary-600 truncate">{markdownToText(page.title)}</p>
+                                                            <p className="font-medium text-primary-500 truncate">{markdownToText(page.title)}</p>
                                                             <p className="font-normal text-gray-500 overflow-ellipsis overflow-hidden">{markdownToText(page.description)}</p>
                                                         </div>
                                                     </div>

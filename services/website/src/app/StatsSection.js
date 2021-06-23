@@ -20,7 +20,7 @@ export default function StatsSection({ pools }) {
         <div className="bg-gray-50 pt-12 sm:pt-16">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="max-w-4xl mx-auto text-center">
-                    <h2 className="text-base font-semibold tracking-wider text-primary-600 uppercase">Live Stats</h2>
+                    <h2 className="text-base font-semibold tracking-wider text-primary-500 uppercase">Live Stats</h2>
                     <h2 className="mt-2 text-3xl font-extrabold text-gray-900 sm:text-4xl">
                         <DualColorText>An alliance of independent stake pool operators</DualColorText>
                     </h2>

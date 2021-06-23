@@ -49,7 +49,7 @@ export default function Example() {
                                             <a
                                                 href={schema.about.github}
                                                 target="_blank"
-                                                className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-primary-600 bg-white hover:bg-gray-50"
+                                                className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-primary-500 bg-white hover:bg-gray-50"
                                             >
                                                 Register
                       </a>
@@ -106,7 +106,7 @@ export default function Example() {
                                         <a
                                             href={schema.about.github}
                                             target="_blank"
-                                            className="block w-full px-5 py-3 text-center font-medium text-primary-600 bg-gray-50 hover:bg-gray-100"
+                                            className="block w-full px-5 py-3 text-center font-medium text-primary-500 bg-gray-50 hover:bg-gray-100"
                                         >
                                             Register
                     </a>
