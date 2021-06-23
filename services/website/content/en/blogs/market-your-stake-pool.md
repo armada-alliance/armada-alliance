@@ -4,7 +4,7 @@ title: Market your stake pool
 description: Stake pool marketing advice 
 keywords: 
 identities: 
-    - id: wael-ivie
+    - slug: /identities/wael-ivie
       role: author
 ---
 

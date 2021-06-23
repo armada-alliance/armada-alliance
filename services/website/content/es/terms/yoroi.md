@@ -6,6 +6,6 @@ aliases: yoroi wallet, cardano wallet
 keywords: cardano, wallet, billetera, extension, navegador
 origin: /terms/yoroi
 identities: 
-    - id: Quixote-Pool
+    - slug: /identities/alex-qxt
       role: author
 ---

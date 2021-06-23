@@ -4,7 +4,7 @@ title: Run a stake pool
 description: Find out if running a stake pool is something for you.
 keywords: 
 identities: 
-    - id: wael-ivie
+    - slug: /identities/wael-ivie
       role: author
 ---
 

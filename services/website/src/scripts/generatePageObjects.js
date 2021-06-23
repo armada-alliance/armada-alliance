@@ -3,7 +3,7 @@ const mkdirp = require('mkdirp')
 const path = require('path')
 const rmfr = require('rmfr')
 const basePath = path.resolve(__dirname + "/../page-data")
-const templates = require('./templates')
+const getPageData = require('./getPageData')
 
 module.exports = async (pages) => {
 
@@ -20,17 +20,7 @@ module.exports = async (pages) => {
 
             await mkdirp(dirname)
 
-            const template = templates[page.template]
-
-            let props = {}
-            if (template) {
-                props = await template.getProps(page)
-            }
-
-            const data = {
-                ...page,
-                props
-            }
+            const data = await getPageData(page, pages)
 
             await fs.writeFile(filePath + '.json', JSON.stringify(data, null, 2))
 

@@ -5,4 +5,7 @@ description: Algorithmic Contract Types Unified Standards (Estandar Unificado de
 aliases: ACTUS
 keywords: ACTUS, Algorithmic, Contract, Types, Unified, Standards, Algoritmo, Contrato, Tipos, Clasificación, Unificado
 origin: /terms/actus
+identities: 
+    - slug: /identities/alex-qxt
+      role: author
 ---

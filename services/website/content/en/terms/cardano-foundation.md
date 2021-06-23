@@ -4,6 +4,9 @@ title: Cardano Foundation
 description: An independent standards body based in Switzerland with core responsibilities to oversee and supervise the development of Cardano and its ecosystem.
 aliases: Cardano Foundation
 keywords: Cardano, Foundation
+identities: 
+    - slug: /identities/wael-ivie
+      role: author
 ---
 
 As the legal custodian of the protocol and the owner of the Cardano brand, the Foundation works to drive adoption and partnerships, grow the Cardano community globally, shape legislation and commercial standards, and ensure stakeholder accountability at every level.

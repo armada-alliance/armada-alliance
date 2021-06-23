@@ -10,9 +10,69 @@ import { GitHubIcon } from './icons'
 import QRCode from 'qrcode.react'
 import CopyToClipboard from './CopyToClipboard'
 import Tooltip from './Tooltip'
+import { ChevronRightIcon } from '@heroicons/react/solid'
 
 function formatAddress(input) {
     return [input.slice(0, 15), '...', input.slice(-15)].join('')
+}
+
+function Identities({ identities }) {
+
+    return (
+        <div className="mx-auto inline-flex items-center space-x-2">
+            {/* <div className="text-gray-400 text-sm">
+                written by
+            </div> */}
+            {identities.map((identity) => {
+
+                return (
+                    <Link key={identity.id} href={identity.slug}>
+                        <a className="flex items-center px-3 py-2 space-x-2 rounded-lg bg-gray-100 hover:bg-gray-200 transition-colors duration-50">
+                            <div className="h-8 w-8 rounded-full overflow-hidden bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(https://armada-alliance.com/assets${identity.image})` }} />
+                            <div className="font-bold">
+                                {identity.title}
+                            </div>
+                        </a>
+                    </Link>
+
+                )
+
+            })}
+        </div>
+    )
+}
+
+function Pages({ pages }) {
+
+    return (
+        <div className="mt-8">
+            <div className="bg-white shadow overflow-hidden sm:rounded-md">
+                <ul className="divide-y divide-gray-200">
+                    {pages.map((page) => (
+                        <li key={page.slug}>
+                            <Link href={page.slug}>
+                                <a className="block hover:bg-gray-50">
+                                    <div className="px-4 py-4 flex items-center sm:px-6">
+                                        <div className="min-w-0 flex-1 sm:flex sm:items-center sm:justify-between">
+                                            <div className="truncate">
+                                                <div className="text-sm">
+                                                    <p className="font-medium text-primary-600 truncate">{markdownToText(page.title)}</p>
+                                                    <p className="font-normal text-gray-500 overflow-ellipsis overflow-hidden">{markdownToText(page.description)}</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="ml-5 flex-shrink-0">
+                                            <ChevronRightIcon className="h-5 w-5 text-gray-400" aria-hidden="true" />
+                                        </div>
+                                    </div>
+                                </a>
+                            </Link>
+                        </li>
+                    ))}
+                </ul>
+            </div>
+        </div>
+    )
 }
 
 export default function TermDetailPage(props) {
@@ -42,6 +102,11 @@ export default function TermDetailPage(props) {
                                     {/* <Markdown children={props.page.title} /> */}
                                 </span>
                             </h1>
+                            {props.page.props.identities ? (
+                                <div className="py-6 flex justify-center">
+                                    <Identities identities={props.page.props.identities} />
+                                </div>
+                            ) : null}
                             {/* <div className="flex items-center space-x-4">
                             {props.page.keywords.map(keyword => {
                                 return (
@@ -99,7 +164,7 @@ export default function TermDetailPage(props) {
                                 </div>
                             </div>
                         ) : null}
-                        <div className="mt-4 flex justify-end">
+                        <div className="mt-8 flex justify-end">
                             <Link href={`https://github.com/armada-alliance/armada-alliance/tree/staging/services/website/content${props.page.params.source}`}>
                                 <a
                                     target="_blank"
@@ -109,6 +174,22 @@ export default function TermDetailPage(props) {
                             </a>
                             </Link>
                         </div>
+                        {props.page.props.pages && props.page.props.pages.length ? (
+                            <div className="mt-8">
+                             <div className="flex items-center">
+                             <h2 className="text-2xl font-bold">
+                                    Pages
+                                  
+                                </h2>
+                                <span className="bg-primary-100 text-primary-800 ml-3 py-1 px-3 rounded-full text-sm font-medium">
+                                    {props.page.props.pages.length}
+                                </span>
+                                 </div>
+                                <div className="mt-4">
+                                    <Pages pages={props.page.props.pages} />
+                                </div>
+                            </div>
+                        ) : null}
                     </div>
                 </div>
             </ContentContainer>

@@ -6,6 +6,6 @@ aliases: ada, cardano, lovelace, cryptocurrency, blockchain, bitcoin, btc, eth, 
 keywords: ada, cardano, lovelace, cryptocurrency, blockchain, bitcoin, btc, eth, ethereum, staking, coinbase, binance 
 origin: /terms/ada
 identities: 
-    - id: raine-bhmt
+    - slug: /identities/raine-bhmt
       role: author
 ---
