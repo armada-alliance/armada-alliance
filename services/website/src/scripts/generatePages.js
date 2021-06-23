@@ -193,6 +193,10 @@ async function main() {
 
     const templates = [
         {
+            id: "StakePoolDetailPage",
+            page: "Stake Pool"
+        },
+        {
             id: "IdentitiesMainPage",
             page: "Page"
         },
