@@ -8,8 +8,10 @@ The following properties are supported in each template: template, title, descri
 ---
 template: BlogDetailPage
 title: A blog post
-authors: CAP'N Salty Whale
 keywords: a, blog, post
+identities: 
+    - slug: /identities/wael-ivie
+      role: author
 ---
 ```
 
@@ -25,8 +27,10 @@ We will support different templates for pages, based on the template defined the
 ---
 template: BlogDetailPage
 title: A blog post
-authors: CAP'N Salty Whale
 keywords: a, blog, post
+identities: 
+    - slug: /identities/wael-ivie
+      role: author
 ---
 ```
 
@@ -37,6 +41,9 @@ title: Term XYZ
 description: A definition of a term
 aliases: Term XYZ alias 1, Term XYZ alias 2, Term XYZ alias 3
 keywords: X, Y, Z
+identities: 
+    - slug: /identities/wael-ivie
+      role: author
 ---
 ```
 
