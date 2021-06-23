@@ -11,4 +11,4 @@ identities:
 
 Learn how to mint your own fungible token(s) on the Cardano blockchain using javascript:
 
-<Page url="guides/create-single-non-fungible-token" />
+<Page url="/guides/create-single-non-fungible-token" />
