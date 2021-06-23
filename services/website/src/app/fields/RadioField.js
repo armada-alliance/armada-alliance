@@ -20,7 +20,7 @@ function RadioField({ field, value, onChange }) {
                             id={option.id}
                             name={field.id}
                             type="radio"
-                            className="focus:ring-primary-500 h-4 w-4 text-primary-600 border-gray-300"
+                            className="focus:ring-primary-500 h-4 w-4 text-primary-500 border-gray-300"
                             checked={value === option.id}
                             onClick={() => {
                                 onChange({

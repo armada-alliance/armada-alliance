@@ -107,7 +107,7 @@ function LanguageButton() {
 
                                         const content = (
                                             <>
-                                                <div className="flex-shrink-0 h-6 w-6 text-primary-600" aria-hidden="true">{language.icon}</div>
+                                                <div className="flex-shrink-0 h-6 w-6 text-primary-500" aria-hidden="true">{language.icon}</div>
                                                 <div className="ml-1">
                                                     <p className={cx(
                                                         "text-base font-medium",
@@ -220,7 +220,7 @@ export default function Header() {
                                                                         href={navItem.href}
                                                                         className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                                                                     >
-                                                                        <BookOpenIcon className="flex-shrink-0 h-6 w-6 text-primary-600" aria-hidden="true" />
+                                                                        <BookOpenIcon className="flex-shrink-0 h-6 w-6 text-primary-500" aria-hidden="true" />
                                                                         <div className="ml-4">
                                                                             <p className="text-base font-medium text-gray-900">{navItem.name}</p>
                                                                             {page ? (
@@ -234,7 +234,7 @@ export default function Header() {
                                                         {navigation.general.readMore ? (
                                                             <Link href={navigation.general.readMore.href}>
                                                                 <a className="block px-5 py-5 bg-gray-50 hover:bg-gray-100 text-center sm:px-8">
-                                                                    <div className="font-medium text-primary-600 hover:text-primary-500">
+                                                                    <div className="font-medium text-primary-500 hover:text-primary-500">
                                                                         {navigation.general.readMore.name} <span aria-hidden="true">&rarr;</span>
                                                                     </div>
                                                                 </a>
@@ -290,7 +290,7 @@ export default function Header() {
                                                                         href={navItem.href}
                                                                         className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                                                                     >
-                                                                        <BookOpenIcon className="flex-shrink-0 h-6 w-6 text-primary-600" aria-hidden="true" />
+                                                                        <BookOpenIcon className="flex-shrink-0 h-6 w-6 text-primary-500" aria-hidden="true" />
                                                                         <div className="ml-4">
                                                                             <p className="text-base font-medium text-gray-900">{navItem.name}</p>
                                                                             {page ? (
@@ -304,7 +304,7 @@ export default function Header() {
                                                         {navigation.technical.readMore ? (
                                                             <Link href={navigation.technical.readMore.href}>
                                                                 <a className="block px-5 py-5 bg-gray-50 hover:bg-gray-100 text-center sm:px-8">
-                                                                    <div className="font-medium text-primary-600 hover:text-primary-500">
+                                                                    <div className="font-medium text-primary-500 hover:text-primary-500">
                                                                         {navigation.technical.readMore.name} <span aria-hidden="true">&rarr;</span>
                                                                     </div>
                                                                 </a>
@@ -368,7 +368,7 @@ export default function Header() {
                                                     href={navItem.href}
                                                     className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
                                                 >
-                                                    <BookOpenIcon className="flex-shrink-0 h-6 w-6 text-primary-600" aria-hidden="true" />
+                                                    <BookOpenIcon className="flex-shrink-0 h-6 w-6 text-primary-500" aria-hidden="true" />
                                                     <span className="ml-3 text-base font-medium text-gray-900">{navItem.name}</span>
                                                 </a>
                                             ))}
@@ -385,7 +385,7 @@ export default function Header() {
                                                     href={navItem.href}
                                                     className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
                                                 >
-                                                    <BookOpenIcon className="flex-shrink-0 h-6 w-6 text-primary-600" aria-hidden="true" />
+                                                    <BookOpenIcon className="flex-shrink-0 h-6 w-6 text-primary-500" aria-hidden="true" />
                                                     <span className="ml-3 text-base font-medium text-gray-900">{navItem.name}</span>
                                                 </a>
                                             ))}

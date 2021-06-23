@@ -10,7 +10,7 @@ import { GitHubIcon } from './icons'
 import QRCode from 'qrcode.react'
 import CopyToClipboard from './CopyToClipboard'
 import Tooltip from './Tooltip'
-import { ChevronRightIcon } from '@heroicons/react/solid'
+import { ChevronRightIcon, BadgeCheckIcon } from '@heroicons/react/solid'
 
 function formatAddress(input) {
     return [input.slice(0, 15), '...', input.slice(-15)].join('')
@@ -56,7 +56,7 @@ function Pages({ pages }) {
                                         <div className="min-w-0 flex-1 sm:flex sm:items-center sm:justify-between">
                                             <div className="truncate">
                                                 <div className="text-sm">
-                                                    <p className="font-medium text-primary-600 truncate">{markdownToText(page.title)}</p>
+                                                    <p className="font-medium text-primary-500 truncate">{markdownToText(page.title)}</p>
                                                     <p className="font-normal text-gray-500 overflow-ellipsis overflow-hidden">{markdownToText(page.description)}</p>
                                                 </div>
                                             </div>
@@ -94,7 +94,7 @@ export default function TermDetailPage(props) {
                                 </div>
                             ) : null}
                             <h1>
-                                <span className="block text-base text-center text-primary-600 font-semibold tracking-wide uppercase">
+                                <span className="block text-base text-center text-primary-500 font-semibold tracking-wide uppercase">
                                     {props.type}
                                 </span>
                                 <span className={"mt-2 block text-3xl leading-8 text-center font-extrabold tracking-tight text-gray-900 sm:text-4xl"}>
@@ -102,6 +102,14 @@ export default function TermDetailPage(props) {
                                     {/* <Markdown children={props.page.title} /> */}
                                 </span>
                             </h1>
+                            {props.page.props.identities ? (
+                                <div className="mt-2 flex justify-center">
+                                    <div className="flex items-center space-x-1">
+                                        <BadgeCheckIcon className="h-4 text-primary-500" />
+                                        <div className="text-primary-500 text-sm">Verified</div>
+                                    </div>
+                                </div>
+                            ) : null}
                             {props.page.props.identities ? (
                                 <div className="py-6 flex justify-center">
                                     <Identities identities={props.page.props.identities} />
