@@ -142,29 +142,29 @@ async function main() {
 
     let pages = []
 
-    // for (const template of legacy_templates) {
+    for (const template of legacy_templates) {
 
-    //     for (const language of languages) {
+        for (const language of languages) {
 
-    //         const title = await translate(template.title, 'en', language.id)
+            const title = await translate(template.title, 'en', language.id)
 
-    //         let templatePages = await template.getPages({ originalTitle: template.title, title, template: template.id, language: language.id, translateSlug: language.translateSlug })
+            let templatePages = await template.getPages({ originalTitle: template.title, title, template: template.id, language: language.id, translateSlug: language.translateSlug })
 
-    //         const languageSlug = language.id === 'en' ? null : language.id
+            const languageSlug = language.id === 'en' ? null : language.id
 
-    //         templatePages = templatePages.map(page => ({
-    //             ...page,
-    //             params: page.params ? page.params : {},
-    //             origin: `/${compact([page.origin]).join('/')}`,
-    //             slug: `/${compact([languageSlug, page.slug]).join('/')}`
-    //         }))
+            templatePages = templatePages.map(page => ({
+                ...page,
+                params: page.params ? page.params : {},
+                origin: `/${compact([page.origin]).join('/')}`,
+                slug: `/${compact([languageSlug, page.slug]).join('/')}`
+            }))
 
-    //         pages = [
-    //             ...pages,
-    //             ...templatePages
-    //         ]
-    //     }
-    // }
+            pages = [
+                ...pages,
+                ...templatePages
+            ]
+        }
+    }
 
     const markdownPages = await readMarkdownPages()
 

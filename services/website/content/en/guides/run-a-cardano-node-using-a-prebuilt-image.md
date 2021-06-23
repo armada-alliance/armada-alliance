@@ -6,4 +6,7 @@ description: Download a preconfigured image with everything installed to run a
 keywords: Stake Pool Operation, Raspberry Pi, ARM
 icon: 🍓
 externalLink: https://docs.armada-alliance.com/learn/intermediate-guide/pi-pool-tutorial
+identities: 
+    - slug: /identities/wcat-otg
+      role: author
 ---

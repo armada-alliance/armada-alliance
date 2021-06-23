@@ -5,4 +5,7 @@ description: Set up and run a Cardano Node on a very lightweight Linux distribut
 keywords: Stake Pool Operation, Raspberry Pi, ARM
 icon: 🗻
 externalLink: https://docs.armada-alliance.com/learn/intermediate-guide/alpine-linux-os
+identities: 
+    - slug: /identities/sayshar-srn
+      role: author
 ---
