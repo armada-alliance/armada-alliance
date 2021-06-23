@@ -4,6 +4,9 @@ title: HODL
 description: The term HODL refers to buy-and-hold strategies adopted by members of bitcoin and other cryptocurrency communities.
 aliases: HODL, what is HODL crypto, how to HODL, HODLER, Bitcoin HODL, how to pronounce HODL
 keywords: HODL, crypto, blockchain, HODLER, BTC, Bitcoin
+identities: 
+    - slug: /identities/wael-ivie
+      role: author
 ---
 
 ## ***It all started as a drunken rant*** 🥃 

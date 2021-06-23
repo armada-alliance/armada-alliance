@@ -5,7 +5,7 @@ description: A 3rd generation blockchain technology that seeks to change the wor
 keywords: ada, cardano, cardano price, ada cardano, cardano price prediction, cardano prediction, crypto, crypto cardano, ethereum, bitcoin, cardano stock, cardano news
 
 identities: 
-    - id: wael-ivie
+    - slug: /identities/wael-ivie
       role: author
 ---
 

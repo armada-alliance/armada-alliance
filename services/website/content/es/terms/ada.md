@@ -6,6 +6,6 @@ aliases: Ada
 keywords: Hard Fork, Hard Fork Combinator, HFC
 origin: /terms/ada
 identities: 
-    - id: Quixote-Pool
+    - slug: /identities/alex-qxt
       role: author
 ---

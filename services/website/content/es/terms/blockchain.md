@@ -6,6 +6,6 @@ aliases: blockchain, cardano blockchain, bitcoin blockchain, what is a blockchai
 keywords: blockchain, cardano, bitcoin, ada, btc, eth, ethereum, doge 
 origin: /terms/blockchain
 identities: 
-    - id: Quixote-Pool
+    - slug: /identities/alex-qxt
       role: author
 ---

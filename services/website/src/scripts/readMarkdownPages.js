@@ -40,13 +40,14 @@ module.exports = async () => {
                 return {
                     language,
                     slug,
-                    ...data.attributes,
+                    // ...data.attributes,
                     origin: data.attributes.origin ? data.attributes.origin : slug,
                     title: data.attributes.title,
                     description: data.attributes.description,
                     aliases: data.attributes.aliases ? data.attributes.aliases.split(',').map(trim) : null,
                     keywords: data.attributes.keywords ? data.attributes.keywords.split(',').map(trim) : null,
                     template: data.attributes.template,
+                    identities: data.attributes.identities,
                     image: data.attributes.image,
                     icon: data.attributes.icon,
                     params: {
