@@ -102,7 +102,7 @@ export default function TermDetailPage(props) {
                                     {/* <Markdown children={props.page.title} /> */}
                                 </span>
                             </h1>
-                            {props.page.props.identities ? (
+                            {props.page.props.verified ? (
                                 <div className="mt-2 flex justify-center">
                                     <div className="flex items-center space-x-1">
                                         <BadgeCheckIcon className="h-4 text-primary-500" />
