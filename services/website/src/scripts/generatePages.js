@@ -92,46 +92,46 @@ const legacy_templates = [
             ]
         }
     },
-    {
-        id: 'PoolDetailPage',
-        title: 'Stake Pool',
-        getPages: async (props) => {
-            const slug = dashify(props.originalTitle)
+    // {
+    //     id: 'PoolDetailPage',
+    //     title: 'Stake Pool',
+    //     getPages: async (props) => {
+    //         const slug = dashify(props.originalTitle)
 
-            let pages = []
+    //         let pages = []
 
-            pools.forEach(pool => {
+    //         pools.forEach(pool => {
 
-                const mergePages = [
-                    { title: 'About', slug: 'about' },
-                    { title: 'Delegators', slug: 'delegators' },
-                    { title: 'Blocks', slug: 'blocks' },
-                    { title: 'Assigned Slots', slug: 'assigned-slots' },
-                    { title: 'Hardware', slug: 'hardware' },
-                    { title: 'Issues', slug: 'issues' }
-                ].map(tab => {
+    //             const mergePages = [
+    //                 { title: 'About', slug: 'about' },
+    //                 { title: 'Delegators', slug: 'delegators' },
+    //                 { title: 'Blocks', slug: 'blocks' },
+    //                 { title: 'Assigned Slots', slug: 'assigned-slots' },
+    //                 { title: 'Hardware', slug: 'hardware' },
+    //                 { title: 'Issues', slug: 'issues' }
+    //             ].map(tab => {
 
-                    return {
-                        ...props,
-                        title: `${pool.name}${tab.slug === 'about' ? '' : ' / ' + tab.title}`,
-                        origin: `${slug} — ${pool.id}${tab.slug === 'about' ? '' : '/' + tab.slug}`,
-                        slug: `${dashify(props.translateSlug ? props.title : props.originalTitle)}/${pool.id}${tab.slug === 'about' ? '' : '/' + tab.slug}`,
-                        params: {
-                            poolId: pool.id,
-                            tab: tab.slug
-                        }
-                    }
-                })
+    //                 return {
+    //                     ...props,
+    //                     title: `${pool.name}${tab.slug === 'about' ? '' : ' / ' + tab.title}`,
+    //                     origin: `${slug} — ${pool.id}${tab.slug === 'about' ? '' : '/' + tab.slug}`,
+    //                     slug: `${dashify(props.translateSlug ? props.title : props.originalTitle)}/${pool.id}${tab.slug === 'about' ? '' : '/' + tab.slug}`,
+    //                     params: {
+    //                         poolId: pool.id,
+    //                         tab: tab.slug
+    //                     }
+    //                 }
+    //             })
 
-                pages = [
-                    ...pages,
-                    ...mergePages
-                ]
-            })
+    //             pages = [
+    //                 ...pages,
+    //                 ...mergePages
+    //             ]
+    //         })
 
-            return pages
-        }
-    },
+    //         return pages
+    //     }
+    // },
 ]
 
 async function main() {
