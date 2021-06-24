@@ -148,7 +148,16 @@ async function main() {
 
             const title = await translate(template.title, 'en', language.id)
 
-            let templatePages = await template.getPages({ originalTitle: template.title, title, template: template.id, language: language.id, translateSlug: language.translateSlug })
+            let templatePages = await template.getPages({
+                originalTitle: template.title,
+                title,
+                template: template.id,
+                language: language.id,
+                type: 'generated',
+                translateSlug: language.translateSlug,
+                createdAt: new Date().toISOString(),
+                updatedAt: new Date().toISOString()
+            })
 
             const languageSlug = language.id === 'en' ? null : language.id
 
