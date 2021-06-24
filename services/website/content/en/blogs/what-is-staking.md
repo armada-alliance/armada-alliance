@@ -6,6 +6,13 @@ keywords: ada, cardano, delegating ada, how to delegate, staking ada, staking
 identities: 
     - slug: /identities/wael-ivie
       role: author
+references:
+    - url: https://iohk.io/en/blog/posts/2020/11/13/the-general-perspective-on-staking-in-cardano/
+    - url: https://heraldsheets.com/why-51-attack-on-cardano-network-is-relatively-impossible/
+    - url: https://forum.cardano.org/t/staking-and-delegating-for-beginners-a-step-by-step-guide/36681
+    - url: https://forum.cardano.org/t/consensus-on-cardano-vs-other-blockchains/38738
+    - url: https://forum.cardano.org/t/how-cardano-uses-significantly-less-energy-while-maintaining-the-same-level-of-security-as-bitcoin/62629
+    - url: https://emurgo.io/en/blog/explain-proof-of-stake-pos-dpos
 ---
 
 Pledge is the amount of ada a stake pool owner has decided to delegate to their [stake pool](/en/terms/stake-pool.md). Currently, there is no minimum ada requirement to the amount of pledge needed to open a Cardano stake pool. Thus, a stake pool owner may delegate some or all of their ada when creating a stake pool. However, a stake pool owner's pledge does affect things like their stake pool's attractiveness to delegates, a0 parameter, rewards distribution, and security of the network.
@@ -30,13 +37,3 @@ Without going into too many technical details, due to Cardano PoS design and the
 - [51% Attack](/en/terms/fifty-one-percent-attack.md)
 - [Sybil Attack](/en/terms/sybil-attack.md)
 - [Fake Stake Attack](/en/terms/fake-stake.md)
-
-
-**References**
-
-- https://iohk.io/en/blog/posts/2020/11/13/the-general-perspective-on-staking-in-cardano/
-- https://heraldsheets.com/why-51-attack-on-cardano-network-is-relatively-impossible/
-- https://forum.cardano.org/t/staking-and-delegating-for-beginners-a-step-by-step-guide/36681
-https://forum.cardano.org/t/consensus-on-cardano-vs-other-blockchains/38738
-- https://forum.cardano.org/t/how-cardano-uses-significantly-less-energy-while-maintaining-the-same-level-of-security-as-bitcoin/62629
-- https://emurgo.io/en/blog/explain-proof-of-stake-pos-dpos
