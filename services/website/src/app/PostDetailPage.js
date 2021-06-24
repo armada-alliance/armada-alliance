@@ -11,6 +11,7 @@ import QRCode from 'qrcode.react'
 import CopyToClipboard from './CopyToClipboard'
 import Tooltip from './Tooltip'
 import { ChevronRightIcon, BadgeCheckIcon } from '@heroicons/react/solid'
+import moment from 'moment'
 
 function formatAddress(input) {
     return [input.slice(0, 15), '...', input.slice(-15)].join('')
@@ -44,11 +45,21 @@ function Identities({ identities }) {
 
 function Pages({ pages }) {
 
+    const order = ['content', 'generated']
+
+    const sortedPages = pages
+    .sort((a, b) =>
+        moment(b.updatedAt).valueOf() - moment(a.updatedAt).valueOf()
+    )
+    .sort((a, b) => {
+        return order.indexOf(a.type) - order.indexOf(b.type)
+    })
+
     return (
         <div className="mt-8">
             <div className="bg-white shadow overflow-hidden sm:rounded-md">
                 <ul className="divide-y divide-gray-200">
-                    {pages.map((page) => (
+                    {sortedPages.map((page) => (
                         <li key={page.slug}>
                             <Link href={page.slug}>
                                 <a className="block hover:bg-gray-50">
@@ -172,7 +183,10 @@ export default function TermDetailPage(props) {
                                 </div>
                             </div>
                         ) : null}
-                        <div className="mt-8 flex justify-end">
+                        <div className="mt-8 flex items-center justify-end">
+                            <div className="mr-4 text-gray-400 text-sm">
+                                Last updated on {moment(props.page.updatedAt).format('MMM DD, YYYY')}
+                            </div>
                             <Link href={`https://github.com/armada-alliance/armada-alliance/tree/staging/services/website/content${props.page.params.source}`}>
                                 <a
                                     target="_blank"

@@ -5,6 +5,7 @@ const path = require('path')
 const compact = require('lodash/compact')
 const trim = require('lodash/trim')
 const decodeUrlPartsFromFilePath = require('./decodeUrlPartsFromFilePath')
+const { getGitCreatedTimeForFile, getGitUpdatedTimeForFile } = require('./git')
 
 module.exports = async () => {
 
@@ -35,6 +36,9 @@ module.exports = async () => {
 
                 const string = await fs.readFile(filePath, 'utf-8')
 
+                const createdAt = getGitCreatedTimeForFile(filePath)
+                const updatedAt = getGitUpdatedTimeForFile(filePath)
+
                 const data = fm(string)
 
                 return {
@@ -50,6 +54,9 @@ module.exports = async () => {
                     identities: data.attributes.identities,
                     image: data.attributes.image,
                     icon: data.attributes.icon,
+                    type: 'content',
+                    updatedAt,
+                    createdAt,
                     params: {
                         source: relPath
                     }

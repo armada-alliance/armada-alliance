@@ -14,10 +14,9 @@ services:
       - ./environment/website.development.env
     environment:
       - PORT=3000
-    working_dir: /app
+    working_dir: /app/services/website
     volumes:
-      - ./services/website:/app
-      - ./.git:/app/.git
+      - ./:/app
     ports:
       - 3000:3000
     command: ./entrypoint.sh
