@@ -2,7 +2,7 @@
 template: IdentityDetailPage
 title: Julien Terrier
 description: SPO
-image: /julien.jpg
+image: /ship-420.jpg
 website: https://www.adaministake.com/
 donationAddress: 
 ---
