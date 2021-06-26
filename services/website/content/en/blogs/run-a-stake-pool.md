@@ -9,6 +9,9 @@ identities:
 ---
 
 ## Why run a stake pool?
+
 ## How do I run a stake pool?
 ## Operational costs
 ## How much can I earn running a stake pool?
+
+<Youtube url={'https://www.youtube.com/watch?v=_ify0d5xGv8'} />
