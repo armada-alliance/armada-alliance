@@ -14,4 +14,4 @@ identities:
 ## Operational costs
 ## How much can I earn running a stake pool?
 
-<Youtube url={'https://www.youtube.com/watch?v=_ify0d5xGv8'} />
+<YoutubeVideo url={'https://www.youtube.com/watch?v=_ify0d5xGv8'} />
