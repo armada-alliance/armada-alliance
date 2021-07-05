@@ -13,3 +13,4 @@ function getGitUpdatedTimeForFile(file) {
 }
 
 module.exports = { getGitCreatedTimeForFile, getGitUpdatedTimeForFile }
+
