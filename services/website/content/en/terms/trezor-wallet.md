@@ -1,7 +1,7 @@
 ---
 template: TermDetailPage
 title: Trezor wallet 
-description: [Trezor Wallet](wallet.trezor.io) is an easy-to-use browser interface for the [Trezor device](/en/terms/trezor) powered by SatoshiLabs.
+description: Trezor Wallet is an easy-to-use browser interface for the Trezor device powered by SatoshiLabs.
 aliases: Trezor wallet
 keywords: Trezor, wallet
 identities: 
