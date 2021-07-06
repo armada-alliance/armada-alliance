@@ -10,7 +10,7 @@ identities:
     - slug: /identities/wcat-otg
       role: author
 ---
-Pi-Pool was originally an image Alessandro Konrad hosted on his github. It had a working Grafana dashboard and came with cardano-node 1.25. I started using it when he released it somewhere around August 2020.
+Pi-Pool was originally an image Alessandro Konrad hosted on his [GitHub](https://github.com/alessandrokonrad/Pi-Pool). It had a working Grafana dashboard and came with cardano-node 1.23.0. I started using it when he released it somewhere around August 2020.
 
 It was great for learning all the moving parts with it more or less working out of the box. As time went on and Alessandro became busy with the cool shit Alessandro does, the image became outdated, it did not have a working systemd implementation and I saw room for improvement.
 
