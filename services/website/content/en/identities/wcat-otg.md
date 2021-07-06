@@ -1,6 +1,6 @@
 ---
 template: IdentityDetailPage
-title: Wayne
+title: WCat(Wayne)
 description: SPO, Co-Founder
 image: /wcat.jpeg
 website: https://adamantium.online
