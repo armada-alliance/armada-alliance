@@ -14,6 +14,6 @@ Pi-Pool was originally an image Alessandro Konrad hosted on his [GitHub](https:/
 
 It was great for learning all the moving parts with it more or less working out of the box. As time went on and Alessandro became busy with the cool shit Alessandro does, the image became outdated, it did not have a working systemd implementation and I saw room for improvement.
 
-I tried to hang on to as much as I could from the old image like the username and password as well as having a 'pi-pool' folder that housed db and config files.
+I tried to hang on to as much as I could from the old image like the default username and password as well as having a 'pi-pool' folder that housed db/ and config files.
 
 I am proud to host a snapshot of the database folder that allows one to burn the image and have a passive synced relay in about an hour. Something that would take 2 days to sync on its own on a Raspberry Pi.
