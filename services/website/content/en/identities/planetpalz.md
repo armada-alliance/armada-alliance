@@ -2,7 +2,7 @@
 template: IdentityDetailPage
 title: Planetpalz
 description: CNFT
-image: /planetpalz.png
+image: /planetpalz.jpg
 website: https://www.planetpalz.io/dashboard
 verified: true
 ---
