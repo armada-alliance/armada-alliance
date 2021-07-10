@@ -7,8 +7,6 @@ import useTestMode from './useTestMode'
 
 export default function DynamicPage(props) {
 
-    console.log('props', props)
-
     const testMode = useTestMode()
 
     const { props: page } = props.page
