@@ -17,6 +17,13 @@ const ipstack = axios.create({
     }
 })
 
+const getMetaDataForPool = async (poolId) => {
+
+    const { data: metadata } = await blockfrost.get(`/pools/${poolId}/metadata`)
+    const { data: result } = await axios.get(metadata.url)
+    return result
+}
+
 const getRelaysForPool = async (poolId) => {
     const { data: relays } = await blockfrost.get(`/pools/${poolId}/relays`)
     return relays.map(relay => {
@@ -33,7 +40,6 @@ const getAdapoolsData = async (poolId) => {
 
     return data
 }
-
 
 const getDataForAddresses = async (addresses) => {
 
@@ -74,11 +80,26 @@ module.exports = {
 
                 const poolId = poolPage.params.filename
 
+                const metadata = await getMetaDataForPool(poolId)
+
+                let extended = null
+
+                if (metadata.extended) {
+                    extended = await axios.get(metadata.extended).then(res => res.data)
+                }
+
                 const relays = await getRelaysForPool(poolId)
 
                 const adapools = await getAdapoolsData(poolId)
 
                 const name = adapools.data.db_name
+
+                let image = adapools.data.handles.icon || 'https://armada-alliance.com/assets/ship-420.png'
+
+                if (extended && extended.info.url_png_logo) {
+                    image = extended.info.url_png_logo
+                }
+
                 return {
                     id: poolId,
                     name,
@@ -87,7 +108,7 @@ module.exports = {
                         href: '/stake-pools/' + poolId
                     },
                     description: adapools.data.db_description,
-                    image: adapools.data.handles.icon || 'https://armada-alliance.com/assets/ship-420.png',
+                    image,
                     ticker: adapools.data.db_ticker,
                     website: adapools.data.db_url,
                     totalStake: adapools.data.total_stake,
@@ -101,6 +122,8 @@ module.exports = {
                     registeredAt: new Date(adapools.created).toISOString(),
                     identities: poolPage.identities,
                     relays,
+                    metadata,
+                    extended
                 }
             })
         )
