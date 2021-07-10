@@ -1,0 +1,77 @@
+import markdownToText from 'markdown-to-text'
+import Link from './Link'
+import { BadgeCheckIcon } from '@heroicons/react/solid'
+import formatImage from './formatImage'
+import WithPageTooltip from './WithPageTooltip'
+
+function Identities({ identities }) {
+
+    return (
+        <div className="mx-auto inline-flex items-center space-x-2">
+            {/* <div className="text-gray-400 text-sm">
+                written by
+            </div> */}
+            {identities.map((identity) => {
+
+                return (
+                    <WithPageTooltip slug={identity.link.href}>
+                        {(props) => (
+                            <Link key={identity.id} href={identity.link.href}>
+                                <a {...props} className="flex items-center px-3 py-2 space-x-2 rounded-lg bg-gray-100 hover:bg-gray-200 transition-colors duration-50">
+                                    <div className="h-8 w-8 rounded-full overflow-hidden bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${formatImage(identity.image)})` }} />
+                                    <div className="font-bold">
+                                        {identity.name}
+                                    </div>
+                                </a>
+                            </Link>
+                        )}
+                    </WithPageTooltip>
+
+                )
+
+            })}
+        </div>
+    )
+}
+
+
+export default function PageHeader({ title, image, verified, pageType, identities }) {
+
+    return (
+        <>
+            {image ? (
+                <div className="flex items-center justify-center mb-4">
+                    <div className="bg-white relative rounded-full overflow-hidden w-52 h-52 shadow-md">
+                        <div
+                            className="absolute top-0 right-0 bottom-0 left-0 bg-center bg-no-repeat bg-cover"
+                            style={{
+                                backgroundImage: `url(${formatImage(image)})`
+                            }}
+                        />
+                    </div>
+                </div>
+            ) : null}
+            <h1>
+                <span className="block text-base text-center text-primary-500 font-semibold tracking-wide uppercase">
+                    {pageType}
+                </span>
+                <span className={"mt-2 block text-3xl leading-8 text-center font-extrabold tracking-tight text-gray-900 sm:text-4xl"}>
+                    {markdownToText(title)}
+                </span>
+            </h1>
+            {verified ? (
+                <div className="mt-2 flex justify-center">
+                    <div className="flex items-center space-x-1">
+                        <BadgeCheckIcon className="h-4 text-primary-500" />
+                        <div className="text-primary-500 text-sm">Verified</div>
+                    </div>
+                </div>
+            ) : null}
+            {identities ? (
+                <div className="py-6 flex justify-center">
+                    <Identities identities={identities} />
+                </div>
+            ) : null}
+        </>
+    )
+}

@@ -5,6 +5,6 @@ description: A method by which Oracles are decentralized, such that the external
 aliases: 
 keywords: 
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---

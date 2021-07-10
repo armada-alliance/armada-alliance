@@ -5,7 +5,7 @@ description: A class of token whose forging is controlled by a particular moneta
 aliases: Cardano currency, ADA, Cardano tokens, Cardano
 keywords: Cardano, tokens, currency, ada
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

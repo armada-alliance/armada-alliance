@@ -5,7 +5,7 @@ description: Byzantine fault tolerance (BFT), is a property in the system that e
 aliases: bft, byzantine fault tolerant nodes, byzantine fault tolerant blockchains, byzantine fault tolerant algorithms
 keywords: bft, byzantine, fault, tolerance, tolerant, cardano, bitcoin, ethereum
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

@@ -5,7 +5,7 @@ description: Non-fungible tokens (NFTs) are digital assets that are provably uni
 aliases: nft, token, non-fungible token, cardano nft market​, free cardano nfts​, cardano nft games​, cardano tales nft​, cardano token address​, ada nft​, spacebudz nft​, how do nft's work
 keywords: nft, token, asset, cardano, spacebudz, non-fungible, ada
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

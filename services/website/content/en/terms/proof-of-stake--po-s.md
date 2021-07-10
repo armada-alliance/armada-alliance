@@ -5,6 +5,6 @@ description: A type of consensus mechanism used to reach agreement on records in
 aliases: proof of stake, cardano proof of stake, proof-of-stake, pos, ouroboros, consensus mechanism
 keywords: proof, of, stake, cardano, consensus, mechanism, ouroboros
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---

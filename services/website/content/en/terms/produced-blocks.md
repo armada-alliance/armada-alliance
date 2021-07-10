@@ -5,6 +5,6 @@ description: The number of blocks that have been produced by a stake pool in the
 aliases: produced blocks, blocks, minted blocks, cardano produced blocks, 
 keywords: produced, blocks, block, minted, cardano, forged, forge
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---

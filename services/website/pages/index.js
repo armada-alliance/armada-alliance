@@ -10,7 +10,7 @@ export async function getStaticProps() {
 
     const appPath = path.resolve(process.cwd())
 
-    const data = await fs.readFile(path.join(appPath, 'src/page-data/index.json'))
+    const data = await fs.readFile(path.join(appPath, `public/pages/index.json`))
 
     const page = JSON.parse(data)
 

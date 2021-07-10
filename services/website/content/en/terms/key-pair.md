@@ -5,6 +5,6 @@ description: "A set of two keys: public verification key and private signing key
 aliases: key value pair
 keywords: key pair, key value pair
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---

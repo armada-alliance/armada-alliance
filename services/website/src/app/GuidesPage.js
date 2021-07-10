@@ -5,9 +5,8 @@ import * as icons from './icons'
 import uniq from 'lodash/uniq'
 import intersection from 'lodash/intersection'
 import cx from 'classnames'
-import Context from './Context'
 import Link from './Link'
-import pages from '../pages'
+import Component from './Component'
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
@@ -131,16 +130,14 @@ function Guides({ guides }) {
 
 export default function GuidesPage(props) {
 
-    const ctx = useContext(Context)
-
-    const guides = pages.filter(page => page.template === "GuideDetailPage" && page.language === ctx.language)
+    const { title, guides } = props.props
 
     return (
-        <Layout>
+        <Component use={Layout} data={props.components.Layout}>
             <ContentContainer>
                 <h1>
                     <span className={"mt-2 block text-3xl leading-8 text-center font-extrabold tracking-tight text-gray-900 sm:text-4xl"}>
-                        {props.page.title}
+                        {title}
                     </span>
                 </h1>
                 <div className="mt-8 space-y-12">
@@ -149,6 +146,6 @@ export default function GuidesPage(props) {
                     />
                 </div>
             </ContentContainer>
-        </Layout >
+        </Component>
     );
 }

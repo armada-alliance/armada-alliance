@@ -5,6 +5,6 @@ description: The digital currency (or cryptocurrency) of the Cardano blockchain.
 aliases: ada, cardano, lovelace, cryptocurrency, blockchain, bitcoin, btc, eth, ethereum, staking, coinbase, binance 
 keywords: ada, cardano, lovelace, cryptocurrency, blockchain, bitcoin, btc, eth, ethereum, staking, coinbase, binance 
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---

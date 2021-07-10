@@ -5,7 +5,7 @@ description: A Turing-complete programming platform for writing functional smart
 aliases: a turing-complete programming languages, cardano programming language, cardano smart contract programming language, solidity programming language, functional programming languages, haskell programming language, cardano coding languages, cardano smart contracts platform, cardano smart contracts platform, turning complete, plutus programming language
 keywords: 
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

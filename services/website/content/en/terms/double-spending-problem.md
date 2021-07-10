@@ -5,6 +5,6 @@ description: When a digital currency is spent more than once. Historically this 
 aliases: double spending problem
 keywords: double, spending, problem
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---

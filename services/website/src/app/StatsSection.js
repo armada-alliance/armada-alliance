@@ -2,31 +2,20 @@ import DualColorText from './DualColorText'
 import PageTooltip from './PageTooltip'
 import Text from './Text'
 import AdaPrice from './AdaPrice'
+import template from 'lodash/template'
 
-const getBlocksMinted = pools => pools.reduce((result, pool) => {
-    return result + parseInt(pool.adapools.data.blocks_lifetime, 10)
-}, 0)
-
-const getLiveStake = pools => pools.reduce((result, pool) => {
-    return result + parseInt(pool.adapools.data.total_stake, 10)
-}, 0)
-
-const getDelegators = pools => pools.reduce((result, pool) => {
-    return result + parseInt(pool.adapools.data.delegators, 10)
-}, 0)
-
-export default function StatsSection({ pools }) {
+export default function StatsSection({ title, pretitle, description, poolCount, countryCount, liveStake, mintedBlocksCount, delegatorCount }) {
     return (
         <div className="bg-gray-50 pt-12 sm:pt-16">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="max-w-4xl mx-auto text-center">
-                    <h2 className="text-base font-semibold tracking-wider text-primary-500 uppercase">Live Stats</h2>
+                    <h2 className="text-base font-semibold tracking-wider text-primary-500 uppercase">{pretitle}</h2>
                     <h2 className="mt-2 text-3xl font-extrabold text-gray-900 sm:text-4xl">
-                        <DualColorText>An alliance of independent stake pool operators</DualColorText>
+                        <DualColorText>{title}</DualColorText>
                     </h2>
                     <p className="mt-3 text-xl text-gray-500 sm:mt-4">
-                        {pools.length} stake pools operated across 10 different countries 🌍
-            </p>
+                        {template(description)({ poolCount, countryCount })}
+                    </p>
                 </div>
             </div>
             <div className="mt-10 pb-12 bg-white sm:pb-16">
@@ -41,7 +30,7 @@ export default function StatsSection({ pools }) {
                                             <Text>Blocks minted</Text>
                                         </PageTooltip>
                                     </dt>
-                                    <dd className="order-1 text-5xl font-extrabold text-primary-500">{getBlocksMinted(pools)}</dd>
+                                    <dd className="order-1 text-5xl font-extrabold text-primary-500">{mintedBlocksCount}</dd>
                                 </div>
                                 <div className="flex flex-col border-t border-b border-gray-100 p-6 text-center sm:border-0 sm:border-l sm:border-r">
                                     <dt className="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">
@@ -51,7 +40,7 @@ export default function StatsSection({ pools }) {
                                     </dt>
                                     <dd className="order-1 text-5xl font-extrabold text-primary-500">
                                         <AdaPrice
-                                            value={getLiveStake(pools) / 1000000}
+                                            value={liveStake / 1000000}
                                         />
                                     </dd>
                                 </div>
@@ -61,7 +50,7 @@ export default function StatsSection({ pools }) {
                                             <Text>Delegators</Text>
                                         </PageTooltip>
                                     </dt>
-                                    <dd className="order-1 text-5xl font-extrabold text-primary-500">{getDelegators(pools)}</dd>
+                                    <dd className="order-1 text-5xl font-extrabold text-primary-500">{delegatorCount}</dd>
                                 </div>
                             </dl>
                         </div>

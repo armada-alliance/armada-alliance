@@ -5,7 +5,7 @@ description: "Cardano is een proof-of-stake blockchain: het eerste dat is gebase
 aliases: Cardano, Cardano blockchain, Cardano Cryptocurrency, Cardano Cryptovaluta ADA
 keywords: Cardano, Blockchain, altcoin, cryptocurrency, cryptovaluta, ada
 identities: 
-    - slug: /identities/sublayerio
+    - id: sublayerio
       role: author
 ---
 

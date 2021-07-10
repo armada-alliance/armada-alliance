@@ -5,7 +5,7 @@ description: A set of additional data stating certain transaction conditions or 
 aliases: metadata, data, transaction metadata, nft metadata, store metadata on blockchain, cardano metadata size limit, cardano token metadata, token metadata, smart contract metadata, cardano smart contract metadata
 keywords: metadata, data, transaction, nft, token, smart, contracts, cardano, blockchain
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

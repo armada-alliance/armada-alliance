@@ -5,7 +5,7 @@ description: EMURGO is a multinational blockchain technology company providing s
 aliases: EMURGO
 keywords: EMURGO
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

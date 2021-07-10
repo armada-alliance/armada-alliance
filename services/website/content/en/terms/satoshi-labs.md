@@ -5,7 +5,7 @@ description: Established in late 2013, SatoshiLabs is a company full of experien
 aliases: SatoshiLabs
 keywords: SatoshiLabs
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

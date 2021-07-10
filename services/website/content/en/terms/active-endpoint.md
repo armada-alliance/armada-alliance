@@ -5,7 +5,7 @@ description: An endpoint that is active on a contract application instance.
 aliases: active endpoint
 keywords: active endpoint
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

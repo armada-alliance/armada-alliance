@@ -5,7 +5,7 @@ description: La dirección de un UTXO dice hacia dónde “va” la salida.
 aliases: cardano address, UTXO address
 keywords: cardano, address, utxo, direccion
 identities: 
-    - slug: /identities/alex-qxt
+    - id: alex-qxt
       role: author
 ---
 La dirección define las condiciones para desbloquear la salida. Puede ser un hash de clave pública o en el modelo eUTXO (UTXO Extendido) un hash de script. 

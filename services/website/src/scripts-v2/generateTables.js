@@ -1,34 +1,67 @@
+const perf = require('execution-time')()
 const tables = require('./tables')
-const createDb = require('./db')
+const fs = require('fs/promises')
+const createContext = require('./context/createContext')
 
 async function main() {
 
-    const table = tables.find(table => table.id === "languages")
+    perf.start()
 
-    const db = await createDb()
+    const ctx = await createContext()
 
-    const fields = table.fields.map(field => `${field.id} ${field.type}${field.id === "id" ? " PRIMARY KEY" : " NOT NULL"}`).join(', ')
-    const fieldNames = table.fields.map(field => field.id)
-    // console.log(`CREATE TABLE ${table.id} (${fields})`)
-    await db.run(`DROP TABLE IF EXISTS ${table.id}`);
-    await db.run(`CREATE TABLE ${table.id} (${fields})`);
+    let resolvedTables = []
+    let rowCounts = {}
 
-    const rows = await table.loadTable()
+    async function resolveTable(table) {
 
-    await Promise.all(
-        rows.map(async row => {
+        if (resolvedTables.includes(table.id)) {
+            return
+        }
 
-            const values = fieldNames.reduce((result, id) => {
-                result[id] = row[id]
-                return result
-            }, {})
+        if (table.dependsOn) {
 
-            await db.run(
-                `INSERT INTO ${table.id} (${Object.keys(values).join(', ')}) VALUES (${Object.keys(values).map(() => '?').join(', ')})`,
-                Object.values(values)
-            )
-        })
+            for (const tableId of table.dependsOn) {
+                const table = tables.find(table => table.id === tableId)
+                await resolveTable(table)
+            }
+        }
+
+        let rows = await table.create(ctx)
+
+        if (table.afterCreate) {
+            rows = await table.afterCreate(ctx, rows)
+        }
+
+        rowCounts[table.id] = rows.length
+
+        await fs.writeFile(__dirname + '/../../public/tables/' + table.id + '.json', JSON.stringify(rows, null, 2))
+
+        resolvedTables.push(table.id)
+    }
+
+    for (const table of tables) {
+
+        await resolveTable(table)
+    }
+
+    const result = perf.stop()
+
+    console.log('============================')
+    console.log(`Tables found: ${tables.length}`)
+    console.log('============================')
+
+    console.log(
+        Object
+            .keys(rowCounts)
+            .map(key => {
+                return `\t- ${key}: ${rowCounts[key]}`
+            })
+            .join('\n')
     )
+
+    console.log('============================')
+    console.log(`Finished in ${result.words}.`)
+    console.log('============================')
 }
 
 main()

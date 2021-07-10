@@ -6,7 +6,7 @@ aliases: utxo, utxo model, cardano utxo model
 keywords: utxo, cardano
 origin: /terms/utxo
 identities: 
-    - slug: /identities/sublayerio
+    - id: sublayerio
       role: author
 ---
 

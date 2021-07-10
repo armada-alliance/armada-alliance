@@ -5,7 +5,7 @@ description: A mechanism by which critical external information that isn’t kno
 aliases: oracle
 keywords: oracle, information
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 references:
     - url: https://town-crier.org

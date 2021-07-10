@@ -5,6 +5,6 @@ description: The smallest unit of Ada. 1 Lovelace = 1/1,000,000 Ada. A lovelace 
 aliases: lovelace, satoshi, cardano lovelace, ada
 keywords: satoshi, cardano lovelace, lovelace, ada lovelace
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---

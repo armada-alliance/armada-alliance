@@ -5,7 +5,7 @@ description: A fixed period of time within an epoch.
 aliases: slot, cardano slots, cardano slots per epoch, how many slots per epoch, block rewards
 keywords: slot, slots, cardano, blocks, block, epoch, rewards
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

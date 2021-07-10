@@ -5,6 +5,6 @@ description: A UTXO locked by a script.
 aliases: script output, script output transaction, utxo
 keywords: script, output, transaction, plutus, Cardano, utxo
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---

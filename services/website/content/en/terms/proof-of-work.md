@@ -5,6 +5,6 @@ description: The original consensus algorithm in early blockchain networks, such
 aliases: pow, proof of work, bitcoin 
 keywords: pow, proof, of, work, bitcoin
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---

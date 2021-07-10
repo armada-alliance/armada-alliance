@@ -5,7 +5,7 @@ description: "Cardano is a proof-of-stake blockchain platform: the first to be f
 aliases: Cardano, Cardano blockchain, Cardano Cryptocurrency, ADA
 keywords: Cardano, Blockchain, altcoin, cryptocurrency, ada
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

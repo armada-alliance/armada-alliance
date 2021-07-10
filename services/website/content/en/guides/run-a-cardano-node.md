@@ -6,9 +6,9 @@ keywords: Stake Pool Operation, Raspberry Pi, ARM, raspberry pi 4, raspberry pi 
 icon: 🍓
 externalLink: https://docs.armada-alliance.com/learn/beginner-guide-1/beginner-guide
 identities: 
-    - slug: /identities/wcat-otg
+    - id: wcat-otg
       role: author
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

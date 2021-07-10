@@ -5,6 +5,6 @@ description: A way for a decentralized system to reach a consistent view of shar
 aliases: cardano consensus algorithm, cardano consensus protocol ouroboros,consensus algorithms, proof-of-work vs. proof-of-stake, how do blockchains achieve consensus, cryptography consensus mechanisms
 keywords: cardano, consensus, algorithm
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---

@@ -1,0 +1,4 @@
+---
+template: GuidesPage
+title: Guides
+---

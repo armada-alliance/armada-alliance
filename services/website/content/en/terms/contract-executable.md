@@ -5,7 +5,7 @@ description: A compiled executable of a contract application.
 aliases: plutus contract executable, smart contract execution
 keywords: contract, smart, executable, execution, Cardano, application, DApp
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

@@ -5,7 +5,7 @@ description: Decentralized application.
 aliases: dapp, dapps, decentralized applications
 keywords: dapps, dapp, decentalized, applications
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

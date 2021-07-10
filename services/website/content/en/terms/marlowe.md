@@ -5,6 +5,6 @@ description: The domain-specific language (DSL) for writing and executing financ
 aliases: Marlowe, Cardano Marlowe, Cardano Domain Specific Language, 
 keywords: Marlowe, Domain Specific Language, Cardano Marlowe smart contracts, Marlowe playground, plutus playground
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---

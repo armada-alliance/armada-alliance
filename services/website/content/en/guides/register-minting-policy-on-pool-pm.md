@@ -5,7 +5,7 @@ description: A guide on how to register your token's minting policy
 keywords: NFT, pool.pm
 icon: ⛏
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

@@ -5,7 +5,7 @@ description: A term used to indicate that a particular stake pool has more stake
 aliases: cardano stake pool saturation point, cardano stake pool saturation, cardano stake pool over saturated pools, cardano stake pool over saturation
 keywords: cardano, stake, pool, over, saturated, saturation, point
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

@@ -5,6 +5,6 @@ description: A token type accounting and tracking of which is natively supported
 aliases: native tokens, cardano native tokens, native token, cardano native token ada, cardano native token, ada, lovelace
 keywords: native, token, tokens, cardano, ada, lovelace
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---

@@ -3,13 +3,12 @@ import { Fragment, useContext } from 'react'
 import Link from './Link'
 import Text from './Text'
 import schema from '../schema'
-import languages from '../languages.json'
 import Context from './Context'
-import pages from '../pages'
 import cx from 'classnames'
 import markdownToText from 'markdown-to-text'
 import { Popover, Transition } from '@headlessui/react'
 import SearchBox from './SearchBox'
+import Component from './Component'
 import {
     BookmarkAltIcon,
     CalendarIcon,
@@ -27,27 +26,6 @@ import {
 } from '@heroicons/react/outline'
 import { ChevronDownIcon } from '@heroicons/react/solid'
 
-const resources = [
-    {
-        name: 'Help Center',
-        description: 'Get all of your questions answered in our forums or contact support.',
-        href: '#',
-        icon: SupportIcon,
-    },
-    {
-        name: 'Guides',
-        description: 'Learn how to maximize our platform to get the most out of it.',
-        href: '#',
-        icon: BookmarkAltIcon,
-    },
-    {
-        name: 'Events',
-        description: 'See what meet-ups and other events we might be planning near you.',
-        href: '#',
-        icon: CalendarIcon,
-    },
-    { name: 'Security', description: 'Understand how we take your privacy seriously.', href: '#', icon: ShieldCheckIcon },
-]
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
 }
@@ -55,7 +33,9 @@ function classNames(...classes) {
 function LanguageButton() {
 
     const ctx = useContext(Context)
+    const languages = ctx.languages
     const language = languages.find(language => language.id === ctx.language)
+    const pages = ctx.pages
 
     return (
         <Popover className="relative">
@@ -145,7 +125,8 @@ function LanguageButton() {
     )
 }
 
-export default function Header() {
+export default function Header(props) {
+    const { components } = props
 
     const { navigation } = schema
 
@@ -173,150 +154,7 @@ export default function Header() {
                                     <MenuIcon className="h-6 w-6" aria-hidden="true" />
                                 </Popover.Button>
                             </div>
-                            <SearchBox />
-                            <Popover.Group as="nav" className="hidden md:flex space-x-10">
-                                <Popover className="relative">
-                                    {({ open }) => (
-                                        <>
-                                            <Popover.Button
-                                                className={classNames(
-                                                    open ? 'text-gray-900' : 'text-gray-500',
-                                                    'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500'
-                                                )}
-                                            >
-                                                <span><Text>{navigation.general.name}</Text></span>
-                                                <ChevronDownIcon
-                                                    className={classNames(
-                                                        open ? 'text-gray-600' : 'text-gray-400',
-                                                        'ml-2 h-5 w-5 group-hover:text-gray-500'
-                                                    )}
-                                                    aria-hidden="true"
-                                                />
-                                            </Popover.Button>
-
-                                            <Transition
-                                                show={open}
-                                                as={Fragment}
-                                                enter="transition ease-out duration-200"
-                                                enterFrom="opacity-0 translate-y-1"
-                                                enterTo="opacity-100 translate-y-0"
-                                                leave="transition ease-in duration-150"
-                                                leaveFrom="opacity-100 translate-y-0"
-                                                leaveTo="opacity-0 translate-y-1"
-                                            >
-                                                <Popover.Panel
-                                                    static
-                                                    className="absolute z-10 -ml-4 mt-3 transform px-2 w-screen max-w-md sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2"
-                                                >
-                                                    <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
-                                                        <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                                                            {navigation.general.navItems.map((navItem) => {
-
-                                                                const page = pages.find(page => page.slug === navItem.href)
-
-                                                                return (
-                                                                    <a
-                                                                        key={navItem.name}
-                                                                        href={navItem.href}
-                                                                        className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
-                                                                    >
-                                                                        <BookOpenIcon className="flex-shrink-0 h-6 w-6 text-primary-500" aria-hidden="true" />
-                                                                        <div className="ml-4">
-                                                                            <p className="text-base font-medium text-gray-900">{navItem.name}</p>
-                                                                            {page ? (
-                                                                                <p className="mt-1 text-sm text-gray-500">{markdownToText(page.description)}</p>
-                                                                            ) : null}
-                                                                        </div>
-                                                                    </a>
-                                                                )
-                                                            })}
-                                                        </div>
-                                                        {navigation.general.readMore ? (
-                                                            <Link href={navigation.general.readMore.href}>
-                                                                <a className="block px-5 py-5 bg-gray-50 hover:bg-gray-100 text-center sm:px-8">
-                                                                    <div className="font-medium text-primary-500 hover:text-primary-500">
-                                                                        {navigation.general.readMore.name} <span aria-hidden="true">&rarr;</span>
-                                                                    </div>
-                                                                </a>
-                                                            </Link>
-                                                        ) : null}
-                                                    </div>
-                                                </Popover.Panel>
-                                            </Transition>
-                                        </>
-                                    )}
-                                </Popover>
-                                <Popover className="relative">
-                                    {({ open }) => (
-                                        <>
-                                            <Popover.Button
-                                                className={classNames(
-                                                    open ? 'text-gray-900' : 'text-gray-500',
-                                                    'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500'
-                                                )}
-                                            >
-                                                <span><Text>{navigation.technical.name}</Text></span>
-                                                <ChevronDownIcon
-                                                    className={classNames(
-                                                        open ? 'text-gray-600' : 'text-gray-400',
-                                                        'ml-2 h-5 w-5 group-hover:text-gray-500'
-                                                    )}
-                                                    aria-hidden="true"
-                                                />
-                                            </Popover.Button>
-                                            <Transition
-                                                show={open}
-                                                as={Fragment}
-                                                enter="transition ease-out duration-200"
-                                                enterFrom="opacity-0 translate-y-1"
-                                                enterTo="opacity-100 translate-y-0"
-                                                leave="transition ease-in duration-150"
-                                                leaveFrom="opacity-100 translate-y-0"
-                                                leaveTo="opacity-0 translate-y-1"
-                                            >
-                                                <Popover.Panel
-                                                    static
-                                                    className="absolute z-10 -ml-4 mt-3 transform px-2 w-screen max-w-md sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2"
-                                                >
-                                                    <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
-                                                        <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                                                            {navigation.technical.navItems.map((navItem) => {
-
-                                                                const page = pages.find(page => page.slug === navItem.href)
-
-                                                                return (
-                                                                    <a
-                                                                        key={navItem.name}
-                                                                        href={navItem.href}
-                                                                        className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
-                                                                    >
-                                                                        <BookOpenIcon className="flex-shrink-0 h-6 w-6 text-primary-500" aria-hidden="true" />
-                                                                        <div className="ml-4">
-                                                                            <p className="text-base font-medium text-gray-900">{navItem.name}</p>
-                                                                            {page ? (
-                                                                                <p className="mt-1 text-sm text-gray-500">{markdownToText(page.description)}</p>
-                                                                            ) : null}
-                                                                        </div>
-                                                                    </a>
-                                                                )
-                                                            })}
-                                                        </div>
-                                                        {navigation.technical.readMore ? (
-                                                            <Link href={navigation.technical.readMore.href}>
-                                                                <a className="block px-5 py-5 bg-gray-50 hover:bg-gray-100 text-center sm:px-8">
-                                                                    <div className="font-medium text-primary-500 hover:text-primary-500">
-                                                                        {navigation.technical.readMore.name} <span aria-hidden="true">&rarr;</span>
-                                                                    </div>
-                                                                </a>
-                                                            </Link>
-                                                        ) : null}
-                                                    </div>
-                                                </Popover.Panel>
-                                            </Transition>
-                                        </>
-                                    )}
-                                </Popover>
-                            </Popover.Group>
+                            <Component use={SearchBox} data={components.SearchBox} />
                             <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
                                 <Popover.Group>
                                     <LanguageButton />
@@ -396,7 +234,8 @@ export default function Header() {
                         </Popover.Panel>
                     </Transition>
                 </>
-            )}
-        </Popover>
+            )
+            }
+        </Popover >
     )
 }

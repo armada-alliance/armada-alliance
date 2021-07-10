@@ -1,5 +1,5 @@
 import compact from 'lodash/compact'
-import pages from '../src/pages.json'
+import pages from '../public/tables/pages.json'
 import DynamicPage from '../src/app/DynamicPage'
 import fs from 'fs/promises'
 import path from 'path'
@@ -12,13 +12,11 @@ export async function getStaticProps(ctx) {
 
   const slug = '/' + ctx.params.slug.join('/')
   const appPath = path.resolve(process.cwd())
-  const data = await fs.readFile(path.join(appPath, `src/page-data/${slug}.json`))
-
-  const page = JSON.parse(data)
+  const data = await fs.readFile(path.join(appPath, `public/pages/${slug}.json`))
 
   return {
     props: {
-      page,
+      page: JSON.parse(data)
     }
   }
 }

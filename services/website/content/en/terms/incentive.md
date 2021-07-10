@@ -5,7 +5,7 @@ description: A way to encourage participants of the system to engage in the netw
 aliases: incentive
 keywords: money, incentive
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

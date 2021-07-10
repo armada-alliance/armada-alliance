@@ -5,7 +5,7 @@ description: A radical change of the network’s protocol changing the state of 
 aliases: hard fork event, cardano smart contract hard fork, cardano native asset hard fork event, cardano goguen
 keywords: hard, fork, event, cardano, smart, contract, native, asset
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

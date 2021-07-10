@@ -5,7 +5,7 @@ description: An intermediate language that compiles to Plutus Core.
 aliases: plutus ir
 keywords: plutus, ir
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

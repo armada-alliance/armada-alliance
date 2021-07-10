@@ -3,8 +3,7 @@ import { ChevronRightIcon } from '@heroicons/react/solid'
 import Container from './Container'
 import Layout from './Layout'
 import Link from './Link'
-import pages from '../pages.json'
-import languages from '../languages.json'
+import Component from './Component'
 
 function PageList(props) {
 
@@ -61,7 +60,7 @@ function PageList(props) {
 
 function LanguageSection(props) {
 
-    const { language } = props
+    const { pages, language } = props
 
     const [open, setOpen] = useState(false)
 
@@ -85,21 +84,24 @@ function LanguageSection(props) {
     )
 }
 
-export default function Example() {
+export default function SitemapPage(props) {
+
+    const { pages, languages } = props.props
 
     return (
-        <Layout>
+        <Component use={Layout} data={props.components.Layout}>
             <Container>
                 {languages.map(language => {
 
                     return (
                         <LanguageSection
                             key={language.id}
+                            pages={pages}
                             language={language}
                         />
                     )
                 })}
             </Container>
-        </Layout>
+        </Component>
     )
 }

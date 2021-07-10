@@ -4,7 +4,7 @@ title: What is [staking](/en/terms/staking.md)?
 description: On the [Cardano](/en/terms/cardano.md) blockchain, the ada held by wallets represents the stake in the network; the ability to use your stake to either [pledge](/en/terms/pledge.md) or delegate is one of the core elements of Cardano.
 keywords: ada, cardano, delegating ada, how to delegate, staking ada, staking
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 references:
     - url: https://iohk.io/en/blog/posts/2020/11/13/the-general-perspective-on-staking-in-cardano/

@@ -5,7 +5,7 @@ description: Simple multiple signature scripting language supported by Cardano S
 aliases: cardano multisig, mutlisig, bitcoin multisig, ethereum multisig, multisig wallet, multisig hardware wallet
 keywords: cardano, multisig, bitcoin, ethereum, wallet, hardware
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

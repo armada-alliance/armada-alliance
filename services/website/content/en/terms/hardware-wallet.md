@@ -5,9 +5,9 @@ description: A hardware wallet is a special type of wallet that stores the user'
 aliases: Hardware wallet
 keywords: hardware, wallet
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
-    - slug: /identities/sublayerio
+    - id: sublayerio
       role: author
 ---
 

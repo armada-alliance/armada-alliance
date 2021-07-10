@@ -5,7 +5,7 @@ description: An online tool for exploring the blockchain of a particular cryptoc
 aliases: Blockchain explorer
 keywords: blockchain, explorer, analysis
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

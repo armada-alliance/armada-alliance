@@ -6,9 +6,9 @@ keywords: NFT, JavaScript
 icon: 💰
 externalLink: https://docs.armada-alliance.com/learn/cardano-developer-guides/cardano-nft-collection-tutorial-coming-soon
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
-    - slug: /identities/sublayerio
+    - id: sublayerio
       role: author
 ---
 

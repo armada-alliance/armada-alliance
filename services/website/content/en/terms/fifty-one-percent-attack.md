@@ -5,7 +5,7 @@ description: If more than half the computer power on a network is run by a singl
 aliases: 51% attack, fifty-one percent attack
 keywords: 51, %, attack, fifty, one, percent, cardano, bitcoin
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

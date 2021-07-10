@@ -5,7 +5,7 @@ description: A whale is defined as a person or organization that owns a large am
 aliases: whale, crypto whale, wale, wael, michael saylor
 keywords: whale, crypto, billionare, investor
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

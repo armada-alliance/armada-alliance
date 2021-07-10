@@ -5,7 +5,7 @@ description: An “Application Specific Integrated Circuit” is a silicon chip 
 aliases: ASIC
 keywords: ASIC, Application, Specific, Integrated, Circuit
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

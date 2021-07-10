@@ -5,7 +5,7 @@ description: Es una billetera segura para guarda ADA desde la que se administran
 aliases: Billetera Daedalus 
 keywords: daedalus, billetera, wallet
 identities: 
-    - slug: /identities/alex-qxt
+    - id: alex-qxt
       role: author
 ---
 

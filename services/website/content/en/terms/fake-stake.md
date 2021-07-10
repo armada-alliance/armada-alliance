@@ -5,7 +5,7 @@ description: This is the umbrella term that references the various vulnerabiliti
 aliases: fake stake attacks, fake stake attack, fake stake attack cardano, cardano hack, PoS hacks, proof-of-stake hacks, proof-of-stake attacks, proof-of-stake vulnerabilities, utxo model hacks
 keywords: vulnerabilities, fake, stake, attack, attacks, cardano, hack, hacks, PoSv3, 3rd-generation, blockchain, PoS, ada, 51%
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

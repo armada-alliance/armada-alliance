@@ -5,6 +5,6 @@ description:  A reliable block-producing server node that holds the combined sta
 aliases: stake pool, cardano stake pool, stake pools, cardano stake pools, cardano mining
 keywords: stake, pool, pools, cardano
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---

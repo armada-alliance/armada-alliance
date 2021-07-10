@@ -5,6 +5,6 @@ description: Third phase of Cardano development in which smart contracts will be
 aliases: Gougen
 keywords: Gougen
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---

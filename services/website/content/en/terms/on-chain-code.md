@@ -5,6 +5,6 @@ description: The part of a contract application’s code which runs on the chain
 aliases: on-chain-code, smart contract
 keywords: on, chain, code
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---

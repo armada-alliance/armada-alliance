@@ -5,7 +5,7 @@ description: Adrestia is a collection of products which makes it easier to integ
 aliases: adrestia, cardano, api, apis, cli, sdk 
 keywords: adrestia, cardano, api, apis, cli, sdk
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

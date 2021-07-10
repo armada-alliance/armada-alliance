@@ -5,6 +5,6 @@ description: In cryptography, a zero-knowledge proof enables one party to provid
 aliases: zero knowledge proof, zero knowledge proof pdf​, zero knowledge proof blockchain​, zero knowledge proof of knowledge​, zero knowledge proof crypto​, zero knowledge proof survey​, zero knowledge proof ppt​, zero knowledge proof shafi goldwasser​, zero knowledge proof example
 keywords: zero, knowledge, proof
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---

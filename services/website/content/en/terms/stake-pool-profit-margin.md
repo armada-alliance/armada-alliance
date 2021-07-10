@@ -5,7 +5,7 @@ description: The percentage of total ada rewards that the stake pool operator ta
 aliases: cardano stake pool rewards, cardano stake pool profit margin, cardano stake pool revenue
 keywords: profit, margin, cardano, stake, pool, operator, rewards, revenue
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

@@ -5,6 +5,6 @@ description: The libraries and compiler for compiling Haskell into Plutus Core t
 aliases: plutus tx
 keywords: plutus, tx
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---

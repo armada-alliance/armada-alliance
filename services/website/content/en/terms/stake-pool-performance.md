@@ -5,7 +5,7 @@ description: A measure of the efficiency of a stake pool, given as a percentage,
 aliases: cardano stake pool performance, block performance, stake pool block performance, stake pool performance, blocks, produced block, rank
 keywords: cardano, stake, pool, performance, block, blocks, rank
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

@@ -5,6 +5,6 @@ description: The fifth phase of Cardano development in which treasury and govern
 aliases: voltaire, cardano
 keywords: voltaire, cardano
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---

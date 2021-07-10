@@ -5,6 +5,6 @@ description: A set of blocks that have been produced and are connected to one an
 aliases: Hard Fork
 keywords: Hard Fork, Hard Fork Combinator, HFC
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---

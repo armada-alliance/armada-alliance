@@ -5,6 +5,6 @@ description: A cryptographic token that represents a footprint of value defined 
 aliases: token, cardano token, cardano asset, cardano native asset 
 keywords: token, cardano, asset, native
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---

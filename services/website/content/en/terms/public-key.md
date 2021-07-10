@@ -5,7 +5,7 @@ description: A definition of a term
 aliases: public key, private key, hardware wallet
 keywords: public, key, keys, private
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 
