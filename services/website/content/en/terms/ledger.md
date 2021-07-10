@@ -5,6 +5,6 @@ description: A distributed database that is operated in a decentralized manner b
 aliases: books, daybook, database, distributed database, secure ledger, cardano ledger, register, record book, the ledger
 keywords: ledger, cardano ledger, the ledger, nano ledger, nano ledger x
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---

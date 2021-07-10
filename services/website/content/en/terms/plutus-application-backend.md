@@ -5,7 +5,7 @@ description: The component which manages Plutus Applications that run on users' 
 aliases: plutus application backend
 keywords: plutus, application, backend, PAB
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

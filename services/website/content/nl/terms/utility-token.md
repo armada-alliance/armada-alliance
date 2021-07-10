@@ -6,6 +6,6 @@ aliases: utility token, voting token, dao
 keywords: utility, token, voting, dao
 origin: /terms/utility-token
 identities: 
-    - slug: /identities/sublayerio
+    - id: sublayerio
       role: author
 ---

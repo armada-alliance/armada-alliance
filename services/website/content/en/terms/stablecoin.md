@@ -5,6 +5,6 @@ description: A cryptocurrency that attempts to offer stability and generally (pr
 aliases: stablecoin, ageUSD, cardano stable coins, cardano stable coin
 keywords: stablecoin, stablecoins, ageUSD
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---

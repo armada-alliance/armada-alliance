@@ -5,7 +5,7 @@ description: Second phase of Cardano development in which network decentralizati
 aliases: shelly era, shelly, cardano shelly
 keywords: shelly, era, cardano
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

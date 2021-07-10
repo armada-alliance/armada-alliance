@@ -6,6 +6,6 @@ keywords: Stake Pool Operation, Raspberry Pi, ARM
 icon: 🗻
 externalLink: https://docs.armada-alliance.com/learn/intermediate-guide/alpine-linux-os
 identities: 
-    - slug: /identities/sayshar-srn
+    - id: sayshar-srn
       role: author
 ---

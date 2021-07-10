@@ -5,7 +5,7 @@ description: Input Output Global, also referred to as Input Output Hong Kong (IO
 aliases: IOHK, Input Output Global, Input Output Hong Kong
 keywords: cardano, iog, iohk, input outout global, iog share price, iog jobs
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

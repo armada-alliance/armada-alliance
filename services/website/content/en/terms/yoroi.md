@@ -5,7 +5,7 @@ description: A light wallet for Cardano that is used to manage Ada balances and 
 aliases: yoroi wallet, cardano wallet
 keywords: cardano wallet
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

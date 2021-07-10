@@ -5,7 +5,7 @@ description: Fourth phase of Cardano development in which performance improvemen
 aliases: basho era cardano, goguen era of cardano, shelly era of cardano, voltaire era of cardano, what are the phases of cardano, cardano road map 
 keywords: basho, goguen, shelly, voltaire, roadmap, ada, cardano
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

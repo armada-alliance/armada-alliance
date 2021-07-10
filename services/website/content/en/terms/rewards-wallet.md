@@ -5,7 +5,7 @@ description: A wallet that stores ada which can be used in stake delegation. The
 aliases: cardano stake pool operator rewards wallet, cardano stake pool owner rewards wallets, cardano wallet, yoroi wallet, daedulus wallet
 keywords: cardano, stake, pool, operator, rewards, wallet, owner, delegate, staking, stake, yoroi, daedulus
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

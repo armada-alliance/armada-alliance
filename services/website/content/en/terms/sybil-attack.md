@@ -5,7 +5,7 @@ description: Sybil Attack is a type of attack seen in peer-to-peer networks in w
 aliases: sybil attack
 keywords: sybil, attack
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

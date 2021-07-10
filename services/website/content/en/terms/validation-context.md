@@ -5,6 +5,6 @@ description: A data structure containing a summary of the transaction being vali
 aliases: validator context
 keywords: validator, context
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---

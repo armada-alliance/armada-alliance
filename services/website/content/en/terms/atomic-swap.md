@@ -5,7 +5,7 @@ description: Atomic swap is a technology based on smart contracts that enables t
 aliases: atomic swap, atomic swap wallet​, atomic swap exchange​, atomic cross chain swaps​, atomic cryptocurrency exchange​, atomic swap crypto​, c++ atomic swap​, atomic wallet​, monero atomic swap​, what is an atomic swap​, atomic swap dex, best crypto trading robots
 keywords: atomic, swap, wallet, swap, exchange, cross, chain, ada, monero
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

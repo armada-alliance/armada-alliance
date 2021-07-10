@@ -5,6 +5,6 @@ description: Elected node that has been selected to create a block within the cu
 aliases: slot leader, cardano slot leader
 keywords: slot, leader, cardano, blockchain
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---

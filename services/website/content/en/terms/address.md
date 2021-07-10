@@ -5,7 +5,7 @@ description: The address of an UTXO says where the output is “going”.
 aliases: cardano address, UTXO address
 keywords: cardano, address, utxo
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

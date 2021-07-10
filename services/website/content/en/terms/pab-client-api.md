@@ -5,7 +5,7 @@ description: A program which interacts with a contract application instance via 
 aliases: PAB client API
 keywords: PAB, client, api
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

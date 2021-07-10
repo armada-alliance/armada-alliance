@@ -5,6 +5,6 @@ description: A generic term for an executable program in the ledger. In the Card
 aliases: script, scripts
 keywords: script
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---

@@ -5,7 +5,7 @@ description: A secure wallet for Ada that manages balances and provides the abil
 aliases: Hard Fork
 keywords: Hard Fork, Hard Fork Combinator, HFC
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

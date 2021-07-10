@@ -5,7 +5,7 @@ description: Altcoin is an abbreviation of “Bitcoin alternative”.
 aliases: altcoins, small caps, bitcoin alternative
 keywords: altcoins, alt, coins, bitcoin, alternative
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

@@ -1,16 +1,18 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { MDXRemote } from 'next-mdx-remote'
 import ReactPlayer from 'react-player'
 import markdownComponents from './markdownComponents'
-import pages from '../pages'
 import cx from 'classnames'
 import * as icons from './icons'
 import Link from './Link'
 import Image from './Image'
+import Context from './Context'
 
 function Page(props) {
 
-    const page = pages.find(page => page.slug === props.url)
+    const ctx = useContext(Context)
+
+    const page = ctx.pages.find(page => page.slug === props.url)
 
     if (!page) {
         return (

@@ -5,6 +5,6 @@ description: A digital token that holds certain functionality in regards to a co
 aliases: utility token, voting token, dao
 keywords: utility, token, voting, dao
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---

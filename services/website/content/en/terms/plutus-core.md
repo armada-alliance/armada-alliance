@@ -5,7 +5,7 @@ description: The programming language in which scripts on the Cardano blockchain
 aliases: plutus core
 keywords: plutus, core
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

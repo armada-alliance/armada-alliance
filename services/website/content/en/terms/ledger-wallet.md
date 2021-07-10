@@ -5,6 +5,6 @@ description: A combination of hardware and software that allows you to securely 
 aliases: Ledger wallet, Ledger hardware wallet
 keywords: Ledger, wallet
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---

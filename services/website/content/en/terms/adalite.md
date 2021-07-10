@@ -5,7 +5,7 @@ description: A simple Cardano web wallet developed by Cardano partners Vacuumlab
 aliases: adalite, hardware wallet, cardano wallet, staking cardano, cardano staking, cardano hardware wallet, vaccumlabs, cryptocurrency wallet, Trezor wallet, Ledger wallet
 keywords: ada, lite, hardware, wallet, staking, security, cardano, vaccumlabs, digital, currencies, cryptocurrency, crypto, Trezor, Ledger
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

@@ -5,7 +5,7 @@ description:  an asset that is interchangeable and indistinguishable with some o
 aliases: cardano native assets, cardano fungible tokens, cardano tokens, ada, lovelace, cardano currency, cryptocurrency
 keywords: cardano, native, assets, fungible, tokens, ada, lovelace, cryptocurrency, crypto
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

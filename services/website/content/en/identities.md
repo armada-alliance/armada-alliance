@@ -1,4 +1,4 @@
 ---
-template: IdentitiesMainPage
+template: IdentitiesPage
 title: Identities 
 ---

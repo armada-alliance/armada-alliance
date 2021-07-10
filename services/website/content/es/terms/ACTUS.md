@@ -6,6 +6,6 @@ aliases: ACTUS
 keywords: ACTUS, Algorithmic, Contract, Types, Unified, Standards, Algoritmo, Contrato, Tipos, Clasificación, Unificado
 origin: /terms/actus
 identities: 
-    - slug: /identities/alex-qxt
+    - id: alex-qxt
       role: author
 ---

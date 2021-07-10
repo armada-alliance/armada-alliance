@@ -6,8 +6,8 @@ keywords: Stake Pool Operation, Raspberry Pi, ARM
 icon: 📊
 externalLink: https://docs.armada-alliance.com/learn/intermediate-guide/add-adapools-info-to-grafana
 identities: 
-    - slug: /identities/tony-piada
+    - id: tony-piada
       role: author
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---

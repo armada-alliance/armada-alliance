@@ -5,6 +5,6 @@ description: The libraries and development tooling for writing contract applicat
 aliases: plutus sdk
 keywords: plutus, sdk
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---

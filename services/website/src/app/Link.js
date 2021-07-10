@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import { useContext } from 'react'
 import Context from './Context'
-import pages from '../pages'
 
 export default function WrappedLink(props) {
 
@@ -11,7 +10,7 @@ export default function WrappedLink(props) {
 
     if (props.internal) {
 
-        const page = pages.find(page => page.origin === props.href && page.language === ctx.language)
+        const page = ctx.pages.find(page => page.origin === props.href && page.language === ctx.language)
 
         nextProps = {
             ...nextProps,

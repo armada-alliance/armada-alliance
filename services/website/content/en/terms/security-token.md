@@ -5,7 +5,7 @@ description: A digital asset that derives its value from an external asset that 
 aliases: security token, asset-backed security tokens, stocks, bonds, synthetic assets
 keywords: security, token, asset, stocks, stonks, bonds, synthetic
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

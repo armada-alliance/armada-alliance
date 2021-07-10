@@ -6,6 +6,6 @@ description: Get more performance out of your stake pool by setting up and run a
 keywords: Coming Soon, Apple SOC
 icon: 🍎
 identities: 
-    - slug: /identities/wcat-otg
+    - id: wcat-otg
       role: author
 ---

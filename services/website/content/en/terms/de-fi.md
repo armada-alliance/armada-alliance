@@ -5,6 +5,6 @@ description: Decentralized finance. Refers to financial instruments and mechanis
 aliases: Hard Fork
 keywords: Hard Fork, Hard Fork Combinator, HFC
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---

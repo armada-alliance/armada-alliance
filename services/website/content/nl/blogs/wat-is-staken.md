@@ -5,7 +5,7 @@ description: Op de [Cardano](/en/terms/cardano.md) blockchain vertegenwoordigt d
 keywords: ada, cardano, delegating ada, hoe te delegeren, staking ada, staking
 origin: /blogs/what-is-staking
 identities: 
-    - slug: /identities/sublayerio
+    - id: sublayerio
       role: author
 ---
 

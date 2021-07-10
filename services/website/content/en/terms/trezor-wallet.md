@@ -5,7 +5,7 @@ description: Trezor Wallet is an easy-to-use browser interface for the Trezor de
 aliases: Trezor wallet
 keywords: Trezor, wallet
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

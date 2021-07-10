@@ -5,6 +5,6 @@ description: Part of a wider group of trading products known as derivatives, the
 aliases: cfd, derivatives, contract for difference
 keywords: cfd, derivative, contract, for, difference
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---

@@ -5,7 +5,7 @@ description: A hot wallet is a cryptocurrency wallet which is or was connected t
 aliases: hot wallet
 keywords: hot, wallet
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

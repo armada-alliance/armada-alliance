@@ -5,7 +5,7 @@ description: A generic term for a ledger which supports multiple different asset
 aliases: multiple assets, multi-asset, multiple tokens, cardano utxo, cardano eutxo, cardano blockchain, cardano ledger
 keywords: multi, asset, ledger, cardano
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

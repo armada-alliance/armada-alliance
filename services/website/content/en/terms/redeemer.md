@@ -5,6 +5,6 @@ description: The argument to the validator script which is provided by the trans
 aliases: redeemer
 keywords: redeemer
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---

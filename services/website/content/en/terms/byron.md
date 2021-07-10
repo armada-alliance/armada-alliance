@@ -5,7 +5,7 @@ description: The name of the first ‘boot strap’ phase of Cardano development
 aliases: byron era, cardano bootstrap era, cardano development
 keywords: byron
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

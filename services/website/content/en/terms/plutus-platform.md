@@ -5,7 +5,7 @@ description: The combined software support for writing contract applications
 aliases: plutus platform
 keywords: plutus, platform
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

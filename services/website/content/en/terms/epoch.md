@@ -5,6 +5,6 @@ description: a defined group of slots that constitute a period of time. In Carda
 aliases: epoch, slot
 keywords: epoch, slot
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---

@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import { Manager, Reference, Popper } from "react-popper";
 import { css } from "@emotion/react";
 import Popover from "./Popover";
 import Portal from "./Portal";
 import Markdown from "./Markdown";
-import pages from '../pages'
+import Context from "./Context";
 
 function QuestionIcon(props) {
 
@@ -15,9 +15,11 @@ function QuestionIcon(props) {
 
 const PageTooltip = (props) => {
 
+    const ctx = useContext(Context)
+
     const [open, setOpen] = useState(false);
 
-    const page = pages.find(page => page.slug === props.slug)
+    const page = ctx.pages.find(page => page.slug === props.slug)
 
     if (!page) {
         return props.children
@@ -61,13 +63,18 @@ const PageTooltip = (props) => {
                 `}
                             >
                                 <Popover placement={placement}>
-                                    <div className="p-6">
-                                        <div className="font-bold">{page.title}</div>
-                                        <div className="mt-2">
-                                            <Markdown
-                                                children={page.description}
-                                                className="text-sm"
-                                            />
+                                    <div className="p-4 flex items-center space-x-4" style={{ minWidth: 120 }}>
+                                        {page.image ? (
+                                            <div className="bg-white h-12 w-12 rounded-full ring-2 ring-white bg-center bg-no-repeat bg-cover" style={{ backgroundImage: `url(https://armada-alliance.com/assets/${page.image})` }} />
+                                        ) : null}
+                                        <div>
+                                            <div className="font-bold">{page.title}</div>
+                                            <div className="">
+                                                <Markdown
+                                                    children={page.description}
+                                                    className="text-sm"
+                                                />
+                                            </div>
                                         </div>
                                     </div>
                                 </Popover>

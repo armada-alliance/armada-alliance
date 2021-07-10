@@ -5,7 +5,7 @@ description: Airdrop is a term for marketing campaign launched by many ICOs in w
 aliases: airdrop, top crypto airdrops, airdrops, token launch airdrops, ICO airdrops, ethereum token airdrops, best airdrops 2021
 keywords: airdrop, crypto
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

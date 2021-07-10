@@ -1,0 +1,4 @@
+---
+template: TermsPage
+title: Terms
+---

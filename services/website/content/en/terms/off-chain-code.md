@@ -5,6 +5,6 @@ description: The part of a smart contract application’s code which runs off th
 aliases: off-chain-code, on-chain-code
 keywords: off, chain, code, smart, contracts, plutus
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---

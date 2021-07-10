@@ -5,7 +5,7 @@ description: Pledging is an important mechanism that encourages the growth of a 
 aliases: pledge, pledging, pledge ada, stake pool pledge 
 keywords: pledge, pledging, ada, stake, pool
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

@@ -1,10 +1,10 @@
-import { useState } from 'react'
+import { useState, useContext } from 'react'
 import axios from 'axios'
 import moment from 'moment'
 import lowerFirst from 'lodash/lowerFirst'
 import schema from '../schema'
-import pages from '../pages'
 import Link from './Link'
+import Context from './Context'
 
 function SubscribeForm() {
 
@@ -107,7 +107,10 @@ const navigation = {
     social: []
 }
 
-export default function Example() {
+export default function Footer() {
+
+    const { pages } = useContext(Context)
+
     return (
         <footer className="bg-white" aria-labelledby="footerHeading">
             <h2 id="footerHeading" className="sr-only">

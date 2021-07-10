@@ -5,6 +5,6 @@ description: A slot that contains a set of recent transactions on a blockchain n
 aliases: Block
 keywords: Hard Fork, Hard Fork Combinator, HFC
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---

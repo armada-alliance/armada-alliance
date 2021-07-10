@@ -5,7 +5,7 @@ description: A cryptocurrency wallet or simply wallet is a software application 
 aliases: wallet, cryptocurrency wallet
 keywords: wallet
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

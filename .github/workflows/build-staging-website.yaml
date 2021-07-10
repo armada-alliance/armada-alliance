@@ -32,10 +32,10 @@ jobs:
       env: # Or as an environment variable
         BLOCKFROST_PROJECT_ID: ${{ secrets.BLOCKFROST_PROJECT_ID }}
         GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+        IPSTACK_API_KEY: ${{ secrets.IPSTACK_API_KEY }}
       run: |
-        node src/scripts/generateAdapoolsJson.js
-        node src/scripts/generateData.js
-        node src/scripts/generatePages.js
+        node src/scripts-v2/generateTables.js
+        node src/scripts-v2/generatePageObjects.js
         npm run build
         npm run export
         git config --global user.name "${{ secrets.CI_USERNAME }}"

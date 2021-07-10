@@ -5,6 +5,6 @@ description: A significant update to the software governing a blockchain platfor
 aliases: Hard Fork
 keywords: Hard Fork, Hard Fork Combination, HFC
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---

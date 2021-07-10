@@ -5,6 +5,6 @@ description: The process by which nodes find each other on the network and initi
 aliases: peer discovery, peer to peer networks, peer-to-peer topology, cardano network peer discovery
 keywords: peer, discovery, p2p, to, networks, topology, discover
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---

@@ -12,7 +12,7 @@ module.exports = async () => {
     const contentPath = __dirname + '/../../content'
 
     const paths = walk.sync(contentPath);
-    console.log('found paths sync: ', paths);
+    // console.log('found paths sync: ', paths);
 
     const pages = await Promise.all(
         paths.map(async filePath => {
@@ -36,17 +36,21 @@ module.exports = async () => {
 
                 const string = await fs.readFile(filePath, 'utf-8')
 
-                const createdAt = getGitCreatedTimeForFile(filePath)
-                const updatedAt = getGitUpdatedTimeForFile(filePath)
+                let createdAt = null
+                let updatedAt = null
+                // const createdAt = getGitCreatedTimeForFile(filePath)
+                // const updatedAt = getGitUpdatedTimeForFile(filePath)
 
                 const data = fm(string)
+
+                const filename = slug.split("/").pop()
 
                 return {
                     language,
                     slug,
-                    // ...data.attributes,
+                    ...data.attributes,
                     origin: data.attributes.origin ? data.attributes.origin : slug,
-                    title: data.attributes.title ? data.attributes.title : slug.split("/").pop(),
+                    title: data.attributes.title ? data.attributes.title : filename,
                     description: data.attributes.description,
                     aliases: data.attributes.aliases ? data.attributes.aliases.split(',').map(trim) : null,
                     keywords: data.attributes.keywords ? data.attributes.keywords.split(',').map(trim) : null,
@@ -58,7 +62,8 @@ module.exports = async () => {
                     updatedAt,
                     createdAt,
                     params: {
-                        source: relPath
+                        source: relPath,
+                        filename
                     }
                 }
 

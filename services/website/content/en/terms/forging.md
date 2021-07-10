@@ -5,7 +5,7 @@ description: A transaction which forges tokens creates new tokens, providing tha
 aliases: forging, forge, forged, minting, minted, minting, minter, txs
 keywords: forging, forge, forged, minting, minted, minter, block, tokens, transactions, txs, tx
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

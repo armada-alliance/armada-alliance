@@ -4,7 +4,7 @@ title: How to choose a stake pool
 description: A guide to choosing a Cardano stake pool.
 keywords: 
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

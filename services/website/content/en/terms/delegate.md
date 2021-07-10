@@ -5,6 +5,6 @@ description: The process by which Ada owners can participate in the network and 
 aliases: delegation, delegating, delegate, staking
 keywords: delegation, delegating, delegate, staking 
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---

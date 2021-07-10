@@ -5,7 +5,7 @@ description: An independent standards body based in Switzerland with core respon
 aliases: Cardano Foundation
 keywords: Cardano, Foundation
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

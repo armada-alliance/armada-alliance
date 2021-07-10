@@ -3,15 +3,18 @@ import USPSection from './USPSection'
 import HeroSection from './HeroSection'
 import StatsSection from './StatsSection'
 import Layout from './Layout'
+import Component from './Component'
 
-export default function HomePage({ pools }) {
+export default function HomePage(props) {
+
+    const { pools, components } = props
 
     return (
-        <Layout>
-            <HeroSection />
-            <StatsSection pools={pools} />
+        <Component use={Layout} data={props.components.Layout}>
+            <Component use={HeroSection} data={components.HeroSection} />
+            <Component use={StatsSection} data={components.StatsSection} />
             <USPSection pools={pools} />
             <CalculatorSection />
-        </Layout>
+        </Component>
     )
 }

@@ -5,7 +5,7 @@ description: The InterPlanetary File System (IPFS) is a hypermedia distribution 
 aliases: IPFS, Interplanetary File System
 keywords: Interplanetary, File, System
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

@@ -5,7 +5,7 @@ description: A growing list of records, called blocks, that are linked using cry
 aliases: blockchain, cardano blockchain, bitcoin blockchain, what is a blockchain, cryptocurrency blockchains, blockchain developer, ledger, block, proof-of-work blockchain, proof-of-stake blockchain, proof-of-work blockchains, proof-of-stake blockchains, ethereum, doge coin, doge
 keywords: blockchain, cardano, bitcoin, ada, btc, eth, ethereum, doge 
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

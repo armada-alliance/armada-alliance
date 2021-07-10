@@ -5,6 +5,6 @@ description: Transaction per second
 aliases: tps, transactions per second
 keywords: t, p, s, transactions, per, second
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---

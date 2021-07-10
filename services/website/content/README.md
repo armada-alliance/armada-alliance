@@ -10,7 +10,7 @@ template: BlogDetailPage
 title: A blog post
 keywords: a, blog, post
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 ```
@@ -29,7 +29,7 @@ template: BlogDetailPage
 title: A blog post
 keywords: a, blog, post
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 ```
@@ -42,7 +42,7 @@ description: A definition of a term
 aliases: Term XYZ alias 1, Term XYZ alias 2, Term XYZ alias 3
 keywords: X, Y, Z
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 ```

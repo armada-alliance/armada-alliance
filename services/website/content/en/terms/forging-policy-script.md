@@ -5,6 +5,6 @@ description: A script which must be satisfied in order for a transaction to forg
 aliases: forging policy script, forging policy
 keywords: forging, policy, script
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---

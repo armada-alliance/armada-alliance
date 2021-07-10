@@ -7,7 +7,7 @@ keywords: Stake Pool Operation, Raspberry Pi, ARM
 icon: 🍓
 externalLink: https://docs.armada-alliance.com/learn/intermediate-guide/pi-pool-tutorial
 identities:
-    - slug: /identities/wcat-otg
+    - id: wcat-otg
       role: author
 ---
 Pi-Pool was originally an image Alessandro Konrad hosted on his [GitHub](https://github.com/alessandrokonrad/Pi-Pool). It had a working Grafana dashboard and came with cardano-node 1.23.0. I started using it when he released it somewhere around August 2020.

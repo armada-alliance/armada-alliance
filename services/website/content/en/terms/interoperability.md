@@ -5,6 +5,6 @@ description: One of the significant features within Cardano development that aim
 aliases: compatibility
 keywords: interaction
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---

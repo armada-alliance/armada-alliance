@@ -5,6 +5,6 @@ description: Algorithmic Contract Types Unified Standards. A taxonomy and standa
 aliases: ACTUS
 keywords: ACTUS, Algorithmic, Contract, Types, Unified, Standards
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---

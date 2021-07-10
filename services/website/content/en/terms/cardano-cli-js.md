@@ -5,7 +5,7 @@ description: This is a library, which wraps the cardano-cli with JavaScript and 
 aliases: Cardano-cli-js
 keywords: Cardano-cli-js, javascript, cardano, command line interface
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

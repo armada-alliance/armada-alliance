@@ -5,6 +5,6 @@ description: The total amount of stake that a stake pool controls. It combines t
 aliases: live stake
 keywords: live stake, what is live stake, live stake meaning
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---

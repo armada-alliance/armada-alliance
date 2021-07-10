@@ -5,7 +5,7 @@ description: UTXO stands for “Unspent Transaction Output”. In cryptocurrenci
 aliases: utxo, utxo model, cardano utxo model
 keywords: utxo, cardano
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

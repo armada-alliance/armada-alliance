@@ -5,7 +5,7 @@ description: Trezor (or Trezor device) is the original and most trusted cryptocu
 aliases: Trezor wallet, Trezor device
 keywords: Trezor, wallet
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

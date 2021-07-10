@@ -5,7 +5,7 @@ description: Decentralization refers to the property of a system in which nodes 
 aliases: decentralization, dencentralize, decentralized
 keywords: decentralization, dencentralize, decentralized
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

@@ -5,7 +5,7 @@ description: A participant on the Cardano blockchain network, continuously makin
 aliases: cardano node, cardano network nodes, cardano network node, cardano validator nodes, cardano mining nodes, cardano proof-of-stake nodes
 keywords: cardano, network, node, stake, pool, validator
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

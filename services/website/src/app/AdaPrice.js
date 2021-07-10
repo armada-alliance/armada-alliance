@@ -14,11 +14,12 @@ export default function AdaPrice({ value }) {
     const [currencyIndex, setCurrencyIndex] = useState(0)
     const [data, setData] = useState(null)
 
-    useEffect(async () => {
-        const { data } = await axios.get('https://pool.pm/total.json')
+    // useEffect(async () => {
+    //     if (data) return
+    //     const { data } = await axios.get('https://pool.pm/total.json')
 
-        setData(data)
-    }, [data])
+    //     setData(data)
+    // }, [data])
 
     const currency = currencies[currencyIndex]
 

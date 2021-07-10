@@ -5,7 +5,7 @@ description: Cryptographic protocols are often made clearer by considering parti
 aliases: alice and bob, alice, bob, cryptography, blockchain glossary, crypto glossary, understanding blockchains, crypto whitepaper
 keywords: alice, bob, eve, paul, vics
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

@@ -5,7 +5,7 @@ description: A cold wallet or cold storage is a type of cryptocurrency wallet ai
 aliases: cold wallet, cold storage, cryptocurrency cold storage
 keywords: cold, wallet,storage
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 

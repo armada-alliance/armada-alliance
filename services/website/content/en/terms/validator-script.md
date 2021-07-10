@@ -5,7 +5,7 @@ description: The script attached to a script output in the Extended UTXO model.
 aliases: validator script, validator scripts
 keywords: validator, script
 identities: 
-    - slug: /identities/wael-ivie
+    - id: wael-ivie
       role: author
 ---
 
