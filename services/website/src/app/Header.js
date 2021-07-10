@@ -2,7 +2,6 @@
 import { Fragment, useContext } from 'react'
 import Link from './Link'
 import Text from './Text'
-import schema from '../schema'
 import Context from './Context'
 import cx from 'classnames'
 import markdownToText from 'markdown-to-text'
@@ -126,9 +125,11 @@ function LanguageButton() {
 }
 
 export default function Header(props) {
-    const { components } = props
 
-    const { navigation } = schema
+    const ctx = useContext(Context)
+    const { schema } = ctx
+
+    const { components } = props
 
     return (
         <Popover className="relative bg-white">
@@ -194,40 +195,6 @@ export default function Header(props) {
                                                 <XIcon className="h-6 w-6" aria-hidden="true" />
                                             </Popover.Button>
                                         </div>
-                                    </div>
-                                    <div className="mt-6 text-sm text-gray-500 uppercase">
-                                        {navigation.general.name}
-                                    </div>
-                                    <div className="mt-4">
-                                        <nav className="grid gap-y-8">
-                                            {navigation.general.navItems.map((navItem) => (
-                                                <a
-                                                    key={navItem.name}
-                                                    href={navItem.href}
-                                                    className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
-                                                >
-                                                    <BookOpenIcon className="flex-shrink-0 h-6 w-6 text-primary-500" aria-hidden="true" />
-                                                    <span className="ml-3 text-base font-medium text-gray-900">{navItem.name}</span>
-                                                </a>
-                                            ))}
-                                        </nav>
-                                    </div>
-                                    <div className="mt-6 text-sm text-gray-500 uppercase">
-                                        {navigation.technical.name}
-                                    </div>
-                                    <div className="mt-4">
-                                        <nav className="grid gap-y-8">
-                                            {navigation.technical.navItems.map((navItem) => (
-                                                <a
-                                                    key={navItem.name}
-                                                    href={navItem.href}
-                                                    className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
-                                                >
-                                                    <BookOpenIcon className="flex-shrink-0 h-6 w-6 text-primary-500" aria-hidden="true" />
-                                                    <span className="ml-3 text-base font-medium text-gray-900">{navItem.name}</span>
-                                                </a>
-                                            ))}
-                                        </nav>
                                     </div>
                                 </div>
                             </div>

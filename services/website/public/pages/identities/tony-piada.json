@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"IdentityDetailPage\",\"version\":1},\"props\":{\"id\":\"tony-piada\",\"language\":\"en\",\"slug\":\"/identities/tony-piada\",\"origin\":\"/identities/tony-piada\",\"title\":\"Tony Burger 🚵‍♀️\",\"aliases\":null,\"keywords\":null,\"template\":\"IdentityDetailPage\",\"image\":\"/tony.jpg\",\"updatedAt\":null,\"createdAt\":null,\"filePath\":\"/en/identities/tony-piada.md\",\"website\":\"https://piada.io\",\"donationAddress\":\"addr1qx6cahvzc6rj5hn5lny5tpxgr8whqq59dert479fvvwa07dtrgnlfn9pu402t5dcknp56ajc5tk6sawp65mfpqu570psq74738\",\"verified\":true,\"body\":\"Hi, I am Tony Burger, I am the stake pool operator of PIADA and the Co-founder of the ARMing Cardano Catalyst project from fund 4. My real job is Systems analyst and software developer with application and integration expertise in automated warehouse fulfillment, management and control systems and multi-carrier shipping systems.\\n\\n<YoutubeVideo url=\\\"https://www.youtube.com/watch?v=Py3Xy3ScVas\\\" description=\\\"ARMing Cardano\\\" />\\n\\nhttps://adapulse.io/arming-cardano-an-ecosystem-for-raspberry-pi-stakepool-operators/\",\"mdxSource\":{\"compiledSource\":\"var m=Object.defineProperty,c=Object.defineProperties;var l=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var s=Object.prototype.hasOwnProperty,p=Object.prototype.propertyIsEnumerable;var i=(o,e,t)=>e in o?m(o,e,{enumerable:!0,configurable:!0,writable:!0,value:t}):o[e]=t,r=(o,e)=>{for(var t in e||(e={}))s.call(e,t)&&i(o,t,e[t]);if(n)for(var t of n(e))p.call(e,t)&&i(o,t,e[t]);return o},d=(o,e)=>c(o,l(e));var u=(o,e)=>{var t={};for(var a in o)s.call(o,a)&&e.indexOf(a)<0&&(t[a]=o[a]);if(o!=null&&n)for(var a of n(o))e.indexOf(a)<0&&p.call(o,a)&&(t[a]=o[a]);return t};const makeShortcode=o=>function(t){return console.warn(\\\"Component \\\"+o+\\\" was not imported, exported, or provided by MDXProvider as global scope\\\"),mdx(\\\"div\\\",r({},t))},YoutubeVideo=makeShortcode(\\\"YoutubeVideo\\\"),layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(t){var a=t,{components:o}=a,e=u(a,[\\\"components\\\"]);return mdx(MDXLayout,d(r(r({},layoutProps),e),{components:o,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"Hi, I am Tony Burger, I am the stake pool operator of PIADA and the Co-founder of the ARMing Cardano Catalyst project from fund 4. My real job is Systems analyst and software developer with application and integration expertise in automated warehouse fulfillment, management and control systems and multi-carrier shipping systems.\\\"),mdx(YoutubeVideo,{url:\\\"https://www.youtube.com/watch?v=Py3Xy3ScVas\\\",description:\\\"ARMing Cardano\\\",mdxType:\\\"YoutubeVideo\\\"}),mdx(\\\"p\\\",null,mdx(\\\"a\\\",r({parentName:\\\"p\\\"},{href:\\\"https://adapulse.io/arming-cardano-an-ecosystem-for-raspberry-pi-stakepool-operators/\\\"}),\\\"https://adapulse.io/arming-cardano-an-ecosystem-for-raspberry-pi-stakepool-operators/\\\")))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-10T20:37:25.780Z",
-  "_cachedIn": "2.79 ms",
-  "_resolvedIn": "2.79 ms",
+  "_cachedAt": "2021-07-10T21:40:03.458Z",
+  "_cachedIn": "15 ms",
+  "_resolvedIn": "15 ms",
   "id": "IdentityDetailPage",
   "type": "IdentityDetailPage",
   "status": "resolved",
@@ -46,17 +46,17 @@
   "attrs": {
     "component-type": "IdentityDetailPage",
     "component-id": "IdentityDetailPage",
-    "component-cached-at": "2021-07-10T20:37:25.780Z",
-    "component-cached-in": "2.79 ms",
-    "component-resolved-in": "2.79 ms"
+    "component-cached-at": "2021-07-10T21:40:03.458Z",
+    "component-cached-in": "15 ms",
+    "component-resolved-in": "15 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-10T20:37:25.779Z",
-      "_cachedIn": "2.18 ms",
-      "_resolvedIn": "2.18 ms",
+      "_cachedAt": "2021-07-10T21:40:03.457Z",
+      "_cachedIn": "13 ms",
+      "_resolvedIn": "13 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -65,22 +65,108 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-10T20:37:25.779Z",
-        "component-cached-in": "2.18 ms",
-        "component-resolved-in": "2.18 ms"
+        "component-cached-at": "2021-07-10T21:40:03.457Z",
+        "component-cached-in": "13 ms",
+        "component-resolved-in": "13 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-10T20:37:25.779Z",
-          "_cachedIn": "736 μs",
-          "_resolvedIn": "736 μs",
+          "_cachedAt": "2021-07-10T21:40:03.455Z",
+          "_cachedIn": "6.09 ms",
+          "_resolvedIn": "6.09 ms",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
           "error": null,
           "props": {
+            "schema": {
+              "createdAt": "2021-07-10T21:18:32.131Z",
+              "about": {
+                "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
+                "github": "https://github.com/armada-alliance/armada-alliance",
+                "telegram": "https://t.me/armada_alli",
+                "discord": "https://discord.gg/6Q4mk7RTWn",
+                "gitbook": "https://armada-alliance.gitbook.io/",
+                "catalyst": "https://adapulse.io/arming-cardano-an-ecosystem-for-raspberry-pi-stakepool-operators/",
+                "adafolio": "https://adafolio.com/portfolio/2027fd88-a9e1-11eb-a580-0242c0a80002",
+                "name": "Armada Alliance",
+                "description_short": "Alliance of Raspberry Pi and ARM based Stake Pools.",
+                "description_long": "The Armada alliance was formed in efforts to build a sustainable community of decentralized, low-cost, and energy-efficient stake pool operations on the Cardano blockchain 🌍🌿 All Stake Pools in this alliance run on either Raspberry Pis exclusively or on other low power consuming ARM-based machines with an average pool energy consumption of less than 40 Watts💡",
+                "website": "https://armada-alliance.com",
+                "url_png_icon_64x64": "https://github.com/armada-alliance/Logo/blob/main/ship-420-40kb.png?raw=true",
+                "url_png_logo": "https://github.com/armada-alliance/Logo/blob/main/ship-420-50kb.png?raw=true",
+                "social": {
+                  "twitter_handle": "",
+                  "telegram_handle": "armada_alli",
+                  "facebook_handle": "",
+                  "youtube_handle": "",
+                  "twitch_handle": "",
+                  "discord_handle": "",
+                  "github_handle": "armada-alliance"
+                },
+                "types": {
+                  "charity": false,
+                  "business": false,
+                  "beneficial": true
+                }
+              },
+              "roadmap": {
+                "items": [
+                  {
+                    "name": "Explore the idea where we set up a treasury where people can delegate to that will be automatically assigned to pools that are in need of delegation using smart contracts",
+                    "completed": false,
+                    "date": "2021-07-01"
+                  },
+                  {
+                    "name": "Create a validation page for stake pool members of the alliance to check for missing info",
+                    "completed": false,
+                    "date": "2021-06-01"
+                  },
+                  {
+                    "name": "Maintain Armada Alliance Official ARM-based static build using GitHub Actions and put people on a mailinglist for new releases (including pre-releases)",
+                    "completed": false,
+                    "date": "2021-06-01"
+                  },
+                  {
+                    "name": "Release a YouTube video on how to setup a cardano node + cli & quick db sync with Docker in under 30 minutes",
+                    "completed": false,
+                    "date": "2021-06-01"
+                  },
+                  {
+                    "name": "Explore utility tokens for delegators of our community",
+                    "completed": false,
+                    "date": "2021-06-01"
+                  },
+                  {
+                    "name": "Mint specials tokens for delegators of our community",
+                    "completed": false,
+                    "date": "2021-06-01"
+                  },
+                  {
+                    "name": "Simplify the registration process for new stake pools, most data already comes from metadata & extended metadata",
+                    "completed": false,
+                    "date": "2021-06-01"
+                  },
+                  {
+                    "name": "Support metrics endpoint for stake pools that will expose basic metrics that can be shown on the website",
+                    "completed": false,
+                    "date": "2021-06-01"
+                  },
+                  {
+                    "name": "Launch first version of the [website](https://armada-alliance.com)",
+                    "completed": true,
+                    "date": "2021-04-30"
+                  },
+                  {
+                    "name": "Create a [repository](https://github.com/armada-alliance/armada-alliance) where people can register",
+                    "completed": true,
+                    "date": "2021-04-18"
+                  }
+                ]
+              }
+            },
             "languages": [
               {
                 "id": "en",
@@ -6514,18 +6600,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-10T20:37:25.779Z",
-            "component-cached-in": "736 μs",
-            "component-resolved-in": "736 μs"
+            "component-cached-at": "2021-07-10T21:40:03.455Z",
+            "component-cached-in": "6.09 ms",
+            "component-resolved-in": "6.09 ms"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-10T20:37:25.779Z",
-          "_cachedIn": "939 μs",
-          "_resolvedIn": "939 μs",
+          "_cachedAt": "2021-07-10T21:40:03.456Z",
+          "_cachedIn": "7.63 ms",
+          "_resolvedIn": "7.63 ms",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6536,17 +6622,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-10T20:37:25.779Z",
-            "component-cached-in": "939 μs",
-            "component-resolved-in": "939 μs"
+            "component-cached-at": "2021-07-10T21:40:03.456Z",
+            "component-cached-in": "7.63 ms",
+            "component-resolved-in": "7.63 ms"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-10T20:37:25.779Z",
-              "_cachedIn": "213 μs",
-              "_resolvedIn": "213 μs",
+              "_cachedAt": "2021-07-10T21:40:03.456Z",
+              "_cachedIn": "1.44 ms",
+              "_resolvedIn": "1.44 ms",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6590,9 +6676,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-10T20:37:25.779Z",
-                "component-cached-in": "213 μs",
-                "component-resolved-in": "213 μs"
+                "component-cached-at": "2021-07-10T21:40:03.456Z",
+                "component-cached-in": "1.44 ms",
+                "component-resolved-in": "1.44 ms"
               },
               "components": {}
             }
@@ -6601,9 +6687,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-10T20:37:25.779Z",
-          "_cachedIn": "387 μs",
-          "_resolvedIn": "387 μs",
+          "_cachedAt": "2021-07-10T21:40:03.451Z",
+          "_cachedIn": "2.62 ms",
+          "_resolvedIn": "2.62 ms",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -6612,9 +6698,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-10T20:37:25.779Z",
-            "component-cached-in": "387 μs",
-            "component-resolved-in": "387 μs"
+            "component-cached-at": "2021-07-10T21:40:03.451Z",
+            "component-cached-in": "2.62 ms",
+            "component-resolved-in": "2.62 ms"
           },
           "components": {}
         }
@@ -6623,9 +6709,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-10T20:37:25.779Z",
-      "_cachedIn": "1.75 ms",
-      "_resolvedIn": "1.75 ms",
+      "_cachedAt": "2021-07-10T21:40:03.454Z",
+      "_cachedIn": "9.73 ms",
+      "_resolvedIn": "9.73 ms",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -6639,18 +6725,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-10T20:37:25.779Z",
-        "component-cached-in": "1.75 ms",
-        "component-resolved-in": "1.75 ms"
+        "component-cached-at": "2021-07-10T21:40:03.454Z",
+        "component-cached-in": "9.73 ms",
+        "component-resolved-in": "9.73 ms"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-10T20:37:25.779Z",
-      "_cachedIn": "1.36 ms",
-      "_resolvedIn": "1.36 ms",
+      "_cachedAt": "2021-07-10T21:40:03.450Z",
+      "_cachedIn": "5.77 ms",
+      "_resolvedIn": "5.77 ms",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -6659,18 +6745,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-10T20:37:25.779Z",
-        "component-cached-in": "1.36 ms",
-        "component-resolved-in": "1.36 ms"
+        "component-cached-at": "2021-07-10T21:40:03.450Z",
+        "component-cached-in": "5.77 ms",
+        "component-resolved-in": "5.77 ms"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-10T20:37:25.779Z",
-      "_cachedIn": "1.75 ms",
-      "_resolvedIn": "1.75 ms",
+      "_cachedAt": "2021-07-10T21:40:03.454Z",
+      "_cachedIn": "9.73 ms",
+      "_resolvedIn": "9.73 ms",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -6690,18 +6776,18 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-10T20:37:25.779Z",
-        "component-cached-in": "1.75 ms",
-        "component-resolved-in": "1.75 ms"
+        "component-cached-at": "2021-07-10T21:40:03.454Z",
+        "component-cached-in": "9.73 ms",
+        "component-resolved-in": "9.73 ms"
       },
       "components": {}
     },
     "PostPagesSection": {
       "_cacheKey": "{\"component\":{\"type\":\"PostPagesSection\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-10T20:37:25.779Z",
-      "_cachedIn": "1.36 ms",
-      "_resolvedIn": "1.36 ms",
+      "_cachedAt": "2021-07-10T21:40:03.450Z",
+      "_cachedIn": "5.77 ms",
+      "_resolvedIn": "5.77 ms",
       "id": "PostPagesSection",
       "type": "PostPagesSection",
       "status": "resolved",
@@ -6767,9 +6853,9 @@
       "attrs": {
         "component-type": "PostPagesSection",
         "component-id": "PostPagesSection",
-        "component-cached-at": "2021-07-10T20:37:25.779Z",
-        "component-cached-in": "1.36 ms",
-        "component-resolved-in": "1.36 ms"
+        "component-cached-at": "2021-07-10T21:40:03.450Z",
+        "component-cached-in": "5.77 ms",
+        "component-resolved-in": "5.77 ms"
       },
       "components": {}
     }
