@@ -1,8 +1,12 @@
-import schema from "../schema"
+import { useContext } from 'react'
 import Link from './Link'
 import WithPageTooltip from './WithPageTooltip'
+import Context from './Context'
 
 export default function HeroSection({ text, poolCount, identities }) {
+    const ctx = useContext(Context)
+    const { schema } = ctx
+
     return (
         <div className="relative bg-gray-50 overflow-hidden">
             <div className="pb-16 sm:pb-24">

@@ -2,7 +2,6 @@ import { useState, useContext } from 'react'
 import axios from 'axios'
 import moment from 'moment'
 import lowerFirst from 'lodash/lowerFirst'
-import schema from '../schema'
 import Link from './Link'
 import Context from './Context'
 
@@ -63,53 +62,9 @@ function SubscribeForm() {
     )
 }
 
-/*
-  This example requires Tailwind CSS v2.0+ 
-  
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ]
-  }
-  ```
-*/
-const navigation = {
-    solutions: [
-        { name: 'Marketing', href: '#' },
-        { name: 'Analytics', href: '#' },
-        { name: 'Commerce', href: '#' },
-        { name: 'Insights', href: '#' },
-    ],
-    support: [
-        { name: 'Pricing', href: '#' },
-        { name: 'Documentation', href: '#' },
-        { name: 'Guides', href: '#' },
-        { name: 'API Status', href: '#' },
-    ],
-    company: [
-        { name: 'About', href: '#' },
-        { name: 'Blog', href: '#' },
-        { name: 'Jobs', href: '#' },
-        { name: 'Press', href: '#' },
-        { name: 'Partners', href: '#' },
-    ],
-    legal: [
-        { name: 'Claim', href: '#' },
-        { name: 'Privacy', href: '#' },
-        { name: 'Terms', href: '#' },
-    ],
-    social: []
-}
-
 export default function Footer() {
 
-    const { pages } = useContext(Context)
+    const { pages, schema } = useContext(Context)
 
     return (
         <footer className="bg-white" aria-labelledby="footerHeading">
@@ -123,25 +78,25 @@ export default function Footer() {
                             <div>
                                 <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">Solutions</h3>
                                 <ul className="mt-4 space-y-4">
-                                    {navigation.solutions.map((item) => (
+                                    {/* {navigation.solutions.map((item) => (
                                         <li key={item.name}>
                                             <a href={item.href} className="text-base text-gray-500 hover:text-gray-900">
                                                 {item.name}
                                             </a>
                                         </li>
-                                    ))}
+                                    ))} */}
                                 </ul>
                             </div>
                             <div className="mt-12 md:mt-0">
                                 <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">Support</h3>
                                 <ul className="mt-4 space-y-4">
-                                    {navigation.support.map((item) => (
+                                    {/* {navigation.support.map((item) => (
                                         <li key={item.name}>
                                             <a href={item.href} className="text-base text-gray-500 hover:text-gray-900">
                                                 {item.name}
                                             </a>
                                         </li>
-                                    ))}
+                                    ))} */}
                                 </ul>
                             </div>
                         </div>
@@ -149,25 +104,25 @@ export default function Footer() {
                             <div>
                                 <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">Company</h3>
                                 <ul className="mt-4 space-y-4">
-                                    {navigation.company.map((item) => (
+                                    {/* {navigation.company.map((item) => (
                                         <li key={item.name}>
                                             <a href={item.href} className="text-base text-gray-500 hover:text-gray-900">
                                                 {item.name}
                                             </a>
                                         </li>
-                                    ))}
+                                    ))} */}
                                 </ul>
                             </div>
                             <div className="mt-12 md:mt-0">
                                 <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">Legal</h3>
                                 <ul className="mt-4 space-y-4">
-                                    {navigation.legal.map((item) => (
+                                    {/* {navigation.legal.map((item) => (
                                         <li key={item.name}>
                                             <a href={item.href} className="text-base text-gray-500 hover:text-gray-900">
                                                 {item.name}
                                             </a>
                                         </li>
-                                    ))}
+                                    ))} */}
                                 </ul>
                             </div>
                         </div>
@@ -184,12 +139,12 @@ export default function Footer() {
                 </div>
                 <div className="mt-8 border-t border-gray-200 pt-8 md:flex md:items-center md:justify-between">
                     <div className="flex space-x-6 md:order-2">
-                        {navigation.social.map((item) => (
+                        {/* {navigation.social.map((item) => (
                             <a key={item.name} href={item.href} target="_blank" className="text-gray-400 hover:text-gray-500">
                                 <span className="sr-only">{item.name}</span>
                                 <item.icon className="h-6 w-6" aria-hidden="true" />
                             </a>
-                        ))}
+                        ))} */}
                     </div>
                     <p className="mt-8 flex items-center text-base text-gray-400 md:mt-0 md:order-1">
                         <div>

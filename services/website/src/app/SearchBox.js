@@ -1,6 +1,5 @@
 import { Fragment, useState, useContext, useRef, useEffect } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
-import templates from '../templates'
 import * as JsSearch from 'js-search'
 import { ChevronRightIcon, SearchIcon } from '@heroicons/react/outline'
 import Context from './Context'
@@ -114,11 +113,6 @@ export default function SearchBox(props) {
     })
 
     const handleMove = () => setMoved(true)
-
-    const templatesById = templates.reduce((result, template) => {
-        result[template.id] = template
-        return result
-    }, {})
 
     const pagesForLanguage = ctx.pages
         .filter(page =>
@@ -275,31 +269,6 @@ export default function SearchBox(props) {
                                                 </div>
                                             </div>
                                         )}
-                                    {false ? (
-                                        <div ref={searchViewRef} className={cx("h-96 overflow-x-hidden overflow-y-auto", !moved ? "pointer-events-none" : null)}>
-                                            <div className="space-y-2 py-4 px-4">
-                                                {results.map((page, resultIndex) => {
-
-                                                    return (
-                                                        <Link href={page.slug}>
-                                                            <a
-                                                                className={cx("px-6 py-4 rounded-lg bg-gray-50 cursor-pointer flex items-center", index === resultIndex ? "bg-primary-500 text-white" : null)}
-                                                                onMouseEnter={() => handleSetIndex(resultIndex)}
-                                                                onClick={() => setOpen(false)}
-                                                            >
-                                                                <div className="font-bold text-sm">
-                                                                    {page.title}
-                                                                </div>
-                                                                <div className={cx("ml-auto text-xs", index === resultIndex ? "opacity-75" : "opacity-50")}>
-                                                                    {templatesById[page.template].name}
-                                                                </div>
-                                                            </a>
-                                                        </Link>
-                                                    )
-                                                })}
-                                            </div>
-                                        </div>
-                                    ) : null}
                                 </div>
                             </div>
                         </Transition.Child>

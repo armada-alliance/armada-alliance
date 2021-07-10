@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"nft\",\"language\":\"en\",\"slug\":\"/terms/nft\",\"origin\":\"/terms/nft\",\"title\":\"Non-fungible token/asset (NFT)\",\"description\":\"Non-fungible tokens (NFTs) are digital assets that are provably unique, creating digital scarcity. They can't be duplicated or divided.\",\"aliases\":[\"nft\",\"token\",\"non-fungible token\",\"cardano nft market​\",\"free cardano nfts​\",\"cardano nft games​\",\"cardano tales nft​\",\"cardano token address​\",\"ada nft​\",\"spacebudz nft​\",\"how do nft's work\"],\"keywords\":[\"nft\",\"token\",\"asset\",\"cardano\",\"spacebudz\",\"non-fungible\",\"ada\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":null,\"createdAt\":null,\"filePath\":\"/en/terms/nft.md\",\"body\":\"A unique asset that is not interchangeable with any other asset(s). \\nNon-fungible assets represent specific information (IP rights for example), and act as one unit that cannot be divided into smaller fractions. Non-fungible tokens have unique attributes; they are usually linked to a specific asset. They can be used to prove the ownership of digital items like game skins right through to the ownership of physical assets.\\n\\nOther tokens are fungible, in the same way as coins or banknotes. Fungible tokens are identical, they have the same attributes and value when exchanged.\\n\\nFollow our guide to making a NFT on cardano located [here](https://docs.armada-alliance.com/learn/cardano-developer-guides/cardano-nft-collection-tutorial-coming-soon)\\n\\n<Page url={'/identities/spacebudz'} />\",\"mdxSource\":{\"compiledSource\":\"var d=Object.defineProperty,p=Object.defineProperties;var h=Object.getOwnPropertyDescriptors;var s=Object.getOwnPropertySymbols;var i=Object.prototype.hasOwnProperty,r=Object.prototype.propertyIsEnumerable;var c=(e,t,o)=>t in e?d(e,t,{enumerable:!0,configurable:!0,writable:!0,value:o}):e[t]=o,n=(e,t)=>{for(var o in t||(t={}))i.call(t,o)&&c(e,o,t[o]);if(s)for(var o of s(t))r.call(t,o)&&c(e,o,t[o]);return e},l=(e,t)=>p(e,h(t));var u=(e,t)=>{var o={};for(var a in e)i.call(e,a)&&t.indexOf(a)<0&&(o[a]=e[a]);if(e!=null&&s)for(var a of s(e))t.indexOf(a)<0&&r.call(e,a)&&(o[a]=e[a]);return o};const makeShortcode=e=>function(o){return console.warn(\\\"Component \\\"+e+\\\" was not imported, exported, or provided by MDXProvider as global scope\\\"),mdx(\\\"div\\\",n({},o))},Page=makeShortcode(\\\"Page\\\"),layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(o){var a=o,{components:e}=a,t=u(a,[\\\"components\\\"]);return mdx(MDXLayout,l(n(n({},layoutProps),t),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,`A unique asset that is not interchangeable with any other asset(s).\\nNon-fungible assets represent specific information (IP rights for example), and act as one unit that cannot be divided into smaller fractions. Non-fungible tokens have unique attributes; they are usually linked to a specific asset. They can be used to prove the ownership of digital items like game skins right through to the ownership of physical assets.`),mdx(\\\"p\\\",null,\\\"Other tokens are fungible, in the same way as coins or banknotes. Fungible tokens are identical, they have the same attributes and value when exchanged.\\\"),mdx(\\\"p\\\",null,\\\"Follow our guide to making a NFT on cardano located \\\",mdx(\\\"a\\\",n({parentName:\\\"p\\\"},{href:\\\"https://docs.armada-alliance.com/learn/cardano-developer-guides/cardano-nft-collection-tutorial-coming-soon\\\"}),\\\"here\\\")),mdx(Page,{url:\\\"/identities/spacebudz\\\",mdxType:\\\"Page\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-10T20:37:27.056Z",
-  "_cachedIn": "3.27 ms",
-  "_resolvedIn": "3.27 ms",
+  "_cachedAt": "2021-07-10T21:40:04.942Z",
+  "_cachedIn": "2.49 ms",
+  "_resolvedIn": "2.49 ms",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -57,17 +57,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-10T20:37:27.056Z",
-    "component-cached-in": "3.27 ms",
-    "component-resolved-in": "3.27 ms"
+    "component-cached-at": "2021-07-10T21:40:04.942Z",
+    "component-cached-in": "2.49 ms",
+    "component-resolved-in": "2.49 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-10T20:37:27.056Z",
-      "_cachedIn": "2.2 ms",
-      "_resolvedIn": "2.2 ms",
+      "_cachedAt": "2021-07-10T21:40:04.941Z",
+      "_cachedIn": "1.67 ms",
+      "_resolvedIn": "1.67 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -76,22 +76,108 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-10T20:37:27.056Z",
-        "component-cached-in": "2.2 ms",
-        "component-resolved-in": "2.2 ms"
+        "component-cached-at": "2021-07-10T21:40:04.941Z",
+        "component-cached-in": "1.67 ms",
+        "component-resolved-in": "1.67 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-10T20:37:27.055Z",
-          "_cachedIn": "1.02 ms",
-          "_resolvedIn": "1.02 ms",
+          "_cachedAt": "2021-07-10T21:40:04.941Z",
+          "_cachedIn": "978 μs",
+          "_resolvedIn": "978 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
           "error": null,
           "props": {
+            "schema": {
+              "createdAt": "2021-07-10T21:18:32.131Z",
+              "about": {
+                "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
+                "github": "https://github.com/armada-alliance/armada-alliance",
+                "telegram": "https://t.me/armada_alli",
+                "discord": "https://discord.gg/6Q4mk7RTWn",
+                "gitbook": "https://armada-alliance.gitbook.io/",
+                "catalyst": "https://adapulse.io/arming-cardano-an-ecosystem-for-raspberry-pi-stakepool-operators/",
+                "adafolio": "https://adafolio.com/portfolio/2027fd88-a9e1-11eb-a580-0242c0a80002",
+                "name": "Armada Alliance",
+                "description_short": "Alliance of Raspberry Pi and ARM based Stake Pools.",
+                "description_long": "The Armada alliance was formed in efforts to build a sustainable community of decentralized, low-cost, and energy-efficient stake pool operations on the Cardano blockchain 🌍🌿 All Stake Pools in this alliance run on either Raspberry Pis exclusively or on other low power consuming ARM-based machines with an average pool energy consumption of less than 40 Watts💡",
+                "website": "https://armada-alliance.com",
+                "url_png_icon_64x64": "https://github.com/armada-alliance/Logo/blob/main/ship-420-40kb.png?raw=true",
+                "url_png_logo": "https://github.com/armada-alliance/Logo/blob/main/ship-420-50kb.png?raw=true",
+                "social": {
+                  "twitter_handle": "",
+                  "telegram_handle": "armada_alli",
+                  "facebook_handle": "",
+                  "youtube_handle": "",
+                  "twitch_handle": "",
+                  "discord_handle": "",
+                  "github_handle": "armada-alliance"
+                },
+                "types": {
+                  "charity": false,
+                  "business": false,
+                  "beneficial": true
+                }
+              },
+              "roadmap": {
+                "items": [
+                  {
+                    "name": "Explore the idea where we set up a treasury where people can delegate to that will be automatically assigned to pools that are in need of delegation using smart contracts",
+                    "completed": false,
+                    "date": "2021-07-01"
+                  },
+                  {
+                    "name": "Create a validation page for stake pool members of the alliance to check for missing info",
+                    "completed": false,
+                    "date": "2021-06-01"
+                  },
+                  {
+                    "name": "Maintain Armada Alliance Official ARM-based static build using GitHub Actions and put people on a mailinglist for new releases (including pre-releases)",
+                    "completed": false,
+                    "date": "2021-06-01"
+                  },
+                  {
+                    "name": "Release a YouTube video on how to setup a cardano node + cli & quick db sync with Docker in under 30 minutes",
+                    "completed": false,
+                    "date": "2021-06-01"
+                  },
+                  {
+                    "name": "Explore utility tokens for delegators of our community",
+                    "completed": false,
+                    "date": "2021-06-01"
+                  },
+                  {
+                    "name": "Mint specials tokens for delegators of our community",
+                    "completed": false,
+                    "date": "2021-06-01"
+                  },
+                  {
+                    "name": "Simplify the registration process for new stake pools, most data already comes from metadata & extended metadata",
+                    "completed": false,
+                    "date": "2021-06-01"
+                  },
+                  {
+                    "name": "Support metrics endpoint for stake pools that will expose basic metrics that can be shown on the website",
+                    "completed": false,
+                    "date": "2021-06-01"
+                  },
+                  {
+                    "name": "Launch first version of the [website](https://armada-alliance.com)",
+                    "completed": true,
+                    "date": "2021-04-30"
+                  },
+                  {
+                    "name": "Create a [repository](https://github.com/armada-alliance/armada-alliance) where people can register",
+                    "completed": true,
+                    "date": "2021-04-18"
+                  }
+                ]
+              }
+            },
             "languages": [
               {
                 "id": "en",
@@ -6525,18 +6611,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-10T20:37:27.055Z",
-            "component-cached-in": "1.02 ms",
-            "component-resolved-in": "1.02 ms"
+            "component-cached-at": "2021-07-10T21:40:04.941Z",
+            "component-cached-in": "978 μs",
+            "component-resolved-in": "978 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-10T20:37:27.056Z",
-          "_cachedIn": "1.47 ms",
-          "_resolvedIn": "1.47 ms",
+          "_cachedAt": "2021-07-10T21:40:04.941Z",
+          "_cachedIn": "1.29 ms",
+          "_resolvedIn": "1.29 ms",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6547,17 +6633,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-10T20:37:27.056Z",
-            "component-cached-in": "1.47 ms",
-            "component-resolved-in": "1.47 ms"
+            "component-cached-at": "2021-07-10T21:40:04.941Z",
+            "component-cached-in": "1.29 ms",
+            "component-resolved-in": "1.29 ms"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-10T20:37:27.056Z",
-              "_cachedIn": "316 μs",
-              "_resolvedIn": "316 μs",
+              "_cachedAt": "2021-07-10T21:40:04.941Z",
+              "_cachedIn": "249 μs",
+              "_resolvedIn": "249 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6601,9 +6687,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-10T20:37:27.056Z",
-                "component-cached-in": "316 μs",
-                "component-resolved-in": "316 μs"
+                "component-cached-at": "2021-07-10T21:40:04.941Z",
+                "component-cached-in": "249 μs",
+                "component-resolved-in": "249 μs"
               },
               "components": {}
             }
@@ -6612,9 +6698,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-10T20:37:27.055Z",
-          "_cachedIn": "582 μs",
-          "_resolvedIn": "582 μs",
+          "_cachedAt": "2021-07-10T21:40:04.940Z",
+          "_cachedIn": "499 μs",
+          "_resolvedIn": "499 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -6623,9 +6709,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-10T20:37:27.055Z",
-            "component-cached-in": "582 μs",
-            "component-resolved-in": "582 μs"
+            "component-cached-at": "2021-07-10T21:40:04.940Z",
+            "component-cached-in": "499 μs",
+            "component-resolved-in": "499 μs"
           },
           "components": {}
         }
@@ -6634,9 +6720,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-10T20:37:27.055Z",
-      "_cachedIn": "1.34 ms",
-      "_resolvedIn": "1.34 ms",
+      "_cachedAt": "2021-07-10T21:40:04.941Z",
+      "_cachedIn": "995 μs",
+      "_resolvedIn": "995 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -6663,18 +6749,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-10T20:37:27.055Z",
-        "component-cached-in": "1.34 ms",
-        "component-resolved-in": "1.34 ms"
+        "component-cached-at": "2021-07-10T21:40:04.941Z",
+        "component-cached-in": "995 μs",
+        "component-resolved-in": "995 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-10T20:37:27.055Z",
-      "_cachedIn": "752 μs",
-      "_resolvedIn": "752 μs",
+      "_cachedAt": "2021-07-10T21:40:04.940Z",
+      "_cachedIn": "423 μs",
+      "_resolvedIn": "423 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -6686,18 +6772,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-10T20:37:27.055Z",
-        "component-cached-in": "752 μs",
-        "component-resolved-in": "752 μs"
+        "component-cached-at": "2021-07-10T21:40:04.940Z",
+        "component-cached-in": "423 μs",
+        "component-resolved-in": "423 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-10T20:37:27.055Z",
-      "_cachedIn": "1.34 ms",
-      "_resolvedIn": "1.34 ms",
+      "_cachedAt": "2021-07-10T21:40:04.941Z",
+      "_cachedIn": "996 μs",
+      "_resolvedIn": "996 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -6715,9 +6801,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-10T20:37:27.055Z",
-        "component-cached-in": "1.34 ms",
-        "component-resolved-in": "1.34 ms"
+        "component-cached-at": "2021-07-10T21:40:04.941Z",
+        "component-cached-in": "996 μs",
+        "component-resolved-in": "996 μs"
       },
       "components": {}
     }

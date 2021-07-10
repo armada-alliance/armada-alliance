@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"trezor-wallet\",\"language\":\"en\",\"slug\":\"/terms/trezor-wallet\",\"origin\":\"/terms/trezor-wallet\",\"title\":\"Trezor wallet\",\"description\":\"Trezor Wallet is an easy-to-use browser interface for the Trezor device powered by SatoshiLabs.\",\"aliases\":[\"Trezor wallet\"],\"keywords\":[\"Trezor\",\"wallet\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":null,\"createdAt\":null,\"filePath\":\"/en/terms/trezor-wallet.md\",\"body\":\"Using the Wallet, you can easily setup the device, manage your cryptocurrency assets, initiate transfers to other services or friends, and more.\\n\\nIt is the official production-level, battle-tested version of the web-wallet interface. It is feature-conservative, meaning new functions are added at a slower pace and only after they are thoroughly tested. The purpose of this wallet is to provide a stable and uninterrupted access to Trezor functions.\\n\",\"mdxSource\":{\"compiledSource\":\"var l=Object.defineProperty,d=Object.defineProperties;var y=Object.getOwnPropertyDescriptors;var a=Object.getOwnPropertySymbols;var s=Object.prototype.hasOwnProperty,i=Object.prototype.propertyIsEnumerable;var c=(e,t,o)=>t in e?l(e,t,{enumerable:!0,configurable:!0,writable:!0,value:o}):e[t]=o,r=(e,t)=>{for(var o in t||(t={}))s.call(t,o)&&c(e,o,t[o]);if(a)for(var o of a(t))i.call(t,o)&&c(e,o,t[o]);return e},u=(e,t)=>d(e,y(t));var p=(e,t)=>{var o={};for(var n in e)s.call(e,n)&&t.indexOf(n)<0&&(o[n]=e[n]);if(e!=null&&a)for(var n of a(e))t.indexOf(n)<0&&i.call(e,n)&&(o[n]=e[n]);return o};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(o){var n=o,{components:e}=n,t=p(n,[\\\"components\\\"]);return mdx(MDXLayout,u(r(r({},layoutProps),t),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"Using the Wallet, you can easily setup the device, manage your cryptocurrency assets, initiate transfers to other services or friends, and more.\\\"),mdx(\\\"p\\\",null,\\\"It is the official production-level, battle-tested version of the web-wallet interface. It is feature-conservative, meaning new functions are added at a slower pace and only after they are thoroughly tested. The purpose of this wallet is to provide a stable and uninterrupted access to Trezor functions.\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-10T20:37:27.521Z",
-  "_cachedIn": "2.84 ms",
-  "_resolvedIn": "2.84 ms",
+  "_cachedAt": "2021-07-10T21:40:05.381Z",
+  "_cachedIn": "2.35 ms",
+  "_resolvedIn": "2.35 ms",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -42,17 +42,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-10T20:37:27.521Z",
-    "component-cached-in": "2.84 ms",
-    "component-resolved-in": "2.84 ms"
+    "component-cached-at": "2021-07-10T21:40:05.381Z",
+    "component-cached-in": "2.35 ms",
+    "component-resolved-in": "2.35 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-10T20:37:27.521Z",
-      "_cachedIn": "2.01 ms",
-      "_resolvedIn": "2.01 ms",
+      "_cachedAt": "2021-07-10T21:40:05.380Z",
+      "_cachedIn": "1.68 ms",
+      "_resolvedIn": "1.68 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -61,22 +61,108 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-10T20:37:27.521Z",
-        "component-cached-in": "2.01 ms",
-        "component-resolved-in": "2.01 ms"
+        "component-cached-at": "2021-07-10T21:40:05.380Z",
+        "component-cached-in": "1.68 ms",
+        "component-resolved-in": "1.68 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-10T20:37:27.520Z",
-          "_cachedIn": "1.2 ms",
-          "_resolvedIn": "1.2 ms",
+          "_cachedAt": "2021-07-10T21:40:05.380Z",
+          "_cachedIn": "983 μs",
+          "_resolvedIn": "983 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
           "error": null,
           "props": {
+            "schema": {
+              "createdAt": "2021-07-10T21:18:32.131Z",
+              "about": {
+                "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
+                "github": "https://github.com/armada-alliance/armada-alliance",
+                "telegram": "https://t.me/armada_alli",
+                "discord": "https://discord.gg/6Q4mk7RTWn",
+                "gitbook": "https://armada-alliance.gitbook.io/",
+                "catalyst": "https://adapulse.io/arming-cardano-an-ecosystem-for-raspberry-pi-stakepool-operators/",
+                "adafolio": "https://adafolio.com/portfolio/2027fd88-a9e1-11eb-a580-0242c0a80002",
+                "name": "Armada Alliance",
+                "description_short": "Alliance of Raspberry Pi and ARM based Stake Pools.",
+                "description_long": "The Armada alliance was formed in efforts to build a sustainable community of decentralized, low-cost, and energy-efficient stake pool operations on the Cardano blockchain 🌍🌿 All Stake Pools in this alliance run on either Raspberry Pis exclusively or on other low power consuming ARM-based machines with an average pool energy consumption of less than 40 Watts💡",
+                "website": "https://armada-alliance.com",
+                "url_png_icon_64x64": "https://github.com/armada-alliance/Logo/blob/main/ship-420-40kb.png?raw=true",
+                "url_png_logo": "https://github.com/armada-alliance/Logo/blob/main/ship-420-50kb.png?raw=true",
+                "social": {
+                  "twitter_handle": "",
+                  "telegram_handle": "armada_alli",
+                  "facebook_handle": "",
+                  "youtube_handle": "",
+                  "twitch_handle": "",
+                  "discord_handle": "",
+                  "github_handle": "armada-alliance"
+                },
+                "types": {
+                  "charity": false,
+                  "business": false,
+                  "beneficial": true
+                }
+              },
+              "roadmap": {
+                "items": [
+                  {
+                    "name": "Explore the idea where we set up a treasury where people can delegate to that will be automatically assigned to pools that are in need of delegation using smart contracts",
+                    "completed": false,
+                    "date": "2021-07-01"
+                  },
+                  {
+                    "name": "Create a validation page for stake pool members of the alliance to check for missing info",
+                    "completed": false,
+                    "date": "2021-06-01"
+                  },
+                  {
+                    "name": "Maintain Armada Alliance Official ARM-based static build using GitHub Actions and put people on a mailinglist for new releases (including pre-releases)",
+                    "completed": false,
+                    "date": "2021-06-01"
+                  },
+                  {
+                    "name": "Release a YouTube video on how to setup a cardano node + cli & quick db sync with Docker in under 30 minutes",
+                    "completed": false,
+                    "date": "2021-06-01"
+                  },
+                  {
+                    "name": "Explore utility tokens for delegators of our community",
+                    "completed": false,
+                    "date": "2021-06-01"
+                  },
+                  {
+                    "name": "Mint specials tokens for delegators of our community",
+                    "completed": false,
+                    "date": "2021-06-01"
+                  },
+                  {
+                    "name": "Simplify the registration process for new stake pools, most data already comes from metadata & extended metadata",
+                    "completed": false,
+                    "date": "2021-06-01"
+                  },
+                  {
+                    "name": "Support metrics endpoint for stake pools that will expose basic metrics that can be shown on the website",
+                    "completed": false,
+                    "date": "2021-06-01"
+                  },
+                  {
+                    "name": "Launch first version of the [website](https://armada-alliance.com)",
+                    "completed": true,
+                    "date": "2021-04-30"
+                  },
+                  {
+                    "name": "Create a [repository](https://github.com/armada-alliance/armada-alliance) where people can register",
+                    "completed": true,
+                    "date": "2021-04-18"
+                  }
+                ]
+              }
+            },
             "languages": [
               {
                 "id": "en",
@@ -6510,18 +6596,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-10T20:37:27.520Z",
-            "component-cached-in": "1.2 ms",
-            "component-resolved-in": "1.2 ms"
+            "component-cached-at": "2021-07-10T21:40:05.380Z",
+            "component-cached-in": "983 μs",
+            "component-resolved-in": "983 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-10T20:37:27.520Z",
-          "_cachedIn": "1.61 ms",
-          "_resolvedIn": "1.61 ms",
+          "_cachedAt": "2021-07-10T21:40:05.380Z",
+          "_cachedIn": "1.25 ms",
+          "_resolvedIn": "1.25 ms",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6532,17 +6618,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-10T20:37:27.520Z",
-            "component-cached-in": "1.61 ms",
-            "component-resolved-in": "1.61 ms"
+            "component-cached-at": "2021-07-10T21:40:05.380Z",
+            "component-cached-in": "1.25 ms",
+            "component-resolved-in": "1.25 ms"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-10T20:37:27.520Z",
-              "_cachedIn": "356 μs",
-              "_resolvedIn": "356 μs",
+              "_cachedAt": "2021-07-10T21:40:05.380Z",
+              "_cachedIn": "258 μs",
+              "_resolvedIn": "258 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6586,9 +6672,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-10T20:37:27.520Z",
-                "component-cached-in": "356 μs",
-                "component-resolved-in": "356 μs"
+                "component-cached-at": "2021-07-10T21:40:05.380Z",
+                "component-cached-in": "258 μs",
+                "component-resolved-in": "258 μs"
               },
               "components": {}
             }
@@ -6597,9 +6683,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-10T20:37:27.520Z",
-          "_cachedIn": "726 μs",
-          "_resolvedIn": "726 μs",
+          "_cachedAt": "2021-07-10T21:40:05.380Z",
+          "_cachedIn": "560 μs",
+          "_resolvedIn": "560 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -6608,9 +6694,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-10T20:37:27.520Z",
-            "component-cached-in": "726 μs",
-            "component-resolved-in": "726 μs"
+            "component-cached-at": "2021-07-10T21:40:05.380Z",
+            "component-cached-in": "560 μs",
+            "component-resolved-in": "560 μs"
           },
           "components": {}
         }
@@ -6619,9 +6705,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-10T20:37:27.520Z",
-      "_cachedIn": "1.24 ms",
-      "_resolvedIn": "1.24 ms",
+      "_cachedAt": "2021-07-10T21:40:05.380Z",
+      "_cachedIn": "1.13 ms",
+      "_resolvedIn": "1.13 ms",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -6648,18 +6734,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-10T20:37:27.520Z",
-        "component-cached-in": "1.24 ms",
-        "component-resolved-in": "1.24 ms"
+        "component-cached-at": "2021-07-10T21:40:05.380Z",
+        "component-cached-in": "1.13 ms",
+        "component-resolved-in": "1.13 ms"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-10T20:37:27.519Z",
-      "_cachedIn": "712 μs",
-      "_resolvedIn": "712 μs",
+      "_cachedAt": "2021-07-10T21:40:05.379Z",
+      "_cachedIn": "547 μs",
+      "_resolvedIn": "547 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -6671,18 +6757,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-10T20:37:27.519Z",
-        "component-cached-in": "712 μs",
-        "component-resolved-in": "712 μs"
+        "component-cached-at": "2021-07-10T21:40:05.379Z",
+        "component-cached-in": "547 μs",
+        "component-resolved-in": "547 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-10T20:37:27.520Z",
-      "_cachedIn": "1.24 ms",
-      "_resolvedIn": "1.24 ms",
+      "_cachedAt": "2021-07-10T21:40:05.380Z",
+      "_cachedIn": "1.13 ms",
+      "_resolvedIn": "1.13 ms",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -6700,9 +6786,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-10T20:37:27.520Z",
-        "component-cached-in": "1.24 ms",
-        "component-resolved-in": "1.24 ms"
+        "component-cached-at": "2021-07-10T21:40:05.380Z",
+        "component-cached-in": "1.13 ms",
+        "component-resolved-in": "1.13 ms"
       },
       "components": {}
     }

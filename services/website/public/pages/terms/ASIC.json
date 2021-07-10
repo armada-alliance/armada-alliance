@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"ASIC\",\"language\":\"en\",\"slug\":\"/terms/ASIC\",\"origin\":\"/terms/ASIC\",\"title\":\"ASIC\",\"description\":\"An “Application Specific Integrated Circuit” is a silicon chip specifically designed to do a single task.\",\"aliases\":[\"ASIC\"],\"keywords\":[\"ASIC\",\"Application\",\"Specific\",\"Integrated\",\"Circuit\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":null,\"createdAt\":null,\"filePath\":\"/en/terms/ASIC.md\",\"body\":\"In the case of Bitcoin, they are designed to process SHA-256 hashing problems to mine new bitcoins. ASICs are considered to be much more efficient than conventional hardware(CPUs, GPUs). Using a regular computer for Bitcoin mining is seen as unprofitable and only results in higher electricity bill\\n\",\"mdxSource\":{\"compiledSource\":\"var l=Object.defineProperty,h=Object.defineProperties;var m=Object.getOwnPropertyDescriptors;var i=Object.getOwnPropertySymbols;var s=Object.prototype.hasOwnProperty,a=Object.prototype.propertyIsEnumerable;var c=(e,n,o)=>n in e?l(e,n,{enumerable:!0,configurable:!0,writable:!0,value:o}):e[n]=o,r=(e,n)=>{for(var o in n||(n={}))s.call(n,o)&&c(e,o,n[o]);if(i)for(var o of i(n))a.call(n,o)&&c(e,o,n[o]);return e},p=(e,n)=>h(e,m(n));var u=(e,n)=>{var o={};for(var t in e)s.call(e,t)&&n.indexOf(t)<0&&(o[t]=e[t]);if(e!=null&&i)for(var t of i(e))n.indexOf(t)<0&&a.call(e,t)&&(o[t]=e[t]);return o};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(o){var t=o,{components:e}=t,n=u(t,[\\\"components\\\"]);return mdx(MDXLayout,p(r(r({},layoutProps),n),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"In the case of Bitcoin, they are designed to process SHA-256 hashing problems to mine new bitcoins. ASICs are considered to be much more efficient than conventional hardware(CPUs, GPUs). Using a regular computer for Bitcoin mining is seen as unprofitable and only results in higher electricity bill\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-10T20:37:26.279Z",
-  "_cachedIn": "1.7 ms",
-  "_resolvedIn": "1.7 ms",
+  "_cachedAt": "2021-07-10T21:40:04.012Z",
+  "_cachedIn": "8.26 ms",
+  "_resolvedIn": "8.26 ms",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -45,17 +45,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-10T20:37:26.279Z",
-    "component-cached-in": "1.7 ms",
-    "component-resolved-in": "1.7 ms"
+    "component-cached-at": "2021-07-10T21:40:04.012Z",
+    "component-cached-in": "8.26 ms",
+    "component-resolved-in": "8.26 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-10T20:37:26.279Z",
-      "_cachedIn": "1.09 ms",
-      "_resolvedIn": "1.09 ms",
+      "_cachedAt": "2021-07-10T21:40:04.012Z",
+      "_cachedIn": "7.37 ms",
+      "_resolvedIn": "7.37 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -64,22 +64,108 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-10T20:37:26.279Z",
-        "component-cached-in": "1.09 ms",
-        "component-resolved-in": "1.09 ms"
+        "component-cached-at": "2021-07-10T21:40:04.012Z",
+        "component-cached-in": "7.37 ms",
+        "component-resolved-in": "7.37 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-10T20:37:26.279Z",
-          "_cachedIn": "537 μs",
-          "_resolvedIn": "537 μs",
+          "_cachedAt": "2021-07-10T21:40:04.011Z",
+          "_cachedIn": "1.76 ms",
+          "_resolvedIn": "1.76 ms",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
           "error": null,
           "props": {
+            "schema": {
+              "createdAt": "2021-07-10T21:18:32.131Z",
+              "about": {
+                "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
+                "github": "https://github.com/armada-alliance/armada-alliance",
+                "telegram": "https://t.me/armada_alli",
+                "discord": "https://discord.gg/6Q4mk7RTWn",
+                "gitbook": "https://armada-alliance.gitbook.io/",
+                "catalyst": "https://adapulse.io/arming-cardano-an-ecosystem-for-raspberry-pi-stakepool-operators/",
+                "adafolio": "https://adafolio.com/portfolio/2027fd88-a9e1-11eb-a580-0242c0a80002",
+                "name": "Armada Alliance",
+                "description_short": "Alliance of Raspberry Pi and ARM based Stake Pools.",
+                "description_long": "The Armada alliance was formed in efforts to build a sustainable community of decentralized, low-cost, and energy-efficient stake pool operations on the Cardano blockchain 🌍🌿 All Stake Pools in this alliance run on either Raspberry Pis exclusively or on other low power consuming ARM-based machines with an average pool energy consumption of less than 40 Watts💡",
+                "website": "https://armada-alliance.com",
+                "url_png_icon_64x64": "https://github.com/armada-alliance/Logo/blob/main/ship-420-40kb.png?raw=true",
+                "url_png_logo": "https://github.com/armada-alliance/Logo/blob/main/ship-420-50kb.png?raw=true",
+                "social": {
+                  "twitter_handle": "",
+                  "telegram_handle": "armada_alli",
+                  "facebook_handle": "",
+                  "youtube_handle": "",
+                  "twitch_handle": "",
+                  "discord_handle": "",
+                  "github_handle": "armada-alliance"
+                },
+                "types": {
+                  "charity": false,
+                  "business": false,
+                  "beneficial": true
+                }
+              },
+              "roadmap": {
+                "items": [
+                  {
+                    "name": "Explore the idea where we set up a treasury where people can delegate to that will be automatically assigned to pools that are in need of delegation using smart contracts",
+                    "completed": false,
+                    "date": "2021-07-01"
+                  },
+                  {
+                    "name": "Create a validation page for stake pool members of the alliance to check for missing info",
+                    "completed": false,
+                    "date": "2021-06-01"
+                  },
+                  {
+                    "name": "Maintain Armada Alliance Official ARM-based static build using GitHub Actions and put people on a mailinglist for new releases (including pre-releases)",
+                    "completed": false,
+                    "date": "2021-06-01"
+                  },
+                  {
+                    "name": "Release a YouTube video on how to setup a cardano node + cli & quick db sync with Docker in under 30 minutes",
+                    "completed": false,
+                    "date": "2021-06-01"
+                  },
+                  {
+                    "name": "Explore utility tokens for delegators of our community",
+                    "completed": false,
+                    "date": "2021-06-01"
+                  },
+                  {
+                    "name": "Mint specials tokens for delegators of our community",
+                    "completed": false,
+                    "date": "2021-06-01"
+                  },
+                  {
+                    "name": "Simplify the registration process for new stake pools, most data already comes from metadata & extended metadata",
+                    "completed": false,
+                    "date": "2021-06-01"
+                  },
+                  {
+                    "name": "Support metrics endpoint for stake pools that will expose basic metrics that can be shown on the website",
+                    "completed": false,
+                    "date": "2021-06-01"
+                  },
+                  {
+                    "name": "Launch first version of the [website](https://armada-alliance.com)",
+                    "completed": true,
+                    "date": "2021-04-30"
+                  },
+                  {
+                    "name": "Create a [repository](https://github.com/armada-alliance/armada-alliance) where people can register",
+                    "completed": true,
+                    "date": "2021-04-18"
+                  }
+                ]
+              }
+            },
             "languages": [
               {
                 "id": "en",
@@ -6513,18 +6599,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-10T20:37:26.279Z",
-            "component-cached-in": "537 μs",
-            "component-resolved-in": "537 μs"
+            "component-cached-at": "2021-07-10T21:40:04.011Z",
+            "component-cached-in": "1.76 ms",
+            "component-resolved-in": "1.76 ms"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-10T20:37:26.279Z",
-          "_cachedIn": "715 μs",
-          "_resolvedIn": "715 μs",
+          "_cachedAt": "2021-07-10T21:40:04.012Z",
+          "_cachedIn": "2.26 ms",
+          "_resolvedIn": "2.26 ms",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6535,17 +6621,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-10T20:37:26.279Z",
-            "component-cached-in": "715 μs",
-            "component-resolved-in": "715 μs"
+            "component-cached-at": "2021-07-10T21:40:04.012Z",
+            "component-cached-in": "2.26 ms",
+            "component-resolved-in": "2.26 ms"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-10T20:37:26.279Z",
-              "_cachedIn": "124 μs",
-              "_resolvedIn": "124 μs",
+              "_cachedAt": "2021-07-10T21:40:04.012Z",
+              "_cachedIn": "342 μs",
+              "_resolvedIn": "342 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6589,9 +6675,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-10T20:37:26.279Z",
-                "component-cached-in": "124 μs",
-                "component-resolved-in": "124 μs"
+                "component-cached-at": "2021-07-10T21:40:04.012Z",
+                "component-cached-in": "342 μs",
+                "component-resolved-in": "342 μs"
               },
               "components": {}
             }
@@ -6600,9 +6686,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-10T20:37:26.278Z",
-          "_cachedIn": "259 μs",
-          "_resolvedIn": "259 μs",
+          "_cachedAt": "2021-07-10T21:40:04.010Z",
+          "_cachedIn": "779 μs",
+          "_resolvedIn": "779 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -6611,9 +6697,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-10T20:37:26.278Z",
-            "component-cached-in": "259 μs",
-            "component-resolved-in": "259 μs"
+            "component-cached-at": "2021-07-10T21:40:04.010Z",
+            "component-cached-in": "779 μs",
+            "component-resolved-in": "779 μs"
           },
           "components": {}
         }
@@ -6622,9 +6708,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-10T20:37:26.278Z",
-      "_cachedIn": "699 μs",
-      "_resolvedIn": "699 μs",
+      "_cachedAt": "2021-07-10T21:40:04.011Z",
+      "_cachedIn": "6.2 ms",
+      "_resolvedIn": "6.2 ms",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -6651,18 +6737,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-10T20:37:26.278Z",
-        "component-cached-in": "699 μs",
-        "component-resolved-in": "699 μs"
+        "component-cached-at": "2021-07-10T21:40:04.011Z",
+        "component-cached-in": "6.2 ms",
+        "component-resolved-in": "6.2 ms"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-10T20:37:26.278Z",
-      "_cachedIn": "349 μs",
-      "_resolvedIn": "349 μs",
+      "_cachedAt": "2021-07-10T21:40:04.010Z",
+      "_cachedIn": "5.02 ms",
+      "_resolvedIn": "5.02 ms",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -6674,18 +6760,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-10T20:37:26.278Z",
-        "component-cached-in": "349 μs",
-        "component-resolved-in": "349 μs"
+        "component-cached-at": "2021-07-10T21:40:04.010Z",
+        "component-cached-in": "5.02 ms",
+        "component-resolved-in": "5.02 ms"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-10T20:37:26.278Z",
-      "_cachedIn": "700 μs",
-      "_resolvedIn": "700 μs",
+      "_cachedAt": "2021-07-10T21:40:04.011Z",
+      "_cachedIn": "6.21 ms",
+      "_resolvedIn": "6.21 ms",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -6703,9 +6789,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-10T20:37:26.278Z",
-        "component-cached-in": "700 μs",
-        "component-resolved-in": "700 μs"
+        "component-cached-at": "2021-07-10T21:40:04.011Z",
+        "component-cached-in": "6.21 ms",
+        "component-resolved-in": "6.21 ms"
       },
       "components": {}
     }

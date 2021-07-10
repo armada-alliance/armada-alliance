@@ -1,11 +1,15 @@
-import schema from "../schema"
+import { useContext } from 'react'
 import Link from 'next/link'
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import navigation from './navigation-data'
+import Context from './Context'
 
 export default function Example() {
+    const ctx = useContext(Context)
+    const { schema } = ctx
+
     return (
         <div className="bg-gray-50">
             <div className="pt-6 pb-6">

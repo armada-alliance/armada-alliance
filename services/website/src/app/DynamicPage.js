@@ -1,7 +1,5 @@
 import Head from "next/head";
 import Context from "./Context";
-import pools from '../pools_extended.json'
-import translations from '../translations.json'
 import templates from './templates'
 import markdownToText from 'markdown-to-text'
 import TestMode from './TestMode'
@@ -31,12 +29,12 @@ export default function DynamicPage(props) {
     const contextProps = props.page.components.Layout.components.Context.props
 
     return (
-        <Context.Provider value={{ page: page, language: page.language, translations: translations[page.language], ...contextProps }}>
+        <Context.Provider value={{ page: page, language: page.language, translations: {}, ...contextProps }}>
             <Head>
                 <title>{markdownToText(page.title)}</title>
                 <meta name="description" content={markdownToText(page.description)} />
             </Head>
-            <Template {...props.page} pools={pools} />
+            <Template {...props.page} />
             {testMode ? (
                 <div className="fixed bottom-16 left-4 bg-white p-2 shadow-md rounded-md text-xs">
                     <div>

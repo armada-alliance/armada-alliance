@@ -1,3 +1,90 @@
+const schema = {
+    "createdAt": "2021-07-10T21:18:32.131Z",
+    "about": {
+        "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
+        "github": "https://github.com/armada-alliance/armada-alliance",
+        "telegram": "https://t.me/armada_alli",
+        "discord": "https://discord.gg/6Q4mk7RTWn",
+        "gitbook": "https://armada-alliance.gitbook.io/",
+        "catalyst": "https://adapulse.io/arming-cardano-an-ecosystem-for-raspberry-pi-stakepool-operators/",
+        "adafolio": "https://adafolio.com/portfolio/2027fd88-a9e1-11eb-a580-0242c0a80002",
+        "name": "Armada Alliance",
+        "description_short": "Alliance of Raspberry Pi and ARM based Stake Pools.",
+        "description_long": "The Armada alliance was formed in efforts to build a sustainable community of decentralized, low-cost, and energy-efficient stake pool operations on the Cardano blockchain 🌍🌿 All Stake Pools in this alliance run on either Raspberry Pis exclusively or on other low power consuming ARM-based machines with an average pool energy consumption of less than 40 Watts💡",
+        "website": "https://armada-alliance.com",
+        "url_png_icon_64x64": "https://github.com/armada-alliance/Logo/blob/main/ship-420-40kb.png?raw=true",
+        "url_png_logo": "https://github.com/armada-alliance/Logo/blob/main/ship-420-50kb.png?raw=true",
+        "social": {
+            "twitter_handle": "",
+            "telegram_handle": "armada_alli",
+            "facebook_handle": "",
+            "youtube_handle": "",
+            "twitch_handle": "",
+            "discord_handle": "",
+            "github_handle": "armada-alliance"
+        },
+        "types": {
+            "charity": false,
+            "business": false,
+            "beneficial": true
+        }
+    },
+    "roadmap": {
+        "items": [
+            {
+                "name": "Explore the idea where we set up a treasury where people can delegate to that will be automatically assigned to pools that are in need of delegation using smart contracts",
+                "completed": false,
+                "date": "2021-07-01"
+            },
+            {
+                "name": "Create a validation page for stake pool members of the alliance to check for missing info",
+                "completed": false,
+                "date": "2021-06-01"
+            },
+            {
+                "name": "Maintain Armada Alliance Official ARM-based static build using GitHub Actions and put people on a mailinglist for new releases (including pre-releases)",
+                "completed": false,
+                "date": "2021-06-01"
+            },
+            {
+                "name": "Release a YouTube video on how to setup a cardano node + cli & quick db sync with Docker in under 30 minutes",
+                "completed": false,
+                "date": "2021-06-01"
+            },
+            {
+                "name": "Explore utility tokens for delegators of our community",
+                "completed": false,
+                "date": "2021-06-01"
+            },
+            {
+                "name": "Mint specials tokens for delegators of our community",
+                "completed": false,
+                "date": "2021-06-01"
+            },
+            {
+                "name": "Simplify the registration process for new stake pools, most data already comes from metadata & extended metadata",
+                "completed": false,
+                "date": "2021-06-01"
+            },
+            {
+                "name": "Support metrics endpoint for stake pools that will expose basic metrics that can be shown on the website",
+                "completed": false,
+                "date": "2021-06-01"
+            },
+            {
+                "name": "Launch first version of the [website](https://armada-alliance.com)",
+                "completed": true,
+                "date": "2021-04-30"
+            },
+            {
+                "name": "Create a [repository](https://github.com/armada-alliance/armada-alliance) where people can register",
+                "completed": true,
+                "date": "2021-04-18"
+            }
+        ]
+    }
+}
+
 module.exports = {
     id: 'Context',
     type: 'Component',
@@ -7,6 +94,7 @@ module.exports = {
         const pages = ctx.tables.get('pages')
 
         return {
+            schema,
             languages,
             pages
         }

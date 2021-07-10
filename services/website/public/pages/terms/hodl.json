@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"hodl\",\"language\":\"en\",\"slug\":\"/terms/hodl\",\"origin\":\"/terms/hodl\",\"title\":\"HODL\",\"description\":\"The term HODL refers to buy-and-hold strategies adopted by members of bitcoin and other cryptocurrency communities.\",\"aliases\":[\"HODL\",\"what is HODL crypto\",\"how to HODL\",\"HODLER\",\"Bitcoin HODL\",\"how to pronounce HODL\"],\"keywords\":[\"HODL\",\"crypto\",\"blockchain\",\"HODLER\",\"BTC\",\"Bitcoin\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":null,\"createdAt\":null,\"filePath\":\"/en/terms/hodl.md\",\"body\":\"## ***It all started as a drunken rant*** 🥃 \\n\\nBack in December of 2013, Bitcoin was on another huge upwards swing, from November to early December the price of BTC rose from around $250 USD all the way up to $1,151 USD. This massive 300x move to the upside led many to take to the ***[Bitcoin forum](https://bitcointalk.org/index.php)*** to discuss various trading strategies. \\n\\n One user by the name of \\\"GameKyuubi\\\" posted a drunken thread about their particular trading strategy with a topic title reading \\\"[I AM HODLING](https://bitcointalk.org/index.php?topic=375643.0)\\\". This drunken typo filled post gave birth to the most well know Bitcoin trading strategy today HODL, which means to never trade your Bitcoin based on day-to-day action in the crypto markets.\\n\\n<YoutubeVideo url=\\\"https://www.youtube.com/watch?v=1wxLaHrYyrs\\\" />\\n\",\"mdxSource\":{\"compiledSource\":\"var m=Object.defineProperty,c=Object.defineProperties;var h=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var i=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var p=(t,e,o)=>e in t?m(t,e,{enumerable:!0,configurable:!0,writable:!0,value:o}):t[e]=o,r=(t,e)=>{for(var o in e||(e={}))i.call(e,o)&&p(t,o,e[o]);if(n)for(var o of n(e))s.call(e,o)&&p(t,o,e[o]);return t},d=(t,e)=>c(t,h(e));var u=(t,e)=>{var o={};for(var a in t)i.call(t,a)&&e.indexOf(a)<0&&(o[a]=t[a]);if(t!=null&&n)for(var a of n(t))e.indexOf(a)<0&&s.call(t,a)&&(o[a]=t[a]);return o};const makeShortcode=t=>function(o){return console.warn(\\\"Component \\\"+t+\\\" was not imported, exported, or provided by MDXProvider as global scope\\\"),mdx(\\\"div\\\",r({},o))},YoutubeVideo=makeShortcode(\\\"YoutubeVideo\\\"),layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(o){var a=o,{components:t}=a,e=u(a,[\\\"components\\\"]);return mdx(MDXLayout,d(r(r({},layoutProps),e),{components:t,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"h2\\\",null,mdx(\\\"strong\\\",{parentName:\\\"h2\\\"},mdx(\\\"em\\\",{parentName:\\\"strong\\\"},\\\"It all started as a drunken rant\\\")),\\\" \\\\u{1F943}\\\"),mdx(\\\"p\\\",null,\\\"Back in December of 2013, Bitcoin was on another huge upwards swing, from November to early December the price of BTC rose from around $250 USD all the way up to $1,151 USD. This massive 300x move to the upside led many to take to the \\\",mdx(\\\"strong\\\",{parentName:\\\"p\\\"},mdx(\\\"em\\\",{parentName:\\\"strong\\\"},mdx(\\\"a\\\",r({parentName:\\\"em\\\"},{href:\\\"https://bitcointalk.org/index.php\\\"}),\\\"Bitcoin forum\\\"))),\\\" to discuss various trading strategies. \\\"),mdx(\\\"p\\\",null,' One user by the name of \\\"GameKyuubi\\\" posted a drunken thread about their particular trading strategy with a topic title reading \\\"',mdx(\\\"a\\\",r({parentName:\\\"p\\\"},{href:\\\"https://bitcointalk.org/index.php?topic=375643.0\\\"}),\\\"I AM HODLING\\\"),'\\\". This drunken typo filled post gave birth to the most well know Bitcoin trading strategy today HODL, which means to never trade your Bitcoin based on day-to-day action in the crypto markets.'),mdx(YoutubeVideo,{url:\\\"https://www.youtube.com/watch?v=1wxLaHrYyrs\\\",mdxType:\\\"YoutubeVideo\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-10T20:37:26.732Z",
-  "_cachedIn": "1.66 ms",
-  "_resolvedIn": "1.66 ms",
+  "_cachedAt": "2021-07-10T21:40:04.625Z",
+  "_cachedIn": "2.17 ms",
+  "_resolvedIn": "2.17 ms",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -51,17 +51,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-10T20:37:26.732Z",
-    "component-cached-in": "1.66 ms",
-    "component-resolved-in": "1.66 ms"
+    "component-cached-at": "2021-07-10T21:40:04.625Z",
+    "component-cached-in": "2.17 ms",
+    "component-resolved-in": "2.17 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-10T20:37:26.731Z",
-      "_cachedIn": "1.29 ms",
-      "_resolvedIn": "1.29 ms",
+      "_cachedAt": "2021-07-10T21:40:04.625Z",
+      "_cachedIn": "1.72 ms",
+      "_resolvedIn": "1.72 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -70,22 +70,108 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-10T20:37:26.731Z",
-        "component-cached-in": "1.29 ms",
-        "component-resolved-in": "1.29 ms"
+        "component-cached-at": "2021-07-10T21:40:04.625Z",
+        "component-cached-in": "1.72 ms",
+        "component-resolved-in": "1.72 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-10T20:37:26.731Z",
-          "_cachedIn": "751 μs",
-          "_resolvedIn": "751 μs",
+          "_cachedAt": "2021-07-10T21:40:04.625Z",
+          "_cachedIn": "1.05 ms",
+          "_resolvedIn": "1.05 ms",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
           "error": null,
           "props": {
+            "schema": {
+              "createdAt": "2021-07-10T21:18:32.131Z",
+              "about": {
+                "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
+                "github": "https://github.com/armada-alliance/armada-alliance",
+                "telegram": "https://t.me/armada_alli",
+                "discord": "https://discord.gg/6Q4mk7RTWn",
+                "gitbook": "https://armada-alliance.gitbook.io/",
+                "catalyst": "https://adapulse.io/arming-cardano-an-ecosystem-for-raspberry-pi-stakepool-operators/",
+                "adafolio": "https://adafolio.com/portfolio/2027fd88-a9e1-11eb-a580-0242c0a80002",
+                "name": "Armada Alliance",
+                "description_short": "Alliance of Raspberry Pi and ARM based Stake Pools.",
+                "description_long": "The Armada alliance was formed in efforts to build a sustainable community of decentralized, low-cost, and energy-efficient stake pool operations on the Cardano blockchain 🌍🌿 All Stake Pools in this alliance run on either Raspberry Pis exclusively or on other low power consuming ARM-based machines with an average pool energy consumption of less than 40 Watts💡",
+                "website": "https://armada-alliance.com",
+                "url_png_icon_64x64": "https://github.com/armada-alliance/Logo/blob/main/ship-420-40kb.png?raw=true",
+                "url_png_logo": "https://github.com/armada-alliance/Logo/blob/main/ship-420-50kb.png?raw=true",
+                "social": {
+                  "twitter_handle": "",
+                  "telegram_handle": "armada_alli",
+                  "facebook_handle": "",
+                  "youtube_handle": "",
+                  "twitch_handle": "",
+                  "discord_handle": "",
+                  "github_handle": "armada-alliance"
+                },
+                "types": {
+                  "charity": false,
+                  "business": false,
+                  "beneficial": true
+                }
+              },
+              "roadmap": {
+                "items": [
+                  {
+                    "name": "Explore the idea where we set up a treasury where people can delegate to that will be automatically assigned to pools that are in need of delegation using smart contracts",
+                    "completed": false,
+                    "date": "2021-07-01"
+                  },
+                  {
+                    "name": "Create a validation page for stake pool members of the alliance to check for missing info",
+                    "completed": false,
+                    "date": "2021-06-01"
+                  },
+                  {
+                    "name": "Maintain Armada Alliance Official ARM-based static build using GitHub Actions and put people on a mailinglist for new releases (including pre-releases)",
+                    "completed": false,
+                    "date": "2021-06-01"
+                  },
+                  {
+                    "name": "Release a YouTube video on how to setup a cardano node + cli & quick db sync with Docker in under 30 minutes",
+                    "completed": false,
+                    "date": "2021-06-01"
+                  },
+                  {
+                    "name": "Explore utility tokens for delegators of our community",
+                    "completed": false,
+                    "date": "2021-06-01"
+                  },
+                  {
+                    "name": "Mint specials tokens for delegators of our community",
+                    "completed": false,
+                    "date": "2021-06-01"
+                  },
+                  {
+                    "name": "Simplify the registration process for new stake pools, most data already comes from metadata & extended metadata",
+                    "completed": false,
+                    "date": "2021-06-01"
+                  },
+                  {
+                    "name": "Support metrics endpoint for stake pools that will expose basic metrics that can be shown on the website",
+                    "completed": false,
+                    "date": "2021-06-01"
+                  },
+                  {
+                    "name": "Launch first version of the [website](https://armada-alliance.com)",
+                    "completed": true,
+                    "date": "2021-04-30"
+                  },
+                  {
+                    "name": "Create a [repository](https://github.com/armada-alliance/armada-alliance) where people can register",
+                    "completed": true,
+                    "date": "2021-04-18"
+                  }
+                ]
+              }
+            },
             "languages": [
               {
                 "id": "en",
@@ -6519,18 +6605,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-10T20:37:26.731Z",
-            "component-cached-in": "751 μs",
-            "component-resolved-in": "751 μs"
+            "component-cached-at": "2021-07-10T21:40:04.625Z",
+            "component-cached-in": "1.05 ms",
+            "component-resolved-in": "1.05 ms"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-10T20:37:26.731Z",
-          "_cachedIn": "943 μs",
-          "_resolvedIn": "943 μs",
+          "_cachedAt": "2021-07-10T21:40:04.625Z",
+          "_cachedIn": "1.33 ms",
+          "_resolvedIn": "1.33 ms",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6541,17 +6627,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-10T20:37:26.731Z",
-            "component-cached-in": "943 μs",
-            "component-resolved-in": "943 μs"
+            "component-cached-at": "2021-07-10T21:40:04.625Z",
+            "component-cached-in": "1.33 ms",
+            "component-resolved-in": "1.33 ms"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-10T20:37:26.731Z",
-              "_cachedIn": "201 μs",
-              "_resolvedIn": "201 μs",
+              "_cachedAt": "2021-07-10T21:40:04.625Z",
+              "_cachedIn": "281 μs",
+              "_resolvedIn": "281 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6595,9 +6681,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-10T20:37:26.731Z",
-                "component-cached-in": "201 μs",
-                "component-resolved-in": "201 μs"
+                "component-cached-at": "2021-07-10T21:40:04.625Z",
+                "component-cached-in": "281 μs",
+                "component-resolved-in": "281 μs"
               },
               "components": {}
             }
@@ -6606,9 +6692,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-10T20:37:26.731Z",
-          "_cachedIn": "393 μs",
-          "_resolvedIn": "393 μs",
+          "_cachedAt": "2021-07-10T21:40:04.624Z",
+          "_cachedIn": "631 μs",
+          "_resolvedIn": "631 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -6617,9 +6703,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-10T20:37:26.731Z",
-            "component-cached-in": "393 μs",
-            "component-resolved-in": "393 μs"
+            "component-cached-at": "2021-07-10T21:40:04.624Z",
+            "component-cached-in": "631 μs",
+            "component-resolved-in": "631 μs"
           },
           "components": {}
         }
@@ -6628,9 +6714,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-10T20:37:26.731Z",
-      "_cachedIn": "880 μs",
-      "_resolvedIn": "880 μs",
+      "_cachedAt": "2021-07-10T21:40:04.625Z",
+      "_cachedIn": "1.17 ms",
+      "_resolvedIn": "1.17 ms",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -6657,18 +6743,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-10T20:37:26.731Z",
-        "component-cached-in": "880 μs",
-        "component-resolved-in": "880 μs"
+        "component-cached-at": "2021-07-10T21:40:04.625Z",
+        "component-cached-in": "1.17 ms",
+        "component-resolved-in": "1.17 ms"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-10T20:37:26.731Z",
-      "_cachedIn": "480 μs",
-      "_resolvedIn": "480 μs",
+      "_cachedAt": "2021-07-10T21:40:04.624Z",
+      "_cachedIn": "630 μs",
+      "_resolvedIn": "630 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -6680,18 +6766,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-10T20:37:26.731Z",
-        "component-cached-in": "480 μs",
-        "component-resolved-in": "480 μs"
+        "component-cached-at": "2021-07-10T21:40:04.624Z",
+        "component-cached-in": "630 μs",
+        "component-resolved-in": "630 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-10T20:37:26.731Z",
-      "_cachedIn": "880 μs",
-      "_resolvedIn": "880 μs",
+      "_cachedAt": "2021-07-10T21:40:04.625Z",
+      "_cachedIn": "1.17 ms",
+      "_resolvedIn": "1.17 ms",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -6709,9 +6795,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-10T20:37:26.731Z",
-        "component-cached-in": "880 μs",
-        "component-resolved-in": "880 μs"
+        "component-cached-at": "2021-07-10T21:40:04.625Z",
+        "component-cached-in": "1.17 ms",
+        "component-resolved-in": "1.17 ms"
       },
       "components": {}
     }
