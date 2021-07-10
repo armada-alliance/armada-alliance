@@ -7,7 +7,7 @@ import WithPageTooltip from './WithPageTooltip'
 function Identities({ identities }) {
 
     return (
-        <div className="mx-auto inline-flex items-center space-x-2">
+        <div className="mx-auto inline-flex items-center space-x-2 text-sm sm:text-base">
             {/* <div className="text-gray-400 text-sm">
                 written by
             </div> */}
@@ -17,9 +17,9 @@ function Identities({ identities }) {
                     <WithPageTooltip slug={identity.link.href}>
                         {(props) => (
                             <Link key={identity.id} href={identity.link.href}>
-                                <a {...props} className="flex items-center px-3 py-2 space-x-2 rounded-lg bg-gray-100 hover:bg-gray-200 transition-colors duration-50">
+                                <a {...props} className="flex flex-nowrap items-center px-3 py-2 space-x-2 rounded-lg bg-gray-100 hover:bg-gray-200 transition-colors duration-50">
                                     <div className="h-8 w-8 rounded-full overflow-hidden bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${formatImage(identity.image)})` }} />
-                                    <div className="font-bold">
+                                    <div className="font-bold truncate">
                                         {identity.name}
                                     </div>
                                 </a>

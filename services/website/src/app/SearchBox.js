@@ -55,7 +55,7 @@ function DefaultView({ templates, results, query }) {
                                 </Link>
                             </div>
                         </div>
-                        <div className="-mx-3 grid grid-cols-3">
+                        <div className="-mx-3 grid grid-cols-2 sm:grid-cols-3">
                             {pages.map(page => {
 
                                 return (
