@@ -82,7 +82,7 @@ export const delegationTx = async (delegation, targetPoolId) => {
   if (!delegation.active)
     certificates.add(
       Loader.Cardano.Certificate.new_stake_registration(
-        Loader.cardano.StakeRegistration.new(stakeCredential)
+        Loader.Cardano.StakeRegistration.new(stakeCredential)
       )
     );
 
