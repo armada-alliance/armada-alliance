@@ -110,6 +110,7 @@ module.exports = {
                     description: adapools.data.db_description,
                     image,
                     ticker: adapools.data.db_ticker,
+                    addr: adapools.data.pool_id_bech32,
                     website: adapools.data.db_url,
                     totalStake: adapools.data.total_stake,
                     blocksLifetime: adapools.data.blocks_lifetime,

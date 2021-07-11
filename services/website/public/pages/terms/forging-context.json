@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"forging-context\",\"language\":\"en\",\"slug\":\"/terms/forging-context\",\"origin\":\"/terms/forging-context\",\"title\":\"Forging context\",\"description\":\"A data structure containing a summary of the transaction being validated, and the current forging policy which is being run.\",\"aliases\":[\"forging context\"],\"keywords\":[\"forging\",\"context\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":null,\"createdAt\":null,\"filePath\":\"/en/terms/forging-context.md\",\"body\":\"\",\"mdxSource\":{\"compiledSource\":\"var M=Object.defineProperty,X=Object.defineProperties;var c=Object.getOwnPropertyDescriptors;var u=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,a=Object.prototype.propertyIsEnumerable;var s=(o,t,n)=>t in o?M(o,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):o[t]=n,p=(o,t)=>{for(var n in t||(t={}))r.call(t,n)&&s(o,n,t[n]);if(u)for(var n of u(t))a.call(t,n)&&s(o,n,t[n]);return o},y=(o,t)=>X(o,c(t));var D=(o,t)=>{var n={};for(var e in o)r.call(o,e)&&t.indexOf(e)<0&&(n[e]=o[e]);if(o!=null&&u)for(var e of u(o))t.indexOf(e)<0&&a.call(o,e)&&(n[e]=o[e]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var e=n,{components:o}=e,t=D(e,[\\\"components\\\"]);return mdx(MDXLayout,y(p(p({},layoutProps),t),{components:o,mdxType:\\\"MDXLayout\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-11T06:28:18.109Z",
-  "_cachedIn": "2.6 ms",
-  "_resolvedIn": "2.6 ms",
+  "_cachedAt": "2021-07-11T09:41:11.960Z",
+  "_cachedIn": "2.39 ms",
+  "_resolvedIn": "2.39 ms",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -42,17 +42,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-11T06:28:18.109Z",
-    "component-cached-in": "2.6 ms",
-    "component-resolved-in": "2.6 ms"
+    "component-cached-at": "2021-07-11T09:41:11.960Z",
+    "component-cached-in": "2.39 ms",
+    "component-resolved-in": "2.39 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-11T06:28:18.109Z",
-      "_cachedIn": "2.06 ms",
-      "_resolvedIn": "2.06 ms",
+      "_cachedAt": "2021-07-11T09:41:11.960Z",
+      "_cachedIn": "1.53 ms",
+      "_resolvedIn": "1.53 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -61,17 +61,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-11T06:28:18.109Z",
-        "component-cached-in": "2.06 ms",
-        "component-resolved-in": "2.06 ms"
+        "component-cached-at": "2021-07-11T09:41:11.960Z",
+        "component-cached-in": "1.53 ms",
+        "component-resolved-in": "1.53 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-11T06:28:18.108Z",
-          "_cachedIn": "1.19 ms",
-          "_resolvedIn": "1.19 ms",
+          "_cachedAt": "2021-07-11T09:41:11.960Z",
+          "_cachedIn": "869 μs",
+          "_resolvedIn": "869 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -6596,18 +6596,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-11T06:28:18.108Z",
-            "component-cached-in": "1.19 ms",
-            "component-resolved-in": "1.19 ms"
+            "component-cached-at": "2021-07-11T09:41:11.960Z",
+            "component-cached-in": "869 μs",
+            "component-resolved-in": "869 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-11T06:28:18.109Z",
-          "_cachedIn": "1.54 ms",
-          "_resolvedIn": "1.54 ms",
+          "_cachedAt": "2021-07-11T09:41:11.960Z",
+          "_cachedIn": "1.16 ms",
+          "_resolvedIn": "1.16 ms",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6618,17 +6618,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-11T06:28:18.109Z",
-            "component-cached-in": "1.54 ms",
-            "component-resolved-in": "1.54 ms"
+            "component-cached-at": "2021-07-11T09:41:11.960Z",
+            "component-cached-in": "1.16 ms",
+            "component-resolved-in": "1.16 ms"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-11T06:28:18.109Z",
-              "_cachedIn": "376 μs",
-              "_resolvedIn": "376 μs",
+              "_cachedAt": "2021-07-11T09:41:11.960Z",
+              "_cachedIn": "235 μs",
+              "_resolvedIn": "235 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6672,9 +6672,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-11T06:28:18.109Z",
-                "component-cached-in": "376 μs",
-                "component-resolved-in": "376 μs"
+                "component-cached-at": "2021-07-11T09:41:11.960Z",
+                "component-cached-in": "235 μs",
+                "component-resolved-in": "235 μs"
               },
               "components": {}
             }
@@ -6683,9 +6683,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-11T06:28:18.108Z",
-          "_cachedIn": "643 μs",
-          "_resolvedIn": "643 μs",
+          "_cachedAt": "2021-07-11T09:41:11.959Z",
+          "_cachedIn": "410 μs",
+          "_resolvedIn": "410 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -6694,9 +6694,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-11T06:28:18.108Z",
-            "component-cached-in": "643 μs",
-            "component-resolved-in": "643 μs"
+            "component-cached-at": "2021-07-11T09:41:11.959Z",
+            "component-cached-in": "410 μs",
+            "component-resolved-in": "410 μs"
           },
           "components": {}
         }
@@ -6705,9 +6705,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-11T06:28:18.108Z",
-      "_cachedIn": "1.33 ms",
-      "_resolvedIn": "1.33 ms",
+      "_cachedAt": "2021-07-11T09:41:11.959Z",
+      "_cachedIn": "883 μs",
+      "_resolvedIn": "883 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -6734,18 +6734,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-11T06:28:18.108Z",
-        "component-cached-in": "1.33 ms",
-        "component-resolved-in": "1.33 ms"
+        "component-cached-at": "2021-07-11T09:41:11.959Z",
+        "component-cached-in": "883 μs",
+        "component-resolved-in": "883 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-11T06:28:18.108Z",
-      "_cachedIn": "706 μs",
-      "_resolvedIn": "706 μs",
+      "_cachedAt": "2021-07-11T09:41:11.959Z",
+      "_cachedIn": "395 μs",
+      "_resolvedIn": "395 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -6757,18 +6757,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-11T06:28:18.108Z",
-        "component-cached-in": "706 μs",
-        "component-resolved-in": "706 μs"
+        "component-cached-at": "2021-07-11T09:41:11.959Z",
+        "component-cached-in": "395 μs",
+        "component-resolved-in": "395 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-11T06:28:18.108Z",
-      "_cachedIn": "1.33 ms",
-      "_resolvedIn": "1.33 ms",
+      "_cachedAt": "2021-07-11T09:41:11.959Z",
+      "_cachedIn": "885 μs",
+      "_resolvedIn": "885 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -6786,9 +6786,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-11T06:28:18.108Z",
-        "component-cached-in": "1.33 ms",
-        "component-resolved-in": "1.33 ms"
+        "component-cached-at": "2021-07-11T09:41:11.959Z",
+        "component-cached-in": "885 μs",
+        "component-resolved-in": "885 μs"
       },
       "components": {}
     }

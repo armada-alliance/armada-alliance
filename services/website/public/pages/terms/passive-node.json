@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"passive-node\",\"language\":\"en\",\"slug\":\"/terms/passive-node\",\"origin\":\"/terms/passive-node\",\"title\":\"Passive node\",\"description\":\"A Cardano node (relay) that has no incoming connections.\",\"aliases\":[\"Cardano passive node\",\"passive node\",\"Cardano relay\",\"Cardano node\"],\"keywords\":[\"Cardano\",\"passive\",\"node\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":null,\"createdAt\":null,\"filePath\":\"/en/terms/passive-node.md\",\"body\":\"An example of a Cardano passive node (relay) is the [Daedalus wallet](/terms/daedalus) which acts as a passive relay and wallet. To run a Cardano passive relay node on a raspberry pi 4 please [see our guide](/guides/run-a-cardano-node).\",\"mdxSource\":{\"compiledSource\":\"var i=Object.defineProperty,y=Object.defineProperties;var c=Object.getOwnPropertyDescriptors;var s=Object.getOwnPropertySymbols;var t=Object.prototype.hasOwnProperty,p=Object.prototype.propertyIsEnumerable;var u=(a,e,n)=>e in a?i(a,e,{enumerable:!0,configurable:!0,writable:!0,value:n}):a[e]=n,r=(a,e)=>{for(var n in e||(e={}))t.call(e,n)&&u(a,n,e[n]);if(s)for(var n of s(e))p.call(e,n)&&u(a,n,e[n]);return a},d=(a,e)=>y(a,c(e));var l=(a,e)=>{var n={};for(var o in a)t.call(a,o)&&e.indexOf(o)<0&&(n[o]=a[o]);if(a!=null&&s)for(var o of s(a))e.indexOf(o)<0&&p.call(a,o)&&(n[o]=a[o]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var o=n,{components:a}=o,e=l(o,[\\\"components\\\"]);return mdx(MDXLayout,d(r(r({},layoutProps),e),{components:a,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"An example of a Cardano passive node (relay) is the \\\",mdx(\\\"a\\\",r({parentName:\\\"p\\\"},{href:\\\"/terms/daedalus\\\"}),\\\"Daedalus wallet\\\"),\\\" which acts as a passive relay and wallet. To run a Cardano passive relay node on a raspberry pi 4 please \\\",mdx(\\\"a\\\",r({parentName:\\\"p\\\"},{href:\\\"/guides/run-a-cardano-node\\\"}),\\\"see our guide\\\"),\\\".\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-11T06:28:18.620Z",
-  "_cachedIn": "2.64 ms",
-  "_resolvedIn": "2.64 ms",
+  "_cachedAt": "2021-07-11T09:41:12.215Z",
+  "_cachedIn": "763 μs",
+  "_resolvedIn": "763 μs",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -46,17 +46,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-11T06:28:18.620Z",
-    "component-cached-in": "2.64 ms",
-    "component-resolved-in": "2.64 ms"
+    "component-cached-at": "2021-07-11T09:41:12.215Z",
+    "component-cached-in": "763 μs",
+    "component-resolved-in": "763 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-11T06:28:18.619Z",
-      "_cachedIn": "1.88 ms",
-      "_resolvedIn": "1.88 ms",
+      "_cachedAt": "2021-07-11T09:41:12.215Z",
+      "_cachedIn": "613 μs",
+      "_resolvedIn": "613 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -65,17 +65,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-11T06:28:18.619Z",
-        "component-cached-in": "1.88 ms",
-        "component-resolved-in": "1.88 ms"
+        "component-cached-at": "2021-07-11T09:41:12.215Z",
+        "component-cached-in": "613 μs",
+        "component-resolved-in": "613 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-11T06:28:18.619Z",
-          "_cachedIn": "1.17 ms",
-          "_resolvedIn": "1.17 ms",
+          "_cachedAt": "2021-07-11T09:41:12.215Z",
+          "_cachedIn": "430 μs",
+          "_resolvedIn": "430 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -6600,18 +6600,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-11T06:28:18.619Z",
-            "component-cached-in": "1.17 ms",
-            "component-resolved-in": "1.17 ms"
+            "component-cached-at": "2021-07-11T09:41:12.215Z",
+            "component-cached-in": "430 μs",
+            "component-resolved-in": "430 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-11T06:28:18.619Z",
-          "_cachedIn": "1.48 ms",
-          "_resolvedIn": "1.48 ms",
+          "_cachedAt": "2021-07-11T09:41:12.215Z",
+          "_cachedIn": "513 μs",
+          "_resolvedIn": "513 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6622,17 +6622,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-11T06:28:18.619Z",
-            "component-cached-in": "1.48 ms",
-            "component-resolved-in": "1.48 ms"
+            "component-cached-at": "2021-07-11T09:41:12.215Z",
+            "component-cached-in": "513 μs",
+            "component-resolved-in": "513 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-11T06:28:18.619Z",
-              "_cachedIn": "291 μs",
-              "_resolvedIn": "291 μs",
+              "_cachedAt": "2021-07-11T09:41:12.215Z",
+              "_cachedIn": "80 μs",
+              "_resolvedIn": "80 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6676,9 +6676,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-11T06:28:18.619Z",
-                "component-cached-in": "291 μs",
-                "component-resolved-in": "291 μs"
+                "component-cached-at": "2021-07-11T09:41:12.215Z",
+                "component-cached-in": "80 μs",
+                "component-resolved-in": "80 μs"
               },
               "components": {}
             }
@@ -6687,9 +6687,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-11T06:28:18.618Z",
-          "_cachedIn": "665 μs",
-          "_resolvedIn": "665 μs",
+          "_cachedAt": "2021-07-11T09:41:12.215Z",
+          "_cachedIn": "326 μs",
+          "_resolvedIn": "326 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -6698,9 +6698,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-11T06:28:18.618Z",
-            "component-cached-in": "665 μs",
-            "component-resolved-in": "665 μs"
+            "component-cached-at": "2021-07-11T09:41:12.215Z",
+            "component-cached-in": "326 μs",
+            "component-resolved-in": "326 μs"
           },
           "components": {}
         }
@@ -6709,9 +6709,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-11T06:28:18.619Z",
-      "_cachedIn": "1.26 ms",
-      "_resolvedIn": "1.26 ms",
+      "_cachedAt": "2021-07-11T09:41:12.215Z",
+      "_cachedIn": "464 μs",
+      "_resolvedIn": "464 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -6738,18 +6738,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-11T06:28:18.619Z",
-        "component-cached-in": "1.26 ms",
-        "component-resolved-in": "1.26 ms"
+        "component-cached-at": "2021-07-11T09:41:12.215Z",
+        "component-cached-in": "464 μs",
+        "component-resolved-in": "464 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-11T06:28:18.618Z",
-      "_cachedIn": "629 μs",
-      "_resolvedIn": "629 μs",
+      "_cachedAt": "2021-07-11T09:41:12.215Z",
+      "_cachedIn": "329 μs",
+      "_resolvedIn": "329 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -6761,18 +6761,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-11T06:28:18.618Z",
-        "component-cached-in": "629 μs",
-        "component-resolved-in": "629 μs"
+        "component-cached-at": "2021-07-11T09:41:12.215Z",
+        "component-cached-in": "329 μs",
+        "component-resolved-in": "329 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-11T06:28:18.619Z",
-      "_cachedIn": "1.26 ms",
-      "_resolvedIn": "1.26 ms",
+      "_cachedAt": "2021-07-11T09:41:12.215Z",
+      "_cachedIn": "462 μs",
+      "_resolvedIn": "462 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -6790,9 +6790,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-11T06:28:18.619Z",
-        "component-cached-in": "1.26 ms",
-        "component-resolved-in": "1.26 ms"
+        "component-cached-at": "2021-07-11T09:41:12.215Z",
+        "component-cached-in": "462 μs",
+        "component-resolved-in": "462 μs"
       },
       "components": {}
     }

@@ -19,7 +19,7 @@ function Identities({ identities }) {
                         {(props) => (
                             <Link key={identity.id} href={identity.link.href}>
                                 <a {...props} className="flex flex-nowrap items-center px-3 py-2 space-x-2 rounded-lg bg-gray-100 hover:bg-gray-200 transition-colors duration-50">
-                                    <div className="h-8 w-8 rounded-full overflow-hidden bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${formatImage(identity.image)})` }} />
+                                    <div className="bg-white h-8 w-8 rounded-full overflow-hidden bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${formatImage(identity.image)})` }} />
                                     <div className="font-bold truncate">
                                         {identity.name}
                                     </div>

@@ -56,7 +56,7 @@ export default function TestMode({ children }) {
 
     const handleKeyDown = (e) => {
 
-        if (e.metaKey && e.key.toLowerCase() === "j") {
+        if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === "j") {
             setTestMode(!testMode)
         }
     }

@@ -1,4 +1,5 @@
-import { Fragment, useState } from 'react'
+import { Fragment, useState, useEffect } from 'react'
+import { XIcon } from '@heroicons/react/solid'
 import useTestMode from './useTestMode'
 import { Dialog, Transition } from '@headlessui/react'
 import cx from 'classnames'
@@ -15,7 +16,7 @@ function Button(props) {
             className={cx(
                 "inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-full w-40 justify-center text-white transition ease-in-out duration-150 focus:outline-none",
                 state === 'completed' ? "bg-green-500" : "bg-primary-500",
-                state !== 'default' ? 'cursor-not-allowed' : "hover:bg-primary-400 focus:border-primary-600 active:bg-primary-600"
+                state !== 'default' ? 'cursor-default' : "hover:bg-primary-400 focus:border-primary-600 active:bg-primary-600"
             )}
             disabled={state !== 'default' || disabled}
             onClick={onClick}
@@ -82,31 +83,173 @@ function AlternateTab({ pool }) {
     )
 }
 
-function DefaultTab({ pool }) {
+function ToastMessage({ show, onClose }) {
 
+    return (
+        <>
+            {/* Global notification live region, render this permanently at the end of the document */}
+            <div
+                aria-live="assertive"
+                className="fixed inset-0 flex items-end px-4 py-6 pointer-events-none sm:p-6 sm:items-start"
+            >
+                <div className="w-full flex flex-col items-center space-y-4 sm:items-end">
+                    {/* Notification panel, dynamically insert this into the live region when it needs to be displayed */}
+                    <Transition
+                        show={show}
+                        as={Fragment}
+                        enter="transform ease-out duration-300 transition"
+                        enterFrom="translate-y-2 opacity-0 sm:translate-y-0 sm:translate-x-2"
+                        enterTo="translate-y-0 opacity-100 sm:translate-x-0"
+                        leave="transition ease-in duration-100"
+                        leaveFrom="opacity-100"
+                        leaveTo="opacity-0"
+                    >
+                        <div className="max-w-sm w-full bg-white shadow-lg rounded-lg pointer-events-auto ring-1 ring-black ring-opacity-5">
+                            <div className="p-4">
+                                <div className="flex items-start">
+                                    <div className="flex-shrink-0 pt-0.5">
+                                        <img src="/nami-wallet.svg" className="h-12" />
+                                    </div>
+                                    <div className="ml-3 w-0 flex-1">
+                                        <p className="text-sm font-medium text-gray-900">Nami Wallet</p>
+                                        <p className="mt-1 text-sm text-gray-500">I would like to be installed first.</p>
+                                        <div className="mt-4 flex">
+                                            <a
+                                                target="_blank"
+                                                href="https://namiwallet.io/"
+                                                onClick={onClose}
+                                                className="inline-flex items-center px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md text-white bg-primary-500 hover:bg-primary-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-400"
+                                            >
+                                                Accept
+                                            </a>
+                                            <button
+                                                type="button"
+                                                onClick={onClose}
+                                                className="ml-3 inline-flex items-center px-3 py-2 border border-gray-300 shadow-sm text-sm leading-4 font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500"
+                                            >
+                                                Decline
+                      </button>
+                                        </div>
+                                    </div>
+                                    <div className="ml-4 flex-shrink-0 flex">
+                                        <button
+                                            className="bg-white rounded-md inline-flex text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500"
+                                            onClick={() => {
+                                                setShow(false)
+                                            }}
+                                        >
+                                            <span className="sr-only">Close</span>
+                                            <XIcon className="h-5 w-5" aria-hidden="true" />
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </Transition>
+                </div>
+            </div>
+        </>
+    )
+}
+
+
+function NamiTab({ pools, pool }) {
+
+    const [nami, setNami] = useState(null)
+    const [currentPoolId, setCurrentPoolId] = useState(null)
+
+    useEffect(async () => {
+
+        if (nami) return
+
+        const { default: _nami } = await import('./nami')
+
+        setNami(_nami)
+
+        if (process.browser && window.cardano) {
+            const enabled = await window.cardano.isEnabled()
+            if (enabled) {
+                setConnectState('completed')
+            }
+
+            const delegation = await _nami.getDelegation()
+
+            if (pool.addr === delegation.pool_id) {
+                setDelegateState('completed')
+            } else if (delegation.active) {
+                setCurrentPoolId(delegation.pool_id)
+            }
+        }
+    })
+
+    let currentPool = null
+
+    if (currentPoolId) {
+        currentPool = pools.find(pool => pool.addr === currentPoolId)
+    }
+
+    const [toast, setToast] = useState(false)
     const [connectState, setConnectState] = useState('default')
     const [delegateState, setDelegateState] = useState('default')
+    const [delegateError, setDelegateError] = useState(null)
 
-    const handleConnect = () => {
+    const handleConnect = async () => {
+
+        if (!window.cardano) {
+            setToast(true)
+            return
+        }
 
         if (connectState !== 'default') return
 
         setConnectState('loading')
 
-        setTimeout(() => {
+        try {
+
+            await window.cardano.enable()
             setConnectState('completed')
-        }, 2000)
+        } catch (e) {
+            setConnectState('default')
+        }
     }
 
-    const handleDelegate = () => {
+    const handleDelegate = async () => {
 
         if (connectState !== 'completed') return
 
         setDelegateState('loading')
+        setDelegateError(null)
 
-        setTimeout(() => {
+        try {
+
+            const delegation = await nami.getDelegation(); // you can also use this one to check for current deleagation status (for the UI, like if the user is already delegate in the pool you just selected)
+            // console.log('delegation', delegation)
+            const targetPoolId = pool.addr;
+            // console.log(`delegate to: ${targetPoolId}`)
+            const tx = await nami.delegationTx(delegation, targetPoolId);
+            const signedTx = await nami.signTx(tx);
+            const txHash = await nami.submitTx(signedTx);
+            console.log(`transaction submitted: ${txHash}`)
+
+            await new Promise((res, rej) => {
+                const awaitInterval = setInterval(async () => {
+                    const result = await nami.blockfrostRequest(`/txs/${txHash}`);
+                    if (result && !result.error) {
+                        clearInterval(awaitInterval);
+                        res();
+                        // set your states
+                        return;
+                    }
+                }, 3000)
+            })
+
             setDelegateState('completed')
-        }, 2000)
+            setCurrentPoolId(null)
+        } catch (e) {
+            console.dir(e)
+            setDelegateError('Transaction not possible (maybe insufficient balance)')
+            setDelegateState('default')
+        }
     }
 
     return (
@@ -121,7 +264,23 @@ function DefaultTab({ pool }) {
                                         </Button>
             </div>
             <div className="w-0.5 bg-gray-100 h-12" />
-            <div>
+            {currentPool ? (
+                <>
+                    <div className="flex text-gray-700 items-center space-x-2 text-xs">
+                        <div className="text-gray-400">Currently delegated to</div>
+                        <div className="flex flex-nowrap items-center px-2 py-1 space-x-2 rounded-lg bg-gray-50">
+                            {currentPool.image ? (
+                                <div className="h-5 w-5 rounded-full overflow-hidden bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${formatImage(currentPool.image)})` }} />
+                            ) : null}
+                            <div className="font-bold truncate">
+                                {currentPool.name}
+                            </div>
+                        </div>
+                    </div>
+                    <div className="w-0.5 bg-gray-100 h-12" />
+                </>
+            ) : null}
+            <div className="flex flex-col items-center">
                 <div className="text-center mb-2 text-gray-500">Step 2</div>
                 <Button
                     state={delegateState}
@@ -129,31 +288,43 @@ function DefaultTab({ pool }) {
                     disabled={connectState !== 'completed'}
                 >
                     Delegate
-                                        </Button>
+                </Button>
+                {delegateError ? (
+                    <div className="mt-2 text-red-500 text-xs">
+                        {delegateError}
+                    </div>
+                ) : null}
             </div>
             <div className="w-0.5 bg-gray-100 h-12" />
 
-            {delegateState === 'default' ? (
-                <div className="font-bold text-gray-400">Waiting for delegation</div>
-            ) : null}
-            {delegateState === 'loading' ? (
-                <svg className="animate-spin h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                    <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-                    <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                </svg>
-            ) : null}
-            {delegateState === 'completed' ? (
-                <div className="font-bold text-gray-700 flex items-center space-x-2">
-                    <div>Delegated to</div>
-                    <div className="flex flex-nowrap items-center px-2 py-1 space-x-2 rounded-lg bg-gray-50">
-                        <div className="h-5 w-5 rounded-full overflow-hidden bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${formatImage(pool.image)})` }} />
-                        <div className="font-bold truncate">
-                            {pool.name}
+            {
+                delegateState === 'default' ? (
+                    <div className="font-bold text-gray-400">Waiting for delegation</div>
+                ) : null
+            }
+            {
+                delegateState === 'loading' ? (
+                    <svg className="animate-spin flex-shrink-0 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                        <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                ) : null
+            }
+            {
+                delegateState === 'completed' ? (
+                    <div className="font-bold text-gray-700 flex items-center space-x-2">
+                        <div>Delegated to</div>
+                        <div className="flex flex-nowrap items-center px-2 py-1 space-x-2 rounded-lg bg-gray-50">
+                            <div className="h-5 w-5 rounded-full overflow-hidden bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${formatImage(pool.image)})` }} />
+                            <div className="font-bold truncate">
+                                {pool.name}
+                            </div>
                         </div>
+                        <div>{'🎉 !'}</div>
                     </div>
-                    <div>{'🎉 !'}</div>
-                </div>
-            ) : null}
+                ) : null
+            }
+            <ToastMessage show={toast} onClose={() => setToast(false)} />
         </>
     )
 }
@@ -161,17 +332,19 @@ function DefaultTab({ pool }) {
 export default function Delegation(props) {
 
     const testMode = useTestMode()
-    const hasNami = process.browser && window.cardano && testMode
+    const isChrome = process.browser && /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor) && testMode
 
-    const [open, setOpen] = useState(false)
+    const [open, setOpen] = useState(true)
     let [tabId, setTabId] = useState('nami')
 
-    tabId = hasNami ? tabId : 'alternate'
+    tabId = isChrome ? tabId : 'alternate'
 
     const tabs = [
         { id: 'nami', name: 'Nami' },
         { id: 'alternate', name: 'Daedalus/Yoroi' },
     ]
+
+    const { pool } = props
 
     return (
         <>
@@ -210,9 +383,17 @@ export default function Delegation(props) {
                         >
                             <div className="select-none inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg w-full">
                                 <div className="flex justify-center py-6 border-b border-gray-100">
-                                    <div className="font-bold text-xl">How to delegate</div>
+                                    <div className="font-bold text-xl flex items-center space-x-2">
+                                        <div>Delegate to</div>
+                                        <div className="flex flex-nowrap items-center px-2 py-1 space-x-2 rounded-lg bg-gray-50">
+                                            <div className="h-5 w-5 rounded-full overflow-hidden bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${formatImage(pool.image)})` }} />
+                                            <div className="font-bold truncate">
+                                                {pool.name}
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                {hasNami ? (
+                                {isChrome ? (
                                     <div className="py-2 flex justify-center border-b border-gray-100">
                                         <nav className="flex space-x-4">
                                             {tabs.map((tab) => (
@@ -231,9 +412,9 @@ export default function Delegation(props) {
                                         </nav>
                                     </div>
                                 ) : null}
-                                <div className="flex flex-col items-center space-y-6 py-6 overflow-y-auto" style={{ maxHeight: 'calc(100vh - 300px)' }}>
+                                <div className="flex flex-col items-center space-y-6 py-6 overflow-y-auto" style={{ maxHeight: 'calc(100vh - 350px)' }}>
                                     {tabId === 'nami' ? (
-                                        <DefaultTab {...props} />
+                                        <NamiTab {...props} />
                                     ) : null}
                                     {tabId === 'alternate' ? (
                                         <AlternateTab {...props} />
@@ -242,7 +423,7 @@ export default function Delegation(props) {
                                 {tabId === 'nami' ? (
                                     <div className="flex items-center justify-evenly py-4 border-t border-gray-100 select-none">
                                         <div className="flex-1 text-right text-xs text-gray-300">Powered by</div>
-                                        <a href="https://nami-wallet.io" target="_blank" className="transition-all hover:opacity-50">
+                                        <a href="https://namiwallet.io/" target="_blank" className="transition-all hover:opacity-50">
                                             <img src="/nami-wallet.svg" className="h-12 mx-6" />
                                         </a>
                                         <div className="flex-1"></div>

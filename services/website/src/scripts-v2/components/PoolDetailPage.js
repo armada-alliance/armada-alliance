@@ -52,6 +52,7 @@ module.exports = {
         {
             type: 'DelegationSection',
             resolve: (ctx, props) => ({
+                pools: ctx.tables.get('pools'),
                 pool: props.pool
             })
         }
