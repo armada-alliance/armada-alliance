@@ -352,7 +352,7 @@ export default function Delegation(props) {
     const testMode = useTestMode()
     const isChrome = process.browser && /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor)
 
-    const [open, setOpen] = useState(true)
+    const [open, setOpen] = useState(false)
     let [tabId, setTabId] = useState('nami')
 
     tabId = isChrome ? tabId : 'alternate'
