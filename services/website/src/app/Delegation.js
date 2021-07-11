@@ -5,6 +5,7 @@ import { Dialog, Transition } from '@headlessui/react'
 import cx from 'classnames'
 import { CheckCircleIcon } from '@heroicons/react/outline'
 import formatImage from './formatImage'
+import HashLink from './HashLink'
 
 function Button(props) {
 
@@ -158,6 +159,17 @@ function NamiTab({ pools, pool }) {
     const [nami, setNami] = useState(null)
     const [currentPoolId, setCurrentPoolId] = useState(null)
 
+    const refreshDelegationState = async (nami) => {
+
+        const delegation = await nami.getDelegation()
+
+        if (pool.addr === delegation.pool_id) {
+            setDelegateState('completed')
+        } else if (delegation.active) {
+            setCurrentPoolId(delegation.pool_id)
+        }
+    }
+
     useEffect(async () => {
 
         if (nami) return
@@ -172,13 +184,7 @@ function NamiTab({ pools, pool }) {
                 setConnectState('completed')
             }
 
-            const delegation = await _nami.getDelegation()
-
-            if (pool.addr === delegation.pool_id) {
-                setDelegateState('completed')
-            } else if (delegation.active) {
-                setCurrentPoolId(delegation.pool_id)
-            }
+            refreshDelegationState(_nami)
         }
     })
 
@@ -191,7 +197,9 @@ function NamiTab({ pools, pool }) {
     const [toast, setToast] = useState(false)
     const [connectState, setConnectState] = useState('default')
     const [delegateState, setDelegateState] = useState('default')
+    const [transactionState, setTransactionState] = useState('default')
     const [delegateError, setDelegateError] = useState(null)
+    const [txHash, setTxHash] = useState(null)
 
     const handleConnect = async () => {
 
@@ -207,6 +215,7 @@ function NamiTab({ pools, pool }) {
         try {
 
             await window.cardano.enable()
+            await refreshDelegationState(nami)
             setConnectState('completed')
         } catch (e) {
             setConnectState('default')
@@ -228,7 +237,10 @@ function NamiTab({ pools, pool }) {
             // console.log(`delegate to: ${targetPoolId}`)
             const tx = await nami.delegationTx(delegation, targetPoolId);
             const signedTx = await nami.signTx(tx);
+            setDelegateState('completed')
+            setTransactionState('loading')
             const txHash = await nami.submitTx(signedTx);
+            setTxHash(txHash)
             console.log(`transaction submitted: ${txHash}`)
 
             await new Promise((res, rej) => {
@@ -242,8 +254,8 @@ function NamiTab({ pools, pool }) {
                     }
                 }, 3000)
             })
+            setTransactionState('completed')
 
-            setDelegateState('completed')
             setCurrentPoolId(null)
         } catch (e) {
             console.dir(e)
@@ -296,34 +308,40 @@ function NamiTab({ pools, pool }) {
                 ) : null}
             </div>
             <div className="w-0.5 bg-gray-100 h-12" />
-
-            {
-                delegateState === 'default' ? (
-                    <div className="font-bold text-gray-400">Waiting for delegation</div>
-                ) : null
-            }
-            {
-                delegateState === 'loading' ? (
+            {txHash ? (
+                <>
+                    <div className="flex flex-col items-center">
+                        <div className="mb-2 text-gray-500 text-sm">Transaction submitted </div>
+                        <HashLink href={`https://cardanoscan.io/transaction/${txHash}`} hash={txHash} />
+                    </div>
+                    <div className="w-0.5 bg-gray-100 h-12" />
+                </>
+            ) : null}
+            {transactionState === 'default' ? (
+                <div className="font-bold text-gray-400">Waiting for delegation</div>
+            ) : null}
+            {transactionState === 'loading' ? (
+                <div className="flex items-center space-x-2">
                     <svg className="animate-spin flex-shrink-0 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                         <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
                         <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
                     </svg>
-                ) : null
-            }
-            {
-                delegateState === 'completed' ? (
-                    <div className="font-bold text-gray-700 flex items-center space-x-2">
-                        <div>Delegated to</div>
-                        <div className="flex flex-nowrap items-center px-2 py-1 space-x-2 rounded-lg bg-gray-50">
-                            <div className="h-5 w-5 rounded-full overflow-hidden bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${formatImage(pool.image)})` }} />
-                            <div className="font-bold truncate">
-                                {pool.name}
-                            </div>
+                    <div className="font-bold text-gray-400">Confirming transaction</div>
+
+                </div>
+            ) : null}
+            {transactionState === 'completed' ? (
+                <div className="font-bold text-gray-700 flex items-center space-x-2">
+                    <div>Delegated to</div>
+                    <div className="flex flex-nowrap items-center px-2 py-1 space-x-2 rounded-lg bg-gray-50">
+                        <div className="h-5 w-5 rounded-full overflow-hidden bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${formatImage(pool.image)})` }} />
+                        <div className="font-bold truncate">
+                            {pool.name}
                         </div>
-                        <div>{'🎉 !'}</div>
                     </div>
-                ) : null
-            }
+                    <div>{'🎉 !'}</div>
+                </div>
+            ) : null}
             <ToastMessage show={toast} onClose={() => setToast(false)} />
         </>
     )
@@ -332,9 +350,9 @@ function NamiTab({ pools, pool }) {
 export default function Delegation(props) {
 
     const testMode = useTestMode()
-    const isChrome = process.browser && /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor) && testMode
+    const isChrome = process.browser && /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor)
 
-    const [open, setOpen] = useState(false)
+    const [open, setOpen] = useState(true)
     let [tabId, setTabId] = useState('nami')
 
     tabId = isChrome ? tabId : 'alternate'
@@ -348,7 +366,7 @@ export default function Delegation(props) {
 
     return (
         <>
-            <div className="mt-4 flex items-center">
+            <div className="py-4 flex items-center justify-center">
                 <button type="button" className="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-full w-40 justify-center text-white bg-primary-500 transition ease-in-out duration-150 focus:outline-none hover:bg-primary-400 focus:border-primary-600 active:bg-primary-600" onClick={() => setOpen(true)}>
                     Delegate
                 </button>
@@ -412,7 +430,7 @@ export default function Delegation(props) {
                                         </nav>
                                     </div>
                                 ) : null}
-                                <div className="flex flex-col items-center space-y-6 py-6 overflow-y-auto" style={{ maxHeight: 'calc(100vh - 350px)' }}>
+                                <div className="flex flex-col items-center space-y-6 py-6 overflow-y-auto" style={{ maxHeight: 'calc(100vh - 280px)' }}>
                                     {tabId === 'nami' ? (
                                         <NamiTab {...props} />
                                     ) : null}

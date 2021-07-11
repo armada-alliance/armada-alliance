@@ -12,8 +12,6 @@ export default function PostDetailPage(props) {
 
     const { components } = props
 
-    const testMode = useTestMode()
-
     return (
         <Component use={Layout} data={props.components.Layout}>
             <ContentContainer>
@@ -21,15 +19,15 @@ export default function PostDetailPage(props) {
                     <div className="max-w-prose mx-auto">
                         <div className="text-lg">
                             <Component use={PageHeader} data={components.PageHeader} />
+                            {props.props.template === 'PoolDetailPage' ? (
+                                <Component
+                                    use={Delegation}
+                                    data={components.DelegationSection}
+                                />
+                            ) : null}
                             <Component use={PageExcerpt} data={components.PageExcerpt} />
                         </div>
                         <Component use={PageContent} data={components.PageContent} />
-                        {testMode && props.props.template === 'PoolDetailPage' ? (
-                            <Component
-                                use={Delegation}
-                                data={components.DelegationSection}
-                            />
-                        ) : null}
                         <Component use={PostPagesSection} data={components.PostPagesSection} />
                     </div>
                 </div>
