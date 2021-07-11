@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"redeemer\",\"language\":\"en\",\"slug\":\"/terms/redeemer\",\"origin\":\"/terms/redeemer\",\"title\":\"Redeemer\",\"description\":\"The argument to the validator script which is provided by the transaction which spends a script output.\",\"aliases\":[\"redeemer\"],\"keywords\":[\"redeemer\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":null,\"createdAt\":null,\"filePath\":\"/en/terms/redeemer.md\",\"body\":\"\",\"mdxSource\":{\"compiledSource\":\"var M=Object.defineProperty,X=Object.defineProperties;var c=Object.getOwnPropertyDescriptors;var u=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,a=Object.prototype.propertyIsEnumerable;var s=(o,t,n)=>t in o?M(o,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):o[t]=n,p=(o,t)=>{for(var n in t||(t={}))r.call(t,n)&&s(o,n,t[n]);if(u)for(var n of u(t))a.call(t,n)&&s(o,n,t[n]);return o},y=(o,t)=>X(o,c(t));var D=(o,t)=>{var n={};for(var e in o)r.call(o,e)&&t.indexOf(e)<0&&(n[e]=o[e]);if(o!=null&&u)for(var e of u(o))t.indexOf(e)<0&&a.call(o,e)&&(n[e]=o[e]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var e=n,{components:o}=e,t=D(e,[\\\"components\\\"]);return mdx(MDXLayout,y(p(p({},layoutProps),t),{components:o,mdxType:\\\"MDXLayout\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-10T21:40:05.054Z",
-  "_cachedIn": "1.73 ms",
-  "_resolvedIn": "1.73 ms",
+  "_cachedAt": "2021-07-11T06:28:18.757Z",
+  "_cachedIn": "1.02 ms",
+  "_resolvedIn": "1.02 ms",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -41,17 +41,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-10T21:40:05.054Z",
-    "component-cached-in": "1.73 ms",
-    "component-resolved-in": "1.73 ms"
+    "component-cached-at": "2021-07-11T06:28:18.757Z",
+    "component-cached-in": "1.02 ms",
+    "component-resolved-in": "1.02 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-10T21:40:05.054Z",
-      "_cachedIn": "1.4 ms",
-      "_resolvedIn": "1.4 ms",
+      "_cachedAt": "2021-07-11T06:28:18.757Z",
+      "_cachedIn": "768 μs",
+      "_resolvedIn": "768 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -60,17 +60,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-10T21:40:05.054Z",
-        "component-cached-in": "1.4 ms",
-        "component-resolved-in": "1.4 ms"
+        "component-cached-at": "2021-07-11T06:28:18.757Z",
+        "component-cached-in": "768 μs",
+        "component-resolved-in": "768 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-10T21:40:05.054Z",
-          "_cachedIn": "815 μs",
-          "_resolvedIn": "815 μs",
+          "_cachedAt": "2021-07-11T06:28:18.757Z",
+          "_cachedIn": "389 μs",
+          "_resolvedIn": "389 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -1175,7 +1175,7 @@
                 "language": "en",
                 "slug": "/stake-pools/052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e",
                 "origin": "/stake-pools/052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e",
-                "title": "Behemoth",
+                "title": "Behemoth (BHMT)",
                 "description": "Towards sustainable and decentralized Cardano.",
                 "aliases": null,
                 "keywords": null,
@@ -1196,7 +1196,7 @@
                 "language": "en",
                 "slug": "/stake-pools/1795531808124bd8bf39943b5cb453db0f74115e840c04e02015550c",
                 "origin": "/stake-pools/1795531808124bd8bf39943b5cb453db0f74115e840c04e02015550c",
-                "title": "cardanoYYC",
+                "title": "cardanoYYC (YYC)",
                 "description": "A Calgary based Cardano Pool supporting local",
                 "aliases": null,
                 "keywords": null,
@@ -1207,7 +1207,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://static.adapools.org/pool_logo/1795531808124bd8bf39943b5cb453db0f74115e840c04e02015550c.png",
+                "image": "https://github.com/jacky4566/CardanoYYC/raw/main/YYC_LOGO_PNG.png",
                 "updatedAt": null,
                 "createdAt": null,
                 "filePath": "/en/stake-pools/1795531808124bd8bf39943b5cb453db0f74115e840c04e02015550c.md"
@@ -1217,7 +1217,7 @@
                 "language": "en",
                 "slug": "/stake-pools/2730ca79a60b3b3f29b709bd39c21d66cb2c83e5441c479f755d0a3d",
                 "origin": "/stake-pools/2730ca79a60b3b3f29b709bd39c21d66cb2c83e5441c479f755d0a3d",
-                "title": "Armadillo",
+                "title": "Armadillo (AMDLO)",
                 "description": "Minimum fees, maximum reliability, helping to secure the Cardano blockchain",
                 "aliases": null,
                 "keywords": null,
@@ -1228,7 +1228,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://static.adapools.org/pool_logo/2730ca79a60b3b3f29b709bd39c21d66cb2c83e5441c479f755d0a3d.png",
+                "image": "https://raw.githubusercontent.com/Zebra-Danio/meta/main/logo.png",
                 "updatedAt": null,
                 "createdAt": null,
                 "filePath": "/en/stake-pools/2730ca79a60b3b3f29b709bd39c21d66cb2c83e5441c479f755d0a3d.md"
@@ -1238,7 +1238,7 @@
                 "language": "en",
                 "slug": "/stake-pools/2a748e3885f6f73320ad16a8331247b81fe01b8d39f57eec9caa5091",
                 "origin": "/stake-pools/2a748e3885f6f73320ad16a8331247b81fe01b8d39f57eec9caa5091",
-                "title": "Berry",
+                "title": "Berry (BERRY)",
                 "description": "Decentralizing Cardano in the most beautiful way - Let's shape the future together!",
                 "aliases": null,
                 "keywords": null,
@@ -1253,7 +1253,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://static.adapools.org/pool_logo/2a748e3885f6f73320ad16a8331247b81fe01b8d39f57eec9caa5091.png",
+                "image": "https://github.com/alessandrokonrad/Pi-Pool/raw/master/images/logo.png",
                 "updatedAt": null,
                 "createdAt": null,
                 "filePath": "/en/stake-pools/2a748e3885f6f73320ad16a8331247b81fe01b8d39f57eec9caa5091.md"
@@ -1263,7 +1263,7 @@
                 "language": "en",
                 "slug": "/stake-pools/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
                 "origin": "/stake-pools/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
-                "title": "Southtyrolpool",
+                "title": "Southtyrolpool (sudti)",
                 "description": "A stable pool from South tyrol.",
                 "aliases": null,
                 "keywords": null,
@@ -1274,7 +1274,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://static.adapools.org/pool_logo/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36.png",
+                "image": "https://github.com/fisch192/southtyrolpool.github.io/blob/main/logo-512x512@2x.png?raw=true",
                 "updatedAt": null,
                 "createdAt": null,
                 "filePath": "/en/stake-pools/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36.md"
@@ -1284,7 +1284,7 @@
                 "language": "en",
                 "slug": "/stake-pools/33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4",
                 "origin": "/stake-pools/33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4",
-                "title": "Adaberry Pi",
+                "title": "Adaberry Pi (00000)",
                 "description": "Delegate to our mission-driven Adaberry Pi Cardano stake pool and be rewarded for helping heal the environment and economy. 🥧 ( π ≈ 3.14 :: ₳ ≡ ∞ ) 😃",
                 "aliases": null,
                 "keywords": null,
@@ -1295,7 +1295,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://static.adapools.org/pool_logo/33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4.png",
+                "image": "https://illustratorandweb.com/Pool-00000-1000x1000.png",
                 "updatedAt": null,
                 "createdAt": null,
                 "filePath": "/en/stake-pools/33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4.md"
@@ -1305,7 +1305,7 @@
                 "language": "en",
                 "slug": "/stake-pools/351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8",
                 "origin": "/stake-pools/351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8",
-                "title": "Quixote Dream Pool",
+                "title": "Quixote Dream Pool (QXT)",
                 "description": "Dream the impossible dream like Quixote! Support Tech Projects in La Mancha, one of the most under-developed Regions in Europe",
                 "aliases": null,
                 "keywords": null,
@@ -1326,7 +1326,7 @@
                 "language": "en",
                 "slug": "/stake-pools/406a08532d2ca8dd08ea39e082dc8acdc2a3b34d0c517bd0e40af5e1",
                 "origin": "/stake-pools/406a08532d2ca8dd08ea39e082dc8acdc2a3b34d0c517bd0e40af5e1",
-                "title": "SBC-Mining",
+                "title": "SBC-Mining (SBC)",
                 "description": "SBC-Mining - Everything about cryptocurrency / cryptomining on single board computers. All income will be used to test and host further projects for you. ",
                 "aliases": null,
                 "keywords": null,
@@ -1337,7 +1337,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://static.adapools.org/pool_logo/406a08532d2ca8dd08ea39e082dc8acdc2a3b34d0c517bd0e40af5e1.png",
+                "image": "https://raw.githubusercontent.com/sbc-mining/ada-pool/main/512x512.png",
                 "updatedAt": null,
                 "createdAt": null,
                 "filePath": "/en/stake-pools/406a08532d2ca8dd08ea39e082dc8acdc2a3b34d0c517bd0e40af5e1.md"
@@ -1347,7 +1347,7 @@
                 "language": "en",
                 "slug": "/stake-pools/4f5e469a40547208cf9876b36ae9b23874c302ab8ab263a952bbae6a",
                 "origin": "/stake-pools/4f5e469a40547208cf9876b36ae9b23874c302ab8ab263a952bbae6a",
-                "title": "ZenPool",
+                "title": "ZenPool (ZAZEN)",
                 "description": "A small-scale Cardano pool for friends and family",
                 "aliases": null,
                 "keywords": null,
@@ -1358,7 +1358,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://static.adapools.org/pool_logo/4f5e469a40547208cf9876b36ae9b23874c302ab8ab263a952bbae6a.png",
+                "image": "https://raw.githubusercontent.com/ZenenTreadwell/zenentreadwell.github.io/3f97391f669120a5ffcfba7c201833d6fef33d35/static/enso-small.png",
                 "updatedAt": null,
                 "createdAt": null,
                 "filePath": "/en/stake-pools/4f5e469a40547208cf9876b36ae9b23874c302ab8ab263a952bbae6a.md"
@@ -1368,7 +1368,7 @@
                 "language": "en",
                 "slug": "/stake-pools/76c5c707afe9a824bd946d32ec99959ae05f8bf0e8290def11e03a42",
                 "origin": "/stake-pools/76c5c707afe9a824bd946d32ec99959ae05f8bf0e8290def11e03a42",
-                "title": "Raspberry",
+                "title": "Raspberry (RPI)",
                 "description": "Raspberry Pi Pool",
                 "aliases": null,
                 "keywords": null,
@@ -1379,7 +1379,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://static.adapools.org/pool_logo/76c5c707afe9a824bd946d32ec99959ae05f8bf0e8290def11e03a42.png",
+                "image": "https://raspberryrpi.com/wp-content/uploads/2021/05/RPI-Logo-Nederlandse-stakepool-e1621180854953.png",
                 "updatedAt": null,
                 "createdAt": null,
                 "filePath": "/en/stake-pools/76c5c707afe9a824bd946d32ec99959ae05f8bf0e8290def11e03a42.md"
@@ -1389,7 +1389,7 @@
                 "language": "en",
                 "slug": "/stake-pools/7aac5502d19cac8731e3b86ecc9553d69b26a02155e5c9cf262d224c",
                 "origin": "/stake-pools/7aac5502d19cac8731e3b86ecc9553d69b26a02155e5c9cf262d224c",
-                "title": "PIEBR Pool",
+                "title": "PIEBR Pool (PIEBR)",
                 "description": "Pool com objetivo de usar RaspBerry PI com energia solar no Brasil. Venha ajudar o planeta?",
                 "aliases": null,
                 "keywords": null,
@@ -1410,7 +1410,7 @@
                 "language": "en",
                 "slug": "/stake-pools/7e45a7e6ab3afcf99120e97aedf84e706e43d829ddc610ad667a85a3",
                 "origin": "/stake-pools/7e45a7e6ab3afcf99120e97aedf84e706e43d829ddc610ad667a85a3",
-                "title": "PGWADA Stake pool",
+                "title": "PGWADA Stake pool (PGWAD)",
                 "description": "Stake pool operated by father and son exploring AI and blockchain",
                 "aliases": null,
                 "keywords": null,
@@ -1431,7 +1431,7 @@
                 "language": "en",
                 "slug": "/stake-pools/8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8",
                 "origin": "/stake-pools/8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8",
-                "title": "Sublayer Pool",
+                "title": "Sublayer Pool (SBLYR)",
                 "description": "Providing marketing pages and educational content for stake pool operators.",
                 "aliases": null,
                 "keywords": null,
@@ -1442,7 +1442,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://static.adapools.org/pool_logo/8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8.png",
+                "image": "https://cdn.sublayer.io/logo.png",
                 "updatedAt": null,
                 "createdAt": null,
                 "filePath": "/en/stake-pools/8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8.md"
@@ -1452,7 +1452,7 @@
                 "language": "en",
                 "slug": "/stake-pools/96155e7994343ae2b5da83d895cbab3c21838f95c3f971c8e20ee3c8",
                 "origin": "/stake-pools/96155e7994343ae2b5da83d895cbab3c21838f95c3f971c8e20ee3c8",
-                "title": "Halo Stake Pool",
+                "title": "Halo Stake Pool (HALO)",
                 "description": "Sustainable decentralization with new single pool. Always low fees on a Raspberry Pi cluster! 😇",
                 "aliases": null,
                 "keywords": null,
@@ -1463,7 +1463,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://static.adapools.org/pool_logo/96155e7994343ae2b5da83d895cbab3c21838f95c3f971c8e20ee3c8.png",
+                "image": "https://raw.githubusercontent.com/reignxx/m/master/halostakeclean_small.png",
                 "updatedAt": null,
                 "createdAt": null,
                 "filePath": "/en/stake-pools/96155e7994343ae2b5da83d895cbab3c21838f95c3f971c8e20ee3c8.md"
@@ -1473,7 +1473,7 @@
                 "language": "en",
                 "slug": "/stake-pools/9728b10a926c048af938e5c52053319db5be921e8b698842c3afd3cc",
                 "origin": "/stake-pools/9728b10a926c048af938e5c52053319db5be921e8b698842c3afd3cc",
-                "title": "SOLAR Raspberry PI",
+                "title": "SOLAR Raspberry PI (SOLRP)",
                 "description": "Our goal is to create a fully solar powered raspberry pi for cardano staking",
                 "aliases": null,
                 "keywords": null,
@@ -1494,7 +1494,7 @@
                 "language": "en",
                 "slug": "/stake-pools/97aaa4621cffb87c3e8380376406cc9501d6c9e1cbb459e17cd60602",
                 "origin": "/stake-pools/97aaa4621cffb87c3e8380376406cc9501d6c9e1cbb459e17cd60602",
-                "title": "BONE pool",
+                "title": "BONE pool (BONE)",
                 "description": "Our aim is to promote decentralization, one small bone in the skeleton supporting the future",
                 "aliases": null,
                 "keywords": null,
@@ -1515,7 +1515,7 @@
                 "language": "en",
                 "slug": "/stake-pools/a343a6e2eb4bb7f8abf039b82e579131b56966d88d9937e679365269",
                 "origin": "/stake-pools/a343a6e2eb4bb7f8abf039b82e579131b56966d88d9937e679365269",
-                "title": "CryptoPool.dev",
+                "title": "CryptoPool.dev (CRYPO)",
                 "description": "Secure and reliable pool located in Amsterdam with a carbon neutral footprint.",
                 "aliases": null,
                 "keywords": null,
@@ -1526,7 +1526,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://static.adapools.org/pool_logo/a343a6e2eb4bb7f8abf039b82e579131b56966d88d9937e679365269.png",
+                "image": "https://cryptopool.dev/brand/logo-1024x1024.png",
                 "updatedAt": null,
                 "createdAt": null,
                 "filePath": "/en/stake-pools/a343a6e2eb4bb7f8abf039b82e579131b56966d88d9937e679365269.md"
@@ -1536,7 +1536,7 @@
                 "language": "en",
                 "slug": "/stake-pools/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65",
                 "origin": "/stake-pools/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65",
-                "title": "PIADA piada.io",
+                "title": "PIADA piada.io (PIADA)",
                 "description": "Stake pool education hub for Raspberry Pi and ARM 64-bit SoC based low power devices.",
                 "aliases": null,
                 "keywords": null,
@@ -1551,7 +1551,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://static.adapools.org/pool_logo/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65.png",
+                "image": "https://piada.io/piadaFull.png",
                 "updatedAt": null,
                 "createdAt": null,
                 "filePath": "/en/stake-pools/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65.md"
@@ -1561,7 +1561,7 @@
                 "language": "en",
                 "slug": "/stake-pools/c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2",
                 "origin": "/stake-pools/c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2",
-                "title": "Cardano ADA Mini Pool Switzerland",
+                "title": "Cardano ADA Mini Pool Switzerland (MINI1)",
                 "description": "A reliable and eco-friendly stake pool running on Raspberry Pi's",
                 "aliases": null,
                 "keywords": null,
@@ -1572,7 +1572,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://static.adapools.org/pool_logo/c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2.png",
+                "image": "https://github.com/jterrier84/minipool/blob/main/MINI1_logo.png?raw=true",
                 "updatedAt": null,
                 "createdAt": null,
                 "filePath": "/en/stake-pools/c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2.md"
@@ -1582,7 +1582,7 @@
                 "language": "en",
                 "slug": "/stake-pools/c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae",
                 "origin": "/stake-pools/c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae",
-                "title": " Star Forge ",
+                "title": " Star Forge  (OTG)",
                 "description": "Off The Grid solar powered pool. 3.4 kWh homemade 18650 Tesla Powerwall &amp; 3 Raspberry Pi @ under 13 watts. Teaching the next generation open source is the $PATH &amp; DeFi is the future. Check out our project and please delegate if you can. Thank you!",
                 "aliases": null,
                 "keywords": null,
@@ -1593,7 +1593,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://static.adapools.org/pool_logo/c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae.png",
+                "image": "https://adamantium.online/images/sun.jpg",
                 "updatedAt": null,
                 "createdAt": null,
                 "filePath": "/en/stake-pools/c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae.md"
@@ -1603,7 +1603,7 @@
                 "language": "en",
                 "slug": "/stake-pools/c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386",
                 "origin": "/stake-pools/c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386",
-                "title": "MEME Pool",
+                "title": "MEME Pool (MEME)",
                 "description": "They don't know I run a Cardano stake pool.",
                 "aliases": null,
                 "keywords": null,
@@ -1614,7 +1614,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://static.adapools.org/pool_logo/c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386.png",
+                "image": "https://meme.best/icons/apple-touch-icon.png",
                 "updatedAt": null,
                 "createdAt": null,
                 "filePath": "/en/stake-pools/c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386.md"
@@ -1624,7 +1624,7 @@
                 "language": "en",
                 "slug": "/stake-pools/cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0",
                 "origin": "/stake-pools/cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0",
-                "title": "ADASRN",
+                "title": "ADASRN (SRN)",
                 "description": "Growing wealth together. We keep costs low for the community with a 1% margin.",
                 "aliases": null,
                 "keywords": null,
@@ -1635,7 +1635,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://static.adapools.org/pool_logo/cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0.png",
+                "image": "https://sayshar.github.io/ADASRN_1024x1024.png",
                 "updatedAt": null,
                 "createdAt": null,
                 "filePath": "/en/stake-pools/cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0.md"
@@ -1645,7 +1645,7 @@
                 "language": "en",
                 "slug": "/stake-pools/febb924e349d816997e007dc09847ded9a2e72d218023c0e5186176d",
                 "origin": "/stake-pools/febb924e349d816997e007dc09847ded9a2e72d218023c0e5186176d",
-                "title": "Oyster_Pool",
+                "title": "Oyster_Pool (OYSTR)",
                 "description": "Single pool owner, first in Wales/Cymru. An independent pool run from an energy efficient and reliable network of Raspberry Pis. We are an ideas lab run by a long-term Cardanoista and one of the ‘unacknowledged legislators of the world’ (Shelley).",
                 "aliases": null,
                 "keywords": null,
@@ -6595,18 +6595,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-10T21:40:05.054Z",
-            "component-cached-in": "815 μs",
-            "component-resolved-in": "815 μs"
+            "component-cached-at": "2021-07-11T06:28:18.757Z",
+            "component-cached-in": "389 μs",
+            "component-resolved-in": "389 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-10T21:40:05.054Z",
-          "_cachedIn": "933 μs",
-          "_resolvedIn": "933 μs",
+          "_cachedAt": "2021-07-11T06:28:18.757Z",
+          "_cachedIn": "497 μs",
+          "_resolvedIn": "497 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6617,17 +6617,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-10T21:40:05.054Z",
-            "component-cached-in": "933 μs",
-            "component-resolved-in": "933 μs"
+            "component-cached-at": "2021-07-11T06:28:18.757Z",
+            "component-cached-in": "497 μs",
+            "component-resolved-in": "497 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-10T21:40:05.054Z",
-              "_cachedIn": "130 μs",
-              "_resolvedIn": "130 μs",
+              "_cachedAt": "2021-07-11T06:28:18.757Z",
+              "_cachedIn": "104 μs",
+              "_resolvedIn": "104 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6671,9 +6671,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-10T21:40:05.054Z",
-                "component-cached-in": "130 μs",
-                "component-resolved-in": "130 μs"
+                "component-cached-at": "2021-07-11T06:28:18.757Z",
+                "component-cached-in": "104 μs",
+                "component-resolved-in": "104 μs"
               },
               "components": {}
             }
@@ -6682,9 +6682,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-10T21:40:05.053Z",
-          "_cachedIn": "627 μs",
-          "_resolvedIn": "627 μs",
+          "_cachedAt": "2021-07-11T06:28:18.757Z",
+          "_cachedIn": "225 μs",
+          "_resolvedIn": "225 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -6693,9 +6693,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-10T21:40:05.053Z",
-            "component-cached-in": "627 μs",
-            "component-resolved-in": "627 μs"
+            "component-cached-at": "2021-07-11T06:28:18.757Z",
+            "component-cached-in": "225 μs",
+            "component-resolved-in": "225 μs"
           },
           "components": {}
         }
@@ -6704,9 +6704,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-10T21:40:05.054Z",
-      "_cachedIn": "1.18 ms",
-      "_resolvedIn": "1.18 ms",
+      "_cachedAt": "2021-07-11T06:28:18.757Z",
+      "_cachedIn": "536 μs",
+      "_resolvedIn": "536 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -6733,18 +6733,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-10T21:40:05.054Z",
-        "component-cached-in": "1.18 ms",
-        "component-resolved-in": "1.18 ms"
+        "component-cached-at": "2021-07-11T06:28:18.757Z",
+        "component-cached-in": "536 μs",
+        "component-resolved-in": "536 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-10T21:40:05.053Z",
-      "_cachedIn": "891 μs",
-      "_resolvedIn": "891 μs",
+      "_cachedAt": "2021-07-11T06:28:18.757Z",
+      "_cachedIn": "370 μs",
+      "_resolvedIn": "370 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -6756,18 +6756,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-10T21:40:05.053Z",
-        "component-cached-in": "891 μs",
-        "component-resolved-in": "891 μs"
+        "component-cached-at": "2021-07-11T06:28:18.757Z",
+        "component-cached-in": "370 μs",
+        "component-resolved-in": "370 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-10T21:40:05.054Z",
-      "_cachedIn": "1.18 ms",
-      "_resolvedIn": "1.18 ms",
+      "_cachedAt": "2021-07-11T06:28:18.757Z",
+      "_cachedIn": "537 μs",
+      "_resolvedIn": "537 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -6785,9 +6785,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-10T21:40:05.054Z",
-        "component-cached-in": "1.18 ms",
-        "component-resolved-in": "1.18 ms"
+        "component-cached-at": "2021-07-11T06:28:18.757Z",
+        "component-cached-in": "537 μs",
+        "component-resolved-in": "537 μs"
       },
       "components": {}
     }

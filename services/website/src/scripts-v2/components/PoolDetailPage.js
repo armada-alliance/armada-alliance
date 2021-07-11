@@ -11,7 +11,7 @@ module.exports = {
 
         return {
             ...page,
-            title: pool.name,
+            title: `${pool.name} (${pool.ticker})`,
             image: pool.image,
             description: pool.description,
         }
@@ -44,9 +44,15 @@ module.exports = {
         },
         {
             type: 'PageContent',
-            getParams: (ctx, props) => ({
+            resolve: (ctx, props) => ({
                 mdxSource: props.mdxSource,
                 filePath: props.filePath
+            })
+        },
+        {
+            type: 'DelegationSection',
+            resolve: (ctx, props) => ({
+                pool: props.pool
             })
         }
     ]

@@ -132,11 +132,11 @@ export default function Header(props) {
     const { components } = props
 
     return (
-        <Popover className="relative bg-white">
+        <Popover className="fixed top-0 left-0 w-full bg-white">
             {({ open }) => (
                 <>
                     <div className="max-w-7xl mx-auto px-4 sm:px-6">
-                        <div className="flex items-center py-6 space-x-10">
+                        <div className="flex items-center h-16 sm:h-24 py-4 sm:py-6 space-x-10">
                             <div className="flex justify-start lg:w-0 flex-1">
                                 <Link internal={true} href="/">
                                     <a>
