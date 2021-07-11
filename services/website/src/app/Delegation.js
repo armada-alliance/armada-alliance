@@ -165,6 +165,7 @@ function NamiTab({ pools, pool }) {
 
         if (pool.addr === delegation.pool_id) {
             setDelegateState('completed')
+            setTransactionState('completed')
         } else if (delegation.active) {
             setCurrentPoolId(delegation.pool_id)
         }
