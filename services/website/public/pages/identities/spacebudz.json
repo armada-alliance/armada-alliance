@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"IdentityDetailPage\",\"version\":1},\"props\":{\"id\":\"spacebudz\",\"language\":\"en\",\"slug\":\"/identities/spacebudz\",\"origin\":\"/identities/spacebudz\",\"title\":\"Spacebudz\",\"aliases\":null,\"keywords\":null,\"template\":\"IdentityDetailPage\",\"image\":\"/spacebudz.png\",\"updatedAt\":null,\"createdAt\":null,\"filePath\":\"/en/identities/spacebudz.md\",\"website\":\"https://spacebudz.io/\",\"body\":\"One of the first and most successful NFT collections on the Cardano blockchain created by [Alessandro Konrad](/identities/alessandro-berry). All 10,000 SpaceBudz were sold in a matter of days and now holds the highest valuation of all Cardano NFTs with one selling for 70,000 ADA at an auction on the CNFT discord server.\\n\\n<YoutubeVideo url=\\\"https://youtu.be/aVSkF97oQew\\\" />\\n\",\"mdxSource\":{\"compiledSource\":\"var l=Object.defineProperty,p=Object.defineProperties;var h=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var s=Object.prototype.hasOwnProperty,d=Object.prototype.propertyIsEnumerable;var u=(o,e,t)=>e in o?l(o,e,{enumerable:!0,configurable:!0,writable:!0,value:t}):o[e]=t,a=(o,e)=>{for(var t in e||(e={}))s.call(e,t)&&u(o,t,e[t]);if(r)for(var t of r(e))d.call(e,t)&&u(o,t,e[t]);return o},i=(o,e)=>p(o,h(e));var c=(o,e)=>{var t={};for(var n in o)s.call(o,n)&&e.indexOf(n)<0&&(t[n]=o[n]);if(o!=null&&r)for(var n of r(o))e.indexOf(n)<0&&d.call(o,n)&&(t[n]=o[n]);return t};const makeShortcode=o=>function(t){return console.warn(\\\"Component \\\"+o+\\\" was not imported, exported, or provided by MDXProvider as global scope\\\"),mdx(\\\"div\\\",a({},t))},YoutubeVideo=makeShortcode(\\\"YoutubeVideo\\\"),layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(t){var n=t,{components:o}=n,e=c(n,[\\\"components\\\"]);return mdx(MDXLayout,i(a(a({},layoutProps),e),{components:o,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"One of the first and most successful NFT collections on the Cardano blockchain created by \\\",mdx(\\\"a\\\",a({parentName:\\\"p\\\"},{href:\\\"/identities/alessandro-berry\\\"}),\\\"Alessandro Konrad\\\"),\\\". All 10,000 SpaceBudz were sold in a matter of days and now holds the highest valuation of all Cardano NFTs with one selling for 70,000 ADA at an auction on the CNFT discord server.\\\"),mdx(YoutubeVideo,{url:\\\"https://youtu.be/aVSkF97oQew\\\",mdxType:\\\"YoutubeVideo\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-11T06:28:17.139Z",
-  "_cachedIn": "9.71 ms",
-  "_resolvedIn": "9.71 ms",
+  "_cachedAt": "2021-07-11T09:41:10.888Z",
+  "_cachedIn": "2.73 ms",
+  "_resolvedIn": "2.73 ms",
   "id": "IdentityDetailPage",
   "type": "IdentityDetailPage",
   "status": "resolved",
@@ -42,17 +42,17 @@
   "attrs": {
     "component-type": "IdentityDetailPage",
     "component-id": "IdentityDetailPage",
-    "component-cached-at": "2021-07-11T06:28:17.139Z",
-    "component-cached-in": "9.71 ms",
-    "component-resolved-in": "9.71 ms"
+    "component-cached-at": "2021-07-11T09:41:10.888Z",
+    "component-cached-in": "2.73 ms",
+    "component-resolved-in": "2.73 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-11T06:28:17.139Z",
-      "_cachedIn": "8.23 ms",
-      "_resolvedIn": "8.23 ms",
+      "_cachedAt": "2021-07-11T09:41:10.888Z",
+      "_cachedIn": "1.73 ms",
+      "_resolvedIn": "1.73 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -61,17 +61,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-11T06:28:17.139Z",
-        "component-cached-in": "8.23 ms",
-        "component-resolved-in": "8.23 ms"
+        "component-cached-at": "2021-07-11T09:41:10.888Z",
+        "component-cached-in": "1.73 ms",
+        "component-resolved-in": "1.73 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-11T06:28:17.137Z",
-          "_cachedIn": "4.31 ms",
-          "_resolvedIn": "4.31 ms",
+          "_cachedAt": "2021-07-11T09:41:10.888Z",
+          "_cachedIn": "573 μs",
+          "_resolvedIn": "573 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -6596,18 +6596,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-11T06:28:17.137Z",
-            "component-cached-in": "4.31 ms",
-            "component-resolved-in": "4.31 ms"
+            "component-cached-at": "2021-07-11T09:41:10.888Z",
+            "component-cached-in": "573 μs",
+            "component-resolved-in": "573 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-11T06:28:17.138Z",
-          "_cachedIn": "5.28 ms",
-          "_resolvedIn": "5.28 ms",
+          "_cachedAt": "2021-07-11T09:41:10.888Z",
+          "_cachedIn": "763 μs",
+          "_resolvedIn": "763 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6618,17 +6618,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-11T06:28:17.138Z",
-            "component-cached-in": "5.28 ms",
-            "component-resolved-in": "5.28 ms"
+            "component-cached-at": "2021-07-11T09:41:10.888Z",
+            "component-cached-in": "763 μs",
+            "component-resolved-in": "763 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-11T06:28:17.138Z",
-              "_cachedIn": "1.03 ms",
-              "_resolvedIn": "1.03 ms",
+              "_cachedAt": "2021-07-11T09:41:10.888Z",
+              "_cachedIn": "155 μs",
+              "_resolvedIn": "155 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6672,9 +6672,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-11T06:28:17.138Z",
-                "component-cached-in": "1.03 ms",
-                "component-resolved-in": "1.03 ms"
+                "component-cached-at": "2021-07-11T09:41:10.888Z",
+                "component-cached-in": "155 μs",
+                "component-resolved-in": "155 μs"
               },
               "components": {}
             }
@@ -6683,9 +6683,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-11T06:28:17.136Z",
-          "_cachedIn": "2.8 ms",
-          "_resolvedIn": "2.8 ms",
+          "_cachedAt": "2021-07-11T09:41:10.887Z",
+          "_cachedIn": "270 μs",
+          "_resolvedIn": "270 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -6694,9 +6694,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-11T06:28:17.136Z",
-            "component-cached-in": "2.8 ms",
-            "component-resolved-in": "2.8 ms"
+            "component-cached-at": "2021-07-11T09:41:10.887Z",
+            "component-cached-in": "270 μs",
+            "component-resolved-in": "270 μs"
           },
           "components": {}
         }
@@ -6705,9 +6705,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-11T06:28:17.137Z",
-      "_cachedIn": "6.09 ms",
-      "_resolvedIn": "6.09 ms",
+      "_cachedAt": "2021-07-11T09:41:10.887Z",
+      "_cachedIn": "1.31 ms",
+      "_resolvedIn": "1.31 ms",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -6721,18 +6721,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-11T06:28:17.137Z",
-        "component-cached-in": "6.09 ms",
-        "component-resolved-in": "6.09 ms"
+        "component-cached-at": "2021-07-11T09:41:10.887Z",
+        "component-cached-in": "1.31 ms",
+        "component-resolved-in": "1.31 ms"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-11T06:28:17.135Z",
-      "_cachedIn": "4.06 ms",
-      "_resolvedIn": "4.06 ms",
+      "_cachedAt": "2021-07-11T09:41:10.887Z",
+      "_cachedIn": "971 μs",
+      "_resolvedIn": "971 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -6741,18 +6741,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-11T06:28:17.135Z",
-        "component-cached-in": "4.06 ms",
-        "component-resolved-in": "4.06 ms"
+        "component-cached-at": "2021-07-11T09:41:10.887Z",
+        "component-cached-in": "971 μs",
+        "component-resolved-in": "971 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-11T06:28:17.137Z",
-      "_cachedIn": "6.1 ms",
-      "_resolvedIn": "6.1 ms",
+      "_cachedAt": "2021-07-11T09:41:10.887Z",
+      "_cachedIn": "1.31 ms",
+      "_resolvedIn": "1.31 ms",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -6771,18 +6771,18 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-11T06:28:17.137Z",
-        "component-cached-in": "6.1 ms",
-        "component-resolved-in": "6.1 ms"
+        "component-cached-at": "2021-07-11T09:41:10.887Z",
+        "component-cached-in": "1.31 ms",
+        "component-resolved-in": "1.31 ms"
       },
       "components": {}
     },
     "PostPagesSection": {
       "_cacheKey": "{\"component\":{\"type\":\"PostPagesSection\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-11T06:28:17.135Z",
-      "_cachedIn": "4.06 ms",
-      "_resolvedIn": "4.06 ms",
+      "_cachedAt": "2021-07-11T09:41:10.887Z",
+      "_cachedIn": "972 μs",
+      "_resolvedIn": "972 μs",
       "id": "PostPagesSection",
       "type": "PostPagesSection",
       "status": "resolved",
@@ -6793,9 +6793,9 @@
       "attrs": {
         "component-type": "PostPagesSection",
         "component-id": "PostPagesSection",
-        "component-cached-at": "2021-07-11T06:28:17.135Z",
-        "component-cached-in": "4.06 ms",
-        "component-resolved-in": "4.06 ms"
+        "component-cached-at": "2021-07-11T09:41:10.887Z",
+        "component-cached-in": "972 μs",
+        "component-resolved-in": "972 μs"
       },
       "components": {}
     }

@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"blockchain\",\"language\":\"es\",\"slug\":\"/es/terms/blockchain\",\"origin\":\"/terms/blockchain\",\"title\":\"Blockchain\",\"description\":\"es una cadena de bloques que contiene información. Estos bloques son una lista creciente de registros que están vinculados mediante criptografía. Cada bloque contiene un hash criptográfico del bloque anterior, una marca de tiempo y datos de la transacción. Blockchain es un sistema fundamental que sustenta las criptomonedas, que actúa como el libro mayor de transacciones públicas.\",\"aliases\":[\"blockchain\",\"cardano blockchain\",\"bitcoin blockchain\",\"what is a blockchain\",\"cryptocurrency blockchains\",\"blockchain developer\",\"ledger\",\"block\",\"proof-of-work blockchain\",\"proof-of-stake blockchain\",\"proof-of-work blockchains\",\"proof-of-stake blockchains\",\"ethereum\",\"doge coin\",\"doge\"],\"keywords\":[\"blockchain\",\"cardano\",\"bitcoin\",\"ada\",\"btc\",\"eth\",\"ethereum\",\"doge\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"alex-qxt\",\"role\":\"author\"}],\"updatedAt\":null,\"createdAt\":null,\"filePath\":\"/es/terms/blockchain.md\",\"body\":\"\",\"mdxSource\":{\"compiledSource\":\"var M=Object.defineProperty,X=Object.defineProperties;var c=Object.getOwnPropertyDescriptors;var u=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,a=Object.prototype.propertyIsEnumerable;var s=(o,t,n)=>t in o?M(o,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):o[t]=n,p=(o,t)=>{for(var n in t||(t={}))r.call(t,n)&&s(o,n,t[n]);if(u)for(var n of u(t))a.call(t,n)&&s(o,n,t[n]);return o},y=(o,t)=>X(o,c(t));var D=(o,t)=>{var n={};for(var e in o)r.call(o,e)&&t.indexOf(e)<0&&(n[e]=o[e]);if(o!=null&&u)for(var e of u(o))t.indexOf(e)<0&&a.call(o,e)&&(n[e]=o[e]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var e=n,{components:o}=e,t=D(e,[\\\"components\\\"]);return mdx(MDXLayout,y(p(p({},layoutProps),t),{components:o,mdxType:\\\"MDXLayout\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-11T06:28:19.145Z",
-  "_cachedIn": "753 μs",
-  "_resolvedIn": "753 μs",
+  "_cachedAt": "2021-07-11T09:41:12.770Z",
+  "_cachedIn": "3.16 ms",
+  "_resolvedIn": "3.16 ms",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -62,17 +62,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-11T06:28:19.145Z",
-    "component-cached-in": "753 μs",
-    "component-resolved-in": "753 μs"
+    "component-cached-at": "2021-07-11T09:41:12.770Z",
+    "component-cached-in": "3.16 ms",
+    "component-resolved-in": "3.16 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-11T06:28:19.145Z",
-      "_cachedIn": "560 μs",
-      "_resolvedIn": "560 μs",
+      "_cachedAt": "2021-07-11T09:41:12.770Z",
+      "_cachedIn": "2.94 ms",
+      "_resolvedIn": "2.94 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -81,17 +81,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-11T06:28:19.145Z",
-        "component-cached-in": "560 μs",
-        "component-resolved-in": "560 μs"
+        "component-cached-at": "2021-07-11T09:41:12.770Z",
+        "component-cached-in": "2.94 ms",
+        "component-resolved-in": "2.94 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-11T06:28:19.145Z",
-          "_cachedIn": "334 μs",
-          "_resolvedIn": "334 μs",
+          "_cachedAt": "2021-07-11T09:41:12.770Z",
+          "_cachedIn": "2.65 ms",
+          "_resolvedIn": "2.65 ms",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -6616,18 +6616,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-11T06:28:19.145Z",
-            "component-cached-in": "334 μs",
-            "component-resolved-in": "334 μs"
+            "component-cached-at": "2021-07-11T09:41:12.770Z",
+            "component-cached-in": "2.65 ms",
+            "component-resolved-in": "2.65 ms"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-11T06:28:19.145Z",
-          "_cachedIn": "424 μs",
-          "_resolvedIn": "424 μs",
+          "_cachedAt": "2021-07-11T09:41:12.770Z",
+          "_cachedIn": "2.79 ms",
+          "_resolvedIn": "2.79 ms",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6638,17 +6638,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-11T06:28:19.145Z",
-            "component-cached-in": "424 μs",
-            "component-resolved-in": "424 μs"
+            "component-cached-at": "2021-07-11T09:41:12.770Z",
+            "component-cached-in": "2.79 ms",
+            "component-resolved-in": "2.79 ms"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-11T06:28:19.145Z",
-              "_cachedIn": "107 μs",
-              "_resolvedIn": "107 μs",
+              "_cachedAt": "2021-07-11T09:41:12.770Z",
+              "_cachedIn": "133 μs",
+              "_resolvedIn": "133 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6692,9 +6692,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-11T06:28:19.145Z",
-                "component-cached-in": "107 μs",
-                "component-resolved-in": "107 μs"
+                "component-cached-at": "2021-07-11T09:41:12.770Z",
+                "component-cached-in": "133 μs",
+                "component-resolved-in": "133 μs"
               },
               "components": {}
             }
@@ -6703,9 +6703,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-11T06:28:19.145Z",
-          "_cachedIn": "178 μs",
-          "_resolvedIn": "178 μs",
+          "_cachedAt": "2021-07-11T09:41:12.770Z",
+          "_cachedIn": "2.45 ms",
+          "_resolvedIn": "2.45 ms",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -6714,9 +6714,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-11T06:28:19.145Z",
-            "component-cached-in": "178 μs",
-            "component-resolved-in": "178 μs"
+            "component-cached-at": "2021-07-11T09:41:12.770Z",
+            "component-cached-in": "2.45 ms",
+            "component-resolved-in": "2.45 ms"
           },
           "components": {}
         }
@@ -6725,9 +6725,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-11T06:28:19.145Z",
-      "_cachedIn": "369 μs",
-      "_resolvedIn": "369 μs",
+      "_cachedAt": "2021-07-11T09:41:12.770Z",
+      "_cachedIn": "2.69 ms",
+      "_resolvedIn": "2.69 ms",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -6754,18 +6754,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-11T06:28:19.145Z",
-        "component-cached-in": "369 μs",
-        "component-resolved-in": "369 μs"
+        "component-cached-at": "2021-07-11T09:41:12.770Z",
+        "component-cached-in": "2.69 ms",
+        "component-resolved-in": "2.69 ms"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-11T06:28:19.145Z",
-      "_cachedIn": "223 μs",
-      "_resolvedIn": "223 μs",
+      "_cachedAt": "2021-07-11T09:41:12.767Z",
+      "_cachedIn": "247 μs",
+      "_resolvedIn": "247 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -6777,18 +6777,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-11T06:28:19.145Z",
-        "component-cached-in": "223 μs",
-        "component-resolved-in": "223 μs"
+        "component-cached-at": "2021-07-11T09:41:12.767Z",
+        "component-cached-in": "247 μs",
+        "component-resolved-in": "247 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-11T06:28:19.145Z",
-      "_cachedIn": "368 μs",
-      "_resolvedIn": "368 μs",
+      "_cachedAt": "2021-07-11T09:41:12.770Z",
+      "_cachedIn": "2.69 ms",
+      "_resolvedIn": "2.69 ms",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -6806,9 +6806,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-11T06:28:19.145Z",
-        "component-cached-in": "368 μs",
-        "component-resolved-in": "368 μs"
+        "component-cached-at": "2021-07-11T09:41:12.770Z",
+        "component-cached-in": "2.69 ms",
+        "component-resolved-in": "2.69 ms"
       },
       "components": {}
     }

@@ -1,7 +1,7 @@
 const colors = require("tailwindcss/colors");
 
 const primaryColor = {
-  ...colors.lightBlue,
+  ...colors.sky,
   // 600: "#027da5",
   // 700: "#003e6d",
 };
