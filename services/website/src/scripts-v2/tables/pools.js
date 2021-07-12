@@ -80,12 +80,22 @@ module.exports = {
 
                 const poolId = poolPage.params.filename
 
-                const metadata = await getMetaDataForPool(poolId)
+                let metadata = null
+                try {
+                    metadata = await getMetaDataForPool(poolId)
+                } catch (e) {
+
+                }
 
                 let extended = null
 
-                if (metadata.extended) {
-                    extended = await axios.get(metadata.extended).then(res => res.data)
+                if (metadata && metadata.extended) {
+
+                    try {
+                        extended = await axios.get(metadata.extended).then(res => res.data)
+                    } catch (e) {
+
+                    }
                 }
 
                 const relays = await getRelaysForPool(poolId)
@@ -94,10 +104,12 @@ module.exports = {
 
                 const name = adapools.data.db_name
 
+                let hasImage = !!adapools.data.handles.icon
                 let image = adapools.data.handles.icon || 'https://armada-alliance.com/assets/ship-420.png'
 
                 if (extended && extended.info.url_png_logo) {
                     image = extended.info.url_png_logo
+                    hasImage = true
                 }
 
                 return {
@@ -109,6 +121,7 @@ module.exports = {
                     },
                     description: adapools.data.db_description,
                     image,
+                    hasImage,
                     ticker: adapools.data.db_ticker,
                     addr: adapools.data.pool_id_bech32,
                     website: adapools.data.db_url,

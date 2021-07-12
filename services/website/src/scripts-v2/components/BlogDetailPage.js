@@ -26,7 +26,8 @@ module.exports = {
             type: 'PageContent',
             resolve: (ctx, props) => ({
                 mdxSource: props.mdxSource,
-                filePath: props.filePath
+                filePath: props.filePath,
+                updatedAt: props.updatedAt
             })
         }
     ]

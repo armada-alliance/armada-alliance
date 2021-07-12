@@ -1,16 +1,16 @@
 const perf = require('execution-time')()
 const _colors = require('colors');
-const createContext = require('./context/createContext')
+const createContext = require('../context/createContext')
 const mkdirp = require('mkdirp')
 const path = require('path')
 const rmfr = require('rmfr')
-const basePath = path.resolve(__dirname + "/../../public/pages")
+const basePath = path.resolve(__dirname + "/../../../public/pages")
 const Throttle = require('promise-parallel-throttle')
 const cliProgress = require('cli-progress')
 const fs = require('fs/promises')
-const getDataForComponent = require('./getDataForComponent')
-const contentPath = path.join(__dirname, '..', '..', 'content')
-const preprocessMarkdown = require('../scripts/preprocessMarkdown')
+const getDataForComponent = require('../getDataForComponent')
+const contentPath = path.join(__dirname, '..', '..', '..', 'content')
+const preprocessMarkdown = require('../../scripts/preprocessMarkdown')
 const fm = require('front-matter')
 const { serialize } = require('next-mdx-remote/serialize');
 

@@ -46,6 +46,7 @@ module.exports = {
             resolve: (ctx, props) => ({
                 mdxSource: props.mdxSource,
                 filePath: props.filePath,
+                updatedAt: props.updatedAt,
                 donationName: props.identity.name,
                 donationAddress: props.donationAddress
             })

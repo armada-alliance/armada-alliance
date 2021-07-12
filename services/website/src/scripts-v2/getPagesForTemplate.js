@@ -5,6 +5,7 @@ const path = require('path')
 const compact = require('lodash/compact')
 const trim = require('lodash/trim')
 const decodeUrlPartsFromFilePath = require('../scripts/decodeUrlPartsFromFilePath')
+const files = require('../../public/files.json')
 
 const getPagesForTemplate = async (template) => {
 
@@ -37,11 +38,6 @@ const getPagesForTemplate = async (template) => {
 
                 const string = await fs.readFile(filePath, 'utf-8')
 
-                let createdAt = null
-                let updatedAt = null
-                // const createdAt = getGitCreatedTimeForFile(filePath)
-                // const updatedAt = getGitUpdatedTimeForFile(filePath)
-
                 const data = fm(string)
 
                 if (data.attributes.template !== template) {
@@ -54,6 +50,7 @@ const getPagesForTemplate = async (template) => {
                     id: filename,
                     language,
                     slug,
+                    url: process.env.HOST + slug,
                     // ...data.attributes,
                     origin: data.attributes.origin ? data.attributes.origin : slug,
                     title: data.attributes.title ? data.attributes.title : filename,
@@ -64,8 +61,7 @@ const getPagesForTemplate = async (template) => {
                     identities: data.attributes.identities,
                     image: data.attributes.image,
                     icon: data.attributes.icon,
-                    updatedAt,
-                    createdAt,
+                    updatedAt: files['content' + relPath],
                     filePath: relPath
                 }
 

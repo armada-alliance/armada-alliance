@@ -1,9 +1,8 @@
 import { useContext } from 'react'
 import Link from './Link'
-import WithPageTooltip from './WithPageTooltip'
 import Context from './Context'
 
-export default function HeroSection({ text, poolCount, identities }) {
+export default function HeroSection({ text, poolCount, pools }) {
     const ctx = useContext(Context)
     const { schema } = ctx
 
@@ -72,23 +71,6 @@ export default function HeroSection({ text, poolCount, identities }) {
                         <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
                             {text}
                         </p>
-                        <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-                            Join a community of {poolCount} stake pool operators living around the world
-                        </p>
-                        <div className="mt-4 flex items-center justify-center -space-x-2">
-                            {identities.map(identity => {
-
-                                return (
-                                    <WithPageTooltip slug={identity.link.href}>
-                                        {props => (
-                                            <Link href={identity.link.href}>
-                                                <a {...props} className="bg-white h-10 w-10 rounded-full ring-2 ring-white bg-center bg-no-repeat bg-cover" style={{ backgroundImage: `url(https://armada-alliance.com/assets/${identity.image})` }} />
-                                            </Link>
-                                        )}
-                                    </WithPageTooltip>
-                                )
-                            })}
-                        </div>
                         <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
                             <div className="rounded-md shadow">
                                 <Link internal={true} href={'/stake-pools'}>

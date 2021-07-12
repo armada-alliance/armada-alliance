@@ -1,7 +1,7 @@
 const perf = require('execution-time')()
-const tables = require('./tables')
+const tables = require('../tables')
 const fs = require('fs/promises')
-const createContext = require('./context/createContext')
+const createContext = require('../context/createContext')
 
 async function main() {
 
@@ -34,7 +34,7 @@ async function main() {
 
         rowCounts[table.id] = rows.length
 
-        await fs.writeFile(__dirname + '/../../public/tables/' + table.id + '.json', JSON.stringify(rows, null, 2))
+        await fs.writeFile(__dirname + '/../../../public/tables/' + table.id + '.json', JSON.stringify(rows, null, 2))
 
         resolvedTables.push(table.id)
     }

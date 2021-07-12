@@ -16,7 +16,7 @@ function getHighlightedText(text, highlight) {
     return <span>{parts.map(part => part.toLowerCase() === highlight.toLowerCase() ? <b>{part}</b> : part)}</span>;
 }
 
-function DefaultView({ templates, results, query }) {
+function DefaultView({ templates, results, query, onLinkClick }) {
 
     const pagesByTemplate = results.reduce((result, page) => {
 
@@ -46,7 +46,7 @@ function DefaultView({ templates, results, query }) {
                             </div>
                             <div className="ml-auto -mr-2">
                                 <Link href={template.moreLink.href}>
-                                    <a className="space-x-1 flex items-center text-sm px-2 py-1 hover:bg-gray-50 rounded-md">
+                                    <a onClick={onLinkClick} className="space-x-1 flex items-center text-sm px-2 py-1 hover:bg-gray-50 rounded-md">
                                         <div className="flex-shrink-0 truncate">
                                             {template.moreLink.name}
                                         </div>
@@ -62,7 +62,7 @@ function DefaultView({ templates, results, query }) {
                                     <WithPageTooltip delay={800} slug={page.slug}>
                                         {props => (
                                             <Link href={page.slug}>
-                                                <a {...props} className="group flex items-center space-x-2 px-3 py-2 hover:bg-primary-500 hover:text-white rounded-lg text-sm block text-gray-500">
+                                                <a {...props} onClick={onLinkClick} className="group flex items-center space-x-2 px-3 py-2 hover:bg-primary-500 hover:text-white rounded-lg text-sm block text-gray-500">
                                                     {page.image ? (
                                                         <div className="flex-shrink-0 bg-white h-8 w-8 rounded-full ring-2 ring-white bg-center bg-no-repeat bg-cover" style={{ backgroundImage: `url(${formatImage(page.image)})` }} />
                                                     ) : null}
@@ -136,6 +136,11 @@ export default function SearchBox(props) {
         search.addDocuments(results)
 
         results = search.search(query)
+    }
+
+    const handleLinkClick = () => {
+        console.log('handle link click')
+        setOpen(false)
     }
 
     const handleSetIndex = (index, scroll) => {
@@ -258,7 +263,7 @@ export default function SearchBox(props) {
                                 </div>
                                 <div className="overflow-y-auto" style={{ maxHeight: 'calc(100vh - 200px)' }}>
                                     {results.length ? (
-                                        <DefaultView {...props} results={results} query={query} />
+                                        <DefaultView {...props} results={results} query={query} onLinkClick={handleLinkClick} />
                                     ) : (
                                             <div className="h-96 flex flex-col items-center justify-center">
                                                 <div className="text-gray-500 font-bold text-center">

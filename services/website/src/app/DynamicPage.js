@@ -4,6 +4,7 @@ import templates from './templates'
 import markdownToText from 'markdown-to-text'
 import TestMode from './TestMode'
 import useTestMode from './useTestMode'
+import formatImage from './formatImage'
 
 export default function DynamicPage(props) {
 
@@ -26,11 +27,24 @@ export default function DynamicPage(props) {
 
     const contextProps = props.page.components.Layout.components.Context.props
 
+    const { pages } = contextProps
+
+    const alternatePages = pages.filter(p => p.origin === page.origin)
+
     return (
         <Context.Provider value={{ page: page, language: page.language, translations: {}, ...contextProps }}>
             <Head>
                 <title>{markdownToText(page.title)}</title>
                 <meta name="description" content={markdownToText(page.description)} />
+                <meta property="og:title" content={markdownToText(page.title)} />
+                <meta property="og:description" content={markdownToText(page.description)} />
+                {page.image ? (
+                    <meta property="og:image" content={formatImage(page.image)} />
+                ) : null}
+                <meta property="og:url" content={page.url} />
+                {alternatePages.map(page => (
+                    <link key={page.slug} rel="alternate" hreflang={page.language} href={page.url} />
+                ))}
             </Head>
             <Template {...props.page} />
             {testMode ? (
