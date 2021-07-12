@@ -9,10 +9,10 @@ class MyDocument extends Document {
 
     render() {
 
-        const page = this.props.__NEXT_DATA__.props.pageProps.page
+        const page = this.props.__NEXT_DATA__?.props?.pageProps.page
 
         return (
-            <Html lang={page.props.language} prefix="og: http://ogp.me/ns#">
+            <Html lang={page ? page.props.language : null} prefix="og: http://ogp.me/ns#">
                 <Head />
                 <body>
                     <Main />
