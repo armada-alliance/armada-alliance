@@ -184,9 +184,8 @@ function NamiTab({ pools, pool }) {
             const enabled = await window.cardano.isEnabled()
             if (enabled) {
                 setConnectState('completed')
+                await refreshDelegationState(_nami)
             }
-
-            await refreshDelegationState(_nami)
         }
 
         setInit(true)
