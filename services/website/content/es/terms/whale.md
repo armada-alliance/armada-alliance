@@ -5,7 +5,7 @@ description: Una ballena (whale) se define como una persona u organización que 
 aliases: whale, crypto whale, wale, wael, michael saylor, ballena
 keywords: whale, crypto, billionare, investor, ballena, inversor
 identities: 
-    - id: Alex (Quixote)
+    - id: Alex (Quixote Pool)
       role: author
 ---
 
