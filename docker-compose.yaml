@@ -8,13 +8,22 @@ services:
       - 80:80
     restart: always
 
+  sqlite:
+    image: acttaiwan/phpliteadmin
+    volumes:
+      - ./services/website/db:/db
+    ports:
+      - 2015:2015
+
   website:
     image: node:14
+    env_file:
+      - ./environment/website.development.env
     environment:
       - PORT=3000
-    working_dir: /app
+    working_dir: /app/services/website
     volumes:
-      - ./services/website:/app
+      - ./:/app
     ports:
       - 3000:3000
     command: ./entrypoint.sh

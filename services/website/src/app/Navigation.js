@@ -1,11 +1,15 @@
-import schema from "../schema"
+import { useContext } from 'react'
 import Link from 'next/link'
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import navigation from './navigation-data'
+import Context from './Context'
 
 export default function Example() {
+    const ctx = useContext(Context)
+    const { schema } = ctx
+
     return (
         <div className="bg-gray-50">
             <div className="pt-6 pb-6">
@@ -49,7 +53,7 @@ export default function Example() {
                                             <a
                                                 href={schema.about.github}
                                                 target="_blank"
-                                                className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-primary-600 bg-white hover:bg-gray-50"
+                                                className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-primary-500 bg-white hover:bg-gray-50"
                                             >
                                                 Register
                       </a>
@@ -106,7 +110,7 @@ export default function Example() {
                                         <a
                                             href={schema.about.github}
                                             target="_blank"
-                                            className="block w-full px-5 py-3 text-center font-medium text-primary-600 bg-gray-50 hover:bg-gray-100"
+                                            className="block w-full px-5 py-3 text-center font-medium text-primary-500 bg-gray-50 hover:bg-gray-100"
                                         >
                                             Register
                     </a>

@@ -1,7 +1,6 @@
 import moment from 'moment'
 import Layout from "./Layout"
 import Content from "./Content"
-import schema from "../schema"
 
 function Item({ name, completed, date }) {
 
