@@ -244,6 +244,11 @@ function NamiTab({ pools, pool }) {
             setDelegateState('completed')
             setTransactionState('loading')
             const txHash = await nami.submitTx(signedTx);
+            window.gtag('event', 'delegate', {
+                pool_addr: pool.addr,
+                transaction_id: txHash,
+                value: 1
+            })
             setTxHash(txHash)
             console.log(`transaction submitted: ${txHash}`)
 
