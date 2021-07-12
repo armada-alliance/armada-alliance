@@ -1,10 +1,20 @@
+import { useState } from 'react'
+import shuffle from 'lodash/shuffle'
+import formatImage from './formatImage'
 import DualColorText from './DualColorText'
 import PageTooltip from './PageTooltip'
 import Text from './Text'
 import AdaPrice from './AdaPrice'
+import WithPageTooltip from './WithPageTooltip'
 import template from 'lodash/template'
+import Link from './Link'
 
-export default function StatsSection({ title, pretitle, description, poolCount, countryCount, liveStake, mintedBlocksCount, delegatorCount }) {
+export default function StatsSection({ title, pretitle, description, poolCount, countryCount, liveStake, mintedBlocksCount, delegatorCount, pools }) {
+
+    const [poolSelection] = useState(
+        shuffle(pools).slice(0, 10)
+    )
+
     return (
         <div className="bg-gray-50 pt-12 sm:pt-16">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -17,6 +27,20 @@ export default function StatsSection({ title, pretitle, description, poolCount, 
                         {template(description)({ poolCount, countryCount })}
                     </p>
                 </div>
+            </div>
+            <div className="mt-4 flex items-center justify-center -space-x-2">
+                {poolSelection.map(pool => {
+
+                    return (
+                        <WithPageTooltip key={pool.id} slug={pool.link.href}>
+                            {props => (
+                                <Link href={pool.link.href}>
+                                    <a {...props} className="bg-white shadow-md h-10 w-10 rounded-full ring-2 ring-white bg-center bg-no-repeat bg-cover" style={{ backgroundImage: `url(${formatImage(pool.image)}` }} />
+                                </Link>
+                            )}
+                        </WithPageTooltip>
+                    )
+                })}
             </div>
             <div className="mt-10 pb-12 bg-white sm:pb-16">
                 <div className="relative">

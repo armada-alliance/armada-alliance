@@ -4,6 +4,8 @@ module.exports = {
     id: 'PoolDetailPage',
     name: 'Stake Pool',
     type: 'Template',
+    changefreq: 'hourly',
+    priority: 1.0,
     getPages: async (ctx, { component }) => getPagesForTemplate(component.id),
     transformPage: async (ctx, page) => {
 
@@ -46,7 +48,8 @@ module.exports = {
             type: 'PageContent',
             resolve: (ctx, props) => ({
                 mdxSource: props.mdxSource,
-                filePath: props.filePath
+                filePath: props.filePath,
+                updatedAt: props.updatedAt
             })
         },
         {

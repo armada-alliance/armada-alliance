@@ -4,6 +4,8 @@ module.exports = {
     id: 'HomePage',
     name: 'Homepage',
     type: 'Template',
+    changefreq: 'hourly',
+    priority: 1.0,
     getPages: async (ctx, { component }) => getPagesForTemplate(component.id),
 
     components: [
@@ -12,13 +14,11 @@ module.exports = {
             type: 'HeroSection',
             resolve: (ctx, props) => {
 
-                const identities = ctx.tables.get('identities')
                 const pools = ctx.tables.get('pools')
 
                 return {
                     ...props.heroSection,
-                    poolCount: pools.length,
-                    identities: identities.filter(identity => identity.image && identity.pools.length).slice(0, 10)
+                    poolCount: pools.length
                 }
             }
         },
@@ -43,6 +43,7 @@ module.exports = {
 
                 return {
                     ...props.statsSection,
+                    pools,
                     delegatorCount: getDelegators(pools),
                     mintedBlocksCount: getBlocksMinted(pools),
                     liveStake: getLiveStake(pools),

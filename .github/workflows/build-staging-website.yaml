@@ -33,9 +33,9 @@ jobs:
         BLOCKFROST_PROJECT_ID: ${{ secrets.BLOCKFROST_PROJECT_ID }}
         GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
         IPSTACK_API_KEY: ${{ secrets.IPSTACK_API_KEY }}
+        HOST: https://staging.armada-alliance.com
       run: |
-        node src/scripts-v2/generateTables.js
-        node src/scripts-v2/generatePageObjects.js
+        node src/scripts-v2/tasks/all.js
         npm run build
         npm run export
         git config --global user.name "${{ secrets.CI_USERNAME }}"
@@ -45,6 +45,7 @@ jobs:
         rm -rf /tmp/repo/_next
         rm -rf /tmp/repo/pages
         cp -R out/* /tmp/repo
+        cp public/tables/topology.json /tmp/repo/
         mkdir -p /tmp/repo/pages
         cp -R public/pages/* /tmp/repo/pages
     - name: Push changes to GitHub Pages repo

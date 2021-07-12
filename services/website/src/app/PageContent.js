@@ -10,7 +10,7 @@ function formatAddress(input) {
     return [input.slice(0, 15), '...', input.slice(-15)].join('')
 }
 
-export default function PageContent({ mdxSource, externalLink, pageType, donationName, donationAddress, editOnGitHubLink }) {
+export default function PageContent({ mdxSource, externalLink, pageType, donationName, donationAddress, editOnGitHubLink, updatedAt }) {
 
     return (
         <>
@@ -56,7 +56,7 @@ export default function PageContent({ mdxSource, externalLink, pageType, donatio
             ) : null}
             <div className="mt-8 flex items-center justify-end">
                 <div className="mr-4 text-gray-400 text-sm">
-                    Last updated on {moment().format('MMM DD, YYYY')}
+                    Last updated on {moment(updatedAt).format('MMM DD, YYYY')}
                 </div>
                 <Link href={editOnGitHubLink.href}>
                     <a

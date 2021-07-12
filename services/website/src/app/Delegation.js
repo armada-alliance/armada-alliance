@@ -156,6 +156,7 @@ function ToastMessage({ show, onClose }) {
 
 function NamiTab({ pools, pool }) {
 
+    const [init, setInit] = useState(false)
     const [nami, setNami] = useState(null)
     const [currentPoolId, setCurrentPoolId] = useState(null)
 
@@ -185,8 +186,11 @@ function NamiTab({ pools, pool }) {
                 setConnectState('completed')
             }
 
-            refreshDelegationState(_nami)
+            await refreshDelegationState(_nami)
         }
+
+        setInit(true)
+
     })
 
     let currentPool = null
@@ -266,85 +270,92 @@ function NamiTab({ pools, pool }) {
     }
 
     return (
-        <>
-            <div>
-                <div className="text-center mb-2 text-gray-500">Step 1</div>
-                <Button
-                    state={connectState}
-                    onClick={handleConnect}
-                >
-                    Connect
+        <div className="relative">
+            <div className="flex flex-col items-center space-y-6 ">
+                <div>
+                    <div className="text-center mb-2 text-gray-500">Step 1</div>
+                    <Button
+                        state={connectState}
+                        onClick={handleConnect}
+                    >
+                        Connect
                                         </Button>
-            </div>
-            <div className="w-0.5 bg-gray-100 h-12" />
-            {currentPool ? (
-                <>
-                    <div className="flex text-gray-700 items-center space-x-2 text-xs">
-                        <div className="text-gray-400">Currently delegated to</div>
-                        <div className="flex flex-nowrap items-center px-2 py-1 space-x-2 rounded-lg bg-gray-50">
-                            {currentPool.image ? (
-                                <div className="h-5 w-5 rounded-full overflow-hidden bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${formatImage(currentPool.image)})` }} />
-                            ) : null}
-                            <div className="font-bold truncate">
-                                {currentPool.name}
+                </div>
+                <div className="w-0.5 bg-gray-100 h-12" />
+                {currentPool ? (
+                    <>
+                        <div className="flex text-gray-700 items-center space-x-2 text-xs">
+                            <div className="text-gray-400">Currently delegated to</div>
+                            <div className="flex flex-nowrap items-center px-2 py-1 space-x-2 rounded-lg bg-gray-50">
+                                {currentPool.image ? (
+                                    <div className="h-5 w-5 rounded-full overflow-hidden bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${formatImage(currentPool.image)})` }} />
+                                ) : null}
+                                <div className="font-bold truncate">
+                                    {currentPool.name}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="w-0.5 bg-gray-100 h-12" />
-                </>
-            ) : null}
-            <div className="flex flex-col items-center">
-                <div className="text-center mb-2 text-gray-500">Step 2</div>
-                <Button
-                    state={delegateState}
-                    onClick={handleDelegate}
-                    disabled={connectState !== 'completed'}
-                >
-                    Delegate
+                        <div className="w-0.5 bg-gray-100 h-12" />
+                    </>
+                ) : null}
+                <div className="flex flex-col items-center">
+                    <div className="text-center mb-2 text-gray-500">Step 2</div>
+                    <Button
+                        state={delegateState}
+                        onClick={handleDelegate}
+                        disabled={connectState !== 'completed'}
+                    >
+                        Delegate
                 </Button>
-                {delegateError ? (
-                    <div className="mt-2 text-red-500 text-xs">
-                        {delegateError}
+                    {delegateError ? (
+                        <div className="mt-2 text-red-500 text-xs">
+                            {delegateError}
+                        </div>
+                    ) : null}
+                </div>
+                <div className="w-0.5 bg-gray-100 h-12" />
+                {txHash ? (
+                    <>
+                        <div className="flex flex-col items-center">
+                            <div className="mb-2 text-gray-500 text-sm">Transaction submitted </div>
+                            <HashLink href={`https://cardanoscan.io/transaction/${txHash}`} hash={txHash} />
+                        </div>
+                        <div className="w-0.5 bg-gray-100 h-12" />
+                    </>
+                ) : null}
+                {transactionState === 'default' ? (
+                    <div className="font-bold text-gray-400">Waiting for delegation</div>
+                ) : null}
+                {transactionState === 'loading' ? (
+                    <div className="flex items-center space-x-2">
+                        <svg className="animate-spin flex-shrink-0 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                            <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                            <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                        </svg>
+                        <div className="font-bold text-gray-400">Confirming transaction</div>
+
                     </div>
                 ) : null}
-            </div>
-            <div className="w-0.5 bg-gray-100 h-12" />
-            {txHash ? (
-                <>
-                    <div className="flex flex-col items-center">
-                        <div className="mb-2 text-gray-500 text-sm">Transaction submitted </div>
-                        <HashLink href={`https://cardanoscan.io/transaction/${txHash}`} hash={txHash} />
-                    </div>
-                    <div className="w-0.5 bg-gray-100 h-12" />
-                </>
-            ) : null}
-            {transactionState === 'default' ? (
-                <div className="font-bold text-gray-400">Waiting for delegation</div>
-            ) : null}
-            {transactionState === 'loading' ? (
-                <div className="flex items-center space-x-2">
-                    <svg className="animate-spin flex-shrink-0 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                        <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-                        <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                    </svg>
-                    <div className="font-bold text-gray-400">Confirming transaction</div>
-
-                </div>
-            ) : null}
-            {transactionState === 'completed' ? (
-                <div className="font-bold text-gray-700 flex items-center space-x-2">
-                    <div>Delegated to</div>
-                    <div className="flex flex-nowrap items-center px-2 py-1 space-x-2 rounded-lg bg-gray-50">
-                        <div className="h-5 w-5 rounded-full overflow-hidden bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${formatImage(pool.image)})` }} />
-                        <div className="font-bold truncate">
-                            {pool.name}
+                {transactionState === 'completed' ? (
+                    <div className="font-bold text-gray-700 flex items-center space-x-2">
+                        <div>Delegated to</div>
+                        <div className="flex flex-nowrap items-center px-2 py-1 space-x-2 rounded-lg bg-gray-50">
+                            <div className="h-5 w-5 rounded-full overflow-hidden bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${formatImage(pool.image)})` }} />
+                            <div className="font-bold truncate">
+                                {pool.name}
+                            </div>
                         </div>
+                        <div>{'🎉 !'}</div>
                     </div>
-                    <div>{'🎉 !'}</div>
-                </div>
-            ) : null}
-            <ToastMessage show={toast} onClose={() => setToast(false)} />
-        </>
+                ) : null}
+                <ToastMessage show={toast} onClose={() => setToast(false)} />
+                {!init ? (
+                    <div
+                        className="absolute inset-0 bg-white animate animate-pulse"
+                    />
+                ) : null}
+            </div>
+        </div>
     )
 }
 
@@ -431,7 +442,7 @@ export default function Delegation(props) {
                                         </nav>
                                     </div>
                                 ) : null}
-                                <div className="flex flex-col items-center space-y-6 py-6 overflow-y-auto" style={{ maxHeight: 'calc(100vh - 280px)' }}>
+                                <div className="py-6 overflow-y-auto" style={{ maxHeight: 'calc(100vh - 280px)' }}>
                                     {tabId === 'nami' ? (
                                         <NamiTab {...props} />
                                     ) : null}

@@ -5,7 +5,7 @@ import Popover from "./Popover";
 import Portal from "./Portal";
 import Markdown from "./Markdown";
 import Context from "./Context";
-import uniqueId from 'lodash/uniqueId'
+import * as uuid from 'uuid'
 import formatImage from './formatImage'
 let tooltipCache = {}
 
@@ -13,7 +13,7 @@ const WithPageTooltip = (props) => {
 
     const ctx = useContext(Context)
 
-    const [id] = useState(uniqueId);
+    const [id] = useState(uuid.v4());
     const [open, setOpen] = useState(false);
 
     const page = ctx.pages.find(page => page.slug === props.slug)

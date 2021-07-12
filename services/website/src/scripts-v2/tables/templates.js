@@ -11,6 +11,8 @@ module.exports = {
             return {
                 id: template.id,
                 name: template.name,
+                changefreq: template.changefreq || 'daily',
+                priority: template.priority || 0.5
             }
         })
     }

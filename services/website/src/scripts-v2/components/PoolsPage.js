@@ -4,6 +4,8 @@ module.exports = {
     id: 'PoolsPage',
     name: 'PoolsPage',
     type: 'Template',
+    changefreq: 'hourly',
+    priority: 1.0,
     getPages: async (ctx, { component }) => getPagesForTemplate(component.id),
 
     components: [
