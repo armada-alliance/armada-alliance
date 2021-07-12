@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"GuideDetailPage\",\"version\":1},\"props\":{\"id\":\"run-a-cardano-node\",\"language\":\"en\",\"slug\":\"/guides/run-a-cardano-node\",\"url\":\"https:///website.codespace1.sublayer.io/guides/run-a-cardano-node\",\"origin\":\"/guides/run-a-cardano-node\",\"title\":\"Run a Cardano Node\",\"description\":\"Set up and run a Cardano node on Raspberry Pi OS.\",\"aliases\":null,\"keywords\":[\"Stake Pool Operation\",\"Raspberry Pi\",\"ARM\",\"raspberry pi 4\",\"raspberry pi 400\",\"raspberry pi 3\",\"raspberry pi zero\",\"raspberry pi 4 8gb\",\"pi4\",\"r pi\"],\"template\":\"GuideDetailPage\",\"identities\":[{\"id\":\"wcat-otg\",\"role\":\"author\"},{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"icon\":\"🍓\",\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/guides/run-a-cardano-node.md\",\"externalLink\":\"https://docs.armada-alliance.com/learn/beginner-guide-1/beginner-guide\",\"body\":\"## Introduction\\n***Are you a raspberry pi hobbyist or tinkerer? Do you want to know how to run a [Cardano node](/terms/cardano-node) on a raspberry pi?***\\n\\nIf you answered yes to any of the previous questions, check out our guide on getting a [passive Cardano node](/terms/passive-node) running on a raspberry pi 4. We go over the initial setup of the raspberry pi, how to boot from a USB storage device, and getting the Cardano node installed on the pi 4.\",\"mdxSource\":{\"compiledSource\":\"var y=Object.defineProperty,h=Object.defineProperties;var m=Object.getOwnPropertyDescriptors;var a=Object.getOwnPropertySymbols;var p=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var i=(e,o,n)=>o in e?y(e,o,{enumerable:!0,configurable:!0,writable:!0,value:n}):e[o]=n,r=(e,o)=>{for(var n in o||(o={}))p.call(o,n)&&i(e,n,o[n]);if(a)for(var n of a(o))s.call(o,n)&&i(e,n,o[n]);return e},u=(e,o)=>h(e,m(o));var d=(e,o)=>{var n={};for(var t in e)p.call(e,t)&&o.indexOf(t)<0&&(n[t]=e[t]);if(e!=null&&a)for(var t of a(e))o.indexOf(t)<0&&s.call(e,t)&&(n[t]=e[t]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var t=n,{components:e}=t,o=d(t,[\\\"components\\\"]);return mdx(MDXLayout,u(r(r({},layoutProps),o),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"h2\\\",null,\\\"Introduction\\\"),mdx(\\\"p\\\",null,mdx(\\\"strong\\\",{parentName:\\\"p\\\"},mdx(\\\"em\\\",{parentName:\\\"strong\\\"},\\\"Are you a raspberry pi hobbyist or tinkerer? Do you want to know how to run a \\\",mdx(\\\"a\\\",r({parentName:\\\"em\\\"},{href:\\\"/terms/cardano-node\\\"}),\\\"Cardano node\\\"),\\\" on a raspberry pi?\\\"))),mdx(\\\"p\\\",null,\\\"If you answered yes to any of the previous questions, check out our guide on getting a \\\",mdx(\\\"a\\\",r({parentName:\\\"p\\\"},{href:\\\"/terms/passive-node\\\"}),\\\"passive Cardano node\\\"),\\\" running on a raspberry pi 4. We go over the initial setup of the raspberry pi, how to boot from a USB storage device, and getting the Cardano node installed on the pi 4.\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-12T10:17:42.603Z",
-  "_cachedIn": "180 ms",
-  "_resolvedIn": "180 ms",
+  "_cachedAt": "2021-07-12T10:55:24.866Z",
+  "_cachedIn": "210 ms",
+  "_resolvedIn": "210 ms",
   "id": "GuideDetailPage",
   "type": "GuideDetailPage",
   "status": "resolved",
@@ -55,17 +55,17 @@
   "attrs": {
     "component-type": "GuideDetailPage",
     "component-id": "GuideDetailPage",
-    "component-cached-at": "2021-07-12T10:17:42.603Z",
-    "component-cached-in": "180 ms",
-    "component-resolved-in": "180 ms"
+    "component-cached-at": "2021-07-12T10:55:24.866Z",
+    "component-cached-in": "210 ms",
+    "component-resolved-in": "210 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-12T10:17:42.603Z",
-      "_cachedIn": "220 μs",
-      "_resolvedIn": "220 μs",
+      "_cachedAt": "2021-07-12T10:55:24.866Z",
+      "_cachedIn": "244 μs",
+      "_resolvedIn": "244 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -74,17 +74,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-12T10:17:42.603Z",
-        "component-cached-in": "220 μs",
-        "component-resolved-in": "220 μs"
+        "component-cached-at": "2021-07-12T10:55:24.866Z",
+        "component-cached-in": "244 μs",
+        "component-resolved-in": "244 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-12T10:17:42.603Z",
-          "_cachedIn": "129 μs",
-          "_resolvedIn": "129 μs",
+          "_cachedAt": "2021-07-12T10:55:24.866Z",
+          "_cachedIn": "143 μs",
+          "_resolvedIn": "143 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -733,7 +733,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-06-25T18:07:19.000Z",
+                "updatedAt": "2021-07-12T10:20:35.000Z",
                 "filePath": "/en/identities/Chris_Rain.md"
               },
               {
@@ -747,7 +747,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-06-25T18:07:19.000Z",
+                "updatedAt": "2021-07-12T10:20:35.000Z",
                 "filePath": "/en/identities/Sporke.md"
               },
               {
@@ -831,7 +831,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-06-25T18:18:38.000Z",
+                "updatedAt": "2021-07-12T10:20:35.000Z",
                 "filePath": "/en/identities/julien-terrier.md"
               },
               {
@@ -845,7 +845,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-06-25T18:07:19.000Z",
+                "updatedAt": "2021-07-12T10:20:35.000Z",
                 "filePath": "/en/identities/karnagge.md"
               },
               {
@@ -873,7 +873,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-06-25T18:07:19.000Z",
+                "updatedAt": "2021-07-12T10:20:35.000Z",
                 "filePath": "/en/identities/krista-611.md"
               },
               {
@@ -901,7 +901,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-06-25T18:07:19.000Z",
+                "updatedAt": "2021-07-12T10:20:35.000Z",
                 "filePath": "/en/identities/matt-solrp.md"
               },
               {
@@ -915,7 +915,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-06-25T18:07:19.000Z",
+                "updatedAt": "2021-07-12T10:20:35.000Z",
                 "filePath": "/en/identities/mini1pool.md"
               },
               {
@@ -943,7 +943,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-06-25T18:07:19.000Z",
+                "updatedAt": "2021-07-12T10:20:35.000Z",
                 "filePath": "/en/identities/paul-oyster.md"
               },
               {
@@ -957,7 +957,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-06-25T18:07:19.000Z",
+                "updatedAt": "2021-07-12T10:20:35.000Z",
                 "filePath": "/en/identities/pgwad.md"
               },
               {
@@ -987,6 +987,20 @@
                 "image": "/raine.png",
                 "updatedAt": "2021-06-25T18:18:38.000Z",
                 "filePath": "/en/identities/raine-bhmt.md"
+              },
+              {
+                "id": "saad",
+                "language": "en",
+                "slug": "/identities/saad",
+                "url": "https:///website.codespace1.sublayer.io/identities/saad",
+                "origin": "/identities/saad",
+                "title": "Saad",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "https://armada-alliance.com/assets/ship-420.png",
+                "updatedAt": "2021-07-12T10:41:12.000Z",
+                "filePath": "/en/identities/saad.md"
               },
               {
                 "id": "sayshar-srn",
@@ -1069,7 +1083,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-06-25T18:07:19.000Z",
+                "updatedAt": "2021-07-12T10:20:35.000Z",
                 "filePath": "/en/identities/sudti.md"
               },
               {
@@ -1083,7 +1097,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-06-25T18:07:19.000Z",
+                "updatedAt": "2021-07-12T10:20:35.000Z",
                 "filePath": "/en/identities/thyes_MB.md"
               },
               {
@@ -1153,7 +1167,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-06-25T18:07:19.000Z",
+                "updatedAt": "2021-07-12T10:20:35.000Z",
                 "filePath": "/en/identities/zenent.md"
               },
               {
@@ -1167,7 +1181,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-06-25T18:07:19.000Z",
+                "updatedAt": "2021-07-12T10:20:35.000Z",
                 "filePath": "/en/identities/zino-hoffman.md"
               },
               {
@@ -1271,6 +1285,27 @@
                 "image": "https://github.com/alessandrokonrad/Pi-Pool/raw/master/images/logo.png",
                 "updatedAt": "2021-07-10T20:43:29.000Z",
                 "filePath": "/en/stake-pools/2a748e3885f6f73320ad16a8331247b81fe01b8d39f57eec9caa5091.md"
+              },
+              {
+                "id": "2c3390339aba47100f9ab1a230d6d726e10e9d527be49dc5bab479da",
+                "language": "en",
+                "slug": "/stake-pools/2c3390339aba47100f9ab1a230d6d726e10e9d527be49dc5bab479da",
+                "url": "https:///website.codespace1.sublayer.io/stake-pools/2c3390339aba47100f9ab1a230d6d726e10e9d527be49dc5bab479da",
+                "origin": "/stake-pools/2c3390339aba47100f9ab1a230d6d726e10e9d527be49dc5bab479da",
+                "title": "Ruby Pool (RUBY)",
+                "description": "Mission driven Cardano Stake Pool with a percentage of our rewards going to Children Education. Come delegate to us!",
+                "aliases": null,
+                "keywords": null,
+                "template": "PoolDetailPage",
+                "identities": [
+                  {
+                    "id": "saad",
+                    "role": "spo"
+                  }
+                ],
+                "image": "https://armada-alliance.com/assets/ship-420.png",
+                "updatedAt": "2021-07-12T10:41:12.000Z",
+                "filePath": "/en/stake-pools/2c3390339aba47100f9ab1a230d6d726e10e9d527be49dc5bab479da.md"
               },
               {
                 "id": "2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
@@ -6609,18 +6644,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-12T10:17:42.603Z",
-            "component-cached-in": "129 μs",
-            "component-resolved-in": "129 μs"
+            "component-cached-at": "2021-07-12T10:55:24.866Z",
+            "component-cached-in": "143 μs",
+            "component-resolved-in": "143 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-12T10:17:42.603Z",
-          "_cachedIn": "147 μs",
-          "_resolvedIn": "147 μs",
+          "_cachedAt": "2021-07-12T10:55:24.866Z",
+          "_cachedIn": "162 μs",
+          "_resolvedIn": "162 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6631,17 +6666,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-12T10:17:42.603Z",
-            "component-cached-in": "147 μs",
-            "component-resolved-in": "147 μs"
+            "component-cached-at": "2021-07-12T10:55:24.866Z",
+            "component-cached-in": "162 μs",
+            "component-resolved-in": "162 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-12T10:17:42.603Z",
-              "_cachedIn": "32 μs",
-              "_resolvedIn": "32 μs",
+              "_cachedAt": "2021-07-12T10:55:24.866Z",
+              "_cachedIn": "34 μs",
+              "_resolvedIn": "34 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6685,9 +6720,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-12T10:17:42.603Z",
-                "component-cached-in": "32 μs",
-                "component-resolved-in": "32 μs"
+                "component-cached-at": "2021-07-12T10:55:24.866Z",
+                "component-cached-in": "34 μs",
+                "component-resolved-in": "34 μs"
               },
               "components": {}
             }
@@ -6696,9 +6731,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-12T10:17:42.603Z",
-          "_cachedIn": "88 μs",
-          "_resolvedIn": "88 μs",
+          "_cachedAt": "2021-07-12T10:55:24.866Z",
+          "_cachedIn": "98 μs",
+          "_resolvedIn": "98 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -6707,9 +6742,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-12T10:17:42.603Z",
-            "component-cached-in": "88 μs",
-            "component-resolved-in": "88 μs"
+            "component-cached-at": "2021-07-12T10:55:24.866Z",
+            "component-cached-in": "98 μs",
+            "component-resolved-in": "98 μs"
           },
           "components": {}
         }
@@ -6718,9 +6753,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-12T10:17:42.603Z",
-      "_cachedIn": "164 μs",
-      "_resolvedIn": "164 μs",
+      "_cachedAt": "2021-07-12T10:55:24.866Z",
+      "_cachedIn": "184 μs",
+      "_resolvedIn": "184 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -6760,18 +6795,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-12T10:17:42.603Z",
-        "component-cached-in": "164 μs",
-        "component-resolved-in": "164 μs"
+        "component-cached-at": "2021-07-12T10:55:24.866Z",
+        "component-cached-in": "184 μs",
+        "component-resolved-in": "184 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-12T10:17:42.603Z",
-      "_cachedIn": "96 μs",
-      "_resolvedIn": "96 μs",
+      "_cachedAt": "2021-07-12T10:55:24.866Z",
+      "_cachedIn": "109 μs",
+      "_resolvedIn": "109 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -6783,18 +6818,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-12T10:17:42.603Z",
-        "component-cached-in": "96 μs",
-        "component-resolved-in": "96 μs"
+        "component-cached-at": "2021-07-12T10:55:24.866Z",
+        "component-cached-in": "109 μs",
+        "component-resolved-in": "109 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-12T10:17:42.603Z",
-      "_cachedIn": "163 μs",
-      "_resolvedIn": "163 μs",
+      "_cachedAt": "2021-07-12T10:55:24.866Z",
+      "_cachedIn": "179 μs",
+      "_resolvedIn": "179 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -6815,9 +6850,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-12T10:17:42.603Z",
-        "component-cached-in": "163 μs",
-        "component-resolved-in": "163 μs"
+        "component-cached-at": "2021-07-12T10:55:24.866Z",
+        "component-cached-in": "179 μs",
+        "component-resolved-in": "179 μs"
       },
       "components": {}
     }
