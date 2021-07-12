@@ -1,19 +1,20 @@
+import CalculatorSection from './CalculatorSection'
+import USPSection from './USPSection'
 import HeroSection from './HeroSection'
-import PoolSection from './PoolSection'
-import MapSection from './MapSection'
+import StatsSection from './StatsSection'
 import Layout from './Layout'
+import Component from './Component'
 
-export default function HomePage({ pools }) {
-  return (
-    <Layout>
-      <HeroSection />
-      <PoolSection
-        pools={pools}
-      />
-      <MapSection
-        pools={pools}
+export default function HomePage(props) {
 
-      />
-    </Layout>
-  );
+    const { pools, components } = props
+
+    return (
+        <Component use={Layout} data={props.components.Layout}>
+            <Component use={HeroSection} data={components.HeroSection} />
+            <Component use={StatsSection} data={components.StatsSection} />
+            <USPSection pools={pools} />
+            <CalculatorSection />
+        </Component>
+    )
 }

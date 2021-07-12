@@ -100,11 +100,12 @@ export default function MapSection({ pools: allPools }) {
 
         map.current = new mapboxgl.Map({
             container: mapContainer.current,
-            style: 'mapbox://styles/mapbox/dark-v10',
+            style: 'mapbox://styles/mapbox/light-v10',
+            // style: 'mapbox://styles/sublayerio/ckpdyzif95fvl17o7f9hkr8gf',
             // center: [lng, lat],
             // zoom: zoom
         });
-        map.current.scrollZoom.disable();
+        // map.current.scrollZoom.disable();
 
         map.current.fitBounds(bounds, { padding: 200 });
 
@@ -314,8 +315,7 @@ export default function MapSection({ pools: allPools }) {
         <div>
             <div
                 ref={mapContainer}
-                className="map-container h-screen overflow-hidden"
-
+                className="map-container h-96 relative"
             />
         </div>
     )

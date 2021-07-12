@@ -1,13 +1,14 @@
-import Navigation from "./Navigation"
+import Header from "./Header"
 import FooterSection from "./FooterSection"
+import Component from "./Component"
 
-export default function Layout({ children }) {
+export default function Layout({ components, children }) {
 
     return (
-        <div className="relative">
-            <Navigation />
+        <div className="pt-16 sm:pt-24">
             {children}
-            <FooterSection />
+            <Component use={FooterSection} data={components.Footer} />
+            <Component use={Header} data={components.Header} />
         </div>
     )
 }
