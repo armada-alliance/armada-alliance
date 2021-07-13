@@ -181,8 +181,8 @@ function NamiTab({ pools, pool }) {
 
         if (nami) return
 
-        const { default: _nami } = await import('./nami')
-
+        const { default: createNami } = await import('./nami')
+        const _nami = createNami({ blockfrost_project_id: 'gvIrp8FwB2oK1dpCI1ZxhUHkY8Bb5H9e' })
         setNami(_nami)
 
         if (process.browser && window.cardano) {
