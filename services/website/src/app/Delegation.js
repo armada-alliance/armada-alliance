@@ -162,13 +162,18 @@ function NamiTab({ pools, pool }) {
 
     const refreshDelegationState = async (nami) => {
 
-        const delegation = await nami.getDelegation()
+        try {
+            const delegation = await nami.getDelegation()
 
-        if (pool.addr === delegation.pool_id) {
-            setDelegateState('completed')
-            setTransactionState('completed')
-        } else if (delegation.active) {
-            setCurrentPoolId(delegation.pool_id)
+            if (pool.addr === delegation.pool_id) {
+                setDelegateState('completed')
+                setTransactionState('completed')
+            } else if (delegation.active) {
+                setCurrentPoolId(delegation.pool_id)
+            }
+        } catch (e) {
+            console.log(e)
+            console.log('failed to fetch delegation')
         }
     }
 
