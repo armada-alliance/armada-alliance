@@ -137,7 +137,7 @@ function ToastMessage({ show, onClose }) {
                                         <button
                                             className="bg-white rounded-md inline-flex text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500"
                                             onClick={() => {
-                                                setShow(false)
+                                                onClose()
                                             }}
                                         >
                                             <span className="sr-only">Close</span>
@@ -155,7 +155,7 @@ function ToastMessage({ show, onClose }) {
 }
 
 
-function NamiTab({ ctx, pool }) {
+function NamiTab({ ctx, pool, toast, setToast }) {
 
     const [init, setInit] = useState(false)
     const [nami, setNami] = useState(null)
@@ -204,7 +204,6 @@ function NamiTab({ ctx, pool }) {
 
     })
 
-    const [toast, setToast] = useState(false)
     const [connectState, setConnectState] = useState('default')
     const [delegateState, setDelegateState] = useState('default')
     const [transactionState, setTransactionState] = useState('default')
@@ -358,7 +357,6 @@ function NamiTab({ ctx, pool }) {
                         <div>{'🎉 !'}</div>
                     </div>
                 ) : null}
-                <ToastMessage show={toast} onClose={() => setToast(false)} />
                 {!init ? (
                     <div
                         className="absolute inset-0 bg-white animate animate-pulse"
@@ -374,6 +372,7 @@ function Delegation(props) {
     const isChrome = process.browser && /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor)
 
     let [tabId, setTabId] = useState('nami')
+    const [toast, setToast] = useState(false)
 
     tabId = isChrome ? tabId : 'alternate'
 
@@ -388,14 +387,14 @@ function Delegation(props) {
         <>
             <div className="pt-44 pb-44">
                 {tabId === 'nami' ? (
-                    <NamiTab {...props} />
+                    <NamiTab {...props} toast={toast} setToast={setToast} />
                 ) : null}
                 {tabId === 'alternate' ? (
                     <AlternateTab {...props} />
                 ) : null}
             </div>
             <div className="fixed top-0 left-0 w-full bg-white">
-                <div className="flex justify-center py-6 border-b border-gray-100">
+                <div className="flex justify-center py-6 px-6 border-b border-gray-100">
                     <div className="font-bold text-xl flex items-center space-x-2">
                         <div>Delegate to</div>
                         <div className="flex flex-nowrap items-center px-2 py-1 space-x-2 rounded-lg bg-gray-50">
@@ -427,12 +426,18 @@ function Delegation(props) {
                 ) : null}
             </div>
             {tabId === 'nami' ? (
-                <div className="bg-white fixed bottom-0 left-0 w-full flex items-center justify-evenly py-4 border-t border-gray-100 select-none">
-                    <div className="flex-1 text-right text-xs text-gray-300">Powered by</div>
-                    <a href="https://namiwallet.io/" target="_blank" className="transition-all hover:opacity-50">
-                        <img src="/nami-wallet.svg" className="h-12 mx-6" />
-                    </a>
-                    <div className="flex-1"></div>
+                <div className="bg-white fixed bottom-0 left-0 w-full flex items-center space-x-4 px-6 py-4 border-t border-gray-100 select-none">
+                    <div className="ml-auto flex space-x-4 items-center">
+                        <div className="flex-1 text-right text-xs text-gray-300">Powered by</div>
+                        <a href="https://namiwallet.io/" title="Nami Wallet" target="_blank" className="transition-all hover:opacity-50">
+                            <img src="/nami-wallet.svg" className="h-8" />
+                        </a>
+                    </div>
+                    <div className="flex space-x-2 items-center">
+                        <a href="https://armada-alliance.com/" title="Armada Alliance" target="_blank" className="transition-all hover:opacity-50">
+                            <img src="https://armada-alliance.com/ship-420.png" className="h-8" />
+                        </a>
+                    </div>
                 </div>
             ) : null}
             {tabId === 'alternate' ? (
@@ -442,6 +447,7 @@ function Delegation(props) {
                     </button>
                 </div>
             ) : null}
+            <ToastMessage show={toast} onClose={() => setToast(false)} />
         </>
     )
 }
