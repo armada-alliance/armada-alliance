@@ -3,7 +3,7 @@ template: GuideDetailPage
 title: Setup a Nami delegate button on your website
 description: A guide on how to setup a button that allows your visitors to delegate to your pool straight from your website.
 keywords: Delegate, Nami Wallet, JavaScript, Marketing
-icon: ❤️
+icon: 🌊
 identities: 
     - id: alessandro-berry
       role: author
