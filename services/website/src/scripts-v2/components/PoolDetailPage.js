@@ -8,10 +8,10 @@ module.exports = {
     changefreq: 'hourly',
     priority: 1.0,
     getPages: async (ctx, { component }) => getPagesForTemplate(component.id),
-    transformPage: async (ctx, page) => {
+    transformPage: async (ctx, props) => {
 
         const data = await getDataForPage(props.filePath)
-        const pool = ctx.tables.get('pools').find(pool => pool.id === page.id)
+        const pool = ctx.tables.get('pools').find(pool => pool.id === props.id)
 
         return {
             ...page,
