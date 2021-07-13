@@ -32,6 +32,7 @@ module.exports = {
             resolve: (ctx, props) => ({
                 title: props.identity.name,
                 image: props.identity.image,
+                verified: props.verified,
                 pageType: 'Identity'
             })
         },

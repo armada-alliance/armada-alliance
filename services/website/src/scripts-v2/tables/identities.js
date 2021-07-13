@@ -31,6 +31,7 @@ module.exports = {
             return {
                 id: identityId,
                 name: identityPage.title,
+                description: identityPage.description,
                 image: identityPage.image || 'https://armada-alliance.com/assets/ship-420.png',
                 link: {
                     name: identityPage.title,

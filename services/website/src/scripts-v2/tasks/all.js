@@ -30,8 +30,10 @@ const runScript = (scriptPath) => new Promise((resolve, reject) => {
 })
 
 const scripts = [
+    './schema.js',
     './git.js',
     './tables.js',
+    './adapools.js',
     './pageObjects.js',
     './sitemap.js',
 ]
