@@ -13,10 +13,7 @@ async function main() {
         .filter(line => line.length)
         .map(item => {
 
-            let [date_string, file_string] = item.split('===')
-
-            date_string = trim(date_string)
-            file_string = trim(file_string)
+            let [date_string, file_string] = item.split('===').map(trim)
 
             return {
                 date: new Date(date_string),
