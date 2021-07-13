@@ -1,4 +1,5 @@
 const getPagesForTemplate = require('../getPagesForTemplate')
+const getDataForPage = require('../getDataForPage')
 
 module.exports = {
     id: 'PoolDetailPage',
