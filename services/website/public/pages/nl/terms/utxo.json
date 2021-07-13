@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"utxo\",\"language\":\"nl\",\"slug\":\"/nl/terms/utxo\",\"url\":\"https:///website.codespace1.sublayer.io/nl/terms/utxo\",\"origin\":\"/terms/utxo\",\"title\":\"UTXO\",\"description\":\"UTXO staat voor \\\"Unspent Transaction Output\\\". In cryptocurrencies is een UTXO een abstractie van elektronisch geld. Elke UTXO is analoog aan een munt en heeft een bepaalde waarde in zijn respectieve valuta.\",\"aliases\":[\"utxo\",\"utxo model\",\"cardano utxo model\"],\"keywords\":[\"utxo\",\"cardano\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"sublayerio\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/nl/terms/utxo.md\",\"body\":\"UTXO staat voor \\\"Unspent Transaction Output\\\". In cryptocurrencies is een UTXO een abstractie van elektronisch geld. Elke UTXO is analoog aan een munt en heeft een bepaalde waarde in zijn respectieve valuta. Een andere manier om ernaar te kijken, met behulp van een fiatgeld-analogie, is dat UTXO's verschillende hoeveelheden \\\"wisselgeld\\\" vertegenwoordigen die beschikbaar zijn voor een bepaalde gebruiker. De niet-uitgegeven waarden in elk blok zijn UTXO's en wanneer ze worden \\\"uitgegeven\\\" (gebruikt in een transactie), creëren ze nieuwe \\\"verandering\\\" (nieuwe UTXO's). [Gedetailleerde informatie](https://medium.com/bitbees/what-the-heck-is-utxo-ca68f2651819).\\n\\n<YoutubeVideo url=\\\"https://www.youtube.com/watch?v=hKft6E4K8KY\\\" description=\\\"Video met uitleg over het UTXO Model\\\" />\",\"mdxSource\":{\"compiledSource\":\"var l=Object.defineProperty,p=Object.defineProperties;var h=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var i=Object.prototype.hasOwnProperty,d=Object.prototype.propertyIsEnumerable;var s=(e,n,t)=>n in e?l(e,n,{enumerable:!0,configurable:!0,writable:!0,value:t}):e[n]=t,a=(e,n)=>{for(var t in n||(n={}))i.call(n,t)&&s(e,t,n[t]);if(r)for(var t of r(n))d.call(n,t)&&s(e,t,n[t]);return e},u=(e,n)=>p(e,h(n));var c=(e,n)=>{var t={};for(var o in e)i.call(e,o)&&n.indexOf(o)<0&&(t[o]=e[o]);if(e!=null&&r)for(var o of r(e))n.indexOf(o)<0&&d.call(e,o)&&(t[o]=e[o]);return t};const makeShortcode=e=>function(t){return console.warn(\\\"Component \\\"+e+\\\" was not imported, exported, or provided by MDXProvider as global scope\\\"),mdx(\\\"div\\\",a({},t))},YoutubeVideo=makeShortcode(\\\"YoutubeVideo\\\"),layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(t){var o=t,{components:e}=o,n=c(o,[\\\"components\\\"]);return mdx(MDXLayout,u(a(a({},layoutProps),n),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,`UTXO staat voor \\\"Unspent Transaction Output\\\". In cryptocurrencies is een UTXO een abstractie van elektronisch geld. Elke UTXO is analoog aan een munt en heeft een bepaalde waarde in zijn respectieve valuta. Een andere manier om ernaar te kijken, met behulp van een fiatgeld-analogie, is dat UTXO's verschillende hoeveelheden \\\"wisselgeld\\\" vertegenwoordigen die beschikbaar zijn voor een bepaalde gebruiker. De niet-uitgegeven waarden in elk blok zijn UTXO's en wanneer ze worden \\\"uitgegeven\\\" (gebruikt in een transactie), cre\\\\xEBren ze nieuwe \\\"verandering\\\" (nieuwe UTXO's). `,mdx(\\\"a\\\",a({parentName:\\\"p\\\"},{href:\\\"https://medium.com/bitbees/what-the-heck-is-utxo-ca68f2651819\\\"}),\\\"Gedetailleerde informatie\\\"),\\\".\\\"),mdx(YoutubeVideo,{url:\\\"https://www.youtube.com/watch?v=hKft6E4K8KY\\\",description:\\\"Video met uitleg over het UTXO Model\\\",mdxType:\\\"YoutubeVideo\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-13T12:36:47.349Z",
-  "_cachedIn": "1.03 ms",
-  "_resolvedIn": "1.03 ms",
+  "_cachedAt": "2021-07-13T15:21:08.490Z",
+  "_cachedIn": "445 μs",
+  "_resolvedIn": "445 μs",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -44,17 +44,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-13T12:36:47.349Z",
-    "component-cached-in": "1.03 ms",
-    "component-resolved-in": "1.03 ms"
+    "component-cached-at": "2021-07-13T15:21:08.490Z",
+    "component-cached-in": "445 μs",
+    "component-resolved-in": "445 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:47.349Z",
-      "_cachedIn": "959 μs",
-      "_resolvedIn": "959 μs",
+      "_cachedAt": "2021-07-13T15:21:08.490Z",
+      "_cachedIn": "362 μs",
+      "_resolvedIn": "362 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -63,24 +63,24 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-13T12:36:47.349Z",
-        "component-cached-in": "959 μs",
-        "component-resolved-in": "959 μs"
+        "component-cached-at": "2021-07-13T15:21:08.490Z",
+        "component-cached-in": "362 μs",
+        "component-resolved-in": "362 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:47.349Z",
-          "_cachedIn": "865 μs",
-          "_resolvedIn": "865 μs",
+          "_cachedAt": "2021-07-13T15:21:08.490Z",
+          "_cachedIn": "238 μs",
+          "_resolvedIn": "238 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
           "error": null,
           "props": {
             "schema": {
-              "createdAt": "2021-07-13T12:36:35.016Z",
+              "createdAt": "2021-07-13T15:20:55.169Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -681,6 +681,35 @@
                 "filePath": "/en/guides/run-a-cardano-node.md"
               },
               {
+                "id": "setup-a-nami-delegate-button-on-your-website",
+                "language": "en",
+                "slug": "/guides/setup-a-nami-delegate-button-on-your-website",
+                "url": "https:///website.codespace1.sublayer.io/guides/setup-a-nami-delegate-button-on-your-website",
+                "origin": "/guides/setup-a-nami-delegate-button-on-your-website",
+                "title": "Setup a Nami delegate button on your website",
+                "description": "A guide on how to setup a button that allows your visitors to delegate to your pool straight from your website.",
+                "aliases": null,
+                "keywords": [
+                  "Delegate",
+                  "Nami Wallet",
+                  "JavaScript",
+                  "Marketing"
+                ],
+                "template": "GuideDetailPage",
+                "identities": [
+                  {
+                    "id": "alessandro-berry",
+                    "role": "author"
+                  },
+                  {
+                    "id": "sublayerio",
+                    "role": "author"
+                  }
+                ],
+                "icon": "❤️",
+                "filePath": "/en/guides/setup-a-nami-delegate-button-on-your-website.md"
+              },
+              {
                 "id": "guides",
                 "language": "en",
                 "slug": "/guides",
@@ -1119,7 +1148,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/sublayerio.png",
-                "updatedAt": "2021-06-25T18:07:19.000Z",
+                "updatedAt": "2021-07-13T13:35:37.000Z",
                 "filePath": "/en/identities/sublayerio.md"
               },
               {
@@ -6810,18 +6839,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-13T12:36:47.349Z",
-            "component-cached-in": "865 μs",
-            "component-resolved-in": "865 μs"
+            "component-cached-at": "2021-07-13T15:21:08.490Z",
+            "component-cached-in": "238 μs",
+            "component-resolved-in": "238 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:47.349Z",
-          "_cachedIn": "897 μs",
-          "_resolvedIn": "897 μs",
+          "_cachedAt": "2021-07-13T15:21:08.490Z",
+          "_cachedIn": "282 μs",
+          "_resolvedIn": "282 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6832,17 +6861,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-13T12:36:47.349Z",
-            "component-cached-in": "897 μs",
-            "component-resolved-in": "897 μs"
+            "component-cached-at": "2021-07-13T15:21:08.490Z",
+            "component-cached-in": "282 μs",
+            "component-resolved-in": "282 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-13T12:36:47.349Z",
-              "_cachedIn": "49 μs",
-              "_resolvedIn": "49 μs",
+              "_cachedAt": "2021-07-13T15:21:08.490Z",
+              "_cachedIn": "54 μs",
+              "_resolvedIn": "54 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6886,9 +6915,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-13T12:36:47.349Z",
-                "component-cached-in": "49 μs",
-                "component-resolved-in": "49 μs"
+                "component-cached-at": "2021-07-13T15:21:08.490Z",
+                "component-cached-in": "54 μs",
+                "component-resolved-in": "54 μs"
               },
               "components": {}
             }
@@ -6897,9 +6926,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:47.349Z",
-          "_cachedIn": "800 μs",
-          "_resolvedIn": "800 μs",
+          "_cachedAt": "2021-07-13T15:21:08.490Z",
+          "_cachedIn": "164 μs",
+          "_resolvedIn": "164 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -6908,9 +6937,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-13T12:36:47.349Z",
-            "component-cached-in": "800 μs",
-            "component-resolved-in": "800 μs"
+            "component-cached-at": "2021-07-13T15:21:08.490Z",
+            "component-cached-in": "164 μs",
+            "component-resolved-in": "164 μs"
           },
           "components": {}
         }
@@ -6919,9 +6948,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:47.349Z",
-      "_cachedIn": "885 μs",
-      "_resolvedIn": "885 μs",
+      "_cachedAt": "2021-07-13T15:21:08.490Z",
+      "_cachedIn": "270 μs",
+      "_resolvedIn": "270 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -6949,18 +6978,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-13T12:36:47.349Z",
-        "component-cached-in": "885 μs",
-        "component-resolved-in": "885 μs"
+        "component-cached-at": "2021-07-13T15:21:08.490Z",
+        "component-cached-in": "270 μs",
+        "component-resolved-in": "270 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:47.349Z",
-      "_cachedIn": "771 μs",
-      "_resolvedIn": "771 μs",
+      "_cachedAt": "2021-07-13T15:21:08.490Z",
+      "_cachedIn": "128 μs",
+      "_resolvedIn": "128 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -6972,18 +7001,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-13T12:36:47.349Z",
-        "component-cached-in": "771 μs",
-        "component-resolved-in": "771 μs"
+        "component-cached-at": "2021-07-13T15:21:08.490Z",
+        "component-cached-in": "128 μs",
+        "component-resolved-in": "128 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:47.349Z",
-      "_cachedIn": "884 μs",
-      "_resolvedIn": "884 μs",
+      "_cachedAt": "2021-07-13T15:21:08.490Z",
+      "_cachedIn": "270 μs",
+      "_resolvedIn": "270 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7002,9 +7031,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-13T12:36:47.349Z",
-        "component-cached-in": "884 μs",
-        "component-resolved-in": "884 μs"
+        "component-cached-at": "2021-07-13T15:21:08.490Z",
+        "component-cached-in": "270 μs",
+        "component-resolved-in": "270 μs"
       },
       "components": {}
     }

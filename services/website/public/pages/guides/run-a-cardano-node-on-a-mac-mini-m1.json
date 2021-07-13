@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"GuideDetailPage\",\"version\":1},\"props\":{\"id\":\"run-a-cardano-node-on-a-mac-mini-m1\",\"language\":\"en\",\"slug\":\"/guides/run-a-cardano-node-on-a-mac-mini-m1\",\"url\":\"https:///website.codespace1.sublayer.io/guides/run-a-cardano-node-on-a-mac-mini-m1\",\"origin\":\"/guides/run-a-cardano-node-on-a-mac-mini-m1\",\"title\":\"Run a Cardano Node on a Mac Mini M1\",\"description\":\"Get more performance out of your stake pool by setting up and run a Cardano Node on Apple Silicon\",\"aliases\":null,\"keywords\":[\"Coming Soon\",\"Apple SOC\"],\"template\":\"GuideDetailPage\",\"identities\":[{\"id\":\"wcat-otg\",\"role\":\"author\"}],\"icon\":\"🍎\",\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/guides/run-a-cardano-node-on-a-mac-mini-m1.md\",\"body\":\"\",\"mdxSource\":{\"compiledSource\":\"var M=Object.defineProperty,X=Object.defineProperties;var c=Object.getOwnPropertyDescriptors;var u=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,a=Object.prototype.propertyIsEnumerable;var s=(o,t,n)=>t in o?M(o,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):o[t]=n,p=(o,t)=>{for(var n in t||(t={}))r.call(t,n)&&s(o,n,t[n]);if(u)for(var n of u(t))a.call(t,n)&&s(o,n,t[n]);return o},y=(o,t)=>X(o,c(t));var D=(o,t)=>{var n={};for(var e in o)r.call(o,e)&&t.indexOf(e)<0&&(n[e]=o[e]);if(o!=null&&u)for(var e of u(o))t.indexOf(e)<0&&a.call(o,e)&&(n[e]=o[e]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var e=n,{components:o}=e,t=D(e,[\\\"components\\\"]);return mdx(MDXLayout,y(p(p({},layoutProps),t),{components:o,mdxType:\\\"MDXLayout\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-13T12:36:44.858Z",
-  "_cachedIn": "518 ms",
-  "_resolvedIn": "518 ms",
+  "_cachedAt": "2021-07-13T15:21:05.612Z",
+  "_cachedIn": "305 ms",
+  "_resolvedIn": "305 ms",
   "id": "GuideDetailPage",
   "type": "GuideDetailPage",
   "status": "resolved",
@@ -42,17 +42,17 @@
   "attrs": {
     "component-type": "GuideDetailPage",
     "component-id": "GuideDetailPage",
-    "component-cached-at": "2021-07-13T12:36:44.858Z",
-    "component-cached-in": "518 ms",
-    "component-resolved-in": "518 ms"
+    "component-cached-at": "2021-07-13T15:21:05.612Z",
+    "component-cached-in": "305 ms",
+    "component-resolved-in": "305 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:44.858Z",
-      "_cachedIn": "265 μs",
-      "_resolvedIn": "265 μs",
+      "_cachedAt": "2021-07-13T15:21:05.612Z",
+      "_cachedIn": "497 μs",
+      "_resolvedIn": "497 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -61,24 +61,24 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-13T12:36:44.858Z",
-        "component-cached-in": "265 μs",
-        "component-resolved-in": "265 μs"
+        "component-cached-at": "2021-07-13T15:21:05.612Z",
+        "component-cached-in": "497 μs",
+        "component-resolved-in": "497 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:44.858Z",
-          "_cachedIn": "170 μs",
-          "_resolvedIn": "170 μs",
+          "_cachedAt": "2021-07-13T15:21:05.612Z",
+          "_cachedIn": "354 μs",
+          "_resolvedIn": "354 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
           "error": null,
           "props": {
             "schema": {
-              "createdAt": "2021-07-13T12:36:35.016Z",
+              "createdAt": "2021-07-13T15:20:55.169Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -679,6 +679,35 @@
                 "filePath": "/en/guides/run-a-cardano-node.md"
               },
               {
+                "id": "setup-a-nami-delegate-button-on-your-website",
+                "language": "en",
+                "slug": "/guides/setup-a-nami-delegate-button-on-your-website",
+                "url": "https:///website.codespace1.sublayer.io/guides/setup-a-nami-delegate-button-on-your-website",
+                "origin": "/guides/setup-a-nami-delegate-button-on-your-website",
+                "title": "Setup a Nami delegate button on your website",
+                "description": "A guide on how to setup a button that allows your visitors to delegate to your pool straight from your website.",
+                "aliases": null,
+                "keywords": [
+                  "Delegate",
+                  "Nami Wallet",
+                  "JavaScript",
+                  "Marketing"
+                ],
+                "template": "GuideDetailPage",
+                "identities": [
+                  {
+                    "id": "alessandro-berry",
+                    "role": "author"
+                  },
+                  {
+                    "id": "sublayerio",
+                    "role": "author"
+                  }
+                ],
+                "icon": "❤️",
+                "filePath": "/en/guides/setup-a-nami-delegate-button-on-your-website.md"
+              },
+              {
                 "id": "guides",
                 "language": "en",
                 "slug": "/guides",
@@ -1117,7 +1146,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/sublayerio.png",
-                "updatedAt": "2021-06-25T18:07:19.000Z",
+                "updatedAt": "2021-07-13T13:35:37.000Z",
                 "filePath": "/en/identities/sublayerio.md"
               },
               {
@@ -6808,18 +6837,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-13T12:36:44.858Z",
-            "component-cached-in": "170 μs",
-            "component-resolved-in": "170 μs"
+            "component-cached-at": "2021-07-13T15:21:05.612Z",
+            "component-cached-in": "354 μs",
+            "component-resolved-in": "354 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:44.858Z",
-          "_cachedIn": "189 μs",
-          "_resolvedIn": "189 μs",
+          "_cachedAt": "2021-07-13T15:21:05.612Z",
+          "_cachedIn": "385 μs",
+          "_resolvedIn": "385 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6830,17 +6859,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-13T12:36:44.858Z",
-            "component-cached-in": "189 μs",
-            "component-resolved-in": "189 μs"
+            "component-cached-at": "2021-07-13T15:21:05.612Z",
+            "component-cached-in": "385 μs",
+            "component-resolved-in": "385 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-13T12:36:44.858Z",
-              "_cachedIn": "33 μs",
-              "_resolvedIn": "33 μs",
+              "_cachedAt": "2021-07-13T15:21:05.612Z",
+              "_cachedIn": "65 μs",
+              "_resolvedIn": "65 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6884,9 +6913,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-13T12:36:44.858Z",
-                "component-cached-in": "33 μs",
-                "component-resolved-in": "33 μs"
+                "component-cached-at": "2021-07-13T15:21:05.612Z",
+                "component-cached-in": "65 μs",
+                "component-resolved-in": "65 μs"
               },
               "components": {}
             }
@@ -6895,9 +6924,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:44.858Z",
-          "_cachedIn": "124 μs",
-          "_resolvedIn": "124 μs",
+          "_cachedAt": "2021-07-13T15:21:05.612Z",
+          "_cachedIn": "251 μs",
+          "_resolvedIn": "251 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -6906,9 +6935,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-13T12:36:44.858Z",
-            "component-cached-in": "124 μs",
-            "component-resolved-in": "124 μs"
+            "component-cached-at": "2021-07-13T15:21:05.612Z",
+            "component-cached-in": "251 μs",
+            "component-resolved-in": "251 μs"
           },
           "components": {}
         }
@@ -6917,9 +6946,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:44.858Z",
-      "_cachedIn": "206 μs",
-      "_resolvedIn": "206 μs",
+      "_cachedAt": "2021-07-13T15:21:05.612Z",
+      "_cachedIn": "405 μs",
+      "_resolvedIn": "405 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -6947,18 +6976,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-13T12:36:44.858Z",
-        "component-cached-in": "206 μs",
-        "component-resolved-in": "206 μs"
+        "component-cached-at": "2021-07-13T15:21:05.612Z",
+        "component-cached-in": "405 μs",
+        "component-resolved-in": "405 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:44.858Z",
-      "_cachedIn": "114 μs",
-      "_resolvedIn": "114 μs",
+      "_cachedAt": "2021-07-13T15:21:05.612Z",
+      "_cachedIn": "141 μs",
+      "_resolvedIn": "141 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -6970,18 +6999,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-13T12:36:44.858Z",
-        "component-cached-in": "114 μs",
-        "component-resolved-in": "114 μs"
+        "component-cached-at": "2021-07-13T15:21:05.612Z",
+        "component-cached-in": "141 μs",
+        "component-resolved-in": "141 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:44.858Z",
-      "_cachedIn": "205 μs",
-      "_resolvedIn": "205 μs",
+      "_cachedAt": "2021-07-13T15:21:05.612Z",
+      "_cachedIn": "410 μs",
+      "_resolvedIn": "410 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7001,9 +7030,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-13T12:36:44.858Z",
-        "component-cached-in": "205 μs",
-        "component-resolved-in": "205 μs"
+        "component-cached-at": "2021-07-13T15:21:05.612Z",
+        "component-cached-in": "410 μs",
+        "component-resolved-in": "410 μs"
       },
       "components": {}
     }

@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"saturation\",\"language\":\"en\",\"slug\":\"/terms/saturation\",\"url\":\"https:///website.codespace1.sublayer.io/terms/saturation\",\"origin\":\"/terms/saturation\",\"title\":\"Saturation\",\"description\":\"A term used to indicate that a particular stake pool has more stake delegated to it than is ideal for the network.\",\"aliases\":[\"cardano stake pool saturation point\",\"cardano stake pool saturation\",\"cardano stake pool over saturated pools\",\"cardano stake pool over saturation\"],\"keywords\":[\"cardano\",\"stake\",\"pool\",\"over\",\"saturated\",\"saturation\",\"point\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/saturation.md\",\"body\":\"Saturation is displayed as a percentage. Once a stake pool reaches 100% saturation, it will offer diminishing rewards.The saturation mechanism was designed to prevent centralization by encouraging delegators to delegate to different stake pools, and operators to set up alternative pools so that they can continue earning maximum rewards. Saturation, therefore, exists to preserve the interests of both ada holders delegating their stake and stake pool operators.\",\"mdxSource\":{\"compiledSource\":\"var l=Object.defineProperty,c=Object.defineProperties;var h=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var s=Object.prototype.hasOwnProperty,i=Object.prototype.propertyIsEnumerable;var p=(e,t,a)=>t in e?l(e,t,{enumerable:!0,configurable:!0,writable:!0,value:a}):e[t]=a,r=(e,t)=>{for(var a in t||(t={}))s.call(t,a)&&p(e,a,t[a]);if(n)for(var a of n(t))i.call(t,a)&&p(e,a,t[a]);return e},d=(e,t)=>c(e,h(t));var u=(e,t)=>{var a={};for(var o in e)s.call(e,o)&&t.indexOf(o)<0&&(a[o]=e[o]);if(e!=null&&n)for(var o of n(e))t.indexOf(o)<0&&i.call(e,o)&&(a[o]=e[o]);return a};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(a){var o=a,{components:e}=o,t=u(o,[\\\"components\\\"]);return mdx(MDXLayout,d(r(r({},layoutProps),t),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"Saturation is displayed as a percentage. Once a stake pool reaches 100% saturation, it will offer diminishing rewards.The saturation mechanism was designed to prevent centralization by encouraging delegators to delegate to different stake pools, and operators to set up alternative pools so that they can continue earning maximum rewards. Saturation, therefore, exists to preserve the interests of both ada holders delegating their stake and stake pool operators.\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-13T12:36:46.932Z",
-  "_cachedIn": "216 μs",
-  "_resolvedIn": "216 μs",
+  "_cachedAt": "2021-07-13T15:21:07.757Z",
+  "_cachedIn": "442 μs",
+  "_resolvedIn": "442 μs",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -50,17 +50,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-13T12:36:46.932Z",
-    "component-cached-in": "216 μs",
-    "component-resolved-in": "216 μs"
+    "component-cached-at": "2021-07-13T15:21:07.757Z",
+    "component-cached-in": "442 μs",
+    "component-resolved-in": "442 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:46.932Z",
-      "_cachedIn": "174 μs",
-      "_resolvedIn": "174 μs",
+      "_cachedAt": "2021-07-13T15:21:07.757Z",
+      "_cachedIn": "356 μs",
+      "_resolvedIn": "356 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -69,24 +69,24 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-13T12:36:46.932Z",
-        "component-cached-in": "174 μs",
-        "component-resolved-in": "174 μs"
+        "component-cached-at": "2021-07-13T15:21:07.757Z",
+        "component-cached-in": "356 μs",
+        "component-resolved-in": "356 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:46.932Z",
-          "_cachedIn": "114 μs",
-          "_resolvedIn": "114 μs",
+          "_cachedAt": "2021-07-13T15:21:07.757Z",
+          "_cachedIn": "202 μs",
+          "_resolvedIn": "202 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
           "error": null,
           "props": {
             "schema": {
-              "createdAt": "2021-07-13T12:36:35.016Z",
+              "createdAt": "2021-07-13T15:20:55.169Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -687,6 +687,35 @@
                 "filePath": "/en/guides/run-a-cardano-node.md"
               },
               {
+                "id": "setup-a-nami-delegate-button-on-your-website",
+                "language": "en",
+                "slug": "/guides/setup-a-nami-delegate-button-on-your-website",
+                "url": "https:///website.codespace1.sublayer.io/guides/setup-a-nami-delegate-button-on-your-website",
+                "origin": "/guides/setup-a-nami-delegate-button-on-your-website",
+                "title": "Setup a Nami delegate button on your website",
+                "description": "A guide on how to setup a button that allows your visitors to delegate to your pool straight from your website.",
+                "aliases": null,
+                "keywords": [
+                  "Delegate",
+                  "Nami Wallet",
+                  "JavaScript",
+                  "Marketing"
+                ],
+                "template": "GuideDetailPage",
+                "identities": [
+                  {
+                    "id": "alessandro-berry",
+                    "role": "author"
+                  },
+                  {
+                    "id": "sublayerio",
+                    "role": "author"
+                  }
+                ],
+                "icon": "❤️",
+                "filePath": "/en/guides/setup-a-nami-delegate-button-on-your-website.md"
+              },
+              {
                 "id": "guides",
                 "language": "en",
                 "slug": "/guides",
@@ -1125,7 +1154,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/sublayerio.png",
-                "updatedAt": "2021-06-25T18:07:19.000Z",
+                "updatedAt": "2021-07-13T13:35:37.000Z",
                 "filePath": "/en/identities/sublayerio.md"
               },
               {
@@ -6816,18 +6845,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-13T12:36:46.932Z",
-            "component-cached-in": "114 μs",
-            "component-resolved-in": "114 μs"
+            "component-cached-at": "2021-07-13T15:21:07.757Z",
+            "component-cached-in": "202 μs",
+            "component-resolved-in": "202 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:46.932Z",
-          "_cachedIn": "139 μs",
-          "_resolvedIn": "139 μs",
+          "_cachedAt": "2021-07-13T15:21:07.757Z",
+          "_cachedIn": "276 μs",
+          "_resolvedIn": "276 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6838,17 +6867,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-13T12:36:46.932Z",
-            "component-cached-in": "139 μs",
-            "component-resolved-in": "139 μs"
+            "component-cached-at": "2021-07-13T15:21:07.757Z",
+            "component-cached-in": "276 μs",
+            "component-resolved-in": "276 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-13T12:36:46.932Z",
-              "_cachedIn": "36 μs",
-              "_resolvedIn": "36 μs",
+              "_cachedAt": "2021-07-13T15:21:07.757Z",
+              "_cachedIn": "89 μs",
+              "_resolvedIn": "89 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6892,9 +6921,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-13T12:36:46.932Z",
-                "component-cached-in": "36 μs",
-                "component-resolved-in": "36 μs"
+                "component-cached-at": "2021-07-13T15:21:07.757Z",
+                "component-cached-in": "89 μs",
+                "component-resolved-in": "89 μs"
               },
               "components": {}
             }
@@ -6903,9 +6932,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:46.932Z",
-          "_cachedIn": "83 μs",
-          "_resolvedIn": "83 μs",
+          "_cachedAt": "2021-07-13T15:21:07.757Z",
+          "_cachedIn": "144 μs",
+          "_resolvedIn": "144 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -6914,9 +6943,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-13T12:36:46.932Z",
-            "component-cached-in": "83 μs",
-            "component-resolved-in": "83 μs"
+            "component-cached-at": "2021-07-13T15:21:07.757Z",
+            "component-cached-in": "144 μs",
+            "component-resolved-in": "144 μs"
           },
           "components": {}
         }
@@ -6925,9 +6954,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:46.932Z",
-      "_cachedIn": "124 μs",
-      "_resolvedIn": "124 μs",
+      "_cachedAt": "2021-07-13T15:21:07.757Z",
+      "_cachedIn": "238 μs",
+      "_resolvedIn": "238 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -6955,18 +6984,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-13T12:36:46.932Z",
-        "component-cached-in": "124 μs",
-        "component-resolved-in": "124 μs"
+        "component-cached-at": "2021-07-13T15:21:07.757Z",
+        "component-cached-in": "238 μs",
+        "component-resolved-in": "238 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:46.932Z",
-      "_cachedIn": "63 μs",
-      "_resolvedIn": "63 μs",
+      "_cachedAt": "2021-07-13T15:21:07.757Z",
+      "_cachedIn": "126 μs",
+      "_resolvedIn": "126 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -6978,18 +7007,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-13T12:36:46.932Z",
-        "component-cached-in": "63 μs",
-        "component-resolved-in": "63 μs"
+        "component-cached-at": "2021-07-13T15:21:07.757Z",
+        "component-cached-in": "126 μs",
+        "component-resolved-in": "126 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:46.932Z",
-      "_cachedIn": "124 μs",
-      "_resolvedIn": "124 μs",
+      "_cachedAt": "2021-07-13T15:21:07.757Z",
+      "_cachedIn": "237 μs",
+      "_resolvedIn": "237 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7008,9 +7037,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-13T12:36:46.932Z",
-        "component-cached-in": "124 μs",
-        "component-resolved-in": "124 μs"
+        "component-cached-at": "2021-07-13T15:21:07.757Z",
+        "component-cached-in": "237 μs",
+        "component-resolved-in": "237 μs"
       },
       "components": {}
     }

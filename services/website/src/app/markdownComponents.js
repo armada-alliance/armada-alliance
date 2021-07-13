@@ -1,6 +1,23 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { css } from '@emotion/react'
 import PageTooltip from './PageTooltip'
+import Prism from 'prismjs'
+// import "prismjs/themes/prism-tomorrow.css";
+
+function Code({ children }) {
+
+    useEffect(() => {
+        if (typeof window !== 'undefined') {
+            Prism.highlightAll();
+        }
+    }, []);
+
+    return (
+        <code className="language-html text-sm">
+            {children}
+        </code>
+    )
+}
 
 const markdownComponents = {
     a: (props) => (
@@ -32,7 +49,11 @@ const markdownComponents = {
         <p className="mb-8 leading-8">
             {children}
         </p>
-    )
+    ),
+    pre: props => (
+        <pre {...props} className="mb-8" />
+    ),
+    code: Code
 }
 
 export default markdownComponents

@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"plutus-platform\",\"language\":\"en\",\"slug\":\"/terms/plutus-platform\",\"url\":\"https:///website.codespace1.sublayer.io/terms/plutus-platform\",\"origin\":\"/terms/plutus-platform\",\"title\":\"Plutus platform\",\"description\":\"The combined software support for writing contract applications\",\"aliases\":[\"plutus platform\"],\"keywords\":[\"plutus\",\"platform\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/plutus-platform.md\",\"body\":\"This includes:\\n\\n1. Plutus Foundation, and\\n\\n2. The Plutus Application Framework\\n\\n[What is the Plutus Platform?](https://docs.cardano.org/projects/plutus/en/terms/latest/plutus/explanations/platform.html#what-is-the-plutus-platform)\",\"mdxSource\":{\"compiledSource\":\"var m=Object.defineProperty,c=Object.defineProperties;var h=Object.getOwnPropertyDescriptors;var e=Object.getOwnPropertySymbols;var n=Object.prototype.hasOwnProperty,r=Object.prototype.propertyIsEnumerable;var s=(t,a,p)=>a in t?m(t,a,{enumerable:!0,configurable:!0,writable:!0,value:p}):t[a]=p,l=(t,a)=>{for(var p in a||(a={}))n.call(a,p)&&s(t,p,a[p]);if(e)for(var p of e(a))r.call(a,p)&&s(t,p,a[p]);return t},u=(t,a)=>c(t,h(a));var i=(t,a)=>{var p={};for(var o in t)n.call(t,o)&&a.indexOf(o)<0&&(p[o]=t[o]);if(t!=null&&e)for(var o of e(t))a.indexOf(o)<0&&r.call(t,o)&&(p[o]=t[o]);return p};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(p){var o=p,{components:t}=o,a=i(o,[\\\"components\\\"]);return mdx(MDXLayout,u(l(l({},layoutProps),a),{components:t,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"This includes:\\\"),mdx(\\\"ol\\\",null,mdx(\\\"li\\\",{parentName:\\\"ol\\\"},mdx(\\\"p\\\",{parentName:\\\"li\\\"},\\\"Plutus Foundation, and\\\")),mdx(\\\"li\\\",{parentName:\\\"ol\\\"},mdx(\\\"p\\\",{parentName:\\\"li\\\"},\\\"The Plutus Application Framework\\\"))),mdx(\\\"p\\\",null,mdx(\\\"a\\\",l({parentName:\\\"p\\\"},{href:\\\"https://docs.cardano.org/projects/plutus/en/terms/latest/plutus/explanations/platform.html#what-is-the-plutus-platform\\\"}),\\\"What is the Plutus Platform?\\\")))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-13T12:36:46.854Z",
-  "_cachedIn": "2.54 ms",
-  "_resolvedIn": "2.54 ms",
+  "_cachedAt": "2021-07-13T15:21:07.570Z",
+  "_cachedIn": "4.19 ms",
+  "_resolvedIn": "4.19 ms",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -42,17 +42,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-13T12:36:46.854Z",
-    "component-cached-in": "2.54 ms",
-    "component-resolved-in": "2.54 ms"
+    "component-cached-at": "2021-07-13T15:21:07.570Z",
+    "component-cached-in": "4.19 ms",
+    "component-resolved-in": "4.19 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:46.853Z",
-      "_cachedIn": "1.74 ms",
-      "_resolvedIn": "1.74 ms",
+      "_cachedAt": "2021-07-13T15:21:07.570Z",
+      "_cachedIn": "3.1 ms",
+      "_resolvedIn": "3.1 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -61,24 +61,24 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-13T12:36:46.853Z",
-        "component-cached-in": "1.74 ms",
-        "component-resolved-in": "1.74 ms"
+        "component-cached-at": "2021-07-13T15:21:07.570Z",
+        "component-cached-in": "3.1 ms",
+        "component-resolved-in": "3.1 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:46.853Z",
-          "_cachedIn": "943 μs",
-          "_resolvedIn": "943 μs",
+          "_cachedAt": "2021-07-13T15:21:07.569Z",
+          "_cachedIn": "1.75 ms",
+          "_resolvedIn": "1.75 ms",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
           "error": null,
           "props": {
             "schema": {
-              "createdAt": "2021-07-13T12:36:35.016Z",
+              "createdAt": "2021-07-13T15:20:55.169Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -679,6 +679,35 @@
                 "filePath": "/en/guides/run-a-cardano-node.md"
               },
               {
+                "id": "setup-a-nami-delegate-button-on-your-website",
+                "language": "en",
+                "slug": "/guides/setup-a-nami-delegate-button-on-your-website",
+                "url": "https:///website.codespace1.sublayer.io/guides/setup-a-nami-delegate-button-on-your-website",
+                "origin": "/guides/setup-a-nami-delegate-button-on-your-website",
+                "title": "Setup a Nami delegate button on your website",
+                "description": "A guide on how to setup a button that allows your visitors to delegate to your pool straight from your website.",
+                "aliases": null,
+                "keywords": [
+                  "Delegate",
+                  "Nami Wallet",
+                  "JavaScript",
+                  "Marketing"
+                ],
+                "template": "GuideDetailPage",
+                "identities": [
+                  {
+                    "id": "alessandro-berry",
+                    "role": "author"
+                  },
+                  {
+                    "id": "sublayerio",
+                    "role": "author"
+                  }
+                ],
+                "icon": "❤️",
+                "filePath": "/en/guides/setup-a-nami-delegate-button-on-your-website.md"
+              },
+              {
                 "id": "guides",
                 "language": "en",
                 "slug": "/guides",
@@ -1117,7 +1146,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/sublayerio.png",
-                "updatedAt": "2021-06-25T18:07:19.000Z",
+                "updatedAt": "2021-07-13T13:35:37.000Z",
                 "filePath": "/en/identities/sublayerio.md"
               },
               {
@@ -6808,18 +6837,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-13T12:36:46.853Z",
-            "component-cached-in": "943 μs",
-            "component-resolved-in": "943 μs"
+            "component-cached-at": "2021-07-13T15:21:07.569Z",
+            "component-cached-in": "1.75 ms",
+            "component-resolved-in": "1.75 ms"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:46.853Z",
-          "_cachedIn": "1.26 ms",
-          "_resolvedIn": "1.26 ms",
+          "_cachedAt": "2021-07-13T15:21:07.570Z",
+          "_cachedIn": "2.37 ms",
+          "_resolvedIn": "2.37 ms",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6830,17 +6859,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-13T12:36:46.853Z",
-            "component-cached-in": "1.26 ms",
-            "component-resolved-in": "1.26 ms"
+            "component-cached-at": "2021-07-13T15:21:07.570Z",
+            "component-cached-in": "2.37 ms",
+            "component-resolved-in": "2.37 ms"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-13T12:36:46.853Z",
-              "_cachedIn": "269 μs",
-              "_resolvedIn": "269 μs",
+              "_cachedAt": "2021-07-13T15:21:07.569Z",
+              "_cachedIn": "564 μs",
+              "_resolvedIn": "564 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6884,9 +6913,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-13T12:36:46.853Z",
-                "component-cached-in": "269 μs",
-                "component-resolved-in": "269 μs"
+                "component-cached-at": "2021-07-13T15:21:07.569Z",
+                "component-cached-in": "564 μs",
+                "component-resolved-in": "564 μs"
               },
               "components": {}
             }
@@ -6895,9 +6924,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:46.852Z",
-          "_cachedIn": "451 μs",
-          "_resolvedIn": "451 μs",
+          "_cachedAt": "2021-07-13T15:21:07.568Z",
+          "_cachedIn": "875 μs",
+          "_resolvedIn": "875 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -6906,9 +6935,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-13T12:36:46.852Z",
-            "component-cached-in": "451 μs",
-            "component-resolved-in": "451 μs"
+            "component-cached-at": "2021-07-13T15:21:07.568Z",
+            "component-cached-in": "875 μs",
+            "component-resolved-in": "875 μs"
           },
           "components": {}
         }
@@ -6917,9 +6946,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:46.853Z",
-      "_cachedIn": "1 ms",
-      "_resolvedIn": "1 ms",
+      "_cachedAt": "2021-07-13T15:21:07.569Z",
+      "_cachedIn": "1.8 ms",
+      "_resolvedIn": "1.8 ms",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -6947,18 +6976,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-13T12:36:46.853Z",
-        "component-cached-in": "1 ms",
-        "component-resolved-in": "1 ms"
+        "component-cached-at": "2021-07-13T15:21:07.569Z",
+        "component-cached-in": "1.8 ms",
+        "component-resolved-in": "1.8 ms"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:46.852Z",
-      "_cachedIn": "488 μs",
-      "_resolvedIn": "488 μs",
+      "_cachedAt": "2021-07-13T15:21:07.568Z",
+      "_cachedIn": "833 μs",
+      "_resolvedIn": "833 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -6970,18 +6999,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-13T12:36:46.852Z",
-        "component-cached-in": "488 μs",
-        "component-resolved-in": "488 μs"
+        "component-cached-at": "2021-07-13T15:21:07.568Z",
+        "component-cached-in": "833 μs",
+        "component-resolved-in": "833 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:46.853Z",
-      "_cachedIn": "1.01 ms",
-      "_resolvedIn": "1.01 ms",
+      "_cachedAt": "2021-07-13T15:21:07.569Z",
+      "_cachedIn": "1.81 ms",
+      "_resolvedIn": "1.81 ms",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7000,9 +7029,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-13T12:36:46.853Z",
-        "component-cached-in": "1.01 ms",
-        "component-resolved-in": "1.01 ms"
+        "component-cached-at": "2021-07-13T15:21:07.569Z",
+        "component-cached-in": "1.81 ms",
+        "component-resolved-in": "1.81 ms"
       },
       "components": {}
     }

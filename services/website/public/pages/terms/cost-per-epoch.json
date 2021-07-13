@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"cost-per-epoch\",\"language\":\"en\",\"slug\":\"/terms/cost-per-epoch\",\"url\":\"https:///website.codespace1.sublayer.io/terms/cost-per-epoch\",\"origin\":\"/terms/cost-per-epoch\",\"title\":\"Cost per epoch\",\"description\":\"A fixed fee, in ada, which the stake pool operator takes every epoch from the pool rewards to cover the costs of running a stake pool.\",\"aliases\":[\"cardano stake pool operators fixed fee\",\"cardano stake pool fees\",\"cost per epoch\",\"cardano stake pool operators cost per epoch\"],\"keywords\":[\"cardano\",\"cost\",\"per\",\"epoch\",\"stake\",\"pool\",\"operator\",\"fixed\",\"fee\",\"rewards\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/cost-per-epoch.md\",\"body\":\"The cost per epoch is subtracted from the total ada that is rewarded to a pool, before the operator takes their profit margin. Whatever remains is shared proportionally among the delegators.\",\"mdxSource\":{\"compiledSource\":\"var c=Object.defineProperty,d=Object.defineProperties;var m=Object.getOwnPropertyDescriptors;var a=Object.getOwnPropertySymbols;var p=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var i=(t,o,e)=>o in t?c(t,o,{enumerable:!0,configurable:!0,writable:!0,value:e}):t[o]=e,n=(t,o)=>{for(var e in o||(o={}))p.call(o,e)&&i(t,e,o[e]);if(a)for(var e of a(o))s.call(o,e)&&i(t,e,o[e]);return t},h=(t,o)=>d(t,m(o));var u=(t,o)=>{var e={};for(var r in t)p.call(t,r)&&o.indexOf(r)<0&&(e[r]=t[r]);if(t!=null&&a)for(var r of a(t))o.indexOf(r)<0&&s.call(t,r)&&(e[r]=t[r]);return e};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(e){var r=e,{components:t}=r,o=u(r,[\\\"components\\\"]);return mdx(MDXLayout,h(n(n({},layoutProps),o),{components:t,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"The cost per epoch is subtracted from the total ada that is rewarded to a pool, before the operator takes their profit margin. Whatever remains is shared proportionally among the delegators.\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-13T12:36:46.072Z",
-  "_cachedIn": "4.04 ms",
-  "_resolvedIn": "4.04 ms",
+  "_cachedAt": "2021-07-13T15:21:06.687Z",
+  "_cachedIn": "1.08 ms",
+  "_resolvedIn": "1.08 ms",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -53,17 +53,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-13T12:36:46.072Z",
-    "component-cached-in": "4.04 ms",
-    "component-resolved-in": "4.04 ms"
+    "component-cached-at": "2021-07-13T15:21:06.687Z",
+    "component-cached-in": "1.08 ms",
+    "component-resolved-in": "1.08 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:46.072Z",
-      "_cachedIn": "3.04 ms",
-      "_resolvedIn": "3.04 ms",
+      "_cachedAt": "2021-07-13T15:21:06.687Z",
+      "_cachedIn": "881 μs",
+      "_resolvedIn": "881 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -72,24 +72,24 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-13T12:36:46.072Z",
-        "component-cached-in": "3.04 ms",
-        "component-resolved-in": "3.04 ms"
+        "component-cached-at": "2021-07-13T15:21:06.687Z",
+        "component-cached-in": "881 μs",
+        "component-resolved-in": "881 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:46.071Z",
-          "_cachedIn": "1.64 ms",
-          "_resolvedIn": "1.64 ms",
+          "_cachedAt": "2021-07-13T15:21:06.687Z",
+          "_cachedIn": "454 μs",
+          "_resolvedIn": "454 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
           "error": null,
           "props": {
             "schema": {
-              "createdAt": "2021-07-13T12:36:35.016Z",
+              "createdAt": "2021-07-13T15:20:55.169Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -690,6 +690,35 @@
                 "filePath": "/en/guides/run-a-cardano-node.md"
               },
               {
+                "id": "setup-a-nami-delegate-button-on-your-website",
+                "language": "en",
+                "slug": "/guides/setup-a-nami-delegate-button-on-your-website",
+                "url": "https:///website.codespace1.sublayer.io/guides/setup-a-nami-delegate-button-on-your-website",
+                "origin": "/guides/setup-a-nami-delegate-button-on-your-website",
+                "title": "Setup a Nami delegate button on your website",
+                "description": "A guide on how to setup a button that allows your visitors to delegate to your pool straight from your website.",
+                "aliases": null,
+                "keywords": [
+                  "Delegate",
+                  "Nami Wallet",
+                  "JavaScript",
+                  "Marketing"
+                ],
+                "template": "GuideDetailPage",
+                "identities": [
+                  {
+                    "id": "alessandro-berry",
+                    "role": "author"
+                  },
+                  {
+                    "id": "sublayerio",
+                    "role": "author"
+                  }
+                ],
+                "icon": "❤️",
+                "filePath": "/en/guides/setup-a-nami-delegate-button-on-your-website.md"
+              },
+              {
                 "id": "guides",
                 "language": "en",
                 "slug": "/guides",
@@ -1128,7 +1157,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/sublayerio.png",
-                "updatedAt": "2021-06-25T18:07:19.000Z",
+                "updatedAt": "2021-07-13T13:35:37.000Z",
                 "filePath": "/en/identities/sublayerio.md"
               },
               {
@@ -6819,18 +6848,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-13T12:36:46.071Z",
-            "component-cached-in": "1.64 ms",
-            "component-resolved-in": "1.64 ms"
+            "component-cached-at": "2021-07-13T15:21:06.687Z",
+            "component-cached-in": "454 μs",
+            "component-resolved-in": "454 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:46.072Z",
-          "_cachedIn": "2.12 ms",
-          "_resolvedIn": "2.12 ms",
+          "_cachedAt": "2021-07-13T15:21:06.687Z",
+          "_cachedIn": "650 μs",
+          "_resolvedIn": "650 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6841,17 +6870,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-13T12:36:46.072Z",
-            "component-cached-in": "2.12 ms",
-            "component-resolved-in": "2.12 ms"
+            "component-cached-at": "2021-07-13T15:21:06.687Z",
+            "component-cached-in": "650 μs",
+            "component-resolved-in": "650 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-13T12:36:46.072Z",
-              "_cachedIn": "457 μs",
-              "_resolvedIn": "457 μs",
+              "_cachedAt": "2021-07-13T15:21:06.687Z",
+              "_cachedIn": "227 μs",
+              "_resolvedIn": "227 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6895,9 +6924,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-13T12:36:46.072Z",
-                "component-cached-in": "457 μs",
-                "component-resolved-in": "457 μs"
+                "component-cached-at": "2021-07-13T15:21:06.687Z",
+                "component-cached-in": "227 μs",
+                "component-resolved-in": "227 μs"
               },
               "components": {}
             }
@@ -6906,9 +6935,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:46.071Z",
-          "_cachedIn": "1.09 ms",
-          "_resolvedIn": "1.09 ms",
+          "_cachedAt": "2021-07-13T15:21:06.686Z",
+          "_cachedIn": "254 μs",
+          "_resolvedIn": "254 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -6917,9 +6946,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-13T12:36:46.071Z",
-            "component-cached-in": "1.09 ms",
-            "component-resolved-in": "1.09 ms"
+            "component-cached-at": "2021-07-13T15:21:06.686Z",
+            "component-cached-in": "254 μs",
+            "component-resolved-in": "254 μs"
           },
           "components": {}
         }
@@ -6928,9 +6957,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:46.071Z",
-      "_cachedIn": "2.2 ms",
-      "_resolvedIn": "2.2 ms",
+      "_cachedAt": "2021-07-13T15:21:06.687Z",
+      "_cachedIn": "503 μs",
+      "_resolvedIn": "503 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -6958,18 +6987,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-13T12:36:46.071Z",
-        "component-cached-in": "2.2 ms",
-        "component-resolved-in": "2.2 ms"
+        "component-cached-at": "2021-07-13T15:21:06.687Z",
+        "component-cached-in": "503 μs",
+        "component-resolved-in": "503 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:46.070Z",
-      "_cachedIn": "1.36 ms",
-      "_resolvedIn": "1.36 ms",
+      "_cachedAt": "2021-07-13T15:21:06.686Z",
+      "_cachedIn": "319 μs",
+      "_resolvedIn": "319 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -6981,18 +7010,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-13T12:36:46.070Z",
-        "component-cached-in": "1.36 ms",
-        "component-resolved-in": "1.36 ms"
+        "component-cached-at": "2021-07-13T15:21:06.686Z",
+        "component-cached-in": "319 μs",
+        "component-resolved-in": "319 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:46.071Z",
-      "_cachedIn": "2.2 ms",
-      "_resolvedIn": "2.2 ms",
+      "_cachedAt": "2021-07-13T15:21:06.687Z",
+      "_cachedIn": "503 μs",
+      "_resolvedIn": "503 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7011,9 +7040,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-13T12:36:46.071Z",
-        "component-cached-in": "2.2 ms",
-        "component-resolved-in": "2.2 ms"
+        "component-cached-at": "2021-07-13T15:21:06.687Z",
+        "component-cached-in": "503 μs",
+        "component-resolved-in": "503 μs"
       },
       "components": {}
     }

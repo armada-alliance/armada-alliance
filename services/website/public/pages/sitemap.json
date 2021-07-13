@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"SitemapPage\",\"version\":1},\"props\":{\"id\":\"sitemap\",\"language\":\"en\",\"slug\":\"/sitemap\",\"url\":\"https:///website.codespace1.sublayer.io/sitemap\",\"origin\":\"/sitemap\",\"title\":\"Sitemap\",\"aliases\":null,\"keywords\":null,\"template\":\"SitemapPage\",\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/sitemap.md\",\"body\":\"\",\"mdxSource\":{\"compiledSource\":\"var M=Object.defineProperty,X=Object.defineProperties;var c=Object.getOwnPropertyDescriptors;var u=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,a=Object.prototype.propertyIsEnumerable;var s=(o,t,n)=>t in o?M(o,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):o[t]=n,p=(o,t)=>{for(var n in t||(t={}))r.call(t,n)&&s(o,n,t[n]);if(u)for(var n of u(t))a.call(t,n)&&s(o,n,t[n]);return o},y=(o,t)=>X(o,c(t));var D=(o,t)=>{var n={};for(var e in o)r.call(o,e)&&t.indexOf(e)<0&&(n[e]=o[e]);if(o!=null&&u)for(var e of u(o))t.indexOf(e)<0&&a.call(o,e)&&(n[e]=o[e]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var e=n,{components:o}=e,t=D(e,[\\\"components\\\"]);return mdx(MDXLayout,y(p(p({},layoutProps),t),{components:o,mdxType:\\\"MDXLayout\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-13T12:36:45.005Z",
-  "_cachedIn": "1.36 ms",
-  "_resolvedIn": "1.36 ms",
+  "_cachedAt": "2021-07-13T15:21:05.760Z",
+  "_cachedIn": "1.73 ms",
+  "_resolvedIn": "1.73 ms",
   "id": "SitemapPage",
   "type": "SitemapPage",
   "status": "resolved",
@@ -485,6 +485,35 @@
         "filePath": "/en/guides/run-a-cardano-node.md"
       },
       {
+        "id": "setup-a-nami-delegate-button-on-your-website",
+        "language": "en",
+        "slug": "/guides/setup-a-nami-delegate-button-on-your-website",
+        "url": "https:///website.codespace1.sublayer.io/guides/setup-a-nami-delegate-button-on-your-website",
+        "origin": "/guides/setup-a-nami-delegate-button-on-your-website",
+        "title": "Setup a Nami delegate button on your website",
+        "description": "A guide on how to setup a button that allows your visitors to delegate to your pool straight from your website.",
+        "aliases": null,
+        "keywords": [
+          "Delegate",
+          "Nami Wallet",
+          "JavaScript",
+          "Marketing"
+        ],
+        "template": "GuideDetailPage",
+        "identities": [
+          {
+            "id": "alessandro-berry",
+            "role": "author"
+          },
+          {
+            "id": "sublayerio",
+            "role": "author"
+          }
+        ],
+        "icon": "❤️",
+        "filePath": "/en/guides/setup-a-nami-delegate-button-on-your-website.md"
+      },
+      {
         "id": "guides",
         "language": "en",
         "slug": "/guides",
@@ -923,7 +952,7 @@
         "keywords": null,
         "template": "IdentityDetailPage",
         "image": "/sublayerio.png",
-        "updatedAt": "2021-06-25T18:07:19.000Z",
+        "updatedAt": "2021-07-13T13:35:37.000Z",
         "filePath": "/en/identities/sublayerio.md"
       },
       {
@@ -6670,17 +6699,17 @@
   "attrs": {
     "component-type": "SitemapPage",
     "component-id": "SitemapPage",
-    "component-cached-at": "2021-07-13T12:36:45.005Z",
-    "component-cached-in": "1.36 ms",
-    "component-resolved-in": "1.36 ms"
+    "component-cached-at": "2021-07-13T15:21:05.760Z",
+    "component-cached-in": "1.73 ms",
+    "component-resolved-in": "1.73 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:45.005Z",
-      "_cachedIn": "368 μs",
-      "_resolvedIn": "368 μs",
+      "_cachedAt": "2021-07-13T15:21:05.760Z",
+      "_cachedIn": "1.37 ms",
+      "_resolvedIn": "1.37 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -6689,24 +6718,24 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-13T12:36:45.005Z",
-        "component-cached-in": "368 μs",
-        "component-resolved-in": "368 μs"
+        "component-cached-at": "2021-07-13T15:21:05.760Z",
+        "component-cached-in": "1.37 ms",
+        "component-resolved-in": "1.37 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:45.005Z",
-          "_cachedIn": "133 μs",
-          "_resolvedIn": "133 μs",
+          "_cachedAt": "2021-07-13T15:21:05.760Z",
+          "_cachedIn": "201 μs",
+          "_resolvedIn": "201 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
           "error": null,
           "props": {
             "schema": {
-              "createdAt": "2021-07-13T12:36:35.016Z",
+              "createdAt": "2021-07-13T15:20:55.169Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -7307,6 +7336,35 @@
                 "filePath": "/en/guides/run-a-cardano-node.md"
               },
               {
+                "id": "setup-a-nami-delegate-button-on-your-website",
+                "language": "en",
+                "slug": "/guides/setup-a-nami-delegate-button-on-your-website",
+                "url": "https:///website.codespace1.sublayer.io/guides/setup-a-nami-delegate-button-on-your-website",
+                "origin": "/guides/setup-a-nami-delegate-button-on-your-website",
+                "title": "Setup a Nami delegate button on your website",
+                "description": "A guide on how to setup a button that allows your visitors to delegate to your pool straight from your website.",
+                "aliases": null,
+                "keywords": [
+                  "Delegate",
+                  "Nami Wallet",
+                  "JavaScript",
+                  "Marketing"
+                ],
+                "template": "GuideDetailPage",
+                "identities": [
+                  {
+                    "id": "alessandro-berry",
+                    "role": "author"
+                  },
+                  {
+                    "id": "sublayerio",
+                    "role": "author"
+                  }
+                ],
+                "icon": "❤️",
+                "filePath": "/en/guides/setup-a-nami-delegate-button-on-your-website.md"
+              },
+              {
                 "id": "guides",
                 "language": "en",
                 "slug": "/guides",
@@ -7745,7 +7803,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/sublayerio.png",
-                "updatedAt": "2021-06-25T18:07:19.000Z",
+                "updatedAt": "2021-07-13T13:35:37.000Z",
                 "filePath": "/en/identities/sublayerio.md"
               },
               {
@@ -13436,18 +13494,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-13T12:36:45.005Z",
-            "component-cached-in": "133 μs",
-            "component-resolved-in": "133 μs"
+            "component-cached-at": "2021-07-13T15:21:05.760Z",
+            "component-cached-in": "201 μs",
+            "component-resolved-in": "201 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:45.005Z",
-          "_cachedIn": "174 μs",
-          "_resolvedIn": "174 μs",
+          "_cachedAt": "2021-07-13T15:21:05.760Z",
+          "_cachedIn": "261 μs",
+          "_resolvedIn": "261 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -13458,17 +13516,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-13T12:36:45.005Z",
-            "component-cached-in": "174 μs",
-            "component-resolved-in": "174 μs"
+            "component-cached-at": "2021-07-13T15:21:05.760Z",
+            "component-cached-in": "261 μs",
+            "component-resolved-in": "261 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-13T12:36:45.005Z",
-              "_cachedIn": "51 μs",
-              "_resolvedIn": "51 μs",
+              "_cachedAt": "2021-07-13T15:21:05.760Z",
+              "_cachedIn": "63 μs",
+              "_resolvedIn": "63 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -13512,9 +13570,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-13T12:36:45.005Z",
-                "component-cached-in": "51 μs",
-                "component-resolved-in": "51 μs"
+                "component-cached-at": "2021-07-13T15:21:05.760Z",
+                "component-cached-in": "63 μs",
+                "component-resolved-in": "63 μs"
               },
               "components": {}
             }
@@ -13523,9 +13581,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:45.005Z",
-          "_cachedIn": "73 μs",
-          "_resolvedIn": "73 μs",
+          "_cachedAt": "2021-07-13T15:21:05.760Z",
+          "_cachedIn": "134 μs",
+          "_resolvedIn": "134 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -13534,9 +13592,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-13T12:36:45.005Z",
-            "component-cached-in": "73 μs",
-            "component-resolved-in": "73 μs"
+            "component-cached-at": "2021-07-13T15:21:05.760Z",
+            "component-cached-in": "134 μs",
+            "component-resolved-in": "134 μs"
           },
           "components": {}
         }

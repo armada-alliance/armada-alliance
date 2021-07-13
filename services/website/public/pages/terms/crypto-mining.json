@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"crypto-mining\",\"language\":\"en\",\"slug\":\"/terms/crypto-mining\",\"url\":\"https:///website.codespace1.sublayer.io/terms/crypto-mining\",\"origin\":\"/terms/crypto-mining\",\"title\":\"Crypto mining\",\"description\":\"Algorithmic Contract Types Unified Standards. A taxonomy and standard for financial contracts.\",\"aliases\":[\"ACTUS\"],\"keywords\":[\"ACTUS\",\"Algorithmic\",\"Contract\",\"Types\",\"Unified\",\"Standards\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/crypto-mining.md\",\"body\":\"The work performed by miners consists of a few main actions:\\n\\nVerifying and validating new transactions\\nCollecting those transactions and ordering them into a new block\\nAdding the block to the ledger’s chain of blocks (the blockchain)\\nBroadcasting the new block to the cryptocurrency node network\\n\\nhttps://www.dummies.com/personal-finance/investing/what-is-cryptocurrency-mining/\",\"mdxSource\":{\"compiledSource\":\"var h=Object.defineProperty,w=Object.defineProperties;var d=Object.getOwnPropertyDescriptors;var i=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,c=Object.prototype.propertyIsEnumerable;var s=(n,t,e)=>t in n?h(n,t,{enumerable:!0,configurable:!0,writable:!0,value:e}):n[t]=e,a=(n,t)=>{for(var e in t||(t={}))r.call(t,e)&&s(n,e,t[e]);if(i)for(var e of i(t))c.call(t,e)&&s(n,e,t[e]);return n},p=(n,t)=>w(n,d(t));var m=(n,t)=>{var e={};for(var o in n)r.call(n,o)&&t.indexOf(o)<0&&(e[o]=n[o]);if(n!=null&&i)for(var o of i(n))t.indexOf(o)<0&&c.call(n,o)&&(e[o]=n[o]);return e};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(e){var o=e,{components:n}=o,t=m(o,[\\\"components\\\"]);return mdx(MDXLayout,p(a(a({},layoutProps),t),{components:n,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"The work performed by miners consists of a few main actions:\\\"),mdx(\\\"p\\\",null,`Verifying and validating new transactions\\nCollecting those transactions and ordering them into a new block\\nAdding the block to the ledger\\\\u2019s chain of blocks (the blockchain)\\nBroadcasting the new block to the cryptocurrency node network`),mdx(\\\"p\\\",null,mdx(\\\"a\\\",a({parentName:\\\"p\\\"},{href:\\\"https://www.dummies.com/personal-finance/investing/what-is-cryptocurrency-mining/\\\"}),\\\"https://www.dummies.com/personal-finance/investing/what-is-cryptocurrency-mining/\\\")))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-13T12:36:46.072Z",
-  "_cachedIn": "3.96 ms",
-  "_resolvedIn": "3.96 ms",
+  "_cachedAt": "2021-07-13T15:21:06.687Z",
+  "_cachedIn": "1.06 ms",
+  "_resolvedIn": "1.06 ms",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -46,17 +46,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-13T12:36:46.072Z",
-    "component-cached-in": "3.96 ms",
-    "component-resolved-in": "3.96 ms"
+    "component-cached-at": "2021-07-13T15:21:06.687Z",
+    "component-cached-in": "1.06 ms",
+    "component-resolved-in": "1.06 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:46.072Z",
-      "_cachedIn": "3.05 ms",
-      "_resolvedIn": "3.05 ms",
+      "_cachedAt": "2021-07-13T15:21:06.687Z",
+      "_cachedIn": "885 μs",
+      "_resolvedIn": "885 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -65,24 +65,24 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-13T12:36:46.072Z",
-        "component-cached-in": "3.05 ms",
-        "component-resolved-in": "3.05 ms"
+        "component-cached-at": "2021-07-13T15:21:06.687Z",
+        "component-cached-in": "885 μs",
+        "component-resolved-in": "885 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:46.071Z",
-          "_cachedIn": "1.65 ms",
-          "_resolvedIn": "1.65 ms",
+          "_cachedAt": "2021-07-13T15:21:06.687Z",
+          "_cachedIn": "471 μs",
+          "_resolvedIn": "471 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
           "error": null,
           "props": {
             "schema": {
-              "createdAt": "2021-07-13T12:36:35.016Z",
+              "createdAt": "2021-07-13T15:20:55.169Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -683,6 +683,35 @@
                 "filePath": "/en/guides/run-a-cardano-node.md"
               },
               {
+                "id": "setup-a-nami-delegate-button-on-your-website",
+                "language": "en",
+                "slug": "/guides/setup-a-nami-delegate-button-on-your-website",
+                "url": "https:///website.codespace1.sublayer.io/guides/setup-a-nami-delegate-button-on-your-website",
+                "origin": "/guides/setup-a-nami-delegate-button-on-your-website",
+                "title": "Setup a Nami delegate button on your website",
+                "description": "A guide on how to setup a button that allows your visitors to delegate to your pool straight from your website.",
+                "aliases": null,
+                "keywords": [
+                  "Delegate",
+                  "Nami Wallet",
+                  "JavaScript",
+                  "Marketing"
+                ],
+                "template": "GuideDetailPage",
+                "identities": [
+                  {
+                    "id": "alessandro-berry",
+                    "role": "author"
+                  },
+                  {
+                    "id": "sublayerio",
+                    "role": "author"
+                  }
+                ],
+                "icon": "❤️",
+                "filePath": "/en/guides/setup-a-nami-delegate-button-on-your-website.md"
+              },
+              {
                 "id": "guides",
                 "language": "en",
                 "slug": "/guides",
@@ -1121,7 +1150,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/sublayerio.png",
-                "updatedAt": "2021-06-25T18:07:19.000Z",
+                "updatedAt": "2021-07-13T13:35:37.000Z",
                 "filePath": "/en/identities/sublayerio.md"
               },
               {
@@ -6812,18 +6841,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-13T12:36:46.071Z",
-            "component-cached-in": "1.65 ms",
-            "component-resolved-in": "1.65 ms"
+            "component-cached-at": "2021-07-13T15:21:06.687Z",
+            "component-cached-in": "471 μs",
+            "component-resolved-in": "471 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:46.072Z",
-          "_cachedIn": "2.13 ms",
-          "_resolvedIn": "2.13 ms",
+          "_cachedAt": "2021-07-13T15:21:06.687Z",
+          "_cachedIn": "655 μs",
+          "_resolvedIn": "655 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6834,17 +6863,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-13T12:36:46.072Z",
-            "component-cached-in": "2.13 ms",
-            "component-resolved-in": "2.13 ms"
+            "component-cached-at": "2021-07-13T15:21:06.687Z",
+            "component-cached-in": "655 μs",
+            "component-resolved-in": "655 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-13T12:36:46.072Z",
-              "_cachedIn": "465 μs",
-              "_resolvedIn": "465 μs",
+              "_cachedAt": "2021-07-13T15:21:06.687Z",
+              "_cachedIn": "234 μs",
+              "_resolvedIn": "234 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6888,9 +6917,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-13T12:36:46.072Z",
-                "component-cached-in": "465 μs",
-                "component-resolved-in": "465 μs"
+                "component-cached-at": "2021-07-13T15:21:06.687Z",
+                "component-cached-in": "234 μs",
+                "component-resolved-in": "234 μs"
               },
               "components": {}
             }
@@ -6899,9 +6928,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:46.071Z",
-          "_cachedIn": "1.1 ms",
-          "_resolvedIn": "1.1 ms",
+          "_cachedAt": "2021-07-13T15:21:06.686Z",
+          "_cachedIn": "267 μs",
+          "_resolvedIn": "267 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -6910,9 +6939,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-13T12:36:46.071Z",
-            "component-cached-in": "1.1 ms",
-            "component-resolved-in": "1.1 ms"
+            "component-cached-at": "2021-07-13T15:21:06.686Z",
+            "component-cached-in": "267 μs",
+            "component-resolved-in": "267 μs"
           },
           "components": {}
         }
@@ -6921,9 +6950,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:46.071Z",
-      "_cachedIn": "2.22 ms",
-      "_resolvedIn": "2.22 ms",
+      "_cachedAt": "2021-07-13T15:21:06.687Z",
+      "_cachedIn": "514 μs",
+      "_resolvedIn": "514 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -6951,18 +6980,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-13T12:36:46.071Z",
-        "component-cached-in": "2.22 ms",
-        "component-resolved-in": "2.22 ms"
+        "component-cached-at": "2021-07-13T15:21:06.687Z",
+        "component-cached-in": "514 μs",
+        "component-resolved-in": "514 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:46.070Z",
-      "_cachedIn": "1.39 ms",
-      "_resolvedIn": "1.39 ms",
+      "_cachedAt": "2021-07-13T15:21:06.686Z",
+      "_cachedIn": "331 μs",
+      "_resolvedIn": "331 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -6974,18 +7003,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-13T12:36:46.070Z",
-        "component-cached-in": "1.39 ms",
-        "component-resolved-in": "1.39 ms"
+        "component-cached-at": "2021-07-13T15:21:06.686Z",
+        "component-cached-in": "331 μs",
+        "component-resolved-in": "331 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:46.071Z",
-      "_cachedIn": "2.22 ms",
-      "_resolvedIn": "2.22 ms",
+      "_cachedAt": "2021-07-13T15:21:06.687Z",
+      "_cachedIn": "514 μs",
+      "_resolvedIn": "514 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7004,9 +7033,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-13T12:36:46.071Z",
-        "component-cached-in": "2.22 ms",
-        "component-resolved-in": "2.22 ms"
+        "component-cached-at": "2021-07-13T15:21:06.687Z",
+        "component-cached-in": "514 μs",
+        "component-resolved-in": "514 μs"
       },
       "components": {}
     }

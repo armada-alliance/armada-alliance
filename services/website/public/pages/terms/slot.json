@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"slot\",\"language\":\"en\",\"slug\":\"/terms/slot\",\"url\":\"https:///website.codespace1.sublayer.io/terms/slot\",\"origin\":\"/terms/slot\",\"title\":\"Slot\",\"description\":\"A fixed period of time within an epoch.\",\"aliases\":[\"slot\",\"cardano slots\",\"cardano slots per epoch\",\"how many slots per epoch\",\"block rewards\"],\"keywords\":[\"slot\",\"slots\",\"cardano\",\"blocks\",\"block\",\"epoch\",\"rewards\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/slot.md\",\"body\":\"Each epoch of time is divided into numbered slots. Slots that are inhabited by blocks are called active slots. One slot equates to roughly 20 seconds in real time. One slot occurs every 20 seconds of real time (under ideal conditions), thus one epoch has a total of 21,600 slots.\",\"mdxSource\":{\"compiledSource\":\"var d=Object.defineProperty,p=Object.defineProperties;var h=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var i=Object.prototype.hasOwnProperty,c=Object.prototype.propertyIsEnumerable;var l=(o,e,t)=>e in o?d(o,e,{enumerable:!0,configurable:!0,writable:!0,value:t}):o[e]=t,a=(o,e)=>{for(var t in e||(e={}))i.call(e,t)&&l(o,t,e[t]);if(n)for(var t of n(e))c.call(e,t)&&l(o,t,e[t]);return o},r=(o,e)=>p(o,h(e));var u=(o,e)=>{var t={};for(var s in o)i.call(o,s)&&e.indexOf(s)<0&&(t[s]=o[s]);if(o!=null&&n)for(var s of n(o))e.indexOf(s)<0&&c.call(o,s)&&(t[s]=o[s]);return t};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(t){var s=t,{components:o}=s,e=u(s,[\\\"components\\\"]);return mdx(MDXLayout,r(a(a({},layoutProps),e),{components:o,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"Each epoch of time is divided into numbered slots. Slots that are inhabited by blocks are called active slots. One slot equates to roughly 20 seconds in real time. One slot occurs every 20 seconds of real time (under ideal conditions), thus one epoch has a total of 21,600 slots.\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-13T12:36:46.994Z",
-  "_cachedIn": "644 μs",
-  "_resolvedIn": "644 μs",
+  "_cachedAt": "2021-07-13T15:21:07.874Z",
+  "_cachedIn": "711 μs",
+  "_resolvedIn": "711 μs",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -51,17 +51,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-13T12:36:46.994Z",
-    "component-cached-in": "644 μs",
-    "component-resolved-in": "644 μs"
+    "component-cached-at": "2021-07-13T15:21:07.874Z",
+    "component-cached-in": "711 μs",
+    "component-resolved-in": "711 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:46.994Z",
-      "_cachedIn": "487 μs",
-      "_resolvedIn": "487 μs",
+      "_cachedAt": "2021-07-13T15:21:07.874Z",
+      "_cachedIn": "556 μs",
+      "_resolvedIn": "556 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -70,24 +70,24 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-13T12:36:46.994Z",
-        "component-cached-in": "487 μs",
-        "component-resolved-in": "487 μs"
+        "component-cached-at": "2021-07-13T15:21:07.874Z",
+        "component-cached-in": "556 μs",
+        "component-resolved-in": "556 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:46.994Z",
-          "_cachedIn": "296 μs",
-          "_resolvedIn": "296 μs",
+          "_cachedAt": "2021-07-13T15:21:07.874Z",
+          "_cachedIn": "347 μs",
+          "_resolvedIn": "347 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
           "error": null,
           "props": {
             "schema": {
-              "createdAt": "2021-07-13T12:36:35.016Z",
+              "createdAt": "2021-07-13T15:20:55.169Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -688,6 +688,35 @@
                 "filePath": "/en/guides/run-a-cardano-node.md"
               },
               {
+                "id": "setup-a-nami-delegate-button-on-your-website",
+                "language": "en",
+                "slug": "/guides/setup-a-nami-delegate-button-on-your-website",
+                "url": "https:///website.codespace1.sublayer.io/guides/setup-a-nami-delegate-button-on-your-website",
+                "origin": "/guides/setup-a-nami-delegate-button-on-your-website",
+                "title": "Setup a Nami delegate button on your website",
+                "description": "A guide on how to setup a button that allows your visitors to delegate to your pool straight from your website.",
+                "aliases": null,
+                "keywords": [
+                  "Delegate",
+                  "Nami Wallet",
+                  "JavaScript",
+                  "Marketing"
+                ],
+                "template": "GuideDetailPage",
+                "identities": [
+                  {
+                    "id": "alessandro-berry",
+                    "role": "author"
+                  },
+                  {
+                    "id": "sublayerio",
+                    "role": "author"
+                  }
+                ],
+                "icon": "❤️",
+                "filePath": "/en/guides/setup-a-nami-delegate-button-on-your-website.md"
+              },
+              {
                 "id": "guides",
                 "language": "en",
                 "slug": "/guides",
@@ -1126,7 +1155,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/sublayerio.png",
-                "updatedAt": "2021-06-25T18:07:19.000Z",
+                "updatedAt": "2021-07-13T13:35:37.000Z",
                 "filePath": "/en/identities/sublayerio.md"
               },
               {
@@ -6817,18 +6846,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-13T12:36:46.994Z",
-            "component-cached-in": "296 μs",
-            "component-resolved-in": "296 μs"
+            "component-cached-at": "2021-07-13T15:21:07.874Z",
+            "component-cached-in": "347 μs",
+            "component-resolved-in": "347 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:46.994Z",
-          "_cachedIn": "380 μs",
-          "_resolvedIn": "380 μs",
+          "_cachedAt": "2021-07-13T15:21:07.874Z",
+          "_cachedIn": "438 μs",
+          "_resolvedIn": "438 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6839,17 +6868,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-13T12:36:46.994Z",
-            "component-cached-in": "380 μs",
-            "component-resolved-in": "380 μs"
+            "component-cached-at": "2021-07-13T15:21:07.874Z",
+            "component-cached-in": "438 μs",
+            "component-resolved-in": "438 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-13T12:36:46.994Z",
-              "_cachedIn": "80 μs",
-              "_resolvedIn": "80 μs",
+              "_cachedAt": "2021-07-13T15:21:07.874Z",
+              "_cachedIn": "110 μs",
+              "_resolvedIn": "110 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6893,9 +6922,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-13T12:36:46.994Z",
-                "component-cached-in": "80 μs",
-                "component-resolved-in": "80 μs"
+                "component-cached-at": "2021-07-13T15:21:07.874Z",
+                "component-cached-in": "110 μs",
+                "component-resolved-in": "110 μs"
               },
               "components": {}
             }
@@ -6904,9 +6933,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:46.994Z",
-          "_cachedIn": "192 μs",
-          "_resolvedIn": "192 μs",
+          "_cachedAt": "2021-07-13T15:21:07.874Z",
+          "_cachedIn": "234 μs",
+          "_resolvedIn": "234 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -6915,9 +6944,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-13T12:36:46.994Z",
-            "component-cached-in": "192 μs",
-            "component-resolved-in": "192 μs"
+            "component-cached-at": "2021-07-13T15:21:07.874Z",
+            "component-cached-in": "234 μs",
+            "component-resolved-in": "234 μs"
           },
           "components": {}
         }
@@ -6926,9 +6955,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:46.994Z",
-      "_cachedIn": "315 μs",
-      "_resolvedIn": "315 μs",
+      "_cachedAt": "2021-07-13T15:21:07.874Z",
+      "_cachedIn": "389 μs",
+      "_resolvedIn": "389 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -6956,18 +6985,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-13T12:36:46.994Z",
-        "component-cached-in": "315 μs",
-        "component-resolved-in": "315 μs"
+        "component-cached-at": "2021-07-13T15:21:07.874Z",
+        "component-cached-in": "389 μs",
+        "component-resolved-in": "389 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:46.994Z",
-      "_cachedIn": "197 μs",
-      "_resolvedIn": "197 μs",
+      "_cachedAt": "2021-07-13T15:21:07.874Z",
+      "_cachedIn": "247 μs",
+      "_resolvedIn": "247 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -6979,18 +7008,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-13T12:36:46.994Z",
-        "component-cached-in": "197 μs",
-        "component-resolved-in": "197 μs"
+        "component-cached-at": "2021-07-13T15:21:07.874Z",
+        "component-cached-in": "247 μs",
+        "component-resolved-in": "247 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:46.994Z",
-      "_cachedIn": "316 μs",
-      "_resolvedIn": "316 μs",
+      "_cachedAt": "2021-07-13T15:21:07.874Z",
+      "_cachedIn": "391 μs",
+      "_resolvedIn": "391 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7009,9 +7038,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-13T12:36:46.994Z",
-        "component-cached-in": "316 μs",
-        "component-resolved-in": "316 μs"
+        "component-cached-at": "2021-07-13T15:21:07.874Z",
+        "component-cached-in": "391 μs",
+        "component-resolved-in": "391 μs"
       },
       "components": {}
     }

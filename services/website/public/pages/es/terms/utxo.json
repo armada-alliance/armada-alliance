@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"utxo\",\"language\":\"es\",\"slug\":\"/es/terms/utxo\",\"url\":\"https:///website.codespace1.sublayer.io/es/terms/utxo\",\"origin\":\"/es/terms/utxo\",\"title\":\"UTXO\",\"description\":\"UTXO (Unspent Transaction Output) significa \\\"Salida de transacción no gastada\\\". En las criptomonedas, un UTXO es una abstracción de dinero electrónico. Cada UTXO es análogo a una moneda y tiene una cierta cantidad de valor en su respectiva moneda.\",\"aliases\":[\"utxo\",\"utxo model\",\"cardano utxo model\"],\"keywords\":[\"utxo\",\"cardano\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"Alex (Quixote Pool)\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-12T16:31:58.000Z\",\"filePath\":\"/es/terms/utxo.md\",\"body\":\"Otra forma de verlo, usando una analogía del dinero fiduciario, es que los UTXO representan varias cantidades de \\\"cambio\\\" disponibles para cualquier usuario en particular. Los valores no gastados en cada bloque son UTXO, y cuando se “gastan” (han sido usados en una transacción) crean un nuevo “cambio” (nuevos UTXO). [Detailed information](https://medium.com/bitbees/what-the-heck-is-utxo-ca68f2651819).\\n\\n<YoutubeVideo url=\\\"https://www.youtube.com/watch?v=hKft6E4K8KY\\\" description=\\\"Video explaining the UTXO Model\\\" />\\n\",\"mdxSource\":{\"compiledSource\":\"var p=Object.defineProperty,l=Object.defineProperties;var m=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var s=Object.prototype.hasOwnProperty,u=Object.prototype.propertyIsEnumerable;var i=(o,e,a)=>e in o?p(o,e,{enumerable:!0,configurable:!0,writable:!0,value:a}):o[e]=a,t=(o,e)=>{for(var a in e||(e={}))s.call(e,a)&&i(o,a,e[a]);if(r)for(var a of r(e))u.call(e,a)&&i(o,a,e[a]);return o},d=(o,e)=>l(o,m(e));var c=(o,e)=>{var a={};for(var n in o)s.call(o,n)&&e.indexOf(n)<0&&(a[n]=o[n]);if(o!=null&&r)for(var n of r(o))e.indexOf(n)<0&&u.call(o,n)&&(a[n]=o[n]);return a};const makeShortcode=o=>function(a){return console.warn(\\\"Component \\\"+o+\\\" was not imported, exported, or provided by MDXProvider as global scope\\\"),mdx(\\\"div\\\",t({},a))},YoutubeVideo=makeShortcode(\\\"YoutubeVideo\\\"),layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(a){var n=a,{components:o}=n,e=c(n,[\\\"components\\\"]);return mdx(MDXLayout,d(t(t({},layoutProps),e),{components:o,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,'Otra forma de verlo, usando una analog\\\\xEDa del dinero fiduciario, es que los UTXO representan varias cantidades de \\\"cambio\\\" disponibles para cualquier usuario en particular. Los valores no gastados en cada bloque son UTXO, y cuando se \\\\u201Cgastan\\\\u201D (han sido usados en una transacci\\\\xF3n) crean un nuevo \\\\u201Ccambio\\\\u201D (nuevos UTXO). ',mdx(\\\"a\\\",t({parentName:\\\"p\\\"},{href:\\\"https://medium.com/bitbees/what-the-heck-is-utxo-ca68f2651819\\\"}),\\\"Detailed information\\\"),\\\".\\\"),mdx(YoutubeVideo,{url:\\\"https://www.youtube.com/watch?v=hKft6E4K8KY\\\",description:\\\"Video explaining the UTXO Model\\\",mdxType:\\\"YoutubeVideo\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-13T12:36:47.331Z",
-  "_cachedIn": "442 μs",
-  "_resolvedIn": "442 μs",
+  "_cachedAt": "2021-07-13T15:21:08.385Z",
+  "_cachedIn": "2.06 ms",
+  "_resolvedIn": "2.06 ms",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -44,17 +44,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-13T12:36:47.331Z",
-    "component-cached-in": "442 μs",
-    "component-resolved-in": "442 μs"
+    "component-cached-at": "2021-07-13T15:21:08.385Z",
+    "component-cached-in": "2.06 ms",
+    "component-resolved-in": "2.06 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:47.331Z",
-      "_cachedIn": "287 μs",
-      "_resolvedIn": "287 μs",
+      "_cachedAt": "2021-07-13T15:21:08.385Z",
+      "_cachedIn": "1.6 ms",
+      "_resolvedIn": "1.6 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -63,24 +63,24 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-13T12:36:47.331Z",
-        "component-cached-in": "287 μs",
-        "component-resolved-in": "287 μs"
+        "component-cached-at": "2021-07-13T15:21:08.385Z",
+        "component-cached-in": "1.6 ms",
+        "component-resolved-in": "1.6 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:47.331Z",
-          "_cachedIn": "180 μs",
-          "_resolvedIn": "180 μs",
+          "_cachedAt": "2021-07-13T15:21:08.385Z",
+          "_cachedIn": "1.09 ms",
+          "_resolvedIn": "1.09 ms",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
           "error": null,
           "props": {
             "schema": {
-              "createdAt": "2021-07-13T12:36:35.016Z",
+              "createdAt": "2021-07-13T15:20:55.169Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -681,6 +681,35 @@
                 "filePath": "/en/guides/run-a-cardano-node.md"
               },
               {
+                "id": "setup-a-nami-delegate-button-on-your-website",
+                "language": "en",
+                "slug": "/guides/setup-a-nami-delegate-button-on-your-website",
+                "url": "https:///website.codespace1.sublayer.io/guides/setup-a-nami-delegate-button-on-your-website",
+                "origin": "/guides/setup-a-nami-delegate-button-on-your-website",
+                "title": "Setup a Nami delegate button on your website",
+                "description": "A guide on how to setup a button that allows your visitors to delegate to your pool straight from your website.",
+                "aliases": null,
+                "keywords": [
+                  "Delegate",
+                  "Nami Wallet",
+                  "JavaScript",
+                  "Marketing"
+                ],
+                "template": "GuideDetailPage",
+                "identities": [
+                  {
+                    "id": "alessandro-berry",
+                    "role": "author"
+                  },
+                  {
+                    "id": "sublayerio",
+                    "role": "author"
+                  }
+                ],
+                "icon": "❤️",
+                "filePath": "/en/guides/setup-a-nami-delegate-button-on-your-website.md"
+              },
+              {
                 "id": "guides",
                 "language": "en",
                 "slug": "/guides",
@@ -1119,7 +1148,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/sublayerio.png",
-                "updatedAt": "2021-06-25T18:07:19.000Z",
+                "updatedAt": "2021-07-13T13:35:37.000Z",
                 "filePath": "/en/identities/sublayerio.md"
               },
               {
@@ -6810,18 +6839,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-13T12:36:47.331Z",
-            "component-cached-in": "180 μs",
-            "component-resolved-in": "180 μs"
+            "component-cached-at": "2021-07-13T15:21:08.385Z",
+            "component-cached-in": "1.09 ms",
+            "component-resolved-in": "1.09 ms"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:47.331Z",
-          "_cachedIn": "227 μs",
-          "_resolvedIn": "227 μs",
+          "_cachedAt": "2021-07-13T15:21:08.385Z",
+          "_cachedIn": "1.32 ms",
+          "_resolvedIn": "1.32 ms",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6832,17 +6861,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-13T12:36:47.331Z",
-            "component-cached-in": "227 μs",
-            "component-resolved-in": "227 μs"
+            "component-cached-at": "2021-07-13T15:21:08.385Z",
+            "component-cached-in": "1.32 ms",
+            "component-resolved-in": "1.32 ms"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-13T12:36:47.331Z",
-              "_cachedIn": "41 μs",
-              "_resolvedIn": "41 μs",
+              "_cachedAt": "2021-07-13T15:21:08.385Z",
+              "_cachedIn": "226 μs",
+              "_resolvedIn": "226 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6886,9 +6915,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-13T12:36:47.331Z",
-                "component-cached-in": "41 μs",
-                "component-resolved-in": "41 μs"
+                "component-cached-at": "2021-07-13T15:21:08.385Z",
+                "component-cached-in": "226 μs",
+                "component-resolved-in": "226 μs"
               },
               "components": {}
             }
@@ -6897,9 +6926,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:47.331Z",
-          "_cachedIn": "113 μs",
-          "_resolvedIn": "113 μs",
+          "_cachedAt": "2021-07-13T15:21:08.385Z",
+          "_cachedIn": "771 μs",
+          "_resolvedIn": "771 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -6908,9 +6937,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-13T12:36:47.331Z",
-            "component-cached-in": "113 μs",
-            "component-resolved-in": "113 μs"
+            "component-cached-at": "2021-07-13T15:21:08.385Z",
+            "component-cached-in": "771 μs",
+            "component-resolved-in": "771 μs"
           },
           "components": {}
         }
@@ -6919,9 +6948,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:47.331Z",
-      "_cachedIn": "190 μs",
-      "_resolvedIn": "190 μs",
+      "_cachedAt": "2021-07-13T15:21:08.385Z",
+      "_cachedIn": "1.17 ms",
+      "_resolvedIn": "1.17 ms",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -6934,18 +6963,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-13T12:36:47.331Z",
-        "component-cached-in": "190 μs",
-        "component-resolved-in": "190 μs"
+        "component-cached-at": "2021-07-13T15:21:08.385Z",
+        "component-cached-in": "1.17 ms",
+        "component-resolved-in": "1.17 ms"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:47.331Z",
-      "_cachedIn": "74 μs",
-      "_resolvedIn": "74 μs",
+      "_cachedAt": "2021-07-13T15:21:08.384Z",
+      "_cachedIn": "433 μs",
+      "_resolvedIn": "433 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -6957,18 +6986,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-13T12:36:47.331Z",
-        "component-cached-in": "74 μs",
-        "component-resolved-in": "74 μs"
+        "component-cached-at": "2021-07-13T15:21:08.384Z",
+        "component-cached-in": "433 μs",
+        "component-resolved-in": "433 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:47.331Z",
-      "_cachedIn": "191 μs",
-      "_resolvedIn": "191 μs",
+      "_cachedAt": "2021-07-13T15:21:08.385Z",
+      "_cachedIn": "1.17 ms",
+      "_resolvedIn": "1.17 ms",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -6987,9 +7016,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-13T12:36:47.331Z",
-        "component-cached-in": "191 μs",
-        "component-resolved-in": "191 μs"
+        "component-cached-at": "2021-07-13T15:21:08.385Z",
+        "component-cached-in": "1.17 ms",
+        "component-resolved-in": "1.17 ms"
       },
       "components": {}
     }

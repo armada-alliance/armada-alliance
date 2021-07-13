@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"plutus\",\"language\":\"en\",\"slug\":\"/terms/plutus\",\"url\":\"https:///website.codespace1.sublayer.io/terms/plutus\",\"origin\":\"/terms/plutus\",\"title\":\"Plutus\",\"description\":\"A Turing-complete programming platform for writing functional smart contracts on the Cardano blockchain.\",\"aliases\":[\"a turing-complete programming languages\",\"cardano programming language\",\"cardano smart contract programming language\",\"solidity programming language\",\"functional programming languages\",\"haskell programming language\",\"cardano coding languages\",\"cardano smart contracts platform\",\"cardano smart contracts platform\",\"turning complete\",\"plutus programming language\"],\"keywords\":null,\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/plutus.md\",\"body\":\"Plutus programming language is based on Haskell programming language. Haskell is a well known functional programming language that is widely adopt in many industries where rigour formal methods are needed to ensure a program does exactly what it was interned to do like in the fields of finance and health. \",\"mdxSource\":{\"compiledSource\":\"var d=Object.defineProperty,m=Object.defineProperties;var p=Object.getOwnPropertyDescriptors;var t=Object.getOwnPropertySymbols;var i=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var l=(e,n,a)=>n in e?d(e,n,{enumerable:!0,configurable:!0,writable:!0,value:a}):e[n]=a,r=(e,n)=>{for(var a in n||(n={}))i.call(n,a)&&l(e,a,n[a]);if(t)for(var a of t(n))s.call(n,a)&&l(e,a,n[a]);return e},u=(e,n)=>m(e,p(n));var g=(e,n)=>{var a={};for(var o in e)i.call(e,o)&&n.indexOf(o)<0&&(a[o]=e[o]);if(e!=null&&t)for(var o of t(e))n.indexOf(o)<0&&s.call(e,o)&&(a[o]=e[o]);return a};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(a){var o=a,{components:e}=o,n=g(o,[\\\"components\\\"]);return mdx(MDXLayout,u(r(r({},layoutProps),n),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"Plutus programming language is based on Haskell programming language. Haskell is a well known functional programming language that is widely adopt in many industries where rigour formal methods are needed to ensure a program does exactly what it was interned to do like in the fields of finance and health. \\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-13T12:36:46.854Z",
-  "_cachedIn": "2.5 ms",
-  "_resolvedIn": "2.5 ms",
+  "_cachedAt": "2021-07-13T15:21:07.570Z",
+  "_cachedIn": "4.13 ms",
+  "_resolvedIn": "4.13 ms",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -49,17 +49,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-13T12:36:46.854Z",
-    "component-cached-in": "2.5 ms",
-    "component-resolved-in": "2.5 ms"
+    "component-cached-at": "2021-07-13T15:21:07.570Z",
+    "component-cached-in": "4.13 ms",
+    "component-resolved-in": "4.13 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:46.853Z",
-      "_cachedIn": "1.75 ms",
-      "_resolvedIn": "1.75 ms",
+      "_cachedAt": "2021-07-13T15:21:07.570Z",
+      "_cachedIn": "3.12 ms",
+      "_resolvedIn": "3.12 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -68,24 +68,24 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-13T12:36:46.853Z",
-        "component-cached-in": "1.75 ms",
-        "component-resolved-in": "1.75 ms"
+        "component-cached-at": "2021-07-13T15:21:07.570Z",
+        "component-cached-in": "3.12 ms",
+        "component-resolved-in": "3.12 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:46.853Z",
-          "_cachedIn": "952 μs",
-          "_resolvedIn": "952 μs",
+          "_cachedAt": "2021-07-13T15:21:07.569Z",
+          "_cachedIn": "1.77 ms",
+          "_resolvedIn": "1.77 ms",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
           "error": null,
           "props": {
             "schema": {
-              "createdAt": "2021-07-13T12:36:35.016Z",
+              "createdAt": "2021-07-13T15:20:55.169Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -686,6 +686,35 @@
                 "filePath": "/en/guides/run-a-cardano-node.md"
               },
               {
+                "id": "setup-a-nami-delegate-button-on-your-website",
+                "language": "en",
+                "slug": "/guides/setup-a-nami-delegate-button-on-your-website",
+                "url": "https:///website.codespace1.sublayer.io/guides/setup-a-nami-delegate-button-on-your-website",
+                "origin": "/guides/setup-a-nami-delegate-button-on-your-website",
+                "title": "Setup a Nami delegate button on your website",
+                "description": "A guide on how to setup a button that allows your visitors to delegate to your pool straight from your website.",
+                "aliases": null,
+                "keywords": [
+                  "Delegate",
+                  "Nami Wallet",
+                  "JavaScript",
+                  "Marketing"
+                ],
+                "template": "GuideDetailPage",
+                "identities": [
+                  {
+                    "id": "alessandro-berry",
+                    "role": "author"
+                  },
+                  {
+                    "id": "sublayerio",
+                    "role": "author"
+                  }
+                ],
+                "icon": "❤️",
+                "filePath": "/en/guides/setup-a-nami-delegate-button-on-your-website.md"
+              },
+              {
                 "id": "guides",
                 "language": "en",
                 "slug": "/guides",
@@ -1124,7 +1153,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/sublayerio.png",
-                "updatedAt": "2021-06-25T18:07:19.000Z",
+                "updatedAt": "2021-07-13T13:35:37.000Z",
                 "filePath": "/en/identities/sublayerio.md"
               },
               {
@@ -6815,18 +6844,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-13T12:36:46.853Z",
-            "component-cached-in": "952 μs",
-            "component-resolved-in": "952 μs"
+            "component-cached-at": "2021-07-13T15:21:07.569Z",
+            "component-cached-in": "1.77 ms",
+            "component-resolved-in": "1.77 ms"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:46.853Z",
-          "_cachedIn": "1.27 ms",
-          "_resolvedIn": "1.27 ms",
+          "_cachedAt": "2021-07-13T15:21:07.570Z",
+          "_cachedIn": "2.43 ms",
+          "_resolvedIn": "2.43 ms",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6837,17 +6866,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-13T12:36:46.853Z",
-            "component-cached-in": "1.27 ms",
-            "component-resolved-in": "1.27 ms"
+            "component-cached-at": "2021-07-13T15:21:07.570Z",
+            "component-cached-in": "2.43 ms",
+            "component-resolved-in": "2.43 ms"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-13T12:36:46.853Z",
-              "_cachedIn": "276 μs",
-              "_resolvedIn": "276 μs",
+              "_cachedAt": "2021-07-13T15:21:07.570Z",
+              "_cachedIn": "583 μs",
+              "_resolvedIn": "583 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6891,9 +6920,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-13T12:36:46.853Z",
-                "component-cached-in": "276 μs",
-                "component-resolved-in": "276 μs"
+                "component-cached-at": "2021-07-13T15:21:07.570Z",
+                "component-cached-in": "583 μs",
+                "component-resolved-in": "583 μs"
               },
               "components": {}
             }
@@ -6902,9 +6931,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:46.852Z",
-          "_cachedIn": "467 μs",
-          "_resolvedIn": "467 μs",
+          "_cachedAt": "2021-07-13T15:21:07.568Z",
+          "_cachedIn": "921 μs",
+          "_resolvedIn": "921 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -6913,9 +6942,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-13T12:36:46.852Z",
-            "component-cached-in": "467 μs",
-            "component-resolved-in": "467 μs"
+            "component-cached-at": "2021-07-13T15:21:07.568Z",
+            "component-cached-in": "921 μs",
+            "component-resolved-in": "921 μs"
           },
           "components": {}
         }
@@ -6924,9 +6953,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:46.853Z",
-      "_cachedIn": "1.04 ms",
-      "_resolvedIn": "1.04 ms",
+      "_cachedAt": "2021-07-13T15:21:07.569Z",
+      "_cachedIn": "1.88 ms",
+      "_resolvedIn": "1.88 ms",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -6954,18 +6983,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-13T12:36:46.853Z",
-        "component-cached-in": "1.04 ms",
-        "component-resolved-in": "1.04 ms"
+        "component-cached-at": "2021-07-13T15:21:07.569Z",
+        "component-cached-in": "1.88 ms",
+        "component-resolved-in": "1.88 ms"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:46.852Z",
-      "_cachedIn": "511 μs",
-      "_resolvedIn": "511 μs",
+      "_cachedAt": "2021-07-13T15:21:07.568Z",
+      "_cachedIn": "904 μs",
+      "_resolvedIn": "904 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -6977,18 +7006,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-13T12:36:46.852Z",
-        "component-cached-in": "511 μs",
-        "component-resolved-in": "511 μs"
+        "component-cached-at": "2021-07-13T15:21:07.568Z",
+        "component-cached-in": "904 μs",
+        "component-resolved-in": "904 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:46.853Z",
-      "_cachedIn": "1.04 ms",
-      "_resolvedIn": "1.04 ms",
+      "_cachedAt": "2021-07-13T15:21:07.569Z",
+      "_cachedIn": "1.88 ms",
+      "_resolvedIn": "1.88 ms",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7007,9 +7036,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-13T12:36:46.853Z",
-        "component-cached-in": "1.04 ms",
-        "component-resolved-in": "1.04 ms"
+        "component-cached-at": "2021-07-13T15:21:07.569Z",
+        "component-cached-in": "1.88 ms",
+        "component-resolved-in": "1.88 ms"
       },
       "components": {}
     }

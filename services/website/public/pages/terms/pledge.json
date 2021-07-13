@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"pledge\",\"language\":\"en\",\"slug\":\"/terms/pledge\",\"url\":\"https:///website.codespace1.sublayer.io/terms/pledge\",\"origin\":\"/terms/pledge\",\"title\":\"Pledge\",\"description\":\"Pledging is an important mechanism that encourages the growth of a healthy ecosystem within the Cardano blockchain.\",\"aliases\":[\"pledge\",\"pledging\",\"pledge ada\",\"stake pool pledge\"],\"keywords\":[\"pledge\",\"pledging\",\"ada\",\"stake\",\"pool\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/pledge.md\",\"body\":\"When you register a stake pool you can choose to pledge some, or all, of your ada to the pool, to make it more attractive to people that want to delegate. Although pledging is not required when setting up a stake pool, it can make the stake pool more attractive to delegators, as the higher the amount of ada that is pledged, the higher the rewards that will be paid out. The a0 protocol parameter defines the influence of the pledge on the pool reward.\",\"mdxSource\":{\"compiledSource\":\"var u=Object.defineProperty,d=Object.defineProperties;var g=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var p=Object.prototype.hasOwnProperty,h=Object.prototype.propertyIsEnumerable;var l=(e,t,o)=>t in e?u(e,t,{enumerable:!0,configurable:!0,writable:!0,value:o}):e[t]=o,n=(e,t)=>{for(var o in t||(t={}))p.call(t,o)&&l(e,o,t[o]);if(r)for(var o of r(t))h.call(t,o)&&l(e,o,t[o]);return e},i=(e,t)=>d(e,g(t));var s=(e,t)=>{var o={};for(var a in e)p.call(e,a)&&t.indexOf(a)<0&&(o[a]=e[a]);if(e!=null&&r)for(var a of r(e))t.indexOf(a)<0&&h.call(e,a)&&(o[a]=e[a]);return o};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(o){var a=o,{components:e}=a,t=s(a,[\\\"components\\\"]);return mdx(MDXLayout,i(n(n({},layoutProps),t),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"When you register a stake pool you can choose to pledge some, or all, of your ada to the pool, to make it more attractive to people that want to delegate. Although pledging is not required when setting up a stake pool, it can make the stake pool more attractive to delegators, as the higher the amount of ada that is pledged, the higher the rewards that will be paid out. The a0 protocol parameter defines the influence of the pledge on the pool reward.\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-13T12:36:46.854Z",
-  "_cachedIn": "2.64 ms",
-  "_resolvedIn": "2.64 ms",
+  "_cachedAt": "2021-07-13T15:21:07.570Z",
+  "_cachedIn": "4.33 ms",
+  "_resolvedIn": "4.33 ms",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -48,17 +48,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-13T12:36:46.854Z",
-    "component-cached-in": "2.64 ms",
-    "component-resolved-in": "2.64 ms"
+    "component-cached-at": "2021-07-13T15:21:07.570Z",
+    "component-cached-in": "4.33 ms",
+    "component-resolved-in": "4.33 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:46.853Z",
-      "_cachedIn": "1.68 ms",
-      "_resolvedIn": "1.68 ms",
+      "_cachedAt": "2021-07-13T15:21:07.570Z",
+      "_cachedIn": "3.06 ms",
+      "_resolvedIn": "3.06 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -67,24 +67,24 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-13T12:36:46.853Z",
-        "component-cached-in": "1.68 ms",
-        "component-resolved-in": "1.68 ms"
+        "component-cached-at": "2021-07-13T15:21:07.570Z",
+        "component-cached-in": "3.06 ms",
+        "component-resolved-in": "3.06 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:46.853Z",
-          "_cachedIn": "913 μs",
-          "_resolvedIn": "913 μs",
+          "_cachedAt": "2021-07-13T15:21:07.569Z",
+          "_cachedIn": "1.69 ms",
+          "_resolvedIn": "1.69 ms",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
           "error": null,
           "props": {
             "schema": {
-              "createdAt": "2021-07-13T12:36:35.016Z",
+              "createdAt": "2021-07-13T15:20:55.169Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -685,6 +685,35 @@
                 "filePath": "/en/guides/run-a-cardano-node.md"
               },
               {
+                "id": "setup-a-nami-delegate-button-on-your-website",
+                "language": "en",
+                "slug": "/guides/setup-a-nami-delegate-button-on-your-website",
+                "url": "https:///website.codespace1.sublayer.io/guides/setup-a-nami-delegate-button-on-your-website",
+                "origin": "/guides/setup-a-nami-delegate-button-on-your-website",
+                "title": "Setup a Nami delegate button on your website",
+                "description": "A guide on how to setup a button that allows your visitors to delegate to your pool straight from your website.",
+                "aliases": null,
+                "keywords": [
+                  "Delegate",
+                  "Nami Wallet",
+                  "JavaScript",
+                  "Marketing"
+                ],
+                "template": "GuideDetailPage",
+                "identities": [
+                  {
+                    "id": "alessandro-berry",
+                    "role": "author"
+                  },
+                  {
+                    "id": "sublayerio",
+                    "role": "author"
+                  }
+                ],
+                "icon": "❤️",
+                "filePath": "/en/guides/setup-a-nami-delegate-button-on-your-website.md"
+              },
+              {
                 "id": "guides",
                 "language": "en",
                 "slug": "/guides",
@@ -1123,7 +1152,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/sublayerio.png",
-                "updatedAt": "2021-06-25T18:07:19.000Z",
+                "updatedAt": "2021-07-13T13:35:37.000Z",
                 "filePath": "/en/identities/sublayerio.md"
               },
               {
@@ -6814,18 +6843,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-13T12:36:46.853Z",
-            "component-cached-in": "913 μs",
-            "component-resolved-in": "913 μs"
+            "component-cached-at": "2021-07-13T15:21:07.569Z",
+            "component-cached-in": "1.69 ms",
+            "component-resolved-in": "1.69 ms"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:46.853Z",
-          "_cachedIn": "1.24 ms",
-          "_resolvedIn": "1.24 ms",
+          "_cachedAt": "2021-07-13T15:21:07.570Z",
+          "_cachedIn": "2.34 ms",
+          "_resolvedIn": "2.34 ms",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6836,17 +6865,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-13T12:36:46.853Z",
-            "component-cached-in": "1.24 ms",
-            "component-resolved-in": "1.24 ms"
+            "component-cached-at": "2021-07-13T15:21:07.570Z",
+            "component-cached-in": "2.34 ms",
+            "component-resolved-in": "2.34 ms"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-13T12:36:46.853Z",
-              "_cachedIn": "248 μs",
-              "_resolvedIn": "248 μs",
+              "_cachedAt": "2021-07-13T15:21:07.569Z",
+              "_cachedIn": "531 μs",
+              "_resolvedIn": "531 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6890,9 +6919,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-13T12:36:46.853Z",
-                "component-cached-in": "248 μs",
-                "component-resolved-in": "248 μs"
+                "component-cached-at": "2021-07-13T15:21:07.569Z",
+                "component-cached-in": "531 μs",
+                "component-resolved-in": "531 μs"
               },
               "components": {}
             }
@@ -6901,9 +6930,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:46.852Z",
-          "_cachedIn": "403 μs",
-          "_resolvedIn": "403 μs",
+          "_cachedAt": "2021-07-13T15:21:07.568Z",
+          "_cachedIn": "801 μs",
+          "_resolvedIn": "801 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -6912,9 +6941,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-13T12:36:46.852Z",
-            "component-cached-in": "403 μs",
-            "component-resolved-in": "403 μs"
+            "component-cached-at": "2021-07-13T15:21:07.568Z",
+            "component-cached-in": "801 μs",
+            "component-resolved-in": "801 μs"
           },
           "components": {}
         }
@@ -6923,9 +6952,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:46.853Z",
-      "_cachedIn": "932 μs",
-      "_resolvedIn": "932 μs",
+      "_cachedAt": "2021-07-13T15:21:07.569Z",
+      "_cachedIn": "1.7 ms",
+      "_resolvedIn": "1.7 ms",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -6953,18 +6982,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-13T12:36:46.853Z",
-        "component-cached-in": "932 μs",
-        "component-resolved-in": "932 μs"
+        "component-cached-at": "2021-07-13T15:21:07.569Z",
+        "component-cached-in": "1.7 ms",
+        "component-resolved-in": "1.7 ms"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:46.852Z",
-      "_cachedIn": "402 μs",
-      "_resolvedIn": "402 μs",
+      "_cachedAt": "2021-07-13T15:21:07.568Z",
+      "_cachedIn": "716 μs",
+      "_resolvedIn": "716 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -6976,18 +7005,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-13T12:36:46.852Z",
-        "component-cached-in": "402 μs",
-        "component-resolved-in": "402 μs"
+        "component-cached-at": "2021-07-13T15:21:07.568Z",
+        "component-cached-in": "716 μs",
+        "component-resolved-in": "716 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:46.853Z",
-      "_cachedIn": "932 μs",
-      "_resolvedIn": "932 μs",
+      "_cachedAt": "2021-07-13T15:21:07.569Z",
+      "_cachedIn": "1.7 ms",
+      "_resolvedIn": "1.7 ms",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7006,9 +7035,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-13T12:36:46.853Z",
-        "component-cached-in": "932 μs",
-        "component-resolved-in": "932 μs"
+        "component-cached-at": "2021-07-13T15:21:07.569Z",
+        "component-cached-in": "1.7 ms",
+        "component-resolved-in": "1.7 ms"
       },
       "components": {}
     }

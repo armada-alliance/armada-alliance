@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"blockchain\",\"language\":\"en\",\"slug\":\"/terms/blockchain\",\"url\":\"https:///website.codespace1.sublayer.io/terms/blockchain\",\"origin\":\"/terms/blockchain\",\"title\":\"Blockchain\",\"description\":\"A growing list of records, called blocks, that are linked using cryptography. Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data. Blockchain is a fundamental system underpinning cryptocurrencies, acting as the public transaction ledger.\",\"aliases\":[\"blockchain\",\"cardano blockchain\",\"bitcoin blockchain\",\"what is a blockchain\",\"cryptocurrency blockchains\",\"blockchain developer\",\"ledger\",\"block\",\"proof-of-work blockchain\",\"proof-of-stake blockchain\",\"proof-of-work blockchains\",\"proof-of-stake blockchains\",\"ethereum\",\"doge coin\",\"doge\"],\"keywords\":[\"blockchain\",\"cardano\",\"bitcoin\",\"ada\",\"btc\",\"eth\",\"ethereum\",\"doge\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/blockchain.md\",\"body\":\"You can think of them as being a mathematical structure for storing digital transactions or data in an immutable, distributed, decentralized digital ledger consisting of blocks that are linked via cryptographic signature that is nearly impossible to fake, hack or disrupt.\",\"mdxSource\":{\"compiledSource\":\"var d=Object.defineProperty,l=Object.defineProperties;var m=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var c=(t,a,i)=>a in t?d(t,a,{enumerable:!0,configurable:!0,writable:!0,value:i}):t[a]=i,e=(t,a)=>{for(var i in a||(a={}))r.call(a,i)&&c(t,i,a[i]);if(n)for(var i of n(a))s.call(a,i)&&c(t,i,a[i]);return t},u=(t,a)=>l(t,m(a));var p=(t,a)=>{var i={};for(var o in t)r.call(t,o)&&a.indexOf(o)<0&&(i[o]=t[o]);if(t!=null&&n)for(var o of n(t))a.indexOf(o)<0&&s.call(t,o)&&(i[o]=t[o]);return i};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(i){var o=i,{components:t}=o,a=p(o,[\\\"components\\\"]);return mdx(MDXLayout,u(e(e({},layoutProps),a),{components:t,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"You can think of them as being a mathematical structure for storing digital transactions or data in an immutable, distributed, decentralized digital ledger consisting of blocks that are linked via cryptographic signature that is nearly impossible to fake, hack or disrupt.\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-13T12:36:45.837Z",
-  "_cachedIn": "1.77 ms",
-  "_resolvedIn": "1.77 ms",
+  "_cachedAt": "2021-07-13T15:21:06.460Z",
+  "_cachedIn": "783 μs",
+  "_resolvedIn": "783 μs",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -62,17 +62,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-13T12:36:45.837Z",
-    "component-cached-in": "1.77 ms",
-    "component-resolved-in": "1.77 ms"
+    "component-cached-at": "2021-07-13T15:21:06.460Z",
+    "component-cached-in": "783 μs",
+    "component-resolved-in": "783 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:45.837Z",
-      "_cachedIn": "1.41 ms",
-      "_resolvedIn": "1.41 ms",
+      "_cachedAt": "2021-07-13T15:21:06.460Z",
+      "_cachedIn": "583 μs",
+      "_resolvedIn": "583 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -81,24 +81,24 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-13T12:36:45.837Z",
-        "component-cached-in": "1.41 ms",
-        "component-resolved-in": "1.41 ms"
+        "component-cached-at": "2021-07-13T15:21:06.460Z",
+        "component-cached-in": "583 μs",
+        "component-resolved-in": "583 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:45.837Z",
-          "_cachedIn": "1.03 ms",
-          "_resolvedIn": "1.03 ms",
+          "_cachedAt": "2021-07-13T15:21:06.460Z",
+          "_cachedIn": "351 μs",
+          "_resolvedIn": "351 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
           "error": null,
           "props": {
             "schema": {
-              "createdAt": "2021-07-13T12:36:35.016Z",
+              "createdAt": "2021-07-13T15:20:55.169Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -699,6 +699,35 @@
                 "filePath": "/en/guides/run-a-cardano-node.md"
               },
               {
+                "id": "setup-a-nami-delegate-button-on-your-website",
+                "language": "en",
+                "slug": "/guides/setup-a-nami-delegate-button-on-your-website",
+                "url": "https:///website.codespace1.sublayer.io/guides/setup-a-nami-delegate-button-on-your-website",
+                "origin": "/guides/setup-a-nami-delegate-button-on-your-website",
+                "title": "Setup a Nami delegate button on your website",
+                "description": "A guide on how to setup a button that allows your visitors to delegate to your pool straight from your website.",
+                "aliases": null,
+                "keywords": [
+                  "Delegate",
+                  "Nami Wallet",
+                  "JavaScript",
+                  "Marketing"
+                ],
+                "template": "GuideDetailPage",
+                "identities": [
+                  {
+                    "id": "alessandro-berry",
+                    "role": "author"
+                  },
+                  {
+                    "id": "sublayerio",
+                    "role": "author"
+                  }
+                ],
+                "icon": "❤️",
+                "filePath": "/en/guides/setup-a-nami-delegate-button-on-your-website.md"
+              },
+              {
                 "id": "guides",
                 "language": "en",
                 "slug": "/guides",
@@ -1137,7 +1166,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/sublayerio.png",
-                "updatedAt": "2021-06-25T18:07:19.000Z",
+                "updatedAt": "2021-07-13T13:35:37.000Z",
                 "filePath": "/en/identities/sublayerio.md"
               },
               {
@@ -6828,18 +6857,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-13T12:36:45.837Z",
-            "component-cached-in": "1.03 ms",
-            "component-resolved-in": "1.03 ms"
+            "component-cached-at": "2021-07-13T15:21:06.460Z",
+            "component-cached-in": "351 μs",
+            "component-resolved-in": "351 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:45.837Z",
-          "_cachedIn": "1.19 ms",
-          "_resolvedIn": "1.19 ms",
+          "_cachedAt": "2021-07-13T15:21:06.460Z",
+          "_cachedIn": "437 μs",
+          "_resolvedIn": "437 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6850,17 +6879,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-13T12:36:45.837Z",
-            "component-cached-in": "1.19 ms",
-            "component-resolved-in": "1.19 ms"
+            "component-cached-at": "2021-07-13T15:21:06.460Z",
+            "component-cached-in": "437 μs",
+            "component-resolved-in": "437 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-13T12:36:45.837Z",
-              "_cachedIn": "147 μs",
-              "_resolvedIn": "147 μs",
+              "_cachedAt": "2021-07-13T15:21:06.460Z",
+              "_cachedIn": "92 μs",
+              "_resolvedIn": "92 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6904,9 +6933,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-13T12:36:45.837Z",
-                "component-cached-in": "147 μs",
-                "component-resolved-in": "147 μs"
+                "component-cached-at": "2021-07-13T15:21:06.460Z",
+                "component-cached-in": "92 μs",
+                "component-resolved-in": "92 μs"
               },
               "components": {}
             }
@@ -6915,9 +6944,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:45.837Z",
-          "_cachedIn": "723 μs",
-          "_resolvedIn": "723 μs",
+          "_cachedAt": "2021-07-13T15:21:06.460Z",
+          "_cachedIn": "224 μs",
+          "_resolvedIn": "224 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -6926,9 +6955,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-13T12:36:45.837Z",
-            "component-cached-in": "723 μs",
-            "component-resolved-in": "723 μs"
+            "component-cached-at": "2021-07-13T15:21:06.460Z",
+            "component-cached-in": "224 μs",
+            "component-resolved-in": "224 μs"
           },
           "components": {}
         }
@@ -6937,9 +6966,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:45.837Z",
-      "_cachedIn": "1.09 ms",
-      "_resolvedIn": "1.09 ms",
+      "_cachedAt": "2021-07-13T15:21:06.460Z",
+      "_cachedIn": "412 μs",
+      "_resolvedIn": "412 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -6967,18 +6996,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-13T12:36:45.837Z",
-        "component-cached-in": "1.09 ms",
-        "component-resolved-in": "1.09 ms"
+        "component-cached-at": "2021-07-13T15:21:06.460Z",
+        "component-cached-in": "412 μs",
+        "component-resolved-in": "412 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:45.836Z",
-      "_cachedIn": "472 μs",
-      "_resolvedIn": "472 μs",
+      "_cachedAt": "2021-07-13T15:21:06.460Z",
+      "_cachedIn": "254 μs",
+      "_resolvedIn": "254 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -6990,18 +7019,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-13T12:36:45.836Z",
-        "component-cached-in": "472 μs",
-        "component-resolved-in": "472 μs"
+        "component-cached-at": "2021-07-13T15:21:06.460Z",
+        "component-cached-in": "254 μs",
+        "component-resolved-in": "254 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:45.837Z",
-      "_cachedIn": "1.09 ms",
-      "_resolvedIn": "1.09 ms",
+      "_cachedAt": "2021-07-13T15:21:06.460Z",
+      "_cachedIn": "414 μs",
+      "_resolvedIn": "414 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7020,9 +7049,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-13T12:36:45.837Z",
-        "component-cached-in": "1.09 ms",
-        "component-resolved-in": "1.09 ms"
+        "component-cached-at": "2021-07-13T15:21:06.460Z",
+        "component-cached-in": "414 μs",
+        "component-resolved-in": "414 μs"
       },
       "components": {}
     }
