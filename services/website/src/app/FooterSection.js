@@ -78,12 +78,12 @@ export default function Footer() {
                             </a>
                         ))} */}
                     </div>
-                    <p className="mt-8 flex items-center text-base text-gray-400 md:mt-0 md:order-1">
+                    <p className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-2 items-center text-base text-gray-400 md:mt-0 md:order-1">
                         <div>
                             {moment().format('YYYY')} {schema.about.name}
                         </div>
                         <Link href={'/sitemap'}>
-                            <a className="ml-2 text-xs text-gray-600 font-bold px-2 py-1 rounded-md bg-gray-50 hover:bg-gray-100">{pages.length} pages generated {lowerFirst(moment(schema.createdAt).calendar())}</a>
+                            <a className="text-xs text-gray-600 font-bold px-2 py-1 rounded-md bg-gray-50 hover:bg-gray-100">{pages.length} pages generated {lowerFirst(moment(schema.createdAt).calendar())}</a>
                         </Link>
                     </p>
                 </div>

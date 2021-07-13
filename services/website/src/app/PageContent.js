@@ -36,7 +36,7 @@ export default function PageContent({ mdxSource, externalLink, pageType, donatio
                 </div>
             ) : null}
             {donationAddress ? (
-                <div className="p-6 rounded-lg bg-white flex flex-col sm:flex-row shadow-sm">
+                <div className="mt-8 p-6 rounded-lg bg-white flex flex-col sm:flex-row shadow-sm">
                     <div className="mr-4 flex-grow">
                         <div className="text-lg font-bold">Support our work</div>
                         <div className="text-gray-400 text-sm">Donate ADA to this address to support <strong>{donationName}</strong> directly.</div>

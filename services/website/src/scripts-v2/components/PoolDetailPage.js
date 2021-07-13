@@ -9,6 +9,7 @@ module.exports = {
     getPages: async (ctx, { component }) => getPagesForTemplate(component.id),
     transformPage: async (ctx, page) => {
 
+        const data = await getDataForPage(props.filePath)
         const pool = ctx.tables.get('pools').find(pool => pool.id === page.id)
 
         return {
@@ -16,6 +17,7 @@ module.exports = {
             title: `${pool.name} (${pool.ticker})`,
             image: pool.image,
             description: pool.description,
+            verified: data.verified
         }
     },
     resolve: (ctx, props) => {

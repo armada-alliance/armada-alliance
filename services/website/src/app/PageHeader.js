@@ -68,7 +68,7 @@ export default function PageHeader({ title, image, verified, pageType, identitie
                     </div>
                 </div>
             ) : null}
-            {identities ? (
+            {identities && identities.length ? (
                 <div className="py-6 flex justify-center">
                     <Identities identities={identities} />
                 </div>

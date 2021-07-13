@@ -7,7 +7,7 @@ module.exports = {
         return {
             ...props,
             editOnGitHubLink: {
-                href: `https://github.com/armada-alliance/armada-alliance/tree/staging/services/website/content/${props.filePath}`
+                href: `https://github.com/armada-alliance/armada-alliance/tree/main/services/website/content/${props.filePath}`
             }
         }
     }

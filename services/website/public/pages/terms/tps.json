@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"tps\",\"language\":\"en\",\"slug\":\"/terms/tps\",\"url\":\"https:///website.codespace1.sublayer.io/terms/tps\",\"origin\":\"/terms/tps\",\"title\":\"TPS\",\"description\":\"Transaction per second\",\"aliases\":[\"tps\",\"transactions per second\"],\"keywords\":[\"t\",\"p\",\"s\",\"transactions\",\"per\",\"second\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/tps.md\",\"body\":\"\",\"mdxSource\":{\"compiledSource\":\"var M=Object.defineProperty,X=Object.defineProperties;var c=Object.getOwnPropertyDescriptors;var u=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,a=Object.prototype.propertyIsEnumerable;var s=(o,t,n)=>t in o?M(o,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):o[t]=n,p=(o,t)=>{for(var n in t||(t={}))r.call(t,n)&&s(o,n,t[n]);if(u)for(var n of u(t))a.call(t,n)&&s(o,n,t[n]);return o},y=(o,t)=>X(o,c(t));var D=(o,t)=>{var n={};for(var e in o)r.call(o,e)&&t.indexOf(e)<0&&(n[e]=o[e]);if(o!=null&&u)for(var e of u(o))t.indexOf(e)<0&&a.call(o,e)&&(n[e]=o[e]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var e=n,{components:o}=e,t=D(e,[\\\"components\\\"]);return mdx(MDXLayout,y(p(p({},layoutProps),t),{components:o,mdxType:\\\"MDXLayout\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-12T10:55:26.768Z",
-  "_cachedIn": "1.68 ms",
-  "_resolvedIn": "1.68 ms",
+  "_cachedAt": "2021-07-13T08:58:36.330Z",
+  "_cachedIn": "1.03 ms",
+  "_resolvedIn": "1.03 ms",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -47,17 +47,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-12T10:55:26.768Z",
-    "component-cached-in": "1.68 ms",
-    "component-resolved-in": "1.68 ms"
+    "component-cached-at": "2021-07-13T08:58:36.330Z",
+    "component-cached-in": "1.03 ms",
+    "component-resolved-in": "1.03 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-12T10:55:26.768Z",
-      "_cachedIn": "1.25 ms",
-      "_resolvedIn": "1.25 ms",
+      "_cachedAt": "2021-07-13T08:58:36.330Z",
+      "_cachedIn": "811 μs",
+      "_resolvedIn": "811 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -66,25 +66,26 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-12T10:55:26.768Z",
-        "component-cached-in": "1.25 ms",
-        "component-resolved-in": "1.25 ms"
+        "component-cached-at": "2021-07-13T08:58:36.330Z",
+        "component-cached-in": "811 μs",
+        "component-resolved-in": "811 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-12T10:55:26.768Z",
-          "_cachedIn": "711 μs",
-          "_resolvedIn": "711 μs",
+          "_cachedAt": "2021-07-13T08:58:36.329Z",
+          "_cachedIn": "494 μs",
+          "_resolvedIn": "494 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
           "error": null,
           "props": {
             "schema": {
-              "createdAt": "2021-07-10T21:18:32.131Z",
+              "createdAt": "2021-07-13T08:58:23.262Z",
               "about": {
+                "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
                 "github": "https://github.com/armada-alliance/armada-alliance",
                 "telegram": "https://t.me/armada_alli",
@@ -702,6 +703,19 @@
                 "filePath": "/en/index.md"
               },
               {
+                "id": "home",
+                "language": "es",
+                "slug": "/es/home",
+                "url": "https:///website.codespace1.sublayer.io/es/home",
+                "origin": "/es/home",
+                "title": "Homepage",
+                "aliases": null,
+                "keywords": null,
+                "template": "HomePage",
+                "updatedAt": "2021-07-13T06:16:11.000Z",
+                "filePath": "/es/home.md"
+              },
+              {
                 "id": "identities",
                 "language": "en",
                 "slug": "/identities",
@@ -721,6 +735,7 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/Chris_Rain",
                 "origin": "/identities/Chris_Rain",
                 "title": "Chris Rain",
+                "description": "SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
@@ -735,6 +750,7 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/Sporke",
                 "origin": "/identities/Sporke",
                 "title": "Geoff",
+                "description": "SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
@@ -749,6 +765,7 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/alessandro-berry",
                 "origin": "/identities/alessandro-berry",
                 "title": "Alessandro",
+                "description": "Spacebudz Founder, SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
@@ -763,6 +780,7 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/alex-qxt",
                 "origin": "/identities/alex-qxt",
                 "title": "Alex (Quixote Pool)",
+                "description": "SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
@@ -777,6 +795,7 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/chadi",
                 "origin": "/identities/chadi",
                 "title": "Chadi Nassar",
+                "description": "Chadi Nassar is a generative artist, who makes use of trained artificial intelligence to produce his work. His work in ‘Faces 1’ reflects emotions in a raw and reflection-inducing manner. Chadi Nassar believes in the power of emotions and that is evident through the emotions that one begins to interact with his work. Art to him is the bringing out of an emotional response to a sense; it could be visual, auditory, or really any other sense that the audience chooses to engage with the work.",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
@@ -791,6 +810,7 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/daniel-recuenco",
                 "origin": "/identities/daniel-recuenco",
                 "title": "Daniel Recuenco",
+                "description": "Community Member and Software Developer",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
@@ -805,6 +825,7 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/jackson-wiebe",
                 "origin": "/identities/jackson-wiebe",
                 "title": "Jackson Wiebe",
+                "description": "SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
@@ -813,12 +834,28 @@
                 "filePath": "/en/identities/jackson-wiebe.md"
               },
               {
+                "id": "jennycita",
+                "language": "en",
+                "slug": "/identities/jennycita",
+                "url": "https:///website.codespace1.sublayer.io/identities/jennycita",
+                "origin": "/identities/jennycita",
+                "title": "Jenny",
+                "description": "BERRY hodler and moderator of crazy pirates!",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "/jennycita.jpg",
+                "updatedAt": "2021-07-13T06:20:18.000Z",
+                "filePath": "/en/identities/jennycita.md"
+              },
+              {
                 "id": "julien-terrier",
                 "language": "en",
                 "slug": "/identities/julien-terrier",
                 "url": "https:///website.codespace1.sublayer.io/identities/julien-terrier",
                 "origin": "/identities/julien-terrier",
                 "title": "Julien Terrier",
+                "description": "SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
@@ -833,6 +870,7 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/karnagge",
                 "origin": "/identities/karnagge",
                 "title": "karnagge",
+                "description": "SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
@@ -847,6 +885,7 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/ken-adams",
                 "origin": "/identities/ken-adams",
                 "title": "Ken Adams",
+                "description": "YouTube content creator",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
@@ -861,6 +900,7 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/krista-611",
                 "origin": "/identities/krista-611",
                 "title": "Krista",
+                "description": "SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
@@ -875,11 +915,12 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/marshall-chow",
                 "origin": "/identities/marshall-chow",
                 "title": "Marshall",
+                "description": "Marshall is an NFT artist that utilizes Computational Fluid Dynamics (CFD) as the medium to create his works. Fundamentally, he uses the physics of fluid flow, along with flow visualization techniques to create art. His work is the perfect marriage between the fixed laws of physics and the constantly evolving imaginative mind. He likes to inject fun into his works as well, evident in his 'How-Aerodynamic-is-My...' project, where he makes customized works for people.",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/marshall-chow.jpg",
-                "updatedAt": "2021-06-26T21:41:09.000Z",
+                "updatedAt": "2021-07-13T03:25:14.000Z",
                 "filePath": "/en/identities/marshall-chow.md"
               },
               {
@@ -889,6 +930,7 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/matt-solrp",
                 "origin": "/identities/matt-solrp",
                 "title": "Matt",
+                "description": "SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
@@ -903,6 +945,7 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/mini1pool",
                 "origin": "/identities/mini1pool",
                 "title": "Julien",
+                "description": "SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
@@ -917,6 +960,7 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/pascal-berry",
                 "origin": "/identities/pascal-berry",
                 "title": "Pascal Lapointe",
+                "description": "SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
@@ -931,6 +975,7 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/paul-oyster",
                 "origin": "/identities/paul-oyster",
                 "title": "Paul",
+                "description": "SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
@@ -945,6 +990,7 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/pgwad",
                 "origin": "/identities/pgwad",
                 "title": "Wadi",
+                "description": "SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
@@ -959,6 +1005,7 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/planetpalz",
                 "origin": "/identities/planetpalz",
                 "title": "Planetpalz",
+                "description": "CNFT",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
@@ -973,6 +1020,7 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/raine-bhmt",
                 "origin": "/identities/raine-bhmt",
                 "title": "Raine Toivonen",
+                "description": "SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
@@ -987,6 +1035,7 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/saad",
                 "origin": "/identities/saad",
                 "title": "Saad",
+                "description": "SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
@@ -1001,6 +1050,7 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/sayshar-srn",
                 "origin": "/identities/sayshar-srn",
                 "title": "Sayshar",
+                "description": "SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
@@ -1015,6 +1065,7 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/sbc-mining",
                 "origin": "/identities/sbc-mining",
                 "title": "SBC-Mining",
+                "description": "SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
@@ -1029,6 +1080,7 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/spacebudz",
                 "origin": "/identities/spacebudz",
                 "title": "Spacebudz",
+                "description": "Collect your unique SpaceBud as NFT on the Cardano blockchain.",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
@@ -1043,6 +1095,7 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/stale",
                 "origin": "/identities/stale",
                 "title": "Stale",
+                "description": "CNFT Creator, SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
@@ -1057,6 +1110,7 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/sublayerio",
                 "origin": "/identities/sublayerio",
                 "title": "sublayerio🧙‍♂️",
+                "description": "🧙‍♂️ Open Sourcerer, SPO, Co-Founder",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
@@ -1071,6 +1125,7 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/sudti",
                 "origin": "/identities/sudti",
                 "title": "Markus",
+                "description": "SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
@@ -1085,6 +1140,7 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/thyes_MB",
                 "origin": "/identities/thyes_MB",
                 "title": "THYES",
+                "description": "SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
@@ -1099,6 +1155,7 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/tony-piada",
                 "origin": "/identities/tony-piada",
                 "title": "Tony Burger 🚵‍♀️",
+                "description": "SPO, Co-Founder",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
@@ -1113,6 +1170,7 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/wael-ivie",
                 "origin": "/identities/wael-ivie",
                 "title": "Wael Ivie 🐋",
+                "description": "Founder, SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
@@ -1127,6 +1185,7 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/wcat-otg",
                 "origin": "/identities/wcat-otg",
                 "title": "WCat(Wayne)",
+                "description": "SPO, Co-Founder",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
@@ -1141,6 +1200,7 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/wintifrosh",
                 "origin": "/identities/wintifrosh",
                 "title": "wintifrosch 🐸",
+                "description": "Community Member and Software Developer",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
@@ -1155,6 +1215,7 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/zenent",
                 "origin": "/identities/zenent",
                 "title": "Zenen",
+                "description": "SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
@@ -1169,11 +1230,12 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/zino-hoffman",
                 "origin": "/identities/zino-hoffman",
                 "title": "Zino Hoffman",
+                "description": "SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-12T10:20:35.000Z",
+                "updatedAt": "2021-07-13T01:16:58.000Z",
                 "filePath": "/en/identities/zino-hoffman.md"
               },
               {
@@ -1552,6 +1614,27 @@
                 "filePath": "/en/stake-pools/97aaa4621cffb87c3e8380376406cc9501d6c9e1cbb459e17cd60602.md"
               },
               {
+                "id": "9e8009b249142d80144dfb681984e08d96d51c2085e8bb6d9d1831d2",
+                "language": "en",
+                "slug": "/stake-pools/9e8009b249142d80144dfb681984e08d96d51c2085e8bb6d9d1831d2",
+                "url": "https:///website.codespace1.sublayer.io/stake-pools/9e8009b249142d80144dfb681984e08d96d51c2085e8bb6d9d1831d2",
+                "origin": "/stake-pools/9e8009b249142d80144dfb681984e08d96d51c2085e8bb6d9d1831d2",
+                "title": "Docker, Plutus, Research and Charity (ASTOR)",
+                "description": "A container first approach to Cardano. ASTOR is non-profit. We donate 100% of the pool's margin to charity and pay monthly dividends to loyal delegators. With love by IT professionals from Bavaria.",
+                "aliases": null,
+                "keywords": null,
+                "template": "PoolDetailPage",
+                "identities": [
+                  {
+                    "id": "Thomas Diesler",
+                    "role": "spo"
+                  }
+                ],
+                "image": "https://static.adapools.org/pool_logo/9e8009b249142d80144dfb681984e08d96d51c2085e8bb6d9d1831d2.png",
+                "updatedAt": "2021-07-13T05:58:26.000Z",
+                "filePath": "/en/stake-pools/9e8009b249142d80144dfb681984e08d96d51c2085e8bb6d9d1831d2.md"
+              },
+              {
                 "id": "a343a6e2eb4bb7f8abf039b82e579131b56966d88d9937e679365269",
                 "language": "en",
                 "slug": "/stake-pools/a343a6e2eb4bb7f8abf039b82e579131b56966d88d9937e679365269",
@@ -1569,7 +1652,7 @@
                   }
                 ],
                 "image": "https://cryptopool.dev/brand/logo-1024x1024.png",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-13T01:16:58.000Z",
                 "filePath": "/en/stake-pools/a343a6e2eb4bb7f8abf039b82e579131b56966d88d9937e679365269.md"
               },
               {
@@ -6410,6 +6493,93 @@
                 "filePath": "/es/terms/daedalus.md"
               },
               {
+                "id": "utxo",
+                "language": "es",
+                "slug": "/es/terms/utxo",
+                "url": "https:///website.codespace1.sublayer.io/es/terms/utxo",
+                "origin": "/es/terms/utxo",
+                "title": "UTXO",
+                "description": "UTXO (Unspent Transaction Output) significa \"Salida de transacción no gastada\". En las criptomonedas, un UTXO es una abstracción de dinero electrónico. Cada UTXO es análogo a una moneda y tiene una cierta cantidad de valor en su respectiva moneda.",
+                "aliases": [
+                  "utxo",
+                  "utxo model",
+                  "cardano utxo model"
+                ],
+                "keywords": [
+                  "utxo",
+                  "cardano"
+                ],
+                "template": "TermDetailPage",
+                "identities": [
+                  {
+                    "id": "Alex (Quixote Pool)",
+                    "role": "author"
+                  }
+                ],
+                "updatedAt": "2021-07-12T16:31:58.000Z",
+                "filePath": "/es/terms/utxo.md"
+              },
+              {
+                "id": "voltaire",
+                "language": "es",
+                "slug": "/es/terms/voltaire",
+                "url": "https:///website.codespace1.sublayer.io/es/terms/voltaire",
+                "origin": "/es/terms/voltaire",
+                "title": "Voltaire",
+                "description": "La quinta y última fase o Era del desarrollo de Cardano, en la cual el Tesoro y la Gobernanza serán entregadas totalmente a la Comunidad para su gestión y toma de decisiones.",
+                "aliases": [
+                  "voltaire",
+                  "cardano"
+                ],
+                "keywords": [
+                  "voltaire",
+                  "cardano"
+                ],
+                "template": "TermDetailPage",
+                "identities": [
+                  {
+                    "id": "Alex (Quixote Pool)",
+                    "role": "author"
+                  }
+                ],
+                "updatedAt": "2021-07-12T16:11:53.000Z",
+                "filePath": "/es/terms/voltaire.md"
+              },
+              {
+                "id": "whale",
+                "language": "es",
+                "slug": "/es/terms/whale",
+                "url": "https:///website.codespace1.sublayer.io/es/terms/whale",
+                "origin": "/es/terms/whale",
+                "title": "Whale 🐋",
+                "description": "Una ballena (whale) se define como una persona u organización que es propietaria de una cantidad muy grande de una criptomoneda determinada.",
+                "aliases": [
+                  "whale",
+                  "crypto whale",
+                  "wale",
+                  "wael",
+                  "michael saylor",
+                  "ballena"
+                ],
+                "keywords": [
+                  "whale",
+                  "crypto",
+                  "billionare",
+                  "investor",
+                  "ballena",
+                  "inversor"
+                ],
+                "template": "TermDetailPage",
+                "identities": [
+                  {
+                    "id": "Alex (Quixote Pool)",
+                    "role": "author"
+                  }
+                ],
+                "updatedAt": "2021-07-12T15:55:08.000Z",
+                "filePath": "/es/terms/whale.md"
+              },
+              {
                 "id": "yoroi",
                 "language": "es",
                 "slug": "/es/terms/yoroi",
@@ -6636,18 +6806,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-12T10:55:26.768Z",
-            "component-cached-in": "711 μs",
-            "component-resolved-in": "711 μs"
+            "component-cached-at": "2021-07-13T08:58:36.329Z",
+            "component-cached-in": "494 μs",
+            "component-resolved-in": "494 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-12T10:55:26.768Z",
-          "_cachedIn": "926 μs",
-          "_resolvedIn": "926 μs",
+          "_cachedAt": "2021-07-13T08:58:36.329Z",
+          "_cachedIn": "650 μs",
+          "_resolvedIn": "650 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6658,17 +6828,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-12T10:55:26.768Z",
-            "component-cached-in": "926 μs",
-            "component-resolved-in": "926 μs"
+            "component-cached-at": "2021-07-13T08:58:36.329Z",
+            "component-cached-in": "650 μs",
+            "component-resolved-in": "650 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-12T10:55:26.768Z",
-              "_cachedIn": "199 μs",
-              "_resolvedIn": "199 μs",
+              "_cachedAt": "2021-07-13T08:58:36.329Z",
+              "_cachedIn": "162 μs",
+              "_resolvedIn": "162 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6712,9 +6882,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-12T10:55:26.768Z",
-                "component-cached-in": "199 μs",
-                "component-resolved-in": "199 μs"
+                "component-cached-at": "2021-07-13T08:58:36.329Z",
+                "component-cached-in": "162 μs",
+                "component-resolved-in": "162 μs"
               },
               "components": {}
             }
@@ -6723,9 +6893,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-12T10:55:26.768Z",
-          "_cachedIn": "397 μs",
-          "_resolvedIn": "397 μs",
+          "_cachedAt": "2021-07-13T08:58:36.329Z",
+          "_cachedIn": "311 μs",
+          "_resolvedIn": "311 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -6734,9 +6904,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-12T10:55:26.768Z",
-            "component-cached-in": "397 μs",
-            "component-resolved-in": "397 μs"
+            "component-cached-at": "2021-07-13T08:58:36.329Z",
+            "component-cached-in": "311 μs",
+            "component-resolved-in": "311 μs"
           },
           "components": {}
         }
@@ -6745,9 +6915,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-12T10:55:26.768Z",
-      "_cachedIn": "810 μs",
-      "_resolvedIn": "810 μs",
+      "_cachedAt": "2021-07-13T08:58:36.329Z",
+      "_cachedIn": "544 μs",
+      "_resolvedIn": "544 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -6759,6 +6929,7 @@
           {
             "id": "wael-ivie",
             "name": "Wael Ivie 🐋",
+            "description": "Founder, SPO",
             "image": "/wael.jpg",
             "link": {
               "name": "Wael Ivie 🐋",
@@ -6774,18 +6945,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-12T10:55:26.768Z",
-        "component-cached-in": "810 μs",
-        "component-resolved-in": "810 μs"
+        "component-cached-at": "2021-07-13T08:58:36.329Z",
+        "component-cached-in": "544 μs",
+        "component-resolved-in": "544 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-12T10:55:26.768Z",
-      "_cachedIn": "434 μs",
-      "_resolvedIn": "434 μs",
+      "_cachedAt": "2021-07-13T08:58:36.329Z",
+      "_cachedIn": "285 μs",
+      "_resolvedIn": "285 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -6797,18 +6968,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-12T10:55:26.768Z",
-        "component-cached-in": "434 μs",
-        "component-resolved-in": "434 μs"
+        "component-cached-at": "2021-07-13T08:58:36.329Z",
+        "component-cached-in": "285 μs",
+        "component-resolved-in": "285 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-12T10:55:26.768Z",
-      "_cachedIn": "811 μs",
-      "_resolvedIn": "811 μs",
+      "_cachedAt": "2021-07-13T08:58:36.329Z",
+      "_cachedIn": "544 μs",
+      "_resolvedIn": "544 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -6821,15 +6992,15 @@
         "filePath": "/en/terms/tps.md",
         "updatedAt": "2021-07-10T20:43:29.000Z",
         "editOnGitHubLink": {
-          "href": "https://github.com/armada-alliance/armada-alliance/tree/staging/services/website/content//en/terms/tps.md"
+          "href": "https://github.com/armada-alliance/armada-alliance/tree/main/services/website/content//en/terms/tps.md"
         }
       },
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-12T10:55:26.768Z",
-        "component-cached-in": "811 μs",
-        "component-resolved-in": "811 μs"
+        "component-cached-at": "2021-07-13T08:58:36.329Z",
+        "component-cached-in": "544 μs",
+        "component-resolved-in": "544 μs"
       },
       "components": {}
     }
