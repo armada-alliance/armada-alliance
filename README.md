@@ -18,7 +18,7 @@ https://armada-alliance.com
 
 #### Here is an example of an identity md file.
 
-`b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65.md`
+`wael-ivie.md`
 
 ```md
 ---
