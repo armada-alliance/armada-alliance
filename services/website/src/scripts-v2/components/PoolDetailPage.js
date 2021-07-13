@@ -14,7 +14,7 @@ module.exports = {
         const pool = ctx.tables.get('pools').find(pool => pool.id === props.id)
 
         return {
-            ...page,
+            ...props,
             title: `${pool.name} (${pool.ticker})`,
             image: pool.image,
             description: pool.description,
