@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"smart-contract\",\"language\":\"en\",\"slug\":\"/terms/smart-contract\",\"url\":\"https:///website.codespace1.sublayer.io/terms/smart-contract\",\"origin\":\"/terms/smart-contract\",\"title\":\"Smart contract\",\"description\":\"An automated agreement, written in code, that tracks, verifies, and executes the binding transactions of a contract between various parties.\",\"aliases\":[\"cardano smart contracts\",\"cardano smart contracts\",\"cardano alonzo hard fork smart contracts\",\"cardano smart contract release​\",\"cardano smart contract release date​\",\"cardano smart contracts launch​\",\"cardano ada smart contracts​\",\"cardano smart contract launch date​\",\"cardano roadmap​\",\"when will cardano get smart contracts​\",\"when are smart contracts coming to cardano​\"],\"keywords\":[\"cardano\",\"smart\",\"contracts\",\"contract\",\"alonzo\",\"hard\",\"fork\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/smart-contract.md\",\"body\":\"The transactions of the contract are automatically executed by the smart contract code when predetermined conditions are met. Smart contracts are self executing and reliable and do not require the actions or presence of third parties. The smart contract code is stored on, and distributed across, a decentralized blockchain network, making it transparent and irreversible.\",\"mdxSource\":{\"compiledSource\":\"var u=Object.defineProperty,m=Object.defineProperties;var l=Object.getOwnPropertyDescriptors;var a=Object.getOwnPropertySymbols;var c=Object.prototype.hasOwnProperty,i=Object.prototype.propertyIsEnumerable;var s=(t,e,n)=>e in t?u(t,e,{enumerable:!0,configurable:!0,writable:!0,value:n}):t[e]=n,o=(t,e)=>{for(var n in e||(e={}))c.call(e,n)&&s(t,n,e[n]);if(a)for(var n of a(e))i.call(e,n)&&s(t,n,e[n]);return t},d=(t,e)=>m(t,l(e));var p=(t,e)=>{var n={};for(var r in t)c.call(t,r)&&e.indexOf(r)<0&&(n[r]=t[r]);if(t!=null&&a)for(var r of a(t))e.indexOf(r)<0&&i.call(t,r)&&(n[r]=t[r]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var r=n,{components:t}=r,e=p(r,[\\\"components\\\"]);return mdx(MDXLayout,d(o(o({},layoutProps),e),{components:t,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"The transactions of the contract are automatically executed by the smart contract code when predetermined conditions are met. Smart contracts are self executing and reliable and do not require the actions or presence of third parties. The smart contract code is stored on, and distributed across, a decentralized blockchain network, making it transparent and irreversible.\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-13T09:13:30.851Z",
-  "_cachedIn": "898 μs",
-  "_resolvedIn": "898 μs",
+  "_cachedAt": "2021-07-13T12:36:46.994Z",
+  "_cachedIn": "618 μs",
+  "_resolvedIn": "618 μs",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -57,17 +57,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-13T09:13:30.851Z",
-    "component-cached-in": "898 μs",
-    "component-resolved-in": "898 μs"
+    "component-cached-at": "2021-07-13T12:36:46.994Z",
+    "component-cached-in": "618 μs",
+    "component-resolved-in": "618 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T09:13:30.850Z",
-      "_cachedIn": "659 μs",
-      "_resolvedIn": "659 μs",
+      "_cachedAt": "2021-07-13T12:36:46.994Z",
+      "_cachedIn": "494 μs",
+      "_resolvedIn": "494 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -76,24 +76,24 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-13T09:13:30.850Z",
-        "component-cached-in": "659 μs",
-        "component-resolved-in": "659 μs"
+        "component-cached-at": "2021-07-13T12:36:46.994Z",
+        "component-cached-in": "494 μs",
+        "component-resolved-in": "494 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T09:13:30.850Z",
-          "_cachedIn": "413 μs",
-          "_resolvedIn": "413 μs",
+          "_cachedAt": "2021-07-13T12:36:46.994Z",
+          "_cachedIn": "300 μs",
+          "_resolvedIn": "300 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
           "error": null,
           "props": {
             "schema": {
-              "createdAt": "2021-07-13T09:13:17.117Z",
+              "createdAt": "2021-07-13T12:36:35.016Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -426,6 +426,13 @@
                 "filePath": "/nl/blogs/wat-is-staken.md"
               },
               {
+                "language": "en",
+                "title": "Delegation widget",
+                "slug": "/delegation-widget",
+                "template": "DelegationWidgetPage",
+                "hidden": true
+              },
+              {
                 "id": "create-collection-of-non-fungible-tokens",
                 "language": "en",
                 "slug": "/guides/create-collection-of-non-fungible-tokens",
@@ -705,11 +712,11 @@
                 "slug": "/",
                 "url": "https:///website.codespace1.sublayer.io/",
                 "origin": "/",
-                "title": "Homepage",
+                "title": "Armada Alliance",
                 "aliases": null,
                 "keywords": null,
                 "template": "HomePage",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-13T09:02:19.000Z",
                 "filePath": "/en/index.md"
               },
               {
@@ -1234,19 +1241,19 @@
                 "filePath": "/en/identities/zenent.md"
               },
               {
-                "id": "zino-hoffman",
+                "id": "zino-hofmann",
                 "language": "en",
-                "slug": "/identities/zino-hoffman",
-                "url": "https:///website.codespace1.sublayer.io/identities/zino-hoffman",
-                "origin": "/identities/zino-hoffman",
-                "title": "Zino Hoffman",
+                "slug": "/identities/zino-hofmann",
+                "url": "https:///website.codespace1.sublayer.io/identities/zino-hofmann",
+                "origin": "/identities/zino-hofmann",
+                "title": "Zino Hofmann",
                 "description": "SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-13T01:16:58.000Z",
-                "filePath": "/en/identities/zino-hoffman.md"
+                "updatedAt": "2021-07-13T10:09:34.000Z",
+                "filePath": "/en/identities/zino-hofmann.md"
               },
               {
                 "id": "zw3rk",
@@ -1410,7 +1417,7 @@
                   }
                 ],
                 "image": "https://illustratorandweb.com/ext/Pool-00000-1000x1000.png",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-13T10:18:10.000Z",
                 "filePath": "/en/stake-pools/33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4.md"
               },
               {
@@ -1657,12 +1664,12 @@
                 "template": "PoolDetailPage",
                 "identities": [
                   {
-                    "id": "zino-hoffman",
+                    "id": "zino-hofmann",
                     "role": "spo"
                   }
                 ],
                 "image": "https://cryptopool.dev/brand/logo-1024x1024.png",
-                "updatedAt": "2021-07-13T01:16:58.000Z",
+                "updatedAt": "2021-07-13T10:09:34.000Z",
                 "filePath": "/en/stake-pools/a343a6e2eb4bb7f8abf039b82e579131b56966d88d9937e679365269.md"
               },
               {
@@ -6816,18 +6823,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-13T09:13:30.850Z",
-            "component-cached-in": "413 μs",
-            "component-resolved-in": "413 μs"
+            "component-cached-at": "2021-07-13T12:36:46.994Z",
+            "component-cached-in": "300 μs",
+            "component-resolved-in": "300 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T09:13:30.850Z",
-          "_cachedIn": "517 μs",
-          "_resolvedIn": "517 μs",
+          "_cachedAt": "2021-07-13T12:36:46.994Z",
+          "_cachedIn": "386 μs",
+          "_resolvedIn": "386 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6838,17 +6845,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-13T09:13:30.850Z",
-            "component-cached-in": "517 μs",
-            "component-resolved-in": "517 μs"
+            "component-cached-at": "2021-07-13T12:36:46.994Z",
+            "component-cached-in": "386 μs",
+            "component-resolved-in": "386 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-13T09:13:30.850Z",
-              "_cachedIn": "112 μs",
-              "_resolvedIn": "112 μs",
+              "_cachedAt": "2021-07-13T12:36:46.994Z",
+              "_cachedIn": "86 μs",
+              "_resolvedIn": "86 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6892,9 +6899,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-13T09:13:30.850Z",
-                "component-cached-in": "112 μs",
-                "component-resolved-in": "112 μs"
+                "component-cached-at": "2021-07-13T12:36:46.994Z",
+                "component-cached-in": "86 μs",
+                "component-resolved-in": "86 μs"
               },
               "components": {}
             }
@@ -6903,9 +6910,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T09:13:30.850Z",
-          "_cachedIn": "235 μs",
-          "_resolvedIn": "235 μs",
+          "_cachedAt": "2021-07-13T12:36:46.994Z",
+          "_cachedIn": "200 μs",
+          "_resolvedIn": "200 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -6914,9 +6921,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-13T09:13:30.850Z",
-            "component-cached-in": "235 μs",
-            "component-resolved-in": "235 μs"
+            "component-cached-at": "2021-07-13T12:36:46.994Z",
+            "component-cached-in": "200 μs",
+            "component-resolved-in": "200 μs"
           },
           "components": {}
         }
@@ -6925,9 +6932,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T09:13:30.850Z",
-      "_cachedIn": "429 μs",
-      "_resolvedIn": "429 μs",
+      "_cachedAt": "2021-07-13T12:36:46.994Z",
+      "_cachedIn": "326 μs",
+      "_resolvedIn": "326 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -6955,18 +6962,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-13T09:13:30.850Z",
-        "component-cached-in": "429 μs",
-        "component-resolved-in": "429 μs"
+        "component-cached-at": "2021-07-13T12:36:46.994Z",
+        "component-cached-in": "326 μs",
+        "component-resolved-in": "326 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T09:13:30.850Z",
-      "_cachedIn": "232 μs",
-      "_resolvedIn": "232 μs",
+      "_cachedAt": "2021-07-13T12:36:46.994Z",
+      "_cachedIn": "209 μs",
+      "_resolvedIn": "209 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -6978,18 +6985,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-13T09:13:30.850Z",
-        "component-cached-in": "232 μs",
-        "component-resolved-in": "232 μs"
+        "component-cached-at": "2021-07-13T12:36:46.994Z",
+        "component-cached-in": "209 μs",
+        "component-resolved-in": "209 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T09:13:30.850Z",
-      "_cachedIn": "430 μs",
-      "_resolvedIn": "430 μs",
+      "_cachedAt": "2021-07-13T12:36:46.994Z",
+      "_cachedIn": "326 μs",
+      "_resolvedIn": "326 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7008,9 +7015,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-13T09:13:30.850Z",
-        "component-cached-in": "430 μs",
-        "component-resolved-in": "430 μs"
+        "component-cached-at": "2021-07-13T12:36:46.994Z",
+        "component-cached-in": "326 μs",
+        "component-resolved-in": "326 μs"
       },
       "components": {}
     }

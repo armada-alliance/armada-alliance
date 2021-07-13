@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"altcoins\",\"language\":\"en\",\"slug\":\"/terms/altcoins\",\"url\":\"https:///website.codespace1.sublayer.io/terms/altcoins\",\"origin\":\"/terms/altcoins\",\"title\":\"Altcoins\",\"description\":\"Altcoin is an abbreviation of “Bitcoin alternative”.\",\"aliases\":[\"altcoins\",\"small caps\",\"bitcoin alternative\"],\"keywords\":[\"altcoins\",\"alt\",\"coins\",\"bitcoin\",\"alternative\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/altcoins.md\",\"body\":\"Currently, the majority of altcoins are forks of Bitcoin with usually minor changes to the [Proof-of-work](/terms/proof-of-work) (POW) algorithm of the Bitcoin blockchain.\",\"mdxSource\":{\"compiledSource\":\"var u=Object.defineProperty,h=Object.defineProperties;var m=Object.getOwnPropertyDescriptors;var e=Object.getOwnPropertySymbols;var i=Object.prototype.hasOwnProperty,p=Object.prototype.propertyIsEnumerable;var c=(o,t,r)=>t in o?u(o,t,{enumerable:!0,configurable:!0,writable:!0,value:r}):o[t]=r,a=(o,t)=>{for(var r in t||(t={}))i.call(t,r)&&c(o,r,t[r]);if(e)for(var r of e(t))p.call(t,r)&&c(o,r,t[r]);return o},f=(o,t)=>h(o,m(t));var s=(o,t)=>{var r={};for(var n in o)i.call(o,n)&&t.indexOf(n)<0&&(r[n]=o[n]);if(o!=null&&e)for(var n of e(o))t.indexOf(n)<0&&p.call(o,n)&&(r[n]=o[n]);return r};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(r){var n=r,{components:o}=n,t=s(n,[\\\"components\\\"]);return mdx(MDXLayout,f(a(a({},layoutProps),t),{components:o,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"Currently, the majority of altcoins are forks of Bitcoin with usually minor changes to the \\\",mdx(\\\"a\\\",a({parentName:\\\"p\\\"},{href:\\\"/terms/proof-of-work\\\"}),\\\"Proof-of-work\\\"),\\\" (POW) algorithm of the Bitcoin blockchain.\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-13T09:13:29.418Z",
-  "_cachedIn": "1.79 ms",
-  "_resolvedIn": "1.79 ms",
+  "_cachedAt": "2021-07-13T12:36:45.634Z",
+  "_cachedIn": "4.34 ms",
+  "_resolvedIn": "4.34 ms",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -47,17 +47,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-13T09:13:29.418Z",
-    "component-cached-in": "1.79 ms",
-    "component-resolved-in": "1.79 ms"
+    "component-cached-at": "2021-07-13T12:36:45.634Z",
+    "component-cached-in": "4.34 ms",
+    "component-resolved-in": "4.34 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T09:13:29.418Z",
-      "_cachedIn": "1.45 ms",
-      "_resolvedIn": "1.45 ms",
+      "_cachedAt": "2021-07-13T12:36:45.633Z",
+      "_cachedIn": "2.82 ms",
+      "_resolvedIn": "2.82 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -66,24 +66,24 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-13T09:13:29.418Z",
-        "component-cached-in": "1.45 ms",
-        "component-resolved-in": "1.45 ms"
+        "component-cached-at": "2021-07-13T12:36:45.633Z",
+        "component-cached-in": "2.82 ms",
+        "component-resolved-in": "2.82 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T09:13:29.418Z",
-          "_cachedIn": "899 μs",
-          "_resolvedIn": "899 μs",
+          "_cachedAt": "2021-07-13T12:36:45.633Z",
+          "_cachedIn": "1.4 ms",
+          "_resolvedIn": "1.4 ms",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
           "error": null,
           "props": {
             "schema": {
-              "createdAt": "2021-07-13T09:13:17.117Z",
+              "createdAt": "2021-07-13T12:36:35.016Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -416,6 +416,13 @@
                 "filePath": "/nl/blogs/wat-is-staken.md"
               },
               {
+                "language": "en",
+                "title": "Delegation widget",
+                "slug": "/delegation-widget",
+                "template": "DelegationWidgetPage",
+                "hidden": true
+              },
+              {
                 "id": "create-collection-of-non-fungible-tokens",
                 "language": "en",
                 "slug": "/guides/create-collection-of-non-fungible-tokens",
@@ -695,11 +702,11 @@
                 "slug": "/",
                 "url": "https:///website.codespace1.sublayer.io/",
                 "origin": "/",
-                "title": "Homepage",
+                "title": "Armada Alliance",
                 "aliases": null,
                 "keywords": null,
                 "template": "HomePage",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-13T09:02:19.000Z",
                 "filePath": "/en/index.md"
               },
               {
@@ -1224,19 +1231,19 @@
                 "filePath": "/en/identities/zenent.md"
               },
               {
-                "id": "zino-hoffman",
+                "id": "zino-hofmann",
                 "language": "en",
-                "slug": "/identities/zino-hoffman",
-                "url": "https:///website.codespace1.sublayer.io/identities/zino-hoffman",
-                "origin": "/identities/zino-hoffman",
-                "title": "Zino Hoffman",
+                "slug": "/identities/zino-hofmann",
+                "url": "https:///website.codespace1.sublayer.io/identities/zino-hofmann",
+                "origin": "/identities/zino-hofmann",
+                "title": "Zino Hofmann",
                 "description": "SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-13T01:16:58.000Z",
-                "filePath": "/en/identities/zino-hoffman.md"
+                "updatedAt": "2021-07-13T10:09:34.000Z",
+                "filePath": "/en/identities/zino-hofmann.md"
               },
               {
                 "id": "zw3rk",
@@ -1400,7 +1407,7 @@
                   }
                 ],
                 "image": "https://illustratorandweb.com/ext/Pool-00000-1000x1000.png",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-13T10:18:10.000Z",
                 "filePath": "/en/stake-pools/33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4.md"
               },
               {
@@ -1647,12 +1654,12 @@
                 "template": "PoolDetailPage",
                 "identities": [
                   {
-                    "id": "zino-hoffman",
+                    "id": "zino-hofmann",
                     "role": "spo"
                   }
                 ],
                 "image": "https://cryptopool.dev/brand/logo-1024x1024.png",
-                "updatedAt": "2021-07-13T01:16:58.000Z",
+                "updatedAt": "2021-07-13T10:09:34.000Z",
                 "filePath": "/en/stake-pools/a343a6e2eb4bb7f8abf039b82e579131b56966d88d9937e679365269.md"
               },
               {
@@ -6806,18 +6813,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-13T09:13:29.418Z",
-            "component-cached-in": "899 μs",
-            "component-resolved-in": "899 μs"
+            "component-cached-at": "2021-07-13T12:36:45.633Z",
+            "component-cached-in": "1.4 ms",
+            "component-resolved-in": "1.4 ms"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T09:13:29.418Z",
-          "_cachedIn": "1.08 ms",
-          "_resolvedIn": "1.08 ms",
+          "_cachedAt": "2021-07-13T12:36:45.633Z",
+          "_cachedIn": "1.86 ms",
+          "_resolvedIn": "1.86 ms",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6828,17 +6835,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-13T09:13:29.418Z",
-            "component-cached-in": "1.08 ms",
-            "component-resolved-in": "1.08 ms"
+            "component-cached-at": "2021-07-13T12:36:45.633Z",
+            "component-cached-in": "1.86 ms",
+            "component-resolved-in": "1.86 ms"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-13T09:13:29.418Z",
-              "_cachedIn": "255 μs",
-              "_resolvedIn": "255 μs",
+              "_cachedAt": "2021-07-13T12:36:45.633Z",
+              "_cachedIn": "387 μs",
+              "_resolvedIn": "387 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6882,9 +6889,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-13T09:13:29.418Z",
-                "component-cached-in": "255 μs",
-                "component-resolved-in": "255 μs"
+                "component-cached-at": "2021-07-13T12:36:45.633Z",
+                "component-cached-in": "387 μs",
+                "component-resolved-in": "387 μs"
               },
               "components": {}
             }
@@ -6893,9 +6900,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T09:13:29.418Z",
-          "_cachedIn": "402 μs",
-          "_resolvedIn": "402 μs",
+          "_cachedAt": "2021-07-13T12:36:45.632Z",
+          "_cachedIn": "682 μs",
+          "_resolvedIn": "682 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -6904,9 +6911,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-13T09:13:29.418Z",
-            "component-cached-in": "402 μs",
-            "component-resolved-in": "402 μs"
+            "component-cached-at": "2021-07-13T12:36:45.632Z",
+            "component-cached-in": "682 μs",
+            "component-resolved-in": "682 μs"
           },
           "components": {}
         }
@@ -6915,9 +6922,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T09:13:29.418Z",
-      "_cachedIn": "1.03 ms",
-      "_resolvedIn": "1.03 ms",
+      "_cachedAt": "2021-07-13T12:36:45.632Z",
+      "_cachedIn": "1.81 ms",
+      "_resolvedIn": "1.81 ms",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -6945,18 +6952,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-13T09:13:29.418Z",
-        "component-cached-in": "1.03 ms",
-        "component-resolved-in": "1.03 ms"
+        "component-cached-at": "2021-07-13T12:36:45.632Z",
+        "component-cached-in": "1.81 ms",
+        "component-resolved-in": "1.81 ms"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T09:13:29.418Z",
-      "_cachedIn": "547 μs",
-      "_resolvedIn": "547 μs",
+      "_cachedAt": "2021-07-13T12:36:45.632Z",
+      "_cachedIn": "992 μs",
+      "_resolvedIn": "992 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -6968,18 +6975,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-13T09:13:29.418Z",
-        "component-cached-in": "547 μs",
-        "component-resolved-in": "547 μs"
+        "component-cached-at": "2021-07-13T12:36:45.632Z",
+        "component-cached-in": "992 μs",
+        "component-resolved-in": "992 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T09:13:29.418Z",
-      "_cachedIn": "1.03 ms",
-      "_resolvedIn": "1.03 ms",
+      "_cachedAt": "2021-07-13T12:36:45.632Z",
+      "_cachedIn": "1.81 ms",
+      "_resolvedIn": "1.81 ms",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -6998,9 +7005,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-13T09:13:29.418Z",
-        "component-cached-in": "1.03 ms",
-        "component-resolved-in": "1.03 ms"
+        "component-cached-at": "2021-07-13T12:36:45.632Z",
+        "component-cached-in": "1.81 ms",
+        "component-resolved-in": "1.81 ms"
       },
       "components": {}
     }

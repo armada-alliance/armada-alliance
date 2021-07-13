@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"IdentityDetailPage\",\"version\":1},\"props\":{\"id\":\"ken-adams\",\"language\":\"en\",\"slug\":\"/identities/ken-adams\",\"url\":\"https:///website.codespace1.sublayer.io/identities/ken-adams\",\"origin\":\"/identities/ken-adams\",\"title\":\"Ken Adams\",\"description\":\"YouTube content creator\",\"aliases\":null,\"keywords\":null,\"template\":\"IdentityDetailPage\",\"image\":\"/keww.jpg\",\"updatedAt\":\"2021-06-25T17:16:29.000Z\",\"filePath\":\"/en/identities/ken-adams.md\",\"website\":\"https://keww.io/\",\"donationAddress\":\"addr1q803rylypy4ewxp97u7sycffy2tmcaq2tmq5cfrl25t3u8ew9mg36wmcmr39ueas9qauuj2zar74gl5emkv39a9n734q3xeyr9\",\"body\":\"I am Ken Adams, from “KEWW – Ken Adams” YT Channel where I am fresh to the Blockchain Community and have been hiding in front of GUI for the past 21 years. I am using my life’s skills now to inspire, educate (both myself and others) and participate in the new decentralized CLI world. Member if this alliance to help promote and become an SPO!\",\"mdxSource\":{\"compiledSource\":\"var d=Object.defineProperty,l=Object.defineProperties;var c=Object.getOwnPropertyDescriptors;var a=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var m=(e,n,t)=>n in e?d(e,n,{enumerable:!0,configurable:!0,writable:!0,value:t}):e[n]=t,i=(e,n)=>{for(var t in n||(n={}))r.call(n,t)&&m(e,t,n[t]);if(a)for(var t of a(n))s.call(n,t)&&m(e,t,n[t]);return e},p=(e,n)=>l(e,c(n));var h=(e,n)=>{var t={};for(var o in e)r.call(e,o)&&n.indexOf(o)<0&&(t[o]=e[o]);if(e!=null&&a)for(var o of a(e))n.indexOf(o)<0&&s.call(e,o)&&(t[o]=e[o]);return t};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(t){var o=t,{components:e}=o,n=h(o,[\\\"components\\\"]);return mdx(MDXLayout,p(i(i({},layoutProps),n),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"I am Ken Adams, from \\\\u201CKEWW \\\\u2013 Ken Adams\\\\u201D YT Channel where I am fresh to the Blockchain Community and have been hiding in front of GUI for the past 21 years. I am using my life\\\\u2019s skills now to inspire, educate (both myself and others) and participate in the new decentralized CLI world. Member if this alliance to help promote and become an SPO!\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-13T09:13:28.666Z",
-  "_cachedIn": "6.21 ms",
-  "_resolvedIn": "6.21 ms",
+  "_cachedAt": "2021-07-13T12:36:44.676Z",
+  "_cachedIn": "12 ms",
+  "_resolvedIn": "12 ms",
   "id": "IdentityDetailPage",
   "type": "IdentityDetailPage",
   "status": "resolved",
@@ -45,17 +45,17 @@
   "attrs": {
     "component-type": "IdentityDetailPage",
     "component-id": "IdentityDetailPage",
-    "component-cached-at": "2021-07-13T09:13:28.666Z",
-    "component-cached-in": "6.21 ms",
-    "component-resolved-in": "6.21 ms"
+    "component-cached-at": "2021-07-13T12:36:44.676Z",
+    "component-cached-in": "12 ms",
+    "component-resolved-in": "12 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T09:13:28.666Z",
-      "_cachedIn": "5.11 ms",
-      "_resolvedIn": "5.11 ms",
+      "_cachedAt": "2021-07-13T12:36:44.675Z",
+      "_cachedIn": "11 ms",
+      "_resolvedIn": "11 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -64,24 +64,24 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-13T09:13:28.666Z",
-        "component-cached-in": "5.11 ms",
-        "component-resolved-in": "5.11 ms"
+        "component-cached-at": "2021-07-13T12:36:44.675Z",
+        "component-cached-in": "11 ms",
+        "component-resolved-in": "11 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T09:13:28.665Z",
-          "_cachedIn": "2.7 ms",
-          "_resolvedIn": "2.7 ms",
+          "_cachedAt": "2021-07-13T12:36:44.674Z",
+          "_cachedIn": "4.83 ms",
+          "_resolvedIn": "4.83 ms",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
           "error": null,
           "props": {
             "schema": {
-              "createdAt": "2021-07-13T09:13:17.117Z",
+              "createdAt": "2021-07-13T12:36:35.016Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -414,6 +414,13 @@
                 "filePath": "/nl/blogs/wat-is-staken.md"
               },
               {
+                "language": "en",
+                "title": "Delegation widget",
+                "slug": "/delegation-widget",
+                "template": "DelegationWidgetPage",
+                "hidden": true
+              },
+              {
                 "id": "create-collection-of-non-fungible-tokens",
                 "language": "en",
                 "slug": "/guides/create-collection-of-non-fungible-tokens",
@@ -693,11 +700,11 @@
                 "slug": "/",
                 "url": "https:///website.codespace1.sublayer.io/",
                 "origin": "/",
-                "title": "Homepage",
+                "title": "Armada Alliance",
                 "aliases": null,
                 "keywords": null,
                 "template": "HomePage",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-13T09:02:19.000Z",
                 "filePath": "/en/index.md"
               },
               {
@@ -1222,19 +1229,19 @@
                 "filePath": "/en/identities/zenent.md"
               },
               {
-                "id": "zino-hoffman",
+                "id": "zino-hofmann",
                 "language": "en",
-                "slug": "/identities/zino-hoffman",
-                "url": "https:///website.codespace1.sublayer.io/identities/zino-hoffman",
-                "origin": "/identities/zino-hoffman",
-                "title": "Zino Hoffman",
+                "slug": "/identities/zino-hofmann",
+                "url": "https:///website.codespace1.sublayer.io/identities/zino-hofmann",
+                "origin": "/identities/zino-hofmann",
+                "title": "Zino Hofmann",
                 "description": "SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-13T01:16:58.000Z",
-                "filePath": "/en/identities/zino-hoffman.md"
+                "updatedAt": "2021-07-13T10:09:34.000Z",
+                "filePath": "/en/identities/zino-hofmann.md"
               },
               {
                 "id": "zw3rk",
@@ -1398,7 +1405,7 @@
                   }
                 ],
                 "image": "https://illustratorandweb.com/ext/Pool-00000-1000x1000.png",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-13T10:18:10.000Z",
                 "filePath": "/en/stake-pools/33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4.md"
               },
               {
@@ -1645,12 +1652,12 @@
                 "template": "PoolDetailPage",
                 "identities": [
                   {
-                    "id": "zino-hoffman",
+                    "id": "zino-hofmann",
                     "role": "spo"
                   }
                 ],
                 "image": "https://cryptopool.dev/brand/logo-1024x1024.png",
-                "updatedAt": "2021-07-13T01:16:58.000Z",
+                "updatedAt": "2021-07-13T10:09:34.000Z",
                 "filePath": "/en/stake-pools/a343a6e2eb4bb7f8abf039b82e579131b56966d88d9937e679365269.md"
               },
               {
@@ -6804,18 +6811,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-13T09:13:28.665Z",
-            "component-cached-in": "2.7 ms",
-            "component-resolved-in": "2.7 ms"
+            "component-cached-at": "2021-07-13T12:36:44.674Z",
+            "component-cached-in": "4.83 ms",
+            "component-resolved-in": "4.83 ms"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T09:13:28.666Z",
-          "_cachedIn": "3.29 ms",
-          "_resolvedIn": "3.29 ms",
+          "_cachedAt": "2021-07-13T12:36:44.675Z",
+          "_cachedIn": "6.09 ms",
+          "_resolvedIn": "6.09 ms",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6826,17 +6833,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-13T09:13:28.666Z",
-            "component-cached-in": "3.29 ms",
-            "component-resolved-in": "3.29 ms"
+            "component-cached-at": "2021-07-13T12:36:44.675Z",
+            "component-cached-in": "6.09 ms",
+            "component-resolved-in": "6.09 ms"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-13T09:13:28.665Z",
-              "_cachedIn": "374 μs",
-              "_resolvedIn": "374 μs",
+              "_cachedAt": "2021-07-13T12:36:44.674Z",
+              "_cachedIn": "1.13 ms",
+              "_resolvedIn": "1.13 ms",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6880,9 +6887,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-13T09:13:28.665Z",
-                "component-cached-in": "374 μs",
-                "component-resolved-in": "374 μs"
+                "component-cached-at": "2021-07-13T12:36:44.674Z",
+                "component-cached-in": "1.13 ms",
+                "component-resolved-in": "1.13 ms"
               },
               "components": {}
             }
@@ -6891,9 +6898,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T09:13:28.664Z",
-          "_cachedIn": "1.68 ms",
-          "_resolvedIn": "1.68 ms",
+          "_cachedAt": "2021-07-13T12:36:44.670Z",
+          "_cachedIn": "1.59 ms",
+          "_resolvedIn": "1.59 ms",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -6902,9 +6909,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-13T09:13:28.664Z",
-            "component-cached-in": "1.68 ms",
-            "component-resolved-in": "1.68 ms"
+            "component-cached-at": "2021-07-13T12:36:44.670Z",
+            "component-cached-in": "1.59 ms",
+            "component-resolved-in": "1.59 ms"
           },
           "components": {}
         }
@@ -6913,9 +6920,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T09:13:28.665Z",
-      "_cachedIn": "3.87 ms",
-      "_resolvedIn": "3.87 ms",
+      "_cachedAt": "2021-07-13T12:36:44.671Z",
+      "_cachedIn": "6.4 ms",
+      "_resolvedIn": "6.4 ms",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -6929,18 +6936,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-13T09:13:28.665Z",
-        "component-cached-in": "3.87 ms",
-        "component-resolved-in": "3.87 ms"
+        "component-cached-at": "2021-07-13T12:36:44.671Z",
+        "component-cached-in": "6.4 ms",
+        "component-resolved-in": "6.4 ms"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T09:13:28.662Z",
-      "_cachedIn": "1.64 ms",
-      "_resolvedIn": "1.64 ms",
+      "_cachedAt": "2021-07-13T12:36:44.669Z",
+      "_cachedIn": "4.32 ms",
+      "_resolvedIn": "4.32 ms",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -6951,18 +6958,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-13T09:13:28.662Z",
-        "component-cached-in": "1.64 ms",
-        "component-resolved-in": "1.64 ms"
+        "component-cached-at": "2021-07-13T12:36:44.669Z",
+        "component-cached-in": "4.32 ms",
+        "component-resolved-in": "4.32 ms"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T09:13:28.665Z",
-      "_cachedIn": "3.88 ms",
-      "_resolvedIn": "3.88 ms",
+      "_cachedAt": "2021-07-13T12:36:44.671Z",
+      "_cachedIn": "6.41 ms",
+      "_resolvedIn": "6.41 ms",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -6983,18 +6990,18 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-13T09:13:28.665Z",
-        "component-cached-in": "3.88 ms",
-        "component-resolved-in": "3.88 ms"
+        "component-cached-at": "2021-07-13T12:36:44.671Z",
+        "component-cached-in": "6.41 ms",
+        "component-resolved-in": "6.41 ms"
       },
       "components": {}
     },
     "PostPagesSection": {
       "_cacheKey": "{\"component\":{\"type\":\"PostPagesSection\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T09:13:28.662Z",
-      "_cachedIn": "1.7 ms",
-      "_resolvedIn": "1.7 ms",
+      "_cachedAt": "2021-07-13T12:36:44.669Z",
+      "_cachedIn": "4.33 ms",
+      "_resolvedIn": "4.33 ms",
       "id": "PostPagesSection",
       "type": "PostPagesSection",
       "status": "resolved",
@@ -7005,9 +7012,9 @@
       "attrs": {
         "component-type": "PostPagesSection",
         "component-id": "PostPagesSection",
-        "component-cached-at": "2021-07-13T09:13:28.662Z",
-        "component-cached-in": "1.7 ms",
-        "component-resolved-in": "1.7 ms"
+        "component-cached-at": "2021-07-13T12:36:44.669Z",
+        "component-cached-in": "4.33 ms",
+        "component-resolved-in": "4.33 ms"
       },
       "components": {}
     }

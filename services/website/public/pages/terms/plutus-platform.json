@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"plutus-platform\",\"language\":\"en\",\"slug\":\"/terms/plutus-platform\",\"url\":\"https:///website.codespace1.sublayer.io/terms/plutus-platform\",\"origin\":\"/terms/plutus-platform\",\"title\":\"Plutus platform\",\"description\":\"The combined software support for writing contract applications\",\"aliases\":[\"plutus platform\"],\"keywords\":[\"plutus\",\"platform\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/plutus-platform.md\",\"body\":\"This includes:\\n\\n1. Plutus Foundation, and\\n\\n2. The Plutus Application Framework\\n\\n[What is the Plutus Platform?](https://docs.cardano.org/projects/plutus/en/terms/latest/plutus/explanations/platform.html#what-is-the-plutus-platform)\",\"mdxSource\":{\"compiledSource\":\"var m=Object.defineProperty,c=Object.defineProperties;var h=Object.getOwnPropertyDescriptors;var e=Object.getOwnPropertySymbols;var n=Object.prototype.hasOwnProperty,r=Object.prototype.propertyIsEnumerable;var s=(t,a,p)=>a in t?m(t,a,{enumerable:!0,configurable:!0,writable:!0,value:p}):t[a]=p,l=(t,a)=>{for(var p in a||(a={}))n.call(a,p)&&s(t,p,a[p]);if(e)for(var p of e(a))r.call(a,p)&&s(t,p,a[p]);return t},u=(t,a)=>c(t,h(a));var i=(t,a)=>{var p={};for(var o in t)n.call(t,o)&&a.indexOf(o)<0&&(p[o]=t[o]);if(t!=null&&e)for(var o of e(t))a.indexOf(o)<0&&r.call(t,o)&&(p[o]=t[o]);return p};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(p){var o=p,{components:t}=o,a=i(o,[\\\"components\\\"]);return mdx(MDXLayout,u(l(l({},layoutProps),a),{components:t,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"This includes:\\\"),mdx(\\\"ol\\\",null,mdx(\\\"li\\\",{parentName:\\\"ol\\\"},mdx(\\\"p\\\",{parentName:\\\"li\\\"},\\\"Plutus Foundation, and\\\")),mdx(\\\"li\\\",{parentName:\\\"ol\\\"},mdx(\\\"p\\\",{parentName:\\\"li\\\"},\\\"The Plutus Application Framework\\\"))),mdx(\\\"p\\\",null,mdx(\\\"a\\\",l({parentName:\\\"p\\\"},{href:\\\"https://docs.cardano.org/projects/plutus/en/terms/latest/plutus/explanations/platform.html#what-is-the-plutus-platform\\\"}),\\\"What is the Plutus Platform?\\\")))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-13T09:13:30.451Z",
-  "_cachedIn": "2.49 ms",
-  "_resolvedIn": "2.49 ms",
+  "_cachedAt": "2021-07-13T12:36:46.854Z",
+  "_cachedIn": "2.54 ms",
+  "_resolvedIn": "2.54 ms",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -42,17 +42,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-13T09:13:30.451Z",
-    "component-cached-in": "2.49 ms",
-    "component-resolved-in": "2.49 ms"
+    "component-cached-at": "2021-07-13T12:36:46.854Z",
+    "component-cached-in": "2.54 ms",
+    "component-resolved-in": "2.54 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T09:13:30.451Z",
-      "_cachedIn": "2.11 ms",
-      "_resolvedIn": "2.11 ms",
+      "_cachedAt": "2021-07-13T12:36:46.853Z",
+      "_cachedIn": "1.74 ms",
+      "_resolvedIn": "1.74 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -61,24 +61,24 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-13T09:13:30.451Z",
-        "component-cached-in": "2.11 ms",
-        "component-resolved-in": "2.11 ms"
+        "component-cached-at": "2021-07-13T12:36:46.853Z",
+        "component-cached-in": "1.74 ms",
+        "component-resolved-in": "1.74 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T09:13:30.450Z",
-          "_cachedIn": "1.19 ms",
-          "_resolvedIn": "1.19 ms",
+          "_cachedAt": "2021-07-13T12:36:46.853Z",
+          "_cachedIn": "943 μs",
+          "_resolvedIn": "943 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
           "error": null,
           "props": {
             "schema": {
-              "createdAt": "2021-07-13T09:13:17.117Z",
+              "createdAt": "2021-07-13T12:36:35.016Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -411,6 +411,13 @@
                 "filePath": "/nl/blogs/wat-is-staken.md"
               },
               {
+                "language": "en",
+                "title": "Delegation widget",
+                "slug": "/delegation-widget",
+                "template": "DelegationWidgetPage",
+                "hidden": true
+              },
+              {
                 "id": "create-collection-of-non-fungible-tokens",
                 "language": "en",
                 "slug": "/guides/create-collection-of-non-fungible-tokens",
@@ -690,11 +697,11 @@
                 "slug": "/",
                 "url": "https:///website.codespace1.sublayer.io/",
                 "origin": "/",
-                "title": "Homepage",
+                "title": "Armada Alliance",
                 "aliases": null,
                 "keywords": null,
                 "template": "HomePage",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-13T09:02:19.000Z",
                 "filePath": "/en/index.md"
               },
               {
@@ -1219,19 +1226,19 @@
                 "filePath": "/en/identities/zenent.md"
               },
               {
-                "id": "zino-hoffman",
+                "id": "zino-hofmann",
                 "language": "en",
-                "slug": "/identities/zino-hoffman",
-                "url": "https:///website.codespace1.sublayer.io/identities/zino-hoffman",
-                "origin": "/identities/zino-hoffman",
-                "title": "Zino Hoffman",
+                "slug": "/identities/zino-hofmann",
+                "url": "https:///website.codespace1.sublayer.io/identities/zino-hofmann",
+                "origin": "/identities/zino-hofmann",
+                "title": "Zino Hofmann",
                 "description": "SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-13T01:16:58.000Z",
-                "filePath": "/en/identities/zino-hoffman.md"
+                "updatedAt": "2021-07-13T10:09:34.000Z",
+                "filePath": "/en/identities/zino-hofmann.md"
               },
               {
                 "id": "zw3rk",
@@ -1395,7 +1402,7 @@
                   }
                 ],
                 "image": "https://illustratorandweb.com/ext/Pool-00000-1000x1000.png",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-13T10:18:10.000Z",
                 "filePath": "/en/stake-pools/33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4.md"
               },
               {
@@ -1642,12 +1649,12 @@
                 "template": "PoolDetailPage",
                 "identities": [
                   {
-                    "id": "zino-hoffman",
+                    "id": "zino-hofmann",
                     "role": "spo"
                   }
                 ],
                 "image": "https://cryptopool.dev/brand/logo-1024x1024.png",
-                "updatedAt": "2021-07-13T01:16:58.000Z",
+                "updatedAt": "2021-07-13T10:09:34.000Z",
                 "filePath": "/en/stake-pools/a343a6e2eb4bb7f8abf039b82e579131b56966d88d9937e679365269.md"
               },
               {
@@ -6801,18 +6808,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-13T09:13:30.450Z",
-            "component-cached-in": "1.19 ms",
-            "component-resolved-in": "1.19 ms"
+            "component-cached-at": "2021-07-13T12:36:46.853Z",
+            "component-cached-in": "943 μs",
+            "component-resolved-in": "943 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T09:13:30.451Z",
-          "_cachedIn": "1.74 ms",
-          "_resolvedIn": "1.74 ms",
+          "_cachedAt": "2021-07-13T12:36:46.853Z",
+          "_cachedIn": "1.26 ms",
+          "_resolvedIn": "1.26 ms",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6823,17 +6830,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-13T09:13:30.451Z",
-            "component-cached-in": "1.74 ms",
-            "component-resolved-in": "1.74 ms"
+            "component-cached-at": "2021-07-13T12:36:46.853Z",
+            "component-cached-in": "1.26 ms",
+            "component-resolved-in": "1.26 ms"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-13T09:13:30.451Z",
-              "_cachedIn": "635 μs",
-              "_resolvedIn": "635 μs",
+              "_cachedAt": "2021-07-13T12:36:46.853Z",
+              "_cachedIn": "269 μs",
+              "_resolvedIn": "269 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6877,9 +6884,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-13T09:13:30.451Z",
-                "component-cached-in": "635 μs",
-                "component-resolved-in": "635 μs"
+                "component-cached-at": "2021-07-13T12:36:46.853Z",
+                "component-cached-in": "269 μs",
+                "component-resolved-in": "269 μs"
               },
               "components": {}
             }
@@ -6888,9 +6895,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T09:13:30.450Z",
-          "_cachedIn": "728 μs",
-          "_resolvedIn": "728 μs",
+          "_cachedAt": "2021-07-13T12:36:46.852Z",
+          "_cachedIn": "451 μs",
+          "_resolvedIn": "451 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -6899,9 +6906,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-13T09:13:30.450Z",
-            "component-cached-in": "728 μs",
-            "component-resolved-in": "728 μs"
+            "component-cached-at": "2021-07-13T12:36:46.852Z",
+            "component-cached-in": "451 μs",
+            "component-resolved-in": "451 μs"
           },
           "components": {}
         }
@@ -6910,9 +6917,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T09:13:30.450Z",
-      "_cachedIn": "1.23 ms",
-      "_resolvedIn": "1.23 ms",
+      "_cachedAt": "2021-07-13T12:36:46.853Z",
+      "_cachedIn": "1 ms",
+      "_resolvedIn": "1 ms",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -6940,18 +6947,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-13T09:13:30.450Z",
-        "component-cached-in": "1.23 ms",
-        "component-resolved-in": "1.23 ms"
+        "component-cached-at": "2021-07-13T12:36:46.853Z",
+        "component-cached-in": "1 ms",
+        "component-resolved-in": "1 ms"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T09:13:30.450Z",
-      "_cachedIn": "748 μs",
-      "_resolvedIn": "748 μs",
+      "_cachedAt": "2021-07-13T12:36:46.852Z",
+      "_cachedIn": "488 μs",
+      "_resolvedIn": "488 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -6963,18 +6970,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-13T09:13:30.450Z",
-        "component-cached-in": "748 μs",
-        "component-resolved-in": "748 μs"
+        "component-cached-at": "2021-07-13T12:36:46.852Z",
+        "component-cached-in": "488 μs",
+        "component-resolved-in": "488 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T09:13:30.450Z",
-      "_cachedIn": "1.23 ms",
-      "_resolvedIn": "1.23 ms",
+      "_cachedAt": "2021-07-13T12:36:46.853Z",
+      "_cachedIn": "1.01 ms",
+      "_resolvedIn": "1.01 ms",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -6993,9 +7000,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-13T09:13:30.450Z",
-        "component-cached-in": "1.23 ms",
-        "component-resolved-in": "1.23 ms"
+        "component-cached-at": "2021-07-13T12:36:46.853Z",
+        "component-cached-in": "1.01 ms",
+        "component-resolved-in": "1.01 ms"
       },
       "components": {}
     }

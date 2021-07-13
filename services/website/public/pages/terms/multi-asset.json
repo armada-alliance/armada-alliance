@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"multi-asset\",\"language\":\"en\",\"slug\":\"/terms/multi-asset\",\"url\":\"https:///website.codespace1.sublayer.io/terms/multi-asset\",\"origin\":\"/terms/multi-asset\",\"title\":\"Multi-asset\",\"description\":\"A generic term for a ledger which supports multiple different asset types natively.\",\"aliases\":[\"multiple assets\",\"multi-asset\",\"multiple tokens\",\"cardano utxo\",\"cardano eutxo\",\"cardano blockchain\",\"cardano ledger\"],\"keywords\":[\"multi\",\"asset\",\"ledger\",\"cardano\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/multi-asset.md\",\"body\":\"Ledgers that support accounting or transaction of more than one type of asset are considered to have \\\\'multi-asset\\\\' functionality. These ledgers can include blockchains, wallets, cryptocurrencies, or banking platforms, for example. Multi-assets usually include a platform\\\\'s primary currency and multiple, user-defined assets.\",\"mdxSource\":{\"compiledSource\":\"var p=Object.defineProperty,y=Object.defineProperties;var d=Object.getOwnPropertyDescriptors;var a=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,u=Object.prototype.propertyIsEnumerable;var c=(e,t,n)=>t in e?p(e,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):e[t]=n,s=(e,t)=>{for(var n in t||(t={}))r.call(t,n)&&c(e,n,t[n]);if(a)for(var n of a(t))u.call(t,n)&&c(e,n,t[n]);return e},i=(e,t)=>y(e,d(t));var l=(e,t)=>{var n={};for(var o in e)r.call(e,o)&&t.indexOf(o)<0&&(n[o]=e[o]);if(e!=null&&a)for(var o of a(e))t.indexOf(o)<0&&u.call(e,o)&&(n[o]=e[o]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var o=n,{components:e}=o,t=l(o,[\\\"components\\\"]);return mdx(MDXLayout,i(s(s({},layoutProps),t),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"Ledgers that support accounting or transaction of more than one type of asset are considered to have \\\\\\\\'multi-asset\\\\\\\\' functionality. These ledgers can include blockchains, wallets, cryptocurrencies, or banking platforms, for example. Multi-assets usually include a platform\\\\\\\\'s primary currency and multiple, user-defined assets.\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-13T09:13:30.248Z",
-  "_cachedIn": "1.49 ms",
-  "_resolvedIn": "1.49 ms",
+  "_cachedAt": "2021-07-13T12:36:46.649Z",
+  "_cachedIn": "1.74 ms",
+  "_resolvedIn": "1.74 ms",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -50,17 +50,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-13T09:13:30.248Z",
-    "component-cached-in": "1.49 ms",
-    "component-resolved-in": "1.49 ms"
+    "component-cached-at": "2021-07-13T12:36:46.649Z",
+    "component-cached-in": "1.74 ms",
+    "component-resolved-in": "1.74 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T09:13:30.248Z",
-      "_cachedIn": "1.04 ms",
-      "_resolvedIn": "1.04 ms",
+      "_cachedAt": "2021-07-13T12:36:46.649Z",
+      "_cachedIn": "1.25 ms",
+      "_resolvedIn": "1.25 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -69,24 +69,24 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-13T09:13:30.248Z",
-        "component-cached-in": "1.04 ms",
-        "component-resolved-in": "1.04 ms"
+        "component-cached-at": "2021-07-13T12:36:46.649Z",
+        "component-cached-in": "1.25 ms",
+        "component-resolved-in": "1.25 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T09:13:30.247Z",
-          "_cachedIn": "601 μs",
-          "_resolvedIn": "601 μs",
+          "_cachedAt": "2021-07-13T12:36:46.649Z",
+          "_cachedIn": "683 μs",
+          "_resolvedIn": "683 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
           "error": null,
           "props": {
             "schema": {
-              "createdAt": "2021-07-13T09:13:17.117Z",
+              "createdAt": "2021-07-13T12:36:35.016Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -419,6 +419,13 @@
                 "filePath": "/nl/blogs/wat-is-staken.md"
               },
               {
+                "language": "en",
+                "title": "Delegation widget",
+                "slug": "/delegation-widget",
+                "template": "DelegationWidgetPage",
+                "hidden": true
+              },
+              {
                 "id": "create-collection-of-non-fungible-tokens",
                 "language": "en",
                 "slug": "/guides/create-collection-of-non-fungible-tokens",
@@ -698,11 +705,11 @@
                 "slug": "/",
                 "url": "https:///website.codespace1.sublayer.io/",
                 "origin": "/",
-                "title": "Homepage",
+                "title": "Armada Alliance",
                 "aliases": null,
                 "keywords": null,
                 "template": "HomePage",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-13T09:02:19.000Z",
                 "filePath": "/en/index.md"
               },
               {
@@ -1227,19 +1234,19 @@
                 "filePath": "/en/identities/zenent.md"
               },
               {
-                "id": "zino-hoffman",
+                "id": "zino-hofmann",
                 "language": "en",
-                "slug": "/identities/zino-hoffman",
-                "url": "https:///website.codespace1.sublayer.io/identities/zino-hoffman",
-                "origin": "/identities/zino-hoffman",
-                "title": "Zino Hoffman",
+                "slug": "/identities/zino-hofmann",
+                "url": "https:///website.codespace1.sublayer.io/identities/zino-hofmann",
+                "origin": "/identities/zino-hofmann",
+                "title": "Zino Hofmann",
                 "description": "SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-13T01:16:58.000Z",
-                "filePath": "/en/identities/zino-hoffman.md"
+                "updatedAt": "2021-07-13T10:09:34.000Z",
+                "filePath": "/en/identities/zino-hofmann.md"
               },
               {
                 "id": "zw3rk",
@@ -1403,7 +1410,7 @@
                   }
                 ],
                 "image": "https://illustratorandweb.com/ext/Pool-00000-1000x1000.png",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-13T10:18:10.000Z",
                 "filePath": "/en/stake-pools/33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4.md"
               },
               {
@@ -1650,12 +1657,12 @@
                 "template": "PoolDetailPage",
                 "identities": [
                   {
-                    "id": "zino-hoffman",
+                    "id": "zino-hofmann",
                     "role": "spo"
                   }
                 ],
                 "image": "https://cryptopool.dev/brand/logo-1024x1024.png",
-                "updatedAt": "2021-07-13T01:16:58.000Z",
+                "updatedAt": "2021-07-13T10:09:34.000Z",
                 "filePath": "/en/stake-pools/a343a6e2eb4bb7f8abf039b82e579131b56966d88d9937e679365269.md"
               },
               {
@@ -6809,18 +6816,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-13T09:13:30.247Z",
-            "component-cached-in": "601 μs",
-            "component-resolved-in": "601 μs"
+            "component-cached-at": "2021-07-13T12:36:46.649Z",
+            "component-cached-in": "683 μs",
+            "component-resolved-in": "683 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T09:13:30.248Z",
-          "_cachedIn": "774 μs",
-          "_resolvedIn": "774 μs",
+          "_cachedAt": "2021-07-13T12:36:46.649Z",
+          "_cachedIn": "877 μs",
+          "_resolvedIn": "877 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6831,17 +6838,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-13T09:13:30.248Z",
-            "component-cached-in": "774 μs",
-            "component-resolved-in": "774 μs"
+            "component-cached-at": "2021-07-13T12:36:46.649Z",
+            "component-cached-in": "877 μs",
+            "component-resolved-in": "877 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-13T09:13:30.248Z",
-              "_cachedIn": "154 μs",
-              "_resolvedIn": "154 μs",
+              "_cachedAt": "2021-07-13T12:36:46.649Z",
+              "_cachedIn": "168 μs",
+              "_resolvedIn": "168 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6885,9 +6892,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-13T09:13:30.248Z",
-                "component-cached-in": "154 μs",
-                "component-resolved-in": "154 μs"
+                "component-cached-at": "2021-07-13T12:36:46.649Z",
+                "component-cached-in": "168 μs",
+                "component-resolved-in": "168 μs"
               },
               "components": {}
             }
@@ -6896,9 +6903,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T09:13:30.247Z",
-          "_cachedIn": "329 μs",
-          "_resolvedIn": "329 μs",
+          "_cachedAt": "2021-07-13T12:36:46.648Z",
+          "_cachedIn": "387 μs",
+          "_resolvedIn": "387 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -6907,9 +6914,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-13T09:13:30.247Z",
-            "component-cached-in": "329 μs",
-            "component-resolved-in": "329 μs"
+            "component-cached-at": "2021-07-13T12:36:46.648Z",
+            "component-cached-in": "387 μs",
+            "component-resolved-in": "387 μs"
           },
           "components": {}
         }
@@ -6918,9 +6925,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T09:13:30.247Z",
-      "_cachedIn": "687 μs",
-      "_resolvedIn": "687 μs",
+      "_cachedAt": "2021-07-13T12:36:46.648Z",
+      "_cachedIn": "843 μs",
+      "_resolvedIn": "843 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -6948,18 +6955,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-13T09:13:30.247Z",
-        "component-cached-in": "687 μs",
-        "component-resolved-in": "687 μs"
+        "component-cached-at": "2021-07-13T12:36:46.648Z",
+        "component-cached-in": "843 μs",
+        "component-resolved-in": "843 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T09:13:30.247Z",
-      "_cachedIn": "369 μs",
-      "_resolvedIn": "369 μs",
+      "_cachedAt": "2021-07-13T12:36:46.648Z",
+      "_cachedIn": "387 μs",
+      "_resolvedIn": "387 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -6971,18 +6978,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-13T09:13:30.247Z",
-        "component-cached-in": "369 μs",
-        "component-resolved-in": "369 μs"
+        "component-cached-at": "2021-07-13T12:36:46.648Z",
+        "component-cached-in": "387 μs",
+        "component-resolved-in": "387 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T09:13:30.247Z",
-      "_cachedIn": "688 μs",
-      "_resolvedIn": "688 μs",
+      "_cachedAt": "2021-07-13T12:36:46.648Z",
+      "_cachedIn": "732 μs",
+      "_resolvedIn": "732 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7001,9 +7008,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-13T09:13:30.247Z",
-        "component-cached-in": "688 μs",
-        "component-resolved-in": "688 μs"
+        "component-cached-at": "2021-07-13T12:36:46.648Z",
+        "component-cached-in": "732 μs",
+        "component-resolved-in": "732 μs"
       },
       "components": {}
     }
