@@ -1,6 +1,6 @@
 ---
 template: IdentityDetailPage
-title:Jenny
+title: Jenny
 description: BERRY hodler and moderator of crazy pirates!
 image: /jennycita.jpg
 website: 
