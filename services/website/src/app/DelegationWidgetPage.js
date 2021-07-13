@@ -369,6 +369,8 @@ function NamiTab({ ctx, pool, toast, setToast }) {
 
 function Delegation(props) {
 
+    const { onClose } = props
+
     const isChrome = process.browser && /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor)
 
     let [tabId, setTabId] = useState('nami')
@@ -442,7 +444,7 @@ function Delegation(props) {
             ) : null}
             {tabId === 'alternate' ? (
                 <div className="bg-white fixed bottom-0 left-0 w-full flex items-center justify-evenly py-4 border-t border-gray-100 select-none">
-                    <button type="button" className="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-full w-40 justify-center text-white bg-primary-500 transition ease-in-out duration-150 focus:outline-none hover:bg-primary-400 focus:border-primary-600 active:bg-primary-600">
+                    <button type="button" className="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-full w-40 justify-center text-white bg-primary-500 transition ease-in-out duration-150 focus:outline-none hover:bg-primary-400 focus:border-primary-600 active:bg-primary-600" onClick={onClose}>
                         Got it!
                     </button>
                 </div>
@@ -542,6 +544,9 @@ export default function DelegationWidgetPage() {
         <Delegation
             pool={pool}
             ctx={{ blockfrost_project_id }}
+            onClose={() => {
+                window.close()
+            }}
         />
     )
 }
