@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"IdentityDetailPage\",\"version\":1},\"props\":{\"id\":\"wcat-otg\",\"language\":\"en\",\"slug\":\"/identities/wcat-otg\",\"url\":\"https:///website.codespace1.sublayer.io/identities/wcat-otg\",\"origin\":\"/identities/wcat-otg\",\"title\":\"WCat(Wayne)\",\"description\":\"SPO, Co-Founder\",\"aliases\":null,\"keywords\":null,\"template\":\"IdentityDetailPage\",\"image\":\"/wcat.jpeg\",\"updatedAt\":\"2021-07-06T17:25:38.000Z\",\"filePath\":\"/en/identities/wcat-otg.md\",\"website\":\"https://adamantium.online\",\"donationAddress\":\"addr1qyzrfl2lf0ugsz25heszl7pp0fd29qh73xqe62axh2u5agdsvcnspa6ljktrhpxj2rfjv09xyxppd9lvg0mkzk3cj7gs3qxxwx\",\"verified\":true,\"body\":\"Ticker: [OTG]. Off The Grid solar powered stake pool. Home made Tesla style powerwall made from reclaimed laptop batteries. Starlink, Mac M1 Mini block producer. SPO with strong Linux administration, network and security skills. Dedicated to #TrueDecentralization on low powered aarch64 processors and the resilience of the Cardano network.\\n\\n---\\n\",\"mdxSource\":{\"compiledSource\":\"var d=Object.defineProperty,u=Object.defineProperties;var m=Object.getOwnPropertyDescriptors;var a=Object.getOwnPropertySymbols;var i=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var l=(e,o,r)=>o in e?d(e,o,{enumerable:!0,configurable:!0,writable:!0,value:r}):e[o]=r,n=(e,o)=>{for(var r in o||(o={}))i.call(o,r)&&l(e,r,o[r]);if(a)for(var r of a(o))s.call(o,r)&&l(e,r,o[r]);return e},p=(e,o)=>u(e,m(o));var c=(e,o)=>{var r={};for(var t in e)i.call(e,t)&&o.indexOf(t)<0&&(r[t]=e[t]);if(e!=null&&a)for(var t of a(e))o.indexOf(t)<0&&s.call(e,t)&&(r[t]=e[t]);return r};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(r){var t=r,{components:e}=t,o=c(t,[\\\"components\\\"]);return mdx(MDXLayout,p(n(n({},layoutProps),o),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"Ticker: \\\",\\\"[OTG]\\\",\\\". Off The Grid solar powered stake pool. Home made Tesla style powerwall made from reclaimed laptop batteries. Starlink, Mac M1 Mini block producer. SPO with strong Linux administration, network and security skills. Dedicated to #TrueDecentralization on low powered aarch64 processors and the resilience of the Cardano network.\\\"),mdx(\\\"hr\\\",null))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-13T12:36:44.966Z",
-  "_cachedIn": "1.46 ms",
-  "_resolvedIn": "1.46 ms",
+  "_cachedAt": "2021-07-13T15:21:05.705Z",
+  "_cachedIn": "1.96 ms",
+  "_resolvedIn": "1.96 ms",
   "id": "IdentityDetailPage",
   "type": "IdentityDetailPage",
   "status": "resolved",
@@ -48,17 +48,17 @@
   "attrs": {
     "component-type": "IdentityDetailPage",
     "component-id": "IdentityDetailPage",
-    "component-cached-at": "2021-07-13T12:36:44.966Z",
-    "component-cached-in": "1.46 ms",
-    "component-resolved-in": "1.46 ms"
+    "component-cached-at": "2021-07-13T15:21:05.705Z",
+    "component-cached-in": "1.96 ms",
+    "component-resolved-in": "1.96 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:44.966Z",
-      "_cachedIn": "1.14 ms",
-      "_resolvedIn": "1.14 ms",
+      "_cachedAt": "2021-07-13T15:21:05.705Z",
+      "_cachedIn": "1.5 ms",
+      "_resolvedIn": "1.5 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -67,24 +67,24 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-13T12:36:44.966Z",
-        "component-cached-in": "1.14 ms",
-        "component-resolved-in": "1.14 ms"
+        "component-cached-at": "2021-07-13T15:21:05.705Z",
+        "component-cached-in": "1.5 ms",
+        "component-resolved-in": "1.5 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:44.966Z",
-          "_cachedIn": "389 μs",
-          "_resolvedIn": "389 μs",
+          "_cachedAt": "2021-07-13T15:21:05.704Z",
+          "_cachedIn": "507 μs",
+          "_resolvedIn": "507 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
           "error": null,
           "props": {
             "schema": {
-              "createdAt": "2021-07-13T12:36:35.016Z",
+              "createdAt": "2021-07-13T15:20:55.169Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -685,6 +685,35 @@
                 "filePath": "/en/guides/run-a-cardano-node.md"
               },
               {
+                "id": "setup-a-nami-delegate-button-on-your-website",
+                "language": "en",
+                "slug": "/guides/setup-a-nami-delegate-button-on-your-website",
+                "url": "https:///website.codespace1.sublayer.io/guides/setup-a-nami-delegate-button-on-your-website",
+                "origin": "/guides/setup-a-nami-delegate-button-on-your-website",
+                "title": "Setup a Nami delegate button on your website",
+                "description": "A guide on how to setup a button that allows your visitors to delegate to your pool straight from your website.",
+                "aliases": null,
+                "keywords": [
+                  "Delegate",
+                  "Nami Wallet",
+                  "JavaScript",
+                  "Marketing"
+                ],
+                "template": "GuideDetailPage",
+                "identities": [
+                  {
+                    "id": "alessandro-berry",
+                    "role": "author"
+                  },
+                  {
+                    "id": "sublayerio",
+                    "role": "author"
+                  }
+                ],
+                "icon": "❤️",
+                "filePath": "/en/guides/setup-a-nami-delegate-button-on-your-website.md"
+              },
+              {
                 "id": "guides",
                 "language": "en",
                 "slug": "/guides",
@@ -1123,7 +1152,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/sublayerio.png",
-                "updatedAt": "2021-06-25T18:07:19.000Z",
+                "updatedAt": "2021-07-13T13:35:37.000Z",
                 "filePath": "/en/identities/sublayerio.md"
               },
               {
@@ -6814,18 +6843,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-13T12:36:44.966Z",
-            "component-cached-in": "389 μs",
-            "component-resolved-in": "389 μs"
+            "component-cached-at": "2021-07-13T15:21:05.704Z",
+            "component-cached-in": "507 μs",
+            "component-resolved-in": "507 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:44.966Z",
-          "_cachedIn": "489 μs",
-          "_resolvedIn": "489 μs",
+          "_cachedAt": "2021-07-13T15:21:05.705Z",
+          "_cachedIn": "665 μs",
+          "_resolvedIn": "665 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6836,17 +6865,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-13T12:36:44.966Z",
-            "component-cached-in": "489 μs",
-            "component-resolved-in": "489 μs"
+            "component-cached-at": "2021-07-13T15:21:05.705Z",
+            "component-cached-in": "665 μs",
+            "component-resolved-in": "665 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-13T12:36:44.966Z",
-              "_cachedIn": "88 μs",
-              "_resolvedIn": "88 μs",
+              "_cachedAt": "2021-07-13T15:21:05.705Z",
+              "_cachedIn": "155 μs",
+              "_resolvedIn": "155 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6890,9 +6919,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-13T12:36:44.966Z",
-                "component-cached-in": "88 μs",
-                "component-resolved-in": "88 μs"
+                "component-cached-at": "2021-07-13T15:21:05.705Z",
+                "component-cached-in": "155 μs",
+                "component-resolved-in": "155 μs"
               },
               "components": {}
             }
@@ -6901,9 +6930,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:44.965Z",
-          "_cachedIn": "209 μs",
-          "_resolvedIn": "209 μs",
+          "_cachedAt": "2021-07-13T15:21:05.704Z",
+          "_cachedIn": "264 μs",
+          "_resolvedIn": "264 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -6912,9 +6941,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-13T12:36:44.965Z",
-            "component-cached-in": "209 μs",
-            "component-resolved-in": "209 μs"
+            "component-cached-at": "2021-07-13T15:21:05.704Z",
+            "component-cached-in": "264 μs",
+            "component-resolved-in": "264 μs"
           },
           "components": {}
         }
@@ -6923,9 +6952,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:44.966Z",
-      "_cachedIn": "915 μs",
-      "_resolvedIn": "915 μs",
+      "_cachedAt": "2021-07-13T15:21:05.704Z",
+      "_cachedIn": "1.12 ms",
+      "_resolvedIn": "1.12 ms",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -6940,18 +6969,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-13T12:36:44.966Z",
-        "component-cached-in": "915 μs",
-        "component-resolved-in": "915 μs"
+        "component-cached-at": "2021-07-13T15:21:05.704Z",
+        "component-cached-in": "1.12 ms",
+        "component-resolved-in": "1.12 ms"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:44.965Z",
-      "_cachedIn": "686 μs",
-      "_resolvedIn": "686 μs",
+      "_cachedAt": "2021-07-13T15:21:05.704Z",
+      "_cachedIn": "840 μs",
+      "_resolvedIn": "840 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -6962,18 +6991,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-13T12:36:44.965Z",
-        "component-cached-in": "686 μs",
-        "component-resolved-in": "686 μs"
+        "component-cached-at": "2021-07-13T15:21:05.704Z",
+        "component-cached-in": "840 μs",
+        "component-resolved-in": "840 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:44.966Z",
-      "_cachedIn": "916 μs",
-      "_resolvedIn": "916 μs",
+      "_cachedAt": "2021-07-13T15:21:05.704Z",
+      "_cachedIn": "1.13 ms",
+      "_resolvedIn": "1.13 ms",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -6994,18 +7023,18 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-13T12:36:44.966Z",
-        "component-cached-in": "916 μs",
-        "component-resolved-in": "916 μs"
+        "component-cached-at": "2021-07-13T15:21:05.704Z",
+        "component-cached-in": "1.13 ms",
+        "component-resolved-in": "1.13 ms"
       },
       "components": {}
     },
     "PostPagesSection": {
       "_cacheKey": "{\"component\":{\"type\":\"PostPagesSection\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:44.965Z",
-      "_cachedIn": "690 μs",
-      "_resolvedIn": "690 μs",
+      "_cachedAt": "2021-07-13T15:21:05.704Z",
+      "_cachedIn": "839 μs",
+      "_resolvedIn": "839 μs",
       "id": "PostPagesSection",
       "type": "PostPagesSection",
       "status": "resolved",
@@ -7123,9 +7152,9 @@
       "attrs": {
         "component-type": "PostPagesSection",
         "component-id": "PostPagesSection",
-        "component-cached-at": "2021-07-13T12:36:44.965Z",
-        "component-cached-in": "690 μs",
-        "component-resolved-in": "690 μs"
+        "component-cached-at": "2021-07-13T15:21:05.704Z",
+        "component-cached-in": "839 μs",
+        "component-resolved-in": "839 μs"
       },
       "components": {}
     }

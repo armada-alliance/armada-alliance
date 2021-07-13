@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"multi-asset\",\"language\":\"en\",\"slug\":\"/terms/multi-asset\",\"url\":\"https:///website.codespace1.sublayer.io/terms/multi-asset\",\"origin\":\"/terms/multi-asset\",\"title\":\"Multi-asset\",\"description\":\"A generic term for a ledger which supports multiple different asset types natively.\",\"aliases\":[\"multiple assets\",\"multi-asset\",\"multiple tokens\",\"cardano utxo\",\"cardano eutxo\",\"cardano blockchain\",\"cardano ledger\"],\"keywords\":[\"multi\",\"asset\",\"ledger\",\"cardano\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/multi-asset.md\",\"body\":\"Ledgers that support accounting or transaction of more than one type of asset are considered to have \\\\'multi-asset\\\\' functionality. These ledgers can include blockchains, wallets, cryptocurrencies, or banking platforms, for example. Multi-assets usually include a platform\\\\'s primary currency and multiple, user-defined assets.\",\"mdxSource\":{\"compiledSource\":\"var p=Object.defineProperty,y=Object.defineProperties;var d=Object.getOwnPropertyDescriptors;var a=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,u=Object.prototype.propertyIsEnumerable;var c=(e,t,n)=>t in e?p(e,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):e[t]=n,s=(e,t)=>{for(var n in t||(t={}))r.call(t,n)&&c(e,n,t[n]);if(a)for(var n of a(t))u.call(t,n)&&c(e,n,t[n]);return e},i=(e,t)=>y(e,d(t));var l=(e,t)=>{var n={};for(var o in e)r.call(e,o)&&t.indexOf(o)<0&&(n[o]=e[o]);if(e!=null&&a)for(var o of a(e))t.indexOf(o)<0&&u.call(e,o)&&(n[o]=e[o]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var o=n,{components:e}=o,t=l(o,[\\\"components\\\"]);return mdx(MDXLayout,i(s(s({},layoutProps),t),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"Ledgers that support accounting or transaction of more than one type of asset are considered to have \\\\\\\\'multi-asset\\\\\\\\' functionality. These ledgers can include blockchains, wallets, cryptocurrencies, or banking platforms, for example. Multi-assets usually include a platform\\\\\\\\'s primary currency and multiple, user-defined assets.\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-13T12:36:46.649Z",
-  "_cachedIn": "1.74 ms",
-  "_resolvedIn": "1.74 ms",
+  "_cachedAt": "2021-07-13T15:21:07.262Z",
+  "_cachedIn": "1.21 ms",
+  "_resolvedIn": "1.21 ms",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -50,17 +50,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-13T12:36:46.649Z",
-    "component-cached-in": "1.74 ms",
-    "component-resolved-in": "1.74 ms"
+    "component-cached-at": "2021-07-13T15:21:07.262Z",
+    "component-cached-in": "1.21 ms",
+    "component-resolved-in": "1.21 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:46.649Z",
-      "_cachedIn": "1.25 ms",
-      "_resolvedIn": "1.25 ms",
+      "_cachedAt": "2021-07-13T15:21:07.261Z",
+      "_cachedIn": "876 μs",
+      "_resolvedIn": "876 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -69,24 +69,24 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-13T12:36:46.649Z",
-        "component-cached-in": "1.25 ms",
-        "component-resolved-in": "1.25 ms"
+        "component-cached-at": "2021-07-13T15:21:07.261Z",
+        "component-cached-in": "876 μs",
+        "component-resolved-in": "876 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:46.649Z",
-          "_cachedIn": "683 μs",
-          "_resolvedIn": "683 μs",
+          "_cachedAt": "2021-07-13T15:21:07.261Z",
+          "_cachedIn": "577 μs",
+          "_resolvedIn": "577 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
           "error": null,
           "props": {
             "schema": {
-              "createdAt": "2021-07-13T12:36:35.016Z",
+              "createdAt": "2021-07-13T15:20:55.169Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -687,6 +687,35 @@
                 "filePath": "/en/guides/run-a-cardano-node.md"
               },
               {
+                "id": "setup-a-nami-delegate-button-on-your-website",
+                "language": "en",
+                "slug": "/guides/setup-a-nami-delegate-button-on-your-website",
+                "url": "https:///website.codespace1.sublayer.io/guides/setup-a-nami-delegate-button-on-your-website",
+                "origin": "/guides/setup-a-nami-delegate-button-on-your-website",
+                "title": "Setup a Nami delegate button on your website",
+                "description": "A guide on how to setup a button that allows your visitors to delegate to your pool straight from your website.",
+                "aliases": null,
+                "keywords": [
+                  "Delegate",
+                  "Nami Wallet",
+                  "JavaScript",
+                  "Marketing"
+                ],
+                "template": "GuideDetailPage",
+                "identities": [
+                  {
+                    "id": "alessandro-berry",
+                    "role": "author"
+                  },
+                  {
+                    "id": "sublayerio",
+                    "role": "author"
+                  }
+                ],
+                "icon": "❤️",
+                "filePath": "/en/guides/setup-a-nami-delegate-button-on-your-website.md"
+              },
+              {
                 "id": "guides",
                 "language": "en",
                 "slug": "/guides",
@@ -1125,7 +1154,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/sublayerio.png",
-                "updatedAt": "2021-06-25T18:07:19.000Z",
+                "updatedAt": "2021-07-13T13:35:37.000Z",
                 "filePath": "/en/identities/sublayerio.md"
               },
               {
@@ -6816,18 +6845,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-13T12:36:46.649Z",
-            "component-cached-in": "683 μs",
-            "component-resolved-in": "683 μs"
+            "component-cached-at": "2021-07-13T15:21:07.261Z",
+            "component-cached-in": "577 μs",
+            "component-resolved-in": "577 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:46.649Z",
-          "_cachedIn": "877 μs",
-          "_resolvedIn": "877 μs",
+          "_cachedAt": "2021-07-13T15:21:07.261Z",
+          "_cachedIn": "713 μs",
+          "_resolvedIn": "713 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6838,17 +6867,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-13T12:36:46.649Z",
-            "component-cached-in": "877 μs",
-            "component-resolved-in": "877 μs"
+            "component-cached-at": "2021-07-13T15:21:07.261Z",
+            "component-cached-in": "713 μs",
+            "component-resolved-in": "713 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-13T12:36:46.649Z",
-              "_cachedIn": "168 μs",
-              "_resolvedIn": "168 μs",
+              "_cachedAt": "2021-07-13T15:21:07.261Z",
+              "_cachedIn": "153 μs",
+              "_resolvedIn": "153 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6892,9 +6921,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-13T12:36:46.649Z",
-                "component-cached-in": "168 μs",
-                "component-resolved-in": "168 μs"
+                "component-cached-at": "2021-07-13T15:21:07.261Z",
+                "component-cached-in": "153 μs",
+                "component-resolved-in": "153 μs"
               },
               "components": {}
             }
@@ -6903,9 +6932,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:46.648Z",
-          "_cachedIn": "387 μs",
-          "_resolvedIn": "387 μs",
+          "_cachedAt": "2021-07-13T15:21:07.261Z",
+          "_cachedIn": "359 μs",
+          "_resolvedIn": "359 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -6914,9 +6943,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-13T12:36:46.648Z",
-            "component-cached-in": "387 μs",
-            "component-resolved-in": "387 μs"
+            "component-cached-at": "2021-07-13T15:21:07.261Z",
+            "component-cached-in": "359 μs",
+            "component-resolved-in": "359 μs"
           },
           "components": {}
         }
@@ -6925,9 +6954,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:46.648Z",
-      "_cachedIn": "843 μs",
-      "_resolvedIn": "843 μs",
+      "_cachedAt": "2021-07-13T15:21:07.261Z",
+      "_cachedIn": "626 μs",
+      "_resolvedIn": "626 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -6955,18 +6984,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-13T12:36:46.648Z",
-        "component-cached-in": "843 μs",
-        "component-resolved-in": "843 μs"
+        "component-cached-at": "2021-07-13T15:21:07.261Z",
+        "component-cached-in": "626 μs",
+        "component-resolved-in": "626 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:46.648Z",
-      "_cachedIn": "387 μs",
-      "_resolvedIn": "387 μs",
+      "_cachedAt": "2021-07-13T15:21:07.261Z",
+      "_cachedIn": "351 μs",
+      "_resolvedIn": "351 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -6978,18 +7007,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-13T12:36:46.648Z",
-        "component-cached-in": "387 μs",
-        "component-resolved-in": "387 μs"
+        "component-cached-at": "2021-07-13T15:21:07.261Z",
+        "component-cached-in": "351 μs",
+        "component-resolved-in": "351 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:46.648Z",
-      "_cachedIn": "732 μs",
-      "_resolvedIn": "732 μs",
+      "_cachedAt": "2021-07-13T15:21:07.261Z",
+      "_cachedIn": "628 μs",
+      "_resolvedIn": "628 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7008,9 +7037,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-13T12:36:46.648Z",
-        "component-cached-in": "732 μs",
-        "component-resolved-in": "732 μs"
+        "component-cached-at": "2021-07-13T15:21:07.261Z",
+        "component-cached-in": "628 μs",
+        "component-resolved-in": "628 μs"
       },
       "components": {}
     }

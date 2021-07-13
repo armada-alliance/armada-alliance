@@ -1,30 +1,32 @@
 {
-  "_cacheKey": "{\"component\":{\"type\":\"GuideDetailPage\",\"version\":1},\"props\":{\"id\":\"create-collection-of-non-fungible-tokens\",\"language\":\"en\",\"slug\":\"/guides/create-collection-of-non-fungible-tokens\",\"url\":\"https:///website.codespace1.sublayer.io/guides/create-collection-of-non-fungible-tokens\",\"origin\":\"/guides/create-collection-of-non-fungible-tokens\",\"title\":\"Create a NFT Collection\",\"description\":\"A guide to creating a NFT collection on Cardano using JavaScript.\",\"aliases\":null,\"keywords\":[\"NFT\",\"JavaScript\"],\"template\":\"GuideDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"},{\"id\":\"sublayerio\",\"role\":\"author\"}],\"icon\":\"💰\",\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/guides/create-collection-of-non-fungible-tokens.md\",\"externalLink\":\"https://docs.armada-alliance.com/learn/cardano-developer-guides/cardano-nft-collection-tutorial-coming-soon\",\"body\":\"<YoutubeVideo url=\\\"https://www.youtube.com/watch?v=6Ao98KdBACI\\\" />\",\"mdxSource\":{\"compiledSource\":\"var i=Object.defineProperty,m=Object.defineProperties;var y=Object.getOwnPropertyDescriptors;var u=Object.getOwnPropertySymbols;var d=Object.prototype.hasOwnProperty,c=Object.prototype.propertyIsEnumerable;var p=(o,t,e)=>t in o?i(o,t,{enumerable:!0,configurable:!0,writable:!0,value:e}):o[t]=e,r=(o,t)=>{for(var e in t||(t={}))d.call(t,e)&&p(o,e,t[e]);if(u)for(var e of u(t))c.call(t,e)&&p(o,e,t[e]);return o},a=(o,t)=>m(o,y(t));var s=(o,t)=>{var e={};for(var n in o)d.call(o,n)&&t.indexOf(n)<0&&(e[n]=o[n]);if(o!=null&&u)for(var n of u(o))t.indexOf(n)<0&&c.call(o,n)&&(e[n]=o[n]);return e};const makeShortcode=o=>function(e){return console.warn(\\\"Component \\\"+o+\\\" was not imported, exported, or provided by MDXProvider as global scope\\\"),mdx(\\\"div\\\",r({},e))},YoutubeVideo=makeShortcode(\\\"YoutubeVideo\\\"),layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(e){var n=e,{components:o}=n,t=s(n,[\\\"components\\\"]);return mdx(MDXLayout,a(r(r({},layoutProps),t),{components:o,mdxType:\\\"MDXLayout\\\"}),mdx(YoutubeVideo,{url:\\\"https://www.youtube.com/watch?v=6Ao98KdBACI\\\",mdxType:\\\"YoutubeVideo\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
+  "_cacheKey": "{\"component\":{\"type\":\"GuideDetailPage\",\"version\":1},\"props\":{\"id\":\"setup-a-nami-delegate-button-on-your-website\",\"language\":\"en\",\"slug\":\"/guides/setup-a-nami-delegate-button-on-your-website\",\"url\":\"https:///website.codespace1.sublayer.io/guides/setup-a-nami-delegate-button-on-your-website\",\"origin\":\"/guides/setup-a-nami-delegate-button-on-your-website\",\"title\":\"Setup a Nami delegate button on your website\",\"description\":\"A guide on how to setup a button that allows your visitors to delegate to your pool straight from your website.\",\"aliases\":null,\"keywords\":[\"Delegate\",\"Nami Wallet\",\"JavaScript\",\"Marketing\"],\"template\":\"GuideDetailPage\",\"identities\":[{\"id\":\"alessandro-berry\",\"role\":\"author\"},{\"id\":\"sublayerio\",\"role\":\"author\"}],\"icon\":\"❤️\",\"filePath\":\"/en/guides/setup-a-nami-delegate-button-on-your-website.md\",\"body\":\"## Demo\\n\\n<YoutubeVideo url=\\\"https://www.youtube.com/watch?v=6Ao98KdBACI\\\" />\\n\\n## Installation\\n\\n1. **Get a blockfrost project id** —  Go to [blockfrost.io](https://blockfrost.io/), make an account and create a project.\\n\\n2. **Get your pool id** — Go to [pooltool.io](https://pooltool.io)\\n\\n\\nSetup a button somewhere on your website that looks like this:\\n\\n```html\\n<button type=\\\"button\\\" onclick=\\\"handleDelegate()\\\">\\n    Delegate\\n</button>\\n```\\n\\nPut the following code snippet at the end of the body content:\\n\\n```html\\n<script>\\n    function handleDelegate() {\\n        var pool_id = '<POOL_ID>'\\n        var blockfrost_project_id = '<BLOCKFROST_PROJECT_ID>'\\n        var link = 'https://armada-alliance.com/delegation-widget?pool_id=' + pool_id + '&blockfrost_project_id=' + blockfrost_project_id\\n        var width = 600\\n        var height = Math.min(800, parseInt(window.outerHeight, 10))\\n        var left = (parseInt(window.outerWidth, 10) / 2) - (width / 2)\\n        var top = (parseInt(window.outerHeight, 10) - height) / 2\\n        window.open(link, 'Delegate', 'width=' + width + ',height=' + height + ',toolbar=0,menubar=0,location=0,status=0,scrollbars=1,resizable=1,left=' + left + ',top=' + top);\\n    }\\n</script>\\n```\",\"mdxSource\":{\"compiledSource\":\"var d=Object.defineProperty,h=Object.defineProperties;var u=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var p=Object.prototype.hasOwnProperty,l=Object.prototype.propertyIsEnumerable;var i=(o,t,e)=>t in o?d(o,t,{enumerable:!0,configurable:!0,writable:!0,value:e}):o[t]=e,r=(o,t)=>{for(var e in t||(t={}))p.call(t,e)&&i(o,e,t[e]);if(n)for(var e of n(t))l.call(t,e)&&i(o,e,t[e]);return o},s=(o,t)=>h(o,u(t));var c=(o,t)=>{var e={};for(var a in o)p.call(o,a)&&t.indexOf(a)<0&&(e[a]=o[a]);if(o!=null&&n)for(var a of n(o))t.indexOf(a)<0&&l.call(o,a)&&(e[a]=o[a]);return e};const makeShortcode=o=>function(e){return console.warn(\\\"Component \\\"+o+\\\" was not imported, exported, or provided by MDXProvider as global scope\\\"),mdx(\\\"div\\\",r({},e))},YoutubeVideo=makeShortcode(\\\"YoutubeVideo\\\"),layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(e){var a=e,{components:o}=a,t=c(a,[\\\"components\\\"]);return mdx(MDXLayout,s(r(r({},layoutProps),t),{components:o,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"h2\\\",null,\\\"Demo\\\"),mdx(YoutubeVideo,{url:\\\"https://www.youtube.com/watch?v=6Ao98KdBACI\\\",mdxType:\\\"YoutubeVideo\\\"}),mdx(\\\"h2\\\",null,\\\"Installation\\\"),mdx(\\\"ol\\\",null,mdx(\\\"li\\\",{parentName:\\\"ol\\\"},mdx(\\\"p\\\",{parentName:\\\"li\\\"},mdx(\\\"strong\\\",{parentName:\\\"p\\\"},\\\"Get a blockfrost project id\\\"),\\\" \\\\u2014  Go to \\\",mdx(\\\"a\\\",r({parentName:\\\"p\\\"},{href:\\\"https://blockfrost.io/\\\"}),\\\"blockfrost.io\\\"),\\\", make an account and create a project.\\\")),mdx(\\\"li\\\",{parentName:\\\"ol\\\"},mdx(\\\"p\\\",{parentName:\\\"li\\\"},mdx(\\\"strong\\\",{parentName:\\\"p\\\"},\\\"Get your pool id\\\"),\\\" \\\\u2014\\\\xA0Go to \\\",mdx(\\\"a\\\",r({parentName:\\\"p\\\"},{href:\\\"https://pooltool.io\\\"}),\\\"pooltool.io\\\")))),mdx(\\\"p\\\",null,\\\"Setup a button somewhere on your website that looks like this:\\\"),mdx(\\\"pre\\\",null,mdx(\\\"code\\\",r({parentName:\\\"pre\\\"},{className:\\\"language-html\\\"}),`<button type=\\\"button\\\" onclick=\\\"handleDelegate()\\\">\\n    Delegate\\n</button>\\n`)),mdx(\\\"p\\\",null,\\\"Put the following code snippet at the end of the body content:\\\"),mdx(\\\"pre\\\",null,mdx(\\\"code\\\",r({parentName:\\\"pre\\\"},{className:\\\"language-html\\\"}),`<script>\\n    function handleDelegate() {\\n        var pool_id = '<POOL_ID>'\\n        var blockfrost_project_id = '<BLOCKFROST_PROJECT_ID>'\\n        var link = 'https://armada-alliance.com/delegation-widget?pool_id=' + pool_id + '&blockfrost_project_id=' + blockfrost_project_id\\n        var width = 600\\n        var height = Math.min(800, parseInt(window.outerHeight, 10))\\n        var left = (parseInt(window.outerWidth, 10) / 2) - (width / 2)\\n        var top = (parseInt(window.outerHeight, 10) - height) / 2\\n        window.open(link, 'Delegate', 'width=' + width + ',height=' + height + ',toolbar=0,menubar=0,location=0,status=0,scrollbars=1,resizable=1,left=' + left + ',top=' + top);\\n    }\\n</script>\\n`)))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-13T15:21:05.555Z",
-  "_cachedIn": "663 ms",
-  "_resolvedIn": "663 ms",
+  "_cachedAt": "2021-07-13T15:21:05.617Z",
+  "_cachedIn": "311 ms",
+  "_resolvedIn": "311 ms",
   "id": "GuideDetailPage",
   "type": "GuideDetailPage",
   "status": "resolved",
   "error": null,
   "props": {
-    "id": "create-collection-of-non-fungible-tokens",
+    "id": "setup-a-nami-delegate-button-on-your-website",
     "language": "en",
-    "slug": "/guides/create-collection-of-non-fungible-tokens",
-    "url": "https:///website.codespace1.sublayer.io/guides/create-collection-of-non-fungible-tokens",
-    "origin": "/guides/create-collection-of-non-fungible-tokens",
-    "title": "Create a NFT Collection",
-    "description": "A guide to creating a NFT collection on Cardano using JavaScript.",
+    "slug": "/guides/setup-a-nami-delegate-button-on-your-website",
+    "url": "https:///website.codespace1.sublayer.io/guides/setup-a-nami-delegate-button-on-your-website",
+    "origin": "/guides/setup-a-nami-delegate-button-on-your-website",
+    "title": "Setup a Nami delegate button on your website",
+    "description": "A guide on how to setup a button that allows your visitors to delegate to your pool straight from your website.",
     "aliases": null,
     "keywords": [
-      "NFT",
-      "JavaScript"
+      "Delegate",
+      "Nami Wallet",
+      "JavaScript",
+      "Marketing"
     ],
     "template": "GuideDetailPage",
     "identities": [
       {
-        "id": "wael-ivie",
+        "id": "alessandro-berry",
         "role": "author"
       },
       {
@@ -32,32 +34,30 @@
         "role": "author"
       }
     ],
-    "icon": "💰",
-    "updatedAt": "2021-07-10T20:43:29.000Z",
-    "filePath": "/en/guides/create-collection-of-non-fungible-tokens.md",
-    "externalLink": "https://docs.armada-alliance.com/learn/cardano-developer-guides/cardano-nft-collection-tutorial-coming-soon",
-    "body": "<YoutubeVideo url=\"https://www.youtube.com/watch?v=6Ao98KdBACI\" />",
+    "icon": "❤️",
+    "filePath": "/en/guides/setup-a-nami-delegate-button-on-your-website.md",
+    "body": "## Demo\n\n<YoutubeVideo url=\"https://www.youtube.com/watch?v=6Ao98KdBACI\" />\n\n## Installation\n\n1. **Get a blockfrost project id** —  Go to [blockfrost.io](https://blockfrost.io/), make an account and create a project.\n\n2. **Get your pool id** — Go to [pooltool.io](https://pooltool.io)\n\n\nSetup a button somewhere on your website that looks like this:\n\n```html\n<button type=\"button\" onclick=\"handleDelegate()\">\n    Delegate\n</button>\n```\n\nPut the following code snippet at the end of the body content:\n\n```html\n<script>\n    function handleDelegate() {\n        var pool_id = '<POOL_ID>'\n        var blockfrost_project_id = '<BLOCKFROST_PROJECT_ID>'\n        var link = 'https://armada-alliance.com/delegation-widget?pool_id=' + pool_id + '&blockfrost_project_id=' + blockfrost_project_id\n        var width = 600\n        var height = Math.min(800, parseInt(window.outerHeight, 10))\n        var left = (parseInt(window.outerWidth, 10) / 2) - (width / 2)\n        var top = (parseInt(window.outerHeight, 10) - height) / 2\n        window.open(link, 'Delegate', 'width=' + width + ',height=' + height + ',toolbar=0,menubar=0,location=0,status=0,scrollbars=1,resizable=1,left=' + left + ',top=' + top);\n    }\n</script>\n```",
     "mdxSource": {
-      "compiledSource": "var i=Object.defineProperty,m=Object.defineProperties;var y=Object.getOwnPropertyDescriptors;var u=Object.getOwnPropertySymbols;var d=Object.prototype.hasOwnProperty,c=Object.prototype.propertyIsEnumerable;var p=(o,t,e)=>t in o?i(o,t,{enumerable:!0,configurable:!0,writable:!0,value:e}):o[t]=e,r=(o,t)=>{for(var e in t||(t={}))d.call(t,e)&&p(o,e,t[e]);if(u)for(var e of u(t))c.call(t,e)&&p(o,e,t[e]);return o},a=(o,t)=>m(o,y(t));var s=(o,t)=>{var e={};for(var n in o)d.call(o,n)&&t.indexOf(n)<0&&(e[n]=o[n]);if(o!=null&&u)for(var n of u(o))t.indexOf(n)<0&&c.call(o,n)&&(e[n]=o[n]);return e};const makeShortcode=o=>function(e){return console.warn(\"Component \"+o+\" was not imported, exported, or provided by MDXProvider as global scope\"),mdx(\"div\",r({},e))},YoutubeVideo=makeShortcode(\"YoutubeVideo\"),layoutProps={},MDXLayout=\"wrapper\";function MDXContent(e){var n=e,{components:o}=n,t=s(n,[\"components\"]);return mdx(MDXLayout,a(r(r({},layoutProps),t),{components:o,mdxType:\"MDXLayout\"}),mdx(YoutubeVideo,{url:\"https://www.youtube.com/watch?v=6Ao98KdBACI\",mdxType:\"YoutubeVideo\"}))}MDXContent.isMDXComponent=!0;\n",
+      "compiledSource": "var d=Object.defineProperty,h=Object.defineProperties;var u=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var p=Object.prototype.hasOwnProperty,l=Object.prototype.propertyIsEnumerable;var i=(o,t,e)=>t in o?d(o,t,{enumerable:!0,configurable:!0,writable:!0,value:e}):o[t]=e,r=(o,t)=>{for(var e in t||(t={}))p.call(t,e)&&i(o,e,t[e]);if(n)for(var e of n(t))l.call(t,e)&&i(o,e,t[e]);return o},s=(o,t)=>h(o,u(t));var c=(o,t)=>{var e={};for(var a in o)p.call(o,a)&&t.indexOf(a)<0&&(e[a]=o[a]);if(o!=null&&n)for(var a of n(o))t.indexOf(a)<0&&l.call(o,a)&&(e[a]=o[a]);return e};const makeShortcode=o=>function(e){return console.warn(\"Component \"+o+\" was not imported, exported, or provided by MDXProvider as global scope\"),mdx(\"div\",r({},e))},YoutubeVideo=makeShortcode(\"YoutubeVideo\"),layoutProps={},MDXLayout=\"wrapper\";function MDXContent(e){var a=e,{components:o}=a,t=c(a,[\"components\"]);return mdx(MDXLayout,s(r(r({},layoutProps),t),{components:o,mdxType:\"MDXLayout\"}),mdx(\"h2\",null,\"Demo\"),mdx(YoutubeVideo,{url:\"https://www.youtube.com/watch?v=6Ao98KdBACI\",mdxType:\"YoutubeVideo\"}),mdx(\"h2\",null,\"Installation\"),mdx(\"ol\",null,mdx(\"li\",{parentName:\"ol\"},mdx(\"p\",{parentName:\"li\"},mdx(\"strong\",{parentName:\"p\"},\"Get a blockfrost project id\"),\" \\u2014  Go to \",mdx(\"a\",r({parentName:\"p\"},{href:\"https://blockfrost.io/\"}),\"blockfrost.io\"),\", make an account and create a project.\")),mdx(\"li\",{parentName:\"ol\"},mdx(\"p\",{parentName:\"li\"},mdx(\"strong\",{parentName:\"p\"},\"Get your pool id\"),\" \\u2014\\xA0Go to \",mdx(\"a\",r({parentName:\"p\"},{href:\"https://pooltool.io\"}),\"pooltool.io\")))),mdx(\"p\",null,\"Setup a button somewhere on your website that looks like this:\"),mdx(\"pre\",null,mdx(\"code\",r({parentName:\"pre\"},{className:\"language-html\"}),`<button type=\"button\" onclick=\"handleDelegate()\">\n    Delegate\n</button>\n`)),mdx(\"p\",null,\"Put the following code snippet at the end of the body content:\"),mdx(\"pre\",null,mdx(\"code\",r({parentName:\"pre\"},{className:\"language-html\"}),`<script>\n    function handleDelegate() {\n        var pool_id = '<POOL_ID>'\n        var blockfrost_project_id = '<BLOCKFROST_PROJECT_ID>'\n        var link = 'https://armada-alliance.com/delegation-widget?pool_id=' + pool_id + '&blockfrost_project_id=' + blockfrost_project_id\n        var width = 600\n        var height = Math.min(800, parseInt(window.outerHeight, 10))\n        var left = (parseInt(window.outerWidth, 10) / 2) - (width / 2)\n        var top = (parseInt(window.outerHeight, 10) - height) / 2\n        window.open(link, 'Delegate', 'width=' + width + ',height=' + height + ',toolbar=0,menubar=0,location=0,status=0,scrollbars=1,resizable=1,left=' + left + ',top=' + top);\n    }\n</script>\n`)))}MDXContent.isMDXComponent=!0;\n",
       "scope": {}
     },
-    "source": "/pages/guides/create-collection-of-non-fungible-tokens.json",
+    "source": "/pages/guides/setup-a-nami-delegate-button-on-your-website.json",
     "pageType": "Guide"
   },
   "attrs": {
     "component-type": "GuideDetailPage",
     "component-id": "GuideDetailPage",
-    "component-cached-at": "2021-07-13T15:21:05.555Z",
-    "component-cached-in": "663 ms",
-    "component-resolved-in": "663 ms"
+    "component-cached-at": "2021-07-13T15:21:05.617Z",
+    "component-cached-in": "311 ms",
+    "component-resolved-in": "311 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T15:21:05.555Z",
-      "_cachedIn": "835 μs",
-      "_resolvedIn": "835 μs",
+      "_cachedAt": "2021-07-13T15:21:05.617Z",
+      "_cachedIn": "265 μs",
+      "_resolvedIn": "265 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -66,17 +66,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-13T15:21:05.555Z",
-        "component-cached-in": "835 μs",
-        "component-resolved-in": "835 μs"
+        "component-cached-at": "2021-07-13T15:21:05.617Z",
+        "component-cached-in": "265 μs",
+        "component-resolved-in": "265 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T15:21:05.555Z",
-          "_cachedIn": "377 μs",
-          "_resolvedIn": "377 μs",
+          "_cachedAt": "2021-07-13T15:21:05.617Z",
+          "_cachedIn": "145 μs",
+          "_resolvedIn": "145 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -6842,18 +6842,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-13T15:21:05.555Z",
-            "component-cached-in": "377 μs",
-            "component-resolved-in": "377 μs"
+            "component-cached-at": "2021-07-13T15:21:05.617Z",
+            "component-cached-in": "145 μs",
+            "component-resolved-in": "145 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T15:21:05.555Z",
-          "_cachedIn": "385 μs",
-          "_resolvedIn": "385 μs",
+          "_cachedAt": "2021-07-13T15:21:05.617Z",
+          "_cachedIn": "165 μs",
+          "_resolvedIn": "165 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6864,17 +6864,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-13T15:21:05.555Z",
-            "component-cached-in": "385 μs",
-            "component-resolved-in": "385 μs"
+            "component-cached-at": "2021-07-13T15:21:05.617Z",
+            "component-cached-in": "165 μs",
+            "component-resolved-in": "165 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-13T15:21:05.555Z",
-              "_cachedIn": "67 μs",
-              "_resolvedIn": "67 μs",
+              "_cachedAt": "2021-07-13T15:21:05.617Z",
+              "_cachedIn": "36 μs",
+              "_resolvedIn": "36 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6918,9 +6918,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-13T15:21:05.555Z",
-                "component-cached-in": "67 μs",
-                "component-resolved-in": "67 μs"
+                "component-cached-at": "2021-07-13T15:21:05.617Z",
+                "component-cached-in": "36 μs",
+                "component-resolved-in": "36 μs"
               },
               "components": {}
             }
@@ -6929,9 +6929,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T15:21:05.555Z",
-          "_cachedIn": "274 μs",
-          "_resolvedIn": "274 μs",
+          "_cachedAt": "2021-07-13T15:21:05.616Z",
+          "_cachedIn": "101 μs",
+          "_resolvedIn": "101 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -6940,9 +6940,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-13T15:21:05.555Z",
-            "component-cached-in": "274 μs",
-            "component-resolved-in": "274 μs"
+            "component-cached-at": "2021-07-13T15:21:05.616Z",
+            "component-cached-in": "101 μs",
+            "component-resolved-in": "101 μs"
           },
           "components": {}
         }
@@ -6951,28 +6951,28 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T15:21:05.555Z",
-      "_cachedIn": "728 μs",
-      "_resolvedIn": "728 μs",
+      "_cachedAt": "2021-07-13T15:21:05.617Z",
+      "_cachedIn": "192 μs",
+      "_resolvedIn": "192 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
       "error": null,
       "props": {
-        "title": "Create a NFT Collection",
+        "title": "Setup a Nami delegate button on your website",
         "pageType": "Guide",
         "identities": [
           {
-            "id": "wael-ivie",
-            "name": "Wael Ivie 🐋",
-            "description": "Founder, SPO",
-            "image": "/wael.jpg",
+            "id": "alessandro-berry",
+            "name": "Alessandro",
+            "description": "Spacebudz Founder, SPO",
+            "image": "/ales.jpg",
             "link": {
-              "name": "Wael Ivie 🐋",
-              "href": "/identities/wael-ivie"
+              "name": "Alessandro",
+              "href": "/identities/alessandro-berry"
             },
             "pools": [
-              "b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65"
+              "2a748e3885f6f73320ad16a8331247b81fe01b8d39f57eec9caa5091"
             ],
             "role": "author"
           },
@@ -6995,64 +6995,62 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-13T15:21:05.555Z",
-        "component-cached-in": "728 μs",
-        "component-resolved-in": "728 μs"
+        "component-cached-at": "2021-07-13T15:21:05.617Z",
+        "component-cached-in": "192 μs",
+        "component-resolved-in": "192 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T15:21:05.555Z",
-      "_cachedIn": "607 μs",
-      "_resolvedIn": "607 μs",
+      "_cachedAt": "2021-07-13T15:21:05.616Z",
+      "_cachedIn": "110 μs",
+      "_resolvedIn": "110 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
       "error": null,
       "props": {
         "alignLeft": true,
-        "excerpt": "A guide to creating a NFT collection on Cardano using JavaScript."
+        "excerpt": "A guide on how to setup a button that allows your visitors to delegate to your pool straight from your website."
       },
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-13T15:21:05.555Z",
-        "component-cached-in": "607 μs",
-        "component-resolved-in": "607 μs"
+        "component-cached-at": "2021-07-13T15:21:05.616Z",
+        "component-cached-in": "110 μs",
+        "component-resolved-in": "110 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T15:21:05.555Z",
-      "_cachedIn": "723 μs",
-      "_resolvedIn": "723 μs",
+      "_cachedAt": "2021-07-13T15:21:05.617Z",
+      "_cachedIn": "189 μs",
+      "_resolvedIn": "189 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
       "error": null,
       "props": {
         "mdxSource": {
-          "compiledSource": "var i=Object.defineProperty,m=Object.defineProperties;var y=Object.getOwnPropertyDescriptors;var u=Object.getOwnPropertySymbols;var d=Object.prototype.hasOwnProperty,c=Object.prototype.propertyIsEnumerable;var p=(o,t,e)=>t in o?i(o,t,{enumerable:!0,configurable:!0,writable:!0,value:e}):o[t]=e,r=(o,t)=>{for(var e in t||(t={}))d.call(t,e)&&p(o,e,t[e]);if(u)for(var e of u(t))c.call(t,e)&&p(o,e,t[e]);return o},a=(o,t)=>m(o,y(t));var s=(o,t)=>{var e={};for(var n in o)d.call(o,n)&&t.indexOf(n)<0&&(e[n]=o[n]);if(o!=null&&u)for(var n of u(o))t.indexOf(n)<0&&c.call(o,n)&&(e[n]=o[n]);return e};const makeShortcode=o=>function(e){return console.warn(\"Component \"+o+\" was not imported, exported, or provided by MDXProvider as global scope\"),mdx(\"div\",r({},e))},YoutubeVideo=makeShortcode(\"YoutubeVideo\"),layoutProps={},MDXLayout=\"wrapper\";function MDXContent(e){var n=e,{components:o}=n,t=s(n,[\"components\"]);return mdx(MDXLayout,a(r(r({},layoutProps),t),{components:o,mdxType:\"MDXLayout\"}),mdx(YoutubeVideo,{url:\"https://www.youtube.com/watch?v=6Ao98KdBACI\",mdxType:\"YoutubeVideo\"}))}MDXContent.isMDXComponent=!0;\n",
+          "compiledSource": "var d=Object.defineProperty,h=Object.defineProperties;var u=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var p=Object.prototype.hasOwnProperty,l=Object.prototype.propertyIsEnumerable;var i=(o,t,e)=>t in o?d(o,t,{enumerable:!0,configurable:!0,writable:!0,value:e}):o[t]=e,r=(o,t)=>{for(var e in t||(t={}))p.call(t,e)&&i(o,e,t[e]);if(n)for(var e of n(t))l.call(t,e)&&i(o,e,t[e]);return o},s=(o,t)=>h(o,u(t));var c=(o,t)=>{var e={};for(var a in o)p.call(o,a)&&t.indexOf(a)<0&&(e[a]=o[a]);if(o!=null&&n)for(var a of n(o))t.indexOf(a)<0&&l.call(o,a)&&(e[a]=o[a]);return e};const makeShortcode=o=>function(e){return console.warn(\"Component \"+o+\" was not imported, exported, or provided by MDXProvider as global scope\"),mdx(\"div\",r({},e))},YoutubeVideo=makeShortcode(\"YoutubeVideo\"),layoutProps={},MDXLayout=\"wrapper\";function MDXContent(e){var a=e,{components:o}=a,t=c(a,[\"components\"]);return mdx(MDXLayout,s(r(r({},layoutProps),t),{components:o,mdxType:\"MDXLayout\"}),mdx(\"h2\",null,\"Demo\"),mdx(YoutubeVideo,{url:\"https://www.youtube.com/watch?v=6Ao98KdBACI\",mdxType:\"YoutubeVideo\"}),mdx(\"h2\",null,\"Installation\"),mdx(\"ol\",null,mdx(\"li\",{parentName:\"ol\"},mdx(\"p\",{parentName:\"li\"},mdx(\"strong\",{parentName:\"p\"},\"Get a blockfrost project id\"),\" \\u2014  Go to \",mdx(\"a\",r({parentName:\"p\"},{href:\"https://blockfrost.io/\"}),\"blockfrost.io\"),\", make an account and create a project.\")),mdx(\"li\",{parentName:\"ol\"},mdx(\"p\",{parentName:\"li\"},mdx(\"strong\",{parentName:\"p\"},\"Get your pool id\"),\" \\u2014\\xA0Go to \",mdx(\"a\",r({parentName:\"p\"},{href:\"https://pooltool.io\"}),\"pooltool.io\")))),mdx(\"p\",null,\"Setup a button somewhere on your website that looks like this:\"),mdx(\"pre\",null,mdx(\"code\",r({parentName:\"pre\"},{className:\"language-html\"}),`<button type=\"button\" onclick=\"handleDelegate()\">\n    Delegate\n</button>\n`)),mdx(\"p\",null,\"Put the following code snippet at the end of the body content:\"),mdx(\"pre\",null,mdx(\"code\",r({parentName:\"pre\"},{className:\"language-html\"}),`<script>\n    function handleDelegate() {\n        var pool_id = '<POOL_ID>'\n        var blockfrost_project_id = '<BLOCKFROST_PROJECT_ID>'\n        var link = 'https://armada-alliance.com/delegation-widget?pool_id=' + pool_id + '&blockfrost_project_id=' + blockfrost_project_id\n        var width = 600\n        var height = Math.min(800, parseInt(window.outerHeight, 10))\n        var left = (parseInt(window.outerWidth, 10) / 2) - (width / 2)\n        var top = (parseInt(window.outerHeight, 10) - height) / 2\n        window.open(link, 'Delegate', 'width=' + width + ',height=' + height + ',toolbar=0,menubar=0,location=0,status=0,scrollbars=1,resizable=1,left=' + left + ',top=' + top);\n    }\n</script>\n`)))}MDXContent.isMDXComponent=!0;\n",
           "scope": {}
         },
-        "filePath": "/en/guides/create-collection-of-non-fungible-tokens.md",
-        "updatedAt": "2021-07-10T20:43:29.000Z",
+        "filePath": "/en/guides/setup-a-nami-delegate-button-on-your-website.md",
         "pageType": "Guide",
-        "externalLink": "https://docs.armada-alliance.com/learn/cardano-developer-guides/cardano-nft-collection-tutorial-coming-soon",
         "editOnGitHubLink": {
-          "href": "https://github.com/armada-alliance/armada-alliance/tree/main/services/website/content//en/guides/create-collection-of-non-fungible-tokens.md"
+          "href": "https://github.com/armada-alliance/armada-alliance/tree/main/services/website/content//en/guides/setup-a-nami-delegate-button-on-your-website.md"
         }
       },
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-13T15:21:05.555Z",
-        "component-cached-in": "723 μs",
-        "component-resolved-in": "723 μs"
+        "component-cached-at": "2021-07-13T15:21:05.617Z",
+        "component-cached-in": "189 μs",
+        "component-resolved-in": "189 μs"
       },
       "components": {}
     }

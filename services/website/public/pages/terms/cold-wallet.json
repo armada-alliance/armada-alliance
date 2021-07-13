@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"cold-wallet\",\"language\":\"en\",\"slug\":\"/terms/cold-wallet\",\"url\":\"https:///website.codespace1.sublayer.io/terms/cold-wallet\",\"origin\":\"/terms/cold-wallet\",\"title\":\"Cold wallet\",\"description\":\"A cold wallet or cold storage is a type of cryptocurrency wallet aiming for maximum security.\",\"aliases\":[\"cold wallet\",\"cold storage\",\"cryptocurrency cold storage\"],\"keywords\":[\"cold\",\"wallet\",\"storage\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/cold-wallet.md\",\"body\":\"Unlike [hot wallets](/terms/hot-wallets), cold wallets never expose the seed or individual private keys to an insecure environment connected to the internet (such as a PC or a smartphone).\\n\\nOne of the most reliable types of cold storage is a hardware wallet, such as [Trezor](/terms/trezor-device).\",\"mdxSource\":{\"compiledSource\":\"var h=Object.defineProperty,u=Object.defineProperties;var m=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var s=Object.prototype.hasOwnProperty,p=Object.prototype.propertyIsEnumerable;var l=(e,t,o)=>t in e?h(e,t,{enumerable:!0,configurable:!0,writable:!0,value:o}):e[t]=o,r=(e,t)=>{for(var o in t||(t={}))s.call(t,o)&&l(e,o,t[o]);if(n)for(var o of n(t))p.call(t,o)&&l(e,o,t[o]);return e},i=(e,t)=>u(e,m(t));var c=(e,t)=>{var o={};for(var a in e)s.call(e,a)&&t.indexOf(a)<0&&(o[a]=e[a]);if(e!=null&&n)for(var a of n(e))t.indexOf(a)<0&&p.call(e,a)&&(o[a]=e[a]);return o};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(o){var a=o,{components:e}=a,t=c(a,[\\\"components\\\"]);return mdx(MDXLayout,i(r(r({},layoutProps),t),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"Unlike \\\",mdx(\\\"a\\\",r({parentName:\\\"p\\\"},{href:\\\"/terms/hot-wallets\\\"}),\\\"hot wallets\\\"),\\\", cold wallets never expose the seed or individual private keys to an insecure environment connected to the internet (such as a PC or a smartphone).\\\"),mdx(\\\"p\\\",null,\\\"One of the most reliable types of cold storage is a hardware wallet, such as \\\",mdx(\\\"a\\\",r({parentName:\\\"p\\\"},{href:\\\"/terms/trezor-device\\\"}),\\\"Trezor\\\"),\\\".\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-13T12:36:46.072Z",
-  "_cachedIn": "4.28 ms",
-  "_resolvedIn": "4.28 ms",
+  "_cachedAt": "2021-07-13T15:21:06.687Z",
+  "_cachedIn": "1.14 ms",
+  "_resolvedIn": "1.14 ms",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -45,17 +45,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-13T12:36:46.072Z",
-    "component-cached-in": "4.28 ms",
-    "component-resolved-in": "4.28 ms"
+    "component-cached-at": "2021-07-13T15:21:06.687Z",
+    "component-cached-in": "1.14 ms",
+    "component-resolved-in": "1.14 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:46.072Z",
-      "_cachedIn": "3.01 ms",
-      "_resolvedIn": "3.01 ms",
+      "_cachedAt": "2021-07-13T15:21:06.687Z",
+      "_cachedIn": "857 μs",
+      "_resolvedIn": "857 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -64,24 +64,24 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-13T12:36:46.072Z",
-        "component-cached-in": "3.01 ms",
-        "component-resolved-in": "3.01 ms"
+        "component-cached-at": "2021-07-13T15:21:06.687Z",
+        "component-cached-in": "857 μs",
+        "component-resolved-in": "857 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:46.071Z",
-          "_cachedIn": "1.6 ms",
-          "_resolvedIn": "1.6 ms",
+          "_cachedAt": "2021-07-13T15:21:06.687Z",
+          "_cachedIn": "393 μs",
+          "_resolvedIn": "393 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
           "error": null,
           "props": {
             "schema": {
-              "createdAt": "2021-07-13T12:36:35.016Z",
+              "createdAt": "2021-07-13T15:20:55.169Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -682,6 +682,35 @@
                 "filePath": "/en/guides/run-a-cardano-node.md"
               },
               {
+                "id": "setup-a-nami-delegate-button-on-your-website",
+                "language": "en",
+                "slug": "/guides/setup-a-nami-delegate-button-on-your-website",
+                "url": "https:///website.codespace1.sublayer.io/guides/setup-a-nami-delegate-button-on-your-website",
+                "origin": "/guides/setup-a-nami-delegate-button-on-your-website",
+                "title": "Setup a Nami delegate button on your website",
+                "description": "A guide on how to setup a button that allows your visitors to delegate to your pool straight from your website.",
+                "aliases": null,
+                "keywords": [
+                  "Delegate",
+                  "Nami Wallet",
+                  "JavaScript",
+                  "Marketing"
+                ],
+                "template": "GuideDetailPage",
+                "identities": [
+                  {
+                    "id": "alessandro-berry",
+                    "role": "author"
+                  },
+                  {
+                    "id": "sublayerio",
+                    "role": "author"
+                  }
+                ],
+                "icon": "❤️",
+                "filePath": "/en/guides/setup-a-nami-delegate-button-on-your-website.md"
+              },
+              {
                 "id": "guides",
                 "language": "en",
                 "slug": "/guides",
@@ -1120,7 +1149,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/sublayerio.png",
-                "updatedAt": "2021-06-25T18:07:19.000Z",
+                "updatedAt": "2021-07-13T13:35:37.000Z",
                 "filePath": "/en/identities/sublayerio.md"
               },
               {
@@ -6811,18 +6840,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-13T12:36:46.071Z",
-            "component-cached-in": "1.6 ms",
-            "component-resolved-in": "1.6 ms"
+            "component-cached-at": "2021-07-13T15:21:06.687Z",
+            "component-cached-in": "393 μs",
+            "component-resolved-in": "393 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:46.072Z",
-          "_cachedIn": "2.09 ms",
-          "_resolvedIn": "2.09 ms",
+          "_cachedAt": "2021-07-13T15:21:06.687Z",
+          "_cachedIn": "633 μs",
+          "_resolvedIn": "633 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6833,17 +6862,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-13T12:36:46.072Z",
-            "component-cached-in": "2.09 ms",
-            "component-resolved-in": "2.09 ms"
+            "component-cached-at": "2021-07-13T15:21:06.687Z",
+            "component-cached-in": "633 μs",
+            "component-resolved-in": "633 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-13T12:36:46.072Z",
-              "_cachedIn": "430 μs",
-              "_resolvedIn": "430 μs",
+              "_cachedAt": "2021-07-13T15:21:06.687Z",
+              "_cachedIn": "198 μs",
+              "_resolvedIn": "198 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6887,9 +6916,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-13T12:36:46.072Z",
-                "component-cached-in": "430 μs",
-                "component-resolved-in": "430 μs"
+                "component-cached-at": "2021-07-13T15:21:06.687Z",
+                "component-cached-in": "198 μs",
+                "component-resolved-in": "198 μs"
               },
               "components": {}
             }
@@ -6898,9 +6927,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:46.071Z",
-          "_cachedIn": "1.01 ms",
-          "_resolvedIn": "1.01 ms",
+          "_cachedAt": "2021-07-13T15:21:06.686Z",
+          "_cachedIn": "220 μs",
+          "_resolvedIn": "220 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -6909,9 +6938,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-13T12:36:46.071Z",
-            "component-cached-in": "1.01 ms",
-            "component-resolved-in": "1.01 ms"
+            "component-cached-at": "2021-07-13T15:21:06.686Z",
+            "component-cached-in": "220 μs",
+            "component-resolved-in": "220 μs"
           },
           "components": {}
         }
@@ -6920,9 +6949,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:46.071Z",
-      "_cachedIn": "2.1 ms",
-      "_resolvedIn": "2.1 ms",
+      "_cachedAt": "2021-07-13T15:21:06.686Z",
+      "_cachedIn": "456 μs",
+      "_resolvedIn": "456 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -6950,18 +6979,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-13T12:36:46.071Z",
-        "component-cached-in": "2.1 ms",
-        "component-resolved-in": "2.1 ms"
+        "component-cached-at": "2021-07-13T15:21:06.686Z",
+        "component-cached-in": "456 μs",
+        "component-resolved-in": "456 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:46.070Z",
-      "_cachedIn": "1.25 ms",
-      "_resolvedIn": "1.25 ms",
+      "_cachedAt": "2021-07-13T15:21:06.686Z",
+      "_cachedIn": "262 μs",
+      "_resolvedIn": "262 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -6973,18 +7002,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-13T12:36:46.070Z",
-        "component-cached-in": "1.25 ms",
-        "component-resolved-in": "1.25 ms"
+        "component-cached-at": "2021-07-13T15:21:06.686Z",
+        "component-cached-in": "262 μs",
+        "component-resolved-in": "262 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:46.071Z",
-      "_cachedIn": "2.1 ms",
-      "_resolvedIn": "2.1 ms",
+      "_cachedAt": "2021-07-13T15:21:06.686Z",
+      "_cachedIn": "456 μs",
+      "_resolvedIn": "456 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7003,9 +7032,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-13T12:36:46.071Z",
-        "component-cached-in": "2.1 ms",
-        "component-resolved-in": "2.1 ms"
+        "component-cached-at": "2021-07-13T15:21:06.686Z",
+        "component-cached-in": "456 μs",
+        "component-resolved-in": "456 μs"
       },
       "components": {}
     }

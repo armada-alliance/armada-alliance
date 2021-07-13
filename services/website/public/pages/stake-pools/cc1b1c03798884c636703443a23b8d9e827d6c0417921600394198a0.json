@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolDetailPage\",\"version\":1},\"props\":{\"id\":\"cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0\",\"language\":\"en\",\"slug\":\"/stake-pools/cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0\",\"url\":\"https:///website.codespace1.sublayer.io/stake-pools/cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0\",\"origin\":\"/stake-pools/cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0\",\"title\":\"ADASRN (SRN)\",\"description\":\"Growing wealth together. We keep costs low for the community with a 1% margin.\",\"aliases\":null,\"keywords\":null,\"template\":\"PoolDetailPage\",\"identities\":[{\"id\":\"sayshar-srn\",\"role\":\"spo\"}],\"image\":\"https://sayshar.github.io/ADASRN_1024x1024.png\",\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/stake-pools/cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0.md\",\"ticker\":\"SRN\",\"memberSince\":\"2021-05-01T00:00:00.000Z\",\"body\":\"\",\"mdxSource\":{\"compiledSource\":\"var M=Object.defineProperty,X=Object.defineProperties;var c=Object.getOwnPropertyDescriptors;var u=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,a=Object.prototype.propertyIsEnumerable;var s=(o,t,n)=>t in o?M(o,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):o[t]=n,p=(o,t)=>{for(var n in t||(t={}))r.call(t,n)&&s(o,n,t[n]);if(u)for(var n of u(t))a.call(t,n)&&s(o,n,t[n]);return o},y=(o,t)=>X(o,c(t));var D=(o,t)=>{var n={};for(var e in o)r.call(o,e)&&t.indexOf(e)<0&&(n[e]=o[e]);if(o!=null&&u)for(var e of u(o))t.indexOf(e)<0&&a.call(o,e)&&(n[e]=o[e]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var e=n,{components:o}=e,t=D(e,[\\\"components\\\"]);return mdx(MDXLayout,y(p(p({},layoutProps),t),{components:o,mdxType:\\\"MDXLayout\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-13T12:36:45.315Z",
-  "_cachedIn": "4.96 ms",
-  "_resolvedIn": "4.96 ms",
+  "_cachedAt": "2021-07-13T15:21:06.184Z",
+  "_cachedIn": "1.53 ms",
+  "_resolvedIn": "1.53 ms",
   "id": "PoolDetailPage",
   "type": "PoolDetailPage",
   "status": "resolved",
@@ -185,17 +185,17 @@
   "attrs": {
     "component-type": "PoolDetailPage",
     "component-id": "PoolDetailPage",
-    "component-cached-at": "2021-07-13T12:36:45.315Z",
-    "component-cached-in": "4.96 ms",
-    "component-resolved-in": "4.96 ms"
+    "component-cached-at": "2021-07-13T15:21:06.184Z",
+    "component-cached-in": "1.53 ms",
+    "component-resolved-in": "1.53 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:45.314Z",
-      "_cachedIn": "4.12 ms",
-      "_resolvedIn": "4.12 ms",
+      "_cachedAt": "2021-07-13T15:21:06.184Z",
+      "_cachedIn": "1.14 ms",
+      "_resolvedIn": "1.14 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -204,24 +204,24 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-13T12:36:45.314Z",
-        "component-cached-in": "4.12 ms",
-        "component-resolved-in": "4.12 ms"
+        "component-cached-at": "2021-07-13T15:21:06.184Z",
+        "component-cached-in": "1.14 ms",
+        "component-resolved-in": "1.14 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:45.314Z",
-          "_cachedIn": "1.87 ms",
-          "_resolvedIn": "1.87 ms",
+          "_cachedAt": "2021-07-13T15:21:06.183Z",
+          "_cachedIn": "471 μs",
+          "_resolvedIn": "471 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
           "error": null,
           "props": {
             "schema": {
-              "createdAt": "2021-07-13T12:36:35.016Z",
+              "createdAt": "2021-07-13T15:20:55.169Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -822,6 +822,35 @@
                 "filePath": "/en/guides/run-a-cardano-node.md"
               },
               {
+                "id": "setup-a-nami-delegate-button-on-your-website",
+                "language": "en",
+                "slug": "/guides/setup-a-nami-delegate-button-on-your-website",
+                "url": "https:///website.codespace1.sublayer.io/guides/setup-a-nami-delegate-button-on-your-website",
+                "origin": "/guides/setup-a-nami-delegate-button-on-your-website",
+                "title": "Setup a Nami delegate button on your website",
+                "description": "A guide on how to setup a button that allows your visitors to delegate to your pool straight from your website.",
+                "aliases": null,
+                "keywords": [
+                  "Delegate",
+                  "Nami Wallet",
+                  "JavaScript",
+                  "Marketing"
+                ],
+                "template": "GuideDetailPage",
+                "identities": [
+                  {
+                    "id": "alessandro-berry",
+                    "role": "author"
+                  },
+                  {
+                    "id": "sublayerio",
+                    "role": "author"
+                  }
+                ],
+                "icon": "❤️",
+                "filePath": "/en/guides/setup-a-nami-delegate-button-on-your-website.md"
+              },
+              {
                 "id": "guides",
                 "language": "en",
                 "slug": "/guides",
@@ -1260,7 +1289,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/sublayerio.png",
-                "updatedAt": "2021-06-25T18:07:19.000Z",
+                "updatedAt": "2021-07-13T13:35:37.000Z",
                 "filePath": "/en/identities/sublayerio.md"
               },
               {
@@ -6951,18 +6980,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-13T12:36:45.314Z",
-            "component-cached-in": "1.87 ms",
-            "component-resolved-in": "1.87 ms"
+            "component-cached-at": "2021-07-13T15:21:06.183Z",
+            "component-cached-in": "471 μs",
+            "component-resolved-in": "471 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:45.314Z",
-          "_cachedIn": "2.36 ms",
-          "_resolvedIn": "2.36 ms",
+          "_cachedAt": "2021-07-13T15:21:06.183Z",
+          "_cachedIn": "583 μs",
+          "_resolvedIn": "583 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6973,17 +7002,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-13T12:36:45.314Z",
-            "component-cached-in": "2.36 ms",
-            "component-resolved-in": "2.36 ms"
+            "component-cached-at": "2021-07-13T15:21:06.183Z",
+            "component-cached-in": "583 μs",
+            "component-resolved-in": "583 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-13T12:36:45.314Z",
-              "_cachedIn": "388 μs",
-              "_resolvedIn": "388 μs",
+              "_cachedAt": "2021-07-13T15:21:06.183Z",
+              "_cachedIn": "134 μs",
+              "_resolvedIn": "134 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7027,9 +7056,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-13T12:36:45.314Z",
-                "component-cached-in": "388 μs",
-                "component-resolved-in": "388 μs"
+                "component-cached-at": "2021-07-13T15:21:06.183Z",
+                "component-cached-in": "134 μs",
+                "component-resolved-in": "134 μs"
               },
               "components": {}
             }
@@ -7038,9 +7067,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:45.313Z",
-          "_cachedIn": "1.01 ms",
-          "_resolvedIn": "1.01 ms",
+          "_cachedAt": "2021-07-13T15:21:06.183Z",
+          "_cachedIn": "298 μs",
+          "_resolvedIn": "298 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7049,9 +7078,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-13T12:36:45.313Z",
-            "component-cached-in": "1.01 ms",
-            "component-resolved-in": "1.01 ms"
+            "component-cached-at": "2021-07-13T15:21:06.183Z",
+            "component-cached-in": "298 μs",
+            "component-resolved-in": "298 μs"
           },
           "components": {}
         }
@@ -7060,9 +7089,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:45.314Z",
-      "_cachedIn": "3.14 ms",
-      "_resolvedIn": "3.14 ms",
+      "_cachedAt": "2021-07-13T15:21:06.183Z",
+      "_cachedIn": "907 μs",
+      "_resolvedIn": "907 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7091,18 +7120,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-13T12:36:45.314Z",
-        "component-cached-in": "3.14 ms",
-        "component-resolved-in": "3.14 ms"
+        "component-cached-at": "2021-07-13T15:21:06.183Z",
+        "component-cached-in": "907 μs",
+        "component-resolved-in": "907 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:45.313Z",
-      "_cachedIn": "2.15 ms",
-      "_resolvedIn": "2.15 ms",
+      "_cachedAt": "2021-07-13T15:21:06.183Z",
+      "_cachedIn": "673 μs",
+      "_resolvedIn": "673 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7113,18 +7142,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-13T12:36:45.313Z",
-        "component-cached-in": "2.15 ms",
-        "component-resolved-in": "2.15 ms"
+        "component-cached-at": "2021-07-13T15:21:06.183Z",
+        "component-cached-in": "673 μs",
+        "component-resolved-in": "673 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:45.314Z",
-      "_cachedIn": "3.14 ms",
-      "_resolvedIn": "3.14 ms",
+      "_cachedAt": "2021-07-13T15:21:06.183Z",
+      "_cachedIn": "904 μs",
+      "_resolvedIn": "904 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7143,18 +7172,18 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-13T12:36:45.314Z",
-        "component-cached-in": "3.14 ms",
-        "component-resolved-in": "3.14 ms"
+        "component-cached-at": "2021-07-13T15:21:06.183Z",
+        "component-cached-in": "904 μs",
+        "component-resolved-in": "904 μs"
       },
       "components": {}
     },
     "DelegationSection": {
       "_cacheKey": "{\"component\":{\"type\":\"DelegationSection\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:45.313Z",
-      "_cachedIn": "2.16 ms",
-      "_resolvedIn": "2.16 ms",
+      "_cachedAt": "2021-07-13T15:21:06.183Z",
+      "_cachedIn": "669 μs",
+      "_resolvedIn": "669 μs",
       "id": "DelegationSection",
       "type": "DelegationSection",
       "status": "resolved",
@@ -7174,11 +7203,11 @@
             "ticker": "SBLYR",
             "addr": "pool1sfjdu0xmz7vdmp6cufxd55gprp95g4p703zzr3upt70dst0fur2",
             "website": "https://pool.sublayer.io",
-            "totalStake": "1670629492297",
+            "totalStake": "1676536054567",
             "blocksLifetime": "6",
             "delegators": "22",
             "pledge": "25000000000",
-            "pledged": "30091155508",
+            "pledged": "35997717778",
             "taxRatio": "0.01",
             "roa": "2.5",
             "memberSince": "2021-04-18T00:00:00.000Z",
@@ -7272,7 +7301,7 @@
             "ticker": "PIADA",
             "addr": "pool1hrv8gtrm0dgjg6zyss5uwa4nkruzfnh5vrdkr2sayj7x2nw6mjc",
             "website": "https://piada.io",
-            "totalStake": "86199233082",
+            "totalStake": "86198880080",
             "blocksLifetime": "5",
             "delegators": "18",
             "pledge": "52000000000",
@@ -7419,9 +7448,9 @@
             "ticker": "OTG",
             "addr": "pool1eqj3dzpkcklc2r0v8pt8adrhrshq8m4zsev072ga7a52uj5wv5c",
             "website": "https://adamantium.online",
-            "totalStake": "15617451937977",
+            "totalStake": "15616941709088",
             "blocksLifetime": "212",
-            "delegators": "39",
+            "delegators": "38",
             "pledge": "500000000000",
             "pledged": "512738540974",
             "taxRatio": "0.0125",
@@ -7550,7 +7579,7 @@
             "ticker": "BERRY",
             "addr": "pool19f6guwy97mmnxg9dz65rxyj8hq07qxud886hamyu4fgfz7dj9gl",
             "website": "https://pipool.online",
-            "totalStake": "3070859152790",
+            "totalStake": "3069823911373",
             "blocksLifetime": "114",
             "delegators": "247",
             "pledge": "450000000000",
@@ -8301,9 +8330,9 @@
             "ticker": "OYSTR",
             "addr": "pool1l6aeyn35nkqkn9lqqlwqnpraakdzuukjrqprcrj3sctk6hhe32k",
             "website": "https://twitter.com/OystrPool",
-            "totalStake": "20614376493291",
+            "totalStake": "20638044440258",
             "blocksLifetime": "255",
-            "delegators": "211",
+            "delegators": "212",
             "pledge": "555400000000",
             "pledged": "568919337986",
             "taxRatio": "0.03",
@@ -9364,7 +9393,7 @@
             "ticker": "AMDLO",
             "addr": "pool1yucv57dxpvan72dhpx7nnssavm9jeql9gswy08m4t59r6cshny6",
             "website": "https://armadillo-pool.org",
-            "totalStake": "10783995442",
+            "totalStake": "10811595442",
             "blocksLifetime": "0",
             "delegators": "3",
             "pledge": "9500000000",
@@ -9489,7 +9518,7 @@
             "ticker": "MINI1",
             "addr": "pool1c0nsyh46ucuwn9xpf8jhq05zvxdnrztuncwkflrgf7quyvh82q0",
             "website": "https://www.adaministake.com",
-            "totalStake": "37309893842",
+            "totalStake": "37309709201",
             "blocksLifetime": "0",
             "delegators": "6",
             "pledge": "10000000000",
@@ -9563,7 +9592,7 @@
                 "url_png_logo": "https://github.com/jterrier84/minipool/blob/main/MINI1_logo.png?raw=true",
                 "location": "Weiningen | Zurich | Switzerland",
                 "social": {
-                  "twitter_handle": "JuL71695233",
+                  "twitter_handle": "mini1pool",
                   "telegram_handle": "mini1pool",
                   "facebook_handle": "",
                   "youtube_handle": "",
@@ -9931,7 +9960,7 @@
             "ticker": "CRYPO",
             "addr": "pool15dp6dchtfwml32ls8xuzu4u3xx6kjekc3kvn0enexefxj90hw3c",
             "website": "https://cryptopool.dev/",
-            "totalStake": "69109017203",
+            "totalStake": "69108838810",
             "blocksLifetime": "0",
             "delegators": "9",
             "pledge": "1000000000",
@@ -10566,9 +10595,9 @@
       "attrs": {
         "component-type": "DelegationSection",
         "component-id": "DelegationSection",
-        "component-cached-at": "2021-07-13T12:36:45.313Z",
-        "component-cached-in": "2.16 ms",
-        "component-resolved-in": "2.16 ms"
+        "component-cached-at": "2021-07-13T15:21:06.183Z",
+        "component-cached-in": "669 μs",
+        "component-resolved-in": "669 μs"
       },
       "components": {}
     }

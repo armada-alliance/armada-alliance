@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"satoshi-labs\",\"language\":\"en\",\"slug\":\"/terms/satoshi-labs\",\"url\":\"https:///website.codespace1.sublayer.io/terms/satoshi-labs\",\"origin\":\"/terms/satoshi-labs\",\"title\":\"SatoshiLabs\",\"description\":\"Established in late 2013, SatoshiLabs is a company full of experienced specialists founded by two of the leading personalities in the crypto community.\",\"aliases\":[\"SatoshiLabs\"],\"keywords\":[\"SatoshiLabs\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/satoshi-labs.md\",\"body\":\"Located in Prague, in the heart of Europe, the company projects tackle a wide range of topics in cryptocurrency security and accessibility. [SatoshiLabs](https://wiki.trezor.io/SatoshiLabs) are ambitious pioneers bringing new technologies and cryptography to the masses. SatoshiLabs raises public awareness about Bitcoin, cryptocurrencies and cryptography. Currently, the company team counts more than 50 highly motivated people.\\n\\nThe goal of SatoshiLabs is to support and develop new projects leading to faster adoption of Bitcoin and other cryptocurrencies. This includes developing easy and secure tools for cryptocurrency users.\",\"mdxSource\":{\"compiledSource\":\"var y=Object.defineProperty,h=Object.defineProperties;var d=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var s=Object.prototype.hasOwnProperty,i=Object.prototype.propertyIsEnumerable;var p=(e,o,t)=>o in e?y(e,o,{enumerable:!0,configurable:!0,writable:!0,value:t}):e[o]=t,n=(e,o)=>{for(var t in o||(o={}))s.call(o,t)&&p(e,t,o[t]);if(r)for(var t of r(o))i.call(o,t)&&p(e,t,o[t]);return e},c=(e,o)=>h(e,d(o));var u=(e,o)=>{var t={};for(var a in e)s.call(e,a)&&o.indexOf(a)<0&&(t[a]=e[a]);if(e!=null&&r)for(var a of r(e))o.indexOf(a)<0&&i.call(e,a)&&(t[a]=e[a]);return t};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(t){var a=t,{components:e}=a,o=u(a,[\\\"components\\\"]);return mdx(MDXLayout,c(n(n({},layoutProps),o),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"Located in Prague, in the heart of Europe, the company projects tackle a wide range of topics in cryptocurrency security and accessibility. \\\",mdx(\\\"a\\\",n({parentName:\\\"p\\\"},{href:\\\"https://wiki.trezor.io/SatoshiLabs\\\"}),\\\"SatoshiLabs\\\"),\\\" are ambitious pioneers bringing new technologies and cryptography to the masses. SatoshiLabs raises public awareness about Bitcoin, cryptocurrencies and cryptography. Currently, the company team counts more than 50 highly motivated people.\\\"),mdx(\\\"p\\\",null,\\\"The goal of SatoshiLabs is to support and develop new projects leading to faster adoption of Bitcoin and other cryptocurrencies. This includes developing easy and secure tools for cryptocurrency users.\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-13T12:36:46.854Z",
-  "_cachedIn": "2.31 ms",
-  "_resolvedIn": "2.31 ms",
+  "_cachedAt": "2021-07-13T15:21:07.718Z",
+  "_cachedIn": "628 μs",
+  "_resolvedIn": "628 μs",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -41,17 +41,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-13T12:36:46.854Z",
-    "component-cached-in": "2.31 ms",
-    "component-resolved-in": "2.31 ms"
+    "component-cached-at": "2021-07-13T15:21:07.718Z",
+    "component-cached-in": "628 μs",
+    "component-resolved-in": "628 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:46.853Z",
-      "_cachedIn": "1.8 ms",
-      "_resolvedIn": "1.8 ms",
+      "_cachedAt": "2021-07-13T15:21:07.718Z",
+      "_cachedIn": "463 μs",
+      "_resolvedIn": "463 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -60,24 +60,24 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-13T12:36:46.853Z",
-        "component-cached-in": "1.8 ms",
-        "component-resolved-in": "1.8 ms"
+        "component-cached-at": "2021-07-13T15:21:07.718Z",
+        "component-cached-in": "463 μs",
+        "component-resolved-in": "463 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:46.853Z",
-          "_cachedIn": "1.03 ms",
-          "_resolvedIn": "1.03 ms",
+          "_cachedAt": "2021-07-13T15:21:07.717Z",
+          "_cachedIn": "323 μs",
+          "_resolvedIn": "323 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
           "error": null,
           "props": {
             "schema": {
-              "createdAt": "2021-07-13T12:36:35.016Z",
+              "createdAt": "2021-07-13T15:20:55.169Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -678,6 +678,35 @@
                 "filePath": "/en/guides/run-a-cardano-node.md"
               },
               {
+                "id": "setup-a-nami-delegate-button-on-your-website",
+                "language": "en",
+                "slug": "/guides/setup-a-nami-delegate-button-on-your-website",
+                "url": "https:///website.codespace1.sublayer.io/guides/setup-a-nami-delegate-button-on-your-website",
+                "origin": "/guides/setup-a-nami-delegate-button-on-your-website",
+                "title": "Setup a Nami delegate button on your website",
+                "description": "A guide on how to setup a button that allows your visitors to delegate to your pool straight from your website.",
+                "aliases": null,
+                "keywords": [
+                  "Delegate",
+                  "Nami Wallet",
+                  "JavaScript",
+                  "Marketing"
+                ],
+                "template": "GuideDetailPage",
+                "identities": [
+                  {
+                    "id": "alessandro-berry",
+                    "role": "author"
+                  },
+                  {
+                    "id": "sublayerio",
+                    "role": "author"
+                  }
+                ],
+                "icon": "❤️",
+                "filePath": "/en/guides/setup-a-nami-delegate-button-on-your-website.md"
+              },
+              {
                 "id": "guides",
                 "language": "en",
                 "slug": "/guides",
@@ -1116,7 +1145,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/sublayerio.png",
-                "updatedAt": "2021-06-25T18:07:19.000Z",
+                "updatedAt": "2021-07-13T13:35:37.000Z",
                 "filePath": "/en/identities/sublayerio.md"
               },
               {
@@ -6807,18 +6836,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-13T12:36:46.853Z",
-            "component-cached-in": "1.03 ms",
-            "component-resolved-in": "1.03 ms"
+            "component-cached-at": "2021-07-13T15:21:07.717Z",
+            "component-cached-in": "323 μs",
+            "component-resolved-in": "323 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:46.853Z",
-          "_cachedIn": "1.34 ms",
-          "_resolvedIn": "1.34 ms",
+          "_cachedAt": "2021-07-13T15:21:07.718Z",
+          "_cachedIn": "382 μs",
+          "_resolvedIn": "382 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6829,17 +6858,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-13T12:36:46.853Z",
-            "component-cached-in": "1.34 ms",
-            "component-resolved-in": "1.34 ms"
+            "component-cached-at": "2021-07-13T15:21:07.718Z",
+            "component-cached-in": "382 μs",
+            "component-resolved-in": "382 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-13T12:36:46.853Z",
-              "_cachedIn": "316 μs",
-              "_resolvedIn": "316 μs",
+              "_cachedAt": "2021-07-13T15:21:07.718Z",
+              "_cachedIn": "61 μs",
+              "_resolvedIn": "61 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6883,9 +6912,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-13T12:36:46.853Z",
-                "component-cached-in": "316 μs",
-                "component-resolved-in": "316 μs"
+                "component-cached-at": "2021-07-13T15:21:07.718Z",
+                "component-cached-in": "61 μs",
+                "component-resolved-in": "61 μs"
               },
               "components": {}
             }
@@ -6894,9 +6923,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:46.853Z",
-          "_cachedIn": "565 μs",
-          "_resolvedIn": "565 μs",
+          "_cachedAt": "2021-07-13T15:21:07.717Z",
+          "_cachedIn": "173 μs",
+          "_resolvedIn": "173 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -6905,9 +6934,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-13T12:36:46.853Z",
-            "component-cached-in": "565 μs",
-            "component-resolved-in": "565 μs"
+            "component-cached-at": "2021-07-13T15:21:07.717Z",
+            "component-cached-in": "173 μs",
+            "component-resolved-in": "173 μs"
           },
           "components": {}
         }
@@ -6916,9 +6945,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:46.853Z",
-      "_cachedIn": "1.17 ms",
-      "_resolvedIn": "1.17 ms",
+      "_cachedAt": "2021-07-13T15:21:07.717Z",
+      "_cachedIn": "338 μs",
+      "_resolvedIn": "338 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -6946,18 +6975,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-13T12:36:46.853Z",
-        "component-cached-in": "1.17 ms",
-        "component-resolved-in": "1.17 ms"
+        "component-cached-at": "2021-07-13T15:21:07.717Z",
+        "component-cached-in": "338 μs",
+        "component-resolved-in": "338 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:46.852Z",
-      "_cachedIn": "636 μs",
-      "_resolvedIn": "636 μs",
+      "_cachedAt": "2021-07-13T15:21:07.717Z",
+      "_cachedIn": "127 μs",
+      "_resolvedIn": "127 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -6969,18 +6998,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-13T12:36:46.852Z",
-        "component-cached-in": "636 μs",
-        "component-resolved-in": "636 μs"
+        "component-cached-at": "2021-07-13T15:21:07.717Z",
+        "component-cached-in": "127 μs",
+        "component-resolved-in": "127 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:46.853Z",
-      "_cachedIn": "1.16 ms",
-      "_resolvedIn": "1.16 ms",
+      "_cachedAt": "2021-07-13T15:21:07.717Z",
+      "_cachedIn": "341 μs",
+      "_resolvedIn": "341 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -6999,9 +7028,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-13T12:36:46.853Z",
-        "component-cached-in": "1.16 ms",
-        "component-resolved-in": "1.16 ms"
+        "component-cached-at": "2021-07-13T15:21:07.717Z",
+        "component-cached-in": "341 μs",
+        "component-resolved-in": "341 μs"
       },
       "components": {}
     }

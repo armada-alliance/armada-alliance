@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"cardano\",\"language\":\"en\",\"slug\":\"/terms/cardano\",\"url\":\"https:///website.codespace1.sublayer.io/terms/cardano\",\"origin\":\"/terms/cardano\",\"title\":\"Cardano\",\"description\":\"Cardano is a proof-of-stake blockchain platform: the first to be founded on peer-reviewed research and developed through evidence-based methods.\",\"aliases\":[\"Cardano\",\"Cardano blockchain\",\"Cardano Cryptocurrency\",\"ADA\"],\"keywords\":[\"Cardano\",\"Blockchain\",\"altcoin\",\"cryptocurrency\",\"ada\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/cardano.md\",\"body\":\"It combines pioneering technologies to provide unparalleled security and sustainability to decentralized applications, systems, and societies.\\n\\nWith a leading team of engineers, Cardano exists to redistribute power from unaccountable structures to the margins – to individuals – and be an enabling force for positive change and progress. \\n\\nRead our blog [\\\"What is Cardano\\\"](/blogs/what-is-cardano) to learn more.\",\"mdxSource\":{\"compiledSource\":\"var c=Object.defineProperty,l=Object.defineProperties;var g=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var p=(e,o,t)=>o in e?c(e,o,{enumerable:!0,configurable:!0,writable:!0,value:t}):e[o]=t,i=(e,o)=>{for(var t in o||(o={}))r.call(o,t)&&p(e,t,o[t]);if(n)for(var t of n(o))s.call(o,t)&&p(e,t,o[t]);return e},d=(e,o)=>l(e,g(o));var u=(e,o)=>{var t={};for(var a in e)r.call(e,a)&&o.indexOf(a)<0&&(t[a]=e[a]);if(e!=null&&n)for(var a of n(e))o.indexOf(a)<0&&s.call(e,a)&&(t[a]=e[a]);return t};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(t){var a=t,{components:e}=a,o=u(a,[\\\"components\\\"]);return mdx(MDXLayout,d(i(i({},layoutProps),o),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"It combines pioneering technologies to provide unparalleled security and sustainability to decentralized applications, systems, and societies.\\\"),mdx(\\\"p\\\",null,\\\"With a leading team of engineers, Cardano exists to redistribute power from unaccountable structures to the margins \\\\u2013 to individuals \\\\u2013 and be an enabling force for positive change and progress. \\\"),mdx(\\\"p\\\",null,\\\"Read our blog \\\",mdx(\\\"a\\\",i({parentName:\\\"p\\\"},{href:\\\"/blogs/what-is-cardano\\\"}),'\\\"What is Cardano\\\"'),\\\" to learn more.\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-13T12:36:46.072Z",
-  "_cachedIn": "4.57 ms",
-  "_resolvedIn": "4.57 ms",
+  "_cachedAt": "2021-07-13T15:21:06.573Z",
+  "_cachedIn": "4.8 ms",
+  "_resolvedIn": "4.8 ms",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -48,17 +48,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-13T12:36:46.072Z",
-    "component-cached-in": "4.57 ms",
-    "component-resolved-in": "4.57 ms"
+    "component-cached-at": "2021-07-13T15:21:06.573Z",
+    "component-cached-in": "4.8 ms",
+    "component-resolved-in": "4.8 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:46.072Z",
-      "_cachedIn": "2.97 ms",
-      "_resolvedIn": "2.97 ms",
+      "_cachedAt": "2021-07-13T15:21:06.573Z",
+      "_cachedIn": "4.6 ms",
+      "_resolvedIn": "4.6 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -67,24 +67,24 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-13T12:36:46.072Z",
-        "component-cached-in": "2.97 ms",
-        "component-resolved-in": "2.97 ms"
+        "component-cached-at": "2021-07-13T15:21:06.573Z",
+        "component-cached-in": "4.6 ms",
+        "component-resolved-in": "4.6 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:46.071Z",
-          "_cachedIn": "1.55 ms",
-          "_resolvedIn": "1.55 ms",
+          "_cachedAt": "2021-07-13T15:21:06.569Z",
+          "_cachedIn": "429 μs",
+          "_resolvedIn": "429 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
           "error": null,
           "props": {
             "schema": {
-              "createdAt": "2021-07-13T12:36:35.016Z",
+              "createdAt": "2021-07-13T15:20:55.169Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -685,6 +685,35 @@
                 "filePath": "/en/guides/run-a-cardano-node.md"
               },
               {
+                "id": "setup-a-nami-delegate-button-on-your-website",
+                "language": "en",
+                "slug": "/guides/setup-a-nami-delegate-button-on-your-website",
+                "url": "https:///website.codespace1.sublayer.io/guides/setup-a-nami-delegate-button-on-your-website",
+                "origin": "/guides/setup-a-nami-delegate-button-on-your-website",
+                "title": "Setup a Nami delegate button on your website",
+                "description": "A guide on how to setup a button that allows your visitors to delegate to your pool straight from your website.",
+                "aliases": null,
+                "keywords": [
+                  "Delegate",
+                  "Nami Wallet",
+                  "JavaScript",
+                  "Marketing"
+                ],
+                "template": "GuideDetailPage",
+                "identities": [
+                  {
+                    "id": "alessandro-berry",
+                    "role": "author"
+                  },
+                  {
+                    "id": "sublayerio",
+                    "role": "author"
+                  }
+                ],
+                "icon": "❤️",
+                "filePath": "/en/guides/setup-a-nami-delegate-button-on-your-website.md"
+              },
+              {
                 "id": "guides",
                 "language": "en",
                 "slug": "/guides",
@@ -1123,7 +1152,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/sublayerio.png",
-                "updatedAt": "2021-06-25T18:07:19.000Z",
+                "updatedAt": "2021-07-13T13:35:37.000Z",
                 "filePath": "/en/identities/sublayerio.md"
               },
               {
@@ -6814,18 +6843,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-13T12:36:46.071Z",
-            "component-cached-in": "1.55 ms",
-            "component-resolved-in": "1.55 ms"
+            "component-cached-at": "2021-07-13T15:21:06.569Z",
+            "component-cached-in": "429 μs",
+            "component-resolved-in": "429 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:46.072Z",
-          "_cachedIn": "2.06 ms",
-          "_resolvedIn": "2.06 ms",
+          "_cachedAt": "2021-07-13T15:21:06.573Z",
+          "_cachedIn": "4.43 ms",
+          "_resolvedIn": "4.43 ms",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6836,17 +6865,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-13T12:36:46.072Z",
-            "component-cached-in": "2.06 ms",
-            "component-resolved-in": "2.06 ms"
+            "component-cached-at": "2021-07-13T15:21:06.573Z",
+            "component-cached-in": "4.43 ms",
+            "component-resolved-in": "4.43 ms"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-13T12:36:46.072Z",
-              "_cachedIn": "399 μs",
-              "_resolvedIn": "399 μs",
+              "_cachedAt": "2021-07-13T15:21:06.573Z",
+              "_cachedIn": "4.03 ms",
+              "_resolvedIn": "4.03 ms",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6890,9 +6919,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-13T12:36:46.072Z",
-                "component-cached-in": "399 μs",
-                "component-resolved-in": "399 μs"
+                "component-cached-at": "2021-07-13T15:21:06.573Z",
+                "component-cached-in": "4.03 ms",
+                "component-resolved-in": "4.03 ms"
               },
               "components": {}
             }
@@ -6901,9 +6930,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T12:36:46.070Z",
-          "_cachedIn": "759 μs",
-          "_resolvedIn": "759 μs",
+          "_cachedAt": "2021-07-13T15:21:06.569Z",
+          "_cachedIn": "262 μs",
+          "_resolvedIn": "262 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -6912,9 +6941,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-13T12:36:46.070Z",
-            "component-cached-in": "759 μs",
-            "component-resolved-in": "759 μs"
+            "component-cached-at": "2021-07-13T15:21:06.569Z",
+            "component-cached-in": "262 μs",
+            "component-resolved-in": "262 μs"
           },
           "components": {}
         }
@@ -6923,9 +6952,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:46.071Z",
-      "_cachedIn": "2.01 ms",
-      "_resolvedIn": "2.01 ms",
+      "_cachedAt": "2021-07-13T15:21:06.569Z",
+      "_cachedIn": "514 μs",
+      "_resolvedIn": "514 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -6953,18 +6982,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-13T12:36:46.071Z",
-        "component-cached-in": "2.01 ms",
-        "component-resolved-in": "2.01 ms"
+        "component-cached-at": "2021-07-13T15:21:06.569Z",
+        "component-cached-in": "514 μs",
+        "component-resolved-in": "514 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:46.070Z",
-      "_cachedIn": "964 μs",
-      "_resolvedIn": "964 μs",
+      "_cachedAt": "2021-07-13T15:21:06.569Z",
+      "_cachedIn": "318 μs",
+      "_resolvedIn": "318 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -6976,18 +7005,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-13T12:36:46.070Z",
-        "component-cached-in": "964 μs",
-        "component-resolved-in": "964 μs"
+        "component-cached-at": "2021-07-13T15:21:06.569Z",
+        "component-cached-in": "318 μs",
+        "component-resolved-in": "318 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T12:36:46.071Z",
-      "_cachedIn": "2.01 ms",
-      "_resolvedIn": "2.01 ms",
+      "_cachedAt": "2021-07-13T15:21:06.569Z",
+      "_cachedIn": "515 μs",
+      "_resolvedIn": "515 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7006,9 +7035,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-13T12:36:46.071Z",
-        "component-cached-in": "2.01 ms",
-        "component-resolved-in": "2.01 ms"
+        "component-cached-at": "2021-07-13T15:21:06.569Z",
+        "component-cached-in": "515 μs",
+        "component-resolved-in": "515 μs"
       },
       "components": {}
     }
