@@ -1,20 +1,20 @@
 import CoinSelection from "./coinSelection";
 import Loader from "./loader";
 
-export const blockfrostRequest = async (endpoint, headers, body) => {
+export const blockfrostRequest = ctx => async (endpoint, headers, body) => {
   return await fetch(
     `https://cardano-mainnet.blockfrost.io/api/v0` + endpoint,
     {
-      headers: { project_id: "3Ojodngr06BReeSN9lhsow0hypKf8gu5" },
+      headers: { project_id: ctx.blockfrost_project_id },
     }
   ).then((res) => res.json());
 };
 
-const initTx = async () => {
+const initTx = ctx => async () => {
   await Loader.load();
-  const latest_block = await blockfrostRequest("/blocks/latest");
+  const latest_block = await blockfrostRequest(ctx)("/blocks/latest");
 
-  const p = await blockfrostRequest(`/epochs/${latest_block.epoch}/parameters`);
+  const p = await blockfrostRequest(ctx)(`/epochs/${latest_block.epoch}/parameters`);
 
   return {
     linearFee: Loader.Cardano.LinearFee.new(
@@ -28,9 +28,13 @@ const initTx = async () => {
   };
 };
 
-export const delegationTx = async (delegation, targetPoolId) => {
+export const getPoolId = (poolId) => {
+  return Buffer.from(Loader.Cardano.Ed25519KeyHash.from_bech32(poolId).to_bytes(), "hex").toString("hex")
+}
+
+export const delegationTx = ctx => async (delegation, targetPoolId) => {
   await Loader.load();
-  const protocolParameters = await initTx();
+  const protocolParameters = await initTx(ctx)();
   let address = (await window.cardano.getUsedAddresses())[0];
   address = Loader.Cardano.Address.from_bytes(Buffer.from(address, "hex"));
   const rewardAddress = await window.cardano.getRewardAddress();
@@ -177,13 +181,13 @@ export const submitTx = async (signedTx) => {
   return txHash;
 };
 
-export const getDelegation = async () => {
+export const getDelegation = ctx => async () => {
   await Loader.load();
   const rawAddress = await window.cardano.getRewardAddress();
   const rewardAddress = Loader.Cardano.Address.from_bytes(
     Buffer.from(rawAddress, "hex")
   ).to_bech32();
-  const stake = await blockfrostRequest(`/accounts/${rewardAddress}`);
+  const stake = await blockfrostRequest(ctx)(`/accounts/${rewardAddress}`);
   if (!stake || stake.error || !stake.pool_id) return {};
   return stake;
 };

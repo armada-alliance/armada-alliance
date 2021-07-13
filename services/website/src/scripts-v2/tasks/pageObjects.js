@@ -90,11 +90,13 @@ async function main() {
             }
 
 
-            const pageData = await getPageData(page)
+            if (page.filePath) {
+                const pageData = await getPageData(page)
 
-            page = {
-                ...page,
-                ...pageData
+                page = {
+                    ...page,
+                    ...pageData
+                }
             }
 
             const data = await getDataForComponent(ctx)({

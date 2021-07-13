@@ -18,21 +18,23 @@ async function main() {
 
     // An array with your links
     // const links = [{ url: '/page-1/', changefreq: 'daily', priority: 0.3 }]
-    const links = pages.map(page => ({
-        url: page.slug,
-        // links: [
-        //     { lang: 'en', url: 'http://test.com/page-1/' },
-        //     { lang: 'ja', url: 'http://test.com/page-1/ja/' }
-        //   ],        
-        links: pages.filter(p => p.origin === page.origin).map(page => ({
-            lang: page.language,
-            url: process.env.HOST + page.slug
-        })),
-        img: page.image,
-        lastmod: page.updatedAt,
-        changefreq: templatesById[page.template].changefreq,
-        priority: templatesById[page.template].priority
-    }))
+    const links = pages
+        .filter(page => !page.hidden)
+        .map(page => ({
+            url: page.slug,
+            // links: [
+            //     { lang: 'en', url: 'http://test.com/page-1/' },
+            //     { lang: 'ja', url: 'http://test.com/page-1/ja/' }
+            //   ],        
+            links: pages.filter(p => p.origin === page.origin).map(page => ({
+                lang: page.language,
+                url: process.env.HOST + page.slug
+            })),
+            img: page.image,
+            lastmod: page.updatedAt,
+            changefreq: templatesById[page.template].changefreq,
+            priority: templatesById[page.template].priority
+        }))
 
     // Create a stream to write to
     const stream = new SitemapStream({ hostname: process.env.HOST })

@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"saturation\",\"language\":\"en\",\"slug\":\"/terms/saturation\",\"url\":\"https:///website.codespace1.sublayer.io/terms/saturation\",\"origin\":\"/terms/saturation\",\"title\":\"Saturation\",\"description\":\"A term used to indicate that a particular stake pool has more stake delegated to it than is ideal for the network.\",\"aliases\":[\"cardano stake pool saturation point\",\"cardano stake pool saturation\",\"cardano stake pool over saturated pools\",\"cardano stake pool over saturation\"],\"keywords\":[\"cardano\",\"stake\",\"pool\",\"over\",\"saturated\",\"saturation\",\"point\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/saturation.md\",\"body\":\"Saturation is displayed as a percentage. Once a stake pool reaches 100% saturation, it will offer diminishing rewards.The saturation mechanism was designed to prevent centralization by encouraging delegators to delegate to different stake pools, and operators to set up alternative pools so that they can continue earning maximum rewards. Saturation, therefore, exists to preserve the interests of both ada holders delegating their stake and stake pool operators.\",\"mdxSource\":{\"compiledSource\":\"var l=Object.defineProperty,c=Object.defineProperties;var h=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var s=Object.prototype.hasOwnProperty,i=Object.prototype.propertyIsEnumerable;var p=(e,t,a)=>t in e?l(e,t,{enumerable:!0,configurable:!0,writable:!0,value:a}):e[t]=a,r=(e,t)=>{for(var a in t||(t={}))s.call(t,a)&&p(e,a,t[a]);if(n)for(var a of n(t))i.call(t,a)&&p(e,a,t[a]);return e},d=(e,t)=>c(e,h(t));var u=(e,t)=>{var a={};for(var o in e)s.call(e,o)&&t.indexOf(o)<0&&(a[o]=e[o]);if(e!=null&&n)for(var o of n(e))t.indexOf(o)<0&&i.call(e,o)&&(a[o]=e[o]);return a};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(a){var o=a,{components:e}=o,t=u(o,[\\\"components\\\"]);return mdx(MDXLayout,d(r(r({},layoutProps),t),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"Saturation is displayed as a percentage. Once a stake pool reaches 100% saturation, it will offer diminishing rewards.The saturation mechanism was designed to prevent centralization by encouraging delegators to delegate to different stake pools, and operators to set up alternative pools so that they can continue earning maximum rewards. Saturation, therefore, exists to preserve the interests of both ada holders delegating their stake and stake pool operators.\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-13T09:13:30.722Z",
-  "_cachedIn": "1.18 ms",
-  "_resolvedIn": "1.18 ms",
+  "_cachedAt": "2021-07-13T12:36:46.932Z",
+  "_cachedIn": "216 μs",
+  "_resolvedIn": "216 μs",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -50,17 +50,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-13T09:13:30.722Z",
-    "component-cached-in": "1.18 ms",
-    "component-resolved-in": "1.18 ms"
+    "component-cached-at": "2021-07-13T12:36:46.932Z",
+    "component-cached-in": "216 μs",
+    "component-resolved-in": "216 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T09:13:30.722Z",
-      "_cachedIn": "885 μs",
-      "_resolvedIn": "885 μs",
+      "_cachedAt": "2021-07-13T12:36:46.932Z",
+      "_cachedIn": "174 μs",
+      "_resolvedIn": "174 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -69,24 +69,24 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-13T09:13:30.722Z",
-        "component-cached-in": "885 μs",
-        "component-resolved-in": "885 μs"
+        "component-cached-at": "2021-07-13T12:36:46.932Z",
+        "component-cached-in": "174 μs",
+        "component-resolved-in": "174 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T09:13:30.721Z",
-          "_cachedIn": "557 μs",
-          "_resolvedIn": "557 μs",
+          "_cachedAt": "2021-07-13T12:36:46.932Z",
+          "_cachedIn": "114 μs",
+          "_resolvedIn": "114 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
           "error": null,
           "props": {
             "schema": {
-              "createdAt": "2021-07-13T09:13:17.117Z",
+              "createdAt": "2021-07-13T12:36:35.016Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -419,6 +419,13 @@
                 "filePath": "/nl/blogs/wat-is-staken.md"
               },
               {
+                "language": "en",
+                "title": "Delegation widget",
+                "slug": "/delegation-widget",
+                "template": "DelegationWidgetPage",
+                "hidden": true
+              },
+              {
                 "id": "create-collection-of-non-fungible-tokens",
                 "language": "en",
                 "slug": "/guides/create-collection-of-non-fungible-tokens",
@@ -698,11 +705,11 @@
                 "slug": "/",
                 "url": "https:///website.codespace1.sublayer.io/",
                 "origin": "/",
-                "title": "Homepage",
+                "title": "Armada Alliance",
                 "aliases": null,
                 "keywords": null,
                 "template": "HomePage",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-13T09:02:19.000Z",
                 "filePath": "/en/index.md"
               },
               {
@@ -1227,19 +1234,19 @@
                 "filePath": "/en/identities/zenent.md"
               },
               {
-                "id": "zino-hoffman",
+                "id": "zino-hofmann",
                 "language": "en",
-                "slug": "/identities/zino-hoffman",
-                "url": "https:///website.codespace1.sublayer.io/identities/zino-hoffman",
-                "origin": "/identities/zino-hoffman",
-                "title": "Zino Hoffman",
+                "slug": "/identities/zino-hofmann",
+                "url": "https:///website.codespace1.sublayer.io/identities/zino-hofmann",
+                "origin": "/identities/zino-hofmann",
+                "title": "Zino Hofmann",
                 "description": "SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-13T01:16:58.000Z",
-                "filePath": "/en/identities/zino-hoffman.md"
+                "updatedAt": "2021-07-13T10:09:34.000Z",
+                "filePath": "/en/identities/zino-hofmann.md"
               },
               {
                 "id": "zw3rk",
@@ -1403,7 +1410,7 @@
                   }
                 ],
                 "image": "https://illustratorandweb.com/ext/Pool-00000-1000x1000.png",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-13T10:18:10.000Z",
                 "filePath": "/en/stake-pools/33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4.md"
               },
               {
@@ -1650,12 +1657,12 @@
                 "template": "PoolDetailPage",
                 "identities": [
                   {
-                    "id": "zino-hoffman",
+                    "id": "zino-hofmann",
                     "role": "spo"
                   }
                 ],
                 "image": "https://cryptopool.dev/brand/logo-1024x1024.png",
-                "updatedAt": "2021-07-13T01:16:58.000Z",
+                "updatedAt": "2021-07-13T10:09:34.000Z",
                 "filePath": "/en/stake-pools/a343a6e2eb4bb7f8abf039b82e579131b56966d88d9937e679365269.md"
               },
               {
@@ -6809,18 +6816,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-13T09:13:30.721Z",
-            "component-cached-in": "557 μs",
-            "component-resolved-in": "557 μs"
+            "component-cached-at": "2021-07-13T12:36:46.932Z",
+            "component-cached-in": "114 μs",
+            "component-resolved-in": "114 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T09:13:30.722Z",
-          "_cachedIn": "712 μs",
-          "_resolvedIn": "712 μs",
+          "_cachedAt": "2021-07-13T12:36:46.932Z",
+          "_cachedIn": "139 μs",
+          "_resolvedIn": "139 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6831,17 +6838,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-13T09:13:30.722Z",
-            "component-cached-in": "712 μs",
-            "component-resolved-in": "712 μs"
+            "component-cached-at": "2021-07-13T12:36:46.932Z",
+            "component-cached-in": "139 μs",
+            "component-resolved-in": "139 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-13T09:13:30.721Z",
-              "_cachedIn": "169 μs",
-              "_resolvedIn": "169 μs",
+              "_cachedAt": "2021-07-13T12:36:46.932Z",
+              "_cachedIn": "36 μs",
+              "_resolvedIn": "36 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6885,9 +6892,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-13T09:13:30.721Z",
-                "component-cached-in": "169 μs",
-                "component-resolved-in": "169 μs"
+                "component-cached-at": "2021-07-13T12:36:46.932Z",
+                "component-cached-in": "36 μs",
+                "component-resolved-in": "36 μs"
               },
               "components": {}
             }
@@ -6896,9 +6903,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T09:13:30.721Z",
-          "_cachedIn": "303 μs",
-          "_resolvedIn": "303 μs",
+          "_cachedAt": "2021-07-13T12:36:46.932Z",
+          "_cachedIn": "83 μs",
+          "_resolvedIn": "83 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -6907,9 +6914,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-13T09:13:30.721Z",
-            "component-cached-in": "303 μs",
-            "component-resolved-in": "303 μs"
+            "component-cached-at": "2021-07-13T12:36:46.932Z",
+            "component-cached-in": "83 μs",
+            "component-resolved-in": "83 μs"
           },
           "components": {}
         }
@@ -6918,9 +6925,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T09:13:30.721Z",
-      "_cachedIn": "525 μs",
-      "_resolvedIn": "525 μs",
+      "_cachedAt": "2021-07-13T12:36:46.932Z",
+      "_cachedIn": "124 μs",
+      "_resolvedIn": "124 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -6948,18 +6955,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-13T09:13:30.721Z",
-        "component-cached-in": "525 μs",
-        "component-resolved-in": "525 μs"
+        "component-cached-at": "2021-07-13T12:36:46.932Z",
+        "component-cached-in": "124 μs",
+        "component-resolved-in": "124 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T09:13:30.721Z",
-      "_cachedIn": "293 μs",
-      "_resolvedIn": "293 μs",
+      "_cachedAt": "2021-07-13T12:36:46.932Z",
+      "_cachedIn": "63 μs",
+      "_resolvedIn": "63 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -6971,18 +6978,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-13T09:13:30.721Z",
-        "component-cached-in": "293 μs",
-        "component-resolved-in": "293 μs"
+        "component-cached-at": "2021-07-13T12:36:46.932Z",
+        "component-cached-in": "63 μs",
+        "component-resolved-in": "63 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T09:13:30.721Z",
-      "_cachedIn": "525 μs",
-      "_resolvedIn": "525 μs",
+      "_cachedAt": "2021-07-13T12:36:46.932Z",
+      "_cachedIn": "124 μs",
+      "_resolvedIn": "124 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7001,9 +7008,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-13T09:13:30.721Z",
-        "component-cached-in": "525 μs",
-        "component-resolved-in": "525 μs"
+        "component-cached-at": "2021-07-13T12:36:46.932Z",
+        "component-cached-in": "124 μs",
+        "component-resolved-in": "124 μs"
       },
       "components": {}
     }

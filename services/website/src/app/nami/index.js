@@ -1,12 +1,13 @@
-import { delegationTx, signTx, submitTx, getDelegation, blockfrostRequest } from "./transaction";
+import { getPoolId, delegationTx, signTx, submitTx, getDelegation, blockfrostRequest } from "./transaction";
 
-export default {
-  delegationTx,
+export default ctx => ({
+  delegationTx: delegationTx(ctx),
+  getPoolId,
   signTx,
   submitTx,
-  getDelegation,
-  blockfrostRequest
-};
+  getDelegation: getDelegation(ctx),
+  blockfrostRequest: blockfrostRequest(ctx)
+})
 
 /*
 example

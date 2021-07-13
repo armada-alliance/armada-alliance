@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"ASIC\",\"language\":\"en\",\"slug\":\"/terms/ASIC\",\"url\":\"https:///website.codespace1.sublayer.io/terms/ASIC\",\"origin\":\"/terms/ASIC\",\"title\":\"ASIC\",\"description\":\"An “Application Specific Integrated Circuit” is a silicon chip specifically designed to do a single task.\",\"aliases\":[\"ASIC\"],\"keywords\":[\"ASIC\",\"Application\",\"Specific\",\"Integrated\",\"Circuit\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/ASIC.md\",\"body\":\"In the case of Bitcoin, they are designed to process SHA-256 hashing problems to mine new bitcoins. ASICs are considered to be much more efficient than conventional hardware(CPUs, GPUs). Using a regular computer for Bitcoin mining is seen as unprofitable and only results in higher electricity bill\\n\",\"mdxSource\":{\"compiledSource\":\"var l=Object.defineProperty,h=Object.defineProperties;var m=Object.getOwnPropertyDescriptors;var i=Object.getOwnPropertySymbols;var s=Object.prototype.hasOwnProperty,a=Object.prototype.propertyIsEnumerable;var c=(e,n,o)=>n in e?l(e,n,{enumerable:!0,configurable:!0,writable:!0,value:o}):e[n]=o,r=(e,n)=>{for(var o in n||(n={}))s.call(n,o)&&c(e,o,n[o]);if(i)for(var o of i(n))a.call(n,o)&&c(e,o,n[o]);return e},p=(e,n)=>h(e,m(n));var u=(e,n)=>{var o={};for(var t in e)s.call(e,t)&&n.indexOf(t)<0&&(o[t]=e[t]);if(e!=null&&i)for(var t of i(e))n.indexOf(t)<0&&a.call(e,t)&&(o[t]=e[t]);return o};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(o){var t=o,{components:e}=t,n=u(t,[\\\"components\\\"]);return mdx(MDXLayout,p(r(r({},layoutProps),n),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"In the case of Bitcoin, they are designed to process SHA-256 hashing problems to mine new bitcoins. ASICs are considered to be much more efficient than conventional hardware(CPUs, GPUs). Using a regular computer for Bitcoin mining is seen as unprofitable and only results in higher electricity bill\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-13T09:13:29.418Z",
-  "_cachedIn": "2.08 ms",
-  "_resolvedIn": "2.08 ms",
+  "_cachedAt": "2021-07-13T12:36:45.634Z",
+  "_cachedIn": "4.17 ms",
+  "_resolvedIn": "4.17 ms",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -45,17 +45,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-13T09:13:29.418Z",
-    "component-cached-in": "2.08 ms",
-    "component-resolved-in": "2.08 ms"
+    "component-cached-at": "2021-07-13T12:36:45.634Z",
+    "component-cached-in": "4.17 ms",
+    "component-resolved-in": "4.17 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T09:13:29.418Z",
-      "_cachedIn": "1.4 ms",
-      "_resolvedIn": "1.4 ms",
+      "_cachedAt": "2021-07-13T12:36:45.634Z",
+      "_cachedIn": "2.87 ms",
+      "_resolvedIn": "2.87 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -64,24 +64,24 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-13T09:13:29.418Z",
-        "component-cached-in": "1.4 ms",
-        "component-resolved-in": "1.4 ms"
+        "component-cached-at": "2021-07-13T12:36:45.634Z",
+        "component-cached-in": "2.87 ms",
+        "component-resolved-in": "2.87 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T09:13:29.418Z",
-          "_cachedIn": "787 μs",
-          "_resolvedIn": "787 μs",
+          "_cachedAt": "2021-07-13T12:36:45.633Z",
+          "_cachedIn": "1.44 ms",
+          "_resolvedIn": "1.44 ms",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
           "error": null,
           "props": {
             "schema": {
-              "createdAt": "2021-07-13T09:13:17.117Z",
+              "createdAt": "2021-07-13T12:36:35.016Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -414,6 +414,13 @@
                 "filePath": "/nl/blogs/wat-is-staken.md"
               },
               {
+                "language": "en",
+                "title": "Delegation widget",
+                "slug": "/delegation-widget",
+                "template": "DelegationWidgetPage",
+                "hidden": true
+              },
+              {
                 "id": "create-collection-of-non-fungible-tokens",
                 "language": "en",
                 "slug": "/guides/create-collection-of-non-fungible-tokens",
@@ -693,11 +700,11 @@
                 "slug": "/",
                 "url": "https:///website.codespace1.sublayer.io/",
                 "origin": "/",
-                "title": "Homepage",
+                "title": "Armada Alliance",
                 "aliases": null,
                 "keywords": null,
                 "template": "HomePage",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-13T09:02:19.000Z",
                 "filePath": "/en/index.md"
               },
               {
@@ -1222,19 +1229,19 @@
                 "filePath": "/en/identities/zenent.md"
               },
               {
-                "id": "zino-hoffman",
+                "id": "zino-hofmann",
                 "language": "en",
-                "slug": "/identities/zino-hoffman",
-                "url": "https:///website.codespace1.sublayer.io/identities/zino-hoffman",
-                "origin": "/identities/zino-hoffman",
-                "title": "Zino Hoffman",
+                "slug": "/identities/zino-hofmann",
+                "url": "https:///website.codespace1.sublayer.io/identities/zino-hofmann",
+                "origin": "/identities/zino-hofmann",
+                "title": "Zino Hofmann",
                 "description": "SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-13T01:16:58.000Z",
-                "filePath": "/en/identities/zino-hoffman.md"
+                "updatedAt": "2021-07-13T10:09:34.000Z",
+                "filePath": "/en/identities/zino-hofmann.md"
               },
               {
                 "id": "zw3rk",
@@ -1398,7 +1405,7 @@
                   }
                 ],
                 "image": "https://illustratorandweb.com/ext/Pool-00000-1000x1000.png",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-13T10:18:10.000Z",
                 "filePath": "/en/stake-pools/33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4.md"
               },
               {
@@ -1645,12 +1652,12 @@
                 "template": "PoolDetailPage",
                 "identities": [
                   {
-                    "id": "zino-hoffman",
+                    "id": "zino-hofmann",
                     "role": "spo"
                   }
                 ],
                 "image": "https://cryptopool.dev/brand/logo-1024x1024.png",
-                "updatedAt": "2021-07-13T01:16:58.000Z",
+                "updatedAt": "2021-07-13T10:09:34.000Z",
                 "filePath": "/en/stake-pools/a343a6e2eb4bb7f8abf039b82e579131b56966d88d9937e679365269.md"
               },
               {
@@ -6804,18 +6811,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-13T09:13:29.418Z",
-            "component-cached-in": "787 μs",
-            "component-resolved-in": "787 μs"
+            "component-cached-at": "2021-07-13T12:36:45.633Z",
+            "component-cached-in": "1.44 ms",
+            "component-resolved-in": "1.44 ms"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T09:13:29.418Z",
-          "_cachedIn": "1.04 ms",
-          "_resolvedIn": "1.04 ms",
+          "_cachedAt": "2021-07-13T12:36:45.633Z",
+          "_cachedIn": "1.89 ms",
+          "_resolvedIn": "1.89 ms",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6826,17 +6833,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-13T09:13:29.418Z",
-            "component-cached-in": "1.04 ms",
-            "component-resolved-in": "1.04 ms"
+            "component-cached-at": "2021-07-13T12:36:45.633Z",
+            "component-cached-in": "1.89 ms",
+            "component-resolved-in": "1.89 ms"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-13T09:13:29.418Z",
-              "_cachedIn": "219 μs",
-              "_resolvedIn": "219 μs",
+              "_cachedAt": "2021-07-13T12:36:45.633Z",
+              "_cachedIn": "415 μs",
+              "_resolvedIn": "415 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6880,9 +6887,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-13T09:13:29.418Z",
-                "component-cached-in": "219 μs",
-                "component-resolved-in": "219 μs"
+                "component-cached-at": "2021-07-13T12:36:45.633Z",
+                "component-cached-in": "415 μs",
+                "component-resolved-in": "415 μs"
               },
               "components": {}
             }
@@ -6891,9 +6898,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T09:13:29.418Z",
-          "_cachedIn": "313 μs",
-          "_resolvedIn": "313 μs",
+          "_cachedAt": "2021-07-13T12:36:45.632Z",
+          "_cachedIn": "761 μs",
+          "_resolvedIn": "761 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -6902,9 +6909,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-13T09:13:29.418Z",
-            "component-cached-in": "313 μs",
-            "component-resolved-in": "313 μs"
+            "component-cached-at": "2021-07-13T12:36:45.632Z",
+            "component-cached-in": "761 μs",
+            "component-resolved-in": "761 μs"
           },
           "components": {}
         }
@@ -6913,9 +6920,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T09:13:29.418Z",
-      "_cachedIn": "891 μs",
-      "_resolvedIn": "891 μs",
+      "_cachedAt": "2021-07-13T12:36:45.633Z",
+      "_cachedIn": "1.9 ms",
+      "_resolvedIn": "1.9 ms",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -6943,18 +6950,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-13T09:13:29.418Z",
-        "component-cached-in": "891 μs",
-        "component-resolved-in": "891 μs"
+        "component-cached-at": "2021-07-13T12:36:45.633Z",
+        "component-cached-in": "1.9 ms",
+        "component-resolved-in": "1.9 ms"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T09:13:29.417Z",
-      "_cachedIn": "411 μs",
-      "_resolvedIn": "411 μs",
+      "_cachedAt": "2021-07-13T12:36:45.632Z",
+      "_cachedIn": "1.11 ms",
+      "_resolvedIn": "1.11 ms",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -6966,18 +6973,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-13T09:13:29.417Z",
-        "component-cached-in": "411 μs",
-        "component-resolved-in": "411 μs"
+        "component-cached-at": "2021-07-13T12:36:45.632Z",
+        "component-cached-in": "1.11 ms",
+        "component-resolved-in": "1.11 ms"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T09:13:29.418Z",
-      "_cachedIn": "892 μs",
-      "_resolvedIn": "892 μs",
+      "_cachedAt": "2021-07-13T12:36:45.633Z",
+      "_cachedIn": "1.9 ms",
+      "_resolvedIn": "1.9 ms",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -6996,9 +7003,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-13T09:13:29.418Z",
-        "component-cached-in": "892 μs",
-        "component-resolved-in": "892 μs"
+        "component-cached-at": "2021-07-13T12:36:45.633Z",
+        "component-cached-in": "1.9 ms",
+        "component-resolved-in": "1.9 ms"
       },
       "components": {}
     }

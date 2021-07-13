@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"BlogDetailPage\",\"version\":1},\"props\":{\"id\":\"run-a-stake-pool\",\"language\":\"en\",\"slug\":\"/blogs/run-a-stake-pool\",\"url\":\"https:///website.codespace1.sublayer.io/blogs/run-a-stake-pool\",\"origin\":\"/blogs/run-a-stake-pool\",\"title\":\"Run a stake pool\",\"description\":\"Find out if running a stake pool is something for you.\",\"aliases\":null,\"keywords\":null,\"template\":\"BlogDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/blogs/run-a-stake-pool.md\",\"body\":\"## Why run a stake pool?\\n\\n## How do I run a stake pool?\\n## Operational costs\\n## How much can I earn running a stake pool?\\n\\n<YoutubeVideo url={'https://www.youtube.com/watch?v=_ify0d5xGv8'} />\\n\",\"mdxSource\":{\"compiledSource\":\"var h=Object.defineProperty,i=Object.defineProperties;var l=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var a=Object.prototype.hasOwnProperty,p=Object.prototype.propertyIsEnumerable;var s=(o,t,e)=>t in o?h(o,t,{enumerable:!0,configurable:!0,writable:!0,value:e}):o[t]=e,u=(o,t)=>{for(var e in t||(t={}))a.call(t,e)&&s(o,e,t[e]);if(r)for(var e of r(t))p.call(t,e)&&s(o,e,t[e]);return o},c=(o,t)=>i(o,l(t));var d=(o,t)=>{var e={};for(var n in o)a.call(o,n)&&t.indexOf(n)<0&&(e[n]=o[n]);if(o!=null&&r)for(var n of r(o))t.indexOf(n)<0&&p.call(o,n)&&(e[n]=o[n]);return e};const makeShortcode=o=>function(e){return console.warn(\\\"Component \\\"+o+\\\" was not imported, exported, or provided by MDXProvider as global scope\\\"),mdx(\\\"div\\\",u({},e))},YoutubeVideo=makeShortcode(\\\"YoutubeVideo\\\"),layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(e){var n=e,{components:o}=n,t=d(n,[\\\"components\\\"]);return mdx(MDXLayout,c(u(u({},layoutProps),t),{components:o,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"h2\\\",null,\\\"Why run a stake pool?\\\"),mdx(\\\"h2\\\",null,\\\"How do I run a stake pool?\\\"),mdx(\\\"h2\\\",null,\\\"Operational costs\\\"),mdx(\\\"h2\\\",null,\\\"How much can I earn running a stake pool?\\\"),mdx(YoutubeVideo,{url:\\\"https://www.youtube.com/watch?v=_ify0d5xGv8\\\",mdxType:\\\"YoutubeVideo\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-13T09:13:28.476Z",
-  "_cachedIn": "13 ms",
-  "_resolvedIn": "13 ms",
+  "_cachedAt": "2021-07-13T12:36:44.347Z",
+  "_cachedIn": "7.83 ms",
+  "_resolvedIn": "7.83 ms",
   "id": "BlogDetailPage",
   "type": "BlogDetailPage",
   "status": "resolved",
@@ -37,17 +37,17 @@
   "attrs": {
     "component-type": "BlogDetailPage",
     "component-id": "BlogDetailPage",
-    "component-cached-at": "2021-07-13T09:13:28.476Z",
-    "component-cached-in": "13 ms",
-    "component-resolved-in": "13 ms"
+    "component-cached-at": "2021-07-13T12:36:44.347Z",
+    "component-cached-in": "7.83 ms",
+    "component-resolved-in": "7.83 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T09:13:28.475Z",
-      "_cachedIn": "8.3 ms",
-      "_resolvedIn": "8.3 ms",
+      "_cachedAt": "2021-07-13T12:36:44.347Z",
+      "_cachedIn": "2.61 ms",
+      "_resolvedIn": "2.61 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -56,24 +56,24 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-13T09:13:28.475Z",
-        "component-cached-in": "8.3 ms",
-        "component-resolved-in": "8.3 ms"
+        "component-cached-at": "2021-07-13T12:36:44.347Z",
+        "component-cached-in": "2.61 ms",
+        "component-resolved-in": "2.61 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T09:13:28.472Z",
-          "_cachedIn": "1.95 ms",
-          "_resolvedIn": "1.95 ms",
+          "_cachedAt": "2021-07-13T12:36:44.347Z",
+          "_cachedIn": "879 μs",
+          "_resolvedIn": "879 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
           "error": null,
           "props": {
             "schema": {
-              "createdAt": "2021-07-13T09:13:17.117Z",
+              "createdAt": "2021-07-13T12:36:35.016Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -406,6 +406,13 @@
                 "filePath": "/nl/blogs/wat-is-staken.md"
               },
               {
+                "language": "en",
+                "title": "Delegation widget",
+                "slug": "/delegation-widget",
+                "template": "DelegationWidgetPage",
+                "hidden": true
+              },
+              {
                 "id": "create-collection-of-non-fungible-tokens",
                 "language": "en",
                 "slug": "/guides/create-collection-of-non-fungible-tokens",
@@ -685,11 +692,11 @@
                 "slug": "/",
                 "url": "https:///website.codespace1.sublayer.io/",
                 "origin": "/",
-                "title": "Homepage",
+                "title": "Armada Alliance",
                 "aliases": null,
                 "keywords": null,
                 "template": "HomePage",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-13T09:02:19.000Z",
                 "filePath": "/en/index.md"
               },
               {
@@ -1214,19 +1221,19 @@
                 "filePath": "/en/identities/zenent.md"
               },
               {
-                "id": "zino-hoffman",
+                "id": "zino-hofmann",
                 "language": "en",
-                "slug": "/identities/zino-hoffman",
-                "url": "https:///website.codespace1.sublayer.io/identities/zino-hoffman",
-                "origin": "/identities/zino-hoffman",
-                "title": "Zino Hoffman",
+                "slug": "/identities/zino-hofmann",
+                "url": "https:///website.codespace1.sublayer.io/identities/zino-hofmann",
+                "origin": "/identities/zino-hofmann",
+                "title": "Zino Hofmann",
                 "description": "SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-13T01:16:58.000Z",
-                "filePath": "/en/identities/zino-hoffman.md"
+                "updatedAt": "2021-07-13T10:09:34.000Z",
+                "filePath": "/en/identities/zino-hofmann.md"
               },
               {
                 "id": "zw3rk",
@@ -1390,7 +1397,7 @@
                   }
                 ],
                 "image": "https://illustratorandweb.com/ext/Pool-00000-1000x1000.png",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-13T10:18:10.000Z",
                 "filePath": "/en/stake-pools/33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4.md"
               },
               {
@@ -1637,12 +1644,12 @@
                 "template": "PoolDetailPage",
                 "identities": [
                   {
-                    "id": "zino-hoffman",
+                    "id": "zino-hofmann",
                     "role": "spo"
                   }
                 ],
                 "image": "https://cryptopool.dev/brand/logo-1024x1024.png",
-                "updatedAt": "2021-07-13T01:16:58.000Z",
+                "updatedAt": "2021-07-13T10:09:34.000Z",
                 "filePath": "/en/stake-pools/a343a6e2eb4bb7f8abf039b82e579131b56966d88d9937e679365269.md"
               },
               {
@@ -6796,18 +6803,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-13T09:13:28.472Z",
-            "component-cached-in": "1.95 ms",
-            "component-resolved-in": "1.95 ms"
+            "component-cached-at": "2021-07-13T12:36:44.347Z",
+            "component-cached-in": "879 μs",
+            "component-resolved-in": "879 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T09:13:28.475Z",
-          "_cachedIn": "4.35 ms",
-          "_resolvedIn": "4.35 ms",
+          "_cachedAt": "2021-07-13T12:36:44.347Z",
+          "_cachedIn": "1.26 ms",
+          "_resolvedIn": "1.26 ms",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6818,17 +6825,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-13T09:13:28.475Z",
-            "component-cached-in": "4.35 ms",
-            "component-resolved-in": "4.35 ms"
+            "component-cached-at": "2021-07-13T12:36:44.347Z",
+            "component-cached-in": "1.26 ms",
+            "component-resolved-in": "1.26 ms"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-13T09:13:28.474Z",
-              "_cachedIn": "663 μs",
-              "_resolvedIn": "663 μs",
+              "_cachedAt": "2021-07-13T12:36:44.347Z",
+              "_cachedIn": "320 μs",
+              "_resolvedIn": "320 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6872,9 +6879,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-13T09:13:28.474Z",
-                "component-cached-in": "663 μs",
-                "component-resolved-in": "663 μs"
+                "component-cached-at": "2021-07-13T12:36:44.347Z",
+                "component-cached-in": "320 μs",
+                "component-resolved-in": "320 μs"
               },
               "components": {}
             }
@@ -6883,9 +6890,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T09:13:28.470Z",
-          "_cachedIn": "201 μs",
-          "_resolvedIn": "201 μs",
+          "_cachedAt": "2021-07-13T12:36:44.346Z",
+          "_cachedIn": "366 μs",
+          "_resolvedIn": "366 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -6894,9 +6901,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-13T09:13:28.470Z",
-            "component-cached-in": "201 μs",
-            "component-resolved-in": "201 μs"
+            "component-cached-at": "2021-07-13T12:36:44.346Z",
+            "component-cached-in": "366 μs",
+            "component-resolved-in": "366 μs"
           },
           "components": {}
         }
@@ -6905,9 +6912,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T09:13:28.471Z",
-      "_cachedIn": "4.57 ms",
-      "_resolvedIn": "4.57 ms",
+      "_cachedAt": "2021-07-13T12:36:44.346Z",
+      "_cachedIn": "1.92 ms",
+      "_resolvedIn": "1.92 ms",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -6935,18 +6942,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-13T09:13:28.471Z",
-        "component-cached-in": "4.57 ms",
-        "component-resolved-in": "4.57 ms"
+        "component-cached-at": "2021-07-13T12:36:44.346Z",
+        "component-cached-in": "1.92 ms",
+        "component-resolved-in": "1.92 ms"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T09:13:28.470Z",
-      "_cachedIn": "3.05 ms",
-      "_resolvedIn": "3.05 ms",
+      "_cachedAt": "2021-07-13T12:36:44.346Z",
+      "_cachedIn": "1.34 ms",
+      "_resolvedIn": "1.34 ms",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -6958,18 +6965,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-13T09:13:28.470Z",
-        "component-cached-in": "3.05 ms",
-        "component-resolved-in": "3.05 ms"
+        "component-cached-at": "2021-07-13T12:36:44.346Z",
+        "component-cached-in": "1.34 ms",
+        "component-resolved-in": "1.34 ms"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T09:13:28.471Z",
-      "_cachedIn": "4.6 ms",
-      "_resolvedIn": "4.6 ms",
+      "_cachedAt": "2021-07-13T12:36:44.346Z",
+      "_cachedIn": "1.92 ms",
+      "_resolvedIn": "1.92 ms",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -6988,9 +6995,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-13T09:13:28.471Z",
-        "component-cached-in": "4.6 ms",
-        "component-resolved-in": "4.6 ms"
+        "component-cached-at": "2021-07-13T12:36:44.346Z",
+        "component-cached-in": "1.92 ms",
+        "component-resolved-in": "1.92 ms"
       },
       "components": {}
     }
