@@ -1,6 +1,6 @@
 module.exports = {
     id: 'DelegationWidgetPage',
-    name: 'Delegation Widget',
+    name: 'Delegate',
     type: 'Template',
     getPages: async (ctx, { component }) => {
 
