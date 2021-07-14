@@ -10,7 +10,7 @@ identities:
 
 ## What is Cardano?
 
-The Cardano blockchain was created by [IOG](/en/terms/iog.md) and is now maintained by IOG, the [Cardano Foundation](/en/terms/cardano-foundation.md), and the massive Cardano community.
+The Cardano blockchain was created by [IOG](/en/terms/iog.md), the [Cardano Foundation](/en/terms/cardano-foundation.md), and the massive Cardano community.
 
 ## How is Cardano different from other blockchains?
 
