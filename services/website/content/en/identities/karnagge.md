@@ -1,5 +1,7 @@
 ---
 template: IdentityDetailPage
-title: karnagge
+title: Franco
 description: SPO
+github: karnagge
+telegram: feu_franco
 ---

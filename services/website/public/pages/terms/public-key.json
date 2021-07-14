@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"public-key\",\"language\":\"en\",\"slug\":\"/terms/public-key\",\"url\":\"https:///website.codespace1.sublayer.io/terms/public-key\",\"origin\":\"/terms/public-key\",\"title\":\"Public key\",\"description\":\"A definition of a term\",\"aliases\":[\"public key\",\"private key\",\"hardware wallet\"],\"keywords\":[\"public\",\"key\",\"keys\",\"private\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/public-key.md\",\"body\":\"In cryptocurrencies, a public key is used as the basis for an address. Each public key corresponds to a specific private key, which can be used to spend the funds associated to the corresponding public key or address. A public key can be calculated from a private key, but it is not possible to calculate a private key from a public key.\",\"mdxSource\":{\"compiledSource\":\"var y=Object.defineProperty,d=Object.defineProperties;var l=Object.getOwnPropertyDescriptors;var s=Object.getOwnPropertySymbols;var n=Object.prototype.hasOwnProperty,p=Object.prototype.propertyIsEnumerable;var r=(e,t,o)=>t in e?y(e,t,{enumerable:!0,configurable:!0,writable:!0,value:o}):e[t]=o,c=(e,t)=>{for(var o in t||(t={}))n.call(t,o)&&r(e,o,t[o]);if(s)for(var o of s(t))p.call(t,o)&&r(e,o,t[o]);return e},i=(e,t)=>d(e,l(t));var u=(e,t)=>{var o={};for(var a in e)n.call(e,a)&&t.indexOf(a)<0&&(o[a]=e[a]);if(e!=null&&s)for(var a of s(e))t.indexOf(a)<0&&p.call(e,a)&&(o[a]=e[a]);return o};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(o){var a=o,{components:e}=a,t=u(a,[\\\"components\\\"]);return mdx(MDXLayout,i(c(c({},layoutProps),t),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"In cryptocurrencies, a public key is used as the basis for an address. Each public key corresponds to a specific private key, which can be used to spend the funds associated to the corresponding public key or address. A public key can be calculated from a private key, but it is not possible to calculate a private key from a public key.\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-13T15:21:07.570Z",
-  "_cachedIn": "3.93 ms",
-  "_resolvedIn": "3.93 ms",
+  "_cachedAt": "2021-07-14T18:08:54.420Z",
+  "_cachedIn": "658 μs",
+  "_resolvedIn": "658 μs",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -46,17 +46,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-13T15:21:07.570Z",
-    "component-cached-in": "3.93 ms",
-    "component-resolved-in": "3.93 ms"
+    "component-cached-at": "2021-07-14T18:08:54.420Z",
+    "component-cached-in": "658 μs",
+    "component-resolved-in": "658 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T15:21:07.570Z",
-      "_cachedIn": "3.17 ms",
-      "_resolvedIn": "3.17 ms",
+      "_cachedAt": "2021-07-14T18:08:54.420Z",
+      "_cachedIn": "441 μs",
+      "_resolvedIn": "441 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -65,24 +65,24 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-13T15:21:07.570Z",
-        "component-cached-in": "3.17 ms",
-        "component-resolved-in": "3.17 ms"
+        "component-cached-at": "2021-07-14T18:08:54.420Z",
+        "component-cached-in": "441 μs",
+        "component-resolved-in": "441 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T15:21:07.569Z",
-          "_cachedIn": "1.85 ms",
-          "_resolvedIn": "1.85 ms",
+          "_cachedAt": "2021-07-14T18:08:54.420Z",
+          "_cachedIn": "270 μs",
+          "_resolvedIn": "270 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
           "error": null,
           "props": {
             "schema": {
-              "createdAt": "2021-07-13T15:20:55.169Z",
+              "createdAt": "2021-07-14T18:08:42.568Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -357,7 +357,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-14T03:39:25.000Z",
                 "filePath": "/en/blogs/what-is-cardano.md"
               },
               {
@@ -708,7 +708,8 @@
                     "role": "author"
                   }
                 ],
-                "icon": "❤️",
+                "icon": "🌊",
+                "updatedAt": "2021-07-13T15:34:16.000Z",
                 "filePath": "/en/guides/setup-a-nami-delegate-button-on-your-website.md"
               },
               {
@@ -764,6 +765,19 @@
                 "filePath": "/en/identities.md"
               },
               {
+                "id": "Adaberry_Pi",
+                "language": "en",
+                "slug": "/identities/Adaberry_Pi",
+                "url": "https:///website.codespace1.sublayer.io/identities/Adaberry_Pi",
+                "origin": "/identities/Adaberry_Pi",
+                "title": "DeCentN2Madness",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "/ales.jpg",
+                "filePath": "/en/identities/Adaberry_Pi.md"
+              },
+              {
                 "id": "Chris_Rain",
                 "language": "en",
                 "slug": "/identities/Chris_Rain",
@@ -779,19 +793,18 @@
                 "filePath": "/en/identities/Chris_Rain.md"
               },
               {
-                "id": "Sporke",
+                "id": "Zebra_Danio",
                 "language": "en",
-                "slug": "/identities/Sporke",
-                "url": "https:///website.codespace1.sublayer.io/identities/Sporke",
-                "origin": "/identities/Sporke",
-                "title": "Geoff",
+                "slug": "/identities/Zebra_Danio",
+                "url": "https:///website.codespace1.sublayer.io/identities/Zebra_Danio",
+                "origin": "/identities/Zebra_Danio",
+                "title": "Zebra",
                 "description": "SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-12T10:20:35.000Z",
-                "filePath": "/en/identities/Sporke.md"
+                "filePath": "/en/identities/Zebra_Danio.md"
               },
               {
                 "id": "alessandro-berry",
@@ -854,6 +867,20 @@
                 "filePath": "/en/identities/daniel-recuenco.md"
               },
               {
+                "id": "geoff",
+                "language": "en",
+                "slug": "/identities/geoff",
+                "url": "https:///website.codespace1.sublayer.io/identities/geoff",
+                "origin": "/identities/geoff",
+                "title": "Geoff",
+                "description": "SPO",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "https://armada-alliance.com/assets/ship-420.png",
+                "filePath": "/en/identities/geoff.md"
+              },
+              {
                 "id": "jackson-wiebe",
                 "language": "en",
                 "slug": "/identities/jackson-wiebe",
@@ -894,8 +921,8 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
-                "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-12T10:20:35.000Z",
+                "image": "/julienterrier.jpg",
+                "updatedAt": "2021-07-14T08:28:41.000Z",
                 "filePath": "/en/identities/julien-terrier.md"
               },
               {
@@ -904,7 +931,7 @@
                 "slug": "/identities/karnagge",
                 "url": "https:///website.codespace1.sublayer.io/identities/karnagge",
                 "origin": "/identities/karnagge",
-                "title": "karnagge",
+                "title": "Franco",
                 "description": "SPO",
                 "aliases": null,
                 "keywords": null,
@@ -972,21 +999,6 @@
                 "image": "https://armada-alliance.com/assets/ship-420.png",
                 "updatedAt": "2021-07-12T10:20:35.000Z",
                 "filePath": "/en/identities/matt-solrp.md"
-              },
-              {
-                "id": "mini1pool",
-                "language": "en",
-                "slug": "/identities/mini1pool",
-                "url": "https:///website.codespace1.sublayer.io/identities/mini1pool",
-                "origin": "/identities/mini1pool",
-                "title": "Julien",
-                "description": "SPO",
-                "aliases": null,
-                "keywords": null,
-                "template": "IdentityDetailPage",
-                "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-12T10:20:35.000Z",
-                "filePath": "/en/identities/mini1pool.md"
               },
               {
                 "id": "pascal-berry",
@@ -1124,6 +1136,21 @@
                 "filePath": "/en/identities/spacebudz.md"
               },
               {
+                "id": "stake-for-nature",
+                "language": "en",
+                "slug": "/identities/stake-for-nature",
+                "url": "https:///website.codespace1.sublayer.io/identities/stake-for-nature",
+                "origin": "/identities/stake-for-nature",
+                "title": "Stake for Nature",
+                "description": "SPO",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "/s4na.jpg",
+                "updatedAt": "2021-07-14T06:33:31.000Z",
+                "filePath": "/en/identities/stake-for-nature.md"
+              },
+              {
                 "id": "stale",
                 "language": "en",
                 "slug": "/identities/stale",
@@ -1149,8 +1176,8 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
-                "image": "/sublayerio.png",
-                "updatedAt": "2021-07-13T13:35:37.000Z",
+                "image": "https://cdn.sublayer.io/logo.png",
+                "updatedAt": "2021-07-14T06:33:31.000Z",
                 "filePath": "/en/identities/sublayerio.md"
               },
               {
@@ -1472,7 +1499,7 @@
                 "template": "PoolDetailPage",
                 "identities": [
                   {
-                    "id": "sbc",
+                    "id": "sbc-mining",
                     "role": "spo"
                   }
                 ],
@@ -1712,7 +1739,7 @@
                   }
                 ],
                 "image": "https://piada.io/piadaFull.png",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-14T03:39:25.000Z",
                 "filePath": "/en/stake-pools/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65.md"
               },
               {
@@ -1728,7 +1755,7 @@
                 "template": "PoolDetailPage",
                 "identities": [
                   {
-                    "id": "mini1pool",
+                    "id": "julien-terrier",
                     "role": "spo"
                   }
                 ],
@@ -1770,12 +1797,12 @@
                 "template": "PoolDetailPage",
                 "identities": [
                   {
-                    "id": "Chris_Rain",
+                    "id": "geoff",
                     "role": "spo"
                   }
                 ],
                 "image": "https://meme.best/icons/apple-touch-icon.png",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-14T03:39:25.000Z",
                 "filePath": "/en/stake-pools/c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386.md"
               },
               {
@@ -2892,7 +2919,7 @@
                 "url": "https:///website.codespace1.sublayer.io/terms/crypto-mining",
                 "origin": "/terms/crypto-mining",
                 "title": "Crypto mining",
-                "description": "Algorithmic Contract Types Unified Standards. A taxonomy and standard for financial contracts.",
+                "description": "In proof-of-work blockchain's like Bitcoin mining is the process by which new crypto-currencies or digital assets are created and distributed to the blockchain's decentralized ledger.",
                 "aliases": [
                   "ACTUS"
                 ],
@@ -2911,7 +2938,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-14T03:39:25.000Z",
                 "filePath": "/en/terms/crypto-mining.md"
               },
               {
@@ -2936,8 +2963,42 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-14T03:39:25.000Z",
                 "filePath": "/en/terms/cryptocurrency-wallet.md"
+              },
+              {
+                "id": "cryptocurrency",
+                "language": "en",
+                "slug": "/terms/cryptocurrency",
+                "url": "https:///website.codespace1.sublayer.io/terms/cryptocurrency",
+                "origin": "/terms/cryptocurrency",
+                "title": "Cryptocurrency",
+                "description": "The process by which new coins of creating new",
+                "aliases": [
+                  "crypto",
+                  "crytpocurrency",
+                  "Bitcoin",
+                  "Cardano",
+                  "Ethereum",
+                  "Solana",
+                  "digital asset"
+                ],
+                "keywords": [
+                  "crypto",
+                  "cryptocurrency",
+                  "cryptocurrencies",
+                  "crypto-currency",
+                  "digital asset"
+                ],
+                "template": "TermDetailPage",
+                "identities": [
+                  {
+                    "id": "wael-ivie",
+                    "role": "author"
+                  }
+                ],
+                "updatedAt": "2021-07-14T03:39:25.000Z",
+                "filePath": "/en/terms/cryptocurrency.md"
               },
               {
                 "id": "currency",
@@ -6841,18 +6902,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-13T15:21:07.569Z",
-            "component-cached-in": "1.85 ms",
-            "component-resolved-in": "1.85 ms"
+            "component-cached-at": "2021-07-14T18:08:54.420Z",
+            "component-cached-in": "270 μs",
+            "component-resolved-in": "270 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T15:21:07.570Z",
-          "_cachedIn": "2.48 ms",
-          "_resolvedIn": "2.48 ms",
+          "_cachedAt": "2021-07-14T18:08:54.420Z",
+          "_cachedIn": "322 μs",
+          "_resolvedIn": "322 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6863,17 +6924,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-13T15:21:07.570Z",
-            "component-cached-in": "2.48 ms",
-            "component-resolved-in": "2.48 ms"
+            "component-cached-at": "2021-07-14T18:08:54.420Z",
+            "component-cached-in": "322 μs",
+            "component-resolved-in": "322 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-13T15:21:07.570Z",
-              "_cachedIn": "626 μs",
-              "_resolvedIn": "626 μs",
+              "_cachedAt": "2021-07-14T18:08:54.420Z",
+              "_cachedIn": "48 μs",
+              "_resolvedIn": "48 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6917,9 +6978,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-13T15:21:07.570Z",
-                "component-cached-in": "626 μs",
-                "component-resolved-in": "626 μs"
+                "component-cached-at": "2021-07-14T18:08:54.420Z",
+                "component-cached-in": "48 μs",
+                "component-resolved-in": "48 μs"
               },
               "components": {}
             }
@@ -6928,9 +6989,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T15:21:07.568Z",
-          "_cachedIn": "1.05 ms",
-          "_resolvedIn": "1.05 ms",
+          "_cachedAt": "2021-07-14T18:08:54.420Z",
+          "_cachedIn": "166 μs",
+          "_resolvedIn": "166 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -6939,9 +7000,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-13T15:21:07.568Z",
-            "component-cached-in": "1.05 ms",
-            "component-resolved-in": "1.05 ms"
+            "component-cached-at": "2021-07-14T18:08:54.420Z",
+            "component-cached-in": "166 μs",
+            "component-resolved-in": "166 μs"
           },
           "components": {}
         }
@@ -6950,9 +7011,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T15:21:07.569Z",
-      "_cachedIn": "2.04 ms",
-      "_resolvedIn": "2.04 ms",
+      "_cachedAt": "2021-07-14T18:08:54.420Z",
+      "_cachedIn": "297 μs",
+      "_resolvedIn": "297 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -6980,18 +7041,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-13T15:21:07.569Z",
-        "component-cached-in": "2.04 ms",
-        "component-resolved-in": "2.04 ms"
+        "component-cached-at": "2021-07-14T18:08:54.420Z",
+        "component-cached-in": "297 μs",
+        "component-resolved-in": "297 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T15:21:07.568Z",
-      "_cachedIn": "1.1 ms",
-      "_resolvedIn": "1.1 ms",
+      "_cachedAt": "2021-07-14T18:08:54.420Z",
+      "_cachedIn": "123 μs",
+      "_resolvedIn": "123 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7003,18 +7064,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-13T15:21:07.568Z",
-        "component-cached-in": "1.1 ms",
-        "component-resolved-in": "1.1 ms"
+        "component-cached-at": "2021-07-14T18:08:54.420Z",
+        "component-cached-in": "123 μs",
+        "component-resolved-in": "123 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T15:21:07.569Z",
-      "_cachedIn": "2.04 ms",
-      "_resolvedIn": "2.04 ms",
+      "_cachedAt": "2021-07-14T18:08:54.420Z",
+      "_cachedIn": "303 μs",
+      "_resolvedIn": "303 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7033,9 +7094,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-13T15:21:07.569Z",
-        "component-cached-in": "2.04 ms",
-        "component-resolved-in": "2.04 ms"
+        "component-cached-at": "2021-07-14T18:08:54.420Z",
+        "component-cached-in": "303 μs",
+        "component-resolved-in": "303 μs"
       },
       "components": {}
     }

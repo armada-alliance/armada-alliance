@@ -6,6 +6,9 @@ image: /julienterrier.jpg
 website: https://www.adaministake.com/
 donationAddress: addr1qysn26t5ee88klp5nt3j2dkdwqy2v3e5xx0rv88un7q7nqn4vyy6vfv89he5hyd2jy433mx920v2rre9zcleumuv96psv3d96l
 verified: true
+telegram: mini1pool
+github: jterrier84
+twitter: mini1pool
 ---
 
 Hi, I am Julien and I am the administrator of Mini Stake Pool. I studied microtechnology and have a diploma in engineering. By profession, I am a product manager. 
