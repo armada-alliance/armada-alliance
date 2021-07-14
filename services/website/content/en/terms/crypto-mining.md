@@ -1,7 +1,7 @@
 ---
 template: TermDetailPage
 title: Crypto mining
-description: Algorithmic Contract Types Unified Standards. A taxonomy and standard for financial contracts.
+description: In proof-of-work blockchain's like Bitcoin mining is the process by which new crypto-currencies or digital assets are created and distributed to the blockchain's decentralized ledger.
 aliases: ACTUS
 keywords: ACTUS, Algorithmic, Contract, Types, Unified, Standards
 identities: 

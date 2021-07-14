@@ -9,4 +9,4 @@ identities:
       role: author
 ---
 
-Unlike real-world wallet, a cryptocurrency wallet doesn't hold any cryptocurrencies. Instead, it stores a small secret in the form of a seed (or individual private keys), which is used to generate addresses for incoming transactions and to authorize outgoing transactions.
+Unlike real-world wallet, a cryptocurrency wallet doesn't hold any cryptocurrencies. Instead, it stores a small secret in the form of a seed (or individual private keys), which is used to generate addresses for incoming transactions and to authorize outgoing transactions. The term "Crypto" refers to the various encryption algorithms and cryptographic techniques that safeguard these entries, such as elliptical curve encryption, public-private key pairs, and hashing functions.
