@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"hardware-wallet\",\"language\":\"en\",\"slug\":\"/terms/hardware-wallet\",\"url\":\"https:///website.codespace1.sublayer.io/terms/hardware-wallet\",\"origin\":\"/terms/hardware-wallet\",\"title\":\"Hardware wallet\",\"description\":\"A hardware wallet is a special type of wallet that stores the user's private keys in a secure hardware device.\",\"aliases\":[\"Hardware wallet\"],\"keywords\":[\"hardware\",\"wallet\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"},{\"id\":\"sublayerio\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/hardware-wallet.md\",\"body\":\"The [private keys](/terms/private-keys) never leave the device, ensuring that there is no risk of losing funds even if the device is exposed to a potentially infected computer. Hardware wallets offer the security of a cold wallet or paper wallet but with the benefit of accessibility similar to hot wallets.\\n\\n## Choose a brand\\n\\n1. [Trezor](/terms/trezor)\\n2. [Ledger Nano S or Ledger Nano X](/terms/ledger-hardware-wallet)\\n\\n## How does it work?\\n\\nThe big difference with signing transactions with a hardware wallet device as opposed to a wallet [private key](/terms/private-key) directly stored in the wallet application on your phone or laptop is the location where the transaction get's signed.\\n\\nWith the wallet directly stored on your computer or phone that's directly connected to the internet it's exposed to potential hacker to be stolen.\\n\\nUsing the hardware wallet device however, you have a device that's not connected to the internet by itself (since it's only connected in a way that the transaction can be received and send back to your computer or phone). This way the transaction can be safely signed.\\n\\nThe steps below can differ a little based on which wallet application or hardware wallet device you use.\\n\\n1. Open up a wallet application that supports your specific hardware wallet device.\\n2. The hardware wallet can either be connected through USB or Bluetooth.\\n3. The wallet application will ask your hardware wallet device to export the [public key](/terms/public-key) so it knows which wallet address to import to your wallet application.\\n4. You're wallet is now listed in the wallet application (usually, depending on the application you use, you don't have to repeat this process and your wallet application will remember the wallet).\\n5. Create a new transaction, specifying the amount and the receiver address.\\n6. Confirm the transaction in the wallet application.\\n7. Once you confirm, the wallet application will send the unsigned transaction to the hardware wallet device to be signed.\\n8. The hardware wallet device will show you the transaction details on it's display for you to check.\\n9. Sign the transaction by confirming it on the hardware wallet device.\\n10. The signed transaction will now be send back to your wallet application and submitted to the blockchain.\\n11. Your transaction has now been successfully send.\",\"mdxSource\":{\"compiledSource\":\"var c=Object.defineProperty,d=Object.defineProperties;var w=Object.getOwnPropertyDescriptors;var l=Object.getOwnPropertySymbols;var n=Object.prototype.hasOwnProperty,r=Object.prototype.propertyIsEnumerable;var s=(e,t,a)=>t in e?c(e,t,{enumerable:!0,configurable:!0,writable:!0,value:a}):e[t]=a,i=(e,t)=>{for(var a in t||(t={}))n.call(t,a)&&s(e,a,t[a]);if(l)for(var a of l(t))r.call(t,a)&&s(e,a,t[a]);return e},p=(e,t)=>d(e,w(t));var h=(e,t)=>{var a={};for(var o in e)n.call(e,o)&&t.indexOf(o)<0&&(a[o]=e[o]);if(e!=null&&l)for(var o of l(e))t.indexOf(o)<0&&r.call(e,o)&&(a[o]=e[o]);return a};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(a){var o=a,{components:e}=o,t=h(o,[\\\"components\\\"]);return mdx(MDXLayout,p(i(i({},layoutProps),t),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"The \\\",mdx(\\\"a\\\",i({parentName:\\\"p\\\"},{href:\\\"/terms/private-keys\\\"}),\\\"private keys\\\"),\\\" never leave the device, ensuring that there is no risk of losing funds even if the device is exposed to a potentially infected computer. Hardware wallets offer the security of a cold wallet or paper wallet but with the benefit of accessibility similar to hot wallets.\\\"),mdx(\\\"h2\\\",null,\\\"Choose a brand\\\"),mdx(\\\"ol\\\",null,mdx(\\\"li\\\",{parentName:\\\"ol\\\"},mdx(\\\"a\\\",i({parentName:\\\"li\\\"},{href:\\\"/terms/trezor\\\"}),\\\"Trezor\\\")),mdx(\\\"li\\\",{parentName:\\\"ol\\\"},mdx(\\\"a\\\",i({parentName:\\\"li\\\"},{href:\\\"/terms/ledger-hardware-wallet\\\"}),\\\"Ledger Nano S or Ledger Nano X\\\"))),mdx(\\\"h2\\\",null,\\\"How does it work?\\\"),mdx(\\\"p\\\",null,\\\"The big difference with signing transactions with a hardware wallet device as opposed to a wallet \\\",mdx(\\\"a\\\",i({parentName:\\\"p\\\"},{href:\\\"/terms/private-key\\\"}),\\\"private key\\\"),\\\" directly stored in the wallet application on your phone or laptop is the location where the transaction get's signed.\\\"),mdx(\\\"p\\\",null,\\\"With the wallet directly stored on your computer or phone that's directly connected to the internet it's exposed to potential hacker to be stolen.\\\"),mdx(\\\"p\\\",null,\\\"Using the hardware wallet device however, you have a device that's not connected to the internet by itself (since it's only connected in a way that the transaction can be received and send back to your computer or phone). This way the transaction can be safely signed.\\\"),mdx(\\\"p\\\",null,\\\"The steps below can differ a little based on which wallet application or hardware wallet device you use.\\\"),mdx(\\\"ol\\\",null,mdx(\\\"li\\\",{parentName:\\\"ol\\\"},\\\"Open up a wallet application that supports your specific hardware wallet device.\\\"),mdx(\\\"li\\\",{parentName:\\\"ol\\\"},\\\"The hardware wallet can either be connected through USB or Bluetooth.\\\"),mdx(\\\"li\\\",{parentName:\\\"ol\\\"},\\\"The wallet application will ask your hardware wallet device to export the \\\",mdx(\\\"a\\\",i({parentName:\\\"li\\\"},{href:\\\"/terms/public-key\\\"}),\\\"public key\\\"),\\\" so it knows which wallet address to import to your wallet application.\\\"),mdx(\\\"li\\\",{parentName:\\\"ol\\\"},\\\"You're wallet is now listed in the wallet application (usually, depending on the application you use, you don't have to repeat this process and your wallet application will remember the wallet).\\\"),mdx(\\\"li\\\",{parentName:\\\"ol\\\"},\\\"Create a new transaction, specifying the amount and the receiver address.\\\"),mdx(\\\"li\\\",{parentName:\\\"ol\\\"},\\\"Confirm the transaction in the wallet application.\\\"),mdx(\\\"li\\\",{parentName:\\\"ol\\\"},\\\"Once you confirm, the wallet application will send the unsigned transaction to the hardware wallet device to be signed.\\\"),mdx(\\\"li\\\",{parentName:\\\"ol\\\"},\\\"The hardware wallet device will show you the transaction details on it's display for you to check.\\\"),mdx(\\\"li\\\",{parentName:\\\"ol\\\"},\\\"Sign the transaction by confirming it on the hardware wallet device.\\\"),mdx(\\\"li\\\",{parentName:\\\"ol\\\"},\\\"The signed transaction will now be send back to your wallet application and submitted to the blockchain.\\\"),mdx(\\\"li\\\",{parentName:\\\"ol\\\"},\\\"Your transaction has now been successfully send.\\\")))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-14T18:08:54.052Z",
-  "_cachedIn": "234 μs",
-  "_resolvedIn": "234 μs",
+  "_cachedAt": "2021-07-14T21:13:49.302Z",
+  "_cachedIn": "881 μs",
+  "_resolvedIn": "881 μs",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -46,17 +46,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-14T18:08:54.052Z",
-    "component-cached-in": "234 μs",
-    "component-resolved-in": "234 μs"
+    "component-cached-at": "2021-07-14T21:13:49.302Z",
+    "component-cached-in": "881 μs",
+    "component-resolved-in": "881 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-14T18:08:54.052Z",
-      "_cachedIn": "176 μs",
-      "_resolvedIn": "176 μs",
+      "_cachedAt": "2021-07-14T21:13:49.302Z",
+      "_cachedIn": "714 μs",
+      "_resolvedIn": "714 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -65,24 +65,24 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-14T18:08:54.052Z",
-        "component-cached-in": "176 μs",
-        "component-resolved-in": "176 μs"
+        "component-cached-at": "2021-07-14T21:13:49.302Z",
+        "component-cached-in": "714 μs",
+        "component-resolved-in": "714 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-14T18:08:54.052Z",
-          "_cachedIn": "123 μs",
-          "_resolvedIn": "123 μs",
+          "_cachedAt": "2021-07-14T21:13:49.302Z",
+          "_cachedIn": "498 μs",
+          "_resolvedIn": "498 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
           "error": null,
           "props": {
             "schema": {
-              "createdAt": "2021-07-14T18:08:42.568Z",
+              "createdAt": "2021-07-14T21:13:39.156Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -774,7 +774,8 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
-                "image": "/ales.jpg",
+                "image": "https://armada-alliance.com/assets/ship-420.png",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/Adaberry_Pi.md"
               },
               {
@@ -789,7 +790,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-12T10:20:35.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/Chris_Rain.md"
               },
               {
@@ -804,6 +805,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/Zebra_Danio.md"
               },
               {
@@ -818,7 +820,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/ales.jpg",
-                "updatedAt": "2021-07-06T01:55:23.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/alessandro-berry.md"
               },
               {
@@ -833,7 +835,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/alex-qxt.jpg",
-                "updatedAt": "2021-06-19T10:02:42.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/alex-qxt.md"
               },
               {
@@ -878,6 +880,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/geoff.md"
               },
               {
@@ -922,7 +925,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/julienterrier.jpg",
-                "updatedAt": "2021-07-14T08:28:41.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/julien-terrier.md"
               },
               {
@@ -937,7 +940,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-12T10:20:35.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/karnagge.md"
               },
               {
@@ -952,7 +955,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/keww.jpg",
-                "updatedAt": "2021-06-25T17:16:29.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/ken-adams.md"
               },
               {
@@ -967,7 +970,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-12T10:20:35.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/krista-611.md"
               },
               {
@@ -997,7 +1000,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-12T10:20:35.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/matt-solrp.md"
               },
               {
@@ -1027,7 +1030,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-12T10:20:35.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/paul-oyster.md"
               },
               {
@@ -1072,7 +1075,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/raine.png",
-                "updatedAt": "2021-06-25T18:18:38.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/raine-bhmt.md"
               },
               {
@@ -1102,7 +1105,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/sayshar.jpg",
-                "updatedAt": "2021-06-18T07:30:31.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/sayshar-srn.md"
               },
               {
@@ -1117,7 +1120,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/sbc-mining.jpg",
-                "updatedAt": "2021-06-18T07:30:31.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/sbc-mining.md"
               },
               {
@@ -1177,7 +1180,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://cdn.sublayer.io/logo.png",
-                "updatedAt": "2021-07-14T06:33:31.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/sublayerio.md"
               },
               {
@@ -1207,7 +1210,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-12T10:20:35.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/thyes_MB.md"
               },
               {
@@ -1252,7 +1255,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/wcat.jpeg",
-                "updatedAt": "2021-07-06T17:25:38.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/wcat-otg.md"
               },
               {
@@ -1282,7 +1285,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-12T10:20:35.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/zenent.md"
               },
               {
@@ -1306,7 +1309,8 @@
                 "slug": "/identities/zw3rk",
                 "url": "https:///website.codespace1.sublayer.io/identities/zw3rk",
                 "origin": "/identities/zw3rk",
-                "title": "Moritz",
+                "title": "Moritz Angermann",
+                "description": "Software Engineering Lead at IOG",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
@@ -1483,7 +1487,7 @@
                   }
                 ],
                 "image": "https://static.adapools.org/pool_logo/351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8.png",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/stake-pools/351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8.md"
               },
               {
@@ -1504,7 +1508,7 @@
                   }
                 ],
                 "image": "https://raw.githubusercontent.com/sbc-mining/ada-pool/main/512x512.png",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/stake-pools/406a08532d2ca8dd08ea39e082dc8acdc2a3b34d0c517bd0e40af5e1.md"
               },
               {
@@ -1739,7 +1743,7 @@
                   }
                 ],
                 "image": "https://piada.io/piadaFull.png",
-                "updatedAt": "2021-07-14T03:39:25.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/stake-pools/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65.md"
               },
               {
@@ -1760,7 +1764,7 @@
                   }
                 ],
                 "image": "https://github.com/jterrier84/minipool/blob/main/MINI1_logo.png?raw=true",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/stake-pools/c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2.md"
               },
               {
@@ -1802,7 +1806,7 @@
                   }
                 ],
                 "image": "https://meme.best/icons/apple-touch-icon.png",
-                "updatedAt": "2021-07-14T03:39:25.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/stake-pools/c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386.md"
               },
               {
@@ -6902,18 +6906,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-14T18:08:54.052Z",
-            "component-cached-in": "123 μs",
-            "component-resolved-in": "123 μs"
+            "component-cached-at": "2021-07-14T21:13:49.302Z",
+            "component-cached-in": "498 μs",
+            "component-resolved-in": "498 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-14T18:08:54.052Z",
-          "_cachedIn": "140 μs",
-          "_resolvedIn": "140 μs",
+          "_cachedAt": "2021-07-14T21:13:49.302Z",
+          "_cachedIn": "536 μs",
+          "_resolvedIn": "536 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6924,17 +6928,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-14T18:08:54.052Z",
-            "component-cached-in": "140 μs",
-            "component-resolved-in": "140 μs"
+            "component-cached-at": "2021-07-14T21:13:49.302Z",
+            "component-cached-in": "536 μs",
+            "component-resolved-in": "536 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-14T18:08:54.052Z",
-              "_cachedIn": "27 μs",
-              "_resolvedIn": "27 μs",
+              "_cachedAt": "2021-07-14T21:13:49.302Z",
+              "_cachedIn": "80 μs",
+              "_resolvedIn": "80 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6978,9 +6982,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-14T18:08:54.052Z",
-                "component-cached-in": "27 μs",
-                "component-resolved-in": "27 μs"
+                "component-cached-at": "2021-07-14T21:13:49.302Z",
+                "component-cached-in": "80 μs",
+                "component-resolved-in": "80 μs"
               },
               "components": {}
             }
@@ -6989,9 +6993,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-14T18:08:54.052Z",
-          "_cachedIn": "93 μs",
-          "_resolvedIn": "93 μs",
+          "_cachedAt": "2021-07-14T21:13:49.302Z",
+          "_cachedIn": "362 μs",
+          "_resolvedIn": "362 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7000,9 +7004,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-14T18:08:54.052Z",
-            "component-cached-in": "93 μs",
-            "component-resolved-in": "93 μs"
+            "component-cached-at": "2021-07-14T21:13:49.302Z",
+            "component-cached-in": "362 μs",
+            "component-resolved-in": "362 μs"
           },
           "components": {}
         }
@@ -7011,9 +7015,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-14T18:08:54.052Z",
-      "_cachedIn": "135 μs",
-      "_resolvedIn": "135 μs",
+      "_cachedAt": "2021-07-14T21:13:49.302Z",
+      "_cachedIn": "555 μs",
+      "_resolvedIn": "555 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7041,6 +7045,9 @@
             "name": "sublayerio🧙‍♂️",
             "description": "🧙‍♂️ Open Sourcerer, SPO, Co-Founder",
             "image": "https://cdn.sublayer.io/logo.png",
+            "telegram": "sublayerio",
+            "twitter": "sublayerio",
+            "github": "sublayerio",
             "link": {
               "name": "sublayerio🧙‍♂️",
               "href": "/identities/sublayerio"
@@ -7055,18 +7062,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-14T18:08:54.052Z",
-        "component-cached-in": "135 μs",
-        "component-resolved-in": "135 μs"
+        "component-cached-at": "2021-07-14T21:13:49.302Z",
+        "component-cached-in": "555 μs",
+        "component-resolved-in": "555 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-14T18:08:54.052Z",
-      "_cachedIn": "79 μs",
-      "_resolvedIn": "79 μs",
+      "_cachedAt": "2021-07-14T21:13:49.301Z",
+      "_cachedIn": "352 μs",
+      "_resolvedIn": "352 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7078,18 +7085,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-14T18:08:54.052Z",
-        "component-cached-in": "79 μs",
-        "component-resolved-in": "79 μs"
+        "component-cached-at": "2021-07-14T21:13:49.301Z",
+        "component-cached-in": "352 μs",
+        "component-resolved-in": "352 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-14T18:08:54.052Z",
-      "_cachedIn": "133 μs",
-      "_resolvedIn": "133 μs",
+      "_cachedAt": "2021-07-14T21:13:49.302Z",
+      "_cachedIn": "547 μs",
+      "_resolvedIn": "547 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7108,9 +7115,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-14T18:08:54.052Z",
-        "component-cached-in": "133 μs",
-        "component-resolved-in": "133 μs"
+        "component-cached-at": "2021-07-14T21:13:49.302Z",
+        "component-cached-in": "547 μs",
+        "component-resolved-in": "547 μs"
       },
       "components": {}
     }

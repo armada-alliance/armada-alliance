@@ -36,6 +36,7 @@ module.exports = {
             type: 'PageHeader',
             resolve: (ctx, props) => ({
                 title: props.pool.name,
+                subtitle: props.pool.ticker,
                 image: props.pool.image,
                 pageType: 'Stake Pool',
                 identities: props.identities

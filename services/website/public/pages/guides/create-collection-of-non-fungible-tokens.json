@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"GuideDetailPage\",\"version\":1},\"props\":{\"id\":\"create-collection-of-non-fungible-tokens\",\"language\":\"en\",\"slug\":\"/guides/create-collection-of-non-fungible-tokens\",\"url\":\"https:///website.codespace1.sublayer.io/guides/create-collection-of-non-fungible-tokens\",\"origin\":\"/guides/create-collection-of-non-fungible-tokens\",\"title\":\"Create a NFT Collection\",\"description\":\"A guide to creating a NFT collection on Cardano using JavaScript.\",\"aliases\":null,\"keywords\":[\"NFT\",\"JavaScript\"],\"template\":\"GuideDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"},{\"id\":\"sublayerio\",\"role\":\"author\"}],\"icon\":\"💰\",\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/guides/create-collection-of-non-fungible-tokens.md\",\"externalLink\":\"https://docs.armada-alliance.com/learn/cardano-developer-guides/cardano-nft-collection-tutorial-coming-soon\",\"body\":\"<YoutubeVideo url=\\\"https://www.youtube.com/watch?v=6Ao98KdBACI\\\" />\",\"mdxSource\":{\"compiledSource\":\"var i=Object.defineProperty,m=Object.defineProperties;var y=Object.getOwnPropertyDescriptors;var u=Object.getOwnPropertySymbols;var d=Object.prototype.hasOwnProperty,c=Object.prototype.propertyIsEnumerable;var p=(o,t,e)=>t in o?i(o,t,{enumerable:!0,configurable:!0,writable:!0,value:e}):o[t]=e,r=(o,t)=>{for(var e in t||(t={}))d.call(t,e)&&p(o,e,t[e]);if(u)for(var e of u(t))c.call(t,e)&&p(o,e,t[e]);return o},a=(o,t)=>m(o,y(t));var s=(o,t)=>{var e={};for(var n in o)d.call(o,n)&&t.indexOf(n)<0&&(e[n]=o[n]);if(o!=null&&u)for(var n of u(o))t.indexOf(n)<0&&c.call(o,n)&&(e[n]=o[n]);return e};const makeShortcode=o=>function(e){return console.warn(\\\"Component \\\"+o+\\\" was not imported, exported, or provided by MDXProvider as global scope\\\"),mdx(\\\"div\\\",r({},e))},YoutubeVideo=makeShortcode(\\\"YoutubeVideo\\\"),layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(e){var n=e,{components:o}=n,t=s(n,[\\\"components\\\"]);return mdx(MDXLayout,a(r(r({},layoutProps),t),{components:o,mdxType:\\\"MDXLayout\\\"}),mdx(YoutubeVideo,{url:\\\"https://www.youtube.com/watch?v=6Ao98KdBACI\\\",mdxType:\\\"YoutubeVideo\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-14T18:08:53.090Z",
-  "_cachedIn": "514 ms",
-  "_resolvedIn": "514 ms",
+  "_cachedAt": "2021-07-14T21:13:47.853Z",
+  "_cachedIn": "323 ms",
+  "_resolvedIn": "323 ms",
   "id": "GuideDetailPage",
   "type": "GuideDetailPage",
   "status": "resolved",
@@ -47,17 +47,17 @@
   "attrs": {
     "component-type": "GuideDetailPage",
     "component-id": "GuideDetailPage",
-    "component-cached-at": "2021-07-14T18:08:53.090Z",
-    "component-cached-in": "514 ms",
-    "component-resolved-in": "514 ms"
+    "component-cached-at": "2021-07-14T21:13:47.853Z",
+    "component-cached-in": "323 ms",
+    "component-resolved-in": "323 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-14T18:08:53.090Z",
-      "_cachedIn": "491 μs",
-      "_resolvedIn": "491 μs",
+      "_cachedAt": "2021-07-14T21:13:47.853Z",
+      "_cachedIn": "511 μs",
+      "_resolvedIn": "511 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -66,24 +66,24 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-14T18:08:53.090Z",
-        "component-cached-in": "491 μs",
-        "component-resolved-in": "491 μs"
+        "component-cached-at": "2021-07-14T21:13:47.853Z",
+        "component-cached-in": "511 μs",
+        "component-resolved-in": "511 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-14T18:08:53.090Z",
-          "_cachedIn": "179 μs",
-          "_resolvedIn": "179 μs",
+          "_cachedAt": "2021-07-14T21:13:47.853Z",
+          "_cachedIn": "222 μs",
+          "_resolvedIn": "222 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
           "error": null,
           "props": {
             "schema": {
-              "createdAt": "2021-07-14T18:08:42.568Z",
+              "createdAt": "2021-07-14T21:13:39.156Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -775,7 +775,8 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
-                "image": "/ales.jpg",
+                "image": "https://armada-alliance.com/assets/ship-420.png",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/Adaberry_Pi.md"
               },
               {
@@ -790,7 +791,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-12T10:20:35.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/Chris_Rain.md"
               },
               {
@@ -805,6 +806,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/Zebra_Danio.md"
               },
               {
@@ -819,7 +821,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/ales.jpg",
-                "updatedAt": "2021-07-06T01:55:23.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/alessandro-berry.md"
               },
               {
@@ -834,7 +836,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/alex-qxt.jpg",
-                "updatedAt": "2021-06-19T10:02:42.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/alex-qxt.md"
               },
               {
@@ -879,6 +881,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/geoff.md"
               },
               {
@@ -923,7 +926,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/julienterrier.jpg",
-                "updatedAt": "2021-07-14T08:28:41.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/julien-terrier.md"
               },
               {
@@ -938,7 +941,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-12T10:20:35.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/karnagge.md"
               },
               {
@@ -953,7 +956,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/keww.jpg",
-                "updatedAt": "2021-06-25T17:16:29.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/ken-adams.md"
               },
               {
@@ -968,7 +971,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-12T10:20:35.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/krista-611.md"
               },
               {
@@ -998,7 +1001,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-12T10:20:35.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/matt-solrp.md"
               },
               {
@@ -1028,7 +1031,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-12T10:20:35.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/paul-oyster.md"
               },
               {
@@ -1073,7 +1076,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/raine.png",
-                "updatedAt": "2021-06-25T18:18:38.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/raine-bhmt.md"
               },
               {
@@ -1103,7 +1106,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/sayshar.jpg",
-                "updatedAt": "2021-06-18T07:30:31.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/sayshar-srn.md"
               },
               {
@@ -1118,7 +1121,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/sbc-mining.jpg",
-                "updatedAt": "2021-06-18T07:30:31.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/sbc-mining.md"
               },
               {
@@ -1178,7 +1181,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://cdn.sublayer.io/logo.png",
-                "updatedAt": "2021-07-14T06:33:31.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/sublayerio.md"
               },
               {
@@ -1208,7 +1211,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-12T10:20:35.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/thyes_MB.md"
               },
               {
@@ -1253,7 +1256,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/wcat.jpeg",
-                "updatedAt": "2021-07-06T17:25:38.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/wcat-otg.md"
               },
               {
@@ -1283,7 +1286,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-12T10:20:35.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/zenent.md"
               },
               {
@@ -1307,7 +1310,8 @@
                 "slug": "/identities/zw3rk",
                 "url": "https:///website.codespace1.sublayer.io/identities/zw3rk",
                 "origin": "/identities/zw3rk",
-                "title": "Moritz",
+                "title": "Moritz Angermann",
+                "description": "Software Engineering Lead at IOG",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
@@ -1484,7 +1488,7 @@
                   }
                 ],
                 "image": "https://static.adapools.org/pool_logo/351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8.png",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/stake-pools/351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8.md"
               },
               {
@@ -1505,7 +1509,7 @@
                   }
                 ],
                 "image": "https://raw.githubusercontent.com/sbc-mining/ada-pool/main/512x512.png",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/stake-pools/406a08532d2ca8dd08ea39e082dc8acdc2a3b34d0c517bd0e40af5e1.md"
               },
               {
@@ -1740,7 +1744,7 @@
                   }
                 ],
                 "image": "https://piada.io/piadaFull.png",
-                "updatedAt": "2021-07-14T03:39:25.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/stake-pools/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65.md"
               },
               {
@@ -1761,7 +1765,7 @@
                   }
                 ],
                 "image": "https://github.com/jterrier84/minipool/blob/main/MINI1_logo.png?raw=true",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/stake-pools/c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2.md"
               },
               {
@@ -1803,7 +1807,7 @@
                   }
                 ],
                 "image": "https://meme.best/icons/apple-touch-icon.png",
-                "updatedAt": "2021-07-14T03:39:25.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/stake-pools/c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386.md"
               },
               {
@@ -6903,18 +6907,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-14T18:08:53.090Z",
-            "component-cached-in": "179 μs",
-            "component-resolved-in": "179 μs"
+            "component-cached-at": "2021-07-14T21:13:47.853Z",
+            "component-cached-in": "222 μs",
+            "component-resolved-in": "222 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-14T18:08:53.090Z",
-          "_cachedIn": "200 μs",
-          "_resolvedIn": "200 μs",
+          "_cachedAt": "2021-07-14T21:13:47.853Z",
+          "_cachedIn": "257 μs",
+          "_resolvedIn": "257 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6925,17 +6929,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-14T18:08:53.090Z",
-            "component-cached-in": "200 μs",
-            "component-resolved-in": "200 μs"
+            "component-cached-at": "2021-07-14T21:13:47.853Z",
+            "component-cached-in": "257 μs",
+            "component-resolved-in": "257 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-14T18:08:53.090Z",
-              "_cachedIn": "45 μs",
-              "_resolvedIn": "45 μs",
+              "_cachedAt": "2021-07-14T21:13:47.853Z",
+              "_cachedIn": "72 μs",
+              "_resolvedIn": "72 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6979,9 +6983,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-14T18:08:53.090Z",
-                "component-cached-in": "45 μs",
-                "component-resolved-in": "45 μs"
+                "component-cached-at": "2021-07-14T21:13:47.853Z",
+                "component-cached-in": "72 μs",
+                "component-resolved-in": "72 μs"
               },
               "components": {}
             }
@@ -6990,9 +6994,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-14T18:08:53.090Z",
-          "_cachedIn": "116 μs",
-          "_resolvedIn": "116 μs",
+          "_cachedAt": "2021-07-14T21:13:47.853Z",
+          "_cachedIn": "149 μs",
+          "_resolvedIn": "149 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7001,9 +7005,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-14T18:08:53.090Z",
-            "component-cached-in": "116 μs",
-            "component-resolved-in": "116 μs"
+            "component-cached-at": "2021-07-14T21:13:47.853Z",
+            "component-cached-in": "149 μs",
+            "component-resolved-in": "149 μs"
           },
           "components": {}
         }
@@ -7012,9 +7016,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-14T18:08:53.090Z",
-      "_cachedIn": "415 μs",
-      "_resolvedIn": "415 μs",
+      "_cachedAt": "2021-07-14T21:13:47.853Z",
+      "_cachedIn": "408 μs",
+      "_resolvedIn": "408 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7042,6 +7046,9 @@
             "name": "sublayerio🧙‍♂️",
             "description": "🧙‍♂️ Open Sourcerer, SPO, Co-Founder",
             "image": "https://cdn.sublayer.io/logo.png",
+            "telegram": "sublayerio",
+            "twitter": "sublayerio",
+            "github": "sublayerio",
             "link": {
               "name": "sublayerio🧙‍♂️",
               "href": "/identities/sublayerio"
@@ -7056,18 +7063,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-14T18:08:53.090Z",
-        "component-cached-in": "415 μs",
-        "component-resolved-in": "415 μs"
+        "component-cached-at": "2021-07-14T21:13:47.853Z",
+        "component-cached-in": "408 μs",
+        "component-resolved-in": "408 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-14T18:08:53.090Z",
-      "_cachedIn": "317 μs",
-      "_resolvedIn": "317 μs",
+      "_cachedAt": "2021-07-14T21:13:47.853Z",
+      "_cachedIn": "303 μs",
+      "_resolvedIn": "303 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7079,18 +7086,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-14T18:08:53.090Z",
-        "component-cached-in": "317 μs",
-        "component-resolved-in": "317 μs"
+        "component-cached-at": "2021-07-14T21:13:47.853Z",
+        "component-cached-in": "303 μs",
+        "component-resolved-in": "303 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-14T18:08:53.090Z",
-      "_cachedIn": "412 μs",
-      "_resolvedIn": "412 μs",
+      "_cachedAt": "2021-07-14T21:13:47.853Z",
+      "_cachedIn": "406 μs",
+      "_resolvedIn": "406 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7111,9 +7118,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-14T18:08:53.090Z",
-        "component-cached-in": "412 μs",
-        "component-resolved-in": "412 μs"
+        "component-cached-at": "2021-07-14T21:13:47.853Z",
+        "component-cached-in": "406 μs",
+        "component-resolved-in": "406 μs"
       },
       "components": {}
     }

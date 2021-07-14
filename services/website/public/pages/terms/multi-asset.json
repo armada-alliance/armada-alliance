@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"multi-asset\",\"language\":\"en\",\"slug\":\"/terms/multi-asset\",\"url\":\"https:///website.codespace1.sublayer.io/terms/multi-asset\",\"origin\":\"/terms/multi-asset\",\"title\":\"Multi-asset\",\"description\":\"A generic term for a ledger which supports multiple different asset types natively.\",\"aliases\":[\"multiple assets\",\"multi-asset\",\"multiple tokens\",\"cardano utxo\",\"cardano eutxo\",\"cardano blockchain\",\"cardano ledger\"],\"keywords\":[\"multi\",\"asset\",\"ledger\",\"cardano\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/multi-asset.md\",\"body\":\"Ledgers that support accounting or transaction of more than one type of asset are considered to have \\\\'multi-asset\\\\' functionality. These ledgers can include blockchains, wallets, cryptocurrencies, or banking platforms, for example. Multi-assets usually include a platform\\\\'s primary currency and multiple, user-defined assets.\",\"mdxSource\":{\"compiledSource\":\"var p=Object.defineProperty,y=Object.defineProperties;var d=Object.getOwnPropertyDescriptors;var a=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,u=Object.prototype.propertyIsEnumerable;var c=(e,t,n)=>t in e?p(e,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):e[t]=n,s=(e,t)=>{for(var n in t||(t={}))r.call(t,n)&&c(e,n,t[n]);if(a)for(var n of a(t))u.call(t,n)&&c(e,n,t[n]);return e},i=(e,t)=>y(e,d(t));var l=(e,t)=>{var n={};for(var o in e)r.call(e,o)&&t.indexOf(o)<0&&(n[o]=e[o]);if(e!=null&&a)for(var o of a(e))t.indexOf(o)<0&&u.call(e,o)&&(n[o]=e[o]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var o=n,{components:e}=o,t=l(o,[\\\"components\\\"]);return mdx(MDXLayout,i(s(s({},layoutProps),t),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"Ledgers that support accounting or transaction of more than one type of asset are considered to have \\\\\\\\'multi-asset\\\\\\\\' functionality. These ledgers can include blockchains, wallets, cryptocurrencies, or banking platforms, for example. Multi-assets usually include a platform\\\\\\\\'s primary currency and multiple, user-defined assets.\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-14T18:08:54.194Z",
-  "_cachedIn": "795 μs",
-  "_resolvedIn": "795 μs",
+  "_cachedAt": "2021-07-14T21:13:49.530Z",
+  "_cachedIn": "1.32 ms",
+  "_resolvedIn": "1.32 ms",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -50,17 +50,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-14T18:08:54.194Z",
-    "component-cached-in": "795 μs",
-    "component-resolved-in": "795 μs"
+    "component-cached-at": "2021-07-14T21:13:49.530Z",
+    "component-cached-in": "1.32 ms",
+    "component-resolved-in": "1.32 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-14T18:08:54.194Z",
-      "_cachedIn": "604 μs",
-      "_resolvedIn": "604 μs",
+      "_cachedAt": "2021-07-14T21:13:49.530Z",
+      "_cachedIn": "983 μs",
+      "_resolvedIn": "983 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -69,24 +69,24 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-14T18:08:54.194Z",
-        "component-cached-in": "604 μs",
-        "component-resolved-in": "604 μs"
+        "component-cached-at": "2021-07-14T21:13:49.530Z",
+        "component-cached-in": "983 μs",
+        "component-resolved-in": "983 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-14T18:08:54.194Z",
-          "_cachedIn": "364 μs",
-          "_resolvedIn": "364 μs",
+          "_cachedAt": "2021-07-14T21:13:49.529Z",
+          "_cachedIn": "598 μs",
+          "_resolvedIn": "598 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
           "error": null,
           "props": {
             "schema": {
-              "createdAt": "2021-07-14T18:08:42.568Z",
+              "createdAt": "2021-07-14T21:13:39.156Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -778,7 +778,8 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
-                "image": "/ales.jpg",
+                "image": "https://armada-alliance.com/assets/ship-420.png",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/Adaberry_Pi.md"
               },
               {
@@ -793,7 +794,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-12T10:20:35.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/Chris_Rain.md"
               },
               {
@@ -808,6 +809,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/Zebra_Danio.md"
               },
               {
@@ -822,7 +824,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/ales.jpg",
-                "updatedAt": "2021-07-06T01:55:23.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/alessandro-berry.md"
               },
               {
@@ -837,7 +839,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/alex-qxt.jpg",
-                "updatedAt": "2021-06-19T10:02:42.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/alex-qxt.md"
               },
               {
@@ -882,6 +884,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/geoff.md"
               },
               {
@@ -926,7 +929,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/julienterrier.jpg",
-                "updatedAt": "2021-07-14T08:28:41.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/julien-terrier.md"
               },
               {
@@ -941,7 +944,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-12T10:20:35.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/karnagge.md"
               },
               {
@@ -956,7 +959,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/keww.jpg",
-                "updatedAt": "2021-06-25T17:16:29.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/ken-adams.md"
               },
               {
@@ -971,7 +974,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-12T10:20:35.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/krista-611.md"
               },
               {
@@ -1001,7 +1004,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-12T10:20:35.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/matt-solrp.md"
               },
               {
@@ -1031,7 +1034,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-12T10:20:35.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/paul-oyster.md"
               },
               {
@@ -1076,7 +1079,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/raine.png",
-                "updatedAt": "2021-06-25T18:18:38.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/raine-bhmt.md"
               },
               {
@@ -1106,7 +1109,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/sayshar.jpg",
-                "updatedAt": "2021-06-18T07:30:31.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/sayshar-srn.md"
               },
               {
@@ -1121,7 +1124,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/sbc-mining.jpg",
-                "updatedAt": "2021-06-18T07:30:31.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/sbc-mining.md"
               },
               {
@@ -1181,7 +1184,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://cdn.sublayer.io/logo.png",
-                "updatedAt": "2021-07-14T06:33:31.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/sublayerio.md"
               },
               {
@@ -1211,7 +1214,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-12T10:20:35.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/thyes_MB.md"
               },
               {
@@ -1256,7 +1259,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/wcat.jpeg",
-                "updatedAt": "2021-07-06T17:25:38.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/wcat-otg.md"
               },
               {
@@ -1286,7 +1289,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-12T10:20:35.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/zenent.md"
               },
               {
@@ -1310,7 +1313,8 @@
                 "slug": "/identities/zw3rk",
                 "url": "https:///website.codespace1.sublayer.io/identities/zw3rk",
                 "origin": "/identities/zw3rk",
-                "title": "Moritz",
+                "title": "Moritz Angermann",
+                "description": "Software Engineering Lead at IOG",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
@@ -1487,7 +1491,7 @@
                   }
                 ],
                 "image": "https://static.adapools.org/pool_logo/351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8.png",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/stake-pools/351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8.md"
               },
               {
@@ -1508,7 +1512,7 @@
                   }
                 ],
                 "image": "https://raw.githubusercontent.com/sbc-mining/ada-pool/main/512x512.png",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/stake-pools/406a08532d2ca8dd08ea39e082dc8acdc2a3b34d0c517bd0e40af5e1.md"
               },
               {
@@ -1743,7 +1747,7 @@
                   }
                 ],
                 "image": "https://piada.io/piadaFull.png",
-                "updatedAt": "2021-07-14T03:39:25.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/stake-pools/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65.md"
               },
               {
@@ -1764,7 +1768,7 @@
                   }
                 ],
                 "image": "https://github.com/jterrier84/minipool/blob/main/MINI1_logo.png?raw=true",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/stake-pools/c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2.md"
               },
               {
@@ -1806,7 +1810,7 @@
                   }
                 ],
                 "image": "https://meme.best/icons/apple-touch-icon.png",
-                "updatedAt": "2021-07-14T03:39:25.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/stake-pools/c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386.md"
               },
               {
@@ -6906,18 +6910,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-14T18:08:54.194Z",
-            "component-cached-in": "364 μs",
-            "component-resolved-in": "364 μs"
+            "component-cached-at": "2021-07-14T21:13:49.529Z",
+            "component-cached-in": "598 μs",
+            "component-resolved-in": "598 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-14T18:08:54.194Z",
-          "_cachedIn": "462 μs",
-          "_resolvedIn": "462 μs",
+          "_cachedAt": "2021-07-14T21:13:49.529Z",
+          "_cachedIn": "765 μs",
+          "_resolvedIn": "765 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6928,17 +6932,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-14T18:08:54.194Z",
-            "component-cached-in": "462 μs",
-            "component-resolved-in": "462 μs"
+            "component-cached-at": "2021-07-14T21:13:49.529Z",
+            "component-cached-in": "765 μs",
+            "component-resolved-in": "765 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-14T18:08:54.194Z",
-              "_cachedIn": "97 μs",
-              "_resolvedIn": "97 μs",
+              "_cachedAt": "2021-07-14T21:13:49.529Z",
+              "_cachedIn": "176 μs",
+              "_resolvedIn": "176 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6982,9 +6986,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-14T18:08:54.194Z",
-                "component-cached-in": "97 μs",
-                "component-resolved-in": "97 μs"
+                "component-cached-at": "2021-07-14T21:13:49.529Z",
+                "component-cached-in": "176 μs",
+                "component-resolved-in": "176 μs"
               },
               "components": {}
             }
@@ -6993,9 +6997,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-14T18:08:54.194Z",
-          "_cachedIn": "220 μs",
-          "_resolvedIn": "220 μs",
+          "_cachedAt": "2021-07-14T21:13:49.529Z",
+          "_cachedIn": "361 μs",
+          "_resolvedIn": "361 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7004,9 +7008,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-14T18:08:54.194Z",
-            "component-cached-in": "220 μs",
-            "component-resolved-in": "220 μs"
+            "component-cached-at": "2021-07-14T21:13:49.529Z",
+            "component-cached-in": "361 μs",
+            "component-resolved-in": "361 μs"
           },
           "components": {}
         }
@@ -7015,9 +7019,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-14T18:08:54.194Z",
-      "_cachedIn": "414 μs",
-      "_resolvedIn": "414 μs",
+      "_cachedAt": "2021-07-14T21:13:49.529Z",
+      "_cachedIn": "649 μs",
+      "_resolvedIn": "649 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7045,18 +7049,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-14T18:08:54.194Z",
-        "component-cached-in": "414 μs",
-        "component-resolved-in": "414 μs"
+        "component-cached-at": "2021-07-14T21:13:49.529Z",
+        "component-cached-in": "649 μs",
+        "component-resolved-in": "649 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-14T18:08:54.194Z",
-      "_cachedIn": "235 μs",
-      "_resolvedIn": "235 μs",
+      "_cachedAt": "2021-07-14T21:13:49.529Z",
+      "_cachedIn": "380 μs",
+      "_resolvedIn": "380 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7068,18 +7072,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-14T18:08:54.194Z",
-        "component-cached-in": "235 μs",
-        "component-resolved-in": "235 μs"
+        "component-cached-at": "2021-07-14T21:13:49.529Z",
+        "component-cached-in": "380 μs",
+        "component-resolved-in": "380 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-14T18:08:54.194Z",
-      "_cachedIn": "414 μs",
-      "_resolvedIn": "414 μs",
+      "_cachedAt": "2021-07-14T21:13:49.529Z",
+      "_cachedIn": "650 μs",
+      "_resolvedIn": "650 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7098,9 +7102,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-14T18:08:54.194Z",
-        "component-cached-in": "414 μs",
-        "component-resolved-in": "414 μs"
+        "component-cached-at": "2021-07-14T21:13:49.529Z",
+        "component-cached-in": "650 μs",
+        "component-resolved-in": "650 μs"
       },
       "components": {}
     }
