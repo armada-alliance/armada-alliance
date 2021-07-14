@@ -1,3 +1,4 @@
+---
 template: IdentityDetailPage
 title: Stake for Nature
 description: Founder, SPO
