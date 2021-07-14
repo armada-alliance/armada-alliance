@@ -1,9 +1,9 @@
 {
-  "_cacheKey": "{\"component\":{\"type\":\"GuideDetailPage\",\"version\":1},\"props\":{\"id\":\"setup-a-nami-delegate-button-on-your-website\",\"language\":\"en\",\"slug\":\"/guides/setup-a-nami-delegate-button-on-your-website\",\"url\":\"https:///website.codespace1.sublayer.io/guides/setup-a-nami-delegate-button-on-your-website\",\"origin\":\"/guides/setup-a-nami-delegate-button-on-your-website\",\"title\":\"Setup a Nami delegate button on your website\",\"description\":\"A guide on how to setup a button that allows your visitors to delegate to your pool straight from your website.\",\"aliases\":null,\"keywords\":[\"Delegate\",\"Nami Wallet\",\"JavaScript\",\"Marketing\"],\"template\":\"GuideDetailPage\",\"identities\":[{\"id\":\"alessandro-berry\",\"role\":\"author\"},{\"id\":\"sublayerio\",\"role\":\"author\"}],\"icon\":\"❤️\",\"filePath\":\"/en/guides/setup-a-nami-delegate-button-on-your-website.md\",\"body\":\"## Demo\\n\\n<YoutubeVideo url=\\\"https://www.youtube.com/watch?v=6Ao98KdBACI\\\" />\\n\\n## Installation\\n\\n1. **Get a blockfrost project id** —  Go to [blockfrost.io](https://blockfrost.io/), make an account and create a project.\\n\\n2. **Get your pool id** — Go to [pooltool.io](https://pooltool.io)\\n\\n\\nSetup a button somewhere on your website that looks like this:\\n\\n```html\\n<button type=\\\"button\\\" onclick=\\\"handleDelegate()\\\">\\n    Delegate\\n</button>\\n```\\n\\nPut the following code snippet at the end of the body content:\\n\\n```html\\n<script>\\n    function handleDelegate() {\\n        var pool_id = '<POOL_ID>'\\n        var blockfrost_project_id = '<BLOCKFROST_PROJECT_ID>'\\n        var link = 'https://armada-alliance.com/delegation-widget?pool_id=' + pool_id + '&blockfrost_project_id=' + blockfrost_project_id\\n        var width = 600\\n        var height = Math.min(800, parseInt(window.outerHeight, 10))\\n        var left = (parseInt(window.outerWidth, 10) / 2) - (width / 2)\\n        var top = (parseInt(window.outerHeight, 10) - height) / 2\\n        window.open(link, 'Delegate', 'width=' + width + ',height=' + height + ',toolbar=0,menubar=0,location=0,status=0,scrollbars=1,resizable=1,left=' + left + ',top=' + top);\\n    }\\n</script>\\n```\",\"mdxSource\":{\"compiledSource\":\"var d=Object.defineProperty,h=Object.defineProperties;var u=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var p=Object.prototype.hasOwnProperty,l=Object.prototype.propertyIsEnumerable;var i=(o,t,e)=>t in o?d(o,t,{enumerable:!0,configurable:!0,writable:!0,value:e}):o[t]=e,r=(o,t)=>{for(var e in t||(t={}))p.call(t,e)&&i(o,e,t[e]);if(n)for(var e of n(t))l.call(t,e)&&i(o,e,t[e]);return o},s=(o,t)=>h(o,u(t));var c=(o,t)=>{var e={};for(var a in o)p.call(o,a)&&t.indexOf(a)<0&&(e[a]=o[a]);if(o!=null&&n)for(var a of n(o))t.indexOf(a)<0&&l.call(o,a)&&(e[a]=o[a]);return e};const makeShortcode=o=>function(e){return console.warn(\\\"Component \\\"+o+\\\" was not imported, exported, or provided by MDXProvider as global scope\\\"),mdx(\\\"div\\\",r({},e))},YoutubeVideo=makeShortcode(\\\"YoutubeVideo\\\"),layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(e){var a=e,{components:o}=a,t=c(a,[\\\"components\\\"]);return mdx(MDXLayout,s(r(r({},layoutProps),t),{components:o,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"h2\\\",null,\\\"Demo\\\"),mdx(YoutubeVideo,{url:\\\"https://www.youtube.com/watch?v=6Ao98KdBACI\\\",mdxType:\\\"YoutubeVideo\\\"}),mdx(\\\"h2\\\",null,\\\"Installation\\\"),mdx(\\\"ol\\\",null,mdx(\\\"li\\\",{parentName:\\\"ol\\\"},mdx(\\\"p\\\",{parentName:\\\"li\\\"},mdx(\\\"strong\\\",{parentName:\\\"p\\\"},\\\"Get a blockfrost project id\\\"),\\\" \\\\u2014  Go to \\\",mdx(\\\"a\\\",r({parentName:\\\"p\\\"},{href:\\\"https://blockfrost.io/\\\"}),\\\"blockfrost.io\\\"),\\\", make an account and create a project.\\\")),mdx(\\\"li\\\",{parentName:\\\"ol\\\"},mdx(\\\"p\\\",{parentName:\\\"li\\\"},mdx(\\\"strong\\\",{parentName:\\\"p\\\"},\\\"Get your pool id\\\"),\\\" \\\\u2014\\\\xA0Go to \\\",mdx(\\\"a\\\",r({parentName:\\\"p\\\"},{href:\\\"https://pooltool.io\\\"}),\\\"pooltool.io\\\")))),mdx(\\\"p\\\",null,\\\"Setup a button somewhere on your website that looks like this:\\\"),mdx(\\\"pre\\\",null,mdx(\\\"code\\\",r({parentName:\\\"pre\\\"},{className:\\\"language-html\\\"}),`<button type=\\\"button\\\" onclick=\\\"handleDelegate()\\\">\\n    Delegate\\n</button>\\n`)),mdx(\\\"p\\\",null,\\\"Put the following code snippet at the end of the body content:\\\"),mdx(\\\"pre\\\",null,mdx(\\\"code\\\",r({parentName:\\\"pre\\\"},{className:\\\"language-html\\\"}),`<script>\\n    function handleDelegate() {\\n        var pool_id = '<POOL_ID>'\\n        var blockfrost_project_id = '<BLOCKFROST_PROJECT_ID>'\\n        var link = 'https://armada-alliance.com/delegation-widget?pool_id=' + pool_id + '&blockfrost_project_id=' + blockfrost_project_id\\n        var width = 600\\n        var height = Math.min(800, parseInt(window.outerHeight, 10))\\n        var left = (parseInt(window.outerWidth, 10) / 2) - (width / 2)\\n        var top = (parseInt(window.outerHeight, 10) - height) / 2\\n        window.open(link, 'Delegate', 'width=' + width + ',height=' + height + ',toolbar=0,menubar=0,location=0,status=0,scrollbars=1,resizable=1,left=' + left + ',top=' + top);\\n    }\\n</script>\\n`)))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
+  "_cacheKey": "{\"component\":{\"type\":\"GuideDetailPage\",\"version\":1},\"props\":{\"id\":\"setup-a-nami-delegate-button-on-your-website\",\"language\":\"en\",\"slug\":\"/guides/setup-a-nami-delegate-button-on-your-website\",\"url\":\"https:///website.codespace1.sublayer.io/guides/setup-a-nami-delegate-button-on-your-website\",\"origin\":\"/guides/setup-a-nami-delegate-button-on-your-website\",\"title\":\"Setup a Nami delegate button on your website\",\"description\":\"A guide on how to setup a button that allows your visitors to delegate to your pool straight from your website.\",\"aliases\":null,\"keywords\":[\"Delegate\",\"Nami Wallet\",\"JavaScript\",\"Marketing\"],\"template\":\"GuideDetailPage\",\"identities\":[{\"id\":\"alessandro-berry\",\"role\":\"author\"},{\"id\":\"sublayerio\",\"role\":\"author\"}],\"icon\":\"🌊\",\"updatedAt\":\"2021-07-13T15:34:16.000Z\",\"filePath\":\"/en/guides/setup-a-nami-delegate-button-on-your-website.md\",\"body\":\"## Demo\\n\\n<YoutubeVideo url=\\\"https://www.youtube.com/watch?v=hm8c-RhBop4\\\" />\\n\\n## Installation\\n\\n1. **Get a blockfrost project id** —  Go to [blockfrost.io](https://blockfrost.io/), make an account and create a project.\\n\\n2. **Get your pool id** — Go to [pooltool.io](https://pooltool.io)\\n\\n\\nSetup a button somewhere on your website that looks like this:\\n\\n```html\\n<button type=\\\"button\\\" onclick=\\\"handleDelegate()\\\">\\n    Delegate\\n</button>\\n```\\n\\nPut the following code snippet at the end of the body content:\\n\\n```html\\n<script>\\n    function handleDelegate() {\\n        var pool_id = '<POOL_ID>'\\n        var blockfrost_project_id = '<BLOCKFROST_PROJECT_ID>'\\n        var link = 'https://armada-alliance.com/delegation-widget?pool_id=' + pool_id + '&blockfrost_project_id=' + blockfrost_project_id\\n        var width = 600\\n        var height = Math.min(800, parseInt(window.outerHeight, 10))\\n        var left = (parseInt(window.outerWidth, 10) / 2) - (width / 2)\\n        var top = (parseInt(window.outerHeight, 10) - height) / 2\\n        window.open(link, 'Delegate', 'width=' + width + ',height=' + height + ',toolbar=0,menubar=0,location=0,status=0,scrollbars=1,resizable=1,left=' + left + ',top=' + top);\\n    }\\n</script>\\n```\",\"mdxSource\":{\"compiledSource\":\"var d=Object.defineProperty,h=Object.defineProperties;var u=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var p=Object.prototype.hasOwnProperty,l=Object.prototype.propertyIsEnumerable;var i=(o,t,e)=>t in o?d(o,t,{enumerable:!0,configurable:!0,writable:!0,value:e}):o[t]=e,r=(o,t)=>{for(var e in t||(t={}))p.call(t,e)&&i(o,e,t[e]);if(n)for(var e of n(t))l.call(t,e)&&i(o,e,t[e]);return o},c=(o,t)=>h(o,u(t));var s=(o,t)=>{var e={};for(var a in o)p.call(o,a)&&t.indexOf(a)<0&&(e[a]=o[a]);if(o!=null&&n)for(var a of n(o))t.indexOf(a)<0&&l.call(o,a)&&(e[a]=o[a]);return e};const makeShortcode=o=>function(e){return console.warn(\\\"Component \\\"+o+\\\" was not imported, exported, or provided by MDXProvider as global scope\\\"),mdx(\\\"div\\\",r({},e))},YoutubeVideo=makeShortcode(\\\"YoutubeVideo\\\"),layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(e){var a=e,{components:o}=a,t=s(a,[\\\"components\\\"]);return mdx(MDXLayout,c(r(r({},layoutProps),t),{components:o,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"h2\\\",null,\\\"Demo\\\"),mdx(YoutubeVideo,{url:\\\"https://www.youtube.com/watch?v=hm8c-RhBop4\\\",mdxType:\\\"YoutubeVideo\\\"}),mdx(\\\"h2\\\",null,\\\"Installation\\\"),mdx(\\\"ol\\\",null,mdx(\\\"li\\\",{parentName:\\\"ol\\\"},mdx(\\\"p\\\",{parentName:\\\"li\\\"},mdx(\\\"strong\\\",{parentName:\\\"p\\\"},\\\"Get a blockfrost project id\\\"),\\\" \\\\u2014  Go to \\\",mdx(\\\"a\\\",r({parentName:\\\"p\\\"},{href:\\\"https://blockfrost.io/\\\"}),\\\"blockfrost.io\\\"),\\\", make an account and create a project.\\\")),mdx(\\\"li\\\",{parentName:\\\"ol\\\"},mdx(\\\"p\\\",{parentName:\\\"li\\\"},mdx(\\\"strong\\\",{parentName:\\\"p\\\"},\\\"Get your pool id\\\"),\\\" \\\\u2014\\\\xA0Go to \\\",mdx(\\\"a\\\",r({parentName:\\\"p\\\"},{href:\\\"https://pooltool.io\\\"}),\\\"pooltool.io\\\")))),mdx(\\\"p\\\",null,\\\"Setup a button somewhere on your website that looks like this:\\\"),mdx(\\\"pre\\\",null,mdx(\\\"code\\\",r({parentName:\\\"pre\\\"},{className:\\\"language-html\\\"}),`<button type=\\\"button\\\" onclick=\\\"handleDelegate()\\\">\\n    Delegate\\n</button>\\n`)),mdx(\\\"p\\\",null,\\\"Put the following code snippet at the end of the body content:\\\"),mdx(\\\"pre\\\",null,mdx(\\\"code\\\",r({parentName:\\\"pre\\\"},{className:\\\"language-html\\\"}),`<script>\\n    function handleDelegate() {\\n        var pool_id = '<POOL_ID>'\\n        var blockfrost_project_id = '<BLOCKFROST_PROJECT_ID>'\\n        var link = 'https://armada-alliance.com/delegation-widget?pool_id=' + pool_id + '&blockfrost_project_id=' + blockfrost_project_id\\n        var width = 600\\n        var height = Math.min(800, parseInt(window.outerHeight, 10))\\n        var left = (parseInt(window.outerWidth, 10) / 2) - (width / 2)\\n        var top = (parseInt(window.outerHeight, 10) - height) / 2\\n        window.open(link, 'Delegate', 'width=' + width + ',height=' + height + ',toolbar=0,menubar=0,location=0,status=0,scrollbars=1,resizable=1,left=' + left + ',top=' + top);\\n    }\\n</script>\\n`)))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-13T15:21:05.617Z",
-  "_cachedIn": "311 ms",
-  "_resolvedIn": "311 ms",
+  "_cachedAt": "2021-07-14T18:08:53.124Z",
+  "_cachedIn": "221 ms",
+  "_resolvedIn": "221 ms",
   "id": "GuideDetailPage",
   "type": "GuideDetailPage",
   "status": "resolved",
@@ -34,11 +34,12 @@
         "role": "author"
       }
     ],
-    "icon": "❤️",
+    "icon": "🌊",
+    "updatedAt": "2021-07-13T15:34:16.000Z",
     "filePath": "/en/guides/setup-a-nami-delegate-button-on-your-website.md",
-    "body": "## Demo\n\n<YoutubeVideo url=\"https://www.youtube.com/watch?v=6Ao98KdBACI\" />\n\n## Installation\n\n1. **Get a blockfrost project id** —  Go to [blockfrost.io](https://blockfrost.io/), make an account and create a project.\n\n2. **Get your pool id** — Go to [pooltool.io](https://pooltool.io)\n\n\nSetup a button somewhere on your website that looks like this:\n\n```html\n<button type=\"button\" onclick=\"handleDelegate()\">\n    Delegate\n</button>\n```\n\nPut the following code snippet at the end of the body content:\n\n```html\n<script>\n    function handleDelegate() {\n        var pool_id = '<POOL_ID>'\n        var blockfrost_project_id = '<BLOCKFROST_PROJECT_ID>'\n        var link = 'https://armada-alliance.com/delegation-widget?pool_id=' + pool_id + '&blockfrost_project_id=' + blockfrost_project_id\n        var width = 600\n        var height = Math.min(800, parseInt(window.outerHeight, 10))\n        var left = (parseInt(window.outerWidth, 10) / 2) - (width / 2)\n        var top = (parseInt(window.outerHeight, 10) - height) / 2\n        window.open(link, 'Delegate', 'width=' + width + ',height=' + height + ',toolbar=0,menubar=0,location=0,status=0,scrollbars=1,resizable=1,left=' + left + ',top=' + top);\n    }\n</script>\n```",
+    "body": "## Demo\n\n<YoutubeVideo url=\"https://www.youtube.com/watch?v=hm8c-RhBop4\" />\n\n## Installation\n\n1. **Get a blockfrost project id** —  Go to [blockfrost.io](https://blockfrost.io/), make an account and create a project.\n\n2. **Get your pool id** — Go to [pooltool.io](https://pooltool.io)\n\n\nSetup a button somewhere on your website that looks like this:\n\n```html\n<button type=\"button\" onclick=\"handleDelegate()\">\n    Delegate\n</button>\n```\n\nPut the following code snippet at the end of the body content:\n\n```html\n<script>\n    function handleDelegate() {\n        var pool_id = '<POOL_ID>'\n        var blockfrost_project_id = '<BLOCKFROST_PROJECT_ID>'\n        var link = 'https://armada-alliance.com/delegation-widget?pool_id=' + pool_id + '&blockfrost_project_id=' + blockfrost_project_id\n        var width = 600\n        var height = Math.min(800, parseInt(window.outerHeight, 10))\n        var left = (parseInt(window.outerWidth, 10) / 2) - (width / 2)\n        var top = (parseInt(window.outerHeight, 10) - height) / 2\n        window.open(link, 'Delegate', 'width=' + width + ',height=' + height + ',toolbar=0,menubar=0,location=0,status=0,scrollbars=1,resizable=1,left=' + left + ',top=' + top);\n    }\n</script>\n```",
     "mdxSource": {
-      "compiledSource": "var d=Object.defineProperty,h=Object.defineProperties;var u=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var p=Object.prototype.hasOwnProperty,l=Object.prototype.propertyIsEnumerable;var i=(o,t,e)=>t in o?d(o,t,{enumerable:!0,configurable:!0,writable:!0,value:e}):o[t]=e,r=(o,t)=>{for(var e in t||(t={}))p.call(t,e)&&i(o,e,t[e]);if(n)for(var e of n(t))l.call(t,e)&&i(o,e,t[e]);return o},s=(o,t)=>h(o,u(t));var c=(o,t)=>{var e={};for(var a in o)p.call(o,a)&&t.indexOf(a)<0&&(e[a]=o[a]);if(o!=null&&n)for(var a of n(o))t.indexOf(a)<0&&l.call(o,a)&&(e[a]=o[a]);return e};const makeShortcode=o=>function(e){return console.warn(\"Component \"+o+\" was not imported, exported, or provided by MDXProvider as global scope\"),mdx(\"div\",r({},e))},YoutubeVideo=makeShortcode(\"YoutubeVideo\"),layoutProps={},MDXLayout=\"wrapper\";function MDXContent(e){var a=e,{components:o}=a,t=c(a,[\"components\"]);return mdx(MDXLayout,s(r(r({},layoutProps),t),{components:o,mdxType:\"MDXLayout\"}),mdx(\"h2\",null,\"Demo\"),mdx(YoutubeVideo,{url:\"https://www.youtube.com/watch?v=6Ao98KdBACI\",mdxType:\"YoutubeVideo\"}),mdx(\"h2\",null,\"Installation\"),mdx(\"ol\",null,mdx(\"li\",{parentName:\"ol\"},mdx(\"p\",{parentName:\"li\"},mdx(\"strong\",{parentName:\"p\"},\"Get a blockfrost project id\"),\" \\u2014  Go to \",mdx(\"a\",r({parentName:\"p\"},{href:\"https://blockfrost.io/\"}),\"blockfrost.io\"),\", make an account and create a project.\")),mdx(\"li\",{parentName:\"ol\"},mdx(\"p\",{parentName:\"li\"},mdx(\"strong\",{parentName:\"p\"},\"Get your pool id\"),\" \\u2014\\xA0Go to \",mdx(\"a\",r({parentName:\"p\"},{href:\"https://pooltool.io\"}),\"pooltool.io\")))),mdx(\"p\",null,\"Setup a button somewhere on your website that looks like this:\"),mdx(\"pre\",null,mdx(\"code\",r({parentName:\"pre\"},{className:\"language-html\"}),`<button type=\"button\" onclick=\"handleDelegate()\">\n    Delegate\n</button>\n`)),mdx(\"p\",null,\"Put the following code snippet at the end of the body content:\"),mdx(\"pre\",null,mdx(\"code\",r({parentName:\"pre\"},{className:\"language-html\"}),`<script>\n    function handleDelegate() {\n        var pool_id = '<POOL_ID>'\n        var blockfrost_project_id = '<BLOCKFROST_PROJECT_ID>'\n        var link = 'https://armada-alliance.com/delegation-widget?pool_id=' + pool_id + '&blockfrost_project_id=' + blockfrost_project_id\n        var width = 600\n        var height = Math.min(800, parseInt(window.outerHeight, 10))\n        var left = (parseInt(window.outerWidth, 10) / 2) - (width / 2)\n        var top = (parseInt(window.outerHeight, 10) - height) / 2\n        window.open(link, 'Delegate', 'width=' + width + ',height=' + height + ',toolbar=0,menubar=0,location=0,status=0,scrollbars=1,resizable=1,left=' + left + ',top=' + top);\n    }\n</script>\n`)))}MDXContent.isMDXComponent=!0;\n",
+      "compiledSource": "var d=Object.defineProperty,h=Object.defineProperties;var u=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var p=Object.prototype.hasOwnProperty,l=Object.prototype.propertyIsEnumerable;var i=(o,t,e)=>t in o?d(o,t,{enumerable:!0,configurable:!0,writable:!0,value:e}):o[t]=e,r=(o,t)=>{for(var e in t||(t={}))p.call(t,e)&&i(o,e,t[e]);if(n)for(var e of n(t))l.call(t,e)&&i(o,e,t[e]);return o},c=(o,t)=>h(o,u(t));var s=(o,t)=>{var e={};for(var a in o)p.call(o,a)&&t.indexOf(a)<0&&(e[a]=o[a]);if(o!=null&&n)for(var a of n(o))t.indexOf(a)<0&&l.call(o,a)&&(e[a]=o[a]);return e};const makeShortcode=o=>function(e){return console.warn(\"Component \"+o+\" was not imported, exported, or provided by MDXProvider as global scope\"),mdx(\"div\",r({},e))},YoutubeVideo=makeShortcode(\"YoutubeVideo\"),layoutProps={},MDXLayout=\"wrapper\";function MDXContent(e){var a=e,{components:o}=a,t=s(a,[\"components\"]);return mdx(MDXLayout,c(r(r({},layoutProps),t),{components:o,mdxType:\"MDXLayout\"}),mdx(\"h2\",null,\"Demo\"),mdx(YoutubeVideo,{url:\"https://www.youtube.com/watch?v=hm8c-RhBop4\",mdxType:\"YoutubeVideo\"}),mdx(\"h2\",null,\"Installation\"),mdx(\"ol\",null,mdx(\"li\",{parentName:\"ol\"},mdx(\"p\",{parentName:\"li\"},mdx(\"strong\",{parentName:\"p\"},\"Get a blockfrost project id\"),\" \\u2014  Go to \",mdx(\"a\",r({parentName:\"p\"},{href:\"https://blockfrost.io/\"}),\"blockfrost.io\"),\", make an account and create a project.\")),mdx(\"li\",{parentName:\"ol\"},mdx(\"p\",{parentName:\"li\"},mdx(\"strong\",{parentName:\"p\"},\"Get your pool id\"),\" \\u2014\\xA0Go to \",mdx(\"a\",r({parentName:\"p\"},{href:\"https://pooltool.io\"}),\"pooltool.io\")))),mdx(\"p\",null,\"Setup a button somewhere on your website that looks like this:\"),mdx(\"pre\",null,mdx(\"code\",r({parentName:\"pre\"},{className:\"language-html\"}),`<button type=\"button\" onclick=\"handleDelegate()\">\n    Delegate\n</button>\n`)),mdx(\"p\",null,\"Put the following code snippet at the end of the body content:\"),mdx(\"pre\",null,mdx(\"code\",r({parentName:\"pre\"},{className:\"language-html\"}),`<script>\n    function handleDelegate() {\n        var pool_id = '<POOL_ID>'\n        var blockfrost_project_id = '<BLOCKFROST_PROJECT_ID>'\n        var link = 'https://armada-alliance.com/delegation-widget?pool_id=' + pool_id + '&blockfrost_project_id=' + blockfrost_project_id\n        var width = 600\n        var height = Math.min(800, parseInt(window.outerHeight, 10))\n        var left = (parseInt(window.outerWidth, 10) / 2) - (width / 2)\n        var top = (parseInt(window.outerHeight, 10) - height) / 2\n        window.open(link, 'Delegate', 'width=' + width + ',height=' + height + ',toolbar=0,menubar=0,location=0,status=0,scrollbars=1,resizable=1,left=' + left + ',top=' + top);\n    }\n</script>\n`)))}MDXContent.isMDXComponent=!0;\n",
       "scope": {}
     },
     "source": "/pages/guides/setup-a-nami-delegate-button-on-your-website.json",
@@ -47,17 +48,17 @@
   "attrs": {
     "component-type": "GuideDetailPage",
     "component-id": "GuideDetailPage",
-    "component-cached-at": "2021-07-13T15:21:05.617Z",
-    "component-cached-in": "311 ms",
-    "component-resolved-in": "311 ms"
+    "component-cached-at": "2021-07-14T18:08:53.124Z",
+    "component-cached-in": "221 ms",
+    "component-resolved-in": "221 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T15:21:05.617Z",
-      "_cachedIn": "265 μs",
-      "_resolvedIn": "265 μs",
+      "_cachedAt": "2021-07-14T18:08:53.124Z",
+      "_cachedIn": "198 μs",
+      "_resolvedIn": "198 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -66,24 +67,24 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-13T15:21:05.617Z",
-        "component-cached-in": "265 μs",
-        "component-resolved-in": "265 μs"
+        "component-cached-at": "2021-07-14T18:08:53.124Z",
+        "component-cached-in": "198 μs",
+        "component-resolved-in": "198 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T15:21:05.617Z",
-          "_cachedIn": "145 μs",
-          "_resolvedIn": "145 μs",
+          "_cachedAt": "2021-07-14T18:08:53.124Z",
+          "_cachedIn": "113 μs",
+          "_resolvedIn": "113 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
           "error": null,
           "props": {
             "schema": {
-              "createdAt": "2021-07-13T15:20:55.169Z",
+              "createdAt": "2021-07-14T18:08:42.568Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -358,7 +359,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-14T03:39:25.000Z",
                 "filePath": "/en/blogs/what-is-cardano.md"
               },
               {
@@ -709,7 +710,8 @@
                     "role": "author"
                   }
                 ],
-                "icon": "❤️",
+                "icon": "🌊",
+                "updatedAt": "2021-07-13T15:34:16.000Z",
                 "filePath": "/en/guides/setup-a-nami-delegate-button-on-your-website.md"
               },
               {
@@ -765,6 +767,19 @@
                 "filePath": "/en/identities.md"
               },
               {
+                "id": "Adaberry_Pi",
+                "language": "en",
+                "slug": "/identities/Adaberry_Pi",
+                "url": "https:///website.codespace1.sublayer.io/identities/Adaberry_Pi",
+                "origin": "/identities/Adaberry_Pi",
+                "title": "DeCentN2Madness",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "/ales.jpg",
+                "filePath": "/en/identities/Adaberry_Pi.md"
+              },
+              {
                 "id": "Chris_Rain",
                 "language": "en",
                 "slug": "/identities/Chris_Rain",
@@ -780,19 +795,18 @@
                 "filePath": "/en/identities/Chris_Rain.md"
               },
               {
-                "id": "Sporke",
+                "id": "Zebra_Danio",
                 "language": "en",
-                "slug": "/identities/Sporke",
-                "url": "https:///website.codespace1.sublayer.io/identities/Sporke",
-                "origin": "/identities/Sporke",
-                "title": "Geoff",
+                "slug": "/identities/Zebra_Danio",
+                "url": "https:///website.codespace1.sublayer.io/identities/Zebra_Danio",
+                "origin": "/identities/Zebra_Danio",
+                "title": "Zebra",
                 "description": "SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-12T10:20:35.000Z",
-                "filePath": "/en/identities/Sporke.md"
+                "filePath": "/en/identities/Zebra_Danio.md"
               },
               {
                 "id": "alessandro-berry",
@@ -855,6 +869,20 @@
                 "filePath": "/en/identities/daniel-recuenco.md"
               },
               {
+                "id": "geoff",
+                "language": "en",
+                "slug": "/identities/geoff",
+                "url": "https:///website.codespace1.sublayer.io/identities/geoff",
+                "origin": "/identities/geoff",
+                "title": "Geoff",
+                "description": "SPO",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "https://armada-alliance.com/assets/ship-420.png",
+                "filePath": "/en/identities/geoff.md"
+              },
+              {
                 "id": "jackson-wiebe",
                 "language": "en",
                 "slug": "/identities/jackson-wiebe",
@@ -895,8 +923,8 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
-                "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-12T10:20:35.000Z",
+                "image": "/julienterrier.jpg",
+                "updatedAt": "2021-07-14T08:28:41.000Z",
                 "filePath": "/en/identities/julien-terrier.md"
               },
               {
@@ -905,7 +933,7 @@
                 "slug": "/identities/karnagge",
                 "url": "https:///website.codespace1.sublayer.io/identities/karnagge",
                 "origin": "/identities/karnagge",
-                "title": "karnagge",
+                "title": "Franco",
                 "description": "SPO",
                 "aliases": null,
                 "keywords": null,
@@ -973,21 +1001,6 @@
                 "image": "https://armada-alliance.com/assets/ship-420.png",
                 "updatedAt": "2021-07-12T10:20:35.000Z",
                 "filePath": "/en/identities/matt-solrp.md"
-              },
-              {
-                "id": "mini1pool",
-                "language": "en",
-                "slug": "/identities/mini1pool",
-                "url": "https:///website.codespace1.sublayer.io/identities/mini1pool",
-                "origin": "/identities/mini1pool",
-                "title": "Julien",
-                "description": "SPO",
-                "aliases": null,
-                "keywords": null,
-                "template": "IdentityDetailPage",
-                "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-12T10:20:35.000Z",
-                "filePath": "/en/identities/mini1pool.md"
               },
               {
                 "id": "pascal-berry",
@@ -1125,6 +1138,21 @@
                 "filePath": "/en/identities/spacebudz.md"
               },
               {
+                "id": "stake-for-nature",
+                "language": "en",
+                "slug": "/identities/stake-for-nature",
+                "url": "https:///website.codespace1.sublayer.io/identities/stake-for-nature",
+                "origin": "/identities/stake-for-nature",
+                "title": "Stake for Nature",
+                "description": "SPO",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "/s4na.jpg",
+                "updatedAt": "2021-07-14T06:33:31.000Z",
+                "filePath": "/en/identities/stake-for-nature.md"
+              },
+              {
                 "id": "stale",
                 "language": "en",
                 "slug": "/identities/stale",
@@ -1150,8 +1178,8 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
-                "image": "/sublayerio.png",
-                "updatedAt": "2021-07-13T13:35:37.000Z",
+                "image": "https://cdn.sublayer.io/logo.png",
+                "updatedAt": "2021-07-14T06:33:31.000Z",
                 "filePath": "/en/identities/sublayerio.md"
               },
               {
@@ -1473,7 +1501,7 @@
                 "template": "PoolDetailPage",
                 "identities": [
                   {
-                    "id": "sbc",
+                    "id": "sbc-mining",
                     "role": "spo"
                   }
                 ],
@@ -1713,7 +1741,7 @@
                   }
                 ],
                 "image": "https://piada.io/piadaFull.png",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-14T03:39:25.000Z",
                 "filePath": "/en/stake-pools/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65.md"
               },
               {
@@ -1729,7 +1757,7 @@
                 "template": "PoolDetailPage",
                 "identities": [
                   {
-                    "id": "mini1pool",
+                    "id": "julien-terrier",
                     "role": "spo"
                   }
                 ],
@@ -1771,12 +1799,12 @@
                 "template": "PoolDetailPage",
                 "identities": [
                   {
-                    "id": "Chris_Rain",
+                    "id": "geoff",
                     "role": "spo"
                   }
                 ],
                 "image": "https://meme.best/icons/apple-touch-icon.png",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-14T03:39:25.000Z",
                 "filePath": "/en/stake-pools/c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386.md"
               },
               {
@@ -2893,7 +2921,7 @@
                 "url": "https:///website.codespace1.sublayer.io/terms/crypto-mining",
                 "origin": "/terms/crypto-mining",
                 "title": "Crypto mining",
-                "description": "Algorithmic Contract Types Unified Standards. A taxonomy and standard for financial contracts.",
+                "description": "In proof-of-work blockchain's like Bitcoin mining is the process by which new crypto-currencies or digital assets are created and distributed to the blockchain's decentralized ledger.",
                 "aliases": [
                   "ACTUS"
                 ],
@@ -2912,7 +2940,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-14T03:39:25.000Z",
                 "filePath": "/en/terms/crypto-mining.md"
               },
               {
@@ -2937,8 +2965,42 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-14T03:39:25.000Z",
                 "filePath": "/en/terms/cryptocurrency-wallet.md"
+              },
+              {
+                "id": "cryptocurrency",
+                "language": "en",
+                "slug": "/terms/cryptocurrency",
+                "url": "https:///website.codespace1.sublayer.io/terms/cryptocurrency",
+                "origin": "/terms/cryptocurrency",
+                "title": "Cryptocurrency",
+                "description": "The process by which new coins of creating new",
+                "aliases": [
+                  "crypto",
+                  "crytpocurrency",
+                  "Bitcoin",
+                  "Cardano",
+                  "Ethereum",
+                  "Solana",
+                  "digital asset"
+                ],
+                "keywords": [
+                  "crypto",
+                  "cryptocurrency",
+                  "cryptocurrencies",
+                  "crypto-currency",
+                  "digital asset"
+                ],
+                "template": "TermDetailPage",
+                "identities": [
+                  {
+                    "id": "wael-ivie",
+                    "role": "author"
+                  }
+                ],
+                "updatedAt": "2021-07-14T03:39:25.000Z",
+                "filePath": "/en/terms/cryptocurrency.md"
               },
               {
                 "id": "currency",
@@ -6842,18 +6904,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-13T15:21:05.617Z",
-            "component-cached-in": "145 μs",
-            "component-resolved-in": "145 μs"
+            "component-cached-at": "2021-07-14T18:08:53.124Z",
+            "component-cached-in": "113 μs",
+            "component-resolved-in": "113 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T15:21:05.617Z",
-          "_cachedIn": "165 μs",
-          "_resolvedIn": "165 μs",
+          "_cachedAt": "2021-07-14T18:08:53.124Z",
+          "_cachedIn": "130 μs",
+          "_resolvedIn": "130 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6864,17 +6926,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-13T15:21:05.617Z",
-            "component-cached-in": "165 μs",
-            "component-resolved-in": "165 μs"
+            "component-cached-at": "2021-07-14T18:08:53.124Z",
+            "component-cached-in": "130 μs",
+            "component-resolved-in": "130 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-13T15:21:05.617Z",
-              "_cachedIn": "36 μs",
-              "_resolvedIn": "36 μs",
+              "_cachedAt": "2021-07-14T18:08:53.124Z",
+              "_cachedIn": "31 μs",
+              "_resolvedIn": "31 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6918,9 +6980,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-13T15:21:05.617Z",
-                "component-cached-in": "36 μs",
-                "component-resolved-in": "36 μs"
+                "component-cached-at": "2021-07-14T18:08:53.124Z",
+                "component-cached-in": "31 μs",
+                "component-resolved-in": "31 μs"
               },
               "components": {}
             }
@@ -6929,9 +6991,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-13T15:21:05.616Z",
-          "_cachedIn": "101 μs",
-          "_resolvedIn": "101 μs",
+          "_cachedAt": "2021-07-14T18:08:53.124Z",
+          "_cachedIn": "75 μs",
+          "_resolvedIn": "75 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -6940,9 +7002,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-13T15:21:05.616Z",
-            "component-cached-in": "101 μs",
-            "component-resolved-in": "101 μs"
+            "component-cached-at": "2021-07-14T18:08:53.124Z",
+            "component-cached-in": "75 μs",
+            "component-resolved-in": "75 μs"
           },
           "components": {}
         }
@@ -6951,9 +7013,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T15:21:05.617Z",
-      "_cachedIn": "192 μs",
-      "_resolvedIn": "192 μs",
+      "_cachedAt": "2021-07-14T18:08:53.124Z",
+      "_cachedIn": "145 μs",
+      "_resolvedIn": "145 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -6980,7 +7042,7 @@
             "id": "sublayerio",
             "name": "sublayerio🧙‍♂️",
             "description": "🧙‍♂️ Open Sourcerer, SPO, Co-Founder",
-            "image": "/sublayerio.png",
+            "image": "https://cdn.sublayer.io/logo.png",
             "link": {
               "name": "sublayerio🧙‍♂️",
               "href": "/identities/sublayerio"
@@ -6995,18 +7057,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-13T15:21:05.617Z",
-        "component-cached-in": "192 μs",
-        "component-resolved-in": "192 μs"
+        "component-cached-at": "2021-07-14T18:08:53.124Z",
+        "component-cached-in": "145 μs",
+        "component-resolved-in": "145 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T15:21:05.616Z",
-      "_cachedIn": "110 μs",
-      "_resolvedIn": "110 μs",
+      "_cachedAt": "2021-07-14T18:08:53.124Z",
+      "_cachedIn": "84 μs",
+      "_resolvedIn": "84 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7018,28 +7080,29 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-13T15:21:05.616Z",
-        "component-cached-in": "110 μs",
-        "component-resolved-in": "110 μs"
+        "component-cached-at": "2021-07-14T18:08:53.124Z",
+        "component-cached-in": "84 μs",
+        "component-resolved-in": "84 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-13T15:21:05.617Z",
-      "_cachedIn": "189 μs",
-      "_resolvedIn": "189 μs",
+      "_cachedAt": "2021-07-14T18:08:53.124Z",
+      "_cachedIn": "143 μs",
+      "_resolvedIn": "143 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
       "error": null,
       "props": {
         "mdxSource": {
-          "compiledSource": "var d=Object.defineProperty,h=Object.defineProperties;var u=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var p=Object.prototype.hasOwnProperty,l=Object.prototype.propertyIsEnumerable;var i=(o,t,e)=>t in o?d(o,t,{enumerable:!0,configurable:!0,writable:!0,value:e}):o[t]=e,r=(o,t)=>{for(var e in t||(t={}))p.call(t,e)&&i(o,e,t[e]);if(n)for(var e of n(t))l.call(t,e)&&i(o,e,t[e]);return o},s=(o,t)=>h(o,u(t));var c=(o,t)=>{var e={};for(var a in o)p.call(o,a)&&t.indexOf(a)<0&&(e[a]=o[a]);if(o!=null&&n)for(var a of n(o))t.indexOf(a)<0&&l.call(o,a)&&(e[a]=o[a]);return e};const makeShortcode=o=>function(e){return console.warn(\"Component \"+o+\" was not imported, exported, or provided by MDXProvider as global scope\"),mdx(\"div\",r({},e))},YoutubeVideo=makeShortcode(\"YoutubeVideo\"),layoutProps={},MDXLayout=\"wrapper\";function MDXContent(e){var a=e,{components:o}=a,t=c(a,[\"components\"]);return mdx(MDXLayout,s(r(r({},layoutProps),t),{components:o,mdxType:\"MDXLayout\"}),mdx(\"h2\",null,\"Demo\"),mdx(YoutubeVideo,{url:\"https://www.youtube.com/watch?v=6Ao98KdBACI\",mdxType:\"YoutubeVideo\"}),mdx(\"h2\",null,\"Installation\"),mdx(\"ol\",null,mdx(\"li\",{parentName:\"ol\"},mdx(\"p\",{parentName:\"li\"},mdx(\"strong\",{parentName:\"p\"},\"Get a blockfrost project id\"),\" \\u2014  Go to \",mdx(\"a\",r({parentName:\"p\"},{href:\"https://blockfrost.io/\"}),\"blockfrost.io\"),\", make an account and create a project.\")),mdx(\"li\",{parentName:\"ol\"},mdx(\"p\",{parentName:\"li\"},mdx(\"strong\",{parentName:\"p\"},\"Get your pool id\"),\" \\u2014\\xA0Go to \",mdx(\"a\",r({parentName:\"p\"},{href:\"https://pooltool.io\"}),\"pooltool.io\")))),mdx(\"p\",null,\"Setup a button somewhere on your website that looks like this:\"),mdx(\"pre\",null,mdx(\"code\",r({parentName:\"pre\"},{className:\"language-html\"}),`<button type=\"button\" onclick=\"handleDelegate()\">\n    Delegate\n</button>\n`)),mdx(\"p\",null,\"Put the following code snippet at the end of the body content:\"),mdx(\"pre\",null,mdx(\"code\",r({parentName:\"pre\"},{className:\"language-html\"}),`<script>\n    function handleDelegate() {\n        var pool_id = '<POOL_ID>'\n        var blockfrost_project_id = '<BLOCKFROST_PROJECT_ID>'\n        var link = 'https://armada-alliance.com/delegation-widget?pool_id=' + pool_id + '&blockfrost_project_id=' + blockfrost_project_id\n        var width = 600\n        var height = Math.min(800, parseInt(window.outerHeight, 10))\n        var left = (parseInt(window.outerWidth, 10) / 2) - (width / 2)\n        var top = (parseInt(window.outerHeight, 10) - height) / 2\n        window.open(link, 'Delegate', 'width=' + width + ',height=' + height + ',toolbar=0,menubar=0,location=0,status=0,scrollbars=1,resizable=1,left=' + left + ',top=' + top);\n    }\n</script>\n`)))}MDXContent.isMDXComponent=!0;\n",
+          "compiledSource": "var d=Object.defineProperty,h=Object.defineProperties;var u=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var p=Object.prototype.hasOwnProperty,l=Object.prototype.propertyIsEnumerable;var i=(o,t,e)=>t in o?d(o,t,{enumerable:!0,configurable:!0,writable:!0,value:e}):o[t]=e,r=(o,t)=>{for(var e in t||(t={}))p.call(t,e)&&i(o,e,t[e]);if(n)for(var e of n(t))l.call(t,e)&&i(o,e,t[e]);return o},c=(o,t)=>h(o,u(t));var s=(o,t)=>{var e={};for(var a in o)p.call(o,a)&&t.indexOf(a)<0&&(e[a]=o[a]);if(o!=null&&n)for(var a of n(o))t.indexOf(a)<0&&l.call(o,a)&&(e[a]=o[a]);return e};const makeShortcode=o=>function(e){return console.warn(\"Component \"+o+\" was not imported, exported, or provided by MDXProvider as global scope\"),mdx(\"div\",r({},e))},YoutubeVideo=makeShortcode(\"YoutubeVideo\"),layoutProps={},MDXLayout=\"wrapper\";function MDXContent(e){var a=e,{components:o}=a,t=s(a,[\"components\"]);return mdx(MDXLayout,c(r(r({},layoutProps),t),{components:o,mdxType:\"MDXLayout\"}),mdx(\"h2\",null,\"Demo\"),mdx(YoutubeVideo,{url:\"https://www.youtube.com/watch?v=hm8c-RhBop4\",mdxType:\"YoutubeVideo\"}),mdx(\"h2\",null,\"Installation\"),mdx(\"ol\",null,mdx(\"li\",{parentName:\"ol\"},mdx(\"p\",{parentName:\"li\"},mdx(\"strong\",{parentName:\"p\"},\"Get a blockfrost project id\"),\" \\u2014  Go to \",mdx(\"a\",r({parentName:\"p\"},{href:\"https://blockfrost.io/\"}),\"blockfrost.io\"),\", make an account and create a project.\")),mdx(\"li\",{parentName:\"ol\"},mdx(\"p\",{parentName:\"li\"},mdx(\"strong\",{parentName:\"p\"},\"Get your pool id\"),\" \\u2014\\xA0Go to \",mdx(\"a\",r({parentName:\"p\"},{href:\"https://pooltool.io\"}),\"pooltool.io\")))),mdx(\"p\",null,\"Setup a button somewhere on your website that looks like this:\"),mdx(\"pre\",null,mdx(\"code\",r({parentName:\"pre\"},{className:\"language-html\"}),`<button type=\"button\" onclick=\"handleDelegate()\">\n    Delegate\n</button>\n`)),mdx(\"p\",null,\"Put the following code snippet at the end of the body content:\"),mdx(\"pre\",null,mdx(\"code\",r({parentName:\"pre\"},{className:\"language-html\"}),`<script>\n    function handleDelegate() {\n        var pool_id = '<POOL_ID>'\n        var blockfrost_project_id = '<BLOCKFROST_PROJECT_ID>'\n        var link = 'https://armada-alliance.com/delegation-widget?pool_id=' + pool_id + '&blockfrost_project_id=' + blockfrost_project_id\n        var width = 600\n        var height = Math.min(800, parseInt(window.outerHeight, 10))\n        var left = (parseInt(window.outerWidth, 10) / 2) - (width / 2)\n        var top = (parseInt(window.outerHeight, 10) - height) / 2\n        window.open(link, 'Delegate', 'width=' + width + ',height=' + height + ',toolbar=0,menubar=0,location=0,status=0,scrollbars=1,resizable=1,left=' + left + ',top=' + top);\n    }\n</script>\n`)))}MDXContent.isMDXComponent=!0;\n",
           "scope": {}
         },
         "filePath": "/en/guides/setup-a-nami-delegate-button-on-your-website.md",
+        "updatedAt": "2021-07-13T15:34:16.000Z",
         "pageType": "Guide",
         "editOnGitHubLink": {
           "href": "https://github.com/armada-alliance/armada-alliance/tree/main/services/website/content//en/guides/setup-a-nami-delegate-button-on-your-website.md"
@@ -7048,9 +7111,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-13T15:21:05.617Z",
-        "component-cached-in": "189 μs",
-        "component-resolved-in": "189 μs"
+        "component-cached-at": "2021-07-14T18:08:53.124Z",
+        "component-cached-in": "143 μs",
+        "component-resolved-in": "143 μs"
       },
       "components": {}
     }

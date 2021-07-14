@@ -5,4 +5,6 @@ description: SPO
 image: /sbc-mining.jpg
 website: https://sbc-pool.tk/
 donationAddress: 
+telegram: sbcpool
+twitter: MiningSbc
 ---
