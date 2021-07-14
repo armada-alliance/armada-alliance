@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import markdownToText from 'markdown-to-text'
 import Link from './Link'
 import { BadgeCheckIcon } from '@heroicons/react/solid'
@@ -35,8 +34,7 @@ function Identities({ identities }) {
     )
 }
 
-
-export default function PageHeader({ title, image, verified, pageType, identities }) {
+export default function PageHeader({ title, subtitle, image, verified, pageType, identities }) {
 
     return (
         <>
@@ -59,15 +57,24 @@ export default function PageHeader({ title, image, verified, pageType, identitie
                 <span className={"mt-2 block text-3xl leading-8 text-center font-extrabold tracking-tight text-gray-900 sm:text-4xl"}>
                     {markdownToText(title)}
                 </span>
-            </h1>
-            {verified ? (
-                <div className="mt-2 flex justify-center">
-                    <div className="flex items-center space-x-1">
-                        <BadgeCheckIcon className="h-4 text-primary-500" />
-                        <div className="text-primary-500 text-sm">Verified</div>
+                {subtitle || verified ? (
+                    <div className="mt-2 flex justify-center items-center space-x-2">
+                        {subtitle ? (
+                            <span className="block text-base text-center text-gray-400 font-semibold tracking-wide">
+                                {subtitle}
+                            </span>
+                        ) : null}
+                        {verified ? (
+                            <div className="flex justify-center">
+                                <div className="flex items-center space-x-1">
+                                    <BadgeCheckIcon className="h-4 text-primary-500" />
+                                    <div className="text-primary-500 text-sm">Verified</div>
+                                </div>
+                            </div>
+                        ) : null}
                     </div>
-                </div>
-            ) : null}
+                ) : null}
+            </h1>
             {identities && identities.length ? (
                 <div className="py-6 flex justify-center">
                     <Identities identities={identities} />

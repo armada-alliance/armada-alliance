@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"plutus\",\"language\":\"en\",\"slug\":\"/terms/plutus\",\"url\":\"https:///website.codespace1.sublayer.io/terms/plutus\",\"origin\":\"/terms/plutus\",\"title\":\"Plutus\",\"description\":\"A Turing-complete programming platform for writing functional smart contracts on the Cardano blockchain.\",\"aliases\":[\"a turing-complete programming languages\",\"cardano programming language\",\"cardano smart contract programming language\",\"solidity programming language\",\"functional programming languages\",\"haskell programming language\",\"cardano coding languages\",\"cardano smart contracts platform\",\"cardano smart contracts platform\",\"turning complete\",\"plutus programming language\"],\"keywords\":null,\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/plutus.md\",\"body\":\"Plutus programming language is based on Haskell programming language. Haskell is a well known functional programming language that is widely adopt in many industries where rigour formal methods are needed to ensure a program does exactly what it was interned to do like in the fields of finance and health. \",\"mdxSource\":{\"compiledSource\":\"var d=Object.defineProperty,m=Object.defineProperties;var p=Object.getOwnPropertyDescriptors;var t=Object.getOwnPropertySymbols;var i=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var l=(e,n,a)=>n in e?d(e,n,{enumerable:!0,configurable:!0,writable:!0,value:a}):e[n]=a,r=(e,n)=>{for(var a in n||(n={}))i.call(n,a)&&l(e,a,n[a]);if(t)for(var a of t(n))s.call(n,a)&&l(e,a,n[a]);return e},u=(e,n)=>m(e,p(n));var g=(e,n)=>{var a={};for(var o in e)i.call(e,o)&&n.indexOf(o)<0&&(a[o]=e[o]);if(e!=null&&t)for(var o of t(e))n.indexOf(o)<0&&s.call(e,o)&&(a[o]=e[o]);return a};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(a){var o=a,{components:e}=o,n=g(o,[\\\"components\\\"]);return mdx(MDXLayout,u(r(r({},layoutProps),n),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"Plutus programming language is based on Haskell programming language. Haskell is a well known functional programming language that is widely adopt in many industries where rigour formal methods are needed to ensure a program does exactly what it was interned to do like in the fields of finance and health. \\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-14T18:08:54.344Z",
-  "_cachedIn": "1.28 ms",
-  "_resolvedIn": "1.28 ms",
+  "_cachedAt": "2021-07-14T21:13:49.722Z",
+  "_cachedIn": "2.23 ms",
+  "_resolvedIn": "2.23 ms",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -49,17 +49,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-14T18:08:54.344Z",
-    "component-cached-in": "1.28 ms",
-    "component-resolved-in": "1.28 ms"
+    "component-cached-at": "2021-07-14T21:13:49.722Z",
+    "component-cached-in": "2.23 ms",
+    "component-resolved-in": "2.23 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-14T18:08:54.344Z",
-      "_cachedIn": "893 μs",
-      "_resolvedIn": "893 μs",
+      "_cachedAt": "2021-07-14T21:13:49.722Z",
+      "_cachedIn": "1.71 ms",
+      "_resolvedIn": "1.71 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -68,24 +68,24 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-14T18:08:54.344Z",
-        "component-cached-in": "893 μs",
-        "component-resolved-in": "893 μs"
+        "component-cached-at": "2021-07-14T21:13:49.722Z",
+        "component-cached-in": "1.71 ms",
+        "component-resolved-in": "1.71 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-14T18:08:54.344Z",
-          "_cachedIn": "543 μs",
-          "_resolvedIn": "543 μs",
+          "_cachedAt": "2021-07-14T21:13:49.722Z",
+          "_cachedIn": "1.01 ms",
+          "_resolvedIn": "1.01 ms",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
           "error": null,
           "props": {
             "schema": {
-              "createdAt": "2021-07-14T18:08:42.568Z",
+              "createdAt": "2021-07-14T21:13:39.156Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -777,7 +777,8 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
-                "image": "/ales.jpg",
+                "image": "https://armada-alliance.com/assets/ship-420.png",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/Adaberry_Pi.md"
               },
               {
@@ -792,7 +793,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-12T10:20:35.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/Chris_Rain.md"
               },
               {
@@ -807,6 +808,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/Zebra_Danio.md"
               },
               {
@@ -821,7 +823,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/ales.jpg",
-                "updatedAt": "2021-07-06T01:55:23.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/alessandro-berry.md"
               },
               {
@@ -836,7 +838,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/alex-qxt.jpg",
-                "updatedAt": "2021-06-19T10:02:42.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/alex-qxt.md"
               },
               {
@@ -881,6 +883,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/geoff.md"
               },
               {
@@ -925,7 +928,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/julienterrier.jpg",
-                "updatedAt": "2021-07-14T08:28:41.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/julien-terrier.md"
               },
               {
@@ -940,7 +943,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-12T10:20:35.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/karnagge.md"
               },
               {
@@ -955,7 +958,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/keww.jpg",
-                "updatedAt": "2021-06-25T17:16:29.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/ken-adams.md"
               },
               {
@@ -970,7 +973,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-12T10:20:35.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/krista-611.md"
               },
               {
@@ -1000,7 +1003,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-12T10:20:35.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/matt-solrp.md"
               },
               {
@@ -1030,7 +1033,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-12T10:20:35.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/paul-oyster.md"
               },
               {
@@ -1075,7 +1078,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/raine.png",
-                "updatedAt": "2021-06-25T18:18:38.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/raine-bhmt.md"
               },
               {
@@ -1105,7 +1108,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/sayshar.jpg",
-                "updatedAt": "2021-06-18T07:30:31.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/sayshar-srn.md"
               },
               {
@@ -1120,7 +1123,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/sbc-mining.jpg",
-                "updatedAt": "2021-06-18T07:30:31.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/sbc-mining.md"
               },
               {
@@ -1180,7 +1183,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://cdn.sublayer.io/logo.png",
-                "updatedAt": "2021-07-14T06:33:31.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/sublayerio.md"
               },
               {
@@ -1210,7 +1213,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-12T10:20:35.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/thyes_MB.md"
               },
               {
@@ -1255,7 +1258,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/wcat.jpeg",
-                "updatedAt": "2021-07-06T17:25:38.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/wcat-otg.md"
               },
               {
@@ -1285,7 +1288,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-12T10:20:35.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/zenent.md"
               },
               {
@@ -1309,7 +1312,8 @@
                 "slug": "/identities/zw3rk",
                 "url": "https:///website.codespace1.sublayer.io/identities/zw3rk",
                 "origin": "/identities/zw3rk",
-                "title": "Moritz",
+                "title": "Moritz Angermann",
+                "description": "Software Engineering Lead at IOG",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
@@ -1486,7 +1490,7 @@
                   }
                 ],
                 "image": "https://static.adapools.org/pool_logo/351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8.png",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/stake-pools/351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8.md"
               },
               {
@@ -1507,7 +1511,7 @@
                   }
                 ],
                 "image": "https://raw.githubusercontent.com/sbc-mining/ada-pool/main/512x512.png",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/stake-pools/406a08532d2ca8dd08ea39e082dc8acdc2a3b34d0c517bd0e40af5e1.md"
               },
               {
@@ -1742,7 +1746,7 @@
                   }
                 ],
                 "image": "https://piada.io/piadaFull.png",
-                "updatedAt": "2021-07-14T03:39:25.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/stake-pools/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65.md"
               },
               {
@@ -1763,7 +1767,7 @@
                   }
                 ],
                 "image": "https://github.com/jterrier84/minipool/blob/main/MINI1_logo.png?raw=true",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/stake-pools/c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2.md"
               },
               {
@@ -1805,7 +1809,7 @@
                   }
                 ],
                 "image": "https://meme.best/icons/apple-touch-icon.png",
-                "updatedAt": "2021-07-14T03:39:25.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/stake-pools/c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386.md"
               },
               {
@@ -6905,18 +6909,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-14T18:08:54.344Z",
-            "component-cached-in": "543 μs",
-            "component-resolved-in": "543 μs"
+            "component-cached-at": "2021-07-14T21:13:49.722Z",
+            "component-cached-in": "1.01 ms",
+            "component-resolved-in": "1.01 ms"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-14T18:08:54.344Z",
-          "_cachedIn": "682 μs",
-          "_resolvedIn": "682 μs",
+          "_cachedAt": "2021-07-14T21:13:49.722Z",
+          "_cachedIn": "1.27 ms",
+          "_resolvedIn": "1.27 ms",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6927,17 +6931,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-14T18:08:54.344Z",
-            "component-cached-in": "682 μs",
-            "component-resolved-in": "682 μs"
+            "component-cached-at": "2021-07-14T21:13:49.722Z",
+            "component-cached-in": "1.27 ms",
+            "component-resolved-in": "1.27 ms"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-14T18:08:54.344Z",
-              "_cachedIn": "157 μs",
-              "_resolvedIn": "157 μs",
+              "_cachedAt": "2021-07-14T21:13:49.722Z",
+              "_cachedIn": "257 μs",
+              "_resolvedIn": "257 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6981,9 +6985,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-14T18:08:54.344Z",
-                "component-cached-in": "157 μs",
-                "component-resolved-in": "157 μs"
+                "component-cached-at": "2021-07-14T21:13:49.722Z",
+                "component-cached-in": "257 μs",
+                "component-resolved-in": "257 μs"
               },
               "components": {}
             }
@@ -6992,9 +6996,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-14T18:08:54.344Z",
-          "_cachedIn": "268 μs",
-          "_resolvedIn": "268 μs",
+          "_cachedAt": "2021-07-14T21:13:49.721Z",
+          "_cachedIn": "589 μs",
+          "_resolvedIn": "589 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7003,9 +7007,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-14T18:08:54.344Z",
-            "component-cached-in": "268 μs",
-            "component-resolved-in": "268 μs"
+            "component-cached-at": "2021-07-14T21:13:49.721Z",
+            "component-cached-in": "589 μs",
+            "component-resolved-in": "589 μs"
           },
           "components": {}
         }
@@ -7014,9 +7018,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-14T18:08:54.344Z",
-      "_cachedIn": "601 μs",
-      "_resolvedIn": "601 μs",
+      "_cachedAt": "2021-07-14T21:13:49.722Z",
+      "_cachedIn": "1.16 ms",
+      "_resolvedIn": "1.16 ms",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7044,18 +7048,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-14T18:08:54.344Z",
-        "component-cached-in": "601 μs",
-        "component-resolved-in": "601 μs"
+        "component-cached-at": "2021-07-14T21:13:49.722Z",
+        "component-cached-in": "1.16 ms",
+        "component-resolved-in": "1.16 ms"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-14T18:08:54.344Z",
-      "_cachedIn": "317 μs",
-      "_resolvedIn": "317 μs",
+      "_cachedAt": "2021-07-14T21:13:49.721Z",
+      "_cachedIn": "663 μs",
+      "_resolvedIn": "663 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7067,18 +7071,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-14T18:08:54.344Z",
-        "component-cached-in": "317 μs",
-        "component-resolved-in": "317 μs"
+        "component-cached-at": "2021-07-14T21:13:49.721Z",
+        "component-cached-in": "663 μs",
+        "component-resolved-in": "663 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-14T18:08:54.344Z",
-      "_cachedIn": "603 μs",
-      "_resolvedIn": "603 μs",
+      "_cachedAt": "2021-07-14T21:13:49.722Z",
+      "_cachedIn": "1.16 ms",
+      "_resolvedIn": "1.16 ms",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7097,9 +7101,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-14T18:08:54.344Z",
-        "component-cached-in": "603 μs",
-        "component-resolved-in": "603 μs"
+        "component-cached-at": "2021-07-14T21:13:49.722Z",
+        "component-cached-in": "1.16 ms",
+        "component-resolved-in": "1.16 ms"
       },
       "components": {}
     }

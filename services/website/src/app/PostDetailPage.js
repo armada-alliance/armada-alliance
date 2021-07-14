@@ -4,6 +4,7 @@ import ContentContainer from './ContentContainer'
 import PageHeader from './PageHeader'
 import PageExcerpt from './PageExcerpt'
 import PageContent from './PageContent'
+import PageSocials from './PageSocials'
 import PostPagesSection from './PostPagesSection'
 import Component from './Component'
 import Delegation from './Delegation'
@@ -24,6 +25,12 @@ export default function PostDetailPage(props) {
                                     use={Delegation}
                                     data={components.DelegationSection}
                                 />
+                            ) : null}
+                            {components.PageSocials ? (
+                                <div className="mt-4">
+                                    <Component use={PageSocials} data={components.PageSocials} />
+
+                                </div>
                             ) : null}
                             <Component use={PageExcerpt} data={components.PageExcerpt} />
                         </div>
