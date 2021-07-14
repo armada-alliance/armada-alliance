@@ -9,7 +9,3 @@ verified: true
 ---
 
 This project consists of spread organizations' work, give them a voice, support and help them. Our vision is of a peaceful and sustainable world based on a society living in harmony with nature. We believe that our children’s future will be better because of what we do. Stake with us, stake for nature!
-
-<YoutubeVideo url="" description="Presentation" />
-
-https://adapulse.io/arming-cardano-an-ecosystem-for-raspberry-pi-stakepool-operators/
