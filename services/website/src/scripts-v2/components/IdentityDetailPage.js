@@ -7,13 +7,17 @@ module.exports = {
     getPages: async (ctx, { component }) => getPagesForTemplate(component.id),
     transformPage: async (ctx, page) => {
 
-        const pool = ctx.tables.get('identities').find(pool => pool.id === page.id)
+        const identity = ctx.tables.get('identities').find(identity => identity.id === page.id)
+
+        if (!identity) {
+            console.log('page', page)
+        }
 
         return {
             ...page,
-            title: pool.name,
-            image: pool.image,
-            description: pool.description
+            title: identity.name,
+            image: identity.image,
+            description: identity.description
         }
     },
     resolve: (ctx, props) => {

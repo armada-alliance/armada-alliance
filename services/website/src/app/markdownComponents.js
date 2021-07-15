@@ -53,6 +53,19 @@ const markdownComponents = {
     pre: props => (
         <pre {...props} className="mb-8" />
     ),
+    iframe: props => (
+        <div className="md:-mx-24">
+            <div
+                className="bg-gray-100 rounded-lg border border-gray-200 shadow-md overflow-hidden"
+                style={{
+                    WebkitMaskImage: "-webkit-radial-gradient(white, black)", // Safari HACK for rounded corners
+                }}
+            >
+                <iframe {...props} className="w-full" />
+            </div>
+        </div>
+
+    ),
     code: Code
 }
 
