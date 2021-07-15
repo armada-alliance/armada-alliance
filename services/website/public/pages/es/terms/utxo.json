@@ -1,67 +1,60 @@
 {
-  "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"ACTUS\",\"language\":\"es\",\"slug\":\"/es/terms/ACTUS\",\"url\":\"https:///website.codespace1.sublayer.io/es/terms/ACTUS\",\"origin\":\"/terms/actus\",\"title\":\"ACTUS\",\"description\":\"Algorithmic Contract Types Unified Standards (Estandar Unificado de Tipos de Contratos Algorítmicos). Una clasificación y un estándar para contratos financieros.\",\"aliases\":[\"ACTUS\"],\"keywords\":[\"ACTUS\",\"Algorithmic\",\"Contract\",\"Types\",\"Unified\",\"Standards\",\"Algoritmo\",\"Contrato\",\"Tipos\",\"Clasificación\",\"Unificado\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"alex-qxt\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/es/terms/ACTUS.md\",\"body\":\"\",\"mdxSource\":{\"compiledSource\":\"var M=Object.defineProperty,X=Object.defineProperties;var c=Object.getOwnPropertyDescriptors;var u=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,a=Object.prototype.propertyIsEnumerable;var s=(o,t,n)=>t in o?M(o,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):o[t]=n,p=(o,t)=>{for(var n in t||(t={}))r.call(t,n)&&s(o,n,t[n]);if(u)for(var n of u(t))a.call(t,n)&&s(o,n,t[n]);return o},y=(o,t)=>X(o,c(t));var D=(o,t)=>{var n={};for(var e in o)r.call(o,e)&&t.indexOf(e)<0&&(n[e]=o[e]);if(o!=null&&u)for(var e of u(o))t.indexOf(e)<0&&a.call(o,e)&&(n[e]=o[e]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var e=n,{components:o}=e,t=D(e,[\\\"components\\\"]);return mdx(MDXLayout,y(p(p({},layoutProps),t),{components:o,mdxType:\\\"MDXLayout\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
+  "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"utxo\",\"language\":\"es\",\"slug\":\"/es/terms/utxo\",\"url\":\"https:///website.codespace1.sublayer.io/es/terms/utxo\",\"origin\":\"/es/terms/utxo\",\"title\":\"UTXO\",\"description\":\"UTXO (Unspent Transaction Output) significa \\\"Salida de transacción no gastada\\\". En las criptomonedas, un UTXO es una abstracción de dinero electrónico. Cada UTXO es análogo a una moneda y tiene una cierta cantidad de valor en su respectiva moneda.\",\"aliases\":[\"utxo\",\"utxo model\",\"cardano utxo model\"],\"keywords\":[\"utxo\",\"cardano\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"Alex (Quixote Pool)\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-12T16:31:58.000Z\",\"filePath\":\"/es/terms/utxo.md\",\"body\":\"Otra forma de verlo, usando una analogía del dinero fiduciario, es que los UTXO representan varias cantidades de \\\"cambio\\\" disponibles para cualquier usuario en particular. Los valores no gastados en cada bloque son UTXO, y cuando se “gastan” (han sido usados en una transacción) crean un nuevo “cambio” (nuevos UTXO). [Detailed information](https://medium.com/bitbees/what-the-heck-is-utxo-ca68f2651819).\\n\\n<YoutubeVideo url=\\\"https://www.youtube.com/watch?v=hKft6E4K8KY\\\" description=\\\"Video explaining the UTXO Model\\\" />\\n\",\"mdxSource\":{\"compiledSource\":\"var p=Object.defineProperty,l=Object.defineProperties;var m=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var s=Object.prototype.hasOwnProperty,u=Object.prototype.propertyIsEnumerable;var i=(o,e,a)=>e in o?p(o,e,{enumerable:!0,configurable:!0,writable:!0,value:a}):o[e]=a,t=(o,e)=>{for(var a in e||(e={}))s.call(e,a)&&i(o,a,e[a]);if(r)for(var a of r(e))u.call(e,a)&&i(o,a,e[a]);return o},d=(o,e)=>l(o,m(e));var c=(o,e)=>{var a={};for(var n in o)s.call(o,n)&&e.indexOf(n)<0&&(a[n]=o[n]);if(o!=null&&r)for(var n of r(o))e.indexOf(n)<0&&u.call(o,n)&&(a[n]=o[n]);return a};const makeShortcode=o=>function(a){return console.warn(\\\"Component \\\"+o+\\\" was not imported, exported, or provided by MDXProvider as global scope\\\"),mdx(\\\"div\\\",t({},a))},YoutubeVideo=makeShortcode(\\\"YoutubeVideo\\\"),layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(a){var n=a,{components:o}=n,e=c(n,[\\\"components\\\"]);return mdx(MDXLayout,d(t(t({},layoutProps),e),{components:o,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,'Otra forma de verlo, usando una analog\\\\xEDa del dinero fiduciario, es que los UTXO representan varias cantidades de \\\"cambio\\\" disponibles para cualquier usuario en particular. Los valores no gastados en cada bloque son UTXO, y cuando se \\\\u201Cgastan\\\\u201D (han sido usados en una transacci\\\\xF3n) crean un nuevo \\\\u201Ccambio\\\\u201D (nuevos UTXO). ',mdx(\\\"a\\\",t({parentName:\\\"p\\\"},{href:\\\"https://medium.com/bitbees/what-the-heck-is-utxo-ca68f2651819\\\"}),\\\"Detailed information\\\"),\\\".\\\"),mdx(YoutubeVideo,{url:\\\"https://www.youtube.com/watch?v=hKft6E4K8KY\\\",description:\\\"Video explaining the UTXO Model\\\",mdxType:\\\"YoutubeVideo\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-15T11:19:17.178Z",
-  "_cachedIn": "235 μs",
-  "_resolvedIn": "235 μs",
+  "_cachedAt": "2021-07-15T11:19:17.233Z",
+  "_cachedIn": "740 μs",
+  "_resolvedIn": "740 μs",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
   "error": null,
   "props": {
-    "id": "ACTUS",
+    "id": "utxo",
     "language": "es",
-    "slug": "/es/terms/ACTUS",
-    "url": "https:///website.codespace1.sublayer.io/es/terms/ACTUS",
-    "origin": "/terms/actus",
-    "title": "ACTUS",
-    "description": "Algorithmic Contract Types Unified Standards (Estandar Unificado de Tipos de Contratos Algorítmicos). Una clasificación y un estándar para contratos financieros.",
+    "slug": "/es/terms/utxo",
+    "url": "https:///website.codespace1.sublayer.io/es/terms/utxo",
+    "origin": "/es/terms/utxo",
+    "title": "UTXO",
+    "description": "UTXO (Unspent Transaction Output) significa \"Salida de transacción no gastada\". En las criptomonedas, un UTXO es una abstracción de dinero electrónico. Cada UTXO es análogo a una moneda y tiene una cierta cantidad de valor en su respectiva moneda.",
     "aliases": [
-      "ACTUS"
+      "utxo",
+      "utxo model",
+      "cardano utxo model"
     ],
     "keywords": [
-      "ACTUS",
-      "Algorithmic",
-      "Contract",
-      "Types",
-      "Unified",
-      "Standards",
-      "Algoritmo",
-      "Contrato",
-      "Tipos",
-      "Clasificación",
-      "Unificado"
+      "utxo",
+      "cardano"
     ],
     "template": "TermDetailPage",
     "identities": [
       {
-        "id": "alex-qxt",
+        "id": "Alex (Quixote Pool)",
         "role": "author"
       }
     ],
-    "updatedAt": "2021-07-10T20:43:29.000Z",
-    "filePath": "/es/terms/ACTUS.md",
-    "body": "",
+    "updatedAt": "2021-07-12T16:31:58.000Z",
+    "filePath": "/es/terms/utxo.md",
+    "body": "Otra forma de verlo, usando una analogía del dinero fiduciario, es que los UTXO representan varias cantidades de \"cambio\" disponibles para cualquier usuario en particular. Los valores no gastados en cada bloque son UTXO, y cuando se “gastan” (han sido usados en una transacción) crean un nuevo “cambio” (nuevos UTXO). [Detailed information](https://medium.com/bitbees/what-the-heck-is-utxo-ca68f2651819).\n\n<YoutubeVideo url=\"https://www.youtube.com/watch?v=hKft6E4K8KY\" description=\"Video explaining the UTXO Model\" />\n",
     "mdxSource": {
-      "compiledSource": "var M=Object.defineProperty,X=Object.defineProperties;var c=Object.getOwnPropertyDescriptors;var u=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,a=Object.prototype.propertyIsEnumerable;var s=(o,t,n)=>t in o?M(o,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):o[t]=n,p=(o,t)=>{for(var n in t||(t={}))r.call(t,n)&&s(o,n,t[n]);if(u)for(var n of u(t))a.call(t,n)&&s(o,n,t[n]);return o},y=(o,t)=>X(o,c(t));var D=(o,t)=>{var n={};for(var e in o)r.call(o,e)&&t.indexOf(e)<0&&(n[e]=o[e]);if(o!=null&&u)for(var e of u(o))t.indexOf(e)<0&&a.call(o,e)&&(n[e]=o[e]);return n};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(n){var e=n,{components:o}=e,t=D(e,[\"components\"]);return mdx(MDXLayout,y(p(p({},layoutProps),t),{components:o,mdxType:\"MDXLayout\"}))}MDXContent.isMDXComponent=!0;\n",
+      "compiledSource": "var p=Object.defineProperty,l=Object.defineProperties;var m=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var s=Object.prototype.hasOwnProperty,u=Object.prototype.propertyIsEnumerable;var i=(o,e,a)=>e in o?p(o,e,{enumerable:!0,configurable:!0,writable:!0,value:a}):o[e]=a,t=(o,e)=>{for(var a in e||(e={}))s.call(e,a)&&i(o,a,e[a]);if(r)for(var a of r(e))u.call(e,a)&&i(o,a,e[a]);return o},d=(o,e)=>l(o,m(e));var c=(o,e)=>{var a={};for(var n in o)s.call(o,n)&&e.indexOf(n)<0&&(a[n]=o[n]);if(o!=null&&r)for(var n of r(o))e.indexOf(n)<0&&u.call(o,n)&&(a[n]=o[n]);return a};const makeShortcode=o=>function(a){return console.warn(\"Component \"+o+\" was not imported, exported, or provided by MDXProvider as global scope\"),mdx(\"div\",t({},a))},YoutubeVideo=makeShortcode(\"YoutubeVideo\"),layoutProps={},MDXLayout=\"wrapper\";function MDXContent(a){var n=a,{components:o}=n,e=c(n,[\"components\"]);return mdx(MDXLayout,d(t(t({},layoutProps),e),{components:o,mdxType:\"MDXLayout\"}),mdx(\"p\",null,'Otra forma de verlo, usando una analog\\xEDa del dinero fiduciario, es que los UTXO representan varias cantidades de \"cambio\" disponibles para cualquier usuario en particular. Los valores no gastados en cada bloque son UTXO, y cuando se \\u201Cgastan\\u201D (han sido usados en una transacci\\xF3n) crean un nuevo \\u201Ccambio\\u201D (nuevos UTXO). ',mdx(\"a\",t({parentName:\"p\"},{href:\"https://medium.com/bitbees/what-the-heck-is-utxo-ca68f2651819\"}),\"Detailed information\"),\".\"),mdx(YoutubeVideo,{url:\"https://www.youtube.com/watch?v=hKft6E4K8KY\",description:\"Video explaining the UTXO Model\",mdxType:\"YoutubeVideo\"}))}MDXContent.isMDXComponent=!0;\n",
       "scope": {}
     },
-    "source": "/pages/es/terms/ACTUS.json"
+    "source": "/pages/es/terms/utxo.json"
   },
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-15T11:19:17.178Z",
-    "component-cached-in": "235 μs",
-    "component-resolved-in": "235 μs"
+    "component-cached-at": "2021-07-15T11:19:17.233Z",
+    "component-cached-in": "740 μs",
+    "component-resolved-in": "740 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-15T11:19:17.178Z",
-      "_cachedIn": "198 μs",
-      "_resolvedIn": "198 μs",
+      "_cachedAt": "2021-07-15T11:19:17.233Z",
+      "_cachedIn": "577 μs",
+      "_resolvedIn": "577 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -70,17 +63,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-15T11:19:17.178Z",
-        "component-cached-in": "198 μs",
-        "component-resolved-in": "198 μs"
+        "component-cached-at": "2021-07-15T11:19:17.233Z",
+        "component-cached-in": "577 μs",
+        "component-resolved-in": "577 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-15T11:19:17.178Z",
-          "_cachedIn": "144 μs",
-          "_resolvedIn": "144 μs",
+          "_cachedAt": "2021-07-15T11:19:17.233Z",
+          "_cachedIn": "323 μs",
+          "_resolvedIn": "323 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -7173,18 +7166,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-15T11:19:17.178Z",
-            "component-cached-in": "144 μs",
-            "component-resolved-in": "144 μs"
+            "component-cached-at": "2021-07-15T11:19:17.233Z",
+            "component-cached-in": "323 μs",
+            "component-resolved-in": "323 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-15T11:19:17.178Z",
-          "_cachedIn": "161 μs",
-          "_resolvedIn": "161 μs",
+          "_cachedAt": "2021-07-15T11:19:17.233Z",
+          "_cachedIn": "400 μs",
+          "_resolvedIn": "400 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7195,17 +7188,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-15T11:19:17.178Z",
-            "component-cached-in": "161 μs",
-            "component-resolved-in": "161 μs"
+            "component-cached-at": "2021-07-15T11:19:17.233Z",
+            "component-cached-in": "400 μs",
+            "component-resolved-in": "400 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-15T11:19:17.178Z",
-              "_cachedIn": "26 μs",
-              "_resolvedIn": "26 μs",
+              "_cachedAt": "2021-07-15T11:19:17.233Z",
+              "_cachedIn": "85 μs",
+              "_resolvedIn": "85 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7249,9 +7242,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-15T11:19:17.178Z",
-                "component-cached-in": "26 μs",
-                "component-resolved-in": "26 μs"
+                "component-cached-at": "2021-07-15T11:19:17.233Z",
+                "component-cached-in": "85 μs",
+                "component-resolved-in": "85 μs"
               },
               "components": {}
             }
@@ -7260,9 +7253,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-15T11:19:17.178Z",
-          "_cachedIn": "109 μs",
-          "_resolvedIn": "109 μs",
+          "_cachedAt": "2021-07-15T11:19:17.233Z",
+          "_cachedIn": "215 μs",
+          "_resolvedIn": "215 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7271,9 +7264,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-15T11:19:17.178Z",
-            "component-cached-in": "109 μs",
-            "component-resolved-in": "109 μs"
+            "component-cached-at": "2021-07-15T11:19:17.233Z",
+            "component-cached-in": "215 μs",
+            "component-resolved-in": "215 μs"
           },
           "components": {}
         }
@@ -7282,95 +7275,77 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-15T11:19:17.178Z",
-      "_cachedIn": "158 μs",
-      "_resolvedIn": "158 μs",
+      "_cachedAt": "2021-07-15T11:19:17.233Z",
+      "_cachedIn": "410 μs",
+      "_resolvedIn": "410 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
       "error": null,
       "props": {
-        "title": "ACTUS",
+        "title": "UTXO",
         "pageType": "Term",
-        "identities": [
-          {
-            "id": "alex-qxt",
-            "name": "Alex (Quixote Pool)",
-            "description": "SPO",
-            "image": "/alex-qxt.jpg",
-            "telegram": "QuixotePool",
-            "twitter": "QuixotePool",
-            "github": "quixotesystems",
-            "link": {
-              "name": "Alex (Quixote Pool)",
-              "href": "/identities/alex-qxt"
-            },
-            "pools": [
-              "351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8"
-            ],
-            "role": "author"
-          }
-        ]
+        "identities": []
       },
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-15T11:19:17.178Z",
-        "component-cached-in": "158 μs",
-        "component-resolved-in": "158 μs"
+        "component-cached-at": "2021-07-15T11:19:17.233Z",
+        "component-cached-in": "410 μs",
+        "component-resolved-in": "410 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-15T11:19:17.178Z",
-      "_cachedIn": "75 μs",
-      "_resolvedIn": "75 μs",
+      "_cachedAt": "2021-07-15T11:19:17.233Z",
+      "_cachedIn": "256 μs",
+      "_resolvedIn": "256 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
       "error": null,
       "props": {
         "alignLeft": true,
-        "excerpt": "Algorithmic Contract Types Unified Standards (Estandar Unificado de Tipos de Contratos Algorítmicos). Una clasificación y un estándar para contratos financieros."
+        "excerpt": "UTXO (Unspent Transaction Output) significa \"Salida de transacción no gastada\". En las criptomonedas, un UTXO es una abstracción de dinero electrónico. Cada UTXO es análogo a una moneda y tiene una cierta cantidad de valor en su respectiva moneda."
       },
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-15T11:19:17.178Z",
-        "component-cached-in": "75 μs",
-        "component-resolved-in": "75 μs"
+        "component-cached-at": "2021-07-15T11:19:17.233Z",
+        "component-cached-in": "256 μs",
+        "component-resolved-in": "256 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-15T11:19:17.178Z",
-      "_cachedIn": "156 μs",
-      "_resolvedIn": "156 μs",
+      "_cachedAt": "2021-07-15T11:19:17.233Z",
+      "_cachedIn": "409 μs",
+      "_resolvedIn": "409 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
       "error": null,
       "props": {
         "mdxSource": {
-          "compiledSource": "var M=Object.defineProperty,X=Object.defineProperties;var c=Object.getOwnPropertyDescriptors;var u=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,a=Object.prototype.propertyIsEnumerable;var s=(o,t,n)=>t in o?M(o,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):o[t]=n,p=(o,t)=>{for(var n in t||(t={}))r.call(t,n)&&s(o,n,t[n]);if(u)for(var n of u(t))a.call(t,n)&&s(o,n,t[n]);return o},y=(o,t)=>X(o,c(t));var D=(o,t)=>{var n={};for(var e in o)r.call(o,e)&&t.indexOf(e)<0&&(n[e]=o[e]);if(o!=null&&u)for(var e of u(o))t.indexOf(e)<0&&a.call(o,e)&&(n[e]=o[e]);return n};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(n){var e=n,{components:o}=e,t=D(e,[\"components\"]);return mdx(MDXLayout,y(p(p({},layoutProps),t),{components:o,mdxType:\"MDXLayout\"}))}MDXContent.isMDXComponent=!0;\n",
+          "compiledSource": "var p=Object.defineProperty,l=Object.defineProperties;var m=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var s=Object.prototype.hasOwnProperty,u=Object.prototype.propertyIsEnumerable;var i=(o,e,a)=>e in o?p(o,e,{enumerable:!0,configurable:!0,writable:!0,value:a}):o[e]=a,t=(o,e)=>{for(var a in e||(e={}))s.call(e,a)&&i(o,a,e[a]);if(r)for(var a of r(e))u.call(e,a)&&i(o,a,e[a]);return o},d=(o,e)=>l(o,m(e));var c=(o,e)=>{var a={};for(var n in o)s.call(o,n)&&e.indexOf(n)<0&&(a[n]=o[n]);if(o!=null&&r)for(var n of r(o))e.indexOf(n)<0&&u.call(o,n)&&(a[n]=o[n]);return a};const makeShortcode=o=>function(a){return console.warn(\"Component \"+o+\" was not imported, exported, or provided by MDXProvider as global scope\"),mdx(\"div\",t({},a))},YoutubeVideo=makeShortcode(\"YoutubeVideo\"),layoutProps={},MDXLayout=\"wrapper\";function MDXContent(a){var n=a,{components:o}=n,e=c(n,[\"components\"]);return mdx(MDXLayout,d(t(t({},layoutProps),e),{components:o,mdxType:\"MDXLayout\"}),mdx(\"p\",null,'Otra forma de verlo, usando una analog\\xEDa del dinero fiduciario, es que los UTXO representan varias cantidades de \"cambio\" disponibles para cualquier usuario en particular. Los valores no gastados en cada bloque son UTXO, y cuando se \\u201Cgastan\\u201D (han sido usados en una transacci\\xF3n) crean un nuevo \\u201Ccambio\\u201D (nuevos UTXO). ',mdx(\"a\",t({parentName:\"p\"},{href:\"https://medium.com/bitbees/what-the-heck-is-utxo-ca68f2651819\"}),\"Detailed information\"),\".\"),mdx(YoutubeVideo,{url:\"https://www.youtube.com/watch?v=hKft6E4K8KY\",description:\"Video explaining the UTXO Model\",mdxType:\"YoutubeVideo\"}))}MDXContent.isMDXComponent=!0;\n",
           "scope": {}
         },
-        "filePath": "/es/terms/ACTUS.md",
-        "updatedAt": "2021-07-10T20:43:29.000Z",
+        "filePath": "/es/terms/utxo.md",
+        "updatedAt": "2021-07-12T16:31:58.000Z",
         "editOnGitHubLink": {
-          "href": "https://github.com/armada-alliance/armada-alliance/tree/main/services/website/content//es/terms/ACTUS.md"
+          "href": "https://github.com/armada-alliance/armada-alliance/tree/main/services/website/content//es/terms/utxo.md"
         }
       },
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-15T11:19:17.178Z",
-        "component-cached-in": "156 μs",
-        "component-resolved-in": "156 μs"
+        "component-cached-at": "2021-07-15T11:19:17.233Z",
+        "component-cached-in": "409 μs",
+        "component-resolved-in": "409 μs"
       },
       "components": {}
     }
