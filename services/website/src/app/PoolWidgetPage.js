@@ -39,7 +39,7 @@ export default function PoolWidgetPage(props) {
         <div className="">
             <div className="bg-white flex-items-center">
                 <div className="mx-auto max-w-2xl flex items-center space-x-4 p-4">
-                    <div className="flex-shrink-0 h-12 w-12 rounded-full lg:w-20 lg:h-20 shadow border relative border-gray-200 bg-white">
+                    <div className="flex-shrink-0 h-20 w-20 rounded-full shadow border relative border-gray-200 bg-white">
                         <div className={cx("absolute top-0 left-0 right-0 bottom-0 bg-center bg-cover rounded-full", pool.image ? "opacity-100" : "opacity-20")} style={{ backgroundImage: `url(${pool.image ? pool.image : 'https://armada-alliance.com/assets/ship-420.png'})` }}></div>
                     </div>
                     <div className="space-y-1 flex-grow">
