@@ -8,7 +8,7 @@ export default function StatsWidgetPage({ components }) {
     const image = searchParams && searchParams.get('context') === 'image'
 
     return (
-        <div style={image ? style : null}>
+        <div style={image ? { fontFamily: 'Noto Sans' } : null}>
             <Component use={StatsSection} data={components.StatsSection} image={image} />
         </div>
     )
