@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"SOLAR Raspberry PI SOLRP\",\"slug\":\"/pool-widget/9728b10a926c048af938e5c52053319db5be921e8b698842c3afd3cc\",\"template\":\"PoolWidgetPage\",\"poolId\":\"9728b10a926c048af938e5c52053319db5be921e8b698842c3afd3cc\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-15T10:42:55.718Z",
-  "_cachedIn": "271 μs",
-  "_resolvedIn": "271 μs",
+  "_cachedAt": "2021-07-15T11:19:15.758Z",
+  "_cachedIn": "156 μs",
+  "_resolvedIn": "156 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -32,6 +32,7 @@
       "totalStake": "3764764298946",
       "blocksLifetime": "31",
       "delegators": "33",
+      "saturated": 0.05735423736033,
       "pledge": "8000000000",
       "pledged": "8000692982",
       "taxRatio": "0.01",
@@ -149,17 +150,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2021-07-15T10:42:55.718Z",
-    "component-cached-in": "271 μs",
-    "component-resolved-in": "271 μs"
+    "component-cached-at": "2021-07-15T11:19:15.758Z",
+    "component-cached-in": "156 μs",
+    "component-resolved-in": "156 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-15T10:42:55.718Z",
-      "_cachedIn": "155 μs",
-      "_resolvedIn": "155 μs",
+      "_cachedAt": "2021-07-15T11:19:15.758Z",
+      "_cachedIn": "95 μs",
+      "_resolvedIn": "95 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -168,17 +169,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-15T10:42:55.718Z",
-        "component-cached-in": "155 μs",
-        "component-resolved-in": "155 μs"
+        "component-cached-at": "2021-07-15T11:19:15.758Z",
+        "component-cached-in": "95 μs",
+        "component-resolved-in": "95 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-15T10:42:55.718Z",
-          "_cachedIn": "94 μs",
-          "_resolvedIn": "94 μs",
+          "_cachedAt": "2021-07-15T11:19:15.758Z",
+          "_cachedIn": "59 μs",
+          "_resolvedIn": "59 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -186,7 +187,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-15T10:42:45.507Z",
+              "createdAt": "2021-07-15T11:19:05.348Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -547,6 +548,7 @@
                   }
                 ],
                 "icon": "🧸",
+                "updatedAt": "2021-07-15T11:07:51.000Z",
                 "filePath": "/en/guides/add-widgets-to-your-website.md"
               },
               {
@@ -863,7 +865,7 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "HomePage",
-                "updatedAt": "2021-07-13T09:02:19.000Z",
+                "updatedAt": "2021-07-15T10:44:01.000Z",
                 "filePath": "/en/index.md"
               },
               {
@@ -876,7 +878,7 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "HomePage",
-                "updatedAt": "2021-07-13T06:16:11.000Z",
+                "updatedAt": "2021-07-15T10:44:01.000Z",
                 "filePath": "/es/home.md"
               },
               {
@@ -7270,18 +7272,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-15T10:42:55.718Z",
-            "component-cached-in": "94 μs",
-            "component-resolved-in": "94 μs"
+            "component-cached-at": "2021-07-15T11:19:15.758Z",
+            "component-cached-in": "59 μs",
+            "component-resolved-in": "59 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-15T10:42:55.718Z",
-          "_cachedIn": "125 μs",
-          "_resolvedIn": "125 μs",
+          "_cachedAt": "2021-07-15T11:19:15.758Z",
+          "_cachedIn": "76 μs",
+          "_resolvedIn": "76 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7292,17 +7294,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-15T10:42:55.718Z",
-            "component-cached-in": "125 μs",
-            "component-resolved-in": "125 μs"
+            "component-cached-at": "2021-07-15T11:19:15.758Z",
+            "component-cached-in": "76 μs",
+            "component-resolved-in": "76 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-15T10:42:55.718Z",
-              "_cachedIn": "32 μs",
-              "_resolvedIn": "32 μs",
+              "_cachedAt": "2021-07-15T11:19:15.758Z",
+              "_cachedIn": "19 μs",
+              "_resolvedIn": "19 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7346,9 +7348,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-15T10:42:55.718Z",
-                "component-cached-in": "32 μs",
-                "component-resolved-in": "32 μs"
+                "component-cached-at": "2021-07-15T11:19:15.758Z",
+                "component-cached-in": "19 μs",
+                "component-resolved-in": "19 μs"
               },
               "components": {}
             }
@@ -7357,9 +7359,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-15T10:42:55.717Z",
-          "_cachedIn": "36 μs",
-          "_resolvedIn": "36 μs",
+          "_cachedAt": "2021-07-15T11:19:15.758Z",
+          "_cachedIn": "22 μs",
+          "_resolvedIn": "22 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7368,9 +7370,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-15T10:42:55.717Z",
-            "component-cached-in": "36 μs",
-            "component-resolved-in": "36 μs"
+            "component-cached-at": "2021-07-15T11:19:15.758Z",
+            "component-cached-in": "22 μs",
+            "component-resolved-in": "22 μs"
           },
           "components": {}
         }

@@ -15,11 +15,11 @@ export default function PoolWidgetPage(props) {
         },
         {
             name: 'Saturation',
-            render: ({ pool }) => <div>{toAda(pool.pledge)} ₳ </div>
+            render: ({ pool }) => <div>{(parseFloat(pool.saturated) * 100).toFixed(2)}%</div>
         },
         {
             name: 'Margin',
-            render: ({ pool }) => <div>{parseFloat(pool.taxRatio) * 100} %</div>
+            render: ({ pool }) => <div>{parseFloat(pool.taxRatio) * 100}%</div>
         },
         {
             name: 'Pledge',
@@ -47,7 +47,7 @@ export default function PoolWidgetPage(props) {
                             <h3 className="text-lg font-bold">{pool.name}</h3>
                             <div className="text-gray-500 text-lg">{pool.ticker}</div>
                         </div>
-                        <div className="flex items-center justify-between w-full space-x-4">
+                        <div className="flex items-center justify-between w-full space-x-4 text-sm md:text-base">
                             {fields.map(field => {
                                 return (
                                     <div>

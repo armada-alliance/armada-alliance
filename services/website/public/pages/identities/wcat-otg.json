@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"IdentityDetailPage\",\"version\":1},\"props\":{\"id\":\"wcat-otg\",\"language\":\"en\",\"slug\":\"/identities/wcat-otg\",\"url\":\"https:///website.codespace1.sublayer.io/identities/wcat-otg\",\"origin\":\"/identities/wcat-otg\",\"title\":\"WCat(Wayne)\",\"description\":\"SPO, Co-Founder\",\"aliases\":null,\"keywords\":null,\"template\":\"IdentityDetailPage\",\"image\":\"/wcat.jpeg\",\"updatedAt\":\"2021-07-14T18:12:31.000Z\",\"filePath\":\"/en/identities/wcat-otg.md\",\"website\":\"https://adamantium.online\",\"donationAddress\":\"addr1qyzrfl2lf0ugsz25heszl7pp0fd29qh73xqe62axh2u5agdsvcnspa6ljktrhpxj2rfjv09xyxppd9lvg0mkzk3cj7gs3qxxwx\",\"verified\":true,\"twitter\":\"OTG_WCat\",\"telegram\":\"WCatz\",\"github\":\"wcatz\",\"body\":\"Ticker: [OTG]. Off The Grid solar powered stake pool. Home made Tesla style powerwall made from reclaimed laptop batteries. Starlink, Mac M1 Mini block producer. SPO with strong Linux administration, network and security skills. Dedicated to #TrueDecentralization on low powered aarch64 processors and the resilience of the Cardano network.\",\"mdxSource\":{\"compiledSource\":\"var d=Object.defineProperty,u=Object.defineProperties;var m=Object.getOwnPropertyDescriptors;var a=Object.getOwnPropertySymbols;var i=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var l=(e,o,t)=>o in e?d(e,o,{enumerable:!0,configurable:!0,writable:!0,value:t}):e[o]=t,n=(e,o)=>{for(var t in o||(o={}))i.call(o,t)&&l(e,t,o[t]);if(a)for(var t of a(o))s.call(o,t)&&l(e,t,o[t]);return e},p=(e,o)=>u(e,m(o));var c=(e,o)=>{var t={};for(var r in e)i.call(e,r)&&o.indexOf(r)<0&&(t[r]=e[r]);if(e!=null&&a)for(var r of a(e))o.indexOf(r)<0&&s.call(e,r)&&(t[r]=e[r]);return t};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(t){var r=t,{components:e}=r,o=c(r,[\\\"components\\\"]);return mdx(MDXLayout,p(n(n({},layoutProps),o),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"Ticker: \\\",\\\"[OTG]\\\",\\\". Off The Grid solar powered stake pool. Home made Tesla style powerwall made from reclaimed laptop batteries. Starlink, Mac M1 Mini block producer. SPO with strong Linux administration, network and security skills. Dedicated to #TrueDecentralization on low powered aarch64 processors and the resilience of the Cardano network.\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-15T10:42:55.345Z",
-  "_cachedIn": "2.7 ms",
-  "_resolvedIn": "2.7 ms",
+  "_cachedAt": "2021-07-15T11:19:15.368Z",
+  "_cachedIn": "1.8 ms",
+  "_resolvedIn": "1.8 ms",
   "id": "IdentityDetailPage",
   "type": "IdentityDetailPage",
   "status": "resolved",
@@ -54,17 +54,17 @@
   "attrs": {
     "component-type": "IdentityDetailPage",
     "component-id": "IdentityDetailPage",
-    "component-cached-at": "2021-07-15T10:42:55.345Z",
-    "component-cached-in": "2.7 ms",
-    "component-resolved-in": "2.7 ms"
+    "component-cached-at": "2021-07-15T11:19:15.368Z",
+    "component-cached-in": "1.8 ms",
+    "component-resolved-in": "1.8 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-15T10:42:55.345Z",
-      "_cachedIn": "2.1 ms",
-      "_resolvedIn": "2.1 ms",
+      "_cachedAt": "2021-07-15T11:19:15.368Z",
+      "_cachedIn": "1.44 ms",
+      "_resolvedIn": "1.44 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -73,17 +73,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-15T10:42:55.345Z",
-        "component-cached-in": "2.1 ms",
-        "component-resolved-in": "2.1 ms"
+        "component-cached-at": "2021-07-15T11:19:15.368Z",
+        "component-cached-in": "1.44 ms",
+        "component-resolved-in": "1.44 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-15T10:42:55.345Z",
-          "_cachedIn": "718 μs",
-          "_resolvedIn": "718 μs",
+          "_cachedAt": "2021-07-15T11:19:15.368Z",
+          "_cachedIn": "556 μs",
+          "_resolvedIn": "556 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -91,7 +91,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-15T10:42:45.507Z",
+              "createdAt": "2021-07-15T11:19:05.348Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -452,6 +452,7 @@
                   }
                 ],
                 "icon": "🧸",
+                "updatedAt": "2021-07-15T11:07:51.000Z",
                 "filePath": "/en/guides/add-widgets-to-your-website.md"
               },
               {
@@ -768,7 +769,7 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "HomePage",
-                "updatedAt": "2021-07-13T09:02:19.000Z",
+                "updatedAt": "2021-07-15T10:44:01.000Z",
                 "filePath": "/en/index.md"
               },
               {
@@ -781,7 +782,7 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "HomePage",
-                "updatedAt": "2021-07-13T06:16:11.000Z",
+                "updatedAt": "2021-07-15T10:44:01.000Z",
                 "filePath": "/es/home.md"
               },
               {
@@ -7175,18 +7176,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-15T10:42:55.345Z",
-            "component-cached-in": "718 μs",
-            "component-resolved-in": "718 μs"
+            "component-cached-at": "2021-07-15T11:19:15.368Z",
+            "component-cached-in": "556 μs",
+            "component-resolved-in": "556 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-15T10:42:55.345Z",
-          "_cachedIn": "886 μs",
-          "_resolvedIn": "886 μs",
+          "_cachedAt": "2021-07-15T11:19:15.368Z",
+          "_cachedIn": "708 μs",
+          "_resolvedIn": "708 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7197,17 +7198,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-15T10:42:55.345Z",
-            "component-cached-in": "886 μs",
-            "component-resolved-in": "886 μs"
+            "component-cached-at": "2021-07-15T11:19:15.368Z",
+            "component-cached-in": "708 μs",
+            "component-resolved-in": "708 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-15T10:42:55.345Z",
-              "_cachedIn": "265 μs",
-              "_resolvedIn": "265 μs",
+              "_cachedAt": "2021-07-15T11:19:15.368Z",
+              "_cachedIn": "127 μs",
+              "_resolvedIn": "127 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7251,9 +7252,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-15T10:42:55.345Z",
-                "component-cached-in": "265 μs",
-                "component-resolved-in": "265 μs"
+                "component-cached-at": "2021-07-15T11:19:15.368Z",
+                "component-cached-in": "127 μs",
+                "component-resolved-in": "127 μs"
               },
               "components": {}
             }
@@ -7262,9 +7263,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-15T10:42:55.344Z",
-          "_cachedIn": "347 μs",
-          "_resolvedIn": "347 μs",
+          "_cachedAt": "2021-07-15T11:19:15.368Z",
+          "_cachedIn": "343 μs",
+          "_resolvedIn": "343 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7273,9 +7274,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-15T10:42:55.344Z",
-            "component-cached-in": "347 μs",
-            "component-resolved-in": "347 μs"
+            "component-cached-at": "2021-07-15T11:19:15.368Z",
+            "component-cached-in": "343 μs",
+            "component-resolved-in": "343 μs"
           },
           "components": {}
         }
@@ -7284,9 +7285,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-15T10:42:55.344Z",
-      "_cachedIn": "1.65 ms",
-      "_resolvedIn": "1.65 ms",
+      "_cachedAt": "2021-07-15T11:19:15.368Z",
+      "_cachedIn": "1.15 ms",
+      "_resolvedIn": "1.15 ms",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7302,18 +7303,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-15T10:42:55.344Z",
-        "component-cached-in": "1.65 ms",
-        "component-resolved-in": "1.65 ms"
+        "component-cached-at": "2021-07-15T11:19:15.368Z",
+        "component-cached-in": "1.15 ms",
+        "component-resolved-in": "1.15 ms"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-15T10:42:55.344Z",
-      "_cachedIn": "1.31 ms",
-      "_resolvedIn": "1.31 ms",
+      "_cachedAt": "2021-07-15T11:19:15.368Z",
+      "_cachedIn": "855 μs",
+      "_resolvedIn": "855 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7324,18 +7325,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-15T10:42:55.344Z",
-        "component-cached-in": "1.31 ms",
-        "component-resolved-in": "1.31 ms"
+        "component-cached-at": "2021-07-15T11:19:15.368Z",
+        "component-cached-in": "855 μs",
+        "component-resolved-in": "855 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-15T10:42:55.344Z",
-      "_cachedIn": "1.65 ms",
-      "_resolvedIn": "1.65 ms",
+      "_cachedAt": "2021-07-15T11:19:15.368Z",
+      "_cachedIn": "1.15 ms",
+      "_resolvedIn": "1.15 ms",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7356,18 +7357,18 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-15T10:42:55.344Z",
-        "component-cached-in": "1.65 ms",
-        "component-resolved-in": "1.65 ms"
+        "component-cached-at": "2021-07-15T11:19:15.368Z",
+        "component-cached-in": "1.15 ms",
+        "component-resolved-in": "1.15 ms"
       },
       "components": {}
     },
     "PageSocials": {
       "_cacheKey": "{\"component\":{\"type\":\"PageSocials\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-15T10:42:55.344Z",
-      "_cachedIn": "1.32 ms",
-      "_resolvedIn": "1.32 ms",
+      "_cachedAt": "2021-07-15T11:19:15.368Z",
+      "_cachedIn": "857 μs",
+      "_resolvedIn": "857 μs",
       "id": "PageSocials",
       "type": "PageSocials",
       "status": "resolved",
@@ -7406,18 +7407,18 @@
       "attrs": {
         "component-type": "PageSocials",
         "component-id": "PageSocials",
-        "component-cached-at": "2021-07-15T10:42:55.344Z",
-        "component-cached-in": "1.32 ms",
-        "component-resolved-in": "1.32 ms"
+        "component-cached-at": "2021-07-15T11:19:15.368Z",
+        "component-cached-in": "857 μs",
+        "component-resolved-in": "857 μs"
       },
       "components": {}
     },
     "PostPagesSection": {
       "_cacheKey": "{\"component\":{\"type\":\"PostPagesSection\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-15T10:42:55.344Z",
-      "_cachedIn": "1.32 ms",
-      "_resolvedIn": "1.32 ms",
+      "_cachedAt": "2021-07-15T11:19:15.368Z",
+      "_cachedIn": "859 μs",
+      "_resolvedIn": "859 μs",
       "id": "PostPagesSection",
       "type": "PostPagesSection",
       "status": "resolved",
@@ -7535,9 +7536,9 @@
       "attrs": {
         "component-type": "PostPagesSection",
         "component-id": "PostPagesSection",
-        "component-cached-at": "2021-07-15T10:42:55.344Z",
-        "component-cached-in": "1.32 ms",
-        "component-resolved-in": "1.32 ms"
+        "component-cached-at": "2021-07-15T11:19:15.368Z",
+        "component-cached-in": "859 μs",
+        "component-resolved-in": "859 μs"
       },
       "components": {}
     }

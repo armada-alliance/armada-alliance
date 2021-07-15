@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"stake-pool-performance\",\"language\":\"en\",\"slug\":\"/terms/stake-pool-performance\",\"url\":\"https:///website.codespace1.sublayer.io/terms/stake-pool-performance\",\"origin\":\"/terms/stake-pool-performance\",\"title\":\"Stake pool performance\",\"description\":\"A measure of the efficiency of a stake pool, given as a percentage, is measured by how many blocks the stake pool has produced (and that are recorded on the main chain) compared to how many it was nominated to produce.\",\"aliases\":[\"cardano stake pool performance\",\"block performance\",\"stake pool block performance\",\"stake pool performance\",\"blocks\",\"produced block\",\"rank\"],\"keywords\":[\"cardano\",\"stake\",\"pool\",\"performance\",\"block\",\"blocks\",\"rank\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/stake-pool-performance.md\",\"body\":\"For example, if a pool only produces half the number of blocks that were nominated, its performance rating is 50%. This could happen because the pool has a poor network connection, or has been turned off by its operator. Performance ratings make more sense over a longer period of time.\",\"mdxSource\":{\"compiledSource\":\"var m=Object.defineProperty,f=Object.defineProperties;var l=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var p=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var i=(o,e,n)=>e in o?m(o,e,{enumerable:!0,configurable:!0,writable:!0,value:n}):o[e]=n,a=(o,e)=>{for(var n in e||(e={}))p.call(e,n)&&i(o,n,e[n]);if(r)for(var n of r(e))s.call(e,n)&&i(o,n,e[n]);return o},c=(o,e)=>f(o,l(e));var u=(o,e)=>{var n={};for(var t in o)p.call(o,t)&&e.indexOf(t)<0&&(n[t]=o[t]);if(o!=null&&r)for(var t of r(o))e.indexOf(t)<0&&s.call(o,t)&&(n[t]=o[t]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var t=n,{components:o}=t,e=u(t,[\\\"components\\\"]);return mdx(MDXLayout,c(a(a({},layoutProps),e),{components:o,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"For example, if a pool only produces half the number of blocks that were nominated, its performance rating is 50%. This could happen because the pool has a poor network connection, or has been turned off by its operator. Performance ratings make more sense over a longer period of time.\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-15T10:42:57.065Z",
-  "_cachedIn": "702 μs",
-  "_resolvedIn": "702 μs",
+  "_cachedAt": "2021-07-15T11:19:16.991Z",
+  "_cachedIn": "1.69 ms",
+  "_resolvedIn": "1.69 ms",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -53,17 +53,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-15T10:42:57.065Z",
-    "component-cached-in": "702 μs",
-    "component-resolved-in": "702 μs"
+    "component-cached-at": "2021-07-15T11:19:16.991Z",
+    "component-cached-in": "1.69 ms",
+    "component-resolved-in": "1.69 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-15T10:42:57.065Z",
-      "_cachedIn": "458 μs",
-      "_resolvedIn": "458 μs",
+      "_cachedAt": "2021-07-15T11:19:16.991Z",
+      "_cachedIn": "1.2 ms",
+      "_resolvedIn": "1.2 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -72,17 +72,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-15T10:42:57.065Z",
-        "component-cached-in": "458 μs",
-        "component-resolved-in": "458 μs"
+        "component-cached-at": "2021-07-15T11:19:16.991Z",
+        "component-cached-in": "1.2 ms",
+        "component-resolved-in": "1.2 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-15T10:42:57.065Z",
-          "_cachedIn": "290 μs",
-          "_resolvedIn": "290 μs",
+          "_cachedAt": "2021-07-15T11:19:16.991Z",
+          "_cachedIn": "693 μs",
+          "_resolvedIn": "693 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -90,7 +90,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-15T10:42:45.507Z",
+              "createdAt": "2021-07-15T11:19:05.348Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -451,6 +451,7 @@
                   }
                 ],
                 "icon": "🧸",
+                "updatedAt": "2021-07-15T11:07:51.000Z",
                 "filePath": "/en/guides/add-widgets-to-your-website.md"
               },
               {
@@ -767,7 +768,7 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "HomePage",
-                "updatedAt": "2021-07-13T09:02:19.000Z",
+                "updatedAt": "2021-07-15T10:44:01.000Z",
                 "filePath": "/en/index.md"
               },
               {
@@ -780,7 +781,7 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "HomePage",
-                "updatedAt": "2021-07-13T06:16:11.000Z",
+                "updatedAt": "2021-07-15T10:44:01.000Z",
                 "filePath": "/es/home.md"
               },
               {
@@ -7174,18 +7175,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-15T10:42:57.065Z",
-            "component-cached-in": "290 μs",
-            "component-resolved-in": "290 μs"
+            "component-cached-at": "2021-07-15T11:19:16.991Z",
+            "component-cached-in": "693 μs",
+            "component-resolved-in": "693 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-15T10:42:57.065Z",
-          "_cachedIn": "350 μs",
-          "_resolvedIn": "350 μs",
+          "_cachedAt": "2021-07-15T11:19:16.991Z",
+          "_cachedIn": "891 μs",
+          "_resolvedIn": "891 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7196,17 +7197,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-15T10:42:57.065Z",
-            "component-cached-in": "350 μs",
-            "component-resolved-in": "350 μs"
+            "component-cached-at": "2021-07-15T11:19:16.991Z",
+            "component-cached-in": "891 μs",
+            "component-resolved-in": "891 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-15T10:42:57.065Z",
-              "_cachedIn": "53 μs",
-              "_resolvedIn": "53 μs",
+              "_cachedAt": "2021-07-15T11:19:16.991Z",
+              "_cachedIn": "100 μs",
+              "_resolvedIn": "100 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7250,9 +7251,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-15T10:42:57.065Z",
-                "component-cached-in": "53 μs",
-                "component-resolved-in": "53 μs"
+                "component-cached-at": "2021-07-15T11:19:16.991Z",
+                "component-cached-in": "100 μs",
+                "component-resolved-in": "100 μs"
               },
               "components": {}
             }
@@ -7261,9 +7262,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-15T10:42:57.065Z",
-          "_cachedIn": "179 μs",
-          "_resolvedIn": "179 μs",
+          "_cachedAt": "2021-07-15T11:19:16.991Z",
+          "_cachedIn": "378 μs",
+          "_resolvedIn": "378 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7272,9 +7273,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-15T10:42:57.065Z",
-            "component-cached-in": "179 μs",
-            "component-resolved-in": "179 μs"
+            "component-cached-at": "2021-07-15T11:19:16.991Z",
+            "component-cached-in": "378 μs",
+            "component-resolved-in": "378 μs"
           },
           "components": {}
         }
@@ -7283,9 +7284,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-15T10:42:57.065Z",
-      "_cachedIn": "326 μs",
-      "_resolvedIn": "326 μs",
+      "_cachedAt": "2021-07-15T11:19:16.991Z",
+      "_cachedIn": "854 μs",
+      "_resolvedIn": "854 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7313,18 +7314,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-15T10:42:57.065Z",
-        "component-cached-in": "326 μs",
-        "component-resolved-in": "326 μs"
+        "component-cached-at": "2021-07-15T11:19:16.991Z",
+        "component-cached-in": "854 μs",
+        "component-resolved-in": "854 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-15T10:42:57.064Z",
-      "_cachedIn": "132 μs",
-      "_resolvedIn": "132 μs",
+      "_cachedAt": "2021-07-15T11:19:16.990Z",
+      "_cachedIn": "503 μs",
+      "_resolvedIn": "503 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7336,18 +7337,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-15T10:42:57.064Z",
-        "component-cached-in": "132 μs",
-        "component-resolved-in": "132 μs"
+        "component-cached-at": "2021-07-15T11:19:16.990Z",
+        "component-cached-in": "503 μs",
+        "component-resolved-in": "503 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-15T10:42:57.065Z",
-      "_cachedIn": "325 μs",
-      "_resolvedIn": "325 μs",
+      "_cachedAt": "2021-07-15T11:19:16.991Z",
+      "_cachedIn": "855 μs",
+      "_resolvedIn": "855 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7366,9 +7367,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-15T10:42:57.065Z",
-        "component-cached-in": "325 μs",
-        "component-resolved-in": "325 μs"
+        "component-cached-at": "2021-07-15T11:19:16.991Z",
+        "component-cached-in": "855 μs",
+        "component-resolved-in": "855 μs"
       },
       "components": {}
     }
