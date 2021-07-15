@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"Cardano ADA Mini Pool Switzerland MINI1\",\"slug\":\"/pool-widget/c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2\",\"template\":\"PoolWidgetPage\",\"poolId\":\"c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-15T10:42:55.732Z",
-  "_cachedIn": "128 μs",
-  "_resolvedIn": "128 μs",
+  "_cachedAt": "2021-07-15T11:19:15.775Z",
+  "_cachedIn": "150 μs",
+  "_resolvedIn": "150 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -32,6 +32,7 @@
       "totalStake": "37309709201",
       "blocksLifetime": "0",
       "delegators": "6",
+      "saturated": 0.00056839412707938,
       "pledge": "10000000000",
       "pledged": "10004423945",
       "taxRatio": "0",
@@ -139,17 +140,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2021-07-15T10:42:55.732Z",
-    "component-cached-in": "128 μs",
-    "component-resolved-in": "128 μs"
+    "component-cached-at": "2021-07-15T11:19:15.775Z",
+    "component-cached-in": "150 μs",
+    "component-resolved-in": "150 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-15T10:42:55.732Z",
-      "_cachedIn": "80 μs",
-      "_resolvedIn": "80 μs",
+      "_cachedAt": "2021-07-15T11:19:15.775Z",
+      "_cachedIn": "94 μs",
+      "_resolvedIn": "94 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -158,17 +159,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-15T10:42:55.732Z",
-        "component-cached-in": "80 μs",
-        "component-resolved-in": "80 μs"
+        "component-cached-at": "2021-07-15T11:19:15.775Z",
+        "component-cached-in": "94 μs",
+        "component-resolved-in": "94 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-15T10:42:55.732Z",
-          "_cachedIn": "46 μs",
-          "_resolvedIn": "46 μs",
+          "_cachedAt": "2021-07-15T11:19:15.775Z",
+          "_cachedIn": "58 μs",
+          "_resolvedIn": "58 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -176,7 +177,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-15T10:42:45.507Z",
+              "createdAt": "2021-07-15T11:19:05.348Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -537,6 +538,7 @@
                   }
                 ],
                 "icon": "🧸",
+                "updatedAt": "2021-07-15T11:07:51.000Z",
                 "filePath": "/en/guides/add-widgets-to-your-website.md"
               },
               {
@@ -853,7 +855,7 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "HomePage",
-                "updatedAt": "2021-07-13T09:02:19.000Z",
+                "updatedAt": "2021-07-15T10:44:01.000Z",
                 "filePath": "/en/index.md"
               },
               {
@@ -866,7 +868,7 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "HomePage",
-                "updatedAt": "2021-07-13T06:16:11.000Z",
+                "updatedAt": "2021-07-15T10:44:01.000Z",
                 "filePath": "/es/home.md"
               },
               {
@@ -7260,18 +7262,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-15T10:42:55.732Z",
-            "component-cached-in": "46 μs",
-            "component-resolved-in": "46 μs"
+            "component-cached-at": "2021-07-15T11:19:15.775Z",
+            "component-cached-in": "58 μs",
+            "component-resolved-in": "58 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-15T10:42:55.732Z",
-          "_cachedIn": "62 μs",
-          "_resolvedIn": "62 μs",
+          "_cachedAt": "2021-07-15T11:19:15.775Z",
+          "_cachedIn": "76 μs",
+          "_resolvedIn": "76 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7282,17 +7284,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-15T10:42:55.732Z",
-            "component-cached-in": "62 μs",
-            "component-resolved-in": "62 μs"
+            "component-cached-at": "2021-07-15T11:19:15.775Z",
+            "component-cached-in": "76 μs",
+            "component-resolved-in": "76 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-15T10:42:55.732Z",
-              "_cachedIn": "17 μs",
-              "_resolvedIn": "17 μs",
+              "_cachedAt": "2021-07-15T11:19:15.775Z",
+              "_cachedIn": "19 μs",
+              "_resolvedIn": "19 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7336,9 +7338,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-15T10:42:55.732Z",
-                "component-cached-in": "17 μs",
-                "component-resolved-in": "17 μs"
+                "component-cached-at": "2021-07-15T11:19:15.775Z",
+                "component-cached-in": "19 μs",
+                "component-resolved-in": "19 μs"
               },
               "components": {}
             }
@@ -7347,9 +7349,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-15T10:42:55.732Z",
-          "_cachedIn": "18 μs",
-          "_resolvedIn": "18 μs",
+          "_cachedAt": "2021-07-15T11:19:15.775Z",
+          "_cachedIn": "22 μs",
+          "_resolvedIn": "22 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7358,9 +7360,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-15T10:42:55.732Z",
-            "component-cached-in": "18 μs",
-            "component-resolved-in": "18 μs"
+            "component-cached-at": "2021-07-15T11:19:15.775Z",
+            "component-cached-in": "22 μs",
+            "component-resolved-in": "22 μs"
           },
           "components": {}
         }

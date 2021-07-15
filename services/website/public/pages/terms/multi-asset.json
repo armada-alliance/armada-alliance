@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"multi-asset\",\"language\":\"en\",\"slug\":\"/terms/multi-asset\",\"url\":\"https:///website.codespace1.sublayer.io/terms/multi-asset\",\"origin\":\"/terms/multi-asset\",\"title\":\"Multi-asset\",\"description\":\"A generic term for a ledger which supports multiple different asset types natively.\",\"aliases\":[\"multiple assets\",\"multi-asset\",\"multiple tokens\",\"cardano utxo\",\"cardano eutxo\",\"cardano blockchain\",\"cardano ledger\"],\"keywords\":[\"multi\",\"asset\",\"ledger\",\"cardano\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/multi-asset.md\",\"body\":\"Ledgers that support accounting or transaction of more than one type of asset are considered to have \\\\'multi-asset\\\\' functionality. These ledgers can include blockchains, wallets, cryptocurrencies, or banking platforms, for example. Multi-assets usually include a platform\\\\'s primary currency and multiple, user-defined assets.\",\"mdxSource\":{\"compiledSource\":\"var p=Object.defineProperty,y=Object.defineProperties;var d=Object.getOwnPropertyDescriptors;var a=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,u=Object.prototype.propertyIsEnumerable;var c=(e,t,n)=>t in e?p(e,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):e[t]=n,s=(e,t)=>{for(var n in t||(t={}))r.call(t,n)&&c(e,n,t[n]);if(a)for(var n of a(t))u.call(t,n)&&c(e,n,t[n]);return e},i=(e,t)=>y(e,d(t));var l=(e,t)=>{var n={};for(var o in e)r.call(e,o)&&t.indexOf(o)<0&&(n[o]=e[o]);if(e!=null&&a)for(var o of a(e))t.indexOf(o)<0&&u.call(e,o)&&(n[o]=e[o]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var o=n,{components:e}=o,t=l(o,[\\\"components\\\"]);return mdx(MDXLayout,i(s(s({},layoutProps),t),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"Ledgers that support accounting or transaction of more than one type of asset are considered to have \\\\\\\\'multi-asset\\\\\\\\' functionality. These ledgers can include blockchains, wallets, cryptocurrencies, or banking platforms, for example. Multi-assets usually include a platform\\\\\\\\'s primary currency and multiple, user-defined assets.\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-15T10:42:56.627Z",
-  "_cachedIn": "473 μs",
-  "_resolvedIn": "473 μs",
+  "_cachedAt": "2021-07-15T11:19:16.550Z",
+  "_cachedIn": "995 μs",
+  "_resolvedIn": "995 μs",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -50,17 +50,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-15T10:42:56.627Z",
-    "component-cached-in": "473 μs",
-    "component-resolved-in": "473 μs"
+    "component-cached-at": "2021-07-15T11:19:16.550Z",
+    "component-cached-in": "995 μs",
+    "component-resolved-in": "995 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-15T10:42:56.627Z",
-      "_cachedIn": "400 μs",
-      "_resolvedIn": "400 μs",
+      "_cachedAt": "2021-07-15T11:19:16.550Z",
+      "_cachedIn": "833 μs",
+      "_resolvedIn": "833 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -69,17 +69,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-15T10:42:56.627Z",
-        "component-cached-in": "400 μs",
-        "component-resolved-in": "400 μs"
+        "component-cached-at": "2021-07-15T11:19:16.550Z",
+        "component-cached-in": "833 μs",
+        "component-resolved-in": "833 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-15T10:42:56.627Z",
-          "_cachedIn": "195 μs",
-          "_resolvedIn": "195 μs",
+          "_cachedAt": "2021-07-15T11:19:16.550Z",
+          "_cachedIn": "647 μs",
+          "_resolvedIn": "647 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -87,7 +87,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-15T10:42:45.507Z",
+              "createdAt": "2021-07-15T11:19:05.348Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -448,6 +448,7 @@
                   }
                 ],
                 "icon": "🧸",
+                "updatedAt": "2021-07-15T11:07:51.000Z",
                 "filePath": "/en/guides/add-widgets-to-your-website.md"
               },
               {
@@ -764,7 +765,7 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "HomePage",
-                "updatedAt": "2021-07-13T09:02:19.000Z",
+                "updatedAt": "2021-07-15T10:44:01.000Z",
                 "filePath": "/en/index.md"
               },
               {
@@ -777,7 +778,7 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "HomePage",
-                "updatedAt": "2021-07-13T06:16:11.000Z",
+                "updatedAt": "2021-07-15T10:44:01.000Z",
                 "filePath": "/es/home.md"
               },
               {
@@ -7171,18 +7172,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-15T10:42:56.627Z",
-            "component-cached-in": "195 μs",
-            "component-resolved-in": "195 μs"
+            "component-cached-at": "2021-07-15T11:19:16.550Z",
+            "component-cached-in": "647 μs",
+            "component-resolved-in": "647 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-15T10:42:56.627Z",
-          "_cachedIn": "235 μs",
-          "_resolvedIn": "235 μs",
+          "_cachedAt": "2021-07-15T11:19:16.550Z",
+          "_cachedIn": "731 μs",
+          "_resolvedIn": "731 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7193,17 +7194,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-15T10:42:56.627Z",
-            "component-cached-in": "235 μs",
-            "component-resolved-in": "235 μs"
+            "component-cached-at": "2021-07-15T11:19:16.550Z",
+            "component-cached-in": "731 μs",
+            "component-resolved-in": "731 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-15T10:42:56.627Z",
-              "_cachedIn": "47 μs",
-              "_resolvedIn": "47 μs",
+              "_cachedAt": "2021-07-15T11:19:16.550Z",
+              "_cachedIn": "86 μs",
+              "_resolvedIn": "86 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7247,9 +7248,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-15T10:42:56.627Z",
-                "component-cached-in": "47 μs",
-                "component-resolved-in": "47 μs"
+                "component-cached-at": "2021-07-15T11:19:16.550Z",
+                "component-cached-in": "86 μs",
+                "component-resolved-in": "86 μs"
               },
               "components": {}
             }
@@ -7258,9 +7259,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-15T10:42:56.627Z",
-          "_cachedIn": "133 μs",
-          "_resolvedIn": "133 μs",
+          "_cachedAt": "2021-07-15T11:19:16.549Z",
+          "_cachedIn": "399 μs",
+          "_resolvedIn": "399 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7269,9 +7270,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-15T10:42:56.627Z",
-            "component-cached-in": "133 μs",
-            "component-resolved-in": "133 μs"
+            "component-cached-at": "2021-07-15T11:19:16.549Z",
+            "component-cached-in": "399 μs",
+            "component-resolved-in": "399 μs"
           },
           "components": {}
         }
@@ -7280,9 +7281,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-15T10:42:56.627Z",
-      "_cachedIn": "215 μs",
-      "_resolvedIn": "215 μs",
+      "_cachedAt": "2021-07-15T11:19:16.550Z",
+      "_cachedIn": "666 μs",
+      "_resolvedIn": "666 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7310,18 +7311,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-15T10:42:56.627Z",
-        "component-cached-in": "215 μs",
-        "component-resolved-in": "215 μs"
+        "component-cached-at": "2021-07-15T11:19:16.550Z",
+        "component-cached-in": "666 μs",
+        "component-resolved-in": "666 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-15T10:42:56.627Z",
-      "_cachedIn": "128 μs",
-      "_resolvedIn": "128 μs",
+      "_cachedAt": "2021-07-15T11:19:16.549Z",
+      "_cachedIn": "348 μs",
+      "_resolvedIn": "348 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7333,18 +7334,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-15T10:42:56.627Z",
-        "component-cached-in": "128 μs",
-        "component-resolved-in": "128 μs"
+        "component-cached-at": "2021-07-15T11:19:16.549Z",
+        "component-cached-in": "348 μs",
+        "component-resolved-in": "348 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-15T10:42:56.627Z",
-      "_cachedIn": "216 μs",
-      "_resolvedIn": "216 μs",
+      "_cachedAt": "2021-07-15T11:19:16.550Z",
+      "_cachedIn": "666 μs",
+      "_resolvedIn": "666 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7363,9 +7364,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-15T10:42:56.627Z",
-        "component-cached-in": "216 μs",
-        "component-resolved-in": "216 μs"
+        "component-cached-at": "2021-07-15T11:19:16.550Z",
+        "component-cached-in": "666 μs",
+        "component-resolved-in": "666 μs"
       },
       "components": {}
     }

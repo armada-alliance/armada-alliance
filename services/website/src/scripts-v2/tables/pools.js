@@ -128,6 +128,7 @@ module.exports = {
                     totalStake: adapools.data.total_stake,
                     blocksLifetime: adapools.data.blocks_lifetime,
                     delegators: adapools.data.delegators,
+                    saturated: adapools.data.saturated,
                     pledge: adapools.data.pledge,
                     pledged: adapools.data.pledged,
                     taxRatio: adapools.data.tax_ratio,

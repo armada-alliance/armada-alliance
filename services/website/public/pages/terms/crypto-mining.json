@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"crypto-mining\",\"language\":\"en\",\"slug\":\"/terms/crypto-mining\",\"url\":\"https:///website.codespace1.sublayer.io/terms/crypto-mining\",\"origin\":\"/terms/crypto-mining\",\"title\":\"Crypto mining\",\"description\":\"In proof-of-work blockchain's like Bitcoin mining is the process by which new crypto-currencies or digital assets are created and distributed to the blockchain's decentralized ledger.\",\"aliases\":[\"ACTUS\"],\"keywords\":[\"ACTUS\",\"Algorithmic\",\"Contract\",\"Types\",\"Unified\",\"Standards\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-14T03:39:25.000Z\",\"filePath\":\"/en/terms/crypto-mining.md\",\"body\":\"The work performed by miners consists of a few main actions:\\n\\nVerifying and validating new transactions\\nCollecting those transactions and ordering them into a new block\\nAdding the block to the ledger’s chain of blocks (the blockchain)\\nBroadcasting the new block to the cryptocurrency node network\\n\\nhttps://www.dummies.com/personal-finance/investing/what-is-cryptocurrency-mining/\",\"mdxSource\":{\"compiledSource\":\"var h=Object.defineProperty,w=Object.defineProperties;var d=Object.getOwnPropertyDescriptors;var i=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,c=Object.prototype.propertyIsEnumerable;var s=(n,t,e)=>t in n?h(n,t,{enumerable:!0,configurable:!0,writable:!0,value:e}):n[t]=e,a=(n,t)=>{for(var e in t||(t={}))r.call(t,e)&&s(n,e,t[e]);if(i)for(var e of i(t))c.call(t,e)&&s(n,e,t[e]);return n},p=(n,t)=>w(n,d(t));var m=(n,t)=>{var e={};for(var o in n)r.call(n,o)&&t.indexOf(o)<0&&(e[o]=n[o]);if(n!=null&&i)for(var o of i(n))t.indexOf(o)<0&&c.call(n,o)&&(e[o]=n[o]);return e};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(e){var o=e,{components:n}=o,t=m(o,[\\\"components\\\"]);return mdx(MDXLayout,p(a(a({},layoutProps),t),{components:n,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"The work performed by miners consists of a few main actions:\\\"),mdx(\\\"p\\\",null,`Verifying and validating new transactions\\nCollecting those transactions and ordering them into a new block\\nAdding the block to the ledger\\\\u2019s chain of blocks (the blockchain)\\nBroadcasting the new block to the cryptocurrency node network`),mdx(\\\"p\\\",null,mdx(\\\"a\\\",a({parentName:\\\"p\\\"},{href:\\\"https://www.dummies.com/personal-finance/investing/what-is-cryptocurrency-mining/\\\"}),\\\"https://www.dummies.com/personal-finance/investing/what-is-cryptocurrency-mining/\\\")))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-15T10:42:56.186Z",
-  "_cachedIn": "4.13 ms",
-  "_resolvedIn": "4.13 ms",
+  "_cachedAt": "2021-07-15T11:19:16.129Z",
+  "_cachedIn": "750 μs",
+  "_resolvedIn": "750 μs",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -46,17 +46,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-15T10:42:56.186Z",
-    "component-cached-in": "4.13 ms",
-    "component-resolved-in": "4.13 ms"
+    "component-cached-at": "2021-07-15T11:19:16.129Z",
+    "component-cached-in": "750 μs",
+    "component-resolved-in": "750 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-15T10:42:56.186Z",
-      "_cachedIn": "591 μs",
-      "_resolvedIn": "591 μs",
+      "_cachedAt": "2021-07-15T11:19:16.129Z",
+      "_cachedIn": "578 μs",
+      "_resolvedIn": "578 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -65,17 +65,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-15T10:42:56.186Z",
-        "component-cached-in": "591 μs",
-        "component-resolved-in": "591 μs"
+        "component-cached-at": "2021-07-15T11:19:16.129Z",
+        "component-cached-in": "578 μs",
+        "component-resolved-in": "578 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-15T10:42:56.186Z",
-          "_cachedIn": "354 μs",
-          "_resolvedIn": "354 μs",
+          "_cachedAt": "2021-07-15T11:19:16.129Z",
+          "_cachedIn": "340 μs",
+          "_resolvedIn": "340 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -83,7 +83,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-15T10:42:45.507Z",
+              "createdAt": "2021-07-15T11:19:05.348Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -444,6 +444,7 @@
                   }
                 ],
                 "icon": "🧸",
+                "updatedAt": "2021-07-15T11:07:51.000Z",
                 "filePath": "/en/guides/add-widgets-to-your-website.md"
               },
               {
@@ -760,7 +761,7 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "HomePage",
-                "updatedAt": "2021-07-13T09:02:19.000Z",
+                "updatedAt": "2021-07-15T10:44:01.000Z",
                 "filePath": "/en/index.md"
               },
               {
@@ -773,7 +774,7 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "HomePage",
-                "updatedAt": "2021-07-13T06:16:11.000Z",
+                "updatedAt": "2021-07-15T10:44:01.000Z",
                 "filePath": "/es/home.md"
               },
               {
@@ -7167,18 +7168,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-15T10:42:56.186Z",
-            "component-cached-in": "354 μs",
-            "component-resolved-in": "354 μs"
+            "component-cached-at": "2021-07-15T11:19:16.129Z",
+            "component-cached-in": "340 μs",
+            "component-resolved-in": "340 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-15T10:42:56.186Z",
-          "_cachedIn": "432 μs",
-          "_resolvedIn": "432 μs",
+          "_cachedAt": "2021-07-15T11:19:16.129Z",
+          "_cachedIn": "426 μs",
+          "_resolvedIn": "426 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7189,17 +7190,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-15T10:42:56.186Z",
-            "component-cached-in": "432 μs",
-            "component-resolved-in": "432 μs"
+            "component-cached-at": "2021-07-15T11:19:16.129Z",
+            "component-cached-in": "426 μs",
+            "component-resolved-in": "426 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-15T10:42:56.186Z",
-              "_cachedIn": "74 μs",
-              "_resolvedIn": "74 μs",
+              "_cachedAt": "2021-07-15T11:19:16.129Z",
+              "_cachedIn": "87 μs",
+              "_resolvedIn": "87 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7243,9 +7244,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-15T10:42:56.186Z",
-                "component-cached-in": "74 μs",
-                "component-resolved-in": "74 μs"
+                "component-cached-at": "2021-07-15T11:19:16.129Z",
+                "component-cached-in": "87 μs",
+                "component-resolved-in": "87 μs"
               },
               "components": {}
             }
@@ -7254,9 +7255,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-15T10:42:56.185Z",
-          "_cachedIn": "217 μs",
-          "_resolvedIn": "217 μs",
+          "_cachedAt": "2021-07-15T11:19:16.129Z",
+          "_cachedIn": "214 μs",
+          "_resolvedIn": "214 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7265,9 +7266,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-15T10:42:56.185Z",
-            "component-cached-in": "217 μs",
-            "component-resolved-in": "217 μs"
+            "component-cached-at": "2021-07-15T11:19:16.129Z",
+            "component-cached-in": "214 μs",
+            "component-resolved-in": "214 μs"
           },
           "components": {}
         }
@@ -7276,9 +7277,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-15T10:42:56.186Z",
-      "_cachedIn": "423 μs",
-      "_resolvedIn": "423 μs",
+      "_cachedAt": "2021-07-15T11:19:16.129Z",
+      "_cachedIn": "413 μs",
+      "_resolvedIn": "413 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7306,18 +7307,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-15T10:42:56.186Z",
-        "component-cached-in": "423 μs",
-        "component-resolved-in": "423 μs"
+        "component-cached-at": "2021-07-15T11:19:16.129Z",
+        "component-cached-in": "413 μs",
+        "component-resolved-in": "413 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-15T10:42:56.185Z",
-      "_cachedIn": "186 μs",
-      "_resolvedIn": "186 μs",
+      "_cachedAt": "2021-07-15T11:19:16.129Z",
+      "_cachedIn": "249 μs",
+      "_resolvedIn": "249 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7329,18 +7330,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-15T10:42:56.185Z",
-        "component-cached-in": "186 μs",
-        "component-resolved-in": "186 μs"
+        "component-cached-at": "2021-07-15T11:19:16.129Z",
+        "component-cached-in": "249 μs",
+        "component-resolved-in": "249 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-15T10:42:56.186Z",
-      "_cachedIn": "425 μs",
-      "_resolvedIn": "425 μs",
+      "_cachedAt": "2021-07-15T11:19:16.129Z",
+      "_cachedIn": "414 μs",
+      "_resolvedIn": "414 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7359,9 +7360,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-15T10:42:56.186Z",
-        "component-cached-in": "425 μs",
-        "component-resolved-in": "425 μs"
+        "component-cached-at": "2021-07-15T11:19:16.129Z",
+        "component-cached-in": "414 μs",
+        "component-resolved-in": "414 μs"
       },
       "components": {}
     }
