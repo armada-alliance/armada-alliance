@@ -22,7 +22,7 @@ Widgets are small pieces of code that can be added to your website to extend its
 ## Pool widget
 
 ```html
-<iframe src="${environment.HOST}/pool-widget/<POOL_ID>" height="168" />
+<iframe src="${environment.HOST}/pool-widget/<POOL_ID>" height="176" />
 ```
 
-<iframe src="${environment.HOST}/pool-widget/351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8" height="168" />
+<iframe src="${environment.HOST}/pool-widget/351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8" height="176" />
