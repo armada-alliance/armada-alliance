@@ -1,36 +1,30 @@
 {
-  "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"ACTUS\",\"language\":\"es\",\"slug\":\"/es/terms/ACTUS\",\"url\":\"https:///website.codespace1.sublayer.io/es/terms/ACTUS\",\"origin\":\"/terms/actus\",\"title\":\"ACTUS\",\"description\":\"Algorithmic Contract Types Unified Standards (Estandar Unificado de Tipos de Contratos Algorítmicos). Una clasificación y un estándar para contratos financieros.\",\"aliases\":[\"ACTUS\"],\"keywords\":[\"ACTUS\",\"Algorithmic\",\"Contract\",\"Types\",\"Unified\",\"Standards\",\"Algoritmo\",\"Contrato\",\"Tipos\",\"Clasificación\",\"Unificado\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"alex-qxt\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/es/terms/ACTUS.md\",\"body\":\"\",\"mdxSource\":{\"compiledSource\":\"var M=Object.defineProperty,X=Object.defineProperties;var c=Object.getOwnPropertyDescriptors;var u=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,a=Object.prototype.propertyIsEnumerable;var s=(o,t,n)=>t in o?M(o,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):o[t]=n,p=(o,t)=>{for(var n in t||(t={}))r.call(t,n)&&s(o,n,t[n]);if(u)for(var n of u(t))a.call(t,n)&&s(o,n,t[n]);return o},y=(o,t)=>X(o,c(t));var D=(o,t)=>{var n={};for(var e in o)r.call(o,e)&&t.indexOf(e)<0&&(n[e]=o[e]);if(o!=null&&u)for(var e of u(o))t.indexOf(e)<0&&a.call(o,e)&&(n[e]=o[e]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var e=n,{components:o}=e,t=D(e,[\\\"components\\\"]);return mdx(MDXLayout,y(p(p({},layoutProps),t),{components:o,mdxType:\\\"MDXLayout\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
+  "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"address\",\"language\":\"es\",\"slug\":\"/es/terms/address\",\"url\":\"https:///website.codespace1.sublayer.io/es/terms/address\",\"origin\":\"/es/terms/address\",\"title\":\"address\",\"description\":\"La dirección de un UTXO dice hacia dónde “va” la salida.\",\"aliases\":[\"cardano address\",\"UTXO address\"],\"keywords\":[\"cardano\",\"address\",\"utxo\",\"direccion\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"alex-qxt\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/es/terms/address.md\",\"body\":\"La dirección define las condiciones para desbloquear la salida. Puede ser un hash de clave pública o en el modelo eUTXO (UTXO Extendido) un hash de script. \\nAl igual que una URL, una dirección de la Blockchain es la ubicación hacia o desde la cual ocurren las transacciones en la cadena de bloques.\\n\",\"mdxSource\":{\"compiledSource\":\"var r=Object.defineProperty,p=Object.defineProperties;var X=Object.getOwnPropertyDescriptors;var c=Object.getOwnPropertySymbols;var l=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var u=(e,a,n)=>a in e?r(e,a,{enumerable:!0,configurable:!0,writable:!0,value:n}):e[a]=n,i=(e,a)=>{for(var n in a||(a={}))l.call(a,n)&&u(e,n,a[n]);if(c)for(var n of c(a))s.call(a,n)&&u(e,n,a[n]);return e},d=(e,a)=>p(e,X(a));var t=(e,a)=>{var n={};for(var o in e)l.call(e,o)&&a.indexOf(o)<0&&(n[o]=e[o]);if(e!=null&&c)for(var o of c(e))a.indexOf(o)<0&&s.call(e,o)&&(n[o]=e[o]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var o=n,{components:e}=o,a=t(o,[\\\"components\\\"]);return mdx(MDXLayout,d(i(i({},layoutProps),a),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,`La direcci\\\\xF3n define las condiciones para desbloquear la salida. Puede ser un hash de clave p\\\\xFAblica o en el modelo eUTXO (UTXO Extendido) un hash de script.\\nAl igual que una URL, una direcci\\\\xF3n de la Blockchain es la ubicaci\\\\xF3n hacia o desde la cual ocurren las transacciones en la cadena de bloques.`))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-15T11:19:17.178Z",
-  "_cachedIn": "235 μs",
-  "_resolvedIn": "235 μs",
+  "_cachedAt": "2021-07-15T11:19:17.233Z",
+  "_cachedIn": "860 μs",
+  "_resolvedIn": "860 μs",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
   "error": null,
   "props": {
-    "id": "ACTUS",
+    "id": "address",
     "language": "es",
-    "slug": "/es/terms/ACTUS",
-    "url": "https:///website.codespace1.sublayer.io/es/terms/ACTUS",
-    "origin": "/terms/actus",
-    "title": "ACTUS",
-    "description": "Algorithmic Contract Types Unified Standards (Estandar Unificado de Tipos de Contratos Algorítmicos). Una clasificación y un estándar para contratos financieros.",
+    "slug": "/es/terms/address",
+    "url": "https:///website.codespace1.sublayer.io/es/terms/address",
+    "origin": "/es/terms/address",
+    "title": "address",
+    "description": "La dirección de un UTXO dice hacia dónde “va” la salida.",
     "aliases": [
-      "ACTUS"
+      "cardano address",
+      "UTXO address"
     ],
     "keywords": [
-      "ACTUS",
-      "Algorithmic",
-      "Contract",
-      "Types",
-      "Unified",
-      "Standards",
-      "Algoritmo",
-      "Contrato",
-      "Tipos",
-      "Clasificación",
-      "Unificado"
+      "cardano",
+      "address",
+      "utxo",
+      "direccion"
     ],
     "template": "TermDetailPage",
     "identities": [
@@ -40,28 +34,28 @@
       }
     ],
     "updatedAt": "2021-07-10T20:43:29.000Z",
-    "filePath": "/es/terms/ACTUS.md",
-    "body": "",
+    "filePath": "/es/terms/address.md",
+    "body": "La dirección define las condiciones para desbloquear la salida. Puede ser un hash de clave pública o en el modelo eUTXO (UTXO Extendido) un hash de script. \nAl igual que una URL, una dirección de la Blockchain es la ubicación hacia o desde la cual ocurren las transacciones en la cadena de bloques.\n",
     "mdxSource": {
-      "compiledSource": "var M=Object.defineProperty,X=Object.defineProperties;var c=Object.getOwnPropertyDescriptors;var u=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,a=Object.prototype.propertyIsEnumerable;var s=(o,t,n)=>t in o?M(o,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):o[t]=n,p=(o,t)=>{for(var n in t||(t={}))r.call(t,n)&&s(o,n,t[n]);if(u)for(var n of u(t))a.call(t,n)&&s(o,n,t[n]);return o},y=(o,t)=>X(o,c(t));var D=(o,t)=>{var n={};for(var e in o)r.call(o,e)&&t.indexOf(e)<0&&(n[e]=o[e]);if(o!=null&&u)for(var e of u(o))t.indexOf(e)<0&&a.call(o,e)&&(n[e]=o[e]);return n};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(n){var e=n,{components:o}=e,t=D(e,[\"components\"]);return mdx(MDXLayout,y(p(p({},layoutProps),t),{components:o,mdxType:\"MDXLayout\"}))}MDXContent.isMDXComponent=!0;\n",
+      "compiledSource": "var r=Object.defineProperty,p=Object.defineProperties;var X=Object.getOwnPropertyDescriptors;var c=Object.getOwnPropertySymbols;var l=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var u=(e,a,n)=>a in e?r(e,a,{enumerable:!0,configurable:!0,writable:!0,value:n}):e[a]=n,i=(e,a)=>{for(var n in a||(a={}))l.call(a,n)&&u(e,n,a[n]);if(c)for(var n of c(a))s.call(a,n)&&u(e,n,a[n]);return e},d=(e,a)=>p(e,X(a));var t=(e,a)=>{var n={};for(var o in e)l.call(e,o)&&a.indexOf(o)<0&&(n[o]=e[o]);if(e!=null&&c)for(var o of c(e))a.indexOf(o)<0&&s.call(e,o)&&(n[o]=e[o]);return n};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(n){var o=n,{components:e}=o,a=t(o,[\"components\"]);return mdx(MDXLayout,d(i(i({},layoutProps),a),{components:e,mdxType:\"MDXLayout\"}),mdx(\"p\",null,`La direcci\\xF3n define las condiciones para desbloquear la salida. Puede ser un hash de clave p\\xFAblica o en el modelo eUTXO (UTXO Extendido) un hash de script.\nAl igual que una URL, una direcci\\xF3n de la Blockchain es la ubicaci\\xF3n hacia o desde la cual ocurren las transacciones en la cadena de bloques.`))}MDXContent.isMDXComponent=!0;\n",
       "scope": {}
     },
-    "source": "/pages/es/terms/ACTUS.json"
+    "source": "/pages/es/terms/address.json"
   },
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-15T11:19:17.178Z",
-    "component-cached-in": "235 μs",
-    "component-resolved-in": "235 μs"
+    "component-cached-at": "2021-07-15T11:19:17.233Z",
+    "component-cached-in": "860 μs",
+    "component-resolved-in": "860 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-15T11:19:17.178Z",
-      "_cachedIn": "198 μs",
-      "_resolvedIn": "198 μs",
+      "_cachedAt": "2021-07-15T11:19:17.233Z",
+      "_cachedIn": "543 μs",
+      "_resolvedIn": "543 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -70,17 +64,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-15T11:19:17.178Z",
-        "component-cached-in": "198 μs",
-        "component-resolved-in": "198 μs"
+        "component-cached-at": "2021-07-15T11:19:17.233Z",
+        "component-cached-in": "543 μs",
+        "component-resolved-in": "543 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-15T11:19:17.178Z",
-          "_cachedIn": "144 μs",
-          "_resolvedIn": "144 μs",
+          "_cachedAt": "2021-07-15T11:19:17.233Z",
+          "_cachedIn": "303 μs",
+          "_resolvedIn": "303 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -7173,18 +7167,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-15T11:19:17.178Z",
-            "component-cached-in": "144 μs",
-            "component-resolved-in": "144 μs"
+            "component-cached-at": "2021-07-15T11:19:17.233Z",
+            "component-cached-in": "303 μs",
+            "component-resolved-in": "303 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-15T11:19:17.178Z",
-          "_cachedIn": "161 μs",
-          "_resolvedIn": "161 μs",
+          "_cachedAt": "2021-07-15T11:19:17.233Z",
+          "_cachedIn": "385 μs",
+          "_resolvedIn": "385 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7195,17 +7189,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-15T11:19:17.178Z",
-            "component-cached-in": "161 μs",
-            "component-resolved-in": "161 μs"
+            "component-cached-at": "2021-07-15T11:19:17.233Z",
+            "component-cached-in": "385 μs",
+            "component-resolved-in": "385 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-15T11:19:17.178Z",
-              "_cachedIn": "26 μs",
-              "_resolvedIn": "26 μs",
+              "_cachedAt": "2021-07-15T11:19:17.233Z",
+              "_cachedIn": "71 μs",
+              "_resolvedIn": "71 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7249,9 +7243,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-15T11:19:17.178Z",
-                "component-cached-in": "26 μs",
-                "component-resolved-in": "26 μs"
+                "component-cached-at": "2021-07-15T11:19:17.233Z",
+                "component-cached-in": "71 μs",
+                "component-resolved-in": "71 μs"
               },
               "components": {}
             }
@@ -7260,9 +7254,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-15T11:19:17.178Z",
-          "_cachedIn": "109 μs",
-          "_resolvedIn": "109 μs",
+          "_cachedAt": "2021-07-15T11:19:17.233Z",
+          "_cachedIn": "176 μs",
+          "_resolvedIn": "176 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7271,9 +7265,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-15T11:19:17.178Z",
-            "component-cached-in": "109 μs",
-            "component-resolved-in": "109 μs"
+            "component-cached-at": "2021-07-15T11:19:17.233Z",
+            "component-cached-in": "176 μs",
+            "component-resolved-in": "176 μs"
           },
           "components": {}
         }
@@ -7282,15 +7276,15 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-15T11:19:17.178Z",
-      "_cachedIn": "158 μs",
-      "_resolvedIn": "158 μs",
+      "_cachedAt": "2021-07-15T11:19:17.233Z",
+      "_cachedIn": "365 μs",
+      "_resolvedIn": "365 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
       "error": null,
       "props": {
-        "title": "ACTUS",
+        "title": "address",
         "pageType": "Term",
         "identities": [
           {
@@ -7315,62 +7309,62 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-15T11:19:17.178Z",
-        "component-cached-in": "158 μs",
-        "component-resolved-in": "158 μs"
+        "component-cached-at": "2021-07-15T11:19:17.233Z",
+        "component-cached-in": "365 μs",
+        "component-resolved-in": "365 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-15T11:19:17.178Z",
-      "_cachedIn": "75 μs",
-      "_resolvedIn": "75 μs",
+      "_cachedAt": "2021-07-15T11:19:17.233Z",
+      "_cachedIn": "198 μs",
+      "_resolvedIn": "198 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
       "error": null,
       "props": {
         "alignLeft": true,
-        "excerpt": "Algorithmic Contract Types Unified Standards (Estandar Unificado de Tipos de Contratos Algorítmicos). Una clasificación y un estándar para contratos financieros."
+        "excerpt": "La dirección de un UTXO dice hacia dónde “va” la salida."
       },
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-15T11:19:17.178Z",
-        "component-cached-in": "75 μs",
-        "component-resolved-in": "75 μs"
+        "component-cached-at": "2021-07-15T11:19:17.233Z",
+        "component-cached-in": "198 μs",
+        "component-resolved-in": "198 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-15T11:19:17.178Z",
-      "_cachedIn": "156 μs",
-      "_resolvedIn": "156 μs",
+      "_cachedAt": "2021-07-15T11:19:17.233Z",
+      "_cachedIn": "364 μs",
+      "_resolvedIn": "364 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
       "error": null,
       "props": {
         "mdxSource": {
-          "compiledSource": "var M=Object.defineProperty,X=Object.defineProperties;var c=Object.getOwnPropertyDescriptors;var u=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,a=Object.prototype.propertyIsEnumerable;var s=(o,t,n)=>t in o?M(o,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):o[t]=n,p=(o,t)=>{for(var n in t||(t={}))r.call(t,n)&&s(o,n,t[n]);if(u)for(var n of u(t))a.call(t,n)&&s(o,n,t[n]);return o},y=(o,t)=>X(o,c(t));var D=(o,t)=>{var n={};for(var e in o)r.call(o,e)&&t.indexOf(e)<0&&(n[e]=o[e]);if(o!=null&&u)for(var e of u(o))t.indexOf(e)<0&&a.call(o,e)&&(n[e]=o[e]);return n};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(n){var e=n,{components:o}=e,t=D(e,[\"components\"]);return mdx(MDXLayout,y(p(p({},layoutProps),t),{components:o,mdxType:\"MDXLayout\"}))}MDXContent.isMDXComponent=!0;\n",
+          "compiledSource": "var r=Object.defineProperty,p=Object.defineProperties;var X=Object.getOwnPropertyDescriptors;var c=Object.getOwnPropertySymbols;var l=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var u=(e,a,n)=>a in e?r(e,a,{enumerable:!0,configurable:!0,writable:!0,value:n}):e[a]=n,i=(e,a)=>{for(var n in a||(a={}))l.call(a,n)&&u(e,n,a[n]);if(c)for(var n of c(a))s.call(a,n)&&u(e,n,a[n]);return e},d=(e,a)=>p(e,X(a));var t=(e,a)=>{var n={};for(var o in e)l.call(e,o)&&a.indexOf(o)<0&&(n[o]=e[o]);if(e!=null&&c)for(var o of c(e))a.indexOf(o)<0&&s.call(e,o)&&(n[o]=e[o]);return n};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(n){var o=n,{components:e}=o,a=t(o,[\"components\"]);return mdx(MDXLayout,d(i(i({},layoutProps),a),{components:e,mdxType:\"MDXLayout\"}),mdx(\"p\",null,`La direcci\\xF3n define las condiciones para desbloquear la salida. Puede ser un hash de clave p\\xFAblica o en el modelo eUTXO (UTXO Extendido) un hash de script.\nAl igual que una URL, una direcci\\xF3n de la Blockchain es la ubicaci\\xF3n hacia o desde la cual ocurren las transacciones en la cadena de bloques.`))}MDXContent.isMDXComponent=!0;\n",
           "scope": {}
         },
-        "filePath": "/es/terms/ACTUS.md",
+        "filePath": "/es/terms/address.md",
         "updatedAt": "2021-07-10T20:43:29.000Z",
         "editOnGitHubLink": {
-          "href": "https://github.com/armada-alliance/armada-alliance/tree/main/services/website/content//es/terms/ACTUS.md"
+          "href": "https://github.com/armada-alliance/armada-alliance/tree/main/services/website/content//es/terms/address.md"
         }
       },
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-15T11:19:17.178Z",
-        "component-cached-in": "156 μs",
-        "component-resolved-in": "156 μs"
+        "component-cached-at": "2021-07-15T11:19:17.233Z",
+        "component-cached-in": "364 μs",
+        "component-resolved-in": "364 μs"
       },
       "components": {}
     }
