@@ -131,6 +131,7 @@ module.exports = {
                     pledge: adapools.data.pledge,
                     pledged: adapools.data.pledged,
                     taxRatio: adapools.data.tax_ratio,
+                    taxFix: adapools.data.tax_fix,
                     roa: adapools.data.roa,
                     memberSince: poolPage.memberSince,
                     registeredAt: new Date(adapools.created).toISOString(),

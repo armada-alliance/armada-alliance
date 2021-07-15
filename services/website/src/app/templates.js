@@ -12,13 +12,17 @@ import TermDetailPage from "./TermDetailPage";
 import GuideDetailPage from "./GuideDetailPage";
 import IdentitiesPage from "./IdentitiesPage";
 import DelegationWidgetPage from "./DelegationWidgetPage";
+import StatsWidgetPage from "./StatsWidgetPage";
+import PoolWidgetPage from "./PoolWidgetPage";
 
 const templates = {
     PoolsPage,
     DelegationWidgetPage,
+    PoolWidgetPage,
     IdentitiesPage,
     GuidesPage,
     GuideDetailPage,
+    StatsWidgetPage,
     ResourceDetailPage,
     IdentityDetailPage,
     SitemapPage,

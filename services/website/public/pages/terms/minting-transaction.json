@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"minting-transaction\",\"language\":\"en\",\"slug\":\"/terms/minting-transaction\",\"url\":\"https:///website.codespace1.sublayer.io/terms/minting-transaction\",\"origin\":\"/terms/minting-transaction\",\"title\":\"Minting transaction\",\"description\":\"Transactions with a field specifying token minting details.\",\"aliases\":[\"minting transaction\",\"nft forging\",\"nft transaction\",\"minting a native asset\",\"nft minting\",\"cardano nft minting\",\"nft making transaction\"],\"keywords\":[\"minting\",\"transaction\",\"nft\",\"forging\",\"making\",\"producing\",\"tx\",\"cnft\",\"cardano\",\"native\",\"asset\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/minting-transaction.md\",\"body\":\"These transactions also carry the minting policies to be checked during validation.\",\"mdxSource\":{\"compiledSource\":\"var y=Object.defineProperty,D=Object.defineProperties;var M=Object.getOwnPropertyDescriptors;var a=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var c=(t,o,n)=>o in t?y(t,o,{enumerable:!0,configurable:!0,writable:!0,value:n}):t[o]=n,i=(t,o)=>{for(var n in o||(o={}))r.call(o,n)&&c(t,n,o[n]);if(a)for(var n of a(o))s.call(o,n)&&c(t,n,o[n]);return t},p=(t,o)=>D(t,M(o));var u=(t,o)=>{var n={};for(var e in t)r.call(t,e)&&o.indexOf(e)<0&&(n[e]=t[e]);if(t!=null&&a)for(var e of a(t))o.indexOf(e)<0&&s.call(t,e)&&(n[e]=t[e]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var e=n,{components:t}=e,o=u(e,[\\\"components\\\"]);return mdx(MDXLayout,p(i(i({},layoutProps),o),{components:t,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"These transactions also carry the minting policies to be checked during validation.\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-14T21:13:49.530Z",
-  "_cachedIn": "1.35 ms",
-  "_resolvedIn": "1.35 ms",
+  "_cachedAt": "2021-07-15T10:42:56.627Z",
+  "_cachedIn": "522 μs",
+  "_resolvedIn": "522 μs",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -57,17 +57,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-14T21:13:49.530Z",
-    "component-cached-in": "1.35 ms",
-    "component-resolved-in": "1.35 ms"
+    "component-cached-at": "2021-07-15T10:42:56.627Z",
+    "component-cached-in": "522 μs",
+    "component-resolved-in": "522 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-14T21:13:49.530Z",
-      "_cachedIn": "979 μs",
-      "_resolvedIn": "979 μs",
+      "_cachedAt": "2021-07-15T10:42:56.627Z",
+      "_cachedIn": "389 μs",
+      "_resolvedIn": "389 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -76,24 +76,25 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-14T21:13:49.530Z",
-        "component-cached-in": "979 μs",
-        "component-resolved-in": "979 μs"
+        "component-cached-at": "2021-07-15T10:42:56.627Z",
+        "component-cached-in": "389 μs",
+        "component-resolved-in": "389 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-14T21:13:49.529Z",
-          "_cachedIn": "592 μs",
-          "_resolvedIn": "592 μs",
+          "_cachedAt": "2021-07-15T10:42:56.627Z",
+          "_cachedIn": "185 μs",
+          "_resolvedIn": "185 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
           "error": null,
           "props": {
+            "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-14T21:13:39.156Z",
+              "createdAt": "2021-07-15T10:42:45.507Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -431,6 +432,30 @@
                 "slug": "/delegation-widget",
                 "template": "DelegationWidgetPage",
                 "hidden": true
+              },
+              {
+                "id": "add-widgets-to-your-website",
+                "language": "en",
+                "slug": "/guides/add-widgets-to-your-website",
+                "url": "https:///website.codespace1.sublayer.io/guides/add-widgets-to-your-website",
+                "origin": "/guides/add-widgets-to-your-website",
+                "title": "Add widgets to your website",
+                "description": "A guide to add widgets to your website",
+                "aliases": null,
+                "keywords": [
+                  "Widgets",
+                  "JavaScript",
+                  "Marketing"
+                ],
+                "template": "GuideDetailPage",
+                "identities": [
+                  {
+                    "id": "sublayerio",
+                    "role": "author"
+                  }
+                ],
+                "icon": "🧸",
+                "filePath": "/en/guides/add-widgets-to-your-website.md"
               },
               {
                 "id": "create-collection-of-non-fungible-tokens",
@@ -786,7 +811,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-14T18:12:31.000Z",
+                "updatedAt": "2021-07-14T21:15:04.000Z",
                 "filePath": "/en/identities/Adaberry_Pi.md"
               },
               {
@@ -876,7 +901,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/daniel.jpg",
-                "updatedAt": "2021-06-18T12:27:06.000Z",
+                "updatedAt": "2021-07-14T21:15:04.000Z",
                 "filePath": "/en/identities/daniel-recuenco.md"
               },
               {
@@ -936,7 +961,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/julienterrier.jpg",
-                "updatedAt": "2021-07-14T18:12:31.000Z",
+                "updatedAt": "2021-07-14T21:15:04.000Z",
                 "filePath": "/en/identities/julien-terrier.md"
               },
               {
@@ -1161,7 +1186,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/s4na.jpg",
-                "updatedAt": "2021-07-14T06:33:31.000Z",
+                "updatedAt": "2021-07-14T21:30:10.000Z",
                 "filePath": "/en/identities/stake-for-nature.md"
               },
               {
@@ -1176,7 +1201,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/stale.gif",
-                "updatedAt": "2021-07-09T17:04:17.000Z",
+                "updatedAt": "2021-07-14T21:30:10.000Z",
                 "filePath": "/en/identities/stale.md"
               },
               {
@@ -1326,7 +1351,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/zw3rk.jpeg",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-14T21:15:04.000Z",
                 "filePath": "/en/identities/zw3rk.md"
               },
               {
@@ -1476,7 +1501,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://illustratorandweb.com/ext/Pool-00000-1000x1000.png",
+                "image": "https://illustratorandweb.com/ext/Pool-00000-24bit-1000x1000.png",
                 "updatedAt": "2021-07-13T10:18:10.000Z",
                 "filePath": "/en/stake-pools/33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4.md"
               },
@@ -1542,6 +1567,27 @@
                 "image": "https://raw.githubusercontent.com/ZenenTreadwell/zenentreadwell.github.io/3f97391f669120a5ffcfba7c201833d6fef33d35/static/enso-small.png",
                 "updatedAt": "2021-07-10T20:43:29.000Z",
                 "filePath": "/en/stake-pools/4f5e469a40547208cf9876b36ae9b23874c302ab8ab263a952bbae6a.md"
+              },
+              {
+                "id": "5707e4254180d481a4f1e690be0c2c54b3a618051d907df7e4434c0b",
+                "language": "en",
+                "slug": "/stake-pools/5707e4254180d481a4f1e690be0c2c54b3a618051d907df7e4434c0b",
+                "url": "https:///website.codespace1.sublayer.io/stake-pools/5707e4254180d481a4f1e690be0c2c54b3a618051d907df7e4434c0b",
+                "origin": "/stake-pools/5707e4254180d481a4f1e690be0c2c54b3a618051d907df7e4434c0b",
+                "title": "Stake for Nature (ST4NA)",
+                "description": "Collaborating with Cardano project for making our planet a better place. Delegate in Stake for Nature and you will be helping us to take care of the planet.",
+                "aliases": null,
+                "keywords": null,
+                "template": "PoolDetailPage",
+                "identities": [
+                  {
+                    "id": "stake-for-nature",
+                    "role": "spo"
+                  }
+                ],
+                "image": "https://stakefornature.com/ico.png",
+                "updatedAt": "2021-07-14T21:28:24.000Z",
+                "filePath": "/en/stake-pools/5707e4254180d481a4f1e690be0c2c54b3a618051d907df7e4434c0b.md"
               },
               {
                 "id": "76c5c707afe9a824bd946d32ec99959ae05f8bf0e8290def11e03a42",
@@ -1863,6 +1909,214 @@
                 "filePath": "/en/stake-pools/febb924e349d816997e007dc09847ded9a2e72d218023c0e5186176d.md"
               },
               {
+                "language": "en",
+                "title": "Behemoth BHMT",
+                "slug": "/pool-widget/052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e",
+                "template": "PoolWidgetPage",
+                "poolId": "052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "cardanoYYC YYC",
+                "slug": "/pool-widget/1795531808124bd8bf39943b5cb453db0f74115e840c04e02015550c",
+                "template": "PoolWidgetPage",
+                "poolId": "1795531808124bd8bf39943b5cb453db0f74115e840c04e02015550c",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "Armadillo AMDLO",
+                "slug": "/pool-widget/2730ca79a60b3b3f29b709bd39c21d66cb2c83e5441c479f755d0a3d",
+                "template": "PoolWidgetPage",
+                "poolId": "2730ca79a60b3b3f29b709bd39c21d66cb2c83e5441c479f755d0a3d",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "Berry BERRY",
+                "slug": "/pool-widget/2a748e3885f6f73320ad16a8331247b81fe01b8d39f57eec9caa5091",
+                "template": "PoolWidgetPage",
+                "poolId": "2a748e3885f6f73320ad16a8331247b81fe01b8d39f57eec9caa5091",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "Ruby Pool RUBY",
+                "slug": "/pool-widget/2c3390339aba47100f9ab1a230d6d726e10e9d527be49dc5bab479da",
+                "template": "PoolWidgetPage",
+                "poolId": "2c3390339aba47100f9ab1a230d6d726e10e9d527be49dc5bab479da",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "Southtyrolpool sudti",
+                "slug": "/pool-widget/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
+                "template": "PoolWidgetPage",
+                "poolId": "2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "Adaberry Pi 00000",
+                "slug": "/pool-widget/33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4",
+                "template": "PoolWidgetPage",
+                "poolId": "33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "Quixote Dream Pool QXT",
+                "slug": "/pool-widget/351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8",
+                "template": "PoolWidgetPage",
+                "poolId": "351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "SBC-Mining SBC",
+                "slug": "/pool-widget/406a08532d2ca8dd08ea39e082dc8acdc2a3b34d0c517bd0e40af5e1",
+                "template": "PoolWidgetPage",
+                "poolId": "406a08532d2ca8dd08ea39e082dc8acdc2a3b34d0c517bd0e40af5e1",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "ZenPool ZAZEN",
+                "slug": "/pool-widget/4f5e469a40547208cf9876b36ae9b23874c302ab8ab263a952bbae6a",
+                "template": "PoolWidgetPage",
+                "poolId": "4f5e469a40547208cf9876b36ae9b23874c302ab8ab263a952bbae6a",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "Stake for Nature ST4NA",
+                "slug": "/pool-widget/5707e4254180d481a4f1e690be0c2c54b3a618051d907df7e4434c0b",
+                "template": "PoolWidgetPage",
+                "poolId": "5707e4254180d481a4f1e690be0c2c54b3a618051d907df7e4434c0b",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "Raspberry RPI",
+                "slug": "/pool-widget/76c5c707afe9a824bd946d32ec99959ae05f8bf0e8290def11e03a42",
+                "template": "PoolWidgetPage",
+                "poolId": "76c5c707afe9a824bd946d32ec99959ae05f8bf0e8290def11e03a42",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "PIEBR Pool PIEBR",
+                "slug": "/pool-widget/7aac5502d19cac8731e3b86ecc9553d69b26a02155e5c9cf262d224c",
+                "template": "PoolWidgetPage",
+                "poolId": "7aac5502d19cac8731e3b86ecc9553d69b26a02155e5c9cf262d224c",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "PGWADA Stake pool PGWAD",
+                "slug": "/pool-widget/7e45a7e6ab3afcf99120e97aedf84e706e43d829ddc610ad667a85a3",
+                "template": "PoolWidgetPage",
+                "poolId": "7e45a7e6ab3afcf99120e97aedf84e706e43d829ddc610ad667a85a3",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "Sublayer Pool SBLYR",
+                "slug": "/pool-widget/8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8",
+                "template": "PoolWidgetPage",
+                "poolId": "8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "Halo Stake Pool HALO",
+                "slug": "/pool-widget/96155e7994343ae2b5da83d895cbab3c21838f95c3f971c8e20ee3c8",
+                "template": "PoolWidgetPage",
+                "poolId": "96155e7994343ae2b5da83d895cbab3c21838f95c3f971c8e20ee3c8",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "SOLAR Raspberry PI SOLRP",
+                "slug": "/pool-widget/9728b10a926c048af938e5c52053319db5be921e8b698842c3afd3cc",
+                "template": "PoolWidgetPage",
+                "poolId": "9728b10a926c048af938e5c52053319db5be921e8b698842c3afd3cc",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "BONE pool BONE",
+                "slug": "/pool-widget/97aaa4621cffb87c3e8380376406cc9501d6c9e1cbb459e17cd60602",
+                "template": "PoolWidgetPage",
+                "poolId": "97aaa4621cffb87c3e8380376406cc9501d6c9e1cbb459e17cd60602",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "Docker, Plutus, Research and Charity ASTOR",
+                "slug": "/pool-widget/9e8009b249142d80144dfb681984e08d96d51c2085e8bb6d9d1831d2",
+                "template": "PoolWidgetPage",
+                "poolId": "9e8009b249142d80144dfb681984e08d96d51c2085e8bb6d9d1831d2",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "CryptoPool.dev CRYPO",
+                "slug": "/pool-widget/a343a6e2eb4bb7f8abf039b82e579131b56966d88d9937e679365269",
+                "template": "PoolWidgetPage",
+                "poolId": "a343a6e2eb4bb7f8abf039b82e579131b56966d88d9937e679365269",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "PIADA piada.io PIADA",
+                "slug": "/pool-widget/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65",
+                "template": "PoolWidgetPage",
+                "poolId": "b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "Cardano ADA Mini Pool Switzerland MINI1",
+                "slug": "/pool-widget/c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2",
+                "template": "PoolWidgetPage",
+                "poolId": "c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": " Star Forge  OTG",
+                "slug": "/pool-widget/c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae",
+                "template": "PoolWidgetPage",
+                "poolId": "c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "MEME Pool MEME",
+                "slug": "/pool-widget/c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386",
+                "template": "PoolWidgetPage",
+                "poolId": "c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "ADASRN SRN",
+                "slug": "/pool-widget/cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0",
+                "template": "PoolWidgetPage",
+                "poolId": "cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "Oyster_Pool OYSTR",
+                "slug": "/pool-widget/febb924e349d816997e007dc09847ded9a2e72d218023c0e5186176d",
+                "template": "PoolWidgetPage",
+                "poolId": "febb924e349d816997e007dc09847ded9a2e72d218023c0e5186176d",
+                "hidden": true
+              },
+              {
                 "id": "stake-pools",
                 "language": "en",
                 "slug": "/stake-pools",
@@ -1887,6 +2141,13 @@
                 "template": "SitemapPage",
                 "updatedAt": "2021-07-10T20:43:29.000Z",
                 "filePath": "/en/sitemap.md"
+              },
+              {
+                "language": "en",
+                "title": "Stats widget",
+                "slug": "/stats-widget",
+                "template": "StatsWidgetPage",
+                "hidden": true
               },
               {
                 "id": "ada",
@@ -6917,18 +7178,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-14T21:13:49.529Z",
-            "component-cached-in": "592 μs",
-            "component-resolved-in": "592 μs"
+            "component-cached-at": "2021-07-15T10:42:56.627Z",
+            "component-cached-in": "185 μs",
+            "component-resolved-in": "185 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-14T21:13:49.529Z",
-          "_cachedIn": "761 μs",
-          "_resolvedIn": "761 μs",
+          "_cachedAt": "2021-07-15T10:42:56.627Z",
+          "_cachedIn": "226 μs",
+          "_resolvedIn": "226 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6939,17 +7200,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-14T21:13:49.529Z",
-            "component-cached-in": "761 μs",
-            "component-resolved-in": "761 μs"
+            "component-cached-at": "2021-07-15T10:42:56.627Z",
+            "component-cached-in": "226 μs",
+            "component-resolved-in": "226 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-14T21:13:49.529Z",
-              "_cachedIn": "172 μs",
-              "_resolvedIn": "172 μs",
+              "_cachedAt": "2021-07-15T10:42:56.627Z",
+              "_cachedIn": "39 μs",
+              "_resolvedIn": "39 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6993,9 +7254,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-14T21:13:49.529Z",
-                "component-cached-in": "172 μs",
-                "component-resolved-in": "172 μs"
+                "component-cached-at": "2021-07-15T10:42:56.627Z",
+                "component-cached-in": "39 μs",
+                "component-resolved-in": "39 μs"
               },
               "components": {}
             }
@@ -7004,9 +7265,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-14T21:13:49.529Z",
-          "_cachedIn": "351 μs",
-          "_resolvedIn": "351 μs",
+          "_cachedAt": "2021-07-15T10:42:56.627Z",
+          "_cachedIn": "110 μs",
+          "_resolvedIn": "110 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7015,9 +7276,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-14T21:13:49.529Z",
-            "component-cached-in": "351 μs",
-            "component-resolved-in": "351 μs"
+            "component-cached-at": "2021-07-15T10:42:56.627Z",
+            "component-cached-in": "110 μs",
+            "component-resolved-in": "110 μs"
           },
           "components": {}
         }
@@ -7026,9 +7287,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-14T21:13:49.529Z",
-      "_cachedIn": "630 μs",
-      "_resolvedIn": "630 μs",
+      "_cachedAt": "2021-07-15T10:42:56.627Z",
+      "_cachedIn": "190 μs",
+      "_resolvedIn": "190 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7056,18 +7317,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-14T21:13:49.529Z",
-        "component-cached-in": "630 μs",
-        "component-resolved-in": "630 μs"
+        "component-cached-at": "2021-07-15T10:42:56.627Z",
+        "component-cached-in": "190 μs",
+        "component-resolved-in": "190 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-14T21:13:49.529Z",
-      "_cachedIn": "359 μs",
-      "_resolvedIn": "359 μs",
+      "_cachedAt": "2021-07-15T10:42:56.626Z",
+      "_cachedIn": "73 μs",
+      "_resolvedIn": "73 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7079,18 +7340,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-14T21:13:49.529Z",
-        "component-cached-in": "359 μs",
-        "component-resolved-in": "359 μs"
+        "component-cached-at": "2021-07-15T10:42:56.626Z",
+        "component-cached-in": "73 μs",
+        "component-resolved-in": "73 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-14T21:13:49.529Z",
-      "_cachedIn": "631 μs",
-      "_resolvedIn": "631 μs",
+      "_cachedAt": "2021-07-15T10:42:56.627Z",
+      "_cachedIn": "192 μs",
+      "_resolvedIn": "192 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7109,9 +7370,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-14T21:13:49.529Z",
-        "component-cached-in": "631 μs",
-        "component-resolved-in": "631 μs"
+        "component-cached-at": "2021-07-15T10:42:56.627Z",
+        "component-cached-in": "192 μs",
+        "component-resolved-in": "192 μs"
       },
       "components": {}
     }

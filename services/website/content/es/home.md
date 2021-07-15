@@ -8,5 +8,5 @@ heroSection:
 statsSection:
     pretitle: Live stats
     title: Alianza Independiente de Operadores de Stake Pools
-    description: ${poolCount} stake pools operated across ${countryCount} different countries 🌍
+    description: ${data.poolCount} stake pools operated across ${data.countryCount} different countries 🌍
 ---

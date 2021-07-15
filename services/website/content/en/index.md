@@ -7,5 +7,5 @@ heroSection:
 statsSection:
     pretitle: Live stats
     title: An alliance of independent stake pool operators
-    description: ${poolCount} stake pools operated across ${countryCount} different countries 🌍
+    description: ${data.poolCount} stake pools operated across ${data.countryCount} different countries 🌍
 ---
