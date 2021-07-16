@@ -9,6 +9,7 @@ module.exports = {
         const pages = ctx.tables.get('pages')
 
         return {
+            host: process.env.HOST,
             schema,
             languages,
             pages

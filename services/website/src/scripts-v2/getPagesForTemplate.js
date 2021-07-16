@@ -6,6 +6,7 @@ const compact = require('lodash/compact')
 const trim = require('lodash/trim')
 const decodeUrlPartsFromFilePath = require('../scripts/decodeUrlPartsFromFilePath')
 const files = require('../../public/files.json')
+const replaceVariables = require('./replaceVariables')
 
 const getPagesForTemplate = async (template) => {
 
@@ -36,7 +37,9 @@ const getPagesForTemplate = async (template) => {
 
             try {
 
-                const string = await fs.readFile(filePath, 'utf-8')
+                let string = await fs.readFile(filePath, 'utf-8')
+
+                string = replaceVariables(string)
 
                 const data = fm(string)
 

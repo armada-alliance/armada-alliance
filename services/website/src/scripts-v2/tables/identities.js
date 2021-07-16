@@ -33,6 +33,14 @@ module.exports = {
                 name: identityPage.title,
                 description: identityPage.description,
                 image: identityPage.image || 'https://armada-alliance.com/assets/ship-420.png',
+                telegram: identityPage.telegram,
+                twitter: identityPage.twitter,
+                github: identityPage.github,
+                facebook: identityPage.facebook,
+                youtube: identityPage.youtube,
+                instagram: identityPage.instagram,
+                email: identityPage.email,
+                linkedin: identityPage.linkedin,
                 link: {
                     name: identityPage.title,
                     href: '/identities/' + identityId

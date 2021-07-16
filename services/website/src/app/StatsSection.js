@@ -2,12 +2,12 @@ import { useState } from 'react'
 import shuffle from 'lodash/shuffle'
 import formatImage from './formatImage'
 import DualColorText from './DualColorText'
-import PageTooltip from './PageTooltip'
-import Text from './Text'
-import AdaPrice from './AdaPrice'
 import WithPageTooltip from './WithPageTooltip'
 import template from 'lodash/template'
 import Link from './Link'
+import PageTooltip from './PageTooltip'
+import Text from './Text'
+import AdaPrice from './AdaPrice'
 
 export default function StatsSection({ title, pretitle, description, poolCount, countryCount, liveStake, mintedBlocksCount, delegatorCount, pools }) {
 
@@ -24,7 +24,7 @@ export default function StatsSection({ title, pretitle, description, poolCount, 
                         <DualColorText>{title}</DualColorText>
                     </h2>
                     <p className="mt-3 text-xl text-gray-500 sm:mt-4">
-                        {template(description)({ poolCount, countryCount })}
+                        {template(description)({ data: { poolCount, countryCount } })}
                     </p>
                 </div>
             </div>

@@ -2,7 +2,7 @@ const getPagesForTemplate = require('../getPagesForTemplate')
 
 module.exports = {
     id: 'SitemapPage',
-    name: 'Page',
+    name: 'Stats widget',
     type: 'Template',
     getPages: async (ctx, { component }) => getPagesForTemplate(component.id),
 

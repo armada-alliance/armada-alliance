@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"utxo\",\"language\":\"en\",\"slug\":\"/terms/utxo\",\"url\":\"https:///website.codespace1.sublayer.io/terms/utxo\",\"origin\":\"/terms/utxo\",\"title\":\"UTXO\",\"description\":\"UTXO stands for “Unspent Transaction Output”. In cryptocurrencies, a UTXO is an abstraction of electronic money. Each UTXO is analogous to a coin, and holds a certain amount of value in its respective currency.\",\"aliases\":[\"utxo\",\"utxo model\",\"cardano utxo model\"],\"keywords\":[\"utxo\",\"cardano\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/utxo.md\",\"body\":\"Another way to look at it, using a fiat money analogy, is that UTXOs represent various amounts of “change” available to any particular user. The unspent values in each block are UTXOs, and when they are “spent” (used in a transaction) they create new “change” (new UTXOs). [Detailed information](https://medium.com/bitbees/what-the-heck-is-utxo-ca68f2651819).\\n\\n<YoutubeVideo url=\\\"https://www.youtube.com/watch?v=hKft6E4K8KY\\\" description=\\\"Video explaining the UTXO Model\\\" />\\n\",\"mdxSource\":{\"compiledSource\":\"var d=Object.defineProperty,h=Object.defineProperties;var l=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var i=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var u=(e,t,o)=>t in e?d(e,t,{enumerable:!0,configurable:!0,writable:!0,value:o}):e[t]=o,n=(e,t)=>{for(var o in t||(t={}))i.call(t,o)&&u(e,o,t[o]);if(r)for(var o of r(t))s.call(t,o)&&u(e,o,t[o]);return e},c=(e,t)=>h(e,l(t));var p=(e,t)=>{var o={};for(var a in e)i.call(e,a)&&t.indexOf(a)<0&&(o[a]=e[a]);if(e!=null&&r)for(var a of r(e))t.indexOf(a)<0&&s.call(e,a)&&(o[a]=e[a]);return o};const makeShortcode=e=>function(o){return console.warn(\\\"Component \\\"+e+\\\" was not imported, exported, or provided by MDXProvider as global scope\\\"),mdx(\\\"div\\\",n({},o))},YoutubeVideo=makeShortcode(\\\"YoutubeVideo\\\"),layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(o){var a=o,{components:e}=a,t=p(a,[\\\"components\\\"]);return mdx(MDXLayout,c(n(n({},layoutProps),t),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"Another way to look at it, using a fiat money analogy, is that UTXOs represent various amounts of \\\\u201Cchange\\\\u201D available to any particular user. The unspent values in each block are UTXOs, and when they are \\\\u201Cspent\\\\u201D (used in a transaction) they create new \\\\u201Cchange\\\\u201D (new UTXOs). \\\",mdx(\\\"a\\\",n({parentName:\\\"p\\\"},{href:\\\"https://medium.com/bitbees/what-the-heck-is-utxo-ca68f2651819\\\"}),\\\"Detailed information\\\"),\\\".\\\"),mdx(YoutubeVideo,{url:\\\"https://www.youtube.com/watch?v=hKft6E4K8KY\\\",description:\\\"Video explaining the UTXO Model\\\",mdxType:\\\"YoutubeVideo\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-14T18:08:54.690Z",
-  "_cachedIn": "478 μs",
-  "_resolvedIn": "478 μs",
+  "_cachedAt": "2021-07-15T11:19:17.117Z",
+  "_cachedIn": "3.28 ms",
+  "_resolvedIn": "3.28 ms",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -44,17 +44,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-14T18:08:54.690Z",
-    "component-cached-in": "478 μs",
-    "component-resolved-in": "478 μs"
+    "component-cached-at": "2021-07-15T11:19:17.117Z",
+    "component-cached-in": "3.28 ms",
+    "component-resolved-in": "3.28 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-14T18:08:54.690Z",
-      "_cachedIn": "346 μs",
-      "_resolvedIn": "346 μs",
+      "_cachedAt": "2021-07-15T11:19:17.117Z",
+      "_cachedIn": "2.57 ms",
+      "_resolvedIn": "2.57 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -63,24 +63,25 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-14T18:08:54.690Z",
-        "component-cached-in": "346 μs",
-        "component-resolved-in": "346 μs"
+        "component-cached-at": "2021-07-15T11:19:17.117Z",
+        "component-cached-in": "2.57 ms",
+        "component-resolved-in": "2.57 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-14T18:08:54.689Z",
-          "_cachedIn": "215 μs",
-          "_resolvedIn": "215 μs",
+          "_cachedAt": "2021-07-15T11:19:17.116Z",
+          "_cachedIn": "946 μs",
+          "_resolvedIn": "946 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
           "error": null,
           "props": {
+            "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-14T18:08:42.568Z",
+              "createdAt": "2021-07-15T11:19:05.348Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -420,6 +421,31 @@
                 "hidden": true
               },
               {
+                "id": "add-widgets-to-your-website",
+                "language": "en",
+                "slug": "/guides/add-widgets-to-your-website",
+                "url": "https:///website.codespace1.sublayer.io/guides/add-widgets-to-your-website",
+                "origin": "/guides/add-widgets-to-your-website",
+                "title": "Add widgets to your website",
+                "description": "A guide to add widgets to your website",
+                "aliases": null,
+                "keywords": [
+                  "Widgets",
+                  "JavaScript",
+                  "Marketing"
+                ],
+                "template": "GuideDetailPage",
+                "identities": [
+                  {
+                    "id": "sublayerio",
+                    "role": "author"
+                  }
+                ],
+                "icon": "🧸",
+                "updatedAt": "2021-07-15T11:07:51.000Z",
+                "filePath": "/en/guides/add-widgets-to-your-website.md"
+              },
+              {
                 "id": "create-collection-of-non-fungible-tokens",
                 "language": "en",
                 "slug": "/guides/create-collection-of-non-fungible-tokens",
@@ -733,7 +759,7 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "HomePage",
-                "updatedAt": "2021-07-13T09:02:19.000Z",
+                "updatedAt": "2021-07-15T10:44:01.000Z",
                 "filePath": "/en/index.md"
               },
               {
@@ -746,7 +772,7 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "HomePage",
-                "updatedAt": "2021-07-13T06:16:11.000Z",
+                "updatedAt": "2021-07-15T10:44:01.000Z",
                 "filePath": "/es/home.md"
               },
               {
@@ -772,7 +798,8 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
-                "image": "/ales.jpg",
+                "image": "https://armada-alliance.com/assets/ship-420.png",
+                "updatedAt": "2021-07-14T21:15:04.000Z",
                 "filePath": "/en/identities/Adaberry_Pi.md"
               },
               {
@@ -787,7 +814,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-12T10:20:35.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/Chris_Rain.md"
               },
               {
@@ -802,6 +829,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/Zebra_Danio.md"
               },
               {
@@ -816,7 +844,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/ales.jpg",
-                "updatedAt": "2021-07-06T01:55:23.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/alessandro-berry.md"
               },
               {
@@ -831,7 +859,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/alex-qxt.jpg",
-                "updatedAt": "2021-06-19T10:02:42.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/alex-qxt.md"
               },
               {
@@ -861,7 +889,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/daniel.jpg",
-                "updatedAt": "2021-06-18T12:27:06.000Z",
+                "updatedAt": "2021-07-14T21:15:04.000Z",
                 "filePath": "/en/identities/daniel-recuenco.md"
               },
               {
@@ -876,6 +904,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/geoff.md"
               },
               {
@@ -920,7 +949,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/julienterrier.jpg",
-                "updatedAt": "2021-07-14T08:28:41.000Z",
+                "updatedAt": "2021-07-14T21:15:04.000Z",
                 "filePath": "/en/identities/julien-terrier.md"
               },
               {
@@ -935,7 +964,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-12T10:20:35.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/karnagge.md"
               },
               {
@@ -950,7 +979,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/keww.jpg",
-                "updatedAt": "2021-06-25T17:16:29.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/ken-adams.md"
               },
               {
@@ -965,7 +994,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-12T10:20:35.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/krista-611.md"
               },
               {
@@ -995,7 +1024,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-12T10:20:35.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/matt-solrp.md"
               },
               {
@@ -1025,7 +1054,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-12T10:20:35.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/paul-oyster.md"
               },
               {
@@ -1070,7 +1099,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/raine.png",
-                "updatedAt": "2021-06-25T18:18:38.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/raine-bhmt.md"
               },
               {
@@ -1100,7 +1129,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/sayshar.jpg",
-                "updatedAt": "2021-06-18T07:30:31.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/sayshar-srn.md"
               },
               {
@@ -1115,7 +1144,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/sbc-mining.jpg",
-                "updatedAt": "2021-06-18T07:30:31.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/sbc-mining.md"
               },
               {
@@ -1145,7 +1174,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/s4na.jpg",
-                "updatedAt": "2021-07-14T06:33:31.000Z",
+                "updatedAt": "2021-07-14T21:30:10.000Z",
                 "filePath": "/en/identities/stake-for-nature.md"
               },
               {
@@ -1160,7 +1189,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/stale.gif",
-                "updatedAt": "2021-07-09T17:04:17.000Z",
+                "updatedAt": "2021-07-14T21:30:10.000Z",
                 "filePath": "/en/identities/stale.md"
               },
               {
@@ -1175,7 +1204,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://cdn.sublayer.io/logo.png",
-                "updatedAt": "2021-07-14T06:33:31.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/sublayerio.md"
               },
               {
@@ -1205,7 +1234,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-12T10:20:35.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/thyes_MB.md"
               },
               {
@@ -1250,7 +1279,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/wcat.jpeg",
-                "updatedAt": "2021-07-06T17:25:38.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/wcat-otg.md"
               },
               {
@@ -1280,7 +1309,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-12T10:20:35.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/zenent.md"
               },
               {
@@ -1304,12 +1333,13 @@
                 "slug": "/identities/zw3rk",
                 "url": "https:///website.codespace1.sublayer.io/identities/zw3rk",
                 "origin": "/identities/zw3rk",
-                "title": "Moritz",
+                "title": "Moritz Angermann",
+                "description": "Software Engineering Lead at IOG",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/zw3rk.jpeg",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-14T21:15:04.000Z",
                 "filePath": "/en/identities/zw3rk.md"
               },
               {
@@ -1459,7 +1489,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://illustratorandweb.com/ext/Pool-00000-1000x1000.png",
+                "image": "https://illustratorandweb.com/ext/Pool-00000-24bit-1000x1000.png",
                 "updatedAt": "2021-07-13T10:18:10.000Z",
                 "filePath": "/en/stake-pools/33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4.md"
               },
@@ -1481,7 +1511,7 @@
                   }
                 ],
                 "image": "https://static.adapools.org/pool_logo/351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8.png",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/stake-pools/351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8.md"
               },
               {
@@ -1502,7 +1532,7 @@
                   }
                 ],
                 "image": "https://raw.githubusercontent.com/sbc-mining/ada-pool/main/512x512.png",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/stake-pools/406a08532d2ca8dd08ea39e082dc8acdc2a3b34d0c517bd0e40af5e1.md"
               },
               {
@@ -1525,6 +1555,27 @@
                 "image": "https://raw.githubusercontent.com/ZenenTreadwell/zenentreadwell.github.io/3f97391f669120a5ffcfba7c201833d6fef33d35/static/enso-small.png",
                 "updatedAt": "2021-07-10T20:43:29.000Z",
                 "filePath": "/en/stake-pools/4f5e469a40547208cf9876b36ae9b23874c302ab8ab263a952bbae6a.md"
+              },
+              {
+                "id": "5707e4254180d481a4f1e690be0c2c54b3a618051d907df7e4434c0b",
+                "language": "en",
+                "slug": "/stake-pools/5707e4254180d481a4f1e690be0c2c54b3a618051d907df7e4434c0b",
+                "url": "https:///website.codespace1.sublayer.io/stake-pools/5707e4254180d481a4f1e690be0c2c54b3a618051d907df7e4434c0b",
+                "origin": "/stake-pools/5707e4254180d481a4f1e690be0c2c54b3a618051d907df7e4434c0b",
+                "title": "Stake for Nature (ST4NA)",
+                "description": "Collaborating with Cardano project for making our planet a better place. Delegate in Stake for Nature and you will be helping us to take care of the planet.",
+                "aliases": null,
+                "keywords": null,
+                "template": "PoolDetailPage",
+                "identities": [
+                  {
+                    "id": "stake-for-nature",
+                    "role": "spo"
+                  }
+                ],
+                "image": "https://stakefornature.com/ico.png",
+                "updatedAt": "2021-07-14T21:28:24.000Z",
+                "filePath": "/en/stake-pools/5707e4254180d481a4f1e690be0c2c54b3a618051d907df7e4434c0b.md"
               },
               {
                 "id": "76c5c707afe9a824bd946d32ec99959ae05f8bf0e8290def11e03a42",
@@ -1737,7 +1788,7 @@
                   }
                 ],
                 "image": "https://piada.io/piadaFull.png",
-                "updatedAt": "2021-07-14T03:39:25.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/stake-pools/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65.md"
               },
               {
@@ -1758,7 +1809,7 @@
                   }
                 ],
                 "image": "https://github.com/jterrier84/minipool/blob/main/MINI1_logo.png?raw=true",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/stake-pools/c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2.md"
               },
               {
@@ -1800,7 +1851,7 @@
                   }
                 ],
                 "image": "https://meme.best/icons/apple-touch-icon.png",
-                "updatedAt": "2021-07-14T03:39:25.000Z",
+                "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/stake-pools/c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386.md"
               },
               {
@@ -1846,6 +1897,214 @@
                 "filePath": "/en/stake-pools/febb924e349d816997e007dc09847ded9a2e72d218023c0e5186176d.md"
               },
               {
+                "language": "en",
+                "title": "Behemoth BHMT",
+                "slug": "/pool-widget/052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e",
+                "template": "PoolWidgetPage",
+                "poolId": "052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "cardanoYYC YYC",
+                "slug": "/pool-widget/1795531808124bd8bf39943b5cb453db0f74115e840c04e02015550c",
+                "template": "PoolWidgetPage",
+                "poolId": "1795531808124bd8bf39943b5cb453db0f74115e840c04e02015550c",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "Armadillo AMDLO",
+                "slug": "/pool-widget/2730ca79a60b3b3f29b709bd39c21d66cb2c83e5441c479f755d0a3d",
+                "template": "PoolWidgetPage",
+                "poolId": "2730ca79a60b3b3f29b709bd39c21d66cb2c83e5441c479f755d0a3d",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "Berry BERRY",
+                "slug": "/pool-widget/2a748e3885f6f73320ad16a8331247b81fe01b8d39f57eec9caa5091",
+                "template": "PoolWidgetPage",
+                "poolId": "2a748e3885f6f73320ad16a8331247b81fe01b8d39f57eec9caa5091",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "Ruby Pool RUBY",
+                "slug": "/pool-widget/2c3390339aba47100f9ab1a230d6d726e10e9d527be49dc5bab479da",
+                "template": "PoolWidgetPage",
+                "poolId": "2c3390339aba47100f9ab1a230d6d726e10e9d527be49dc5bab479da",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "Southtyrolpool sudti",
+                "slug": "/pool-widget/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
+                "template": "PoolWidgetPage",
+                "poolId": "2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "Adaberry Pi 00000",
+                "slug": "/pool-widget/33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4",
+                "template": "PoolWidgetPage",
+                "poolId": "33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "Quixote Dream Pool QXT",
+                "slug": "/pool-widget/351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8",
+                "template": "PoolWidgetPage",
+                "poolId": "351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "SBC-Mining SBC",
+                "slug": "/pool-widget/406a08532d2ca8dd08ea39e082dc8acdc2a3b34d0c517bd0e40af5e1",
+                "template": "PoolWidgetPage",
+                "poolId": "406a08532d2ca8dd08ea39e082dc8acdc2a3b34d0c517bd0e40af5e1",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "ZenPool ZAZEN",
+                "slug": "/pool-widget/4f5e469a40547208cf9876b36ae9b23874c302ab8ab263a952bbae6a",
+                "template": "PoolWidgetPage",
+                "poolId": "4f5e469a40547208cf9876b36ae9b23874c302ab8ab263a952bbae6a",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "Stake for Nature ST4NA",
+                "slug": "/pool-widget/5707e4254180d481a4f1e690be0c2c54b3a618051d907df7e4434c0b",
+                "template": "PoolWidgetPage",
+                "poolId": "5707e4254180d481a4f1e690be0c2c54b3a618051d907df7e4434c0b",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "Raspberry RPI",
+                "slug": "/pool-widget/76c5c707afe9a824bd946d32ec99959ae05f8bf0e8290def11e03a42",
+                "template": "PoolWidgetPage",
+                "poolId": "76c5c707afe9a824bd946d32ec99959ae05f8bf0e8290def11e03a42",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "PIEBR Pool PIEBR",
+                "slug": "/pool-widget/7aac5502d19cac8731e3b86ecc9553d69b26a02155e5c9cf262d224c",
+                "template": "PoolWidgetPage",
+                "poolId": "7aac5502d19cac8731e3b86ecc9553d69b26a02155e5c9cf262d224c",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "PGWADA Stake pool PGWAD",
+                "slug": "/pool-widget/7e45a7e6ab3afcf99120e97aedf84e706e43d829ddc610ad667a85a3",
+                "template": "PoolWidgetPage",
+                "poolId": "7e45a7e6ab3afcf99120e97aedf84e706e43d829ddc610ad667a85a3",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "Sublayer Pool SBLYR",
+                "slug": "/pool-widget/8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8",
+                "template": "PoolWidgetPage",
+                "poolId": "8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "Halo Stake Pool HALO",
+                "slug": "/pool-widget/96155e7994343ae2b5da83d895cbab3c21838f95c3f971c8e20ee3c8",
+                "template": "PoolWidgetPage",
+                "poolId": "96155e7994343ae2b5da83d895cbab3c21838f95c3f971c8e20ee3c8",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "SOLAR Raspberry PI SOLRP",
+                "slug": "/pool-widget/9728b10a926c048af938e5c52053319db5be921e8b698842c3afd3cc",
+                "template": "PoolWidgetPage",
+                "poolId": "9728b10a926c048af938e5c52053319db5be921e8b698842c3afd3cc",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "BONE pool BONE",
+                "slug": "/pool-widget/97aaa4621cffb87c3e8380376406cc9501d6c9e1cbb459e17cd60602",
+                "template": "PoolWidgetPage",
+                "poolId": "97aaa4621cffb87c3e8380376406cc9501d6c9e1cbb459e17cd60602",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "Docker, Plutus, Research and Charity ASTOR",
+                "slug": "/pool-widget/9e8009b249142d80144dfb681984e08d96d51c2085e8bb6d9d1831d2",
+                "template": "PoolWidgetPage",
+                "poolId": "9e8009b249142d80144dfb681984e08d96d51c2085e8bb6d9d1831d2",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "CryptoPool.dev CRYPO",
+                "slug": "/pool-widget/a343a6e2eb4bb7f8abf039b82e579131b56966d88d9937e679365269",
+                "template": "PoolWidgetPage",
+                "poolId": "a343a6e2eb4bb7f8abf039b82e579131b56966d88d9937e679365269",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "PIADA piada.io PIADA",
+                "slug": "/pool-widget/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65",
+                "template": "PoolWidgetPage",
+                "poolId": "b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "Cardano ADA Mini Pool Switzerland MINI1",
+                "slug": "/pool-widget/c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2",
+                "template": "PoolWidgetPage",
+                "poolId": "c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": " Star Forge  OTG",
+                "slug": "/pool-widget/c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae",
+                "template": "PoolWidgetPage",
+                "poolId": "c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "MEME Pool MEME",
+                "slug": "/pool-widget/c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386",
+                "template": "PoolWidgetPage",
+                "poolId": "c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "ADASRN SRN",
+                "slug": "/pool-widget/cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0",
+                "template": "PoolWidgetPage",
+                "poolId": "cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0",
+                "hidden": true
+              },
+              {
+                "language": "en",
+                "title": "Oyster_Pool OYSTR",
+                "slug": "/pool-widget/febb924e349d816997e007dc09847ded9a2e72d218023c0e5186176d",
+                "template": "PoolWidgetPage",
+                "poolId": "febb924e349d816997e007dc09847ded9a2e72d218023c0e5186176d",
+                "hidden": true
+              },
+              {
                 "id": "stake-pools",
                 "language": "en",
                 "slug": "/stake-pools",
@@ -1870,6 +2129,13 @@
                 "template": "SitemapPage",
                 "updatedAt": "2021-07-10T20:43:29.000Z",
                 "filePath": "/en/sitemap.md"
+              },
+              {
+                "language": "en",
+                "title": "Stats widget",
+                "slug": "/stats-widget",
+                "template": "StatsWidgetPage",
+                "hidden": true
               },
               {
                 "id": "ada",
@@ -6900,18 +7166,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-14T18:08:54.689Z",
-            "component-cached-in": "215 μs",
-            "component-resolved-in": "215 μs"
+            "component-cached-at": "2021-07-15T11:19:17.116Z",
+            "component-cached-in": "946 μs",
+            "component-resolved-in": "946 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-14T18:08:54.690Z",
-          "_cachedIn": "246 μs",
-          "_resolvedIn": "246 μs",
+          "_cachedAt": "2021-07-15T11:19:17.117Z",
+          "_cachedIn": "2.21 ms",
+          "_resolvedIn": "2.21 ms",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -6922,17 +7188,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-14T18:08:54.690Z",
-            "component-cached-in": "246 μs",
-            "component-resolved-in": "246 μs"
+            "component-cached-at": "2021-07-15T11:19:17.117Z",
+            "component-cached-in": "2.21 ms",
+            "component-resolved-in": "2.21 ms"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-14T18:08:54.689Z",
-              "_cachedIn": "44 μs",
-              "_resolvedIn": "44 μs",
+              "_cachedAt": "2021-07-15T11:19:17.117Z",
+              "_cachedIn": "1.26 ms",
+              "_resolvedIn": "1.26 ms",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -6976,9 +7242,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-14T18:08:54.689Z",
-                "component-cached-in": "44 μs",
-                "component-resolved-in": "44 μs"
+                "component-cached-at": "2021-07-15T11:19:17.117Z",
+                "component-cached-in": "1.26 ms",
+                "component-resolved-in": "1.26 ms"
               },
               "components": {}
             }
@@ -6987,9 +7253,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-14T18:08:54.689Z",
-          "_cachedIn": "151 μs",
-          "_resolvedIn": "151 μs",
+          "_cachedAt": "2021-07-15T11:19:17.115Z",
+          "_cachedIn": "494 μs",
+          "_resolvedIn": "494 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -6998,9 +7264,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-14T18:08:54.689Z",
-            "component-cached-in": "151 μs",
-            "component-resolved-in": "151 μs"
+            "component-cached-at": "2021-07-15T11:19:17.115Z",
+            "component-cached-in": "494 μs",
+            "component-resolved-in": "494 μs"
           },
           "components": {}
         }
@@ -7009,9 +7275,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-14T18:08:54.689Z",
-      "_cachedIn": "271 μs",
-      "_resolvedIn": "271 μs",
+      "_cachedAt": "2021-07-15T11:19:17.115Z",
+      "_cachedIn": "968 μs",
+      "_resolvedIn": "968 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7039,18 +7305,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-14T18:08:54.689Z",
-        "component-cached-in": "271 μs",
-        "component-resolved-in": "271 μs"
+        "component-cached-at": "2021-07-15T11:19:17.115Z",
+        "component-cached-in": "968 μs",
+        "component-resolved-in": "968 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-14T18:08:54.689Z",
-      "_cachedIn": "194 μs",
-      "_resolvedIn": "194 μs",
+      "_cachedAt": "2021-07-15T11:19:17.115Z",
+      "_cachedIn": "370 μs",
+      "_resolvedIn": "370 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7062,18 +7328,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-14T18:08:54.689Z",
-        "component-cached-in": "194 μs",
-        "component-resolved-in": "194 μs"
+        "component-cached-at": "2021-07-15T11:19:17.115Z",
+        "component-cached-in": "370 μs",
+        "component-resolved-in": "370 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-14T18:08:54.689Z",
-      "_cachedIn": "264 μs",
-      "_resolvedIn": "264 μs",
+      "_cachedAt": "2021-07-15T11:19:17.115Z",
+      "_cachedIn": "968 μs",
+      "_resolvedIn": "968 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7092,9 +7358,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-14T18:08:54.689Z",
-        "component-cached-in": "264 μs",
-        "component-resolved-in": "264 μs"
+        "component-cached-at": "2021-07-15T11:19:17.115Z",
+        "component-cached-in": "968 μs",
+        "component-resolved-in": "968 μs"
       },
       "components": {}
     }
