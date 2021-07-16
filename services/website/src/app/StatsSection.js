@@ -32,10 +32,12 @@ export default function StatsSection({ title, pretitle, description, poolCount, 
                 {poolSelection.map(pool => {
 
                     return (
-                        <WithPageTooltip key={pool.id} slug={pool.link.href}>
+                        <WithPageTooltip pool={pool} slug={pool.link.href}>
                             {props => (
                                 <Link href={pool.link.href}>
-                                    <a {...props} className="bg-white shadow-md h-10 w-10 rounded-full ring-2 ring-white bg-center bg-no-repeat bg-cover" style={{ backgroundImage: `url(${formatImage(pool.image)}` }} />
+                                    <a key={pool.id} {...props}>
+                                        <div className="bg-white shadow-md h-10 w-10 rounded-full ring-2 ring-white bg-center bg-no-repeat bg-cover" ref={ref => { ref ? ref.style = `background-image: url('${formatImage(pool.image)}')` : null }} />
+                                    </a>
                                 </Link>
                             )}
                         </WithPageTooltip>
