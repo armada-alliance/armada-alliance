@@ -24,7 +24,7 @@ export default function PoolsSection({ pools }) {
                                     <a className="p-2 cursor-pointer rounded-lg hover:bg-gray-50">
                                         <div className="space-y-4">
                                             <div className="mx-auto h-12 w-12 rounded-full lg:w-20 lg:h-20 shadow border relative border-gray-200 bg-white">
-                                                <div className={cx("absolute top-2 left-2 right-2 bottom-2 bg-center bg-cover rounded-full", pool.image ? "opacity-100" : "opacity-20")} style={{ backgroundImage: `url(${pool.image ? pool.image : 'https://armada-alliance.com/assets/ship-420.png'})` }}></div>
+                                                <div className={cx("absolute top-0 left-0 right-0 bottom-0 bg-center bg-cover rounded-full", pool.image ? "opacity-100" : "opacity-20")} style={{ backgroundImage: `url(${pool.image ? pool.image : 'https://armada-alliance.com/assets/ship-420.png'})` }}></div>
                                             </div>
                                             <div className="space-y-2">
                                                 <div className="text-xs font-medium lg:text-sm">
