@@ -13,6 +13,7 @@ const contentPath = path.join(__dirname, '..', '..', '..', 'content')
 const preprocessMarkdown = require('../../scripts/preprocessMarkdown')
 const fm = require('front-matter')
 const { serialize } = require('next-mdx-remote/serialize');
+const replaceVariables = require('../replaceVariables')
 
 let cache = {
     createdDirs: {}
@@ -36,7 +37,9 @@ const getPageData = async (page) => {
     const data = fm(string)
     const attributes = getAttributes(data)
 
-    const body = preprocessMarkdown(data.body)
+    const body = preprocessMarkdown(
+        replaceVariables(data.body)
+    )
 
     return {
         ...attributes,

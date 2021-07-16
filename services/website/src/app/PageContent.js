@@ -5,12 +5,13 @@ import QRCode from 'qrcode.react'
 import CopyToClipboard from './CopyToClipboard'
 import Tooltip from './Tooltip'
 import moment from 'moment'
+import * as icons from './icons'
 
 function formatAddress(input) {
     return [input.slice(0, 15), '...', input.slice(-15)].join('')
 }
 
-export default function PageContent({ mdxSource, externalLink, pageType, donationName, donationAddress, editOnGitHubLink, updatedAt }) {
+export default function PageContent({ mdxSource, externalLink, pageType, donationName, donationAddress, editOnGitHubLink, updatedAt, socials }) {
 
     return (
         <>
@@ -55,17 +56,19 @@ export default function PageContent({ mdxSource, externalLink, pageType, donatio
                 </div>
             ) : null}
             <div className="mt-8 flex items-center justify-end">
-                <div className="mr-4 text-gray-400 text-sm">
-                    Last updated on {moment(updatedAt).format('MMM DD, YYYY')}
+                <div className="ml-auto flex items-center">
+                    <div className="mr-4 text-gray-400 text-sm">
+                        Last updated on {moment(updatedAt).format('MMM DD, YYYY')}
+                    </div>
+                    <Link href={editOnGitHubLink.href}>
+                        <a
+                            target="_blank"
+                            className="inline-flex items-center px-2.5 py-1.5 border border-gray-300 shadow-sm text-xs font-medium rounded text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500"
+                        >
+                            <GitHubIcon className="h-4 mr-1" />Edit on GitHub
+                        </a>
+                    </Link>
                 </div>
-                <Link href={editOnGitHubLink.href}>
-                    <a
-                        target="_blank"
-                        className="inline-flex items-center px-2.5 py-1.5 border border-gray-300 shadow-sm text-xs font-medium rounded text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500"
-                    >
-                        <GitHubIcon className="h-4 mr-1" />Edit on GitHub
-                            </a>
-                </Link>
             </div>
         </>
     )
