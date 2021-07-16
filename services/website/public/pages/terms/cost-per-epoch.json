@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"cost-per-epoch\",\"language\":\"en\",\"slug\":\"/terms/cost-per-epoch\",\"url\":\"https:///website.codespace1.sublayer.io/terms/cost-per-epoch\",\"origin\":\"/terms/cost-per-epoch\",\"title\":\"Cost per epoch\",\"description\":\"A fixed fee, in ada, which the stake pool operator takes every epoch from the pool rewards to cover the costs of running a stake pool.\",\"aliases\":[\"cardano stake pool operators fixed fee\",\"cardano stake pool fees\",\"cost per epoch\",\"cardano stake pool operators cost per epoch\"],\"keywords\":[\"cardano\",\"cost\",\"per\",\"epoch\",\"stake\",\"pool\",\"operator\",\"fixed\",\"fee\",\"rewards\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/cost-per-epoch.md\",\"body\":\"The cost per epoch is subtracted from the total ada that is rewarded to a pool, before the operator takes their profit margin. Whatever remains is shared proportionally among the delegators.\",\"mdxSource\":{\"compiledSource\":\"var c=Object.defineProperty,d=Object.defineProperties;var m=Object.getOwnPropertyDescriptors;var a=Object.getOwnPropertySymbols;var p=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var i=(t,o,e)=>o in t?c(t,o,{enumerable:!0,configurable:!0,writable:!0,value:e}):t[o]=e,n=(t,o)=>{for(var e in o||(o={}))p.call(o,e)&&i(t,e,o[e]);if(a)for(var e of a(o))s.call(o,e)&&i(t,e,o[e]);return t},h=(t,o)=>d(t,m(o));var u=(t,o)=>{var e={};for(var r in t)p.call(t,r)&&o.indexOf(r)<0&&(e[r]=t[r]);if(t!=null&&a)for(var r of a(t))o.indexOf(r)<0&&s.call(t,r)&&(e[r]=t[r]);return e};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(e){var r=e,{components:t}=r,o=u(r,[\\\"components\\\"]);return mdx(MDXLayout,h(n(n({},layoutProps),o),{components:t,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"The cost per epoch is subtracted from the total ada that is rewarded to a pool, before the operator takes their profit margin. Whatever remains is shared proportionally among the delegators.\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-15T11:19:16.129Z",
-  "_cachedIn": "776 μs",
-  "_resolvedIn": "776 μs",
+  "_cachedAt": "2021-07-16T19:05:05.562Z",
+  "_cachedIn": "235 μs",
+  "_resolvedIn": "235 μs",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -53,17 +53,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-15T11:19:16.129Z",
-    "component-cached-in": "776 μs",
-    "component-resolved-in": "776 μs"
+    "component-cached-at": "2021-07-16T19:05:05.562Z",
+    "component-cached-in": "235 μs",
+    "component-resolved-in": "235 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-15T11:19:16.129Z",
-      "_cachedIn": "574 μs",
-      "_resolvedIn": "574 μs",
+      "_cachedAt": "2021-07-16T19:05:05.562Z",
+      "_cachedIn": "196 μs",
+      "_resolvedIn": "196 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -72,17 +72,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-15T11:19:16.129Z",
-        "component-cached-in": "574 μs",
-        "component-resolved-in": "574 μs"
+        "component-cached-at": "2021-07-16T19:05:05.562Z",
+        "component-cached-in": "196 μs",
+        "component-resolved-in": "196 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-15T11:19:16.129Z",
-          "_cachedIn": "335 μs",
-          "_resolvedIn": "335 μs",
+          "_cachedAt": "2021-07-16T19:05:05.561Z",
+          "_cachedIn": "110 μs",
+          "_resolvedIn": "110 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -90,7 +90,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-15T11:19:05.348Z",
+              "createdAt": "2021-07-16T19:04:53.106Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -233,6 +233,36 @@
               }
             ],
             "pages": [
+              {
+                "id": "1-the-aaip-process",
+                "language": "en",
+                "slug": "/aaips/1-the-aaip-process",
+                "url": "https:///website.codespace1.sublayer.io/aaips/1-the-aaip-process",
+                "origin": "/aaips/1-the-aaip-process",
+                "title": "AAIP 1: The AAIP Process",
+                "aliases": null,
+                "keywords": null,
+                "template": "AAIPDetailPage",
+                "identities": [
+                  {
+                    "id": "sublayerio",
+                    "role": "author"
+                  }
+                ],
+                "filePath": "/en/aaips/1-the-aaip-process.md"
+              },
+              {
+                "id": "aaips",
+                "language": "en",
+                "slug": "/aaips",
+                "url": "https:///website.codespace1.sublayer.io/aaips",
+                "origin": "/aaips",
+                "title": "AAIPs",
+                "aliases": null,
+                "keywords": null,
+                "template": "AAIPsPage",
+                "filePath": "/en/aaips.md"
+              },
               {
                 "id": "how-to-choose-a-stake-pool",
                 "language": "en",
@@ -421,6 +451,18 @@
                 ],
                 "updatedAt": "2021-07-10T20:43:29.000Z",
                 "filePath": "/nl/blogs/wat-is-staken.md"
+              },
+              {
+                "id": "blogs",
+                "language": "en",
+                "slug": "/blogs",
+                "url": "https:///website.codespace1.sublayer.io/blogs",
+                "origin": "/blogs",
+                "title": "Blogs",
+                "aliases": null,
+                "keywords": null,
+                "template": "BlogsPage",
+                "filePath": "/en/blogs.md"
               },
               {
                 "language": "en",
@@ -798,20 +840,6 @@
                 "filePath": "/en/identities.md"
               },
               {
-                "id": "Adaberry_Pi",
-                "language": "en",
-                "slug": "/identities/Adaberry_Pi",
-                "url": "https:///website.codespace1.sublayer.io/identities/Adaberry_Pi",
-                "origin": "/identities/Adaberry_Pi",
-                "title": "DeCentN2Madness",
-                "aliases": null,
-                "keywords": null,
-                "template": "IdentityDetailPage",
-                "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-14T21:15:04.000Z",
-                "filePath": "/en/identities/Adaberry_Pi.md"
-              },
-              {
                 "id": "Chris_Rain",
                 "language": "en",
                 "slug": "/identities/Chris_Rain",
@@ -825,6 +853,21 @@
                 "image": "https://armada-alliance.com/assets/ship-420.png",
                 "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/Chris_Rain.md"
+              },
+              {
+                "id": "DeCentN2Madness",
+                "language": "en",
+                "slug": "/identities/DeCentN2Madness",
+                "url": "https:///website.codespace1.sublayer.io/identities/DeCentN2Madness",
+                "origin": "/identities/DeCentN2Madness",
+                "title": "DeCentN2Madness 🐇",
+                "description": "SPO",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "/decentn2madness.png",
+                "updatedAt": "2021-07-16T16:09:48.000Z",
+                "filePath": "/en/identities/DeCentN2Madness.md"
               },
               {
                 "id": "Zebra_Danio",
@@ -1208,12 +1251,12 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/sublayerio",
                 "origin": "/identities/sublayerio",
                 "title": "sublayerio🧙‍♂️",
-                "description": "🧙‍♂️ Open Sourcerer, SPO, Co-Founder",
+                "description": "🧙‍♂️ Open Sourcerer, SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://cdn.sublayer.io/logo.png",
-                "updatedAt": "2021-07-14T18:12:31.000Z",
+                "updatedAt": "2021-07-15T11:20:51.000Z",
                 "filePath": "/en/identities/sublayerio.md"
               },
               {
@@ -1494,12 +1537,12 @@
                 "template": "PoolDetailPage",
                 "identities": [
                   {
-                    "id": "Adaberry_Pi",
+                    "id": "DeCentN2Madness",
                     "role": "spo"
                   }
                 ],
-                "image": "https://illustratorandweb.com/ext/Pool-00000-24bit-1000x1000.png",
-                "updatedAt": "2021-07-13T10:18:10.000Z",
+                "image": "https://illustratorandweb.com/ext/pool-00000-24bit-1000x1000.png",
+                "updatedAt": "2021-07-16T09:50:36.000Z",
                 "filePath": "/en/stake-pools/33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4.md"
               },
               {
@@ -1750,7 +1793,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://static.adapools.org/pool_logo/9e8009b249142d80144dfb681984e08d96d51c2085e8bb6d9d1831d2.png",
+                "image": "http://astorpool.net/img/astor-logo.png",
                 "updatedAt": "2021-07-13T05:58:26.000Z",
                 "filePath": "/en/stake-pools/9e8009b249142d80144dfb681984e08d96d51c2085e8bb6d9d1831d2.md"
               },
@@ -7175,18 +7218,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-15T11:19:16.129Z",
-            "component-cached-in": "335 μs",
-            "component-resolved-in": "335 μs"
+            "component-cached-at": "2021-07-16T19:05:05.561Z",
+            "component-cached-in": "110 μs",
+            "component-resolved-in": "110 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-15T11:19:16.129Z",
-          "_cachedIn": "422 μs",
-          "_resolvedIn": "422 μs",
+          "_cachedAt": "2021-07-16T19:05:05.562Z",
+          "_cachedIn": "127 μs",
+          "_resolvedIn": "127 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7197,23 +7240,31 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-15T11:19:16.129Z",
-            "component-cached-in": "422 μs",
-            "component-resolved-in": "422 μs"
+            "component-cached-at": "2021-07-16T19:05:05.562Z",
+            "component-cached-in": "127 μs",
+            "component-resolved-in": "127 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-15T11:19:16.129Z",
-              "_cachedIn": "83 μs",
-              "_resolvedIn": "83 μs",
+              "_cachedAt": "2021-07-16T19:05:05.561Z",
+              "_cachedIn": "25 μs",
+              "_resolvedIn": "25 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
               "error": null,
               "props": {
                 "templates": [
+                  {
+                    "id": "BlogDetailPage",
+                    "name": "Blogs",
+                    "moreLink": {
+                      "name": "Show all",
+                      "href": "/blogs"
+                    }
+                  },
                   {
                     "id": "GuideDetailPage",
                     "name": "Guides",
@@ -7245,15 +7296,23 @@
                       "name": "Show all",
                       "href": "/terms"
                     }
+                  },
+                  {
+                    "id": "AAIPDetailPage",
+                    "name": "Improvement Proposals",
+                    "moreLink": {
+                      "name": "Show all",
+                      "href": "/aaips"
+                    }
                   }
                 ]
               },
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-15T11:19:16.129Z",
-                "component-cached-in": "83 μs",
-                "component-resolved-in": "83 μs"
+                "component-cached-at": "2021-07-16T19:05:05.561Z",
+                "component-cached-in": "25 μs",
+                "component-resolved-in": "25 μs"
               },
               "components": {}
             }
@@ -7262,9 +7321,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-15T11:19:16.129Z",
-          "_cachedIn": "204 μs",
-          "_resolvedIn": "204 μs",
+          "_cachedAt": "2021-07-16T19:05:05.561Z",
+          "_cachedIn": "81 μs",
+          "_resolvedIn": "81 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7273,9 +7332,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-15T11:19:16.129Z",
-            "component-cached-in": "204 μs",
-            "component-resolved-in": "204 μs"
+            "component-cached-at": "2021-07-16T19:05:05.561Z",
+            "component-cached-in": "81 μs",
+            "component-resolved-in": "81 μs"
           },
           "components": {}
         }
@@ -7284,9 +7343,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-15T11:19:16.129Z",
-      "_cachedIn": "398 μs",
-      "_resolvedIn": "398 μs",
+      "_cachedAt": "2021-07-16T19:05:05.561Z",
+      "_cachedIn": "157 μs",
+      "_resolvedIn": "157 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7314,18 +7373,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-15T11:19:16.129Z",
-        "component-cached-in": "398 μs",
-        "component-resolved-in": "398 μs"
+        "component-cached-at": "2021-07-16T19:05:05.561Z",
+        "component-cached-in": "157 μs",
+        "component-resolved-in": "157 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-15T11:19:16.129Z",
-      "_cachedIn": "236 μs",
-      "_resolvedIn": "236 μs",
+      "_cachedAt": "2021-07-16T19:05:05.561Z",
+      "_cachedIn": "90 μs",
+      "_resolvedIn": "90 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7337,18 +7396,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-15T11:19:16.129Z",
-        "component-cached-in": "236 μs",
-        "component-resolved-in": "236 μs"
+        "component-cached-at": "2021-07-16T19:05:05.561Z",
+        "component-cached-in": "90 μs",
+        "component-resolved-in": "90 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-15T11:19:16.129Z",
-      "_cachedIn": "398 μs",
-      "_resolvedIn": "398 μs",
+      "_cachedAt": "2021-07-16T19:05:05.561Z",
+      "_cachedIn": "155 μs",
+      "_resolvedIn": "155 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7367,9 +7426,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-15T11:19:16.129Z",
-        "component-cached-in": "398 μs",
-        "component-resolved-in": "398 μs"
+        "component-cached-at": "2021-07-16T19:05:05.561Z",
+        "component-cached-in": "155 μs",
+        "component-resolved-in": "155 μs"
       },
       "components": {}
     }

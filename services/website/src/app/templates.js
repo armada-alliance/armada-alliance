@@ -1,5 +1,8 @@
 import HomePage from "./HomePage";
 import TermsPage from "./TermsPage";
+import BlogsPage from "./BlogsPage";
+import AAIPsPage from "./AAIPsPage";
+import AAIPDetailPage from "./AAIPDetailPage";
 import ResourceDetailPage from "./ResourceDetailPage";
 import PoolsPage from "./PoolsPage";
 import IdentityDetailPage from "./IdentityDetailPage";
@@ -16,6 +19,9 @@ import StatsWidgetPage from "./StatsWidgetPage";
 import PoolWidgetPage from "./PoolWidgetPage";
 
 const templates = {
+    AAIPDetailPage,
+    AAIPsPage,
+    BlogsPage,
     PoolsPage,
     DelegationWidgetPage,
     PoolWidgetPage,

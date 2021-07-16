@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"Stake for Nature ST4NA\",\"slug\":\"/pool-widget/5707e4254180d481a4f1e690be0c2c54b3a618051d907df7e4434c0b\",\"template\":\"PoolWidgetPage\",\"poolId\":\"5707e4254180d481a4f1e690be0c2c54b3a618051d907df7e4434c0b\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-15T11:19:15.578Z",
-  "_cachedIn": "153 μs",
-  "_resolvedIn": "153 μs",
+  "_cachedAt": "2021-07-16T19:05:05.181Z",
+  "_cachedIn": "180 μs",
+  "_resolvedIn": "180 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -32,7 +32,7 @@
       "totalStake": "2201499279",
       "blocksLifetime": "0",
       "delegators": "2",
-      "saturated": 0.000033538703135203,
+      "saturated": 0.000033537052503301,
       "pledge": "1650204431",
       "pledged": "1653001618",
       "taxRatio": "0",
@@ -186,17 +186,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2021-07-15T11:19:15.578Z",
-    "component-cached-in": "153 μs",
-    "component-resolved-in": "153 μs"
+    "component-cached-at": "2021-07-16T19:05:05.181Z",
+    "component-cached-in": "180 μs",
+    "component-resolved-in": "180 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-15T11:19:15.578Z",
-      "_cachedIn": "97 μs",
-      "_resolvedIn": "97 μs",
+      "_cachedAt": "2021-07-16T19:05:05.181Z",
+      "_cachedIn": "116 μs",
+      "_resolvedIn": "116 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -205,17 +205,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-15T11:19:15.578Z",
-        "component-cached-in": "97 μs",
-        "component-resolved-in": "97 μs"
+        "component-cached-at": "2021-07-16T19:05:05.181Z",
+        "component-cached-in": "116 μs",
+        "component-resolved-in": "116 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-15T11:19:15.578Z",
-          "_cachedIn": "61 μs",
-          "_resolvedIn": "61 μs",
+          "_cachedAt": "2021-07-16T19:05:05.181Z",
+          "_cachedIn": "72 μs",
+          "_resolvedIn": "72 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -223,7 +223,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-15T11:19:05.348Z",
+              "createdAt": "2021-07-16T19:04:53.106Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -366,6 +366,36 @@
               }
             ],
             "pages": [
+              {
+                "id": "1-the-aaip-process",
+                "language": "en",
+                "slug": "/aaips/1-the-aaip-process",
+                "url": "https:///website.codespace1.sublayer.io/aaips/1-the-aaip-process",
+                "origin": "/aaips/1-the-aaip-process",
+                "title": "AAIP 1: The AAIP Process",
+                "aliases": null,
+                "keywords": null,
+                "template": "AAIPDetailPage",
+                "identities": [
+                  {
+                    "id": "sublayerio",
+                    "role": "author"
+                  }
+                ],
+                "filePath": "/en/aaips/1-the-aaip-process.md"
+              },
+              {
+                "id": "aaips",
+                "language": "en",
+                "slug": "/aaips",
+                "url": "https:///website.codespace1.sublayer.io/aaips",
+                "origin": "/aaips",
+                "title": "AAIPs",
+                "aliases": null,
+                "keywords": null,
+                "template": "AAIPsPage",
+                "filePath": "/en/aaips.md"
+              },
               {
                 "id": "how-to-choose-a-stake-pool",
                 "language": "en",
@@ -554,6 +584,18 @@
                 ],
                 "updatedAt": "2021-07-10T20:43:29.000Z",
                 "filePath": "/nl/blogs/wat-is-staken.md"
+              },
+              {
+                "id": "blogs",
+                "language": "en",
+                "slug": "/blogs",
+                "url": "https:///website.codespace1.sublayer.io/blogs",
+                "origin": "/blogs",
+                "title": "Blogs",
+                "aliases": null,
+                "keywords": null,
+                "template": "BlogsPage",
+                "filePath": "/en/blogs.md"
               },
               {
                 "language": "en",
@@ -931,20 +973,6 @@
                 "filePath": "/en/identities.md"
               },
               {
-                "id": "Adaberry_Pi",
-                "language": "en",
-                "slug": "/identities/Adaberry_Pi",
-                "url": "https:///website.codespace1.sublayer.io/identities/Adaberry_Pi",
-                "origin": "/identities/Adaberry_Pi",
-                "title": "DeCentN2Madness",
-                "aliases": null,
-                "keywords": null,
-                "template": "IdentityDetailPage",
-                "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-14T21:15:04.000Z",
-                "filePath": "/en/identities/Adaberry_Pi.md"
-              },
-              {
                 "id": "Chris_Rain",
                 "language": "en",
                 "slug": "/identities/Chris_Rain",
@@ -958,6 +986,21 @@
                 "image": "https://armada-alliance.com/assets/ship-420.png",
                 "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/Chris_Rain.md"
+              },
+              {
+                "id": "DeCentN2Madness",
+                "language": "en",
+                "slug": "/identities/DeCentN2Madness",
+                "url": "https:///website.codespace1.sublayer.io/identities/DeCentN2Madness",
+                "origin": "/identities/DeCentN2Madness",
+                "title": "DeCentN2Madness 🐇",
+                "description": "SPO",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "/decentn2madness.png",
+                "updatedAt": "2021-07-16T16:09:48.000Z",
+                "filePath": "/en/identities/DeCentN2Madness.md"
               },
               {
                 "id": "Zebra_Danio",
@@ -1341,12 +1384,12 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/sublayerio",
                 "origin": "/identities/sublayerio",
                 "title": "sublayerio🧙‍♂️",
-                "description": "🧙‍♂️ Open Sourcerer, SPO, Co-Founder",
+                "description": "🧙‍♂️ Open Sourcerer, SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://cdn.sublayer.io/logo.png",
-                "updatedAt": "2021-07-14T18:12:31.000Z",
+                "updatedAt": "2021-07-15T11:20:51.000Z",
                 "filePath": "/en/identities/sublayerio.md"
               },
               {
@@ -1627,12 +1670,12 @@
                 "template": "PoolDetailPage",
                 "identities": [
                   {
-                    "id": "Adaberry_Pi",
+                    "id": "DeCentN2Madness",
                     "role": "spo"
                   }
                 ],
-                "image": "https://illustratorandweb.com/ext/Pool-00000-24bit-1000x1000.png",
-                "updatedAt": "2021-07-13T10:18:10.000Z",
+                "image": "https://illustratorandweb.com/ext/pool-00000-24bit-1000x1000.png",
+                "updatedAt": "2021-07-16T09:50:36.000Z",
                 "filePath": "/en/stake-pools/33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4.md"
               },
               {
@@ -1883,7 +1926,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://static.adapools.org/pool_logo/9e8009b249142d80144dfb681984e08d96d51c2085e8bb6d9d1831d2.png",
+                "image": "http://astorpool.net/img/astor-logo.png",
                 "updatedAt": "2021-07-13T05:58:26.000Z",
                 "filePath": "/en/stake-pools/9e8009b249142d80144dfb681984e08d96d51c2085e8bb6d9d1831d2.md"
               },
@@ -7308,18 +7351,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-15T11:19:15.578Z",
-            "component-cached-in": "61 μs",
-            "component-resolved-in": "61 μs"
+            "component-cached-at": "2021-07-16T19:05:05.181Z",
+            "component-cached-in": "72 μs",
+            "component-resolved-in": "72 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-15T11:19:15.578Z",
-          "_cachedIn": "79 μs",
-          "_resolvedIn": "79 μs",
+          "_cachedAt": "2021-07-16T19:05:05.181Z",
+          "_cachedIn": "94 μs",
+          "_resolvedIn": "94 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7330,23 +7373,31 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-15T11:19:15.578Z",
-            "component-cached-in": "79 μs",
-            "component-resolved-in": "79 μs"
+            "component-cached-at": "2021-07-16T19:05:05.181Z",
+            "component-cached-in": "94 μs",
+            "component-resolved-in": "94 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-15T11:19:15.578Z",
-              "_cachedIn": "18 μs",
-              "_resolvedIn": "18 μs",
+              "_cachedAt": "2021-07-16T19:05:05.181Z",
+              "_cachedIn": "24 μs",
+              "_resolvedIn": "24 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
               "error": null,
               "props": {
                 "templates": [
+                  {
+                    "id": "BlogDetailPage",
+                    "name": "Blogs",
+                    "moreLink": {
+                      "name": "Show all",
+                      "href": "/blogs"
+                    }
+                  },
                   {
                     "id": "GuideDetailPage",
                     "name": "Guides",
@@ -7378,15 +7429,23 @@
                       "name": "Show all",
                       "href": "/terms"
                     }
+                  },
+                  {
+                    "id": "AAIPDetailPage",
+                    "name": "Improvement Proposals",
+                    "moreLink": {
+                      "name": "Show all",
+                      "href": "/aaips"
+                    }
                   }
                 ]
               },
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-15T11:19:15.578Z",
-                "component-cached-in": "18 μs",
-                "component-resolved-in": "18 μs"
+                "component-cached-at": "2021-07-16T19:05:05.181Z",
+                "component-cached-in": "24 μs",
+                "component-resolved-in": "24 μs"
               },
               "components": {}
             }
@@ -7395,9 +7454,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-15T11:19:15.578Z",
-          "_cachedIn": "23 μs",
-          "_resolvedIn": "23 μs",
+          "_cachedAt": "2021-07-16T19:05:05.181Z",
+          "_cachedIn": "29 μs",
+          "_resolvedIn": "29 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7406,9 +7465,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-15T11:19:15.578Z",
-            "component-cached-in": "23 μs",
-            "component-resolved-in": "23 μs"
+            "component-cached-at": "2021-07-16T19:05:05.181Z",
+            "component-cached-in": "29 μs",
+            "component-resolved-in": "29 μs"
           },
           "components": {}
         }

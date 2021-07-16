@@ -2,6 +2,7 @@
 template: BlogDetailPage
 title: How to choose a stake pool
 description: A guide to choosing a Cardano stake pool.
+status: concept
 keywords: 
 identities: 
     - id: wael-ivie

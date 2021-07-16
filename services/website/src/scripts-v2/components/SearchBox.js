@@ -5,6 +5,11 @@ module.exports = {
 
         const pageTypes = [
             {
+                name: 'Blogs',
+                listLink: '/blogs',
+                template: 'BlogDetailPage'
+            },
+            {
                 name: 'Guides',
                 listLink: '/guides',
                 template: 'GuideDetailPage'
@@ -23,6 +28,11 @@ module.exports = {
                 name: 'Terms',
                 listLink: '/terms',
                 template: 'TermDetailPage'
+            },
+            {
+                name: 'Improvement Proposals',
+                listLink: '/aaips',
+                template: 'AAIPDetailPage'
             },
         ]
 

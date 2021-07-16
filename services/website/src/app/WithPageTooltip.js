@@ -7,6 +7,8 @@ import Markdown from "./Markdown";
 import Context from "./Context";
 import * as uuid from 'uuid'
 import formatImage from './formatImage'
+import markdownToText from 'markdown-to-text'
+
 let tooltipCache = {}
 
 const WithPageTooltip = (props) => {
@@ -67,10 +69,10 @@ const WithPageTooltip = (props) => {
                                             </div>
                                         ) : null}
                                         <div>
-                                            <div className="font-bold">{page.title}</div>
+                                            <div className="font-bold">{markdownToText(page.title)}</div>
                                             <div className="">
                                                 <Markdown
-                                                    children={page.description}
+                                                    children={markdownToText(page.description)}
                                                     className="text-sm"
                                                 />
                                             </div>

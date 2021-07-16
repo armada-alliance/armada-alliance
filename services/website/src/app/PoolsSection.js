@@ -3,6 +3,7 @@ import cx from "classnames"
 import toAda from './toAda'
 import Link from './Link'
 import Text from './Text'
+import shuffle from 'lodash/shuffle'
 
 export default function PoolsSection({ pools }) {
 
@@ -17,27 +18,31 @@ export default function PoolsSection({ pools }) {
                         </p>
                     </div>
                     <ul className="mx-auto grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-4 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-12 xl:grid-cols-6">
-                        {pools.map(pool => {
+                        {shuffle(pools)
+                            .sort((a, b) =>
+                                b.hasImage ? 1 : a.hasImage ? -1 : 0
+                            )
+                            .map(pool => {
 
-                            return (
-                                <Link internal={true} href={pool.link.href}>
-                                    <a className="p-2 cursor-pointer rounded-lg hover:bg-gray-50">
-                                        <div className="space-y-4">
-                                            <div className="mx-auto h-12 w-12 rounded-full lg:w-20 lg:h-20 shadow border relative border-gray-200 bg-white">
-                                                <div className={cx("absolute top-0 left-0 right-0 bottom-0 bg-center bg-cover rounded-full", pool.image ? "opacity-100" : "opacity-20")} style={{ backgroundImage: `url(${pool.image ? pool.image : 'https://armada-alliance.com/assets/ship-420.png'})` }}></div>
-                                            </div>
-                                            <div className="space-y-2">
-                                                <div className="text-xs font-medium lg:text-sm">
-                                                    <h3>{pool.ticker}</h3>
-                                                    <div className="text-xs">{toAda(pool.totalStake)} ₳ / {toAda(pool.pledge)} ₳</div>
-                                                    <div className="text-xs text-gray-400"><Text>Joined</Text> {moment(pool.memberSince).format('YYYY-MM-DD')}</div>
+                                return (
+                                    <Link internal={true} href={pool.link.href}>
+                                        <a className="p-2 cursor-pointer rounded-lg hover:bg-gray-50">
+                                            <div className="space-y-4">
+                                                <div className="mx-auto h-12 w-12 rounded-full lg:w-20 lg:h-20 shadow border relative border-gray-200 bg-white">
+                                                    <div className={cx("absolute top-0 left-0 right-0 bottom-0 bg-center bg-cover rounded-full", pool.image ? "opacity-100" : "opacity-20")} style={{ backgroundImage: `url(${pool.image ? pool.image : 'https://armada-alliance.com/assets/ship-420.png'})` }}></div>
+                                                </div>
+                                                <div className="space-y-2">
+                                                    <div className="text-xs font-medium lg:text-sm">
+                                                        <h3>{pool.ticker}</h3>
+                                                        <div className="text-xs">{toAda(pool.totalStake)} ₳ / {toAda(pool.pledge)} ₳</div>
+                                                        <div className="text-xs text-gray-400"><Text>Joined</Text> {moment(pool.memberSince).format('YYYY-MM-DD')}</div>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </a>
-                                </Link>
-                            )
-                        })}
+                                        </a>
+                                    </Link>
+                                )
+                            })}
                     </ul>
                 </div>
             </div>

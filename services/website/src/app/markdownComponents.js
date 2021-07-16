@@ -26,7 +26,8 @@ const markdownComponents = {
         </PageTooltip>
     ),
     h1: props => <h2 {...props} className="block text-2xl sm:text-3xl leading-8 font-bold text-gray-900 mb-3 mt-6">H1 should not be used, use H2 instead</h2>,
-    h2: props => <h2 {...props} className="block text-2xl sm:text-3xl leading-8 font-bold text-gray-900 mb-3 mt-6" />,
+    h2: props => <h2 {...props} className="block text-1xl sm:text-2xl leading-8 font-bold text-gray-900 mb-2 mt-5" />,
+    h3: props => <h2 {...props} className="block text-xl sm:text-1xl leading-8 font-bold text-gray-900 mb-1 mt-4" />,
     ul: props => <ul {...props} className="my-8" />,
     strong: props => <strong {...props} className="font-bold text-gray-900" />,
     li: props => <li
@@ -52,6 +53,11 @@ const markdownComponents = {
     ),
     pre: props => (
         <pre {...props} className="mb-8" />
+    ),
+    img: props => (
+        <div className="bg-gray-100 rounded-lg border border-gray-200 shadow-md overflow-hidden">
+            <img {...props} />
+        </div>
     ),
     iframe: props => (
         <div className="md:-mx-24">

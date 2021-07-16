@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolsPage\",\"version\":1},\"props\":{\"id\":\"stake-pools\",\"language\":\"en\",\"slug\":\"/stake-pools\",\"url\":\"https:///website.codespace1.sublayer.io/stake-pools\",\"origin\":\"/stake-pools\",\"title\":\"Stake Pools\",\"aliases\":null,\"keywords\":null,\"template\":\"PoolsPage\",\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/stake-pools.md\",\"body\":\"\",\"mdxSource\":{\"compiledSource\":\"var M=Object.defineProperty,X=Object.defineProperties;var c=Object.getOwnPropertyDescriptors;var u=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,a=Object.prototype.propertyIsEnumerable;var s=(o,t,n)=>t in o?M(o,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):o[t]=n,p=(o,t)=>{for(var n in t||(t={}))r.call(t,n)&&s(o,n,t[n]);if(u)for(var n of u(t))a.call(t,n)&&s(o,n,t[n]);return o},y=(o,t)=>X(o,c(t));var D=(o,t)=>{var n={};for(var e in o)r.call(o,e)&&t.indexOf(e)<0&&(n[e]=o[e]);if(o!=null&&u)for(var e of u(o))t.indexOf(e)<0&&a.call(o,e)&&(n[e]=o[e]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var e=n,{components:o}=e,t=D(e,[\\\"components\\\"]);return mdx(MDXLayout,y(p(p({},layoutProps),t),{components:o,mdxType:\\\"MDXLayout\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-15T11:19:15.839Z",
-  "_cachedIn": "810 μs",
-  "_resolvedIn": "810 μs",
+  "_cachedAt": "2021-07-16T19:05:05.264Z",
+  "_cachedIn": "978 μs",
+  "_resolvedIn": "978 μs",
   "id": "PoolsPage",
   "type": "PoolsPage",
   "status": "resolved",
@@ -30,17 +30,17 @@
   "attrs": {
     "component-type": "PoolsPage",
     "component-id": "PoolsPage",
-    "component-cached-at": "2021-07-15T11:19:15.839Z",
-    "component-cached-in": "810 μs",
-    "component-resolved-in": "810 μs"
+    "component-cached-at": "2021-07-16T19:05:05.264Z",
+    "component-cached-in": "978 μs",
+    "component-resolved-in": "978 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-15T11:19:15.839Z",
-      "_cachedIn": "763 μs",
-      "_resolvedIn": "763 μs",
+      "_cachedAt": "2021-07-16T19:05:05.264Z",
+      "_cachedIn": "165 μs",
+      "_resolvedIn": "165 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -49,17 +49,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-15T11:19:15.839Z",
-        "component-cached-in": "763 μs",
-        "component-resolved-in": "763 μs"
+        "component-cached-at": "2021-07-16T19:05:05.264Z",
+        "component-cached-in": "165 μs",
+        "component-resolved-in": "165 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-15T11:19:15.839Z",
-          "_cachedIn": "81 μs",
-          "_resolvedIn": "81 μs",
+          "_cachedAt": "2021-07-16T19:05:05.264Z",
+          "_cachedIn": "65 μs",
+          "_resolvedIn": "65 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -67,7 +67,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-15T11:19:05.348Z",
+              "createdAt": "2021-07-16T19:04:53.106Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -210,6 +210,36 @@
               }
             ],
             "pages": [
+              {
+                "id": "1-the-aaip-process",
+                "language": "en",
+                "slug": "/aaips/1-the-aaip-process",
+                "url": "https:///website.codespace1.sublayer.io/aaips/1-the-aaip-process",
+                "origin": "/aaips/1-the-aaip-process",
+                "title": "AAIP 1: The AAIP Process",
+                "aliases": null,
+                "keywords": null,
+                "template": "AAIPDetailPage",
+                "identities": [
+                  {
+                    "id": "sublayerio",
+                    "role": "author"
+                  }
+                ],
+                "filePath": "/en/aaips/1-the-aaip-process.md"
+              },
+              {
+                "id": "aaips",
+                "language": "en",
+                "slug": "/aaips",
+                "url": "https:///website.codespace1.sublayer.io/aaips",
+                "origin": "/aaips",
+                "title": "AAIPs",
+                "aliases": null,
+                "keywords": null,
+                "template": "AAIPsPage",
+                "filePath": "/en/aaips.md"
+              },
               {
                 "id": "how-to-choose-a-stake-pool",
                 "language": "en",
@@ -398,6 +428,18 @@
                 ],
                 "updatedAt": "2021-07-10T20:43:29.000Z",
                 "filePath": "/nl/blogs/wat-is-staken.md"
+              },
+              {
+                "id": "blogs",
+                "language": "en",
+                "slug": "/blogs",
+                "url": "https:///website.codespace1.sublayer.io/blogs",
+                "origin": "/blogs",
+                "title": "Blogs",
+                "aliases": null,
+                "keywords": null,
+                "template": "BlogsPage",
+                "filePath": "/en/blogs.md"
               },
               {
                 "language": "en",
@@ -775,20 +817,6 @@
                 "filePath": "/en/identities.md"
               },
               {
-                "id": "Adaberry_Pi",
-                "language": "en",
-                "slug": "/identities/Adaberry_Pi",
-                "url": "https:///website.codespace1.sublayer.io/identities/Adaberry_Pi",
-                "origin": "/identities/Adaberry_Pi",
-                "title": "DeCentN2Madness",
-                "aliases": null,
-                "keywords": null,
-                "template": "IdentityDetailPage",
-                "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-14T21:15:04.000Z",
-                "filePath": "/en/identities/Adaberry_Pi.md"
-              },
-              {
                 "id": "Chris_Rain",
                 "language": "en",
                 "slug": "/identities/Chris_Rain",
@@ -802,6 +830,21 @@
                 "image": "https://armada-alliance.com/assets/ship-420.png",
                 "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/Chris_Rain.md"
+              },
+              {
+                "id": "DeCentN2Madness",
+                "language": "en",
+                "slug": "/identities/DeCentN2Madness",
+                "url": "https:///website.codespace1.sublayer.io/identities/DeCentN2Madness",
+                "origin": "/identities/DeCentN2Madness",
+                "title": "DeCentN2Madness 🐇",
+                "description": "SPO",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "/decentn2madness.png",
+                "updatedAt": "2021-07-16T16:09:48.000Z",
+                "filePath": "/en/identities/DeCentN2Madness.md"
               },
               {
                 "id": "Zebra_Danio",
@@ -1185,12 +1228,12 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/sublayerio",
                 "origin": "/identities/sublayerio",
                 "title": "sublayerio🧙‍♂️",
-                "description": "🧙‍♂️ Open Sourcerer, SPO, Co-Founder",
+                "description": "🧙‍♂️ Open Sourcerer, SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://cdn.sublayer.io/logo.png",
-                "updatedAt": "2021-07-14T18:12:31.000Z",
+                "updatedAt": "2021-07-15T11:20:51.000Z",
                 "filePath": "/en/identities/sublayerio.md"
               },
               {
@@ -1471,12 +1514,12 @@
                 "template": "PoolDetailPage",
                 "identities": [
                   {
-                    "id": "Adaberry_Pi",
+                    "id": "DeCentN2Madness",
                     "role": "spo"
                   }
                 ],
-                "image": "https://illustratorandweb.com/ext/Pool-00000-24bit-1000x1000.png",
-                "updatedAt": "2021-07-13T10:18:10.000Z",
+                "image": "https://illustratorandweb.com/ext/pool-00000-24bit-1000x1000.png",
+                "updatedAt": "2021-07-16T09:50:36.000Z",
                 "filePath": "/en/stake-pools/33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4.md"
               },
               {
@@ -1727,7 +1770,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://static.adapools.org/pool_logo/9e8009b249142d80144dfb681984e08d96d51c2085e8bb6d9d1831d2.png",
+                "image": "http://astorpool.net/img/astor-logo.png",
                 "updatedAt": "2021-07-13T05:58:26.000Z",
                 "filePath": "/en/stake-pools/9e8009b249142d80144dfb681984e08d96d51c2085e8bb6d9d1831d2.md"
               },
@@ -7152,18 +7195,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-15T11:19:15.839Z",
-            "component-cached-in": "81 μs",
-            "component-resolved-in": "81 μs"
+            "component-cached-at": "2021-07-16T19:05:05.264Z",
+            "component-cached-in": "65 μs",
+            "component-resolved-in": "65 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-15T11:19:15.839Z",
-          "_cachedIn": "96 μs",
-          "_resolvedIn": "96 μs",
+          "_cachedAt": "2021-07-16T19:05:05.264Z",
+          "_cachedIn": "98 μs",
+          "_resolvedIn": "98 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7174,15 +7217,15 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-15T11:19:15.839Z",
-            "component-cached-in": "96 μs",
-            "component-resolved-in": "96 μs"
+            "component-cached-at": "2021-07-16T19:05:05.264Z",
+            "component-cached-in": "98 μs",
+            "component-resolved-in": "98 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-15T11:19:15.839Z",
+              "_cachedAt": "2021-07-16T19:05:05.264Z",
               "_cachedIn": "18 μs",
               "_resolvedIn": "18 μs",
               "id": "SearchBox",
@@ -7191,6 +7234,14 @@
               "error": null,
               "props": {
                 "templates": [
+                  {
+                    "id": "BlogDetailPage",
+                    "name": "Blogs",
+                    "moreLink": {
+                      "name": "Show all",
+                      "href": "/blogs"
+                    }
+                  },
                   {
                     "id": "GuideDetailPage",
                     "name": "Guides",
@@ -7222,13 +7273,21 @@
                       "name": "Show all",
                       "href": "/terms"
                     }
+                  },
+                  {
+                    "id": "AAIPDetailPage",
+                    "name": "Improvement Proposals",
+                    "moreLink": {
+                      "name": "Show all",
+                      "href": "/aaips"
+                    }
                   }
                 ]
               },
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-15T11:19:15.839Z",
+                "component-cached-at": "2021-07-16T19:05:05.264Z",
                 "component-cached-in": "18 μs",
                 "component-resolved-in": "18 μs"
               },
@@ -7239,9 +7298,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-15T11:19:15.839Z",
-          "_cachedIn": "55 μs",
-          "_resolvedIn": "55 μs",
+          "_cachedAt": "2021-07-16T19:05:05.264Z",
+          "_cachedIn": "35 μs",
+          "_resolvedIn": "35 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7250,9 +7309,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-15T11:19:15.839Z",
-            "component-cached-in": "55 μs",
-            "component-resolved-in": "55 μs"
+            "component-cached-at": "2021-07-16T19:05:05.264Z",
+            "component-cached-in": "35 μs",
+            "component-resolved-in": "35 μs"
           },
           "components": {}
         }
@@ -7261,9 +7320,9 @@
     "PoolsSection": {
       "_cacheKey": "{\"component\":{\"type\":\"PoolsSection\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-15T11:19:15.839Z",
-      "_cachedIn": "667 μs",
-      "_resolvedIn": "667 μs",
+      "_cachedAt": "2021-07-16T19:05:05.264Z",
+      "_cachedIn": "758 μs",
+      "_resolvedIn": "758 μs",
       "id": "PoolsSection",
       "type": "PoolsSection",
       "status": "resolved",
@@ -7283,12 +7342,12 @@
             "ticker": "SBLYR",
             "addr": "pool1sfjdu0xmz7vdmp6cufxd55gprp95g4p703zzr3upt70dst0fur2",
             "website": "https://pool.sublayer.io",
-            "totalStake": "1678526247388",
+            "totalStake": "1665989014408",
             "blocksLifetime": "7",
-            "delegators": "24",
-            "saturated": 0.025571479424406,
+            "delegators": "23",
+            "saturated": 0.025379232043856,
             "pledge": "25000000000",
-            "pledged": "35997717778",
+            "pledged": "36370195197",
             "taxRatio": "0.01",
             "taxFix": "340000000",
             "roa": "0.844",
@@ -7383,10 +7442,10 @@
             "ticker": "PIADA",
             "addr": "pool1hrv8gtrm0dgjg6zyss5uwa4nkruzfnh5vrdkr2sayj7x2nw6mjc",
             "website": "https://piada.io",
-            "totalStake": "86349679469",
+            "totalStake": "14686609512021",
             "blocksLifetime": "5",
-            "delegators": "19",
-            "saturated": 0.001315492715876,
+            "delegators": "20",
+            "saturated": 0.22373188989817,
             "pledge": "52000000000",
             "pledged": "53236354533",
             "taxRatio": "0.015",
@@ -7532,12 +7591,12 @@
             "ticker": "OTG",
             "addr": "pool1eqj3dzpkcklc2r0v8pt8adrhrshq8m4zsev072ga7a52uj5wv5c",
             "website": "https://adamantium.online",
-            "totalStake": "15617066989830",
+            "totalStake": "1065480731403",
             "blocksLifetime": "229",
-            "delegators": "38",
-            "saturated": 0.23791794011053,
+            "delegators": "37",
+            "saturated": 0.016231249117896,
             "pledge": "500000000000",
-            "pledged": "512738540974",
+            "pledged": "513425016369",
             "taxRatio": "0.0125",
             "taxFix": "340000000",
             "roa": "4.102",
@@ -7665,12 +7724,12 @@
             "ticker": "BERRY",
             "addr": "pool19f6guwy97mmnxg9dz65rxyj8hq07qxud886hamyu4fgfz7dj9gl",
             "website": "https://pipool.online",
-            "totalStake": "3068441106369",
+            "totalStake": "17695418018846",
             "blocksLifetime": "116",
-            "delegators": "251",
-            "saturated": 0.046746113585424,
+            "delegators": "269",
+            "saturated": 0.26956727573195,
             "pledge": "450000000000",
-            "pledged": "472368832159",
+            "pledged": "472786789141",
             "taxRatio": "0.015",
             "taxFix": "340000000",
             "roa": "5.977",
@@ -7885,7 +7944,7 @@
             "totalStake": "62567589057",
             "blocksLifetime": "0",
             "delegators": "2",
-            "saturated": 0.00095318486600699,
+            "saturated": 0.00095313795431388,
             "pledge": "62000000000",
             "pledged": "62567589057",
             "taxRatio": "0.01",
@@ -8015,10 +8074,10 @@
             "ticker": "SOLRP",
             "addr": "pool1ju5tzz5jdszg47fcuhzjq5e3nk6mays73d5csskr4lfucg397c3",
             "website": "https://solarcardano.com/",
-            "totalStake": "3764764298946",
+            "totalStake": "3752706837914",
             "blocksLifetime": "31",
-            "delegators": "33",
-            "saturated": 0.05735423736033,
+            "delegators": "31",
+            "saturated": 0.057167734485829,
             "pledge": "8000000000",
             "pledged": "8000692982",
             "taxRatio": "0.01",
@@ -8145,12 +8204,12 @@
             "ticker": "QXT",
             "addr": "pool1x5dfpgp987e4jhxvgczr3wv50nv2pwd873tlx3uthvcasm422q6",
             "website": "https://quixote.systems",
-            "totalStake": "546862512727",
+            "totalStake": "604401269630",
             "blocksLifetime": "1",
-            "delegators": "118",
-            "saturated": 0.0083311676024955,
-            "pledge": "3000000000",
-            "pledged": "3051884437",
+            "delegators": "125",
+            "saturated": 0.009207287645286,
+            "pledge": "5000000000",
+            "pledged": "5187611700",
             "taxRatio": "0",
             "taxFix": "340000000",
             "roa": "0",
@@ -8318,9 +8377,9 @@
             "totalStake": "49646799037",
             "blocksLifetime": "6",
             "delegators": "5",
-            "saturated": 0.00075634331130527,
+            "saturated": 0.00075630608731382,
             "pledge": "18000000000",
-            "pledged": "18664934906",
+            "pledged": "18674302549",
             "taxRatio": "0.01",
             "taxFix": "340000000",
             "roa": "0",
@@ -8426,12 +8485,12 @@
             "ticker": "OYSTR",
             "addr": "pool1l6aeyn35nkqkn9lqqlwqnpraakdzuukjrqprcrj3sctk6hhe32k",
             "website": "https://twitter.com/OystrPool",
-            "totalStake": "20703044496466",
+            "totalStake": "6575745493886",
             "blocksLifetime": "277",
-            "delegators": "221",
-            "saturated": 0.31540017749961,
+            "delegators": "251",
+            "saturated": 0.10017315198803,
             "pledge": "555400000000",
-            "pledged": "567919162849",
+            "pledged": "569333739834",
             "taxRatio": "0.03",
             "taxFix": "340000000",
             "roa": "6.128",
@@ -8595,10 +8654,10 @@
             "ticker": "SBC",
             "addr": "pool1gp4qs5ed9j5d6z8288sg9hy2ehp28v6dp3ghh58ypt67zhn8r77",
             "website": "https://sbc-pool.tk",
-            "totalStake": "14647091479",
+            "totalStake": "14739464464",
             "blocksLifetime": "1",
-            "delegators": "4",
-            "saturated": 0.0002231408647708,
+            "delegators": "5",
+            "saturated": 0.00022453706813124,
             "pledge": "100000000",
             "pledged": "104416817",
             "taxRatio": "0.015",
@@ -8730,12 +8789,12 @@
             "ticker": "SRN",
             "addr": "pool1esd3cqme3zzvvdnsx3p6ywudn6p86mqyz7fpvqpegxv2qzmtes0",
             "website": "https://www.adasrn.com",
-            "totalStake": "3276230235724",
+            "totalStake": "3278423196949",
             "blocksLifetime": "27",
             "delegators": "17",
-            "saturated": 0.049911673524797,
+            "saturated": 0.049942624071201,
             "pledge": "6000000000",
-            "pledged": "6885870771",
+            "pledged": "7247680166",
             "taxRatio": "0.01",
             "taxFix": "340000000",
             "roa": "3.911",
@@ -8982,10 +9041,10 @@
             "ticker": "sudti",
             "addr": "pool19k4azhj8tye5wwy5pfj7q6m938m8fg5nglds5dkhtfwnvcg3s0k",
             "website": "https://southtyrolpool.it",
-            "totalStake": "241071101121",
+            "totalStake": "249911623602",
             "blocksLifetime": "0",
             "delegators": "17",
-            "saturated": 0.0036725935693453,
+            "saturated": 0.0038070869801658,
             "pledge": "7300000000",
             "pledged": "7382625086",
             "taxRatio": "0",
@@ -9239,7 +9298,7 @@
             "totalStake": "62095228148",
             "blocksLifetime": "0",
             "delegators": "7",
-            "saturated": 0.000945988691813,
+            "saturated": 0.00094594213428489,
             "pledge": "3000000000",
             "pledged": "3002007384",
             "taxRatio": "0",
@@ -9363,10 +9422,10 @@
             "ticker": "BONE",
             "addr": "pool1j742gcsul7u8c05rsqmkgpkvj5qadj0pew69nctu6crqy9wjjn4",
             "website": "https://poolbone.github.io/meta/",
-            "totalStake": "307448896019",
+            "totalStake": "307547389478",
             "blocksLifetime": "6",
             "delegators": "12",
-            "saturated": 0.0046838249511083,
+            "saturated": 0.0046850948562935,
             "pledge": "52000000000",
             "pledged": "60501827155",
             "taxRatio": "0.01",
@@ -9493,6 +9552,131 @@
             "extended": null
           },
           {
+            "id": "33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4",
+            "name": "Adaberry Pi",
+            "link": {
+              "name": "Adaberry Pi",
+              "href": "/stake-pools/33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4"
+            },
+            "description": "Delegate to our mission-driven Adaberry Pi Cardano stake pool and be rewarded for helping heal the environment and economy. 🥧 ( π ≈ 3.14 :: ₳ ≡ ∞ ) 😃",
+            "image": "https://illustratorandweb.com/ext/pool-00000-24bit-1000x1000.png",
+            "hasImage": true,
+            "ticker": "00000",
+            "addr": "pool1xdcg6kg0g4y3wqf92f8uh44urz06suglhff036k5yak2g0m8zlc",
+            "website": "https://adaberrypi.com",
+            "totalStake": "39956026223",
+            "blocksLifetime": "0",
+            "delegators": "7",
+            "saturated": 0.00060867944043692,
+            "pledge": "32000000000",
+            "pledged": "32845140292",
+            "taxRatio": "0.0314",
+            "taxFix": "340000000",
+            "roa": "0",
+            "memberSince": "2021-05-29T00:00:00.000Z",
+            "registeredAt": "2021-05-28T11:20:17.000Z",
+            "identities": [
+              {
+                "id": "DeCentN2Madness",
+                "role": "spo"
+              }
+            ],
+            "relays": [
+              {
+                "addr": "relay1.adaberrypi.com",
+                "port": 3001,
+                "data": {
+                  "ip": "68.3.91.223",
+                  "type": "ipv4",
+                  "continent_code": "NA",
+                  "continent_name": "North America",
+                  "country_code": "US",
+                  "country_name": "United States",
+                  "region_code": "AZ",
+                  "region_name": "Arizona",
+                  "city": "Tempe Junction",
+                  "zip": "85281",
+                  "latitude": 33.40904998779297,
+                  "longitude": -111.93744659423828,
+                  "location": {
+                    "geoname_id": 5317071,
+                    "capital": "Washington D.C.",
+                    "languages": [
+                      {
+                        "code": "en",
+                        "name": "English",
+                        "native": "English"
+                      }
+                    ],
+                    "country_flag": "http://assets.ipstack.com/flags/us.svg",
+                    "country_flag_emoji": "🇺🇸",
+                    "country_flag_emoji_unicode": "U+1F1FA U+1F1F8",
+                    "calling_code": "1",
+                    "is_eu": false
+                  }
+                }
+              },
+              {
+                "addr": "relay2.adaberrypi.com",
+                "port": 3002,
+                "data": {
+                  "ip": "68.3.91.223",
+                  "type": "ipv4",
+                  "continent_code": "NA",
+                  "continent_name": "North America",
+                  "country_code": "US",
+                  "country_name": "United States",
+                  "region_code": "AZ",
+                  "region_name": "Arizona",
+                  "city": "Tempe Junction",
+                  "zip": "85281",
+                  "latitude": 33.40904998779297,
+                  "longitude": -111.93744659423828,
+                  "location": {
+                    "geoname_id": 5317071,
+                    "capital": "Washington D.C.",
+                    "languages": [
+                      {
+                        "code": "en",
+                        "name": "English",
+                        "native": "English"
+                      }
+                    ],
+                    "country_flag": "http://assets.ipstack.com/flags/us.svg",
+                    "country_flag_emoji": "🇺🇸",
+                    "country_flag_emoji_unicode": "U+1F1FA U+1F1F8",
+                    "calling_code": "1",
+                    "is_eu": false
+                  }
+                }
+              }
+            ],
+            "metadata": {
+              "name": "Adaberry Pi",
+              "description": "Delegate to our mission-driven Adaberry Pi Cardano stake pool and be rewarded for helping heal the environment and economy. 🥧 ( π ≈ 3.14 :: ₳ ≡ ∞ ) 😃",
+              "ticker": "00000",
+              "homepage": "https://adaberrypi.com",
+              "extended": "https://adaberrypi.com/ext.00000.json"
+            },
+            "extended": {
+              "info": {
+                "url_png_icon_64x64": "https://illustratorandweb.com/ext/pool-00000-24bit-64x64.png",
+                "url_png_logo": "https://illustratorandweb.com/ext/pool-00000-24bit-1000x1000.png",
+                "location": "Arizona, USA",
+                "social": {
+                  "twitter_handle": "AdaberryPi",
+                  "telegram_handle": "AdaberryPi"
+                },
+                "about": {
+                  "server": "Get rewarded for helping heal the environment and economy when you delegate your Cardano stake to our mission-driven Adaberry Pi Stake Pool. 🥧 ( π ≈ 3.14 :: ₳ ≡ ∞ ) 😃"
+                }
+              },
+              "my-pool-ids": {
+                "0": "33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4"
+              }
+            }
+          },
+          {
             "id": "2730ca79a60b3b3f29b709bd39c21d66cb2c83e5441c479f755d0a3d",
             "name": "Armadillo",
             "link": {
@@ -9505,10 +9689,10 @@
             "ticker": "AMDLO",
             "addr": "pool1yucv57dxpvan72dhpx7nnssavm9jeql9gswy08m4t59r6cshny6",
             "website": "https://armadillo-pool.org",
-            "totalStake": "10811595442",
+            "totalStake": "10828095442",
             "blocksLifetime": "0",
             "delegators": "3",
-            "saturated": 0.00016470906595612,
+            "saturated": 0.00016495231627514,
             "pledge": "9500000000",
             "pledged": "10255377515",
             "taxRatio": "0",
@@ -9632,10 +9816,10 @@
             "ticker": "MINI1",
             "addr": "pool1c0nsyh46ucuwn9xpf8jhq05zvxdnrztuncwkflrgf7quyvh82q0",
             "website": "https://www.adaministake.com",
-            "totalStake": "37309709201",
+            "totalStake": "36282372214",
             "blocksLifetime": "0",
-            "delegators": "6",
-            "saturated": 0.00056839412707938,
+            "delegators": "5",
+            "saturated": 0.00055271597564998,
             "pledge": "10000000000",
             "pledged": "10004423945",
             "taxRatio": "0",
@@ -9755,7 +9939,7 @@
             "totalStake": "74008066260",
             "blocksLifetime": "2",
             "delegators": "16",
-            "saturated": 0.0011274746204014,
+            "saturated": 0.0011274191309101,
             "pledge": "69420000000",
             "pledged": "70400385546",
             "taxRatio": "0.01",
@@ -9871,131 +10055,6 @@
             }
           },
           {
-            "id": "33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4",
-            "name": "Adaberry Pi",
-            "link": {
-              "name": "Adaberry Pi",
-              "href": "/stake-pools/33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4"
-            },
-            "description": "Delegate to our mission-driven Adaberry Pi Cardano stake pool and be rewarded for helping heal the environment and economy. 🥧 ( π ≈ 3.14 :: ₳ ≡ ∞ ) 😃",
-            "image": "https://illustratorandweb.com/ext/Pool-00000-24bit-1000x1000.png",
-            "hasImage": true,
-            "ticker": "00000",
-            "addr": "pool1xdcg6kg0g4y3wqf92f8uh44urz06suglhff036k5yak2g0m8zlc",
-            "website": "https://adaberrypi.com",
-            "totalStake": "40990457278",
-            "blocksLifetime": "0",
-            "delegators": "8",
-            "saturated": 0.00062446842074258,
-            "pledge": "32000000000",
-            "pledged": "32845140292",
-            "taxRatio": "0.0314",
-            "taxFix": "340000000",
-            "roa": "0",
-            "memberSince": "2021-06-13T00:00:00.000Z",
-            "registeredAt": "2021-05-28T11:20:17.000Z",
-            "identities": [
-              {
-                "id": "Adaberry_Pi",
-                "role": "spo"
-              }
-            ],
-            "relays": [
-              {
-                "addr": "relay1.adaberrypi.com",
-                "port": 3001,
-                "data": {
-                  "ip": "68.3.91.223",
-                  "type": "ipv4",
-                  "continent_code": "NA",
-                  "continent_name": "North America",
-                  "country_code": "US",
-                  "country_name": "United States",
-                  "region_code": "AZ",
-                  "region_name": "Arizona",
-                  "city": "Tempe Junction",
-                  "zip": "85281",
-                  "latitude": 33.40904998779297,
-                  "longitude": -111.93744659423828,
-                  "location": {
-                    "geoname_id": 5317071,
-                    "capital": "Washington D.C.",
-                    "languages": [
-                      {
-                        "code": "en",
-                        "name": "English",
-                        "native": "English"
-                      }
-                    ],
-                    "country_flag": "http://assets.ipstack.com/flags/us.svg",
-                    "country_flag_emoji": "🇺🇸",
-                    "country_flag_emoji_unicode": "U+1F1FA U+1F1F8",
-                    "calling_code": "1",
-                    "is_eu": false
-                  }
-                }
-              },
-              {
-                "addr": "relay2.adaberrypi.com",
-                "port": 3002,
-                "data": {
-                  "ip": "68.3.91.223",
-                  "type": "ipv4",
-                  "continent_code": "NA",
-                  "continent_name": "North America",
-                  "country_code": "US",
-                  "country_name": "United States",
-                  "region_code": "AZ",
-                  "region_name": "Arizona",
-                  "city": "Tempe Junction",
-                  "zip": "85281",
-                  "latitude": 33.40904998779297,
-                  "longitude": -111.93744659423828,
-                  "location": {
-                    "geoname_id": 5317071,
-                    "capital": "Washington D.C.",
-                    "languages": [
-                      {
-                        "code": "en",
-                        "name": "English",
-                        "native": "English"
-                      }
-                    ],
-                    "country_flag": "http://assets.ipstack.com/flags/us.svg",
-                    "country_flag_emoji": "🇺🇸",
-                    "country_flag_emoji_unicode": "U+1F1FA U+1F1F8",
-                    "calling_code": "1",
-                    "is_eu": false
-                  }
-                }
-              }
-            ],
-            "metadata": {
-              "name": "Adaberry Pi",
-              "description": "Delegate to our mission-driven Adaberry Pi Cardano stake pool and be rewarded for helping heal the environment and economy. 🥧 ( π ≈ 3.14 :: ₳ ≡ ∞ ) 😃",
-              "ticker": "00000",
-              "homepage": "https://adaberrypi.com",
-              "extended": "https://adaberrypi.com/ext.00000.json"
-            },
-            "extended": {
-              "info": {
-                "url_png_icon_64x64": "https://illustratorandweb.com/ext/pool-00000-24bit-64x64.png",
-                "url_png_logo": "https://illustratorandweb.com/ext/Pool-00000-24bit-1000x1000.png",
-                "location": "Arizona, USA",
-                "social": {
-                  "twitter_handle": "AdaberryPi",
-                  "telegram_handle": "AdaberryPi"
-                },
-                "about": {
-                  "server": "Get rewarded for helping heal the environment and economy when you delegate your Cardano stake to our mission-driven Adaberry Pi Stake Pool. 🥧 ( π ≈ 3.14 :: ₳ ≡ ∞ ) 😃"
-                }
-              },
-              "my-pool-ids": {
-                "0": "33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4"
-              }
-            }
-          },
-          {
             "id": "7e45a7e6ab3afcf99120e97aedf84e706e43d829ddc610ad667a85a3",
             "name": "PGWADA Stake pool",
             "link": {
@@ -10008,10 +10067,10 @@
             "ticker": "PGWAD",
             "addr": "pool10ez60e4t8t70nyfqa9awm7zwwphy8kpfmhrppttx02z6xeyzgyk",
             "website": "https://twitter.com/PgwadaS",
-            "totalStake": "2162549517",
+            "totalStake": "2163262514",
             "blocksLifetime": "0",
             "delegators": "4",
-            "saturated": 0.000032945323651791,
+            "saturated": 0.000032954563829516,
             "pledge": "100000000",
             "pledged": "628348804",
             "taxRatio": "0",
@@ -10085,7 +10144,7 @@
             "totalStake": "69108838810",
             "blocksLifetime": "0",
             "delegators": "9",
-            "saturated": 0.001052837423558,
+            "saturated": 0.0010527856073911,
             "pledge": "1000000000",
             "pledged": "1004394659",
             "taxRatio": "0.03",
@@ -10222,7 +10281,7 @@
             "totalStake": "4008580433",
             "blocksLifetime": "0",
             "delegators": "3",
-            "saturated": 0.000061068650086971,
+            "saturated": 0.000061065644548514,
             "pledge": "1000000000",
             "pledged": "1099502088",
             "taxRatio": "0.035",
@@ -10337,10 +10396,10 @@
             "ticker": "YYC",
             "addr": "pool1z724xxqgzf9a30eejsa4edznmv8hgy27ssxqfcpqz42sc6lfqwu",
             "website": "https://bit.ly/3cRZRen",
-            "totalStake": "4039068939",
+            "totalStake": "4093412519",
             "blocksLifetime": "0",
             "delegators": "4",
-            "saturated": 0.000061533126710481,
+            "saturated": 0.000062357953907543,
             "pledge": "1000000000",
             "pledged": "1000000000",
             "taxRatio": "0.02",
@@ -10450,15 +10509,15 @@
               "href": "/stake-pools/9e8009b249142d80144dfb681984e08d96d51c2085e8bb6d9d1831d2"
             },
             "description": "A container first approach to Cardano. ASTOR is non-profit. We donate 100% of the pool's margin to charity and pay monthly dividends to loyal delegators. With love by IT professionals from Bavaria.",
-            "image": "https://static.adapools.org/pool_logo/9e8009b249142d80144dfb681984e08d96d51c2085e8bb6d9d1831d2.png",
+            "image": "http://astorpool.net/img/astor-logo.png",
             "hasImage": true,
             "ticker": "ASTOR",
             "addr": "pool1n6qqnvjfzskcq9zdld5pnp8q3ktd28pqsh5tkmvarqcayr76puv",
             "website": "http://astorpool.net",
-            "totalStake": "989389645262",
+            "totalStake": "1041723472102",
             "blocksLifetime": "42",
-            "delegators": "58",
-            "saturated": 0.015072839638884,
+            "delegators": "60",
+            "saturated": 0.015869337369792,
             "pledge": "200000000000",
             "pledged": "211317645511",
             "taxRatio": "0.01",
@@ -10518,7 +10577,7 @@
             "extended": {
               "info": {
                 "url_png_icon_64x64": "http://astorpool.net/img/favicon-univ.png",
-                "_url_png_logo": "http(s) url to pool logo; not animated; max 50kb",
+                "url_png_logo": "http://astorpool.net/img/astor-logo.png",
                 "location": "Bavaria, Germany",
                 "social": {
                   "twitter_handle": "AstorPool",
@@ -10591,7 +10650,7 @@
             "totalStake": "2201499279",
             "blocksLifetime": "0",
             "delegators": "2",
-            "saturated": 0.000033538703135203,
+            "saturated": 0.000033537052503301,
             "pledge": "1650204431",
             "pledged": "1653001618",
             "taxRatio": "0",
@@ -10746,18 +10805,18 @@
       "attrs": {
         "component-type": "PoolsSection",
         "component-id": "PoolsSection",
-        "component-cached-at": "2021-07-15T11:19:15.839Z",
-        "component-cached-in": "667 μs",
-        "component-resolved-in": "667 μs"
+        "component-cached-at": "2021-07-16T19:05:05.264Z",
+        "component-cached-in": "758 μs",
+        "component-resolved-in": "758 μs"
       },
       "components": {}
     },
     "PoolMapSection": {
       "_cacheKey": "{\"component\":{\"type\":\"PoolMapSection\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-15T11:19:15.839Z",
-      "_cachedIn": "686 μs",
-      "_resolvedIn": "686 μs",
+      "_cachedAt": "2021-07-16T19:05:05.264Z",
+      "_cachedIn": "775 μs",
+      "_resolvedIn": "775 μs",
       "id": "PoolMapSection",
       "type": "PoolMapSection",
       "status": "resolved",
@@ -10777,12 +10836,12 @@
             "ticker": "SBLYR",
             "addr": "pool1sfjdu0xmz7vdmp6cufxd55gprp95g4p703zzr3upt70dst0fur2",
             "website": "https://pool.sublayer.io",
-            "totalStake": "1678526247388",
+            "totalStake": "1665989014408",
             "blocksLifetime": "7",
-            "delegators": "24",
-            "saturated": 0.025571479424406,
+            "delegators": "23",
+            "saturated": 0.025379232043856,
             "pledge": "25000000000",
-            "pledged": "35997717778",
+            "pledged": "36370195197",
             "taxRatio": "0.01",
             "taxFix": "340000000",
             "roa": "0.844",
@@ -10877,10 +10936,10 @@
             "ticker": "PIADA",
             "addr": "pool1hrv8gtrm0dgjg6zyss5uwa4nkruzfnh5vrdkr2sayj7x2nw6mjc",
             "website": "https://piada.io",
-            "totalStake": "86349679469",
+            "totalStake": "14686609512021",
             "blocksLifetime": "5",
-            "delegators": "19",
-            "saturated": 0.001315492715876,
+            "delegators": "20",
+            "saturated": 0.22373188989817,
             "pledge": "52000000000",
             "pledged": "53236354533",
             "taxRatio": "0.015",
@@ -11026,12 +11085,12 @@
             "ticker": "OTG",
             "addr": "pool1eqj3dzpkcklc2r0v8pt8adrhrshq8m4zsev072ga7a52uj5wv5c",
             "website": "https://adamantium.online",
-            "totalStake": "15617066989830",
+            "totalStake": "1065480731403",
             "blocksLifetime": "229",
-            "delegators": "38",
-            "saturated": 0.23791794011053,
+            "delegators": "37",
+            "saturated": 0.016231249117896,
             "pledge": "500000000000",
-            "pledged": "512738540974",
+            "pledged": "513425016369",
             "taxRatio": "0.0125",
             "taxFix": "340000000",
             "roa": "4.102",
@@ -11159,12 +11218,12 @@
             "ticker": "BERRY",
             "addr": "pool19f6guwy97mmnxg9dz65rxyj8hq07qxud886hamyu4fgfz7dj9gl",
             "website": "https://pipool.online",
-            "totalStake": "3068441106369",
+            "totalStake": "17695418018846",
             "blocksLifetime": "116",
-            "delegators": "251",
-            "saturated": 0.046746113585424,
+            "delegators": "269",
+            "saturated": 0.26956727573195,
             "pledge": "450000000000",
-            "pledged": "472368832159",
+            "pledged": "472786789141",
             "taxRatio": "0.015",
             "taxFix": "340000000",
             "roa": "5.977",
@@ -11379,7 +11438,7 @@
             "totalStake": "62567589057",
             "blocksLifetime": "0",
             "delegators": "2",
-            "saturated": 0.00095318486600699,
+            "saturated": 0.00095313795431388,
             "pledge": "62000000000",
             "pledged": "62567589057",
             "taxRatio": "0.01",
@@ -11509,10 +11568,10 @@
             "ticker": "SOLRP",
             "addr": "pool1ju5tzz5jdszg47fcuhzjq5e3nk6mays73d5csskr4lfucg397c3",
             "website": "https://solarcardano.com/",
-            "totalStake": "3764764298946",
+            "totalStake": "3752706837914",
             "blocksLifetime": "31",
-            "delegators": "33",
-            "saturated": 0.05735423736033,
+            "delegators": "31",
+            "saturated": 0.057167734485829,
             "pledge": "8000000000",
             "pledged": "8000692982",
             "taxRatio": "0.01",
@@ -11639,12 +11698,12 @@
             "ticker": "QXT",
             "addr": "pool1x5dfpgp987e4jhxvgczr3wv50nv2pwd873tlx3uthvcasm422q6",
             "website": "https://quixote.systems",
-            "totalStake": "546862512727",
+            "totalStake": "604401269630",
             "blocksLifetime": "1",
-            "delegators": "118",
-            "saturated": 0.0083311676024955,
-            "pledge": "3000000000",
-            "pledged": "3051884437",
+            "delegators": "125",
+            "saturated": 0.009207287645286,
+            "pledge": "5000000000",
+            "pledged": "5187611700",
             "taxRatio": "0",
             "taxFix": "340000000",
             "roa": "0",
@@ -11812,9 +11871,9 @@
             "totalStake": "49646799037",
             "blocksLifetime": "6",
             "delegators": "5",
-            "saturated": 0.00075634331130527,
+            "saturated": 0.00075630608731382,
             "pledge": "18000000000",
-            "pledged": "18664934906",
+            "pledged": "18674302549",
             "taxRatio": "0.01",
             "taxFix": "340000000",
             "roa": "0",
@@ -11920,12 +11979,12 @@
             "ticker": "OYSTR",
             "addr": "pool1l6aeyn35nkqkn9lqqlwqnpraakdzuukjrqprcrj3sctk6hhe32k",
             "website": "https://twitter.com/OystrPool",
-            "totalStake": "20703044496466",
+            "totalStake": "6575745493886",
             "blocksLifetime": "277",
-            "delegators": "221",
-            "saturated": 0.31540017749961,
+            "delegators": "251",
+            "saturated": 0.10017315198803,
             "pledge": "555400000000",
-            "pledged": "567919162849",
+            "pledged": "569333739834",
             "taxRatio": "0.03",
             "taxFix": "340000000",
             "roa": "6.128",
@@ -12089,10 +12148,10 @@
             "ticker": "SBC",
             "addr": "pool1gp4qs5ed9j5d6z8288sg9hy2ehp28v6dp3ghh58ypt67zhn8r77",
             "website": "https://sbc-pool.tk",
-            "totalStake": "14647091479",
+            "totalStake": "14739464464",
             "blocksLifetime": "1",
-            "delegators": "4",
-            "saturated": 0.0002231408647708,
+            "delegators": "5",
+            "saturated": 0.00022453706813124,
             "pledge": "100000000",
             "pledged": "104416817",
             "taxRatio": "0.015",
@@ -12224,12 +12283,12 @@
             "ticker": "SRN",
             "addr": "pool1esd3cqme3zzvvdnsx3p6ywudn6p86mqyz7fpvqpegxv2qzmtes0",
             "website": "https://www.adasrn.com",
-            "totalStake": "3276230235724",
+            "totalStake": "3278423196949",
             "blocksLifetime": "27",
             "delegators": "17",
-            "saturated": 0.049911673524797,
+            "saturated": 0.049942624071201,
             "pledge": "6000000000",
-            "pledged": "6885870771",
+            "pledged": "7247680166",
             "taxRatio": "0.01",
             "taxFix": "340000000",
             "roa": "3.911",
@@ -12476,10 +12535,10 @@
             "ticker": "sudti",
             "addr": "pool19k4azhj8tye5wwy5pfj7q6m938m8fg5nglds5dkhtfwnvcg3s0k",
             "website": "https://southtyrolpool.it",
-            "totalStake": "241071101121",
+            "totalStake": "249911623602",
             "blocksLifetime": "0",
             "delegators": "17",
-            "saturated": 0.0036725935693453,
+            "saturated": 0.0038070869801658,
             "pledge": "7300000000",
             "pledged": "7382625086",
             "taxRatio": "0",
@@ -12733,7 +12792,7 @@
             "totalStake": "62095228148",
             "blocksLifetime": "0",
             "delegators": "7",
-            "saturated": 0.000945988691813,
+            "saturated": 0.00094594213428489,
             "pledge": "3000000000",
             "pledged": "3002007384",
             "taxRatio": "0",
@@ -12857,10 +12916,10 @@
             "ticker": "BONE",
             "addr": "pool1j742gcsul7u8c05rsqmkgpkvj5qadj0pew69nctu6crqy9wjjn4",
             "website": "https://poolbone.github.io/meta/",
-            "totalStake": "307448896019",
+            "totalStake": "307547389478",
             "blocksLifetime": "6",
             "delegators": "12",
-            "saturated": 0.0046838249511083,
+            "saturated": 0.0046850948562935,
             "pledge": "52000000000",
             "pledged": "60501827155",
             "taxRatio": "0.01",
@@ -12987,6 +13046,131 @@
             "extended": null
           },
           {
+            "id": "33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4",
+            "name": "Adaberry Pi",
+            "link": {
+              "name": "Adaberry Pi",
+              "href": "/stake-pools/33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4"
+            },
+            "description": "Delegate to our mission-driven Adaberry Pi Cardano stake pool and be rewarded for helping heal the environment and economy. 🥧 ( π ≈ 3.14 :: ₳ ≡ ∞ ) 😃",
+            "image": "https://illustratorandweb.com/ext/pool-00000-24bit-1000x1000.png",
+            "hasImage": true,
+            "ticker": "00000",
+            "addr": "pool1xdcg6kg0g4y3wqf92f8uh44urz06suglhff036k5yak2g0m8zlc",
+            "website": "https://adaberrypi.com",
+            "totalStake": "39956026223",
+            "blocksLifetime": "0",
+            "delegators": "7",
+            "saturated": 0.00060867944043692,
+            "pledge": "32000000000",
+            "pledged": "32845140292",
+            "taxRatio": "0.0314",
+            "taxFix": "340000000",
+            "roa": "0",
+            "memberSince": "2021-05-29T00:00:00.000Z",
+            "registeredAt": "2021-05-28T11:20:17.000Z",
+            "identities": [
+              {
+                "id": "DeCentN2Madness",
+                "role": "spo"
+              }
+            ],
+            "relays": [
+              {
+                "addr": "relay1.adaberrypi.com",
+                "port": 3001,
+                "data": {
+                  "ip": "68.3.91.223",
+                  "type": "ipv4",
+                  "continent_code": "NA",
+                  "continent_name": "North America",
+                  "country_code": "US",
+                  "country_name": "United States",
+                  "region_code": "AZ",
+                  "region_name": "Arizona",
+                  "city": "Tempe Junction",
+                  "zip": "85281",
+                  "latitude": 33.40904998779297,
+                  "longitude": -111.93744659423828,
+                  "location": {
+                    "geoname_id": 5317071,
+                    "capital": "Washington D.C.",
+                    "languages": [
+                      {
+                        "code": "en",
+                        "name": "English",
+                        "native": "English"
+                      }
+                    ],
+                    "country_flag": "http://assets.ipstack.com/flags/us.svg",
+                    "country_flag_emoji": "🇺🇸",
+                    "country_flag_emoji_unicode": "U+1F1FA U+1F1F8",
+                    "calling_code": "1",
+                    "is_eu": false
+                  }
+                }
+              },
+              {
+                "addr": "relay2.adaberrypi.com",
+                "port": 3002,
+                "data": {
+                  "ip": "68.3.91.223",
+                  "type": "ipv4",
+                  "continent_code": "NA",
+                  "continent_name": "North America",
+                  "country_code": "US",
+                  "country_name": "United States",
+                  "region_code": "AZ",
+                  "region_name": "Arizona",
+                  "city": "Tempe Junction",
+                  "zip": "85281",
+                  "latitude": 33.40904998779297,
+                  "longitude": -111.93744659423828,
+                  "location": {
+                    "geoname_id": 5317071,
+                    "capital": "Washington D.C.",
+                    "languages": [
+                      {
+                        "code": "en",
+                        "name": "English",
+                        "native": "English"
+                      }
+                    ],
+                    "country_flag": "http://assets.ipstack.com/flags/us.svg",
+                    "country_flag_emoji": "🇺🇸",
+                    "country_flag_emoji_unicode": "U+1F1FA U+1F1F8",
+                    "calling_code": "1",
+                    "is_eu": false
+                  }
+                }
+              }
+            ],
+            "metadata": {
+              "name": "Adaberry Pi",
+              "description": "Delegate to our mission-driven Adaberry Pi Cardano stake pool and be rewarded for helping heal the environment and economy. 🥧 ( π ≈ 3.14 :: ₳ ≡ ∞ ) 😃",
+              "ticker": "00000",
+              "homepage": "https://adaberrypi.com",
+              "extended": "https://adaberrypi.com/ext.00000.json"
+            },
+            "extended": {
+              "info": {
+                "url_png_icon_64x64": "https://illustratorandweb.com/ext/pool-00000-24bit-64x64.png",
+                "url_png_logo": "https://illustratorandweb.com/ext/pool-00000-24bit-1000x1000.png",
+                "location": "Arizona, USA",
+                "social": {
+                  "twitter_handle": "AdaberryPi",
+                  "telegram_handle": "AdaberryPi"
+                },
+                "about": {
+                  "server": "Get rewarded for helping heal the environment and economy when you delegate your Cardano stake to our mission-driven Adaberry Pi Stake Pool. 🥧 ( π ≈ 3.14 :: ₳ ≡ ∞ ) 😃"
+                }
+              },
+              "my-pool-ids": {
+                "0": "33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4"
+              }
+            }
+          },
+          {
             "id": "2730ca79a60b3b3f29b709bd39c21d66cb2c83e5441c479f755d0a3d",
             "name": "Armadillo",
             "link": {
@@ -12999,10 +13183,10 @@
             "ticker": "AMDLO",
             "addr": "pool1yucv57dxpvan72dhpx7nnssavm9jeql9gswy08m4t59r6cshny6",
             "website": "https://armadillo-pool.org",
-            "totalStake": "10811595442",
+            "totalStake": "10828095442",
             "blocksLifetime": "0",
             "delegators": "3",
-            "saturated": 0.00016470906595612,
+            "saturated": 0.00016495231627514,
             "pledge": "9500000000",
             "pledged": "10255377515",
             "taxRatio": "0",
@@ -13126,10 +13310,10 @@
             "ticker": "MINI1",
             "addr": "pool1c0nsyh46ucuwn9xpf8jhq05zvxdnrztuncwkflrgf7quyvh82q0",
             "website": "https://www.adaministake.com",
-            "totalStake": "37309709201",
+            "totalStake": "36282372214",
             "blocksLifetime": "0",
-            "delegators": "6",
-            "saturated": 0.00056839412707938,
+            "delegators": "5",
+            "saturated": 0.00055271597564998,
             "pledge": "10000000000",
             "pledged": "10004423945",
             "taxRatio": "0",
@@ -13249,7 +13433,7 @@
             "totalStake": "74008066260",
             "blocksLifetime": "2",
             "delegators": "16",
-            "saturated": 0.0011274746204014,
+            "saturated": 0.0011274191309101,
             "pledge": "69420000000",
             "pledged": "70400385546",
             "taxRatio": "0.01",
@@ -13365,131 +13549,6 @@
             }
           },
           {
-            "id": "33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4",
-            "name": "Adaberry Pi",
-            "link": {
-              "name": "Adaberry Pi",
-              "href": "/stake-pools/33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4"
-            },
-            "description": "Delegate to our mission-driven Adaberry Pi Cardano stake pool and be rewarded for helping heal the environment and economy. 🥧 ( π ≈ 3.14 :: ₳ ≡ ∞ ) 😃",
-            "image": "https://illustratorandweb.com/ext/Pool-00000-24bit-1000x1000.png",
-            "hasImage": true,
-            "ticker": "00000",
-            "addr": "pool1xdcg6kg0g4y3wqf92f8uh44urz06suglhff036k5yak2g0m8zlc",
-            "website": "https://adaberrypi.com",
-            "totalStake": "40990457278",
-            "blocksLifetime": "0",
-            "delegators": "8",
-            "saturated": 0.00062446842074258,
-            "pledge": "32000000000",
-            "pledged": "32845140292",
-            "taxRatio": "0.0314",
-            "taxFix": "340000000",
-            "roa": "0",
-            "memberSince": "2021-06-13T00:00:00.000Z",
-            "registeredAt": "2021-05-28T11:20:17.000Z",
-            "identities": [
-              {
-                "id": "Adaberry_Pi",
-                "role": "spo"
-              }
-            ],
-            "relays": [
-              {
-                "addr": "relay1.adaberrypi.com",
-                "port": 3001,
-                "data": {
-                  "ip": "68.3.91.223",
-                  "type": "ipv4",
-                  "continent_code": "NA",
-                  "continent_name": "North America",
-                  "country_code": "US",
-                  "country_name": "United States",
-                  "region_code": "AZ",
-                  "region_name": "Arizona",
-                  "city": "Tempe Junction",
-                  "zip": "85281",
-                  "latitude": 33.40904998779297,
-                  "longitude": -111.93744659423828,
-                  "location": {
-                    "geoname_id": 5317071,
-                    "capital": "Washington D.C.",
-                    "languages": [
-                      {
-                        "code": "en",
-                        "name": "English",
-                        "native": "English"
-                      }
-                    ],
-                    "country_flag": "http://assets.ipstack.com/flags/us.svg",
-                    "country_flag_emoji": "🇺🇸",
-                    "country_flag_emoji_unicode": "U+1F1FA U+1F1F8",
-                    "calling_code": "1",
-                    "is_eu": false
-                  }
-                }
-              },
-              {
-                "addr": "relay2.adaberrypi.com",
-                "port": 3002,
-                "data": {
-                  "ip": "68.3.91.223",
-                  "type": "ipv4",
-                  "continent_code": "NA",
-                  "continent_name": "North America",
-                  "country_code": "US",
-                  "country_name": "United States",
-                  "region_code": "AZ",
-                  "region_name": "Arizona",
-                  "city": "Tempe Junction",
-                  "zip": "85281",
-                  "latitude": 33.40904998779297,
-                  "longitude": -111.93744659423828,
-                  "location": {
-                    "geoname_id": 5317071,
-                    "capital": "Washington D.C.",
-                    "languages": [
-                      {
-                        "code": "en",
-                        "name": "English",
-                        "native": "English"
-                      }
-                    ],
-                    "country_flag": "http://assets.ipstack.com/flags/us.svg",
-                    "country_flag_emoji": "🇺🇸",
-                    "country_flag_emoji_unicode": "U+1F1FA U+1F1F8",
-                    "calling_code": "1",
-                    "is_eu": false
-                  }
-                }
-              }
-            ],
-            "metadata": {
-              "name": "Adaberry Pi",
-              "description": "Delegate to our mission-driven Adaberry Pi Cardano stake pool and be rewarded for helping heal the environment and economy. 🥧 ( π ≈ 3.14 :: ₳ ≡ ∞ ) 😃",
-              "ticker": "00000",
-              "homepage": "https://adaberrypi.com",
-              "extended": "https://adaberrypi.com/ext.00000.json"
-            },
-            "extended": {
-              "info": {
-                "url_png_icon_64x64": "https://illustratorandweb.com/ext/pool-00000-24bit-64x64.png",
-                "url_png_logo": "https://illustratorandweb.com/ext/Pool-00000-24bit-1000x1000.png",
-                "location": "Arizona, USA",
-                "social": {
-                  "twitter_handle": "AdaberryPi",
-                  "telegram_handle": "AdaberryPi"
-                },
-                "about": {
-                  "server": "Get rewarded for helping heal the environment and economy when you delegate your Cardano stake to our mission-driven Adaberry Pi Stake Pool. 🥧 ( π ≈ 3.14 :: ₳ ≡ ∞ ) 😃"
-                }
-              },
-              "my-pool-ids": {
-                "0": "33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4"
-              }
-            }
-          },
-          {
             "id": "7e45a7e6ab3afcf99120e97aedf84e706e43d829ddc610ad667a85a3",
             "name": "PGWADA Stake pool",
             "link": {
@@ -13502,10 +13561,10 @@
             "ticker": "PGWAD",
             "addr": "pool10ez60e4t8t70nyfqa9awm7zwwphy8kpfmhrppttx02z6xeyzgyk",
             "website": "https://twitter.com/PgwadaS",
-            "totalStake": "2162549517",
+            "totalStake": "2163262514",
             "blocksLifetime": "0",
             "delegators": "4",
-            "saturated": 0.000032945323651791,
+            "saturated": 0.000032954563829516,
             "pledge": "100000000",
             "pledged": "628348804",
             "taxRatio": "0",
@@ -13579,7 +13638,7 @@
             "totalStake": "69108838810",
             "blocksLifetime": "0",
             "delegators": "9",
-            "saturated": 0.001052837423558,
+            "saturated": 0.0010527856073911,
             "pledge": "1000000000",
             "pledged": "1004394659",
             "taxRatio": "0.03",
@@ -13716,7 +13775,7 @@
             "totalStake": "4008580433",
             "blocksLifetime": "0",
             "delegators": "3",
-            "saturated": 0.000061068650086971,
+            "saturated": 0.000061065644548514,
             "pledge": "1000000000",
             "pledged": "1099502088",
             "taxRatio": "0.035",
@@ -13831,10 +13890,10 @@
             "ticker": "YYC",
             "addr": "pool1z724xxqgzf9a30eejsa4edznmv8hgy27ssxqfcpqz42sc6lfqwu",
             "website": "https://bit.ly/3cRZRen",
-            "totalStake": "4039068939",
+            "totalStake": "4093412519",
             "blocksLifetime": "0",
             "delegators": "4",
-            "saturated": 0.000061533126710481,
+            "saturated": 0.000062357953907543,
             "pledge": "1000000000",
             "pledged": "1000000000",
             "taxRatio": "0.02",
@@ -13944,15 +14003,15 @@
               "href": "/stake-pools/9e8009b249142d80144dfb681984e08d96d51c2085e8bb6d9d1831d2"
             },
             "description": "A container first approach to Cardano. ASTOR is non-profit. We donate 100% of the pool's margin to charity and pay monthly dividends to loyal delegators. With love by IT professionals from Bavaria.",
-            "image": "https://static.adapools.org/pool_logo/9e8009b249142d80144dfb681984e08d96d51c2085e8bb6d9d1831d2.png",
+            "image": "http://astorpool.net/img/astor-logo.png",
             "hasImage": true,
             "ticker": "ASTOR",
             "addr": "pool1n6qqnvjfzskcq9zdld5pnp8q3ktd28pqsh5tkmvarqcayr76puv",
             "website": "http://astorpool.net",
-            "totalStake": "989389645262",
+            "totalStake": "1041723472102",
             "blocksLifetime": "42",
-            "delegators": "58",
-            "saturated": 0.015072839638884,
+            "delegators": "60",
+            "saturated": 0.015869337369792,
             "pledge": "200000000000",
             "pledged": "211317645511",
             "taxRatio": "0.01",
@@ -14012,7 +14071,7 @@
             "extended": {
               "info": {
                 "url_png_icon_64x64": "http://astorpool.net/img/favicon-univ.png",
-                "_url_png_logo": "http(s) url to pool logo; not animated; max 50kb",
+                "url_png_logo": "http://astorpool.net/img/astor-logo.png",
                 "location": "Bavaria, Germany",
                 "social": {
                   "twitter_handle": "AstorPool",
@@ -14085,7 +14144,7 @@
             "totalStake": "2201499279",
             "blocksLifetime": "0",
             "delegators": "2",
-            "saturated": 0.000033538703135203,
+            "saturated": 0.000033537052503301,
             "pledge": "1650204431",
             "pledged": "1653001618",
             "taxRatio": "0",
@@ -14656,9 +14715,9 @@
       "attrs": {
         "component-type": "PoolMapSection",
         "component-id": "PoolMapSection",
-        "component-cached-at": "2021-07-15T11:19:15.839Z",
-        "component-cached-in": "686 μs",
-        "component-resolved-in": "686 μs"
+        "component-cached-at": "2021-07-16T19:05:05.264Z",
+        "component-cached-in": "775 μs",
+        "component-resolved-in": "775 μs"
       },
       "components": {}
     }
