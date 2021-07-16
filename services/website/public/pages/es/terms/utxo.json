@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"utxo\",\"language\":\"es\",\"slug\":\"/es/terms/utxo\",\"url\":\"https:///website.codespace1.sublayer.io/es/terms/utxo\",\"origin\":\"/es/terms/utxo\",\"title\":\"UTXO\",\"description\":\"UTXO (Unspent Transaction Output) significa \\\"Salida de transacción no gastada\\\". En las criptomonedas, un UTXO es una abstracción de dinero electrónico. Cada UTXO es análogo a una moneda y tiene una cierta cantidad de valor en su respectiva moneda.\",\"aliases\":[\"utxo\",\"utxo model\",\"cardano utxo model\"],\"keywords\":[\"utxo\",\"cardano\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"Alex (Quixote Pool)\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-12T16:31:58.000Z\",\"filePath\":\"/es/terms/utxo.md\",\"body\":\"Otra forma de verlo, usando una analogía del dinero fiduciario, es que los UTXO representan varias cantidades de \\\"cambio\\\" disponibles para cualquier usuario en particular. Los valores no gastados en cada bloque son UTXO, y cuando se “gastan” (han sido usados en una transacción) crean un nuevo “cambio” (nuevos UTXO). [Detailed information](https://medium.com/bitbees/what-the-heck-is-utxo-ca68f2651819).\\n\\n<YoutubeVideo url=\\\"https://www.youtube.com/watch?v=hKft6E4K8KY\\\" description=\\\"Video explaining the UTXO Model\\\" />\\n\",\"mdxSource\":{\"compiledSource\":\"var p=Object.defineProperty,l=Object.defineProperties;var m=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var s=Object.prototype.hasOwnProperty,u=Object.prototype.propertyIsEnumerable;var i=(o,e,a)=>e in o?p(o,e,{enumerable:!0,configurable:!0,writable:!0,value:a}):o[e]=a,t=(o,e)=>{for(var a in e||(e={}))s.call(e,a)&&i(o,a,e[a]);if(r)for(var a of r(e))u.call(e,a)&&i(o,a,e[a]);return o},d=(o,e)=>l(o,m(e));var c=(o,e)=>{var a={};for(var n in o)s.call(o,n)&&e.indexOf(n)<0&&(a[n]=o[n]);if(o!=null&&r)for(var n of r(o))e.indexOf(n)<0&&u.call(o,n)&&(a[n]=o[n]);return a};const makeShortcode=o=>function(a){return console.warn(\\\"Component \\\"+o+\\\" was not imported, exported, or provided by MDXProvider as global scope\\\"),mdx(\\\"div\\\",t({},a))},YoutubeVideo=makeShortcode(\\\"YoutubeVideo\\\"),layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(a){var n=a,{components:o}=n,e=c(n,[\\\"components\\\"]);return mdx(MDXLayout,d(t(t({},layoutProps),e),{components:o,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,'Otra forma de verlo, usando una analog\\\\xEDa del dinero fiduciario, es que los UTXO representan varias cantidades de \\\"cambio\\\" disponibles para cualquier usuario en particular. Los valores no gastados en cada bloque son UTXO, y cuando se \\\\u201Cgastan\\\\u201D (han sido usados en una transacci\\\\xF3n) crean un nuevo \\\\u201Ccambio\\\\u201D (nuevos UTXO). ',mdx(\\\"a\\\",t({parentName:\\\"p\\\"},{href:\\\"https://medium.com/bitbees/what-the-heck-is-utxo-ca68f2651819\\\"}),\\\"Detailed information\\\"),\\\".\\\"),mdx(YoutubeVideo,{url:\\\"https://www.youtube.com/watch?v=hKft6E4K8KY\\\",description:\\\"Video explaining the UTXO Model\\\",mdxType:\\\"YoutubeVideo\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-15T11:19:17.233Z",
-  "_cachedIn": "740 μs",
-  "_resolvedIn": "740 μs",
+  "_cachedAt": "2021-07-16T19:05:06.597Z",
+  "_cachedIn": "575 μs",
+  "_resolvedIn": "575 μs",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -44,17 +44,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-15T11:19:17.233Z",
-    "component-cached-in": "740 μs",
-    "component-resolved-in": "740 μs"
+    "component-cached-at": "2021-07-16T19:05:06.597Z",
+    "component-cached-in": "575 μs",
+    "component-resolved-in": "575 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-15T11:19:17.233Z",
-      "_cachedIn": "577 μs",
-      "_resolvedIn": "577 μs",
+      "_cachedAt": "2021-07-16T19:05:06.597Z",
+      "_cachedIn": "445 μs",
+      "_resolvedIn": "445 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -63,17 +63,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-15T11:19:17.233Z",
-        "component-cached-in": "577 μs",
-        "component-resolved-in": "577 μs"
+        "component-cached-at": "2021-07-16T19:05:06.597Z",
+        "component-cached-in": "445 μs",
+        "component-resolved-in": "445 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-15T11:19:17.233Z",
-          "_cachedIn": "323 μs",
-          "_resolvedIn": "323 μs",
+          "_cachedAt": "2021-07-16T19:05:06.596Z",
+          "_cachedIn": "275 μs",
+          "_resolvedIn": "275 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -81,7 +81,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-15T11:19:05.348Z",
+              "createdAt": "2021-07-16T19:04:53.106Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -224,6 +224,36 @@
               }
             ],
             "pages": [
+              {
+                "id": "1-the-aaip-process",
+                "language": "en",
+                "slug": "/aaips/1-the-aaip-process",
+                "url": "https:///website.codespace1.sublayer.io/aaips/1-the-aaip-process",
+                "origin": "/aaips/1-the-aaip-process",
+                "title": "AAIP 1: The AAIP Process",
+                "aliases": null,
+                "keywords": null,
+                "template": "AAIPDetailPage",
+                "identities": [
+                  {
+                    "id": "sublayerio",
+                    "role": "author"
+                  }
+                ],
+                "filePath": "/en/aaips/1-the-aaip-process.md"
+              },
+              {
+                "id": "aaips",
+                "language": "en",
+                "slug": "/aaips",
+                "url": "https:///website.codespace1.sublayer.io/aaips",
+                "origin": "/aaips",
+                "title": "AAIPs",
+                "aliases": null,
+                "keywords": null,
+                "template": "AAIPsPage",
+                "filePath": "/en/aaips.md"
+              },
               {
                 "id": "how-to-choose-a-stake-pool",
                 "language": "en",
@@ -412,6 +442,18 @@
                 ],
                 "updatedAt": "2021-07-10T20:43:29.000Z",
                 "filePath": "/nl/blogs/wat-is-staken.md"
+              },
+              {
+                "id": "blogs",
+                "language": "en",
+                "slug": "/blogs",
+                "url": "https:///website.codespace1.sublayer.io/blogs",
+                "origin": "/blogs",
+                "title": "Blogs",
+                "aliases": null,
+                "keywords": null,
+                "template": "BlogsPage",
+                "filePath": "/en/blogs.md"
               },
               {
                 "language": "en",
@@ -789,20 +831,6 @@
                 "filePath": "/en/identities.md"
               },
               {
-                "id": "Adaberry_Pi",
-                "language": "en",
-                "slug": "/identities/Adaberry_Pi",
-                "url": "https:///website.codespace1.sublayer.io/identities/Adaberry_Pi",
-                "origin": "/identities/Adaberry_Pi",
-                "title": "DeCentN2Madness",
-                "aliases": null,
-                "keywords": null,
-                "template": "IdentityDetailPage",
-                "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-14T21:15:04.000Z",
-                "filePath": "/en/identities/Adaberry_Pi.md"
-              },
-              {
                 "id": "Chris_Rain",
                 "language": "en",
                 "slug": "/identities/Chris_Rain",
@@ -816,6 +844,21 @@
                 "image": "https://armada-alliance.com/assets/ship-420.png",
                 "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/Chris_Rain.md"
+              },
+              {
+                "id": "DeCentN2Madness",
+                "language": "en",
+                "slug": "/identities/DeCentN2Madness",
+                "url": "https:///website.codespace1.sublayer.io/identities/DeCentN2Madness",
+                "origin": "/identities/DeCentN2Madness",
+                "title": "DeCentN2Madness 🐇",
+                "description": "SPO",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "/decentn2madness.png",
+                "updatedAt": "2021-07-16T16:09:48.000Z",
+                "filePath": "/en/identities/DeCentN2Madness.md"
               },
               {
                 "id": "Zebra_Danio",
@@ -1199,12 +1242,12 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/sublayerio",
                 "origin": "/identities/sublayerio",
                 "title": "sublayerio🧙‍♂️",
-                "description": "🧙‍♂️ Open Sourcerer, SPO, Co-Founder",
+                "description": "🧙‍♂️ Open Sourcerer, SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://cdn.sublayer.io/logo.png",
-                "updatedAt": "2021-07-14T18:12:31.000Z",
+                "updatedAt": "2021-07-15T11:20:51.000Z",
                 "filePath": "/en/identities/sublayerio.md"
               },
               {
@@ -1485,12 +1528,12 @@
                 "template": "PoolDetailPage",
                 "identities": [
                   {
-                    "id": "Adaberry_Pi",
+                    "id": "DeCentN2Madness",
                     "role": "spo"
                   }
                 ],
-                "image": "https://illustratorandweb.com/ext/Pool-00000-24bit-1000x1000.png",
-                "updatedAt": "2021-07-13T10:18:10.000Z",
+                "image": "https://illustratorandweb.com/ext/pool-00000-24bit-1000x1000.png",
+                "updatedAt": "2021-07-16T09:50:36.000Z",
                 "filePath": "/en/stake-pools/33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4.md"
               },
               {
@@ -1741,7 +1784,7 @@
                     "role": "spo"
                   }
                 ],
-                "image": "https://static.adapools.org/pool_logo/9e8009b249142d80144dfb681984e08d96d51c2085e8bb6d9d1831d2.png",
+                "image": "http://astorpool.net/img/astor-logo.png",
                 "updatedAt": "2021-07-13T05:58:26.000Z",
                 "filePath": "/en/stake-pools/9e8009b249142d80144dfb681984e08d96d51c2085e8bb6d9d1831d2.md"
               },
@@ -7166,18 +7209,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-15T11:19:17.233Z",
-            "component-cached-in": "323 μs",
-            "component-resolved-in": "323 μs"
+            "component-cached-at": "2021-07-16T19:05:06.596Z",
+            "component-cached-in": "275 μs",
+            "component-resolved-in": "275 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-15T11:19:17.233Z",
-          "_cachedIn": "400 μs",
-          "_resolvedIn": "400 μs",
+          "_cachedAt": "2021-07-16T19:05:06.597Z",
+          "_cachedIn": "359 μs",
+          "_resolvedIn": "359 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7188,15 +7231,15 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-15T11:19:17.233Z",
-            "component-cached-in": "400 μs",
-            "component-resolved-in": "400 μs"
+            "component-cached-at": "2021-07-16T19:05:06.597Z",
+            "component-cached-in": "359 μs",
+            "component-resolved-in": "359 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-15T11:19:17.233Z",
+              "_cachedAt": "2021-07-16T19:05:06.596Z",
               "_cachedIn": "85 μs",
               "_resolvedIn": "85 μs",
               "id": "SearchBox",
@@ -7205,6 +7248,14 @@
               "error": null,
               "props": {
                 "templates": [
+                  {
+                    "id": "BlogDetailPage",
+                    "name": "Blogs",
+                    "moreLink": {
+                      "name": "Show all",
+                      "href": "/blogs"
+                    }
+                  },
                   {
                     "id": "GuideDetailPage",
                     "name": "Guides",
@@ -7236,13 +7287,21 @@
                       "name": "Show all",
                       "href": "/terms"
                     }
+                  },
+                  {
+                    "id": "AAIPDetailPage",
+                    "name": "Improvement Proposals",
+                    "moreLink": {
+                      "name": "Show all",
+                      "href": "/aaips"
+                    }
                   }
                 ]
               },
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-15T11:19:17.233Z",
+                "component-cached-at": "2021-07-16T19:05:06.596Z",
                 "component-cached-in": "85 μs",
                 "component-resolved-in": "85 μs"
               },
@@ -7253,9 +7312,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-15T11:19:17.233Z",
-          "_cachedIn": "215 μs",
-          "_resolvedIn": "215 μs",
+          "_cachedAt": "2021-07-16T19:05:06.596Z",
+          "_cachedIn": "138 μs",
+          "_resolvedIn": "138 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7264,9 +7323,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-15T11:19:17.233Z",
-            "component-cached-in": "215 μs",
-            "component-resolved-in": "215 μs"
+            "component-cached-at": "2021-07-16T19:05:06.596Z",
+            "component-cached-in": "138 μs",
+            "component-resolved-in": "138 μs"
           },
           "components": {}
         }
@@ -7275,9 +7334,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-15T11:19:17.233Z",
-      "_cachedIn": "410 μs",
-      "_resolvedIn": "410 μs",
+      "_cachedAt": "2021-07-16T19:05:06.596Z",
+      "_cachedIn": "284 μs",
+      "_resolvedIn": "284 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7290,18 +7349,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-15T11:19:17.233Z",
-        "component-cached-in": "410 μs",
-        "component-resolved-in": "410 μs"
+        "component-cached-at": "2021-07-16T19:05:06.596Z",
+        "component-cached-in": "284 μs",
+        "component-resolved-in": "284 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-15T11:19:17.233Z",
-      "_cachedIn": "256 μs",
-      "_resolvedIn": "256 μs",
+      "_cachedAt": "2021-07-16T19:05:06.596Z",
+      "_cachedIn": "137 μs",
+      "_resolvedIn": "137 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7313,18 +7372,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-15T11:19:17.233Z",
-        "component-cached-in": "256 μs",
-        "component-resolved-in": "256 μs"
+        "component-cached-at": "2021-07-16T19:05:06.596Z",
+        "component-cached-in": "137 μs",
+        "component-resolved-in": "137 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-15T11:19:17.233Z",
-      "_cachedIn": "409 μs",
-      "_resolvedIn": "409 μs",
+      "_cachedAt": "2021-07-16T19:05:06.596Z",
+      "_cachedIn": "286 μs",
+      "_resolvedIn": "286 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7343,9 +7402,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-15T11:19:17.233Z",
-        "component-cached-in": "409 μs",
-        "component-resolved-in": "409 μs"
+        "component-cached-at": "2021-07-16T19:05:06.596Z",
+        "component-cached-in": "286 μs",
+        "component-resolved-in": "286 μs"
       },
       "components": {}
     }

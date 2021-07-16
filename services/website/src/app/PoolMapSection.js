@@ -1,5 +1,6 @@
 import React, { useRef, useEffect } from 'react'
 import ReactDOM from 'react-dom'
+import { useRouter } from 'next/router'
 import moment from 'moment'
 import mapboxgl from 'mapbox-gl'
 import cx from 'classnames'
@@ -71,7 +72,23 @@ function setTooltip(features) {
     }
 }
 
+function handleMapClick(ctx, features) {
+
+    const feature = features.find(feature => {
+        return feature.properties && feature.properties.type === 'pool'
+    })
+
+    const pool = JSON.parse(feature.properties.data)
+
+    if (feature) {
+        ctx.router.push(`/stake-pools/${pool.id}`)
+    }
+}
+
+
 export default function PoolMapSection({ pools, relays }) {
+
+    const router = useRouter()
 
     const bounds = relays
         .reduce((result, relay) => {
@@ -112,6 +129,11 @@ export default function PoolMapSection({ pools, relays }) {
             tooltip.setLngLat(e.lngLat);
             map.current.getCanvas().style.cursor = features.length ? 'pointer' : '';
             setTooltip(features);
+        });
+
+        map.current.on('click', function (e) {
+            const features = map.current.queryRenderedFeatures(e.point);
+            handleMapClick({ router }, features);
         });
 
         let imagesByPoolId = {}

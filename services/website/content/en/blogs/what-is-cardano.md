@@ -3,6 +3,7 @@ template: BlogDetailPage
 title: What is [Cardano](/en/terms/cardano.md)?
 description: A 3rd generation blockchain technology that seeks to change the world.
 keywords: ada, cardano, cardano price, ada cardano, cardano price prediction, cardano prediction, crypto, crypto cardano, ethereum, bitcoin, cardano stock, cardano news
+status: concept
 identities: 
     - id: wael-ivie
       role: author
