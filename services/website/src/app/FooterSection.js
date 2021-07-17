@@ -4,6 +4,7 @@ import moment from 'moment'
 import lowerFirst from 'lodash/lowerFirst'
 import Link from './Link'
 import Context from './Context'
+import NewsletterSection from '../NewsletterSection'
 
 function SubscribeForm() {
 
@@ -20,7 +21,7 @@ function SubscribeForm() {
 
         await axios.request({
             method: 'post',
-            url: 'https://webhook.site/00500e52-15ea-49db-bd34-8645c07f6ea3',
+            url: 'https://api.sublayer.io/armada-api/newsletter/submit',
             headers: {
                 'content-type': 'application/json'
             },
@@ -37,7 +38,7 @@ function SubscribeForm() {
         <form className="mt-4 sm:flex sm:max-w-md" onSubmit={handleSubmit}>
             <label htmlFor="emailAddress" className="sr-only">
                 Email address
-                </label>
+            </label>
             <input
                 type="email"
                 name="emailAddress"
@@ -67,27 +68,30 @@ export default function Footer() {
     const { pages, schema } = useContext(Context)
 
     return (
-        <footer className="bg-white" aria-labelledby="footerHeading">
-            <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-                <div className="md:flex md:items-center md:justify-between">
-                    <div className="flex space-x-6 md:order-2">
-                        {/* {navigation.social.map((item) => (
+        <>
+            <NewsletterSection />
+            <footer className="bg-white" aria-labelledby="footerHeading">
+                <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+                    <div className="md:flex md:items-center md:justify-between">
+                        <div className="flex space-x-6 md:order-2">
+                            {/* {navigation.social.map((item) => (
                             <a key={item.name} href={item.href} target="_blank" className="text-gray-400 hover:text-gray-500">
                                 <span className="sr-only">{item.name}</span>
                                 <item.icon className="h-6 w-6" aria-hidden="true" />
                             </a>
                         ))} */}
-                    </div>
-                    <p className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-2 items-center text-base text-gray-400 md:mt-0 md:order-1">
-                        <div>
-                            {moment().format('YYYY')} {schema.about.name}
                         </div>
-                        <Link href={'/sitemap'}>
-                            <a className="text-xs text-gray-600 font-bold px-2 py-1 rounded-md bg-gray-50 hover:bg-gray-100">{pages.length} pages generated {lowerFirst(moment(schema.createdAt).calendar())}</a>
-                        </Link>
-                    </p>
+                        <p className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-2 items-center text-base text-gray-400 md:mt-0 md:order-1">
+                            <div>
+                                {moment().format('YYYY')} {schema.about.name}
+                            </div>
+                            <Link href={'/sitemap'}>
+                                <a className="text-xs text-gray-600 font-bold px-2 py-1 rounded-md bg-gray-50 hover:bg-gray-100">{pages.length} pages generated {lowerFirst(moment(schema.createdAt).calendar())}</a>
+                            </Link>
+                        </p>
+                    </div>
                 </div>
-            </div>
-        </footer>
+            </footer>
+        </>
     )
 }
