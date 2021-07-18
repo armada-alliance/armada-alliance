@@ -2,8 +2,8 @@
 template: TermDetailPage
 title: Crypto mining
 description: In proof-of-work blockchain's like Bitcoin mining is the process by which new crypto-currencies or digital assets are created and distributed to the blockchain's decentralized ledger.
-aliases: ACTUS
-keywords: ACTUS, Algorithmic, Contract, Types, Unified, Standards
+aliases: crypto-mining, bitcoin-mining, mining, mining-bitcoin, mining-crypto, mining-crypto-currencies, mining-crypto-assets, staking, proof-of-work, proof-of-stake
+keywords: crypto, mining, mining-bitcoin, mining-crypto, mining-crypto-currencies, mining-crypto-assets, staking, proof-of-work, proof-of-stake
 identities: 
     - id: wael-ivie
       role: author
