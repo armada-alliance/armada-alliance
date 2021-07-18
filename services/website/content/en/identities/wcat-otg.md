@@ -1,7 +1,7 @@
 ---
 template: IdentityDetailPage
 title: WCat(Wayne)
-description: SPO, Co-Founder
+description: SPO
 image: /wcat.jpeg
 website: https://adamantium.online
 donationAddress: addr1qyzrfl2lf0ugsz25heszl7pp0fd29qh73xqe62axh2u5agdsvcnspa6ljktrhpxj2rfjv09xyxppd9lvg0mkzk3cj7gs3qxxwx
