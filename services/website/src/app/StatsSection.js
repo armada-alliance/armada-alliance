@@ -86,6 +86,7 @@ export default function StatsSection({ title, pretitle, description, poolCount, 
                                     <div className="text-5xl font-extrabold text-primary-500">
                                         <AdaPrice
                                             className="space-x-3"
+                                            currencySize="text-3xl"
                                             value={liveStake.value / 1000000}
                                         />
                                     </div>

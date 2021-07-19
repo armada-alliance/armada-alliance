@@ -10,17 +10,17 @@ const currencies = [
     { name: 'EUR', label: 'EUR' }
 ]
 
-export default function AdaPrice({ value, className }) {
+export default function AdaPrice({ value, className, currencySize }) {
 
     const [currencyIndex, setCurrencyIndex] = useState(0)
     const [data, setData] = useState(null)
 
-    // useEffect(async () => {
-    //     if (data) return
-    //     const { data } = await axios.get('https://pool.pm/total.json')
+    useEffect(async () => {
+        if (data) return
+        const { data: _data } = await axios.get('https://pool.pm/total.json')
 
-    //     setData(data)
-    // }, [data])
+        setData(_data)
+    }, [data])
 
     const currency = currencies[currencyIndex]
 
@@ -45,7 +45,7 @@ export default function AdaPrice({ value, className }) {
 
     return (
         <div className={cx("flex justify-center items-end select-none", className)}>
-            <div>{numeral(adjustedValue).format('0,0.00a').replace('.00', '')}</div> <button type="button" onClick={handleCurrencyClick} className="focus:outline-none cursor-pointer hover:text-gray-900">{currency.label}</button>
+            <div>{numeral(adjustedValue).format('0,0.00a').replace('.00', '')}</div> <button type="button" onClick={handleCurrencyClick} className={cx(currencySize, "focus:outline-none cursor-pointer hover:text-gray-900")}>{currency.label}</button>
         </div>
     )
 }
