@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"GuideDetailPage\",\"version\":1},\"props\":{\"id\":\"launch-a-cardano-stake-pool\",\"language\":\"en\",\"slug\":\"/guides/launch-a-cardano-stake-pool\",\"url\":\"https:///website.codespace1.sublayer.io/guides/launch-a-cardano-stake-pool\",\"origin\":\"/guides/launch-a-cardano-stake-pool\",\"title\":\"Launch a Cardano Stake Pool\",\"description\":\"A full guide to creating a stake pool in which we set up a Block Producer Node & Relay Node.\",\"aliases\":null,\"keywords\":[\"Coming Soon\",\"Stake Pool Operation\",\"Raspberry Pi\",\"ARM\"],\"template\":\"GuideDetailPage\",\"icon\":\"🚀\",\"updatedAt\":\"2021-06-18T08:52:24.000Z\",\"filePath\":\"/en/guides/launch-a-cardano-stake-pool.md\",\"body\":\"\",\"mdxSource\":{\"compiledSource\":\"var M=Object.defineProperty,X=Object.defineProperties;var c=Object.getOwnPropertyDescriptors;var u=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,a=Object.prototype.propertyIsEnumerable;var s=(o,t,n)=>t in o?M(o,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):o[t]=n,p=(o,t)=>{for(var n in t||(t={}))r.call(t,n)&&s(o,n,t[n]);if(u)for(var n of u(t))a.call(t,n)&&s(o,n,t[n]);return o},y=(o,t)=>X(o,c(t));var D=(o,t)=>{var n={};for(var e in o)r.call(o,e)&&t.indexOf(e)<0&&(n[e]=o[e]);if(o!=null&&u)for(var e of u(o))t.indexOf(e)<0&&a.call(o,e)&&(n[e]=o[e]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var e=n,{components:o}=e,t=D(e,[\\\"components\\\"]);return mdx(MDXLayout,y(p(p({},layoutProps),t),{components:o,mdxType:\\\"MDXLayout\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-19T14:24:15.489Z",
-  "_cachedIn": "183 ms",
-  "_resolvedIn": "183 ms",
+  "_cachedAt": "2021-07-19T17:05:49.914Z",
+  "_cachedIn": "320 ms",
+  "_resolvedIn": "320 ms",
   "id": "GuideDetailPage",
   "type": "GuideDetailPage",
   "status": "resolved",
@@ -38,17 +38,17 @@
   "attrs": {
     "component-type": "GuideDetailPage",
     "component-id": "GuideDetailPage",
-    "component-cached-at": "2021-07-19T14:24:15.489Z",
-    "component-cached-in": "183 ms",
-    "component-resolved-in": "183 ms"
+    "component-cached-at": "2021-07-19T17:05:49.914Z",
+    "component-cached-in": "320 ms",
+    "component-resolved-in": "320 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-19T14:24:15.489Z",
-      "_cachedIn": "196 μs",
-      "_resolvedIn": "196 μs",
+      "_cachedAt": "2021-07-19T17:05:49.914Z",
+      "_cachedIn": "240 μs",
+      "_resolvedIn": "240 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -57,17 +57,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-19T14:24:15.489Z",
-        "component-cached-in": "196 μs",
-        "component-resolved-in": "196 μs"
+        "component-cached-at": "2021-07-19T17:05:49.914Z",
+        "component-cached-in": "240 μs",
+        "component-resolved-in": "240 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-19T14:24:15.488Z",
-          "_cachedIn": "111 μs",
-          "_resolvedIn": "111 μs",
+          "_cachedAt": "2021-07-19T17:05:49.914Z",
+          "_cachedIn": "122 μs",
+          "_resolvedIn": "122 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -75,7 +75,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-19T14:24:01.982Z",
+              "createdAt": "2021-07-19T17:05:38.616Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -7154,18 +7154,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-19T14:24:15.488Z",
-            "component-cached-in": "111 μs",
-            "component-resolved-in": "111 μs"
+            "component-cached-at": "2021-07-19T17:05:49.914Z",
+            "component-cached-in": "122 μs",
+            "component-resolved-in": "122 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-19T14:24:15.488Z",
-          "_cachedIn": "130 μs",
-          "_resolvedIn": "130 μs",
+          "_cachedAt": "2021-07-19T17:05:49.914Z",
+          "_cachedIn": "141 μs",
+          "_resolvedIn": "141 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7176,17 +7176,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-19T14:24:15.488Z",
-            "component-cached-in": "130 μs",
-            "component-resolved-in": "130 μs"
+            "component-cached-at": "2021-07-19T17:05:49.914Z",
+            "component-cached-in": "141 μs",
+            "component-resolved-in": "141 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-19T14:24:15.488Z",
-              "_cachedIn": "32 μs",
-              "_resolvedIn": "32 μs",
+              "_cachedAt": "2021-07-19T17:05:49.914Z",
+              "_cachedIn": "33 μs",
+              "_resolvedIn": "33 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7246,9 +7246,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-19T14:24:15.488Z",
-                "component-cached-in": "32 μs",
-                "component-resolved-in": "32 μs"
+                "component-cached-at": "2021-07-19T17:05:49.914Z",
+                "component-cached-in": "33 μs",
+                "component-resolved-in": "33 μs"
               },
               "components": {}
             }
@@ -7257,9 +7257,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-19T14:24:15.488Z",
-          "_cachedIn": "71 μs",
-          "_resolvedIn": "71 μs",
+          "_cachedAt": "2021-07-19T17:05:49.914Z",
+          "_cachedIn": "80 μs",
+          "_resolvedIn": "80 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7268,9 +7268,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-19T14:24:15.488Z",
-            "component-cached-in": "71 μs",
-            "component-resolved-in": "71 μs"
+            "component-cached-at": "2021-07-19T17:05:49.914Z",
+            "component-cached-in": "80 μs",
+            "component-resolved-in": "80 μs"
           },
           "components": {}
         }
@@ -7279,9 +7279,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-19T14:24:15.488Z",
-      "_cachedIn": "144 μs",
-      "_resolvedIn": "144 μs",
+      "_cachedAt": "2021-07-19T17:05:49.914Z",
+      "_cachedIn": "159 μs",
+      "_resolvedIn": "159 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7294,18 +7294,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-19T14:24:15.488Z",
-        "component-cached-in": "144 μs",
-        "component-resolved-in": "144 μs"
+        "component-cached-at": "2021-07-19T17:05:49.914Z",
+        "component-cached-in": "159 μs",
+        "component-resolved-in": "159 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-19T14:24:15.488Z",
-      "_cachedIn": "56 μs",
-      "_resolvedIn": "56 μs",
+      "_cachedAt": "2021-07-19T17:05:49.913Z",
+      "_cachedIn": "63 μs",
+      "_resolvedIn": "63 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7317,18 +7317,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-19T14:24:15.488Z",
-        "component-cached-in": "56 μs",
-        "component-resolved-in": "56 μs"
+        "component-cached-at": "2021-07-19T17:05:49.913Z",
+        "component-cached-in": "63 μs",
+        "component-resolved-in": "63 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-19T14:24:15.488Z",
-      "_cachedIn": "143 μs",
-      "_resolvedIn": "143 μs",
+      "_cachedAt": "2021-07-19T17:05:49.914Z",
+      "_cachedIn": "157 μs",
+      "_resolvedIn": "157 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7348,9 +7348,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-19T14:24:15.488Z",
-        "component-cached-in": "143 μs",
-        "component-resolved-in": "143 μs"
+        "component-cached-at": "2021-07-19T17:05:49.914Z",
+        "component-cached-in": "157 μs",
+        "component-resolved-in": "157 μs"
       },
       "components": {}
     }
