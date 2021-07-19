@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"AAIPDetailPage\",\"version\":1},\"props\":{\"id\":\"1-the-aaip-process\",\"language\":\"en\",\"slug\":\"/aaips/1-the-aaip-process\",\"url\":\"https:///website.codespace1.sublayer.io/aaips/1-the-aaip-process\",\"origin\":\"/aaips/1-the-aaip-process\",\"title\":\"AAIP 1: The AAIP Process\",\"aliases\":null,\"keywords\":null,\"template\":\"AAIPDetailPage\",\"identities\":[{\"id\":\"sublayerio\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-16T19:28:03.000Z\",\"filePath\":\"/en/aaips/1-the-aaip-process.md\",\"body\":\"## Abstract \\n\\nAn Armada Alliance Improvement Proposal (AAIP) is a formalized design document for the Armada Alliance community, providing information or describing a new feature for the Armada Alliance, its processes, or environment in a concise and technically sufficient manner. In this AAIP we describe what a AAIP is, how the AAIP process functions, and how users should go about proposing, discussing and structuring a AAIP.\\n\\nThe Armada Alliance intends AAIPs to be the primary mechanisms for proposing new features, collecting community input on an issue, and for documenting design decisions that have gone into the Armada Alliance. Because the AAIPs are maintained as text files in a versioned repository, their revision history is the historical record of the feature proposal.\\n\\n## Specification\\n\\n### AAIP types\\n\\nThere are three kinds of AAIP:\\n\\n- **A Standards Track AAIP** — describes any change that affects most or all Armada Alliance implementations, such as a change to the website, a change in rules of operating a stake pool, or any change or addition that affects the way members of the Armada Alliance operate. Standards Track AAIP consist of two parts, a design document and a reference implementation.\\n\\n- **A Process AAIP** — describes a process surrounding the Armada Alliance, or proposes a change to (or an event in) a process. Process AAIPs are like Standards Track AAIP but apply to areas other than the Armada Alliance codebase itself. They may propose an implementation, but not to the Armada Alliance codebase; they often require community consensus; unlike Informational AAIPs, they are more than recommendations, and users are typically not free to ignore them. Examples include procedures, guidelines, changes to the decision-making process, and changes to the tools or environment used in Armada Alliance development. Any meta-AAIP is also considered a Process AAIP.\\n\\n- **An Informational AAIP** — describes a Cardano design issue, or provides general guidelines or information to the Armada Alliance community, but does not propose a new feature. Informational AAIPs do not necessarily represent an Armada Alliance community consensus or recommendation, so users and implementors are free to ignore Informational AAIPs or follow their advice.\\n\\n### AAIP format and structure\\n\\nAAIPs should be written in [Markdown](https://guides.github.com/features/mastering-markdown/) format. Each AAIP should have the following parts:\\n\\n| Name | Description |\\n| --- | --- |\\n| Preamble | Headers containing metadata about the AAIP ([see below](#AAIP-header-preamble)). |\\n| Abstract | A short (\\\\~200 word) description of the technical issue being addressed. |\\n| Motivation | The motivation is critical for AAIPs that want to change the Cardano protocol. It should clearly explain why the existing protocol is inadequate to address the problem that the AAIP solves. |\\n| Specification | The technical specification should describe the syntax and semantics of any new feature. The specification should be detailed enough. |\\n| Rationale | The rationale fleshes out the specification by describing what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work. The rationale should provide evidence of consensus within the community and discuss important objections or concerns raised during discussion.|\\n| Backwards compatibility | All AAIPs that introduce backwards incompatibilities must include a section describing these incompatibilities and their severity. The AAIP must explain how the author proposes to deal with these incompatibilities.|\\n| Reference implementation | The reference implementation must be completed before any AAIP is given status \\\"Active\\\", but it need not be completed before the AAIP is accepted. It is better to finish the specification and rationale first and reach consensus on it before writing code. The final implementation must include test code and documentation appropriate for the Armada Alliance codebase.|\\n| Copyright | The AAIP must be explicitly licensed under acceptable copyright terms ([see below](#AAIP-licensing)).|\\n\\n### AAIP Workflow\\n\\nA AAIP begins as an idea about how to improve the Armada Alliance codebase or its surrounding processes, with one or more individuals who are willing to propose and discuss the idea with the Armada Alliance community. After initial discussion and feedback, the idea is then formalized into a properly formatted proposal and submitted as a pull request to the AAIP repository. The resulting new Draft AAIP is then publicly processed and progressed as follows:  \\n\\n![AAIP Flow](https://armada-alliance.com/assets/AAIP_Flow.png)\\n\\n\\n#### AAIP statuses\\n\\n| Status   | Description                                                                                                                    |\\n| ---      | ---                                                                                                                            |\\n| Draft    | The idea has been formally accepted in the repository, and is being worked on by its authors.                                  |\\n| Proposed | A working implementation exists, as well as a clear plan highlighting what is required for this AAIP to transition to \\\"Active\\\". |\\n| Active   | The proposal is deemed to have met all the appropriate criterias to be considered Active.                                      |\\n| On Hold  | The AAIP author is not currently working on this effort.                                                                        |\\n| Obsolete | The AAIP was either retired or made obsolete by a newer AAIP.                                                                    |\\n| Rejected | There is some issue with the AAIP that makes it not acceptable at this point.                                                   |\\n\",\"mdxSource\":{\"compiledSource\":\"var m=Object.defineProperty,c=Object.defineProperties;var h=Object.getOwnPropertyDescriptors;var i=Object.getOwnPropertySymbols;var o=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var l=(t,a,n)=>a in t?m(t,a,{enumerable:!0,configurable:!0,writable:!0,value:n}):t[a]=n,e=(t,a)=>{for(var n in a||(a={}))o.call(a,n)&&l(t,n,a[n]);if(i)for(var n of i(a))s.call(a,n)&&l(t,n,a[n]);return t},d=(t,a)=>c(t,h(a));var p=(t,a)=>{var n={};for(var r in t)o.call(t,r)&&a.indexOf(r)<0&&(n[r]=t[r]);if(t!=null&&i)for(var r of i(t))a.indexOf(r)<0&&s.call(t,r)&&(n[r]=t[r]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var r=n,{components:t}=r,a=p(r,[\\\"components\\\"]);return mdx(MDXLayout,d(e(e({},layoutProps),a),{components:t,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"h2\\\",null,\\\"Abstract\\\"),mdx(\\\"p\\\",null,\\\"An Armada Alliance Improvement Proposal (AAIP) is a formalized design document for the Armada Alliance community, providing information or describing a new feature for the Armada Alliance, its processes, or environment in a concise and technically sufficient manner. In this AAIP we describe what a AAIP is, how the AAIP process functions, and how users should go about proposing, discussing and structuring a AAIP.\\\"),mdx(\\\"p\\\",null,\\\"The Armada Alliance intends AAIPs to be the primary mechanisms for proposing new features, collecting community input on an issue, and for documenting design decisions that have gone into the Armada Alliance. Because the AAIPs are maintained as text files in a versioned repository, their revision history is the historical record of the feature proposal.\\\"),mdx(\\\"h2\\\",null,\\\"Specification\\\"),mdx(\\\"h3\\\",null,\\\"AAIP types\\\"),mdx(\\\"p\\\",null,\\\"There are three kinds of AAIP:\\\"),mdx(\\\"ul\\\",null,mdx(\\\"li\\\",{parentName:\\\"ul\\\"},mdx(\\\"p\\\",{parentName:\\\"li\\\"},mdx(\\\"strong\\\",{parentName:\\\"p\\\"},\\\"A Standards Track AAIP\\\"),\\\" \\\\u2014 describes any change that affects most or all Armada Alliance implementations, such as a change to the website, a change in rules of operating a stake pool, or any change or addition that affects the way members of the Armada Alliance operate. Standards Track AAIP consist of two parts, a design document and a reference implementation.\\\")),mdx(\\\"li\\\",{parentName:\\\"ul\\\"},mdx(\\\"p\\\",{parentName:\\\"li\\\"},mdx(\\\"strong\\\",{parentName:\\\"p\\\"},\\\"A Process AAIP\\\"),\\\" \\\\u2014 describes a process surrounding the Armada Alliance, or proposes a change to (or an event in) a process. Process AAIPs are like Standards Track AAIP but apply to areas other than the Armada Alliance codebase itself. They may propose an implementation, but not to the Armada Alliance codebase; they often require community consensus; unlike Informational AAIPs, they are more than recommendations, and users are typically not free to ignore them. Examples include procedures, guidelines, changes to the decision-making process, and changes to the tools or environment used in Armada Alliance development. Any meta-AAIP is also considered a Process AAIP.\\\")),mdx(\\\"li\\\",{parentName:\\\"ul\\\"},mdx(\\\"p\\\",{parentName:\\\"li\\\"},mdx(\\\"strong\\\",{parentName:\\\"p\\\"},\\\"An Informational AAIP\\\"),\\\" \\\\u2014 describes a Cardano design issue, or provides general guidelines or information to the Armada Alliance community, but does not propose a new feature. Informational AAIPs do not necessarily represent an Armada Alliance community consensus or recommendation, so users and implementors are free to ignore Informational AAIPs or follow their advice.\\\"))),mdx(\\\"h3\\\",null,\\\"AAIP format and structure\\\"),mdx(\\\"p\\\",null,\\\"AAIPs should be written in \\\",mdx(\\\"a\\\",e({parentName:\\\"p\\\"},{href:\\\"https://guides.github.com/features/mastering-markdown/\\\"}),\\\"Markdown\\\"),\\\" format. Each AAIP should have the following parts:\\\"),mdx(\\\"table\\\",null,mdx(\\\"thead\\\",{parentName:\\\"table\\\"},mdx(\\\"tr\\\",{parentName:\\\"thead\\\"},mdx(\\\"th\\\",e({parentName:\\\"tr\\\"},{align:null}),\\\"Name\\\"),mdx(\\\"th\\\",e({parentName:\\\"tr\\\"},{align:null}),\\\"Description\\\"))),mdx(\\\"tbody\\\",{parentName:\\\"table\\\"},mdx(\\\"tr\\\",{parentName:\\\"tbody\\\"},mdx(\\\"td\\\",e({parentName:\\\"tr\\\"},{align:null}),\\\"Preamble\\\"),mdx(\\\"td\\\",e({parentName:\\\"tr\\\"},{align:null}),\\\"Headers containing metadata about the AAIP (\\\",mdx(\\\"a\\\",e({parentName:\\\"td\\\"},{href:\\\"#AAIP-header-preamble\\\"}),\\\"see below\\\"),\\\").\\\")),mdx(\\\"tr\\\",{parentName:\\\"tbody\\\"},mdx(\\\"td\\\",e({parentName:\\\"tr\\\"},{align:null}),\\\"Abstract\\\"),mdx(\\\"td\\\",e({parentName:\\\"tr\\\"},{align:null}),\\\"A short (\\\",\\\"~\\\",\\\"200 word) description of the technical issue being addressed.\\\")),mdx(\\\"tr\\\",{parentName:\\\"tbody\\\"},mdx(\\\"td\\\",e({parentName:\\\"tr\\\"},{align:null}),\\\"Motivation\\\"),mdx(\\\"td\\\",e({parentName:\\\"tr\\\"},{align:null}),\\\"The motivation is critical for AAIPs that want to change the Cardano protocol. It should clearly explain why the existing protocol is inadequate to address the problem that the AAIP solves.\\\")),mdx(\\\"tr\\\",{parentName:\\\"tbody\\\"},mdx(\\\"td\\\",e({parentName:\\\"tr\\\"},{align:null}),\\\"Specification\\\"),mdx(\\\"td\\\",e({parentName:\\\"tr\\\"},{align:null}),\\\"The technical specification should describe the syntax and semantics of any new feature. The specification should be detailed enough.\\\")),mdx(\\\"tr\\\",{parentName:\\\"tbody\\\"},mdx(\\\"td\\\",e({parentName:\\\"tr\\\"},{align:null}),\\\"Rationale\\\"),mdx(\\\"td\\\",e({parentName:\\\"tr\\\"},{align:null}),\\\"The rationale fleshes out the specification by describing what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work. The rationale should provide evidence of consensus within the community and discuss important objections or concerns raised during discussion.\\\")),mdx(\\\"tr\\\",{parentName:\\\"tbody\\\"},mdx(\\\"td\\\",e({parentName:\\\"tr\\\"},{align:null}),\\\"Backwards compatibility\\\"),mdx(\\\"td\\\",e({parentName:\\\"tr\\\"},{align:null}),\\\"All AAIPs that introduce backwards incompatibilities must include a section describing these incompatibilities and their severity. The AAIP must explain how the author proposes to deal with these incompatibilities.\\\")),mdx(\\\"tr\\\",{parentName:\\\"tbody\\\"},mdx(\\\"td\\\",e({parentName:\\\"tr\\\"},{align:null}),\\\"Reference implementation\\\"),mdx(\\\"td\\\",e({parentName:\\\"tr\\\"},{align:null}),'The reference implementation must be completed before any AAIP is given status \\\"Active\\\", but it need not be completed before the AAIP is accepted. It is better to finish the specification and rationale first and reach consensus on it before writing code. The final implementation must include test code and documentation appropriate for the Armada Alliance codebase.')),mdx(\\\"tr\\\",{parentName:\\\"tbody\\\"},mdx(\\\"td\\\",e({parentName:\\\"tr\\\"},{align:null}),\\\"Copyright\\\"),mdx(\\\"td\\\",e({parentName:\\\"tr\\\"},{align:null}),\\\"The AAIP must be explicitly licensed under acceptable copyright terms (\\\",mdx(\\\"a\\\",e({parentName:\\\"td\\\"},{href:\\\"#AAIP-licensing\\\"}),\\\"see below\\\"),\\\").\\\")))),mdx(\\\"h3\\\",null,\\\"AAIP Workflow\\\"),mdx(\\\"p\\\",null,\\\"A AAIP begins as an idea about how to improve the Armada Alliance codebase or its surrounding processes, with one or more individuals who are willing to propose and discuss the idea with the Armada Alliance community. After initial discussion and feedback, the idea is then formalized into a properly formatted proposal and submitted as a pull request to the AAIP repository. The resulting new Draft AAIP is then publicly processed and progressed as follows:  \\\"),mdx(\\\"p\\\",null,mdx(\\\"img\\\",e({parentName:\\\"p\\\"},{src:\\\"https://armada-alliance.com/assets/AAIP_Flow.png\\\",alt:\\\"AAIP Flow\\\"}))),mdx(\\\"h4\\\",null,\\\"AAIP statuses\\\"),mdx(\\\"table\\\",null,mdx(\\\"thead\\\",{parentName:\\\"table\\\"},mdx(\\\"tr\\\",{parentName:\\\"thead\\\"},mdx(\\\"th\\\",e({parentName:\\\"tr\\\"},{align:null}),\\\"Status\\\"),mdx(\\\"th\\\",e({parentName:\\\"tr\\\"},{align:null}),\\\"Description\\\"))),mdx(\\\"tbody\\\",{parentName:\\\"table\\\"},mdx(\\\"tr\\\",{parentName:\\\"tbody\\\"},mdx(\\\"td\\\",e({parentName:\\\"tr\\\"},{align:null}),\\\"Draft\\\"),mdx(\\\"td\\\",e({parentName:\\\"tr\\\"},{align:null}),\\\"The idea has been formally accepted in the repository, and is being worked on by its authors.\\\")),mdx(\\\"tr\\\",{parentName:\\\"tbody\\\"},mdx(\\\"td\\\",e({parentName:\\\"tr\\\"},{align:null}),\\\"Proposed\\\"),mdx(\\\"td\\\",e({parentName:\\\"tr\\\"},{align:null}),'A working implementation exists, as well as a clear plan highlighting what is required for this AAIP to transition to \\\"Active\\\".')),mdx(\\\"tr\\\",{parentName:\\\"tbody\\\"},mdx(\\\"td\\\",e({parentName:\\\"tr\\\"},{align:null}),\\\"Active\\\"),mdx(\\\"td\\\",e({parentName:\\\"tr\\\"},{align:null}),\\\"The proposal is deemed to have met all the appropriate criterias to be considered Active.\\\")),mdx(\\\"tr\\\",{parentName:\\\"tbody\\\"},mdx(\\\"td\\\",e({parentName:\\\"tr\\\"},{align:null}),\\\"On Hold\\\"),mdx(\\\"td\\\",e({parentName:\\\"tr\\\"},{align:null}),\\\"The AAIP author is not currently working on this effort.\\\")),mdx(\\\"tr\\\",{parentName:\\\"tbody\\\"},mdx(\\\"td\\\",e({parentName:\\\"tr\\\"},{align:null}),\\\"Obsolete\\\"),mdx(\\\"td\\\",e({parentName:\\\"tr\\\"},{align:null}),\\\"The AAIP was either retired or made obsolete by a newer AAIP.\\\")),mdx(\\\"tr\\\",{parentName:\\\"tbody\\\"},mdx(\\\"td\\\",e({parentName:\\\"tr\\\"},{align:null}),\\\"Rejected\\\"),mdx(\\\"td\\\",e({parentName:\\\"tr\\\"},{align:null}),\\\"There is some issue with the AAIP that makes it not acceptable at this point.\\\")))))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-19T11:02:33.827Z",
-  "_cachedIn": "2.48 ms",
-  "_resolvedIn": "2.48 ms",
+  "_cachedAt": "2021-07-19T11:27:53.057Z",
+  "_cachedIn": "5.57 ms",
+  "_resolvedIn": "5.57 ms",
   "id": "AAIPDetailPage",
   "type": "AAIPDetailPage",
   "status": "resolved",
@@ -36,17 +36,17 @@
   "attrs": {
     "component-type": "AAIPDetailPage",
     "component-id": "AAIPDetailPage",
-    "component-cached-at": "2021-07-19T11:02:33.827Z",
-    "component-cached-in": "2.48 ms",
-    "component-resolved-in": "2.48 ms"
+    "component-cached-at": "2021-07-19T11:27:53.057Z",
+    "component-cached-in": "5.57 ms",
+    "component-resolved-in": "5.57 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-19T11:02:33.827Z",
-      "_cachedIn": "1.89 ms",
-      "_resolvedIn": "1.89 ms",
+      "_cachedAt": "2021-07-19T11:27:53.057Z",
+      "_cachedIn": "4.41 ms",
+      "_resolvedIn": "4.41 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -55,17 +55,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-19T11:02:33.827Z",
-        "component-cached-in": "1.89 ms",
-        "component-resolved-in": "1.89 ms"
+        "component-cached-at": "2021-07-19T11:27:53.057Z",
+        "component-cached-in": "4.41 ms",
+        "component-resolved-in": "4.41 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-19T11:02:33.827Z",
-          "_cachedIn": "1.49 ms",
-          "_resolvedIn": "1.49 ms",
+          "_cachedAt": "2021-07-19T11:27:53.057Z",
+          "_cachedIn": "914 μs",
+          "_resolvedIn": "914 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -73,7 +73,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-19T11:02:23.314Z",
+              "createdAt": "2021-07-19T11:27:41.772Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1209,7 +1209,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/wael.jpg",
-                "updatedAt": "2021-06-23T09:31:27.000Z",
+                "updatedAt": "2021-07-18T04:43:17.000Z",
                 "filePath": "/en/identities/wael-ivie.md"
               },
               {
@@ -1219,12 +1219,12 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/wcat-otg",
                 "origin": "/identities/wcat-otg",
                 "title": "WCat(Wayne)",
-                "description": "SPO, Co-Founder",
+                "description": "SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/wcat.jpeg",
-                "updatedAt": "2021-07-14T18:12:31.000Z",
+                "updatedAt": "2021-07-18T08:39:13.000Z",
                 "filePath": "/en/identities/wcat-otg.md"
               },
               {
@@ -1737,6 +1737,27 @@
                 "filePath": "/en/stake-pools/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65.md"
               },
               {
+                "id": "b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81",
+                "language": "en",
+                "slug": "/stake-pools/b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81",
+                "url": "https:///website.codespace1.sublayer.io/stake-pools/b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81",
+                "origin": "/stake-pools/b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81",
+                "title": "Stale Pool (STALE)",
+                "description": "Official stake pool of Stale. Stake with me to support me in making all your favourite community Cardano NFT tools, hosting community events and helping new and upcoming NFT creators!",
+                "aliases": null,
+                "keywords": null,
+                "template": "PoolDetailPage",
+                "identities": [
+                  {
+                    "id": "stale",
+                    "role": "spo"
+                  }
+                ],
+                "image": "https://armada-alliance.com/assets/ship-420.png",
+                "updatedAt": "2021-07-19T11:05:18.000Z",
+                "filePath": "/en/stake-pools/b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81.md"
+              },
+              {
                 "id": "c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2",
                 "language": "en",
                 "slug": "/stake-pools/c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2",
@@ -2011,6 +2032,14 @@
               },
               {
                 "language": "en",
+                "title": "Stale Pool STALE",
+                "slug": "/pool-widget/b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81",
+                "template": "PoolWidgetPage",
+                "poolId": "b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81",
+                "hidden": true
+              },
+              {
+                "language": "en",
                 "title": "Cardano ADA Mini Pool Switzerland MINI1",
                 "slug": "/pool-widget/c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2",
                 "template": "PoolWidgetPage",
@@ -2154,7 +2183,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-18T02:25:03.000Z",
                 "filePath": "/en/terms/ACTUS.md"
               },
               {
@@ -2216,7 +2245,7 @@
                 "url": "https:///website.codespace1.sublayer.io/terms/ada",
                 "origin": "/terms/ada",
                 "title": "Ada (₳)",
-                "description": "The digital currency (or cryptocurrency) of the Cardano blockchain. 1 Ada = 1 million Lovelaces. Ada and Lovelace are named after the mathematician [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace).",
+                "description": "The digital currency (or cryptocurrency) of the Cardano blockchain. 1 Ada = 1 million Lovelace. Ada and Lovelace are named after the mathematician [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace).",
                 "aliases": [
                   "ada",
                   "cardano",
@@ -2252,7 +2281,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-18T02:25:03.000Z",
                 "filePath": "/en/terms/ada.md"
               },
               {
@@ -3130,15 +3159,27 @@
                 "title": "Crypto mining",
                 "description": "In proof-of-work blockchain's like Bitcoin mining is the process by which new crypto-currencies or digital assets are created and distributed to the blockchain's decentralized ledger.",
                 "aliases": [
-                  "ACTUS"
+                  "crypto-mining",
+                  "bitcoin-mining",
+                  "mining",
+                  "mining-bitcoin",
+                  "mining-crypto",
+                  "mining-crypto-currencies",
+                  "mining-crypto-assets",
+                  "staking",
+                  "proof-of-work",
+                  "proof-of-stake"
                 ],
                 "keywords": [
-                  "ACTUS",
-                  "Algorithmic",
-                  "Contract",
-                  "Types",
-                  "Unified",
-                  "Standards"
+                  "crypto",
+                  "mining",
+                  "mining-bitcoin",
+                  "mining-crypto",
+                  "mining-crypto-currencies",
+                  "mining-crypto-assets",
+                  "staking",
+                  "proof-of-work",
+                  "proof-of-stake"
                 ],
                 "template": "TermDetailPage",
                 "identities": [
@@ -3147,7 +3188,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-14T03:39:25.000Z",
+                "updatedAt": "2021-07-18T01:43:37.000Z",
                 "filePath": "/en/terms/crypto-mining.md"
               },
               {
@@ -4369,7 +4410,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-18T02:25:03.000Z",
                 "filePath": "/en/terms/mainnet.md"
               },
               {
@@ -7111,18 +7152,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-19T11:02:33.827Z",
-            "component-cached-in": "1.49 ms",
-            "component-resolved-in": "1.49 ms"
+            "component-cached-at": "2021-07-19T11:27:53.057Z",
+            "component-cached-in": "914 μs",
+            "component-resolved-in": "914 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-19T11:02:33.827Z",
-          "_cachedIn": "1.66 ms",
-          "_resolvedIn": "1.66 ms",
+          "_cachedAt": "2021-07-19T11:27:53.057Z",
+          "_cachedIn": "1.2 ms",
+          "_resolvedIn": "1.2 ms",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7133,17 +7174,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-19T11:02:33.827Z",
-            "component-cached-in": "1.66 ms",
-            "component-resolved-in": "1.66 ms"
+            "component-cached-at": "2021-07-19T11:27:53.057Z",
+            "component-cached-in": "1.2 ms",
+            "component-resolved-in": "1.2 ms"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-19T11:02:33.827Z",
-              "_cachedIn": "132 μs",
-              "_resolvedIn": "132 μs",
+              "_cachedAt": "2021-07-19T11:27:53.057Z",
+              "_cachedIn": "179 μs",
+              "_resolvedIn": "179 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7203,9 +7244,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-19T11:02:33.827Z",
-                "component-cached-in": "132 μs",
-                "component-resolved-in": "132 μs"
+                "component-cached-at": "2021-07-19T11:27:53.057Z",
+                "component-cached-in": "179 μs",
+                "component-resolved-in": "179 μs"
               },
               "components": {}
             }
@@ -7214,9 +7255,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-19T11:02:33.827Z",
-          "_cachedIn": "1.28 ms",
-          "_resolvedIn": "1.28 ms",
+          "_cachedAt": "2021-07-19T11:27:53.056Z",
+          "_cachedIn": "637 μs",
+          "_resolvedIn": "637 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7225,9 +7266,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-19T11:02:33.827Z",
-            "component-cached-in": "1.28 ms",
-            "component-resolved-in": "1.28 ms"
+            "component-cached-at": "2021-07-19T11:27:53.056Z",
+            "component-cached-in": "637 μs",
+            "component-resolved-in": "637 μs"
           },
           "components": {}
         }
@@ -7236,9 +7277,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-19T11:02:33.827Z",
-      "_cachedIn": "1.67 ms",
-      "_resolvedIn": "1.67 ms",
+      "_cachedAt": "2021-07-19T11:27:53.056Z",
+      "_cachedIn": "4.45 ms",
+      "_resolvedIn": "4.45 ms",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7269,18 +7310,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-19T11:02:33.827Z",
-        "component-cached-in": "1.67 ms",
-        "component-resolved-in": "1.67 ms"
+        "component-cached-at": "2021-07-19T11:27:53.056Z",
+        "component-cached-in": "4.45 ms",
+        "component-resolved-in": "4.45 ms"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-19T11:02:33.827Z",
-      "_cachedIn": "1.29 ms",
-      "_resolvedIn": "1.29 ms",
+      "_cachedAt": "2021-07-19T11:27:53.056Z",
+      "_cachedIn": "3.62 ms",
+      "_resolvedIn": "3.62 ms",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7291,18 +7332,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-19T11:02:33.827Z",
-        "component-cached-in": "1.29 ms",
-        "component-resolved-in": "1.29 ms"
+        "component-cached-at": "2021-07-19T11:27:53.056Z",
+        "component-cached-in": "3.62 ms",
+        "component-resolved-in": "3.62 ms"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-19T11:02:33.827Z",
-      "_cachedIn": "1.67 ms",
-      "_resolvedIn": "1.67 ms",
+      "_cachedAt": "2021-07-19T11:27:53.056Z",
+      "_cachedIn": "4.45 ms",
+      "_resolvedIn": "4.45 ms",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7321,9 +7362,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-19T11:02:33.827Z",
-        "component-cached-in": "1.67 ms",
-        "component-resolved-in": "1.67 ms"
+        "component-cached-at": "2021-07-19T11:27:53.056Z",
+        "component-cached-in": "4.45 ms",
+        "component-resolved-in": "4.45 ms"
       },
       "components": {}
     }

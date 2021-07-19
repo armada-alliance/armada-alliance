@@ -1,62 +1,144 @@
 {
-  "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"hydra\",\"language\":\"en\",\"slug\":\"/terms/hydra\",\"url\":\"https:///website.codespace1.sublayer.io/terms/hydra\",\"origin\":\"/terms/hydra\",\"title\":\"Hydra\",\"description\":\"A layer 2 scalibility solution for the Cardano blockchain.\",\"aliases\":[\"hydra\",\"layer 2\",\"cardano scaling\",\"cardano layer 2\"],\"keywords\":[\"hydra\",\"layer 2\",\"scalibility\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/hydra.md\",\"body\":\"\",\"mdxSource\":{\"compiledSource\":\"var M=Object.defineProperty,X=Object.defineProperties;var c=Object.getOwnPropertyDescriptors;var u=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,a=Object.prototype.propertyIsEnumerable;var s=(o,t,n)=>t in o?M(o,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):o[t]=n,p=(o,t)=>{for(var n in t||(t={}))r.call(t,n)&&s(o,n,t[n]);if(u)for(var n of u(t))a.call(t,n)&&s(o,n,t[n]);return o},y=(o,t)=>X(o,c(t));var D=(o,t)=>{var n={};for(var e in o)r.call(o,e)&&t.indexOf(e)<0&&(n[e]=o[e]);if(o!=null&&u)for(var e of u(o))t.indexOf(e)<0&&a.call(o,e)&&(n[e]=o[e]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var e=n,{components:o}=e,t=D(e,[\\\"components\\\"]);return mdx(MDXLayout,y(p(p({},layoutProps),t),{components:o,mdxType:\\\"MDXLayout\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
+  "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"Stale Pool STALE\",\"slug\":\"/pool-widget/b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81\",\"template\":\"PoolWidgetPage\",\"poolId\":\"b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-19T11:27:54.789Z",
-  "_cachedIn": "2.17 ms",
-  "_resolvedIn": "2.17 ms",
-  "id": "TermDetailPage",
-  "type": "TermDetailPage",
+  "_cachedAt": "2021-07-19T11:27:54.077Z",
+  "_cachedIn": "117 μs",
+  "_resolvedIn": "117 μs",
+  "id": "PoolWidgetPage",
+  "type": "PoolWidgetPage",
   "status": "resolved",
   "error": null,
   "props": {
-    "id": "hydra",
     "language": "en",
-    "slug": "/terms/hydra",
-    "url": "https:///website.codespace1.sublayer.io/terms/hydra",
-    "origin": "/terms/hydra",
-    "title": "Hydra",
-    "description": "A layer 2 scalibility solution for the Cardano blockchain.",
-    "aliases": [
-      "hydra",
-      "layer 2",
-      "cardano scaling",
-      "cardano layer 2"
-    ],
-    "keywords": [
-      "hydra",
-      "layer 2",
-      "scalibility"
-    ],
-    "template": "TermDetailPage",
-    "identities": [
-      {
-        "id": "wael-ivie",
-        "role": "author"
-      }
-    ],
-    "updatedAt": "2021-07-10T20:43:29.000Z",
-    "filePath": "/en/terms/hydra.md",
-    "body": "",
-    "mdxSource": {
-      "compiledSource": "var M=Object.defineProperty,X=Object.defineProperties;var c=Object.getOwnPropertyDescriptors;var u=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,a=Object.prototype.propertyIsEnumerable;var s=(o,t,n)=>t in o?M(o,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):o[t]=n,p=(o,t)=>{for(var n in t||(t={}))r.call(t,n)&&s(o,n,t[n]);if(u)for(var n of u(t))a.call(t,n)&&s(o,n,t[n]);return o},y=(o,t)=>X(o,c(t));var D=(o,t)=>{var n={};for(var e in o)r.call(o,e)&&t.indexOf(e)<0&&(n[e]=o[e]);if(o!=null&&u)for(var e of u(o))t.indexOf(e)<0&&a.call(o,e)&&(n[e]=o[e]);return n};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(n){var e=n,{components:o}=e,t=D(e,[\"components\"]);return mdx(MDXLayout,y(p(p({},layoutProps),t),{components:o,mdxType:\"MDXLayout\"}))}MDXContent.isMDXComponent=!0;\n",
-      "scope": {}
-    },
-    "source": "/pages/terms/hydra.json"
+    "title": "Stale Pool STALE",
+    "slug": "/pool-widget/b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81",
+    "template": "PoolWidgetPage",
+    "poolId": "b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81",
+    "hidden": true,
+    "source": "/pages/pool-widget/b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81.json",
+    "pool": {
+      "id": "b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81",
+      "name": "Stale Pool",
+      "link": {
+        "name": "Stale Pool",
+        "href": "/stake-pools/b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81"
+      },
+      "description": "Official stake pool of Stale. Stake with me to support me in making all your favourite community Cardano NFT tools, hosting community events and helping new and upcoming NFT creators!",
+      "image": "https://armada-alliance.com/assets/ship-420.png",
+      "hasImage": false,
+      "ticker": "STALE",
+      "addr": "pool1hysp9sd0h4k8ll8sxnl0k3gqatd9axzjnaxs7488mw9gze40jp9",
+      "website": "https://discord.com/invite/yA9cAtD3et",
+      "totalStake": "387674985816",
+      "blocksLifetime": 15,
+      "delegators": 137,
+      "saturated": 0.005841154954411724,
+      "pledge": "2000000000",
+      "pledged": "6036045181",
+      "taxRatio": 0.02,
+      "taxFix": "345000000",
+      "roa": "8.755",
+      "memberSince": "2021-07-19T00:00:00.000Z",
+      "registeredAt": "2021-04-16T10:50:55.000Z",
+      "identities": [
+        {
+          "id": "stale",
+          "role": "spo"
+        }
+      ],
+      "relays": [
+        {
+          "addr": "161.97.153.157",
+          "port": 6000,
+          "data": {
+            "ip": "161.97.153.157",
+            "type": "ipv4",
+            "continent_code": "EU",
+            "continent_name": "Europe",
+            "country_code": "DE",
+            "country_name": "Germany",
+            "region_code": "BY",
+            "region_name": "Bavaria",
+            "city": "Munich",
+            "zip": "81549",
+            "latitude": 48.1088981628418,
+            "longitude": 11.607399940490723,
+            "location": {
+              "geoname_id": 2867714,
+              "capital": "Berlin",
+              "languages": [
+                {
+                  "code": "de",
+                  "name": "German",
+                  "native": "Deutsch"
+                }
+              ],
+              "country_flag": "http://assets.ipstack.com/flags/de.svg",
+              "country_flag_emoji": "🇩🇪",
+              "country_flag_emoji_unicode": "U+1F1E9 U+1F1EA",
+              "calling_code": "49",
+              "is_eu": true
+            }
+          }
+        },
+        {
+          "addr": "161.97.153.156",
+          "port": 6000,
+          "data": {
+            "ip": "161.97.153.156",
+            "type": "ipv4",
+            "continent_code": "EU",
+            "continent_name": "Europe",
+            "country_code": "DE",
+            "country_name": "Germany",
+            "region_code": "BY",
+            "region_name": "Bavaria",
+            "city": "Munich",
+            "zip": "81549",
+            "latitude": 48.1088981628418,
+            "longitude": 11.607399940490723,
+            "location": {
+              "geoname_id": 2867714,
+              "capital": "Berlin",
+              "languages": [
+                {
+                  "code": "de",
+                  "name": "German",
+                  "native": "Deutsch"
+                }
+              ],
+              "country_flag": "http://assets.ipstack.com/flags/de.svg",
+              "country_flag_emoji": "🇩🇪",
+              "country_flag_emoji_unicode": "U+1F1E9 U+1F1EA",
+              "calling_code": "49",
+              "is_eu": true
+            }
+          }
+        }
+      ],
+      "metadata": {
+        "name": "Stale Pool",
+        "description": "Official stake pool of Stale. Stake with me to support me in making all your favourite community Cardano NFT tools, hosting community events and helping new and upcoming NFT creators!",
+        "ticker": "STALE",
+        "homepage": "https://discord.com/invite/yA9cAtD3et"
+      },
+      "extended": null
+    }
   },
   "attrs": {
-    "component-type": "TermDetailPage",
-    "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-19T11:27:54.789Z",
-    "component-cached-in": "2.17 ms",
-    "component-resolved-in": "2.17 ms"
+    "component-type": "PoolWidgetPage",
+    "component-id": "PoolWidgetPage",
+    "component-cached-at": "2021-07-19T11:27:54.077Z",
+    "component-cached-in": "117 μs",
+    "component-resolved-in": "117 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-19T11:27:54.789Z",
-      "_cachedIn": "1.57 ms",
-      "_resolvedIn": "1.57 ms",
+      "_cachedAt": "2021-07-19T11:27:54.077Z",
+      "_cachedIn": "75 μs",
+      "_resolvedIn": "75 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -65,17 +147,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-19T11:27:54.789Z",
-        "component-cached-in": "1.57 ms",
-        "component-resolved-in": "1.57 ms"
+        "component-cached-at": "2021-07-19T11:27:54.077Z",
+        "component-cached-in": "75 μs",
+        "component-resolved-in": "75 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-19T11:27:54.788Z",
-          "_cachedIn": "979 μs",
-          "_resolvedIn": "979 μs",
+          "_cachedAt": "2021-07-19T11:27:54.077Z",
+          "_cachedIn": "41 μs",
+          "_resolvedIn": "41 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -7162,18 +7244,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-19T11:27:54.788Z",
-            "component-cached-in": "979 μs",
-            "component-resolved-in": "979 μs"
+            "component-cached-at": "2021-07-19T11:27:54.077Z",
+            "component-cached-in": "41 μs",
+            "component-resolved-in": "41 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-19T11:27:54.789Z",
-          "_cachedIn": "1.24 ms",
-          "_resolvedIn": "1.24 ms",
+          "_cachedAt": "2021-07-19T11:27:54.077Z",
+          "_cachedIn": "57 μs",
+          "_resolvedIn": "57 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7184,17 +7266,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-19T11:27:54.789Z",
-            "component-cached-in": "1.24 ms",
-            "component-resolved-in": "1.24 ms"
+            "component-cached-at": "2021-07-19T11:27:54.077Z",
+            "component-cached-in": "57 μs",
+            "component-resolved-in": "57 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-19T11:27:54.789Z",
-              "_cachedIn": "235 μs",
-              "_resolvedIn": "235 μs",
+              "_cachedAt": "2021-07-19T11:27:54.077Z",
+              "_cachedIn": "16 μs",
+              "_resolvedIn": "16 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7254,9 +7336,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-19T11:27:54.789Z",
-                "component-cached-in": "235 μs",
-                "component-resolved-in": "235 μs"
+                "component-cached-at": "2021-07-19T11:27:54.077Z",
+                "component-cached-in": "16 μs",
+                "component-resolved-in": "16 μs"
               },
               "components": {}
             }
@@ -7265,9 +7347,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-19T11:27:54.788Z",
-          "_cachedIn": "402 μs",
-          "_resolvedIn": "402 μs",
+          "_cachedAt": "2021-07-19T11:27:54.077Z",
+          "_cachedIn": "16 μs",
+          "_resolvedIn": "16 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7276,108 +7358,13 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-19T11:27:54.788Z",
-            "component-cached-in": "402 μs",
-            "component-resolved-in": "402 μs"
+            "component-cached-at": "2021-07-19T11:27:54.077Z",
+            "component-cached-in": "16 μs",
+            "component-resolved-in": "16 μs"
           },
           "components": {}
         }
       }
-    },
-    "PageHeader": {
-      "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
-      "_fromCache": false,
-      "_cachedAt": "2021-07-19T11:27:54.788Z",
-      "_cachedIn": "916 μs",
-      "_resolvedIn": "916 μs",
-      "id": "PageHeader",
-      "type": "PageHeader",
-      "status": "resolved",
-      "error": null,
-      "props": {
-        "title": "Hydra",
-        "pageType": "Term",
-        "identities": [
-          {
-            "id": "wael-ivie",
-            "name": "Wael Ivie 🐋",
-            "description": "Founder, SPO",
-            "image": "/wael.jpg",
-            "telegram": "Qwailman",
-            "twitter": "Piada_stakePool",
-            "github": "AstroWa3l",
-            "link": {
-              "name": "Wael Ivie 🐋",
-              "href": "/identities/wael-ivie"
-            },
-            "pools": [
-              "b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65"
-            ],
-            "role": "author"
-          }
-        ]
-      },
-      "attrs": {
-        "component-type": "PageHeader",
-        "component-id": "PageHeader",
-        "component-cached-at": "2021-07-19T11:27:54.788Z",
-        "component-cached-in": "916 μs",
-        "component-resolved-in": "916 μs"
-      },
-      "components": {}
-    },
-    "PageExcerpt": {
-      "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
-      "_fromCache": false,
-      "_cachedAt": "2021-07-19T11:27:54.788Z",
-      "_cachedIn": "404 μs",
-      "_resolvedIn": "404 μs",
-      "id": "PageExcerpt",
-      "type": "PageExcerpt",
-      "status": "resolved",
-      "error": null,
-      "props": {
-        "alignLeft": true,
-        "excerpt": "A layer 2 scalibility solution for the Cardano blockchain."
-      },
-      "attrs": {
-        "component-type": "PageExcerpt",
-        "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-19T11:27:54.788Z",
-        "component-cached-in": "404 μs",
-        "component-resolved-in": "404 μs"
-      },
-      "components": {}
-    },
-    "PageContent": {
-      "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
-      "_fromCache": false,
-      "_cachedAt": "2021-07-19T11:27:54.788Z",
-      "_cachedIn": "916 μs",
-      "_resolvedIn": "916 μs",
-      "id": "PageContent",
-      "type": "PageContent",
-      "status": "resolved",
-      "error": null,
-      "props": {
-        "mdxSource": {
-          "compiledSource": "var M=Object.defineProperty,X=Object.defineProperties;var c=Object.getOwnPropertyDescriptors;var u=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,a=Object.prototype.propertyIsEnumerable;var s=(o,t,n)=>t in o?M(o,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):o[t]=n,p=(o,t)=>{for(var n in t||(t={}))r.call(t,n)&&s(o,n,t[n]);if(u)for(var n of u(t))a.call(t,n)&&s(o,n,t[n]);return o},y=(o,t)=>X(o,c(t));var D=(o,t)=>{var n={};for(var e in o)r.call(o,e)&&t.indexOf(e)<0&&(n[e]=o[e]);if(o!=null&&u)for(var e of u(o))t.indexOf(e)<0&&a.call(o,e)&&(n[e]=o[e]);return n};const layoutProps={},MDXLayout=\"wrapper\";function MDXContent(n){var e=n,{components:o}=e,t=D(e,[\"components\"]);return mdx(MDXLayout,y(p(p({},layoutProps),t),{components:o,mdxType:\"MDXLayout\"}))}MDXContent.isMDXComponent=!0;\n",
-          "scope": {}
-        },
-        "filePath": "/en/terms/hydra.md",
-        "updatedAt": "2021-07-10T20:43:29.000Z",
-        "editOnGitHubLink": {
-          "href": "https://github.com/armada-alliance/armada-alliance/tree/main/services/website/content//en/terms/hydra.md"
-        }
-      },
-      "attrs": {
-        "component-type": "PageContent",
-        "component-id": "PageContent",
-        "component-cached-at": "2021-07-19T11:27:54.788Z",
-        "component-cached-in": "916 μs",
-        "component-resolved-in": "916 μs"
-      },
-      "components": {}
     }
   }
 }
