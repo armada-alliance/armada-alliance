@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import useTestMode from './useTestMode'
 import shuffle from 'lodash/shuffle'
 import formatImage from './formatImage'
 import DualColorText from './DualColorText'
@@ -8,12 +9,15 @@ import Link from './Link'
 import PageTooltip from './PageTooltip'
 import Text from './Text'
 import AdaPrice from './AdaPrice'
+import EpochClock from './EpochClock'
 
 export default function StatsSection({ title, pretitle, description, poolCount, countryCount, liveStake, mintedBlocksCount, delegatorCount, pools }) {
 
     const [poolSelection] = useState(
         shuffle(pools).slice(0, 10)
     )
+
+    const testMode = useTestMode()
 
     return (
         <div className="bg-gray-50 pt-12 sm:pt-16">
@@ -83,6 +87,7 @@ export default function StatsSection({ title, pretitle, description, poolCount, 
                     </div>
                 </div>
             </div>
+            {testMode ? <EpochClock /> : null}
         </div>
     )
 }

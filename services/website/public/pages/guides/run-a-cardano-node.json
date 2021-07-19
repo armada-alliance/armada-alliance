@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"GuideDetailPage\",\"version\":1},\"props\":{\"id\":\"run-a-cardano-node\",\"language\":\"en\",\"slug\":\"/guides/run-a-cardano-node\",\"url\":\"https:///website.codespace1.sublayer.io/guides/run-a-cardano-node\",\"origin\":\"/guides/run-a-cardano-node\",\"title\":\"Run a Cardano Node\",\"description\":\"Set up and run a Cardano node on Raspberry Pi OS.\",\"aliases\":null,\"keywords\":[\"Stake Pool Operation\",\"Raspberry Pi\",\"ARM\",\"raspberry pi 4\",\"raspberry pi 400\",\"raspberry pi 3\",\"raspberry pi zero\",\"raspberry pi 4 8gb\",\"pi4\",\"r pi\"],\"template\":\"GuideDetailPage\",\"identities\":[{\"id\":\"wcat-otg\",\"role\":\"author\"},{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"icon\":\"🍓\",\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/guides/run-a-cardano-node.md\",\"externalLink\":\"https://docs.armada-alliance.com/learn/beginner-guide-1/beginner-guide\",\"body\":\"## Introduction\\n***Are you a raspberry pi hobbyist or tinkerer? Do you want to know how to run a [Cardano node](/terms/cardano-node) on a raspberry pi?***\\n\\nIf you answered yes to any of the previous questions, check out our guide on getting a [passive Cardano node](/terms/passive-node) running on a raspberry pi 4. We go over the initial setup of the raspberry pi, how to boot from a USB storage device, and getting the Cardano node installed on the pi 4.\",\"mdxSource\":{\"compiledSource\":\"var y=Object.defineProperty,h=Object.defineProperties;var m=Object.getOwnPropertyDescriptors;var a=Object.getOwnPropertySymbols;var p=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var i=(e,o,n)=>o in e?y(e,o,{enumerable:!0,configurable:!0,writable:!0,value:n}):e[o]=n,r=(e,o)=>{for(var n in o||(o={}))p.call(o,n)&&i(e,n,o[n]);if(a)for(var n of a(o))s.call(o,n)&&i(e,n,o[n]);return e},u=(e,o)=>h(e,m(o));var d=(e,o)=>{var n={};for(var t in e)p.call(e,t)&&o.indexOf(t)<0&&(n[t]=e[t]);if(e!=null&&a)for(var t of a(e))o.indexOf(t)<0&&s.call(e,t)&&(n[t]=e[t]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var t=n,{components:e}=t,o=d(t,[\\\"components\\\"]);return mdx(MDXLayout,u(r(r({},layoutProps),o),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"h2\\\",null,\\\"Introduction\\\"),mdx(\\\"p\\\",null,mdx(\\\"strong\\\",{parentName:\\\"p\\\"},mdx(\\\"em\\\",{parentName:\\\"strong\\\"},\\\"Are you a raspberry pi hobbyist or tinkerer? Do you want to know how to run a \\\",mdx(\\\"a\\\",r({parentName:\\\"em\\\"},{href:\\\"/terms/cardano-node\\\"}),\\\"Cardano node\\\"),\\\" on a raspberry pi?\\\"))),mdx(\\\"p\\\",null,\\\"If you answered yes to any of the previous questions, check out our guide on getting a \\\",mdx(\\\"a\\\",r({parentName:\\\"p\\\"},{href:\\\"/terms/passive-node\\\"}),\\\"passive Cardano node\\\"),\\\" running on a raspberry pi 4. We go over the initial setup of the raspberry pi, how to boot from a USB storage device, and getting the Cardano node installed on the pi 4.\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-16T19:05:04.701Z",
-  "_cachedIn": "282 ms",
-  "_resolvedIn": "282 ms",
+  "_cachedAt": "2021-07-19T11:02:34.452Z",
+  "_cachedIn": "190 ms",
+  "_resolvedIn": "190 ms",
   "id": "GuideDetailPage",
   "type": "GuideDetailPage",
   "status": "resolved",
@@ -55,17 +55,17 @@
   "attrs": {
     "component-type": "GuideDetailPage",
     "component-id": "GuideDetailPage",
-    "component-cached-at": "2021-07-16T19:05:04.701Z",
-    "component-cached-in": "282 ms",
-    "component-resolved-in": "282 ms"
+    "component-cached-at": "2021-07-19T11:02:34.452Z",
+    "component-cached-in": "190 ms",
+    "component-resolved-in": "190 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-16T19:05:04.701Z",
-      "_cachedIn": "261 μs",
-      "_resolvedIn": "261 μs",
+      "_cachedAt": "2021-07-19T11:02:34.452Z",
+      "_cachedIn": "243 μs",
+      "_resolvedIn": "243 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -74,17 +74,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-16T19:05:04.701Z",
-        "component-cached-in": "261 μs",
-        "component-resolved-in": "261 μs"
+        "component-cached-at": "2021-07-19T11:02:34.452Z",
+        "component-cached-in": "243 μs",
+        "component-resolved-in": "243 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-16T19:05:04.701Z",
-          "_cachedIn": "155 μs",
-          "_resolvedIn": "155 μs",
+          "_cachedAt": "2021-07-19T11:02:34.452Z",
+          "_cachedIn": "147 μs",
+          "_resolvedIn": "147 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -92,7 +92,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-16T19:04:53.106Z",
+              "createdAt": "2021-07-19T11:02:23.314Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -251,6 +251,7 @@
                     "role": "author"
                   }
                 ],
+                "updatedAt": "2021-07-16T19:28:03.000Z",
                 "filePath": "/en/aaips/1-the-aaip-process.md"
               },
               {
@@ -263,47 +264,8 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "AAIPsPage",
+                "updatedAt": "2021-07-16T19:28:03.000Z",
                 "filePath": "/en/aaips.md"
-              },
-              {
-                "id": "how-to-choose-a-stake-pool",
-                "language": "en",
-                "slug": "/blogs/how-to-choose-a-stake-pool",
-                "url": "https:///website.codespace1.sublayer.io/blogs/how-to-choose-a-stake-pool",
-                "origin": "/blogs/how-to-choose-a-stake-pool",
-                "title": "How to choose a stake pool",
-                "description": "A guide to choosing a Cardano stake pool.",
-                "aliases": null,
-                "keywords": null,
-                "template": "BlogDetailPage",
-                "identities": [
-                  {
-                    "id": "wael-ivie",
-                    "role": "author"
-                  }
-                ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
-                "filePath": "/en/blogs/how-to-choose-a-stake-pool.md"
-              },
-              {
-                "id": "market-your-stake-pool",
-                "language": "en",
-                "slug": "/blogs/market-your-stake-pool",
-                "url": "https:///website.codespace1.sublayer.io/blogs/market-your-stake-pool",
-                "origin": "/blogs/market-your-stake-pool",
-                "title": "Market your stake pool",
-                "description": "Stake pool marketing advice",
-                "aliases": null,
-                "keywords": null,
-                "template": "BlogDetailPage",
-                "identities": [
-                  {
-                    "id": "wael-ivie",
-                    "role": "author"
-                  }
-                ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
-                "filePath": "/en/blogs/market-your-stake-pool.md"
               },
               {
                 "id": "register-your-stake-pool",
@@ -346,59 +308,6 @@
                 ],
                 "updatedAt": "2021-07-10T20:43:29.000Z",
                 "filePath": "/en/blogs/register-your-stake-pool.md"
-              },
-              {
-                "id": "run-a-stake-pool",
-                "language": "en",
-                "slug": "/blogs/run-a-stake-pool",
-                "url": "https:///website.codespace1.sublayer.io/blogs/run-a-stake-pool",
-                "origin": "/blogs/run-a-stake-pool",
-                "title": "Run a stake pool",
-                "description": "Find out if running a stake pool is something for you.",
-                "aliases": null,
-                "keywords": null,
-                "template": "BlogDetailPage",
-                "identities": [
-                  {
-                    "id": "wael-ivie",
-                    "role": "author"
-                  }
-                ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
-                "filePath": "/en/blogs/run-a-stake-pool.md"
-              },
-              {
-                "id": "what-is-cardano",
-                "language": "en",
-                "slug": "/blogs/what-is-cardano",
-                "url": "https:///website.codespace1.sublayer.io/blogs/what-is-cardano",
-                "origin": "/blogs/what-is-cardano",
-                "title": "What is [Cardano](/en/terms/cardano.md)?",
-                "description": "A 3rd generation blockchain technology that seeks to change the world.",
-                "aliases": null,
-                "keywords": [
-                  "ada",
-                  "cardano",
-                  "cardano price",
-                  "ada cardano",
-                  "cardano price prediction",
-                  "cardano prediction",
-                  "crypto",
-                  "crypto cardano",
-                  "ethereum",
-                  "bitcoin",
-                  "cardano stock",
-                  "cardano news"
-                ],
-                "template": "BlogDetailPage",
-                "identities": [
-                  {
-                    "id": "wael-ivie",
-                    "role": "author"
-                  }
-                ],
-                "updatedAt": "2021-07-14T03:39:25.000Z",
-                "filePath": "/en/blogs/what-is-cardano.md"
               },
               {
                 "id": "what-is-staking",
@@ -464,6 +373,7 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "BlogsPage",
+                "updatedAt": "2021-07-16T19:28:03.000Z",
                 "filePath": "/en/blogs.md"
               },
               {
@@ -1252,13 +1162,13 @@
                 "slug": "/identities/sublayerio",
                 "url": "https:///website.codespace1.sublayer.io/identities/sublayerio",
                 "origin": "/identities/sublayerio",
-                "title": "sublayerio🧙‍♂️",
-                "description": "🧙‍♂️ Open Sourcerer, SPO",
+                "title": "@sublayerio 🧙‍♂️",
+                "description": "Open Sourcerer, SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://cdn.sublayer.io/logo.png",
-                "updatedAt": "2021-07-15T11:20:51.000Z",
+                "updatedAt": "2021-07-16T20:06:35.000Z",
                 "filePath": "/en/identities/sublayerio.md"
               },
               {
@@ -7220,18 +7130,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-16T19:05:04.701Z",
-            "component-cached-in": "155 μs",
-            "component-resolved-in": "155 μs"
+            "component-cached-at": "2021-07-19T11:02:34.452Z",
+            "component-cached-in": "147 μs",
+            "component-resolved-in": "147 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-16T19:05:04.701Z",
-          "_cachedIn": "177 μs",
-          "_resolvedIn": "177 μs",
+          "_cachedAt": "2021-07-19T11:02:34.452Z",
+          "_cachedIn": "173 μs",
+          "_resolvedIn": "173 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7242,17 +7152,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-16T19:05:04.701Z",
-            "component-cached-in": "177 μs",
-            "component-resolved-in": "177 μs"
+            "component-cached-at": "2021-07-19T11:02:34.452Z",
+            "component-cached-in": "173 μs",
+            "component-resolved-in": "173 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-16T19:05:04.701Z",
-              "_cachedIn": "36 μs",
-              "_resolvedIn": "36 μs",
+              "_cachedAt": "2021-07-19T11:02:34.452Z",
+              "_cachedIn": "50 μs",
+              "_resolvedIn": "50 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7312,9 +7222,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-16T19:05:04.701Z",
-                "component-cached-in": "36 μs",
-                "component-resolved-in": "36 μs"
+                "component-cached-at": "2021-07-19T11:02:34.452Z",
+                "component-cached-in": "50 μs",
+                "component-resolved-in": "50 μs"
               },
               "components": {}
             }
@@ -7323,9 +7233,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-16T19:05:04.701Z",
-          "_cachedIn": "114 μs",
-          "_resolvedIn": "114 μs",
+          "_cachedAt": "2021-07-19T11:02:34.452Z",
+          "_cachedIn": "88 μs",
+          "_resolvedIn": "88 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7334,9 +7244,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-16T19:05:04.701Z",
-            "component-cached-in": "114 μs",
-            "component-resolved-in": "114 μs"
+            "component-cached-at": "2021-07-19T11:02:34.452Z",
+            "component-cached-in": "88 μs",
+            "component-resolved-in": "88 μs"
           },
           "components": {}
         }
@@ -7345,9 +7255,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-16T19:05:04.701Z",
-      "_cachedIn": "197 μs",
-      "_resolvedIn": "197 μs",
+      "_cachedAt": "2021-07-19T11:02:34.452Z",
+      "_cachedIn": "173 μs",
+      "_resolvedIn": "173 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7392,18 +7302,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-16T19:05:04.701Z",
-        "component-cached-in": "197 μs",
-        "component-resolved-in": "197 μs"
+        "component-cached-at": "2021-07-19T11:02:34.452Z",
+        "component-cached-in": "173 μs",
+        "component-resolved-in": "173 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-16T19:05:04.701Z",
-      "_cachedIn": "108 μs",
-      "_resolvedIn": "108 μs",
+      "_cachedAt": "2021-07-19T11:02:34.452Z",
+      "_cachedIn": "92 μs",
+      "_resolvedIn": "92 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7415,18 +7325,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-16T19:05:04.701Z",
-        "component-cached-in": "108 μs",
-        "component-resolved-in": "108 μs"
+        "component-cached-at": "2021-07-19T11:02:34.452Z",
+        "component-cached-in": "92 μs",
+        "component-resolved-in": "92 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-16T19:05:04.701Z",
-      "_cachedIn": "194 μs",
-      "_resolvedIn": "194 μs",
+      "_cachedAt": "2021-07-19T11:02:34.452Z",
+      "_cachedIn": "175 μs",
+      "_resolvedIn": "175 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7447,9 +7357,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-16T19:05:04.701Z",
-        "component-cached-in": "194 μs",
-        "component-resolved-in": "194 μs"
+        "component-cached-at": "2021-07-19T11:02:34.452Z",
+        "component-cached-in": "175 μs",
+        "component-resolved-in": "175 μs"
       },
       "components": {}
     }
