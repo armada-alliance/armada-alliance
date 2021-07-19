@@ -24,6 +24,12 @@ const getMetaDataForPool = async (poolId) => {
     return result
 }
 
+const getDataForPool = async (poolId) => {
+
+    const { data } = await blockfrost.get(`/pools/${poolId}`)
+    return data
+}
+
 const getRelaysForPool = async (poolId) => {
     const { data: relays } = await blockfrost.get(`/pools/${poolId}/relays`)
     return relays.map(relay => {
@@ -101,6 +107,7 @@ module.exports = {
                 const relays = await getRelaysForPool(poolId)
 
                 const adapools = await getAdapoolsData(poolId)
+                const data = await getDataForPool(poolId)
 
                 const name = adapools.data.db_name
 
@@ -125,14 +132,22 @@ module.exports = {
                     ticker: adapools.data.db_ticker,
                     addr: adapools.data.pool_id_bech32,
                     website: adapools.data.db_url,
-                    totalStake: adapools.data.total_stake,
-                    blocksLifetime: adapools.data.blocks_lifetime,
-                    delegators: adapools.data.delegators,
-                    saturated: adapools.data.saturated,
-                    pledge: adapools.data.pledge,
-                    pledged: adapools.data.pledged,
-                    taxRatio: adapools.data.tax_ratio,
-                    taxFix: adapools.data.tax_fix,
+                    // totalStake: adapools.data.total_stake,
+                    totalStake: data.live_stake,
+                    // blocksLifetime: adapools.data.blocks_lifetime,
+                    blocksLifetime: data.blocks_minted,
+                    // delegators: adapools.data.delegators,
+                    delegators: data.live_delegators,
+                    // saturated: adapools.data.saturated,
+                    saturated: data.live_saturation,
+                    // pledge: adapools.data.pledge,
+                    pledge: data.declared_pledge,
+                    // pledged: adapools.data.pledged,
+                    pledged: data.live_pledge,
+                    // taxRatio: adapools.data.tax_ratio,
+                    taxRatio: data.margin_cost,
+                    // taxFix: adapools.data.tax_fix,
+                    taxFix: data.fixed_cost,
                     roa: adapools.data.roa,
                     memberSince: poolPage.memberSince,
                     registeredAt: new Date(adapools.created).toISOString(),

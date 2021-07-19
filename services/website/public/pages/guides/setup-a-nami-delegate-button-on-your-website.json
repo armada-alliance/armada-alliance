@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"GuideDetailPage\",\"version\":1},\"props\":{\"id\":\"setup-a-nami-delegate-button-on-your-website\",\"language\":\"en\",\"slug\":\"/guides/setup-a-nami-delegate-button-on-your-website\",\"url\":\"https:///website.codespace1.sublayer.io/guides/setup-a-nami-delegate-button-on-your-website\",\"origin\":\"/guides/setup-a-nami-delegate-button-on-your-website\",\"title\":\"Setup a Nami delegate button on your website\",\"description\":\"A guide on how to setup a button that allows your visitors to delegate to your pool straight from your website.\",\"aliases\":null,\"keywords\":[\"Delegate\",\"Nami Wallet\",\"JavaScript\",\"Marketing\"],\"template\":\"GuideDetailPage\",\"identities\":[{\"id\":\"alessandro-berry\",\"role\":\"author\"},{\"id\":\"sublayerio\",\"role\":\"author\"}],\"icon\":\"🌊\",\"updatedAt\":\"2021-07-13T15:34:16.000Z\",\"filePath\":\"/en/guides/setup-a-nami-delegate-button-on-your-website.md\",\"body\":\"## Demo\\n\\n<YoutubeVideo url=\\\"https://www.youtube.com/watch?v=hm8c-RhBop4\\\" />\\n\\n## Installation\\n\\n1. **Get a blockfrost project id** —  Go to [blockfrost.io](https://blockfrost.io/), make an account and create a project.\\n\\n2. **Get your pool id** — Go to [pooltool.io](https://pooltool.io)\\n\\n\\nSetup a button somewhere on your website that looks like this:\\n\\n```html\\n<button type=\\\"button\\\" onclick=\\\"handleDelegate()\\\">\\n    Delegate\\n</button>\\n```\\n\\nPut the following code snippet at the end of the body content:\\n\\n```html\\n<script>\\n    function handleDelegate() {\\n        var pool_id = '<POOL_ID>'\\n        var blockfrost_project_id = '<BLOCKFROST_PROJECT_ID>'\\n        var link = 'https://armada-alliance.com/delegation-widget?pool_id=' + pool_id + '&blockfrost_project_id=' + blockfrost_project_id\\n        var width = 600\\n        var height = Math.min(800, parseInt(window.outerHeight, 10))\\n        var left = (parseInt(window.outerWidth, 10) / 2) - (width / 2)\\n        var top = (parseInt(window.outerHeight, 10) - height) / 2\\n        window.open(link, 'Delegate', 'width=' + width + ',height=' + height + ',toolbar=0,menubar=0,location=0,status=0,scrollbars=1,resizable=1,left=' + left + ',top=' + top);\\n    }\\n</script>\\n```\",\"mdxSource\":{\"compiledSource\":\"var d=Object.defineProperty,h=Object.defineProperties;var u=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var p=Object.prototype.hasOwnProperty,l=Object.prototype.propertyIsEnumerable;var i=(o,t,e)=>t in o?d(o,t,{enumerable:!0,configurable:!0,writable:!0,value:e}):o[t]=e,r=(o,t)=>{for(var e in t||(t={}))p.call(t,e)&&i(o,e,t[e]);if(n)for(var e of n(t))l.call(t,e)&&i(o,e,t[e]);return o},c=(o,t)=>h(o,u(t));var s=(o,t)=>{var e={};for(var a in o)p.call(o,a)&&t.indexOf(a)<0&&(e[a]=o[a]);if(o!=null&&n)for(var a of n(o))t.indexOf(a)<0&&l.call(o,a)&&(e[a]=o[a]);return e};const makeShortcode=o=>function(e){return console.warn(\\\"Component \\\"+o+\\\" was not imported, exported, or provided by MDXProvider as global scope\\\"),mdx(\\\"div\\\",r({},e))},YoutubeVideo=makeShortcode(\\\"YoutubeVideo\\\"),layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(e){var a=e,{components:o}=a,t=s(a,[\\\"components\\\"]);return mdx(MDXLayout,c(r(r({},layoutProps),t),{components:o,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"h2\\\",null,\\\"Demo\\\"),mdx(YoutubeVideo,{url:\\\"https://www.youtube.com/watch?v=hm8c-RhBop4\\\",mdxType:\\\"YoutubeVideo\\\"}),mdx(\\\"h2\\\",null,\\\"Installation\\\"),mdx(\\\"ol\\\",null,mdx(\\\"li\\\",{parentName:\\\"ol\\\"},mdx(\\\"p\\\",{parentName:\\\"li\\\"},mdx(\\\"strong\\\",{parentName:\\\"p\\\"},\\\"Get a blockfrost project id\\\"),\\\" \\\\u2014  Go to \\\",mdx(\\\"a\\\",r({parentName:\\\"p\\\"},{href:\\\"https://blockfrost.io/\\\"}),\\\"blockfrost.io\\\"),\\\", make an account and create a project.\\\")),mdx(\\\"li\\\",{parentName:\\\"ol\\\"},mdx(\\\"p\\\",{parentName:\\\"li\\\"},mdx(\\\"strong\\\",{parentName:\\\"p\\\"},\\\"Get your pool id\\\"),\\\" \\\\u2014\\\\xA0Go to \\\",mdx(\\\"a\\\",r({parentName:\\\"p\\\"},{href:\\\"https://pooltool.io\\\"}),\\\"pooltool.io\\\")))),mdx(\\\"p\\\",null,\\\"Setup a button somewhere on your website that looks like this:\\\"),mdx(\\\"pre\\\",null,mdx(\\\"code\\\",r({parentName:\\\"pre\\\"},{className:\\\"language-html\\\"}),`<button type=\\\"button\\\" onclick=\\\"handleDelegate()\\\">\\n    Delegate\\n</button>\\n`)),mdx(\\\"p\\\",null,\\\"Put the following code snippet at the end of the body content:\\\"),mdx(\\\"pre\\\",null,mdx(\\\"code\\\",r({parentName:\\\"pre\\\"},{className:\\\"language-html\\\"}),`<script>\\n    function handleDelegate() {\\n        var pool_id = '<POOL_ID>'\\n        var blockfrost_project_id = '<BLOCKFROST_PROJECT_ID>'\\n        var link = 'https://armada-alliance.com/delegation-widget?pool_id=' + pool_id + '&blockfrost_project_id=' + blockfrost_project_id\\n        var width = 600\\n        var height = Math.min(800, parseInt(window.outerHeight, 10))\\n        var left = (parseInt(window.outerWidth, 10) / 2) - (width / 2)\\n        var top = (parseInt(window.outerHeight, 10) - height) / 2\\n        window.open(link, 'Delegate', 'width=' + width + ',height=' + height + ',toolbar=0,menubar=0,location=0,status=0,scrollbars=1,resizable=1,left=' + left + ',top=' + top);\\n    }\\n</script>\\n`)))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-19T11:02:34.457Z",
-  "_cachedIn": "195 ms",
-  "_resolvedIn": "195 ms",
+  "_cachedAt": "2021-07-19T11:27:53.553Z",
+  "_cachedIn": "199 ms",
+  "_resolvedIn": "199 ms",
   "id": "GuideDetailPage",
   "type": "GuideDetailPage",
   "status": "resolved",
@@ -48,17 +48,17 @@
   "attrs": {
     "component-type": "GuideDetailPage",
     "component-id": "GuideDetailPage",
-    "component-cached-at": "2021-07-19T11:02:34.457Z",
-    "component-cached-in": "195 ms",
-    "component-resolved-in": "195 ms"
+    "component-cached-at": "2021-07-19T11:27:53.553Z",
+    "component-cached-in": "199 ms",
+    "component-resolved-in": "199 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-19T11:02:34.457Z",
-      "_cachedIn": "282 μs",
-      "_resolvedIn": "282 μs",
+      "_cachedAt": "2021-07-19T11:27:53.553Z",
+      "_cachedIn": "227 μs",
+      "_resolvedIn": "227 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -67,17 +67,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-19T11:02:34.457Z",
-        "component-cached-in": "282 μs",
-        "component-resolved-in": "282 μs"
+        "component-cached-at": "2021-07-19T11:27:53.553Z",
+        "component-cached-in": "227 μs",
+        "component-resolved-in": "227 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-19T11:02:34.457Z",
-          "_cachedIn": "157 μs",
-          "_resolvedIn": "157 μs",
+          "_cachedAt": "2021-07-19T11:27:53.553Z",
+          "_cachedIn": "129 μs",
+          "_resolvedIn": "129 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -85,7 +85,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-19T11:02:23.314Z",
+              "createdAt": "2021-07-19T11:27:41.772Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1221,7 +1221,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/wael.jpg",
-                "updatedAt": "2021-06-23T09:31:27.000Z",
+                "updatedAt": "2021-07-18T04:43:17.000Z",
                 "filePath": "/en/identities/wael-ivie.md"
               },
               {
@@ -1231,12 +1231,12 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/wcat-otg",
                 "origin": "/identities/wcat-otg",
                 "title": "WCat(Wayne)",
-                "description": "SPO, Co-Founder",
+                "description": "SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/wcat.jpeg",
-                "updatedAt": "2021-07-14T18:12:31.000Z",
+                "updatedAt": "2021-07-18T08:39:13.000Z",
                 "filePath": "/en/identities/wcat-otg.md"
               },
               {
@@ -1749,6 +1749,27 @@
                 "filePath": "/en/stake-pools/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65.md"
               },
               {
+                "id": "b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81",
+                "language": "en",
+                "slug": "/stake-pools/b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81",
+                "url": "https:///website.codespace1.sublayer.io/stake-pools/b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81",
+                "origin": "/stake-pools/b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81",
+                "title": "Stale Pool (STALE)",
+                "description": "Official stake pool of Stale. Stake with me to support me in making all your favourite community Cardano NFT tools, hosting community events and helping new and upcoming NFT creators!",
+                "aliases": null,
+                "keywords": null,
+                "template": "PoolDetailPage",
+                "identities": [
+                  {
+                    "id": "stale",
+                    "role": "spo"
+                  }
+                ],
+                "image": "https://armada-alliance.com/assets/ship-420.png",
+                "updatedAt": "2021-07-19T11:05:18.000Z",
+                "filePath": "/en/stake-pools/b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81.md"
+              },
+              {
                 "id": "c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2",
                 "language": "en",
                 "slug": "/stake-pools/c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2",
@@ -2023,6 +2044,14 @@
               },
               {
                 "language": "en",
+                "title": "Stale Pool STALE",
+                "slug": "/pool-widget/b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81",
+                "template": "PoolWidgetPage",
+                "poolId": "b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81",
+                "hidden": true
+              },
+              {
+                "language": "en",
                 "title": "Cardano ADA Mini Pool Switzerland MINI1",
                 "slug": "/pool-widget/c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2",
                 "template": "PoolWidgetPage",
@@ -2166,7 +2195,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-18T02:25:03.000Z",
                 "filePath": "/en/terms/ACTUS.md"
               },
               {
@@ -2228,7 +2257,7 @@
                 "url": "https:///website.codespace1.sublayer.io/terms/ada",
                 "origin": "/terms/ada",
                 "title": "Ada (₳)",
-                "description": "The digital currency (or cryptocurrency) of the Cardano blockchain. 1 Ada = 1 million Lovelaces. Ada and Lovelace are named after the mathematician [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace).",
+                "description": "The digital currency (or cryptocurrency) of the Cardano blockchain. 1 Ada = 1 million Lovelace. Ada and Lovelace are named after the mathematician [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace).",
                 "aliases": [
                   "ada",
                   "cardano",
@@ -2264,7 +2293,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-18T02:25:03.000Z",
                 "filePath": "/en/terms/ada.md"
               },
               {
@@ -3142,15 +3171,27 @@
                 "title": "Crypto mining",
                 "description": "In proof-of-work blockchain's like Bitcoin mining is the process by which new crypto-currencies or digital assets are created and distributed to the blockchain's decentralized ledger.",
                 "aliases": [
-                  "ACTUS"
+                  "crypto-mining",
+                  "bitcoin-mining",
+                  "mining",
+                  "mining-bitcoin",
+                  "mining-crypto",
+                  "mining-crypto-currencies",
+                  "mining-crypto-assets",
+                  "staking",
+                  "proof-of-work",
+                  "proof-of-stake"
                 ],
                 "keywords": [
-                  "ACTUS",
-                  "Algorithmic",
-                  "Contract",
-                  "Types",
-                  "Unified",
-                  "Standards"
+                  "crypto",
+                  "mining",
+                  "mining-bitcoin",
+                  "mining-crypto",
+                  "mining-crypto-currencies",
+                  "mining-crypto-assets",
+                  "staking",
+                  "proof-of-work",
+                  "proof-of-stake"
                 ],
                 "template": "TermDetailPage",
                 "identities": [
@@ -3159,7 +3200,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-14T03:39:25.000Z",
+                "updatedAt": "2021-07-18T01:43:37.000Z",
                 "filePath": "/en/terms/crypto-mining.md"
               },
               {
@@ -4381,7 +4422,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-18T02:25:03.000Z",
                 "filePath": "/en/terms/mainnet.md"
               },
               {
@@ -7123,18 +7164,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-19T11:02:34.457Z",
-            "component-cached-in": "157 μs",
-            "component-resolved-in": "157 μs"
+            "component-cached-at": "2021-07-19T11:27:53.553Z",
+            "component-cached-in": "129 μs",
+            "component-resolved-in": "129 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-19T11:02:34.457Z",
-          "_cachedIn": "186 μs",
-          "_resolvedIn": "186 μs",
+          "_cachedAt": "2021-07-19T11:27:53.553Z",
+          "_cachedIn": "153 μs",
+          "_resolvedIn": "153 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7145,17 +7186,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-19T11:02:34.457Z",
-            "component-cached-in": "186 μs",
-            "component-resolved-in": "186 μs"
+            "component-cached-at": "2021-07-19T11:27:53.553Z",
+            "component-cached-in": "153 μs",
+            "component-resolved-in": "153 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-19T11:02:34.457Z",
-              "_cachedIn": "39 μs",
-              "_resolvedIn": "39 μs",
+              "_cachedAt": "2021-07-19T11:27:53.553Z",
+              "_cachedIn": "40 μs",
+              "_resolvedIn": "40 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7215,9 +7256,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-19T11:02:34.457Z",
-                "component-cached-in": "39 μs",
-                "component-resolved-in": "39 μs"
+                "component-cached-at": "2021-07-19T11:27:53.553Z",
+                "component-cached-in": "40 μs",
+                "component-resolved-in": "40 μs"
               },
               "components": {}
             }
@@ -7226,9 +7267,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-19T11:02:34.457Z",
-          "_cachedIn": "101 μs",
-          "_resolvedIn": "101 μs",
+          "_cachedAt": "2021-07-19T11:27:53.553Z",
+          "_cachedIn": "83 μs",
+          "_resolvedIn": "83 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7237,9 +7278,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-19T11:02:34.457Z",
-            "component-cached-in": "101 μs",
-            "component-resolved-in": "101 μs"
+            "component-cached-at": "2021-07-19T11:27:53.553Z",
+            "component-cached-in": "83 μs",
+            "component-resolved-in": "83 μs"
           },
           "components": {}
         }
@@ -7248,9 +7289,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-19T11:02:34.457Z",
-      "_cachedIn": "200 μs",
-      "_resolvedIn": "200 μs",
+      "_cachedAt": "2021-07-19T11:27:53.553Z",
+      "_cachedIn": "165 μs",
+      "_resolvedIn": "165 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7298,18 +7339,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-19T11:02:34.457Z",
-        "component-cached-in": "200 μs",
-        "component-resolved-in": "200 μs"
+        "component-cached-at": "2021-07-19T11:27:53.553Z",
+        "component-cached-in": "165 μs",
+        "component-resolved-in": "165 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-19T11:02:34.457Z",
-      "_cachedIn": "103 μs",
-      "_resolvedIn": "103 μs",
+      "_cachedAt": "2021-07-19T11:27:53.553Z",
+      "_cachedIn": "93 μs",
+      "_resolvedIn": "93 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7321,18 +7362,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-19T11:02:34.457Z",
-        "component-cached-in": "103 μs",
-        "component-resolved-in": "103 μs"
+        "component-cached-at": "2021-07-19T11:27:53.553Z",
+        "component-cached-in": "93 μs",
+        "component-resolved-in": "93 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-19T11:02:34.457Z",
-      "_cachedIn": "198 μs",
-      "_resolvedIn": "198 μs",
+      "_cachedAt": "2021-07-19T11:27:53.553Z",
+      "_cachedIn": "161 μs",
+      "_resolvedIn": "161 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7352,9 +7393,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-19T11:02:34.457Z",
-        "component-cached-in": "198 μs",
-        "component-resolved-in": "198 μs"
+        "component-cached-at": "2021-07-19T11:27:53.553Z",
+        "component-cached-in": "161 μs",
+        "component-resolved-in": "161 μs"
       },
       "components": {}
     }

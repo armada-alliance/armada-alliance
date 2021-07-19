@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"GuideDetailPage\",\"version\":1},\"props\":{\"id\":\"create-single-non-fungible-token\",\"language\":\"en\",\"slug\":\"/guides/create-single-non-fungible-token\",\"url\":\"https:///website.codespace1.sublayer.io/guides/create-single-non-fungible-token\",\"origin\":\"/guides/create-single-non-fungible-token\",\"title\":\"Create Single NFT\",\"description\":\"How to create a Non-Fungible token on Cardano with JavaScript.\",\"aliases\":null,\"keywords\":[\"NFT\",\"JavaScript\"],\"template\":\"GuideDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"},{\"id\":\"sublayerio\",\"role\":\"author\"}],\"icon\":\"💰\",\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/guides/create-single-non-fungible-token.md\",\"externalLink\":\"https://docs.armada-alliance.com/learn/cardano-developer-guides/nft-native-assets\",\"body\":\"- In this guide we will go over how to create a [NFT](/terms/nft) on the Cardano blockchain using Javascript and the [cardano-cli-js](/terms/cardano-cli-js) package provided by our friends from BERRY stake pool [Alessandro](/identities/alessandro-berry) and [Pascal](/identities/pascal-berry).\\n\\n\\n\\n<YoutubeVideo url=\\\"https://www.youtube.com/watch?v=OeOliguGn7Y\\\" />\",\"mdxSource\":{\"compiledSource\":\"var c=Object.defineProperty,p=Object.defineProperties;var m=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var i=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var d=(e,o,a)=>o in e?c(e,o,{enumerable:!0,configurable:!0,writable:!0,value:a}):e[o]=a,r=(e,o)=>{for(var a in o||(o={}))i.call(o,a)&&d(e,a,o[a]);if(n)for(var a of n(o))s.call(o,a)&&d(e,a,o[a]);return e},l=(e,o)=>p(e,m(o));var u=(e,o)=>{var a={};for(var t in e)i.call(e,t)&&o.indexOf(t)<0&&(a[t]=e[t]);if(e!=null&&n)for(var t of n(e))o.indexOf(t)<0&&s.call(e,t)&&(a[t]=e[t]);return a};const makeShortcode=e=>function(a){return console.warn(\\\"Component \\\"+e+\\\" was not imported, exported, or provided by MDXProvider as global scope\\\"),mdx(\\\"div\\\",r({},a))},YoutubeVideo=makeShortcode(\\\"YoutubeVideo\\\"),layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(a){var t=a,{components:e}=t,o=u(t,[\\\"components\\\"]);return mdx(MDXLayout,l(r(r({},layoutProps),o),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"ul\\\",null,mdx(\\\"li\\\",{parentName:\\\"ul\\\"},\\\"In this guide we will go over how to create a \\\",mdx(\\\"a\\\",r({parentName:\\\"li\\\"},{href:\\\"/terms/nft\\\"}),\\\"NFT\\\"),\\\" on the Cardano blockchain using Javascript and the \\\",mdx(\\\"a\\\",r({parentName:\\\"li\\\"},{href:\\\"/terms/cardano-cli-js\\\"}),\\\"cardano-cli-js\\\"),\\\" package provided by our friends from BERRY stake pool \\\",mdx(\\\"a\\\",r({parentName:\\\"li\\\"},{href:\\\"/identities/alessandro-berry\\\"}),\\\"Alessandro\\\"),\\\" and \\\",mdx(\\\"a\\\",r({parentName:\\\"li\\\"},{href:\\\"/identities/pascal-berry\\\"}),\\\"Pascal\\\"),\\\".\\\")),mdx(YoutubeVideo,{url:\\\"https://www.youtube.com/watch?v=OeOliguGn7Y\\\",mdxType:\\\"YoutubeVideo\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-19T11:02:34.433Z",
-  "_cachedIn": "172 ms",
-  "_resolvedIn": "172 ms",
+  "_cachedAt": "2021-07-19T11:27:53.518Z",
+  "_cachedIn": "165 ms",
+  "_resolvedIn": "165 ms",
   "id": "GuideDetailPage",
   "type": "GuideDetailPage",
   "status": "resolved",
@@ -47,17 +47,17 @@
   "attrs": {
     "component-type": "GuideDetailPage",
     "component-id": "GuideDetailPage",
-    "component-cached-at": "2021-07-19T11:02:34.433Z",
-    "component-cached-in": "172 ms",
-    "component-resolved-in": "172 ms"
+    "component-cached-at": "2021-07-19T11:27:53.518Z",
+    "component-cached-in": "165 ms",
+    "component-resolved-in": "165 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-19T11:02:34.433Z",
-      "_cachedIn": "259 μs",
-      "_resolvedIn": "259 μs",
+      "_cachedAt": "2021-07-19T11:27:53.518Z",
+      "_cachedIn": "264 μs",
+      "_resolvedIn": "264 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -66,17 +66,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-19T11:02:34.433Z",
-        "component-cached-in": "259 μs",
-        "component-resolved-in": "259 μs"
+        "component-cached-at": "2021-07-19T11:27:53.518Z",
+        "component-cached-in": "264 μs",
+        "component-resolved-in": "264 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-19T11:02:34.433Z",
-          "_cachedIn": "153 μs",
-          "_resolvedIn": "153 μs",
+          "_cachedAt": "2021-07-19T11:27:53.518Z",
+          "_cachedIn": "157 μs",
+          "_resolvedIn": "157 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -84,7 +84,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-19T11:02:23.314Z",
+              "createdAt": "2021-07-19T11:27:41.772Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1220,7 +1220,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/wael.jpg",
-                "updatedAt": "2021-06-23T09:31:27.000Z",
+                "updatedAt": "2021-07-18T04:43:17.000Z",
                 "filePath": "/en/identities/wael-ivie.md"
               },
               {
@@ -1230,12 +1230,12 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/wcat-otg",
                 "origin": "/identities/wcat-otg",
                 "title": "WCat(Wayne)",
-                "description": "SPO, Co-Founder",
+                "description": "SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/wcat.jpeg",
-                "updatedAt": "2021-07-14T18:12:31.000Z",
+                "updatedAt": "2021-07-18T08:39:13.000Z",
                 "filePath": "/en/identities/wcat-otg.md"
               },
               {
@@ -1748,6 +1748,27 @@
                 "filePath": "/en/stake-pools/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65.md"
               },
               {
+                "id": "b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81",
+                "language": "en",
+                "slug": "/stake-pools/b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81",
+                "url": "https:///website.codespace1.sublayer.io/stake-pools/b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81",
+                "origin": "/stake-pools/b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81",
+                "title": "Stale Pool (STALE)",
+                "description": "Official stake pool of Stale. Stake with me to support me in making all your favourite community Cardano NFT tools, hosting community events and helping new and upcoming NFT creators!",
+                "aliases": null,
+                "keywords": null,
+                "template": "PoolDetailPage",
+                "identities": [
+                  {
+                    "id": "stale",
+                    "role": "spo"
+                  }
+                ],
+                "image": "https://armada-alliance.com/assets/ship-420.png",
+                "updatedAt": "2021-07-19T11:05:18.000Z",
+                "filePath": "/en/stake-pools/b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81.md"
+              },
+              {
                 "id": "c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2",
                 "language": "en",
                 "slug": "/stake-pools/c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2",
@@ -2022,6 +2043,14 @@
               },
               {
                 "language": "en",
+                "title": "Stale Pool STALE",
+                "slug": "/pool-widget/b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81",
+                "template": "PoolWidgetPage",
+                "poolId": "b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81",
+                "hidden": true
+              },
+              {
+                "language": "en",
                 "title": "Cardano ADA Mini Pool Switzerland MINI1",
                 "slug": "/pool-widget/c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2",
                 "template": "PoolWidgetPage",
@@ -2165,7 +2194,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-18T02:25:03.000Z",
                 "filePath": "/en/terms/ACTUS.md"
               },
               {
@@ -2227,7 +2256,7 @@
                 "url": "https:///website.codespace1.sublayer.io/terms/ada",
                 "origin": "/terms/ada",
                 "title": "Ada (₳)",
-                "description": "The digital currency (or cryptocurrency) of the Cardano blockchain. 1 Ada = 1 million Lovelaces. Ada and Lovelace are named after the mathematician [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace).",
+                "description": "The digital currency (or cryptocurrency) of the Cardano blockchain. 1 Ada = 1 million Lovelace. Ada and Lovelace are named after the mathematician [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace).",
                 "aliases": [
                   "ada",
                   "cardano",
@@ -2263,7 +2292,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-18T02:25:03.000Z",
                 "filePath": "/en/terms/ada.md"
               },
               {
@@ -3141,15 +3170,27 @@
                 "title": "Crypto mining",
                 "description": "In proof-of-work blockchain's like Bitcoin mining is the process by which new crypto-currencies or digital assets are created and distributed to the blockchain's decentralized ledger.",
                 "aliases": [
-                  "ACTUS"
+                  "crypto-mining",
+                  "bitcoin-mining",
+                  "mining",
+                  "mining-bitcoin",
+                  "mining-crypto",
+                  "mining-crypto-currencies",
+                  "mining-crypto-assets",
+                  "staking",
+                  "proof-of-work",
+                  "proof-of-stake"
                 ],
                 "keywords": [
-                  "ACTUS",
-                  "Algorithmic",
-                  "Contract",
-                  "Types",
-                  "Unified",
-                  "Standards"
+                  "crypto",
+                  "mining",
+                  "mining-bitcoin",
+                  "mining-crypto",
+                  "mining-crypto-currencies",
+                  "mining-crypto-assets",
+                  "staking",
+                  "proof-of-work",
+                  "proof-of-stake"
                 ],
                 "template": "TermDetailPage",
                 "identities": [
@@ -3158,7 +3199,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-14T03:39:25.000Z",
+                "updatedAt": "2021-07-18T01:43:37.000Z",
                 "filePath": "/en/terms/crypto-mining.md"
               },
               {
@@ -4380,7 +4421,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-18T02:25:03.000Z",
                 "filePath": "/en/terms/mainnet.md"
               },
               {
@@ -7122,18 +7163,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-19T11:02:34.433Z",
-            "component-cached-in": "153 μs",
-            "component-resolved-in": "153 μs"
+            "component-cached-at": "2021-07-19T11:27:53.518Z",
+            "component-cached-in": "157 μs",
+            "component-resolved-in": "157 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-19T11:02:34.433Z",
-          "_cachedIn": "187 μs",
-          "_resolvedIn": "187 μs",
+          "_cachedAt": "2021-07-19T11:27:53.518Z",
+          "_cachedIn": "180 μs",
+          "_resolvedIn": "180 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7144,17 +7185,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-19T11:02:34.433Z",
-            "component-cached-in": "187 μs",
-            "component-resolved-in": "187 μs"
+            "component-cached-at": "2021-07-19T11:27:53.518Z",
+            "component-cached-in": "180 μs",
+            "component-resolved-in": "180 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-19T11:02:34.433Z",
-              "_cachedIn": "46 μs",
-              "_resolvedIn": "46 μs",
+              "_cachedAt": "2021-07-19T11:27:53.518Z",
+              "_cachedIn": "41 μs",
+              "_resolvedIn": "41 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7214,9 +7255,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-19T11:02:34.433Z",
-                "component-cached-in": "46 μs",
-                "component-resolved-in": "46 μs"
+                "component-cached-at": "2021-07-19T11:27:53.518Z",
+                "component-cached-in": "41 μs",
+                "component-resolved-in": "41 μs"
               },
               "components": {}
             }
@@ -7225,9 +7266,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-19T11:02:34.433Z",
-          "_cachedIn": "108 μs",
-          "_resolvedIn": "108 μs",
+          "_cachedAt": "2021-07-19T11:27:53.518Z",
+          "_cachedIn": "106 μs",
+          "_resolvedIn": "106 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7236,9 +7277,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-19T11:02:34.433Z",
-            "component-cached-in": "108 μs",
-            "component-resolved-in": "108 μs"
+            "component-cached-at": "2021-07-19T11:27:53.518Z",
+            "component-cached-in": "106 μs",
+            "component-resolved-in": "106 μs"
           },
           "components": {}
         }
@@ -7247,9 +7288,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-19T11:02:34.433Z",
-      "_cachedIn": "180 μs",
-      "_resolvedIn": "180 μs",
+      "_cachedAt": "2021-07-19T11:27:53.518Z",
+      "_cachedIn": "197 μs",
+      "_resolvedIn": "197 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7263,6 +7304,9 @@
             "name": "Wael Ivie 🐋",
             "description": "Founder, SPO",
             "image": "/wael.jpg",
+            "telegram": "Qwailman",
+            "twitter": "Piada_stakePool",
+            "github": "AstroWa3l",
             "link": {
               "name": "Wael Ivie 🐋",
               "href": "/identities/wael-ivie"
@@ -7294,18 +7338,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-19T11:02:34.433Z",
-        "component-cached-in": "180 μs",
-        "component-resolved-in": "180 μs"
+        "component-cached-at": "2021-07-19T11:27:53.518Z",
+        "component-cached-in": "197 μs",
+        "component-resolved-in": "197 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-19T11:02:34.433Z",
-      "_cachedIn": "86 μs",
-      "_resolvedIn": "86 μs",
+      "_cachedAt": "2021-07-19T11:27:53.518Z",
+      "_cachedIn": "104 μs",
+      "_resolvedIn": "104 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7317,18 +7361,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-19T11:02:34.433Z",
-        "component-cached-in": "86 μs",
-        "component-resolved-in": "86 μs"
+        "component-cached-at": "2021-07-19T11:27:53.518Z",
+        "component-cached-in": "104 μs",
+        "component-resolved-in": "104 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-19T11:02:34.433Z",
-      "_cachedIn": "178 μs",
-      "_resolvedIn": "178 μs",
+      "_cachedAt": "2021-07-19T11:27:53.518Z",
+      "_cachedIn": "193 μs",
+      "_resolvedIn": "193 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7349,9 +7393,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-19T11:02:34.433Z",
-        "component-cached-in": "178 μs",
-        "component-resolved-in": "178 μs"
+        "component-cached-at": "2021-07-19T11:27:53.518Z",
+        "component-cached-in": "193 μs",
+        "component-resolved-in": "193 μs"
       },
       "components": {}
     }

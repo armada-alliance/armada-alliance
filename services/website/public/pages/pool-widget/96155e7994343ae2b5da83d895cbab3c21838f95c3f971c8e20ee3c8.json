@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"Halo Stake Pool HALO\",\"slug\":\"/pool-widget/96155e7994343ae2b5da83d895cbab3c21838f95c3f971c8e20ee3c8\",\"template\":\"PoolWidgetPage\",\"poolId\":\"96155e7994343ae2b5da83d895cbab3c21838f95c3f971c8e20ee3c8\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-19T11:02:34.898Z",
-  "_cachedIn": "176 μs",
-  "_resolvedIn": "176 μs",
+  "_cachedAt": "2021-07-19T11:27:54.056Z",
+  "_cachedIn": "165 μs",
+  "_resolvedIn": "165 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -30,12 +30,12 @@
       "addr": "pool1jc24u7v5xsaw9dw6s0vftjat8ssc8ru4c0uhrj8zpm3usnrp03t",
       "website": "https://www.halostake.com",
       "totalStake": "62095228148",
-      "blocksLifetime": "0",
-      "delegators": "7",
-      "saturated": 0.00094584367193777,
+      "blocksLifetime": 0,
+      "delegators": 7,
+      "saturated": 0.0009355977631070747,
       "pledge": "3000000000",
       "pledged": "3002007384",
-      "taxRatio": "0",
+      "taxRatio": 0,
       "taxFix": "340000000",
       "roa": "0",
       "memberSince": "2021-05-18T00:00:00.000Z",
@@ -147,17 +147,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2021-07-19T11:02:34.898Z",
-    "component-cached-in": "176 μs",
-    "component-resolved-in": "176 μs"
+    "component-cached-at": "2021-07-19T11:27:54.056Z",
+    "component-cached-in": "165 μs",
+    "component-resolved-in": "165 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-19T11:02:34.898Z",
-      "_cachedIn": "103 μs",
-      "_resolvedIn": "103 μs",
+      "_cachedAt": "2021-07-19T11:27:54.056Z",
+      "_cachedIn": "97 μs",
+      "_resolvedIn": "97 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -166,17 +166,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-19T11:02:34.898Z",
-        "component-cached-in": "103 μs",
-        "component-resolved-in": "103 μs"
+        "component-cached-at": "2021-07-19T11:27:54.056Z",
+        "component-cached-in": "97 μs",
+        "component-resolved-in": "97 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-19T11:02:34.898Z",
-          "_cachedIn": "62 μs",
-          "_resolvedIn": "62 μs",
+          "_cachedAt": "2021-07-19T11:27:54.056Z",
+          "_cachedIn": "57 μs",
+          "_resolvedIn": "57 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -184,7 +184,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-19T11:02:23.314Z",
+              "createdAt": "2021-07-19T11:27:41.772Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1320,7 +1320,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/wael.jpg",
-                "updatedAt": "2021-06-23T09:31:27.000Z",
+                "updatedAt": "2021-07-18T04:43:17.000Z",
                 "filePath": "/en/identities/wael-ivie.md"
               },
               {
@@ -1330,12 +1330,12 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/wcat-otg",
                 "origin": "/identities/wcat-otg",
                 "title": "WCat(Wayne)",
-                "description": "SPO, Co-Founder",
+                "description": "SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/wcat.jpeg",
-                "updatedAt": "2021-07-14T18:12:31.000Z",
+                "updatedAt": "2021-07-18T08:39:13.000Z",
                 "filePath": "/en/identities/wcat-otg.md"
               },
               {
@@ -1848,6 +1848,27 @@
                 "filePath": "/en/stake-pools/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65.md"
               },
               {
+                "id": "b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81",
+                "language": "en",
+                "slug": "/stake-pools/b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81",
+                "url": "https:///website.codespace1.sublayer.io/stake-pools/b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81",
+                "origin": "/stake-pools/b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81",
+                "title": "Stale Pool (STALE)",
+                "description": "Official stake pool of Stale. Stake with me to support me in making all your favourite community Cardano NFT tools, hosting community events and helping new and upcoming NFT creators!",
+                "aliases": null,
+                "keywords": null,
+                "template": "PoolDetailPage",
+                "identities": [
+                  {
+                    "id": "stale",
+                    "role": "spo"
+                  }
+                ],
+                "image": "https://armada-alliance.com/assets/ship-420.png",
+                "updatedAt": "2021-07-19T11:05:18.000Z",
+                "filePath": "/en/stake-pools/b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81.md"
+              },
+              {
                 "id": "c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2",
                 "language": "en",
                 "slug": "/stake-pools/c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2",
@@ -2122,6 +2143,14 @@
               },
               {
                 "language": "en",
+                "title": "Stale Pool STALE",
+                "slug": "/pool-widget/b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81",
+                "template": "PoolWidgetPage",
+                "poolId": "b92012c1afbd6c7ffcf034fefb4500eada5e98529f4d0f54e7db8a81",
+                "hidden": true
+              },
+              {
+                "language": "en",
                 "title": "Cardano ADA Mini Pool Switzerland MINI1",
                 "slug": "/pool-widget/c3e7025ebae638e994c149e5703e82619b31897c9e1d64fc684f81c2",
                 "template": "PoolWidgetPage",
@@ -2265,7 +2294,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-18T02:25:03.000Z",
                 "filePath": "/en/terms/ACTUS.md"
               },
               {
@@ -2327,7 +2356,7 @@
                 "url": "https:///website.codespace1.sublayer.io/terms/ada",
                 "origin": "/terms/ada",
                 "title": "Ada (₳)",
-                "description": "The digital currency (or cryptocurrency) of the Cardano blockchain. 1 Ada = 1 million Lovelaces. Ada and Lovelace are named after the mathematician [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace).",
+                "description": "The digital currency (or cryptocurrency) of the Cardano blockchain. 1 Ada = 1 million Lovelace. Ada and Lovelace are named after the mathematician [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace).",
                 "aliases": [
                   "ada",
                   "cardano",
@@ -2363,7 +2392,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-18T02:25:03.000Z",
                 "filePath": "/en/terms/ada.md"
               },
               {
@@ -3241,15 +3270,27 @@
                 "title": "Crypto mining",
                 "description": "In proof-of-work blockchain's like Bitcoin mining is the process by which new crypto-currencies or digital assets are created and distributed to the blockchain's decentralized ledger.",
                 "aliases": [
-                  "ACTUS"
+                  "crypto-mining",
+                  "bitcoin-mining",
+                  "mining",
+                  "mining-bitcoin",
+                  "mining-crypto",
+                  "mining-crypto-currencies",
+                  "mining-crypto-assets",
+                  "staking",
+                  "proof-of-work",
+                  "proof-of-stake"
                 ],
                 "keywords": [
-                  "ACTUS",
-                  "Algorithmic",
-                  "Contract",
-                  "Types",
-                  "Unified",
-                  "Standards"
+                  "crypto",
+                  "mining",
+                  "mining-bitcoin",
+                  "mining-crypto",
+                  "mining-crypto-currencies",
+                  "mining-crypto-assets",
+                  "staking",
+                  "proof-of-work",
+                  "proof-of-stake"
                 ],
                 "template": "TermDetailPage",
                 "identities": [
@@ -3258,7 +3299,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-14T03:39:25.000Z",
+                "updatedAt": "2021-07-18T01:43:37.000Z",
                 "filePath": "/en/terms/crypto-mining.md"
               },
               {
@@ -4480,7 +4521,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-18T02:25:03.000Z",
                 "filePath": "/en/terms/mainnet.md"
               },
               {
@@ -7222,18 +7263,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-19T11:02:34.898Z",
-            "component-cached-in": "62 μs",
-            "component-resolved-in": "62 μs"
+            "component-cached-at": "2021-07-19T11:27:54.056Z",
+            "component-cached-in": "57 μs",
+            "component-resolved-in": "57 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-19T11:02:34.898Z",
-          "_cachedIn": "83 μs",
-          "_resolvedIn": "83 μs",
+          "_cachedAt": "2021-07-19T11:27:54.056Z",
+          "_cachedIn": "77 μs",
+          "_resolvedIn": "77 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7244,17 +7285,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-19T11:02:34.898Z",
-            "component-cached-in": "83 μs",
-            "component-resolved-in": "83 μs"
+            "component-cached-at": "2021-07-19T11:27:54.056Z",
+            "component-cached-in": "77 μs",
+            "component-resolved-in": "77 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-19T11:02:34.898Z",
-              "_cachedIn": "22 μs",
-              "_resolvedIn": "22 μs",
+              "_cachedAt": "2021-07-19T11:27:54.056Z",
+              "_cachedIn": "21 μs",
+              "_resolvedIn": "21 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7314,9 +7355,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-19T11:02:34.898Z",
-                "component-cached-in": "22 μs",
-                "component-resolved-in": "22 μs"
+                "component-cached-at": "2021-07-19T11:27:54.056Z",
+                "component-cached-in": "21 μs",
+                "component-resolved-in": "21 μs"
               },
               "components": {}
             }
@@ -7325,9 +7366,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-19T11:02:34.898Z",
-          "_cachedIn": "24 μs",
-          "_resolvedIn": "24 μs",
+          "_cachedAt": "2021-07-19T11:27:54.056Z",
+          "_cachedIn": "23 μs",
+          "_resolvedIn": "23 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7336,9 +7377,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-19T11:02:34.898Z",
-            "component-cached-in": "24 μs",
-            "component-resolved-in": "24 μs"
+            "component-cached-at": "2021-07-19T11:27:54.056Z",
+            "component-cached-in": "23 μs",
+            "component-resolved-in": "23 μs"
           },
           "components": {}
         }
