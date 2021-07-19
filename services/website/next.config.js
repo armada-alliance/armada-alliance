@@ -1,6 +1,6 @@
 module.exports = {
   images: {
-    domains: ["website.codespace1.sublayer.io", "website.sublayer.io"],
+    domains: ["website.codespace1.sublayer.io", "website.sublayer.io", "armada-alliance.com"],
   },
   webpack: (config) => {
     const experiments = config.experiments || {};

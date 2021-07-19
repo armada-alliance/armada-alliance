@@ -5,7 +5,7 @@ module.exports = {
     type: 'Component',
     resolve: async (ctx, props) => {
 
-        const timeSeries = ctx.tables.get('timeSeries')
+        const timeSeries = ctx.tables.get('timeSeries').filter(timeSerie => timeSerie.type === "combined")
         const pools = ctx.tables.get('pools')
         const countries = ctx.tables.get('countries')
 
