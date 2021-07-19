@@ -11,13 +11,17 @@ import Text from './Text'
 import AdaPrice from './AdaPrice'
 import EpochClock from './EpochClock'
 
-export default function StatsSection({ title, pretitle, description, poolCount, countryCount, liveStake, mintedBlocksCount, delegatorCount, pools }) {
+export default function StatsSection({ title, pretitle, description, poolCount, countryCount, fields, pools }) {
 
     const [poolSelection] = useState(
         shuffle(pools).slice(0, 10)
     )
 
     const testMode = useTestMode()
+
+    const liveStake = fields.find(field => field.id === 'liveStake')
+    const mintedBlocksCount = fields.find(field => field.id === 'mintedBlocksCount')
+    const delegatorCount = fields.find(field => field.id === 'delegatorCount')
 
     return (
         <div className="bg-gray-50 pt-12 sm:pt-16">
@@ -53,39 +57,104 @@ export default function StatsSection({ title, pretitle, description, poolCount, 
                     <div className="absolute inset-0 h-1/2 bg-gray-50" />
                     <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                         <div className="max-w-4xl mx-auto">
-                            <dl className="rounded-lg bg-white shadow-lg sm:grid sm:grid-cols-3">
+                            <div className="rounded-lg bg-white shadow-lg sm:grid sm:grid-cols-3">
                                 <div className="flex flex-col border-b border-gray-100 p-6 text-center sm:border-0 sm:border-r">
-                                    <dt className="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">
+                                    <div className="text-5xl font-extrabold text-primary-500">{mintedBlocksCount.value}</div>
+                                    {mintedBlocksCount.diff ? (
+                                        <div className="flex items-center justify-center text-sm">
+                                            {mintedBlocksCount.diff > 0 ? (
+                                                <div className="flex items-center space-x-1">
+                                                    <div className="text-green-500">+{mintedBlocksCount.diff}</div>
+                                                    <div className="text-green-500">({mintedBlocksCount.diffPct.toFixed(2)}%)</div>
+                                                </div>
+                                            ) : null}
+                                            {mintedBlocksCount.diff < 0 ? (
+                                                <div className="flex items-center space-x-1">
+                                                    <div className="text-red-500">{mintedBlocksCount.diff}</div>
+                                                    <div className="text-red-500">({mintedBlocksCount.diffPct.toFixed(2)}%)</div>
+                                                </div>
+                                            ) : null}
+                                        </div>
+                                    ) : null}
+                                    <div className="mt-2 text-lg leading-6 font-medium text-gray-500">
                                         <PageTooltip slug={'/terms/block'}>
                                             <Text>Blocks minted</Text>
                                         </PageTooltip>
-                                    </dt>
-                                    <dd className="order-1 text-5xl font-extrabold text-primary-500">{mintedBlocksCount}</dd>
+                                    </div>
                                 </div>
                                 <div className="flex flex-col border-t border-b border-gray-100 p-6 text-center sm:border-0 sm:border-l sm:border-r">
-                                    <dt className="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">
+                                    <div className="text-5xl font-extrabold text-primary-500">
+                                        <AdaPrice
+                                            className="space-x-3"
+                                            value={liveStake.value / 1000000}
+                                        />
+                                    </div>
+                                    {liveStake.diff ? (
+                                        <div className="flex items-center justify-center text-sm">
+                                            {liveStake.diff > 0 ? (
+                                                <div className="flex items-center space-x-1">
+                                                    <div className="text-green-500 flex items-center">+
+                                                        <AdaPrice
+                                                            className="space-x-1"
+                                                            value={liveStake.diff / 1000000}
+                                                        />
+                                                    </div>
+                                                    <div className="text-green-500">({liveStake.diffPct.toFixed(2)}%)</div>
+                                                </div>
+                                            ) : null}
+                                            {liveStake.diff < 0 ? (
+                                                <div className="flex items-center space-x-1">
+                                                    <div className="text-red-500 flex items-center">
+                                                        <AdaPrice
+                                                            className="space-x-1"
+                                                            value={liveStake.diff / 1000000}
+                                                        />
+                                                    </div>
+                                                    <div className="text-red-500">({liveStake.diffPct.toFixed(2)}%)</div>
+                                                </div>
+                                            ) : null}
+                                        </div>
+                                    ) : null}
+                                    <div className="mt-2 text-lg leading-6 font-medium text-gray-500">
                                         <PageTooltip slug={'/terms/live-stake'}>
                                             <Text>Live stake</Text>
                                         </PageTooltip>
-                                    </dt>
-                                    <dd className="order-1 text-5xl font-extrabold text-primary-500">
-                                        <AdaPrice
-                                            value={liveStake / 1000000}
-                                        />
-                                    </dd>
+                                    </div>
                                 </div>
                                 <div className="flex flex-col border-t border-gray-100 p-6 text-center sm:border-0 sm:border-l">
-                                    <dt className="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">
+                                    <div className="text-5xl font-extrabold text-primary-500">{delegatorCount.value}</div>
+                                    {delegatorCount.diff ? (
+                                        <div className="flex items-center justify-center text-sm">
+                                            {delegatorCount.diff > 0 ? (
+                                                <div className="flex items-center space-x-1">
+                                                    <div className="text-green-500">+{delegatorCount.diff}</div>
+                                                    <div className="text-green-500">({delegatorCount.diffPct.toFixed(2)}%)</div>
+                                                </div>
+                                            ) : null}
+                                            {delegatorCount.diff < 0 ? (
+                                                <div className="flex items-center space-x-1">
+                                                    <div className="text-red-500">{delegatorCount.diff}</div>
+                                                    <div className="text-red-500">({delegatorCount.diffPct.toFixed(2)}%)</div>
+                                                </div>
+                                            ) : null}
+                                        </div>
+                                    ) : null}
+                                    <div className="mt-2 text-lg leading-6 font-medium text-gray-500">
                                         <PageTooltip slug={'/terms/delegate'}>
                                             <Text>Delegators</Text>
                                         </PageTooltip>
-                                    </dt>
-                                    <dd className="order-1 text-5xl font-extrabold text-primary-500">{delegatorCount}</dd>
+                                    </div>
                                 </div>
-                            </dl>
+                            </div>
+                            <div className="flex justify-center mt-2">
+                                <div className="text-gray-400 text-xs">
+                                    *increase / decrease is relative to yesterday
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+
             </div>
             {testMode ? <EpochClock /> : null}
         </div>
