@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"address\",\"language\":\"es\",\"slug\":\"/es/terms/address\",\"url\":\"https:///website.codespace1.sublayer.io/es/terms/address\",\"origin\":\"/es/terms/address\",\"title\":\"address\",\"description\":\"La dirección de un UTXO dice hacia dónde “va” la salida.\",\"aliases\":[\"cardano address\",\"UTXO address\"],\"keywords\":[\"cardano\",\"address\",\"utxo\",\"direccion\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"alex-qxt\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/es/terms/address.md\",\"body\":\"La dirección define las condiciones para desbloquear la salida. Puede ser un hash de clave pública o en el modelo eUTXO (UTXO Extendido) un hash de script. \\nAl igual que una URL, una dirección de la Blockchain es la ubicación hacia o desde la cual ocurren las transacciones en la cadena de bloques.\\n\",\"mdxSource\":{\"compiledSource\":\"var r=Object.defineProperty,p=Object.defineProperties;var X=Object.getOwnPropertyDescriptors;var c=Object.getOwnPropertySymbols;var l=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var u=(e,a,n)=>a in e?r(e,a,{enumerable:!0,configurable:!0,writable:!0,value:n}):e[a]=n,i=(e,a)=>{for(var n in a||(a={}))l.call(a,n)&&u(e,n,a[n]);if(c)for(var n of c(a))s.call(a,n)&&u(e,n,a[n]);return e},d=(e,a)=>p(e,X(a));var t=(e,a)=>{var n={};for(var o in e)l.call(e,o)&&a.indexOf(o)<0&&(n[o]=e[o]);if(e!=null&&c)for(var o of c(e))a.indexOf(o)<0&&s.call(e,o)&&(n[o]=e[o]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var o=n,{components:e}=o,a=t(o,[\\\"components\\\"]);return mdx(MDXLayout,d(i(i({},layoutProps),a),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,`La direcci\\\\xF3n define las condiciones para desbloquear la salida. Puede ser un hash de clave p\\\\xFAblica o en el modelo eUTXO (UTXO Extendido) un hash de script.\\nAl igual que una URL, una direcci\\\\xF3n de la Blockchain es la ubicaci\\\\xF3n hacia o desde la cual ocurren las transacciones en la cadena de bloques.`))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-19T17:05:51.850Z",
-  "_cachedIn": "447 μs",
-  "_resolvedIn": "447 μs",
+  "_cachedAt": "2021-07-19T19:19:22.286Z",
+  "_cachedIn": "623 μs",
+  "_resolvedIn": "623 μs",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -45,17 +45,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-19T17:05:51.850Z",
-    "component-cached-in": "447 μs",
-    "component-resolved-in": "447 μs"
+    "component-cached-at": "2021-07-19T19:19:22.286Z",
+    "component-cached-in": "623 μs",
+    "component-resolved-in": "623 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-19T17:05:51.850Z",
-      "_cachedIn": "316 μs",
-      "_resolvedIn": "316 μs",
+      "_cachedAt": "2021-07-19T19:19:22.286Z",
+      "_cachedIn": "453 μs",
+      "_resolvedIn": "453 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -64,17 +64,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-19T17:05:51.850Z",
-        "component-cached-in": "316 μs",
-        "component-resolved-in": "316 μs"
+        "component-cached-at": "2021-07-19T19:19:22.286Z",
+        "component-cached-in": "453 μs",
+        "component-resolved-in": "453 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-19T17:05:51.850Z",
-          "_cachedIn": "189 μs",
-          "_resolvedIn": "189 μs",
+          "_cachedAt": "2021-07-19T19:19:22.286Z",
+          "_cachedIn": "272 μs",
+          "_resolvedIn": "272 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -82,7 +82,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-19T17:05:38.616Z",
+              "createdAt": "2021-07-19T19:19:08.346Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -7161,18 +7161,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-19T17:05:51.850Z",
-            "component-cached-in": "189 μs",
-            "component-resolved-in": "189 μs"
+            "component-cached-at": "2021-07-19T19:19:22.286Z",
+            "component-cached-in": "272 μs",
+            "component-resolved-in": "272 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-19T17:05:51.850Z",
-          "_cachedIn": "240 μs",
-          "_resolvedIn": "240 μs",
+          "_cachedAt": "2021-07-19T19:19:22.286Z",
+          "_cachedIn": "340 μs",
+          "_resolvedIn": "340 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7183,17 +7183,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-19T17:05:51.850Z",
-            "component-cached-in": "240 μs",
-            "component-resolved-in": "240 μs"
+            "component-cached-at": "2021-07-19T19:19:22.286Z",
+            "component-cached-in": "340 μs",
+            "component-resolved-in": "340 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-19T17:05:51.850Z",
-              "_cachedIn": "52 μs",
-              "_resolvedIn": "52 μs",
+              "_cachedAt": "2021-07-19T19:19:22.286Z",
+              "_cachedIn": "61 μs",
+              "_resolvedIn": "61 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7253,9 +7253,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-19T17:05:51.850Z",
-                "component-cached-in": "52 μs",
-                "component-resolved-in": "52 μs"
+                "component-cached-at": "2021-07-19T19:19:22.286Z",
+                "component-cached-in": "61 μs",
+                "component-resolved-in": "61 μs"
               },
               "components": {}
             }
@@ -7264,9 +7264,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-19T17:05:51.850Z",
-          "_cachedIn": "107 μs",
-          "_resolvedIn": "107 μs",
+          "_cachedAt": "2021-07-19T19:19:22.286Z",
+          "_cachedIn": "166 μs",
+          "_resolvedIn": "166 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7275,9 +7275,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-19T17:05:51.850Z",
-            "component-cached-in": "107 μs",
-            "component-resolved-in": "107 μs"
+            "component-cached-at": "2021-07-19T19:19:22.286Z",
+            "component-cached-in": "166 μs",
+            "component-resolved-in": "166 μs"
           },
           "components": {}
         }
@@ -7286,9 +7286,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-19T17:05:51.850Z",
-      "_cachedIn": "204 μs",
-      "_resolvedIn": "204 μs",
+      "_cachedAt": "2021-07-19T19:19:22.286Z",
+      "_cachedIn": "310 μs",
+      "_resolvedIn": "310 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7319,18 +7319,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-19T17:05:51.850Z",
-        "component-cached-in": "204 μs",
-        "component-resolved-in": "204 μs"
+        "component-cached-at": "2021-07-19T19:19:22.286Z",
+        "component-cached-in": "310 μs",
+        "component-resolved-in": "310 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-19T17:05:51.850Z",
-      "_cachedIn": "111 μs",
-      "_resolvedIn": "111 μs",
+      "_cachedAt": "2021-07-19T19:19:22.286Z",
+      "_cachedIn": "176 μs",
+      "_resolvedIn": "176 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7342,18 +7342,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-19T17:05:51.850Z",
-        "component-cached-in": "111 μs",
-        "component-resolved-in": "111 μs"
+        "component-cached-at": "2021-07-19T19:19:22.286Z",
+        "component-cached-in": "176 μs",
+        "component-resolved-in": "176 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-19T17:05:51.850Z",
-      "_cachedIn": "204 μs",
-      "_resolvedIn": "204 μs",
+      "_cachedAt": "2021-07-19T19:19:22.286Z",
+      "_cachedIn": "309 μs",
+      "_resolvedIn": "309 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7372,9 +7372,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-19T17:05:51.850Z",
-        "component-cached-in": "204 μs",
-        "component-resolved-in": "204 μs"
+        "component-cached-at": "2021-07-19T19:19:22.286Z",
+        "component-cached-in": "309 μs",
+        "component-resolved-in": "309 μs"
       },
       "components": {}
     }

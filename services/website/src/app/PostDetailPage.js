@@ -1,4 +1,3 @@
-import useTestMode from './useTestMode'
 import Layout from './Layout'
 import ContentContainer from './ContentContainer'
 import PageHeader from './PageHeader'
@@ -8,6 +7,7 @@ import PageSocials from './PageSocials'
 import PostPagesSection from './PostPagesSection'
 import Component from './Component'
 import Delegation from './Delegation'
+import ContentSections from './ContentSections'
 
 export default function PostDetailPage(props) {
 
@@ -39,6 +39,12 @@ export default function PostDetailPage(props) {
                     </div>
                 </div>
             </ContentContainer>
+            {props.props.template === 'PoolDetailPage' ? (
+                <Component
+                    use={ContentSections}
+                    data={components.ContentSections}
+                />
+            ) : null}
         </Component>
     )
 }

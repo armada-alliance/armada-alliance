@@ -57,6 +57,12 @@ module.exports = {
             })
         },
         {
+            type: 'ContentSections',
+            resolve: (ctx, props) => ({
+                contentSections: props.contentSections
+            })
+        },
+        {
             type: 'DelegationSection',
             resolve: (ctx, props) => ({
                 pools: ctx.tables.get('pools'),

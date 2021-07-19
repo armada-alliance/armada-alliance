@@ -21,6 +21,18 @@ module.exports = {
         const pools = ctx.tables.get('pools')
         const countries = ctx.tables.get('countries')
 
+        pools.forEach(pool => {
+
+            timeSeries.push({
+                type: "pool",
+                poolId: pool.id,
+                timestamp: new Date(),
+                delegatorCount: pool.delegators,
+                mintedBlocksCount: pool.blocksLifetime,
+                liveStake: pool.totalStake
+            })
+        })
+
         const getBlocksMinted = pools => pools.reduce((result, pool) => {
             return result + parseInt(pool.blocksLifetime, 10)
         }, 0)
@@ -34,6 +46,7 @@ module.exports = {
         }, 0)
 
         timeSeries.push({
+            type: "combined",
             timestamp: new Date(),
             delegatorCount: getDelegators(pools),
             mintedBlocksCount: getBlocksMinted(pools),
