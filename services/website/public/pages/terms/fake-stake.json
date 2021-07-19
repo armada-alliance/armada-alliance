@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"fake-stake\",\"language\":\"en\",\"slug\":\"/terms/fake-stake\",\"url\":\"https:///website.codespace1.sublayer.io/terms/fake-stake\",\"origin\":\"/terms/fake-stake\",\"title\":\"Fake Stake Attack\",\"description\":\"This is the umbrella term that references the various vulnerabilities of Proof-of-Stake cryptocurrencies like Cardano.\",\"aliases\":[\"fake stake attacks\",\"fake stake attack\",\"fake stake attack cardano\",\"cardano hack\",\"PoS hacks\",\"proof-of-stake hacks\",\"proof-of-stake attacks\",\"proof-of-stake vulnerabilities\",\"utxo model hacks\"],\"keywords\":[\"vulnerabilities\",\"fake\",\"stake\",\"attack\",\"attacks\",\"cardano\",\"hack\",\"hacks\",\"PoSv3\",\"3rd-generation\",\"blockchain\",\"PoS\",\"ada\",\"51%\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/fake-stake.md\",\"body\":\"We call the vulnerabilities we found “Fake Stake” attacks. Fake Stake attacks work because 3rd generation Proof-of-Stake blockchain implementations do not adequately validate network data before committing expensive resources, mainly disk-space and RAM. The consequence is that an attacker without much stake (in some cases none at all) can cause a victim node to crash by filling up its disk or RAM with bogus data. Unlike Cardano, many cryptocurrency blockchains that use the UTXO and longest-chain Proof-of-Stake model are susceptible to these Fake Stake vulnerabilities. For more information please see this blog from IOHK below.\",\"mdxSource\":{\"compiledSource\":\"var k=Object.defineProperty,m=Object.defineProperties;var d=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var i=Object.prototype.hasOwnProperty,c=Object.prototype.propertyIsEnumerable;var r=(e,t,a)=>t in e?k(e,t,{enumerable:!0,configurable:!0,writable:!0,value:a}):e[t]=a,s=(e,t)=>{for(var a in t||(t={}))i.call(t,a)&&r(e,a,t[a]);if(n)for(var a of n(t))c.call(t,a)&&r(e,a,t[a]);return e},l=(e,t)=>m(e,d(t));var u=(e,t)=>{var a={};for(var o in e)i.call(e,o)&&t.indexOf(o)<0&&(a[o]=e[o]);if(e!=null&&n)for(var o of n(e))t.indexOf(o)<0&&c.call(e,o)&&(a[o]=e[o]);return a};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(a){var o=a,{components:e}=o,t=u(o,[\\\"components\\\"]);return mdx(MDXLayout,l(s(s({},layoutProps),t),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"We call the vulnerabilities we found \\\\u201CFake Stake\\\\u201D attacks. Fake Stake attacks work because 3rd generation Proof-of-Stake blockchain implementations do not adequately validate network data before committing expensive resources, mainly disk-space and RAM. The consequence is that an attacker without much stake (in some cases none at all) can cause a victim node to crash by filling up its disk or RAM with bogus data. Unlike Cardano, many cryptocurrency blockchains that use the UTXO and longest-chain Proof-of-Stake model are susceptible to these Fake Stake vulnerabilities. For more information please see this blog from IOHK below.\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-16T19:05:05.714Z",
-  "_cachedIn": "274 μs",
-  "_resolvedIn": "274 μs",
+  "_cachedAt": "2021-07-19T11:02:35.421Z",
+  "_cachedIn": "579 μs",
+  "_resolvedIn": "579 μs",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -62,17 +62,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-16T19:05:05.714Z",
-    "component-cached-in": "274 μs",
-    "component-resolved-in": "274 μs"
+    "component-cached-at": "2021-07-19T11:02:35.421Z",
+    "component-cached-in": "579 μs",
+    "component-resolved-in": "579 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-16T19:05:05.714Z",
-      "_cachedIn": "213 μs",
-      "_resolvedIn": "213 μs",
+      "_cachedAt": "2021-07-19T11:02:35.421Z",
+      "_cachedIn": "453 μs",
+      "_resolvedIn": "453 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -81,17 +81,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-16T19:05:05.714Z",
-        "component-cached-in": "213 μs",
-        "component-resolved-in": "213 μs"
+        "component-cached-at": "2021-07-19T11:02:35.421Z",
+        "component-cached-in": "453 μs",
+        "component-resolved-in": "453 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-16T19:05:05.714Z",
-          "_cachedIn": "141 μs",
-          "_resolvedIn": "141 μs",
+          "_cachedAt": "2021-07-19T11:02:35.421Z",
+          "_cachedIn": "260 μs",
+          "_resolvedIn": "260 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -99,7 +99,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-16T19:04:53.106Z",
+              "createdAt": "2021-07-19T11:02:23.314Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -258,6 +258,7 @@
                     "role": "author"
                   }
                 ],
+                "updatedAt": "2021-07-16T19:28:03.000Z",
                 "filePath": "/en/aaips/1-the-aaip-process.md"
               },
               {
@@ -270,47 +271,8 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "AAIPsPage",
+                "updatedAt": "2021-07-16T19:28:03.000Z",
                 "filePath": "/en/aaips.md"
-              },
-              {
-                "id": "how-to-choose-a-stake-pool",
-                "language": "en",
-                "slug": "/blogs/how-to-choose-a-stake-pool",
-                "url": "https:///website.codespace1.sublayer.io/blogs/how-to-choose-a-stake-pool",
-                "origin": "/blogs/how-to-choose-a-stake-pool",
-                "title": "How to choose a stake pool",
-                "description": "A guide to choosing a Cardano stake pool.",
-                "aliases": null,
-                "keywords": null,
-                "template": "BlogDetailPage",
-                "identities": [
-                  {
-                    "id": "wael-ivie",
-                    "role": "author"
-                  }
-                ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
-                "filePath": "/en/blogs/how-to-choose-a-stake-pool.md"
-              },
-              {
-                "id": "market-your-stake-pool",
-                "language": "en",
-                "slug": "/blogs/market-your-stake-pool",
-                "url": "https:///website.codespace1.sublayer.io/blogs/market-your-stake-pool",
-                "origin": "/blogs/market-your-stake-pool",
-                "title": "Market your stake pool",
-                "description": "Stake pool marketing advice",
-                "aliases": null,
-                "keywords": null,
-                "template": "BlogDetailPage",
-                "identities": [
-                  {
-                    "id": "wael-ivie",
-                    "role": "author"
-                  }
-                ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
-                "filePath": "/en/blogs/market-your-stake-pool.md"
               },
               {
                 "id": "register-your-stake-pool",
@@ -353,59 +315,6 @@
                 ],
                 "updatedAt": "2021-07-10T20:43:29.000Z",
                 "filePath": "/en/blogs/register-your-stake-pool.md"
-              },
-              {
-                "id": "run-a-stake-pool",
-                "language": "en",
-                "slug": "/blogs/run-a-stake-pool",
-                "url": "https:///website.codespace1.sublayer.io/blogs/run-a-stake-pool",
-                "origin": "/blogs/run-a-stake-pool",
-                "title": "Run a stake pool",
-                "description": "Find out if running a stake pool is something for you.",
-                "aliases": null,
-                "keywords": null,
-                "template": "BlogDetailPage",
-                "identities": [
-                  {
-                    "id": "wael-ivie",
-                    "role": "author"
-                  }
-                ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
-                "filePath": "/en/blogs/run-a-stake-pool.md"
-              },
-              {
-                "id": "what-is-cardano",
-                "language": "en",
-                "slug": "/blogs/what-is-cardano",
-                "url": "https:///website.codespace1.sublayer.io/blogs/what-is-cardano",
-                "origin": "/blogs/what-is-cardano",
-                "title": "What is [Cardano](/en/terms/cardano.md)?",
-                "description": "A 3rd generation blockchain technology that seeks to change the world.",
-                "aliases": null,
-                "keywords": [
-                  "ada",
-                  "cardano",
-                  "cardano price",
-                  "ada cardano",
-                  "cardano price prediction",
-                  "cardano prediction",
-                  "crypto",
-                  "crypto cardano",
-                  "ethereum",
-                  "bitcoin",
-                  "cardano stock",
-                  "cardano news"
-                ],
-                "template": "BlogDetailPage",
-                "identities": [
-                  {
-                    "id": "wael-ivie",
-                    "role": "author"
-                  }
-                ],
-                "updatedAt": "2021-07-14T03:39:25.000Z",
-                "filePath": "/en/blogs/what-is-cardano.md"
               },
               {
                 "id": "what-is-staking",
@@ -471,6 +380,7 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "BlogsPage",
+                "updatedAt": "2021-07-16T19:28:03.000Z",
                 "filePath": "/en/blogs.md"
               },
               {
@@ -1259,13 +1169,13 @@
                 "slug": "/identities/sublayerio",
                 "url": "https:///website.codespace1.sublayer.io/identities/sublayerio",
                 "origin": "/identities/sublayerio",
-                "title": "sublayerio🧙‍♂️",
-                "description": "🧙‍♂️ Open Sourcerer, SPO",
+                "title": "@sublayerio 🧙‍♂️",
+                "description": "Open Sourcerer, SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://cdn.sublayer.io/logo.png",
-                "updatedAt": "2021-07-15T11:20:51.000Z",
+                "updatedAt": "2021-07-16T20:06:35.000Z",
                 "filePath": "/en/identities/sublayerio.md"
               },
               {
@@ -7227,18 +7137,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-16T19:05:05.714Z",
-            "component-cached-in": "141 μs",
-            "component-resolved-in": "141 μs"
+            "component-cached-at": "2021-07-19T11:02:35.421Z",
+            "component-cached-in": "260 μs",
+            "component-resolved-in": "260 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-16T19:05:05.714Z",
-          "_cachedIn": "171 μs",
-          "_resolvedIn": "171 μs",
+          "_cachedAt": "2021-07-19T11:02:35.421Z",
+          "_cachedIn": "380 μs",
+          "_resolvedIn": "380 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7249,17 +7159,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-16T19:05:05.714Z",
-            "component-cached-in": "171 μs",
-            "component-resolved-in": "171 μs"
+            "component-cached-at": "2021-07-19T11:02:35.421Z",
+            "component-cached-in": "380 μs",
+            "component-resolved-in": "380 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-16T19:05:05.714Z",
-              "_cachedIn": "37 μs",
-              "_resolvedIn": "37 μs",
+              "_cachedAt": "2021-07-19T11:02:35.421Z",
+              "_cachedIn": "120 μs",
+              "_resolvedIn": "120 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7319,9 +7229,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-16T19:05:05.714Z",
-                "component-cached-in": "37 μs",
-                "component-resolved-in": "37 μs"
+                "component-cached-at": "2021-07-19T11:02:35.421Z",
+                "component-cached-in": "120 μs",
+                "component-resolved-in": "120 μs"
               },
               "components": {}
             }
@@ -7330,9 +7240,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-16T19:05:05.714Z",
-          "_cachedIn": "100 μs",
-          "_resolvedIn": "100 μs",
+          "_cachedAt": "2021-07-19T11:02:35.421Z",
+          "_cachedIn": "172 μs",
+          "_resolvedIn": "172 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7341,9 +7251,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-16T19:05:05.714Z",
-            "component-cached-in": "100 μs",
-            "component-resolved-in": "100 μs"
+            "component-cached-at": "2021-07-19T11:02:35.421Z",
+            "component-cached-in": "172 μs",
+            "component-resolved-in": "172 μs"
           },
           "components": {}
         }
@@ -7352,9 +7262,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-16T19:05:05.714Z",
-      "_cachedIn": "157 μs",
-      "_resolvedIn": "157 μs",
+      "_cachedAt": "2021-07-19T11:02:35.421Z",
+      "_cachedIn": "273 μs",
+      "_resolvedIn": "273 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7382,18 +7292,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-16T19:05:05.714Z",
-        "component-cached-in": "157 μs",
-        "component-resolved-in": "157 μs"
+        "component-cached-at": "2021-07-19T11:02:35.421Z",
+        "component-cached-in": "273 μs",
+        "component-resolved-in": "273 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-16T19:05:05.714Z",
-      "_cachedIn": "97 μs",
-      "_resolvedIn": "97 μs",
+      "_cachedAt": "2021-07-19T11:02:35.420Z",
+      "_cachedIn": "129 μs",
+      "_resolvedIn": "129 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7405,18 +7315,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-16T19:05:05.714Z",
-        "component-cached-in": "97 μs",
-        "component-resolved-in": "97 μs"
+        "component-cached-at": "2021-07-19T11:02:35.420Z",
+        "component-cached-in": "129 μs",
+        "component-resolved-in": "129 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-16T19:05:05.714Z",
-      "_cachedIn": "158 μs",
-      "_resolvedIn": "158 μs",
+      "_cachedAt": "2021-07-19T11:02:35.421Z",
+      "_cachedIn": "273 μs",
+      "_resolvedIn": "273 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7435,9 +7345,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-16T19:05:05.714Z",
-        "component-cached-in": "158 μs",
-        "component-resolved-in": "158 μs"
+        "component-cached-at": "2021-07-19T11:02:35.421Z",
+        "component-cached-in": "273 μs",
+        "component-resolved-in": "273 μs"
       },
       "components": {}
     }

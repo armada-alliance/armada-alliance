@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"PGWADA Stake pool PGWAD\",\"slug\":\"/pool-widget/7e45a7e6ab3afcf99120e97aedf84e706e43d829ddc610ad667a85a3\",\"template\":\"PoolWidgetPage\",\"poolId\":\"7e45a7e6ab3afcf99120e97aedf84e706e43d829ddc610ad667a85a3\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-16T19:05:05.196Z",
-  "_cachedIn": "154 μs",
-  "_resolvedIn": "154 μs",
+  "_cachedAt": "2021-07-19T11:02:34.604Z",
+  "_cachedIn": "158 μs",
+  "_resolvedIn": "158 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -32,7 +32,7 @@
       "totalStake": "2163262514",
       "blocksLifetime": "0",
       "delegators": "4",
-      "saturated": 0.000032954563829516,
+      "saturated": 0.00003295113361578,
       "pledge": "100000000",
       "pledged": "628348804",
       "taxRatio": "0",
@@ -94,17 +94,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2021-07-16T19:05:05.196Z",
-    "component-cached-in": "154 μs",
-    "component-resolved-in": "154 μs"
+    "component-cached-at": "2021-07-19T11:02:34.604Z",
+    "component-cached-in": "158 μs",
+    "component-resolved-in": "158 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-16T19:05:05.196Z",
-      "_cachedIn": "103 μs",
-      "_resolvedIn": "103 μs",
+      "_cachedAt": "2021-07-19T11:02:34.604Z",
+      "_cachedIn": "107 μs",
+      "_resolvedIn": "107 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -113,17 +113,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-16T19:05:05.196Z",
-        "component-cached-in": "103 μs",
-        "component-resolved-in": "103 μs"
+        "component-cached-at": "2021-07-19T11:02:34.604Z",
+        "component-cached-in": "107 μs",
+        "component-resolved-in": "107 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-16T19:05:05.196Z",
-          "_cachedIn": "62 μs",
-          "_resolvedIn": "62 μs",
+          "_cachedAt": "2021-07-19T11:02:34.604Z",
+          "_cachedIn": "63 μs",
+          "_resolvedIn": "63 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -131,7 +131,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-16T19:04:53.106Z",
+              "createdAt": "2021-07-19T11:02:23.314Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -290,6 +290,7 @@
                     "role": "author"
                   }
                 ],
+                "updatedAt": "2021-07-16T19:28:03.000Z",
                 "filePath": "/en/aaips/1-the-aaip-process.md"
               },
               {
@@ -302,47 +303,8 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "AAIPsPage",
+                "updatedAt": "2021-07-16T19:28:03.000Z",
                 "filePath": "/en/aaips.md"
-              },
-              {
-                "id": "how-to-choose-a-stake-pool",
-                "language": "en",
-                "slug": "/blogs/how-to-choose-a-stake-pool",
-                "url": "https:///website.codespace1.sublayer.io/blogs/how-to-choose-a-stake-pool",
-                "origin": "/blogs/how-to-choose-a-stake-pool",
-                "title": "How to choose a stake pool",
-                "description": "A guide to choosing a Cardano stake pool.",
-                "aliases": null,
-                "keywords": null,
-                "template": "BlogDetailPage",
-                "identities": [
-                  {
-                    "id": "wael-ivie",
-                    "role": "author"
-                  }
-                ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
-                "filePath": "/en/blogs/how-to-choose-a-stake-pool.md"
-              },
-              {
-                "id": "market-your-stake-pool",
-                "language": "en",
-                "slug": "/blogs/market-your-stake-pool",
-                "url": "https:///website.codespace1.sublayer.io/blogs/market-your-stake-pool",
-                "origin": "/blogs/market-your-stake-pool",
-                "title": "Market your stake pool",
-                "description": "Stake pool marketing advice",
-                "aliases": null,
-                "keywords": null,
-                "template": "BlogDetailPage",
-                "identities": [
-                  {
-                    "id": "wael-ivie",
-                    "role": "author"
-                  }
-                ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
-                "filePath": "/en/blogs/market-your-stake-pool.md"
               },
               {
                 "id": "register-your-stake-pool",
@@ -385,59 +347,6 @@
                 ],
                 "updatedAt": "2021-07-10T20:43:29.000Z",
                 "filePath": "/en/blogs/register-your-stake-pool.md"
-              },
-              {
-                "id": "run-a-stake-pool",
-                "language": "en",
-                "slug": "/blogs/run-a-stake-pool",
-                "url": "https:///website.codespace1.sublayer.io/blogs/run-a-stake-pool",
-                "origin": "/blogs/run-a-stake-pool",
-                "title": "Run a stake pool",
-                "description": "Find out if running a stake pool is something for you.",
-                "aliases": null,
-                "keywords": null,
-                "template": "BlogDetailPage",
-                "identities": [
-                  {
-                    "id": "wael-ivie",
-                    "role": "author"
-                  }
-                ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
-                "filePath": "/en/blogs/run-a-stake-pool.md"
-              },
-              {
-                "id": "what-is-cardano",
-                "language": "en",
-                "slug": "/blogs/what-is-cardano",
-                "url": "https:///website.codespace1.sublayer.io/blogs/what-is-cardano",
-                "origin": "/blogs/what-is-cardano",
-                "title": "What is [Cardano](/en/terms/cardano.md)?",
-                "description": "A 3rd generation blockchain technology that seeks to change the world.",
-                "aliases": null,
-                "keywords": [
-                  "ada",
-                  "cardano",
-                  "cardano price",
-                  "ada cardano",
-                  "cardano price prediction",
-                  "cardano prediction",
-                  "crypto",
-                  "crypto cardano",
-                  "ethereum",
-                  "bitcoin",
-                  "cardano stock",
-                  "cardano news"
-                ],
-                "template": "BlogDetailPage",
-                "identities": [
-                  {
-                    "id": "wael-ivie",
-                    "role": "author"
-                  }
-                ],
-                "updatedAt": "2021-07-14T03:39:25.000Z",
-                "filePath": "/en/blogs/what-is-cardano.md"
               },
               {
                 "id": "what-is-staking",
@@ -503,6 +412,7 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "BlogsPage",
+                "updatedAt": "2021-07-16T19:28:03.000Z",
                 "filePath": "/en/blogs.md"
               },
               {
@@ -1291,13 +1201,13 @@
                 "slug": "/identities/sublayerio",
                 "url": "https:///website.codespace1.sublayer.io/identities/sublayerio",
                 "origin": "/identities/sublayerio",
-                "title": "sublayerio🧙‍♂️",
-                "description": "🧙‍♂️ Open Sourcerer, SPO",
+                "title": "@sublayerio 🧙‍♂️",
+                "description": "Open Sourcerer, SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://cdn.sublayer.io/logo.png",
-                "updatedAt": "2021-07-15T11:20:51.000Z",
+                "updatedAt": "2021-07-16T20:06:35.000Z",
                 "filePath": "/en/identities/sublayerio.md"
               },
               {
@@ -7259,18 +7169,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-16T19:05:05.196Z",
-            "component-cached-in": "62 μs",
-            "component-resolved-in": "62 μs"
+            "component-cached-at": "2021-07-19T11:02:34.604Z",
+            "component-cached-in": "63 μs",
+            "component-resolved-in": "63 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-16T19:05:05.196Z",
-          "_cachedIn": "82 μs",
-          "_resolvedIn": "82 μs",
+          "_cachedAt": "2021-07-19T11:02:34.604Z",
+          "_cachedIn": "84 μs",
+          "_resolvedIn": "84 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7281,17 +7191,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-16T19:05:05.196Z",
-            "component-cached-in": "82 μs",
-            "component-resolved-in": "82 μs"
+            "component-cached-at": "2021-07-19T11:02:34.604Z",
+            "component-cached-in": "84 μs",
+            "component-resolved-in": "84 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-16T19:05:05.196Z",
-              "_cachedIn": "21 μs",
-              "_resolvedIn": "21 μs",
+              "_cachedAt": "2021-07-19T11:02:34.604Z",
+              "_cachedIn": "22 μs",
+              "_resolvedIn": "22 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7351,9 +7261,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-16T19:05:05.196Z",
-                "component-cached-in": "21 μs",
-                "component-resolved-in": "21 μs"
+                "component-cached-at": "2021-07-19T11:02:34.604Z",
+                "component-cached-in": "22 μs",
+                "component-resolved-in": "22 μs"
               },
               "components": {}
             }
@@ -7362,9 +7272,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-16T19:05:05.196Z",
-          "_cachedIn": "24 μs",
-          "_resolvedIn": "24 μs",
+          "_cachedAt": "2021-07-19T11:02:34.604Z",
+          "_cachedIn": "22 μs",
+          "_resolvedIn": "22 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7373,9 +7283,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-16T19:05:05.196Z",
-            "component-cached-in": "24 μs",
-            "component-resolved-in": "24 μs"
+            "component-cached-at": "2021-07-19T11:02:34.604Z",
+            "component-cached-in": "22 μs",
+            "component-resolved-in": "22 μs"
           },
           "components": {}
         }
