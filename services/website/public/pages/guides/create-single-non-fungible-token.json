@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"GuideDetailPage\",\"version\":1},\"props\":{\"id\":\"create-single-non-fungible-token\",\"language\":\"en\",\"slug\":\"/guides/create-single-non-fungible-token\",\"url\":\"https:///website.codespace1.sublayer.io/guides/create-single-non-fungible-token\",\"origin\":\"/guides/create-single-non-fungible-token\",\"title\":\"Create Single NFT\",\"description\":\"How to create a Non-Fungible token on Cardano with JavaScript.\",\"aliases\":null,\"keywords\":[\"NFT\",\"JavaScript\"],\"template\":\"GuideDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"},{\"id\":\"sublayerio\",\"role\":\"author\"}],\"icon\":\"💰\",\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/guides/create-single-non-fungible-token.md\",\"externalLink\":\"https://docs.armada-alliance.com/learn/cardano-developer-guides/nft-native-assets\",\"body\":\"- In this guide we will go over how to create a [NFT](/terms/nft) on the Cardano blockchain using Javascript and the [cardano-cli-js](/terms/cardano-cli-js) package provided by our friends from BERRY stake pool [Alessandro](/identities/alessandro-berry) and [Pascal](/identities/pascal-berry).\\n\\n\\n\\n<YoutubeVideo url=\\\"https://www.youtube.com/watch?v=OeOliguGn7Y\\\" />\",\"mdxSource\":{\"compiledSource\":\"var c=Object.defineProperty,p=Object.defineProperties;var m=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var i=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var d=(e,o,a)=>o in e?c(e,o,{enumerable:!0,configurable:!0,writable:!0,value:a}):e[o]=a,r=(e,o)=>{for(var a in o||(o={}))i.call(o,a)&&d(e,a,o[a]);if(n)for(var a of n(o))s.call(o,a)&&d(e,a,o[a]);return e},l=(e,o)=>p(e,m(o));var u=(e,o)=>{var a={};for(var t in e)i.call(e,t)&&o.indexOf(t)<0&&(a[t]=e[t]);if(e!=null&&n)for(var t of n(e))o.indexOf(t)<0&&s.call(e,t)&&(a[t]=e[t]);return a};const makeShortcode=e=>function(a){return console.warn(\\\"Component \\\"+e+\\\" was not imported, exported, or provided by MDXProvider as global scope\\\"),mdx(\\\"div\\\",r({},a))},YoutubeVideo=makeShortcode(\\\"YoutubeVideo\\\"),layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(a){var t=a,{components:e}=t,o=u(t,[\\\"components\\\"]);return mdx(MDXLayout,l(r(r({},layoutProps),o),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"ul\\\",null,mdx(\\\"li\\\",{parentName:\\\"ul\\\"},\\\"In this guide we will go over how to create a \\\",mdx(\\\"a\\\",r({parentName:\\\"li\\\"},{href:\\\"/terms/nft\\\"}),\\\"NFT\\\"),\\\" on the Cardano blockchain using Javascript and the \\\",mdx(\\\"a\\\",r({parentName:\\\"li\\\"},{href:\\\"/terms/cardano-cli-js\\\"}),\\\"cardano-cli-js\\\"),\\\" package provided by our friends from BERRY stake pool \\\",mdx(\\\"a\\\",r({parentName:\\\"li\\\"},{href:\\\"/identities/alessandro-berry\\\"}),\\\"Alessandro\\\"),\\\" and \\\",mdx(\\\"a\\\",r({parentName:\\\"li\\\"},{href:\\\"/identities/pascal-berry\\\"}),\\\"Pascal\\\"),\\\".\\\")),mdx(YoutubeVideo,{url:\\\"https://www.youtube.com/watch?v=OeOliguGn7Y\\\",mdxType:\\\"YoutubeVideo\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-19T19:19:20.384Z",
-  "_cachedIn": "232 ms",
-  "_resolvedIn": "232 ms",
+  "_cachedAt": "2021-07-19T19:40:49.297Z",
+  "_cachedIn": "253 ms",
+  "_resolvedIn": "253 ms",
   "id": "GuideDetailPage",
   "type": "GuideDetailPage",
   "status": "resolved",
@@ -47,17 +47,17 @@
   "attrs": {
     "component-type": "GuideDetailPage",
     "component-id": "GuideDetailPage",
-    "component-cached-at": "2021-07-19T19:19:20.384Z",
-    "component-cached-in": "232 ms",
-    "component-resolved-in": "232 ms"
+    "component-cached-at": "2021-07-19T19:40:49.297Z",
+    "component-cached-in": "253 ms",
+    "component-resolved-in": "253 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-19T19:19:20.384Z",
-      "_cachedIn": "234 μs",
-      "_resolvedIn": "234 μs",
+      "_cachedAt": "2021-07-19T19:40:49.297Z",
+      "_cachedIn": "294 μs",
+      "_resolvedIn": "294 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -66,17 +66,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-19T19:19:20.384Z",
-        "component-cached-in": "234 μs",
-        "component-resolved-in": "234 μs"
+        "component-cached-at": "2021-07-19T19:40:49.297Z",
+        "component-cached-in": "294 μs",
+        "component-resolved-in": "294 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-19T19:19:20.384Z",
-          "_cachedIn": "138 μs",
-          "_resolvedIn": "138 μs",
+          "_cachedAt": "2021-07-19T19:40:49.296Z",
+          "_cachedIn": "176 μs",
+          "_resolvedIn": "176 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -84,7 +84,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-19T19:19:08.346Z",
+              "createdAt": "2021-07-19T19:40:36.960Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1807,7 +1807,7 @@
                   }
                 ],
                 "image": "https://adamantium.online/images/sun.jpg",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-19T19:34:23.000Z",
                 "filePath": "/en/stake-pools/c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae.md"
               },
               {
@@ -7163,18 +7163,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-19T19:19:20.384Z",
-            "component-cached-in": "138 μs",
-            "component-resolved-in": "138 μs"
+            "component-cached-at": "2021-07-19T19:40:49.296Z",
+            "component-cached-in": "176 μs",
+            "component-resolved-in": "176 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-19T19:19:20.384Z",
-          "_cachedIn": "157 μs",
-          "_resolvedIn": "157 μs",
+          "_cachedAt": "2021-07-19T19:40:49.297Z",
+          "_cachedIn": "205 μs",
+          "_resolvedIn": "205 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7185,17 +7185,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-19T19:19:20.384Z",
-            "component-cached-in": "157 μs",
-            "component-resolved-in": "157 μs"
+            "component-cached-at": "2021-07-19T19:40:49.297Z",
+            "component-cached-in": "205 μs",
+            "component-resolved-in": "205 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-19T19:19:20.384Z",
-              "_cachedIn": "32 μs",
-              "_resolvedIn": "32 μs",
+              "_cachedAt": "2021-07-19T19:40:49.297Z",
+              "_cachedIn": "52 μs",
+              "_resolvedIn": "52 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7255,9 +7255,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-19T19:19:20.384Z",
-                "component-cached-in": "32 μs",
-                "component-resolved-in": "32 μs"
+                "component-cached-at": "2021-07-19T19:40:49.297Z",
+                "component-cached-in": "52 μs",
+                "component-resolved-in": "52 μs"
               },
               "components": {}
             }
@@ -7266,9 +7266,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-19T19:19:20.384Z",
-          "_cachedIn": "98 μs",
-          "_resolvedIn": "98 μs",
+          "_cachedAt": "2021-07-19T19:40:49.296Z",
+          "_cachedIn": "116 μs",
+          "_resolvedIn": "116 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7277,9 +7277,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-19T19:19:20.384Z",
-            "component-cached-in": "98 μs",
-            "component-resolved-in": "98 μs"
+            "component-cached-at": "2021-07-19T19:40:49.296Z",
+            "component-cached-in": "116 μs",
+            "component-resolved-in": "116 μs"
           },
           "components": {}
         }
@@ -7288,9 +7288,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-19T19:19:20.384Z",
-      "_cachedIn": "176 μs",
-      "_resolvedIn": "176 μs",
+      "_cachedAt": "2021-07-19T19:40:49.296Z",
+      "_cachedIn": "213 μs",
+      "_resolvedIn": "213 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7338,18 +7338,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-19T19:19:20.384Z",
-        "component-cached-in": "176 μs",
-        "component-resolved-in": "176 μs"
+        "component-cached-at": "2021-07-19T19:40:49.296Z",
+        "component-cached-in": "213 μs",
+        "component-resolved-in": "213 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-19T19:19:20.384Z",
-      "_cachedIn": "100 μs",
-      "_resolvedIn": "100 μs",
+      "_cachedAt": "2021-07-19T19:40:49.296Z",
+      "_cachedIn": "110 μs",
+      "_resolvedIn": "110 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7361,18 +7361,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-19T19:19:20.384Z",
-        "component-cached-in": "100 μs",
-        "component-resolved-in": "100 μs"
+        "component-cached-at": "2021-07-19T19:40:49.296Z",
+        "component-cached-in": "110 μs",
+        "component-resolved-in": "110 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-19T19:19:20.384Z",
-      "_cachedIn": "173 μs",
-      "_resolvedIn": "173 μs",
+      "_cachedAt": "2021-07-19T19:40:49.296Z",
+      "_cachedIn": "212 μs",
+      "_resolvedIn": "212 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7393,9 +7393,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-19T19:19:20.384Z",
-        "component-cached-in": "173 μs",
-        "component-resolved-in": "173 μs"
+        "component-cached-at": "2021-07-19T19:40:49.296Z",
+        "component-cached-in": "212 μs",
+        "component-resolved-in": "212 μs"
       },
       "components": {}
     }

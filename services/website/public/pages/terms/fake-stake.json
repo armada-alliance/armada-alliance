@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"fake-stake\",\"language\":\"en\",\"slug\":\"/terms/fake-stake\",\"url\":\"https:///website.codespace1.sublayer.io/terms/fake-stake\",\"origin\":\"/terms/fake-stake\",\"title\":\"Fake Stake Attack\",\"description\":\"This is the umbrella term that references the various vulnerabilities of Proof-of-Stake cryptocurrencies like Cardano.\",\"aliases\":[\"fake stake attacks\",\"fake stake attack\",\"fake stake attack cardano\",\"cardano hack\",\"PoS hacks\",\"proof-of-stake hacks\",\"proof-of-stake attacks\",\"proof-of-stake vulnerabilities\",\"utxo model hacks\"],\"keywords\":[\"vulnerabilities\",\"fake\",\"stake\",\"attack\",\"attacks\",\"cardano\",\"hack\",\"hacks\",\"PoSv3\",\"3rd-generation\",\"blockchain\",\"PoS\",\"ada\",\"51%\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/fake-stake.md\",\"body\":\"We call the vulnerabilities we found “Fake Stake” attacks. Fake Stake attacks work because 3rd generation Proof-of-Stake blockchain implementations do not adequately validate network data before committing expensive resources, mainly disk-space and RAM. The consequence is that an attacker without much stake (in some cases none at all) can cause a victim node to crash by filling up its disk or RAM with bogus data. Unlike Cardano, many cryptocurrency blockchains that use the UTXO and longest-chain Proof-of-Stake model are susceptible to these Fake Stake vulnerabilities. For more information please see this blog from IOHK below.\",\"mdxSource\":{\"compiledSource\":\"var k=Object.defineProperty,m=Object.defineProperties;var d=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var i=Object.prototype.hasOwnProperty,c=Object.prototype.propertyIsEnumerable;var r=(e,t,a)=>t in e?k(e,t,{enumerable:!0,configurable:!0,writable:!0,value:a}):e[t]=a,s=(e,t)=>{for(var a in t||(t={}))i.call(t,a)&&r(e,a,t[a]);if(n)for(var a of n(t))c.call(t,a)&&r(e,a,t[a]);return e},l=(e,t)=>m(e,d(t));var u=(e,t)=>{var a={};for(var o in e)i.call(e,o)&&t.indexOf(o)<0&&(a[o]=e[o]);if(e!=null&&n)for(var o of n(e))t.indexOf(o)<0&&c.call(e,o)&&(a[o]=e[o]);return a};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(a){var o=a,{components:e}=o,t=u(o,[\\\"components\\\"]);return mdx(MDXLayout,l(s(s({},layoutProps),t),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"We call the vulnerabilities we found \\\\u201CFake Stake\\\\u201D attacks. Fake Stake attacks work because 3rd generation Proof-of-Stake blockchain implementations do not adequately validate network data before committing expensive resources, mainly disk-space and RAM. The consequence is that an attacker without much stake (in some cases none at all) can cause a victim node to crash by filling up its disk or RAM with bogus data. Unlike Cardano, many cryptocurrency blockchains that use the UTXO and longest-chain Proof-of-Stake model are susceptible to these Fake Stake vulnerabilities. For more information please see this blog from IOHK below.\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-19T19:19:21.399Z",
-  "_cachedIn": "595 μs",
-  "_resolvedIn": "595 μs",
+  "_cachedAt": "2021-07-19T19:40:50.441Z",
+  "_cachedIn": "734 μs",
+  "_resolvedIn": "734 μs",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -62,17 +62,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-19T19:19:21.399Z",
-    "component-cached-in": "595 μs",
-    "component-resolved-in": "595 μs"
+    "component-cached-at": "2021-07-19T19:40:50.441Z",
+    "component-cached-in": "734 μs",
+    "component-resolved-in": "734 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-19T19:19:21.398Z",
-      "_cachedIn": "411 μs",
-      "_resolvedIn": "411 μs",
+      "_cachedAt": "2021-07-19T19:40:50.441Z",
+      "_cachedIn": "565 μs",
+      "_resolvedIn": "565 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -81,17 +81,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-19T19:19:21.398Z",
-        "component-cached-in": "411 μs",
-        "component-resolved-in": "411 μs"
+        "component-cached-at": "2021-07-19T19:40:50.441Z",
+        "component-cached-in": "565 μs",
+        "component-resolved-in": "565 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-19T19:19:21.398Z",
-          "_cachedIn": "252 μs",
-          "_resolvedIn": "252 μs",
+          "_cachedAt": "2021-07-19T19:40:50.441Z",
+          "_cachedIn": "362 μs",
+          "_resolvedIn": "362 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -99,7 +99,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-19T19:19:08.346Z",
+              "createdAt": "2021-07-19T19:40:36.960Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1822,7 +1822,7 @@
                   }
                 ],
                 "image": "https://adamantium.online/images/sun.jpg",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-19T19:34:23.000Z",
                 "filePath": "/en/stake-pools/c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae.md"
               },
               {
@@ -7178,18 +7178,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-19T19:19:21.398Z",
-            "component-cached-in": "252 μs",
-            "component-resolved-in": "252 μs"
+            "component-cached-at": "2021-07-19T19:40:50.441Z",
+            "component-cached-in": "362 μs",
+            "component-resolved-in": "362 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-19T19:19:21.398Z",
-          "_cachedIn": "317 μs",
-          "_resolvedIn": "317 μs",
+          "_cachedAt": "2021-07-19T19:40:50.441Z",
+          "_cachedIn": "452 μs",
+          "_resolvedIn": "452 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7200,17 +7200,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-19T19:19:21.398Z",
-            "component-cached-in": "317 μs",
-            "component-resolved-in": "317 μs"
+            "component-cached-at": "2021-07-19T19:40:50.441Z",
+            "component-cached-in": "452 μs",
+            "component-resolved-in": "452 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-19T19:19:21.398Z",
-              "_cachedIn": "58 μs",
-              "_resolvedIn": "58 μs",
+              "_cachedAt": "2021-07-19T19:40:50.441Z",
+              "_cachedIn": "87 μs",
+              "_resolvedIn": "87 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7270,9 +7270,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-19T19:19:21.398Z",
-                "component-cached-in": "58 μs",
-                "component-resolved-in": "58 μs"
+                "component-cached-at": "2021-07-19T19:40:50.441Z",
+                "component-cached-in": "87 μs",
+                "component-resolved-in": "87 μs"
               },
               "components": {}
             }
@@ -7281,9 +7281,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-19T19:19:21.398Z",
-          "_cachedIn": "152 μs",
-          "_resolvedIn": "152 μs",
+          "_cachedAt": "2021-07-19T19:40:50.441Z",
+          "_cachedIn": "228 μs",
+          "_resolvedIn": "228 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7292,9 +7292,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-19T19:19:21.398Z",
-            "component-cached-in": "152 μs",
-            "component-resolved-in": "152 μs"
+            "component-cached-at": "2021-07-19T19:40:50.441Z",
+            "component-cached-in": "228 μs",
+            "component-resolved-in": "228 μs"
           },
           "components": {}
         }
@@ -7303,9 +7303,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-19T19:19:21.398Z",
-      "_cachedIn": "275 μs",
-      "_resolvedIn": "275 μs",
+      "_cachedAt": "2021-07-19T19:40:50.441Z",
+      "_cachedIn": "386 μs",
+      "_resolvedIn": "386 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7336,18 +7336,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-19T19:19:21.398Z",
-        "component-cached-in": "275 μs",
-        "component-resolved-in": "275 μs"
+        "component-cached-at": "2021-07-19T19:40:50.441Z",
+        "component-cached-in": "386 μs",
+        "component-resolved-in": "386 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-19T19:19:21.398Z",
-      "_cachedIn": "151 μs",
-      "_resolvedIn": "151 μs",
+      "_cachedAt": "2021-07-19T19:40:50.441Z",
+      "_cachedIn": "181 μs",
+      "_resolvedIn": "181 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7359,18 +7359,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-19T19:19:21.398Z",
-        "component-cached-in": "151 μs",
-        "component-resolved-in": "151 μs"
+        "component-cached-at": "2021-07-19T19:40:50.441Z",
+        "component-cached-in": "181 μs",
+        "component-resolved-in": "181 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-19T19:19:21.398Z",
-      "_cachedIn": "274 μs",
-      "_resolvedIn": "274 μs",
+      "_cachedAt": "2021-07-19T19:40:50.441Z",
+      "_cachedIn": "386 μs",
+      "_resolvedIn": "386 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7389,9 +7389,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-19T19:19:21.398Z",
-        "component-cached-in": "274 μs",
-        "component-resolved-in": "274 μs"
+        "component-cached-at": "2021-07-19T19:40:50.441Z",
+        "component-cached-in": "386 μs",
+        "component-resolved-in": "386 μs"
       },
       "components": {}
     }
