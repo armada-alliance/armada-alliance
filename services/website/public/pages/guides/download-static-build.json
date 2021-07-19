@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"GuideDetailPage\",\"version\":1},\"props\":{\"id\":\"download-static-build\",\"language\":\"en\",\"slug\":\"/guides/download-static-build\",\"url\":\"https:///website.codespace1.sublayer.io/guides/download-static-build\",\"origin\":\"/guides/download-static-build\",\"title\":\"Download Static Build\",\"aliases\":null,\"keywords\":[\"static build\"],\"template\":\"GuideDetailPage\",\"identities\":[{\"id\":\"zw3rk\",\"role\":\"author\"}],\"icon\":\"💰\",\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/guides/download-static-build.md\",\"downloads\":[{\"name\":\"cardano-node 1.27.0\",\"arch\":\"arm64\",\"externalLink\":\"https://ci.zw3rk.com/build/1758\",\"downloadLink\":\"https://ci.zw3rk.com/build/1758/download/1/aarch64-unknown-linux-musl-cardano-node-1.27.0.zip\",\"date\":\"2021-05-11T05:07:36.000Z\"},{\"name\":\"cardano-node 1.27.0\",\"arch\":\"x86\",\"externalLink\":\"https://ci.zw3rk.com/build/1759\",\"downloadLink\":\"https://ci.zw3rk.com/build/1759/download/1/x86_64-unknown-linux-musl-cardano-node-1.27.0.zip\",\"date\":\"2021-05-11T05:04:17.000Z\"}],\"body\":\"A static build is a [compiled](https://en.wikipedia.org/wiki/Compiler) version of a program that has been statically linked against libraries.\\n\\nTo use cardano-node and cardano-cli you can download one of the binaries below provided by Moritz. \\n\\nSimply download one of the zip files below to your Pi's home directory and then move it to the right location so you can call on it later to start the node.\\n\\nUse unzip command on the downloaded zip file and extract its contents.\\n\\n```\\nunzip aarch64-unknown-linux-musl-cardano-node-1.27.0.zip\\n```\\n\\nNext, we need to make sure the newly downloaded \\\"cardano-node\\\" folder and its contents are present.\\n\\n> If you are unsure if the file downloaded properly or need the name of the folder/files, we can use the Linux ls command.\\n\\nNow we need to move the cardano-node folder into our local binary directory.\\n\\n```\\nmv cardano-node/* ~/.local/bin\\n```\\n\\nBefore we proceed let's make sure the cardano-node and cardano-cli is in our $PATH\\n\\n```\\ncardano-node version\\ncardano-cli version\\n```\",\"mdxSource\":{\"compiledSource\":\"var s=Object.defineProperty,u=Object.defineProperties;var m=Object.getOwnPropertyDescriptors;var t=Object.getOwnPropertySymbols;var d=Object.prototype.hasOwnProperty,i=Object.prototype.propertyIsEnumerable;var p=(e,o,n)=>o in e?s(e,o,{enumerable:!0,configurable:!0,writable:!0,value:n}):e[o]=n,r=(e,o)=>{for(var n in o||(o={}))d.call(o,n)&&p(e,n,o[n]);if(t)for(var n of t(o))i.call(o,n)&&p(e,n,o[n]);return e},c=(e,o)=>u(e,m(o));var l=(e,o)=>{var n={};for(var a in e)d.call(e,a)&&o.indexOf(a)<0&&(n[a]=e[a]);if(e!=null&&t)for(var a of t(e))o.indexOf(a)<0&&i.call(e,a)&&(n[a]=e[a]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var a=n,{components:e}=a,o=l(a,[\\\"components\\\"]);return mdx(MDXLayout,c(r(r({},layoutProps),o),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"A static build is a \\\",mdx(\\\"a\\\",r({parentName:\\\"p\\\"},{href:\\\"https://en.wikipedia.org/wiki/Compiler\\\"}),\\\"compiled\\\"),\\\" version of a program that has been statically linked against libraries.\\\"),mdx(\\\"p\\\",null,\\\"To use cardano-node and cardano-cli you can download one of the binaries below provided by Moritz. \\\"),mdx(\\\"p\\\",null,\\\"Simply download one of the zip files below to your Pi's home directory and then move it to the right location so you can call on it later to start the node.\\\"),mdx(\\\"p\\\",null,\\\"Use unzip command on the downloaded zip file and extract its contents.\\\"),mdx(\\\"pre\\\",null,mdx(\\\"code\\\",r({parentName:\\\"pre\\\"},{}),`unzip aarch64-unknown-linux-musl-cardano-node-1.27.0.zip\\n`)),mdx(\\\"p\\\",null,'Next, we need to make sure the newly downloaded \\\"cardano-node\\\" folder and its contents are present.'),mdx(\\\"blockquote\\\",null,mdx(\\\"p\\\",{parentName:\\\"blockquote\\\"},\\\"If you are unsure if the file downloaded properly or need the name of the folder/files, we can use the Linux ls command.\\\")),mdx(\\\"p\\\",null,\\\"Now we need to move the cardano-node folder into our local binary directory.\\\"),mdx(\\\"pre\\\",null,mdx(\\\"code\\\",r({parentName:\\\"pre\\\"},{}),`mv cardano-node/* ~/.local/bin\\n`)),mdx(\\\"p\\\",null,\\\"Before we proceed let's make sure the cardano-node and cardano-cli is in our $PATH\\\"),mdx(\\\"pre\\\",null,mdx(\\\"code\\\",r({parentName:\\\"pre\\\"},{}),`cardano-node version\\ncardano-cli version\\n`)))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-19T11:27:53.522Z",
-  "_cachedIn": "169 ms",
-  "_resolvedIn": "169 ms",
+  "_cachedAt": "2021-07-19T14:24:15.468Z",
+  "_cachedIn": "163 ms",
+  "_resolvedIn": "163 ms",
   "id": "GuideDetailPage",
   "type": "GuideDetailPage",
   "status": "resolved",
@@ -56,17 +56,17 @@
   "attrs": {
     "component-type": "GuideDetailPage",
     "component-id": "GuideDetailPage",
-    "component-cached-at": "2021-07-19T11:27:53.522Z",
-    "component-cached-in": "169 ms",
-    "component-resolved-in": "169 ms"
+    "component-cached-at": "2021-07-19T14:24:15.468Z",
+    "component-cached-in": "163 ms",
+    "component-resolved-in": "163 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-19T11:27:53.522Z",
-      "_cachedIn": "361 μs",
-      "_resolvedIn": "361 μs",
+      "_cachedAt": "2021-07-19T14:24:15.468Z",
+      "_cachedIn": "180 μs",
+      "_resolvedIn": "180 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -75,17 +75,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-19T11:27:53.522Z",
-        "component-cached-in": "361 μs",
-        "component-resolved-in": "361 μs"
+        "component-cached-at": "2021-07-19T14:24:15.468Z",
+        "component-cached-in": "180 μs",
+        "component-resolved-in": "180 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-19T11:27:53.522Z",
-          "_cachedIn": "172 μs",
-          "_resolvedIn": "172 μs",
+          "_cachedAt": "2021-07-19T14:24:15.468Z",
+          "_cachedIn": "107 μs",
+          "_resolvedIn": "107 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -93,7 +93,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-19T11:27:41.772Z",
+              "createdAt": "2021-07-19T14:24:01.982Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -7172,18 +7172,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-19T11:27:53.522Z",
-            "component-cached-in": "172 μs",
-            "component-resolved-in": "172 μs"
+            "component-cached-at": "2021-07-19T14:24:15.468Z",
+            "component-cached-in": "107 μs",
+            "component-resolved-in": "107 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-19T11:27:53.522Z",
-          "_cachedIn": "193 μs",
-          "_resolvedIn": "193 μs",
+          "_cachedAt": "2021-07-19T14:24:15.468Z",
+          "_cachedIn": "125 μs",
+          "_resolvedIn": "125 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7194,17 +7194,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-19T11:27:53.522Z",
-            "component-cached-in": "193 μs",
-            "component-resolved-in": "193 μs"
+            "component-cached-at": "2021-07-19T14:24:15.468Z",
+            "component-cached-in": "125 μs",
+            "component-resolved-in": "125 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-19T11:27:53.522Z",
-              "_cachedIn": "40 μs",
-              "_resolvedIn": "40 μs",
+              "_cachedAt": "2021-07-19T14:24:15.468Z",
+              "_cachedIn": "31 μs",
+              "_resolvedIn": "31 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7264,9 +7264,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-19T11:27:53.522Z",
-                "component-cached-in": "40 μs",
-                "component-resolved-in": "40 μs"
+                "component-cached-at": "2021-07-19T14:24:15.468Z",
+                "component-cached-in": "31 μs",
+                "component-resolved-in": "31 μs"
               },
               "components": {}
             }
@@ -7275,9 +7275,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-19T11:27:53.522Z",
-          "_cachedIn": "119 μs",
-          "_resolvedIn": "119 μs",
+          "_cachedAt": "2021-07-19T14:24:15.468Z",
+          "_cachedIn": "69 μs",
+          "_resolvedIn": "69 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7286,9 +7286,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-19T11:27:53.522Z",
-            "component-cached-in": "119 μs",
-            "component-resolved-in": "119 μs"
+            "component-cached-at": "2021-07-19T14:24:15.468Z",
+            "component-cached-in": "69 μs",
+            "component-resolved-in": "69 μs"
           },
           "components": {}
         }
@@ -7297,9 +7297,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-19T11:27:53.522Z",
-      "_cachedIn": "214 μs",
-      "_resolvedIn": "214 μs",
+      "_cachedAt": "2021-07-19T14:24:15.468Z",
+      "_cachedIn": "130 μs",
+      "_resolvedIn": "130 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7330,18 +7330,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-19T11:27:53.522Z",
-        "component-cached-in": "214 μs",
-        "component-resolved-in": "214 μs"
+        "component-cached-at": "2021-07-19T14:24:15.468Z",
+        "component-cached-in": "130 μs",
+        "component-resolved-in": "130 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-19T11:27:53.522Z",
-      "_cachedIn": "127 μs",
-      "_resolvedIn": "127 μs",
+      "_cachedAt": "2021-07-19T14:24:15.468Z",
+      "_cachedIn": "71 μs",
+      "_resolvedIn": "71 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7352,18 +7352,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-19T11:27:53.522Z",
-        "component-cached-in": "127 μs",
-        "component-resolved-in": "127 μs"
+        "component-cached-at": "2021-07-19T14:24:15.468Z",
+        "component-cached-in": "71 μs",
+        "component-resolved-in": "71 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-19T11:27:53.522Z",
-      "_cachedIn": "208 μs",
-      "_resolvedIn": "208 μs",
+      "_cachedAt": "2021-07-19T14:24:15.468Z",
+      "_cachedIn": "128 μs",
+      "_resolvedIn": "128 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7383,9 +7383,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-19T11:27:53.522Z",
-        "component-cached-in": "208 μs",
-        "component-resolved-in": "208 μs"
+        "component-cached-at": "2021-07-19T14:24:15.468Z",
+        "component-cached-in": "128 μs",
+        "component-resolved-in": "128 μs"
       },
       "components": {}
     }
