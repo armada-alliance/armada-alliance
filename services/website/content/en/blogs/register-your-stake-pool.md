@@ -10,7 +10,7 @@ identities:
 ---
 <Logo url="https://github.com/armada-alliance/Logo/blob/main/banner-armada%20copy.png?raw=true" />
 
-## ☠️ Welcome to the Armada Alliance
+## ☠️ Welcome to the Armada Alliance 🏖️
 
 ***Why are we here?*** 💣
 - The Armada alliance was formed to build a sustainable community of decentralized, low-cost, and energy-efficient stake pool operations on the Cardano blockchain. 
