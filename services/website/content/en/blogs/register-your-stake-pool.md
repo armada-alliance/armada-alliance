@@ -34,4 +34,4 @@ identities:
 - If you want to become a full-fledged Armada Alliance stake pool operator and help spread our mission even further then come aboard. For assistance in setting up your stake pool see our technical guides, or contact us.
 
 ### Join the Armada Alliance 🦾
-- Sign Up Here: [Armada Alliance Registry](https://github.com/armada-alliance/armada-alliance)
+- Stake Pool Sign Up Here: [Armada Alliance Registry](https://github.com/armada-alliance/armada-alliance)
