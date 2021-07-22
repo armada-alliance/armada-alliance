@@ -1,7 +1,7 @@
 ---
 template: BlogDetailPage
 title: Proof of Resiliency
-description: A short blog post about the resiliency of Armada Alliance SPOs.
+description: 
 keywords: 
 identities: 
     - id: ken-adams
@@ -10,12 +10,13 @@ identities:
       role: author
 ---
 
-## A Short Story of true resiliency and decentralization
+## ***A Short Story of true resiliency and decentralization***
+
 
 Are you into blockchain technology and cryptocurrency? Do you already stake 3rd generation blockchain [digital assets](/en/terms/digital-asset.md) for a consistent ROI virtually risk-free? If you answered yes to the previous two questions, you are amongst the growing community of like-minded individuals across this planet who seek to bring true [decentralization](/en/terms/decentralized.md). And you probably know that the digital asset I am talking about is [Cardano](/en/terms/cardano.md), with its native asset, ADA.
 
 With your global mindset and connection to members of the Cardano ecosystem, you may be aware that numerous members of the community have been affected by the devastating flooding all around Germany. 
-[Video of the German Flood 2021](https://www.youtube.com/watch?v=I9RAh6urs9o)
+<YoutubeVideo url="https://www.youtube.com/watch?v=I9RAh6urs9o" description="German Flooding 2021" />
 
 Many of you know these individuals personally, some of you reading this are directly affected by lost communications, suffered server and power interruptions taking systems offline and some are still recovering and possibly have lost much more… our best wishes and support go out to all of you.
  
