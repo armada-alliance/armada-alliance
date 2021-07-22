@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"BlogsPage\",\"version\":1},\"props\":{\"id\":\"blogs\",\"language\":\"en\",\"slug\":\"/blogs\",\"url\":\"https:///website.codespace1.sublayer.io/blogs\",\"origin\":\"/blogs\",\"title\":\"Blogs\",\"aliases\":null,\"keywords\":null,\"template\":\"BlogsPage\",\"updatedAt\":\"2021-07-16T19:28:03.000Z\",\"filePath\":\"/en/blogs.md\",\"body\":\"\",\"mdxSource\":{\"compiledSource\":\"var M=Object.defineProperty,X=Object.defineProperties;var c=Object.getOwnPropertyDescriptors;var u=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,a=Object.prototype.propertyIsEnumerable;var s=(o,t,n)=>t in o?M(o,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):o[t]=n,p=(o,t)=>{for(var n in t||(t={}))r.call(t,n)&&s(o,n,t[n]);if(u)for(var n of u(t))a.call(t,n)&&s(o,n,t[n]);return o},y=(o,t)=>X(o,c(t));var D=(o,t)=>{var n={};for(var e in o)r.call(o,e)&&t.indexOf(e)<0&&(n[e]=o[e]);if(o!=null&&u)for(var e of u(o))t.indexOf(e)<0&&a.call(o,e)&&(n[e]=o[e]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var e=n,{components:o}=e,t=D(e,[\\\"components\\\"]);return mdx(MDXLayout,y(p(p({},layoutProps),t),{components:o,mdxType:\\\"MDXLayout\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-22T19:20:02.535Z",
-  "_cachedIn": "55 ms",
-  "_resolvedIn": "55 ms",
+  "_cachedAt": "2021-07-22T20:01:24.282Z",
+  "_cachedIn": "49 ms",
+  "_resolvedIn": "49 ms",
   "id": "BlogsPage",
   "type": "BlogsPage",
   "status": "resolved",
@@ -90,7 +90,7 @@
             "role": "author"
           }
         ],
-        "updatedAt": "2021-07-22T06:06:15.000Z",
+        "updatedAt": "2021-07-22T18:31:04.000Z",
         "filePath": "/en/blogs/rpi-resiliency-sbc-otg-blog.md"
       },
       {
@@ -152,17 +152,17 @@
   "attrs": {
     "component-type": "BlogsPage",
     "component-id": "BlogsPage",
-    "component-cached-at": "2021-07-22T19:20:02.535Z",
-    "component-cached-in": "55 ms",
-    "component-resolved-in": "55 ms"
+    "component-cached-at": "2021-07-22T20:01:24.282Z",
+    "component-cached-in": "49 ms",
+    "component-resolved-in": "49 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-22T19:20:02.534Z",
-      "_cachedIn": "51 ms",
-      "_resolvedIn": "51 ms",
+      "_cachedAt": "2021-07-22T20:01:24.281Z",
+      "_cachedIn": "45 ms",
+      "_resolvedIn": "45 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -171,17 +171,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-22T19:20:02.534Z",
-        "component-cached-in": "51 ms",
-        "component-resolved-in": "51 ms"
+        "component-cached-at": "2021-07-22T20:01:24.281Z",
+        "component-cached-in": "45 ms",
+        "component-resolved-in": "45 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-22T19:20:02.534Z",
-          "_cachedIn": "13 ms",
-          "_resolvedIn": "13 ms",
+          "_cachedAt": "2021-07-22T20:01:24.281Z",
+          "_cachedIn": "958 μs",
+          "_resolvedIn": "958 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -189,7 +189,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-22T19:19:49.205Z",
+              "createdAt": "2021-07-22T20:01:09.902Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -427,7 +427,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-22T06:06:15.000Z",
+                "updatedAt": "2021-07-22T18:31:04.000Z",
                 "filePath": "/en/blogs/rpi-resiliency-sbc-otg-blog.md"
               },
               {
@@ -929,7 +929,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/ales.jpg",
-                "updatedAt": "2021-07-14T18:12:31.000Z",
+                "updatedAt": "2021-07-22T19:21:48.000Z",
                 "filePath": "/en/identities/alessandro-berry.md"
               },
               {
@@ -1089,12 +1089,12 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/ken-adams",
                 "origin": "/identities/ken-adams",
                 "title": "Ken Adams",
-                "description": "YouTube content creator",
+                "description": "Community Member and Advocate",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/keww.jpg",
-                "updatedAt": "2021-07-14T18:12:31.000Z",
+                "updatedAt": "2021-07-22T18:32:42.000Z",
                 "filePath": "/en/identities/ken-adams.md"
               },
               {
@@ -1409,7 +1409,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/wael.jpg",
-                "updatedAt": "2021-07-22T03:59:07.000Z",
+                "updatedAt": "2021-07-22T19:49:13.000Z",
                 "filePath": "/en/identities/wael-ivie.md"
               },
               {
@@ -7621,18 +7621,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-22T19:20:02.534Z",
-            "component-cached-in": "13 ms",
-            "component-resolved-in": "13 ms"
+            "component-cached-at": "2021-07-22T20:01:24.281Z",
+            "component-cached-in": "958 μs",
+            "component-resolved-in": "958 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-22T19:20:02.534Z",
-          "_cachedIn": "13 ms",
-          "_resolvedIn": "13 ms",
+          "_cachedAt": "2021-07-22T20:01:24.281Z",
+          "_cachedIn": "1.22 ms",
+          "_resolvedIn": "1.22 ms",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7643,17 +7643,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-22T19:20:02.534Z",
-            "component-cached-in": "13 ms",
-            "component-resolved-in": "13 ms"
+            "component-cached-at": "2021-07-22T20:01:24.281Z",
+            "component-cached-in": "1.22 ms",
+            "component-resolved-in": "1.22 ms"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-22T19:20:02.534Z",
-              "_cachedIn": "264 μs",
-              "_resolvedIn": "264 μs",
+              "_cachedAt": "2021-07-22T20:01:24.281Z",
+              "_cachedIn": "305 μs",
+              "_resolvedIn": "305 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7713,9 +7713,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-22T19:20:02.534Z",
-                "component-cached-in": "264 μs",
-                "component-resolved-in": "264 μs"
+                "component-cached-at": "2021-07-22T20:01:24.281Z",
+                "component-cached-in": "305 μs",
+                "component-resolved-in": "305 μs"
               },
               "components": {}
             }
@@ -7724,9 +7724,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-22T19:20:02.534Z",
-          "_cachedIn": "12 ms",
-          "_resolvedIn": "12 ms",
+          "_cachedAt": "2021-07-22T20:01:24.281Z",
+          "_cachedIn": "631 μs",
+          "_resolvedIn": "631 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7735,9 +7735,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-22T19:20:02.534Z",
-            "component-cached-in": "12 ms",
-            "component-resolved-in": "12 ms"
+            "component-cached-at": "2021-07-22T20:01:24.281Z",
+            "component-cached-in": "631 μs",
+            "component-resolved-in": "631 μs"
           },
           "components": {}
         }

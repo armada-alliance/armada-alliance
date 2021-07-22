@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"IdentityDetailPage\",\"version\":1},\"props\":{\"id\":\"spacebudz\",\"language\":\"en\",\"slug\":\"/identities/spacebudz\",\"url\":\"https:///website.codespace1.sublayer.io/identities/spacebudz\",\"origin\":\"/identities/spacebudz\",\"title\":\"Spacebudz\",\"description\":\"Collect your unique SpaceBud as NFT on the Cardano blockchain.\",\"aliases\":null,\"keywords\":null,\"template\":\"IdentityDetailPage\",\"image\":\"/spacebudz.png\",\"updatedAt\":\"2021-07-06T17:09:16.000Z\",\"filePath\":\"/en/identities/spacebudz.md\",\"website\":\"https://spacebudz.io/\",\"body\":\"One of the first and most successful NFT collections on the Cardano blockchain created by [Alessandro Konrad](/identities/alessandro-berry). All 10,000 SpaceBudz were sold in a matter of days and now holds the highest valuation of all Cardano NFTs with one selling for 70,000 ADA at an auction on the CNFT discord server.\\n\\n<YoutubeVideo url=\\\"https://youtu.be/aVSkF97oQew\\\" />\\n\",\"mdxSource\":{\"compiledSource\":\"var l=Object.defineProperty,p=Object.defineProperties;var h=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var s=Object.prototype.hasOwnProperty,d=Object.prototype.propertyIsEnumerable;var u=(o,e,t)=>e in o?l(o,e,{enumerable:!0,configurable:!0,writable:!0,value:t}):o[e]=t,a=(o,e)=>{for(var t in e||(e={}))s.call(e,t)&&u(o,t,e[t]);if(r)for(var t of r(e))d.call(e,t)&&u(o,t,e[t]);return o},i=(o,e)=>p(o,h(e));var c=(o,e)=>{var t={};for(var n in o)s.call(o,n)&&e.indexOf(n)<0&&(t[n]=o[n]);if(o!=null&&r)for(var n of r(o))e.indexOf(n)<0&&d.call(o,n)&&(t[n]=o[n]);return t};const makeShortcode=o=>function(t){return console.warn(\\\"Component \\\"+o+\\\" was not imported, exported, or provided by MDXProvider as global scope\\\"),mdx(\\\"div\\\",a({},t))},YoutubeVideo=makeShortcode(\\\"YoutubeVideo\\\"),layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(t){var n=t,{components:o}=n,e=c(n,[\\\"components\\\"]);return mdx(MDXLayout,i(a(a({},layoutProps),e),{components:o,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"One of the first and most successful NFT collections on the Cardano blockchain created by \\\",mdx(\\\"a\\\",a({parentName:\\\"p\\\"},{href:\\\"/identities/alessandro-berry\\\"}),\\\"Alessandro Konrad\\\"),\\\". All 10,000 SpaceBudz were sold in a matter of days and now holds the highest valuation of all Cardano NFTs with one selling for 70,000 ADA at an auction on the CNFT discord server.\\\"),mdx(YoutubeVideo,{url:\\\"https://youtu.be/aVSkF97oQew\\\",mdxType:\\\"YoutubeVideo\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-22T19:20:03.477Z",
-  "_cachedIn": "4.19 ms",
-  "_resolvedIn": "4.19 ms",
+  "_cachedAt": "2021-07-22T20:01:24.815Z",
+  "_cachedIn": "1.72 ms",
+  "_resolvedIn": "1.72 ms",
   "id": "IdentityDetailPage",
   "type": "IdentityDetailPage",
   "status": "resolved",
@@ -44,17 +44,17 @@
   "attrs": {
     "component-type": "IdentityDetailPage",
     "component-id": "IdentityDetailPage",
-    "component-cached-at": "2021-07-22T19:20:03.477Z",
-    "component-cached-in": "4.19 ms",
-    "component-resolved-in": "4.19 ms"
+    "component-cached-at": "2021-07-22T20:01:24.815Z",
+    "component-cached-in": "1.72 ms",
+    "component-resolved-in": "1.72 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-22T19:20:03.477Z",
-      "_cachedIn": "3.23 ms",
-      "_resolvedIn": "3.23 ms",
+      "_cachedAt": "2021-07-22T20:01:24.815Z",
+      "_cachedIn": "1.16 ms",
+      "_resolvedIn": "1.16 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -63,17 +63,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-22T19:20:03.477Z",
-        "component-cached-in": "3.23 ms",
-        "component-resolved-in": "3.23 ms"
+        "component-cached-at": "2021-07-22T20:01:24.815Z",
+        "component-cached-in": "1.16 ms",
+        "component-resolved-in": "1.16 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-22T19:20:03.476Z",
-          "_cachedIn": "1.06 ms",
-          "_resolvedIn": "1.06 ms",
+          "_cachedAt": "2021-07-22T20:01:24.815Z",
+          "_cachedIn": "447 μs",
+          "_resolvedIn": "447 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -81,7 +81,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-22T19:19:49.205Z",
+              "createdAt": "2021-07-22T20:01:09.902Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -319,7 +319,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-22T06:06:15.000Z",
+                "updatedAt": "2021-07-22T18:31:04.000Z",
                 "filePath": "/en/blogs/rpi-resiliency-sbc-otg-blog.md"
               },
               {
@@ -821,7 +821,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/ales.jpg",
-                "updatedAt": "2021-07-14T18:12:31.000Z",
+                "updatedAt": "2021-07-22T19:21:48.000Z",
                 "filePath": "/en/identities/alessandro-berry.md"
               },
               {
@@ -981,12 +981,12 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/ken-adams",
                 "origin": "/identities/ken-adams",
                 "title": "Ken Adams",
-                "description": "YouTube content creator",
+                "description": "Community Member and Advocate",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/keww.jpg",
-                "updatedAt": "2021-07-14T18:12:31.000Z",
+                "updatedAt": "2021-07-22T18:32:42.000Z",
                 "filePath": "/en/identities/ken-adams.md"
               },
               {
@@ -1301,7 +1301,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/wael.jpg",
-                "updatedAt": "2021-07-22T03:59:07.000Z",
+                "updatedAt": "2021-07-22T19:49:13.000Z",
                 "filePath": "/en/identities/wael-ivie.md"
               },
               {
@@ -7513,18 +7513,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-22T19:20:03.476Z",
-            "component-cached-in": "1.06 ms",
-            "component-resolved-in": "1.06 ms"
+            "component-cached-at": "2021-07-22T20:01:24.815Z",
+            "component-cached-in": "447 μs",
+            "component-resolved-in": "447 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-22T19:20:03.477Z",
-          "_cachedIn": "1.36 ms",
-          "_resolvedIn": "1.36 ms",
+          "_cachedAt": "2021-07-22T20:01:24.815Z",
+          "_cachedIn": "551 μs",
+          "_resolvedIn": "551 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7535,17 +7535,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-22T19:20:03.477Z",
-            "component-cached-in": "1.36 ms",
-            "component-resolved-in": "1.36 ms"
+            "component-cached-at": "2021-07-22T20:01:24.815Z",
+            "component-cached-in": "551 μs",
+            "component-resolved-in": "551 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-22T19:20:03.476Z",
-              "_cachedIn": "192 μs",
-              "_resolvedIn": "192 μs",
+              "_cachedAt": "2021-07-22T20:01:24.815Z",
+              "_cachedIn": "93 μs",
+              "_resolvedIn": "93 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7605,9 +7605,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-22T19:20:03.476Z",
-                "component-cached-in": "192 μs",
-                "component-resolved-in": "192 μs"
+                "component-cached-at": "2021-07-22T20:01:24.815Z",
+                "component-cached-in": "93 μs",
+                "component-resolved-in": "93 μs"
               },
               "components": {}
             }
@@ -7616,9 +7616,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-22T19:20:03.476Z",
-          "_cachedIn": "425 μs",
-          "_resolvedIn": "425 μs",
+          "_cachedAt": "2021-07-22T20:01:24.814Z",
+          "_cachedIn": "178 μs",
+          "_resolvedIn": "178 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7627,9 +7627,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-22T19:20:03.476Z",
-            "component-cached-in": "425 μs",
-            "component-resolved-in": "425 μs"
+            "component-cached-at": "2021-07-22T20:01:24.814Z",
+            "component-cached-in": "178 μs",
+            "component-resolved-in": "178 μs"
           },
           "components": {}
         }
@@ -7638,9 +7638,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-22T19:20:03.476Z",
-      "_cachedIn": "2.49 ms",
-      "_resolvedIn": "2.49 ms",
+      "_cachedAt": "2021-07-22T20:01:24.815Z",
+      "_cachedIn": "913 μs",
+      "_resolvedIn": "913 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7655,18 +7655,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-22T19:20:03.476Z",
-        "component-cached-in": "2.49 ms",
-        "component-resolved-in": "2.49 ms"
+        "component-cached-at": "2021-07-22T20:01:24.815Z",
+        "component-cached-in": "913 μs",
+        "component-resolved-in": "913 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-22T19:20:03.475Z",
-      "_cachedIn": "1.7 ms",
-      "_resolvedIn": "1.7 ms",
+      "_cachedAt": "2021-07-22T20:01:24.814Z",
+      "_cachedIn": "587 μs",
+      "_resolvedIn": "587 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7677,18 +7677,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-22T19:20:03.475Z",
-        "component-cached-in": "1.7 ms",
-        "component-resolved-in": "1.7 ms"
+        "component-cached-at": "2021-07-22T20:01:24.814Z",
+        "component-cached-in": "587 μs",
+        "component-resolved-in": "587 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-22T19:20:03.476Z",
-      "_cachedIn": "2.5 ms",
-      "_resolvedIn": "2.5 ms",
+      "_cachedAt": "2021-07-22T20:01:24.815Z",
+      "_cachedIn": "919 μs",
+      "_resolvedIn": "919 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7708,18 +7708,18 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-22T19:20:03.476Z",
-        "component-cached-in": "2.5 ms",
-        "component-resolved-in": "2.5 ms"
+        "component-cached-at": "2021-07-22T20:01:24.815Z",
+        "component-cached-in": "919 μs",
+        "component-resolved-in": "919 μs"
       },
       "components": {}
     },
     "PageSocials": {
       "_cacheKey": "{\"component\":{\"type\":\"PageSocials\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-22T19:20:03.475Z",
-      "_cachedIn": "1.74 ms",
-      "_resolvedIn": "1.74 ms",
+      "_cachedAt": "2021-07-22T20:01:24.814Z",
+      "_cachedIn": "620 μs",
+      "_resolvedIn": "620 μs",
       "id": "PageSocials",
       "type": "PageSocials",
       "status": "resolved",
@@ -7731,18 +7731,18 @@
       "attrs": {
         "component-type": "PageSocials",
         "component-id": "PageSocials",
-        "component-cached-at": "2021-07-22T19:20:03.475Z",
-        "component-cached-in": "1.74 ms",
-        "component-resolved-in": "1.74 ms"
+        "component-cached-at": "2021-07-22T20:01:24.814Z",
+        "component-cached-in": "620 μs",
+        "component-resolved-in": "620 μs"
       },
       "components": {}
     },
     "PostPagesSection": {
       "_cacheKey": "{\"component\":{\"type\":\"PostPagesSection\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-22T19:20:03.475Z",
-      "_cachedIn": "1.74 ms",
-      "_resolvedIn": "1.74 ms",
+      "_cachedAt": "2021-07-22T20:01:24.814Z",
+      "_cachedIn": "625 μs",
+      "_resolvedIn": "625 μs",
       "id": "PostPagesSection",
       "type": "PostPagesSection",
       "status": "resolved",
@@ -7753,9 +7753,9 @@
       "attrs": {
         "component-type": "PostPagesSection",
         "component-id": "PostPagesSection",
-        "component-cached-at": "2021-07-22T19:20:03.475Z",
-        "component-cached-in": "1.74 ms",
-        "component-resolved-in": "1.74 ms"
+        "component-cached-at": "2021-07-22T20:01:24.814Z",
+        "component-cached-in": "625 μs",
+        "component-resolved-in": "625 μs"
       },
       "components": {}
     }

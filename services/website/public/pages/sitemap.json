@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"SitemapPage\",\"version\":1},\"props\":{\"id\":\"sitemap\",\"language\":\"en\",\"slug\":\"/sitemap\",\"url\":\"https:///website.codespace1.sublayer.io/sitemap\",\"origin\":\"/sitemap\",\"title\":\"Sitemap\",\"aliases\":null,\"keywords\":null,\"template\":\"SitemapPage\",\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/sitemap.md\",\"body\":\"\",\"mdxSource\":{\"compiledSource\":\"var M=Object.defineProperty,X=Object.defineProperties;var c=Object.getOwnPropertyDescriptors;var u=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,a=Object.prototype.propertyIsEnumerable;var s=(o,t,n)=>t in o?M(o,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):o[t]=n,p=(o,t)=>{for(var n in t||(t={}))r.call(t,n)&&s(o,n,t[n]);if(u)for(var n of u(t))a.call(t,n)&&s(o,n,t[n]);return o},y=(o,t)=>X(o,c(t));var D=(o,t)=>{var n={};for(var e in o)r.call(o,e)&&t.indexOf(e)<0&&(n[e]=o[e]);if(o!=null&&u)for(var e of u(o))t.indexOf(e)<0&&a.call(o,e)&&(n[e]=o[e]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var e=n,{components:o}=e,t=D(e,[\\\"components\\\"]);return mdx(MDXLayout,y(p(p({},layoutProps),t),{components:o,mdxType:\\\"MDXLayout\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-22T19:20:04.086Z",
-  "_cachedIn": "1.38 ms",
-  "_resolvedIn": "1.38 ms",
+  "_cachedAt": "2021-07-22T20:01:25.382Z",
+  "_cachedIn": "1.1 ms",
+  "_resolvedIn": "1.1 ms",
   "id": "SitemapPage",
   "type": "SitemapPage",
   "status": "resolved",
@@ -122,7 +122,7 @@
             "role": "author"
           }
         ],
-        "updatedAt": "2021-07-22T06:06:15.000Z",
+        "updatedAt": "2021-07-22T18:31:04.000Z",
         "filePath": "/en/blogs/rpi-resiliency-sbc-otg-blog.md"
       },
       {
@@ -624,7 +624,7 @@
         "keywords": null,
         "template": "IdentityDetailPage",
         "image": "/ales.jpg",
-        "updatedAt": "2021-07-14T18:12:31.000Z",
+        "updatedAt": "2021-07-22T19:21:48.000Z",
         "filePath": "/en/identities/alessandro-berry.md"
       },
       {
@@ -784,12 +784,12 @@
         "url": "https:///website.codespace1.sublayer.io/identities/ken-adams",
         "origin": "/identities/ken-adams",
         "title": "Ken Adams",
-        "description": "YouTube content creator",
+        "description": "Community Member and Advocate",
         "aliases": null,
         "keywords": null,
         "template": "IdentityDetailPage",
         "image": "/keww.jpg",
-        "updatedAt": "2021-07-14T18:12:31.000Z",
+        "updatedAt": "2021-07-22T18:32:42.000Z",
         "filePath": "/en/identities/ken-adams.md"
       },
       {
@@ -1104,7 +1104,7 @@
         "keywords": null,
         "template": "IdentityDetailPage",
         "image": "/wael.jpg",
-        "updatedAt": "2021-07-22T03:59:07.000Z",
+        "updatedAt": "2021-07-22T19:49:13.000Z",
         "filePath": "/en/identities/wael-ivie.md"
       },
       {
@@ -7372,17 +7372,17 @@
   "attrs": {
     "component-type": "SitemapPage",
     "component-id": "SitemapPage",
-    "component-cached-at": "2021-07-22T19:20:04.086Z",
-    "component-cached-in": "1.38 ms",
-    "component-resolved-in": "1.38 ms"
+    "component-cached-at": "2021-07-22T20:01:25.382Z",
+    "component-cached-in": "1.1 ms",
+    "component-resolved-in": "1.1 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-22T19:20:04.086Z",
-      "_cachedIn": "288 μs",
-      "_resolvedIn": "288 μs",
+      "_cachedAt": "2021-07-22T20:01:25.382Z",
+      "_cachedIn": "168 μs",
+      "_resolvedIn": "168 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -7391,17 +7391,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-22T19:20:04.086Z",
-        "component-cached-in": "288 μs",
-        "component-resolved-in": "288 μs"
+        "component-cached-at": "2021-07-22T20:01:25.382Z",
+        "component-cached-in": "168 μs",
+        "component-resolved-in": "168 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-22T19:20:04.086Z",
-          "_cachedIn": "116 μs",
-          "_resolvedIn": "116 μs",
+          "_cachedAt": "2021-07-22T20:01:25.382Z",
+          "_cachedIn": "73 μs",
+          "_resolvedIn": "73 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -7409,7 +7409,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-22T19:19:49.205Z",
+              "createdAt": "2021-07-22T20:01:09.902Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -7647,7 +7647,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-22T06:06:15.000Z",
+                "updatedAt": "2021-07-22T18:31:04.000Z",
                 "filePath": "/en/blogs/rpi-resiliency-sbc-otg-blog.md"
               },
               {
@@ -8149,7 +8149,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/ales.jpg",
-                "updatedAt": "2021-07-14T18:12:31.000Z",
+                "updatedAt": "2021-07-22T19:21:48.000Z",
                 "filePath": "/en/identities/alessandro-berry.md"
               },
               {
@@ -8309,12 +8309,12 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/ken-adams",
                 "origin": "/identities/ken-adams",
                 "title": "Ken Adams",
-                "description": "YouTube content creator",
+                "description": "Community Member and Advocate",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/keww.jpg",
-                "updatedAt": "2021-07-14T18:12:31.000Z",
+                "updatedAt": "2021-07-22T18:32:42.000Z",
                 "filePath": "/en/identities/ken-adams.md"
               },
               {
@@ -8629,7 +8629,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/wael.jpg",
-                "updatedAt": "2021-07-22T03:59:07.000Z",
+                "updatedAt": "2021-07-22T19:49:13.000Z",
                 "filePath": "/en/identities/wael-ivie.md"
               },
               {
@@ -14841,18 +14841,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-22T19:20:04.086Z",
-            "component-cached-in": "116 μs",
-            "component-resolved-in": "116 μs"
+            "component-cached-at": "2021-07-22T20:01:25.382Z",
+            "component-cached-in": "73 μs",
+            "component-resolved-in": "73 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-22T19:20:04.086Z",
-          "_cachedIn": "180 μs",
-          "_resolvedIn": "180 μs",
+          "_cachedAt": "2021-07-22T20:01:25.382Z",
+          "_cachedIn": "96 μs",
+          "_resolvedIn": "96 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -14863,17 +14863,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-22T19:20:04.086Z",
-            "component-cached-in": "180 μs",
-            "component-resolved-in": "180 μs"
+            "component-cached-at": "2021-07-22T20:01:25.382Z",
+            "component-cached-in": "96 μs",
+            "component-resolved-in": "96 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-22T19:20:04.086Z",
-              "_cachedIn": "54 μs",
-              "_resolvedIn": "54 μs",
+              "_cachedAt": "2021-07-22T20:01:25.382Z",
+              "_cachedIn": "24 μs",
+              "_resolvedIn": "24 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -14933,9 +14933,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-22T19:20:04.086Z",
-                "component-cached-in": "54 μs",
-                "component-resolved-in": "54 μs"
+                "component-cached-at": "2021-07-22T20:01:25.382Z",
+                "component-cached-in": "24 μs",
+                "component-resolved-in": "24 μs"
               },
               "components": {}
             }
@@ -14944,9 +14944,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-22T19:20:04.086Z",
-          "_cachedIn": "70 μs",
-          "_resolvedIn": "70 μs",
+          "_cachedAt": "2021-07-22T20:01:25.382Z",
+          "_cachedIn": "46 μs",
+          "_resolvedIn": "46 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -14955,9 +14955,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-22T19:20:04.086Z",
-            "component-cached-in": "70 μs",
-            "component-resolved-in": "70 μs"
+            "component-cached-at": "2021-07-22T20:01:25.382Z",
+            "component-cached-in": "46 μs",
+            "component-resolved-in": "46 μs"
           },
           "components": {}
         }
