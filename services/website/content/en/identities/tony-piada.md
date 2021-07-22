@@ -8,7 +8,7 @@ donationAddress: addr1qx6cahvzc6rj5hn5lny5tpxgr8whqq59dert479fvvwa07dtrgnlfn9pu4
 verified: true
 ---
 
-Hi, I am Tony Burger, I am the stake pool operator of PIADA and the Co-founder of the ARMing Cardano Catalyst project from fund 4. My real job is Systems analyst and software developer with application and integration expertise in automated warehouse fulfillment, management and control systems and multi-carrier shipping systems.
+Hi, I am Tony, stake pool operator of PIADA and the co-founder of the ARMing Cardano Catalyst project from Fund 4. I am a developer by trade and enjoy beach vacations with the family and shredding the local mountain bike trails. Stoked to be supporting the Alliance with my time and talents! Philippians 4:13
 
 <YoutubeVideo url="https://www.youtube.com/watch?v=Py3Xy3ScVas" description="ARMing Cardano" />
 
