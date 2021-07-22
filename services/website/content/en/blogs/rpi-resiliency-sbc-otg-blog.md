@@ -21,6 +21,13 @@ With your global mindset and connection to members of the Cardano ecosystem, you
 <YoutubeVideo url="https://www.youtube.com/watch?v=I9RAh6urs9o" description="German Flooding 2021" />
 
 
+
+
+
+
+
+
+
 Many of you know these individuals personally, and some of you reading this are directly affected by lost communications, suffered server and power interruptions taking systems offline. Many are still recovering and possibly have lost much more than just a stake pool or money. Nothing can replace your family, your home, your friends, and the memories you have had with them all. Our best wishes and support go out to all of you affected by this tragedy.
  
 But this is what global decentralization is all about, am I right? No central server, no singular point of control or loss. What if this, what if that, what if…
