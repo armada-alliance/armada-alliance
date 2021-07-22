@@ -42,14 +42,14 @@ function LanguageButton() {
                 <>
                     <Popover.Button
                         className={classNames(
-                            open ? 'text-gray-900' : 'text-gray-500',
-                            'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500'
+                            open ? 'text-gray-900 dark:text-gray-600' : 'text-gray-500 dark:text-gray-400',
+                            'group bg-white dark:bg-gray-800 rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 dark:hover:text-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-700 focus:ring-primary-500'
                         )}
                     >
                         <div>{language.icon}</div><div className="hidden sm:block ml-1">{language.name}</div>
                         <ChevronDownIcon
                             className={classNames(
-                                open ? 'text-gray-600' : 'text-gray-400',
+                                open ? 'text-gray-600 dark:text-gray-400' : 'text-gray-400 dark:text-gray-600',
                                 'ml-2 h-5 w-5 group-hover:text-gray-500'
                             )}
                             aria-hidden="true"
@@ -70,7 +70,7 @@ function LanguageButton() {
                             className="absolute z-10 right-0 mt-3 px-2 w-screen max-w-xs sm:px-0"
                         >
                             <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
-                                <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
+                                <div className="relative grid gap-6 bg-white dark:bg-gray-800 px-5 py-6 sm:gap-8 sm:p-8">
                                     {languages.map((language) => {
 
                                         const alternatePage = pages.find(page => {
@@ -80,8 +80,8 @@ function LanguageButton() {
                                         const disabled = language.id !== ctx.language && !alternatePage
 
                                         const className = cx(
-                                            "-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 cursor-pointer",
-                                            disabled ? "bg-gray-50 cursor-not-allowed opacity-50" : null
+                                            "-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 cursor-pointer",
+                                            disabled ? "bg-gray-50 dark:bg-gray-900 cursor-not-allowed opacity-50" : null
                                         )
 
                                         const content = (
@@ -90,7 +90,7 @@ function LanguageButton() {
                                                 <div className="ml-1">
                                                     <p className={cx(
                                                         "text-base font-medium",
-                                                        language.id === ctx.language ? "text-primary-500" : "text-gray-900"
+                                                        language.id === ctx.language ? "text-primary-500" : "text-gray-900 dark:text-gray-500"
                                                     )}>{language.name}</p>
                                                 </div>
                                             </>
@@ -132,7 +132,7 @@ export default function Header(props) {
     const { components } = props
 
     return (
-        <Popover className="fixed top-0 left-0 w-full bg-white">
+        <Popover className="fixed top-0 left-0 w-full bg-white dark:bg-gray-800">
             {({ open }) => (
                 <>
                     <div className="max-w-7xl mx-auto px-4 sm:px-6">

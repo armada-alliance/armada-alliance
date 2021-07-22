@@ -34,10 +34,10 @@ export default function NewsletterSection() {
     }
 
     return (
-        <div className="bg-white pt-16 sm:pt-24">
+        <div className="bg-white dark:bg-gray-900 pt-16 sm:pt-24">
             <div className="relative sm:py-16">
                 <div aria-hidden="true" className="hidden sm:block">
-                    <div className="absolute inset-y-0 left-0 w-1/2 bg-gray-50 rounded-r-3xl" />
+                    <div className="absolute inset-y-0 left-0 w-1/2 bg-gray-50 dark:bg-gray-800 rounded-r-3xl" />
                     <svg className="absolute top-8 left-1/2 -ml-3" width={404} height={392} fill="none" viewBox="0 0 404 392">
                         <defs>
                             <pattern
@@ -48,7 +48,7 @@ export default function NewsletterSection() {
                                 height={20}
                                 patternUnits="userSpaceOnUse"
                             >
-                                <rect x={0} y={0} width={4} height={4} className="text-gray-200" fill="currentColor" />
+                                <rect x={0} y={0} width={4} height={4} className="text-gray-200 dark:text-gray-700" fill="currentColor" />
                             </pattern>
                         </defs>
                         <rect width={404} height={392} fill="url(#8228f071-bcee-4ec8-905a-2a059a2cc4fb)" />

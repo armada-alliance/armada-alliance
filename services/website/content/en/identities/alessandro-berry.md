@@ -8,6 +8,11 @@ donationAddress: addr1q97x8rfnkw4pmdgnwjzavl8jvg77tuy6wn3wm90x9emwgj8nhh356yzp7k
 twitter: berry_ales
 telegram: berry_pool
 github: Berry-Pool
+badges:
+    - name: Fully ARMed
+      color: "#EF4444"
+    - name: Super Saiyan
+      color: "#F59E0B"
 ---
 
 <YoutubeVideo url="https://www.youtube.com/watch?v=IxlL3RA3UyI&t=1s"/>

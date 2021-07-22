@@ -17,8 +17,8 @@ function Identities({ identities }) {
                     <WithPageTooltip slug={identity.link.href}>
                         {(props) => (
                             <Link key={identity.id} href={identity.link.href}>
-                                <a {...props} className="flex flex-nowrap items-center px-3 py-2 space-x-2 rounded-lg bg-gray-100 hover:bg-gray-200 transition-colors duration-50">
-                                    <div className="bg-white h-8 w-8 rounded-full overflow-hidden bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${formatImage(identity.image)})` }} />
+                                <a {...props} className="flex flex-nowrap items-center px-3 py-2 space-x-2 rounded-lg bg-gray-100 dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-gray-300 hover:bg-gray-200 transition-colors duration-50">
+                                    <div className="bg-white dark:bg-gray-800 h-8 w-8 rounded-full overflow-hidden bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${formatImage(identity.image)})` }} />
                                     <div className="font-bold truncate">
                                         {identity.name}
                                     </div>
@@ -40,7 +40,7 @@ export default function PageHeader({ title, subtitle, image, verified, pageType,
         <>
             {image ? (
                 <div className="flex items-center justify-center mb-4">
-                    <div className="bg-white relative rounded-full overflow-hidden w-52 h-52 shadow-md">
+                    <div className="bg-white dark:bg-gray-800 relative rounded-full overflow-hidden w-52 h-52 shadow-md">
                         <div
                             className="absolute top-0 right-0 bottom-0 left-0 bg-center bg-no-repeat bg-cover"
                             style={{
@@ -54,7 +54,7 @@ export default function PageHeader({ title, subtitle, image, verified, pageType,
                 <span className="block text-base text-center text-primary-500 font-semibold tracking-wide uppercase">
                     {pageType}
                 </span>
-                <span className={"mt-2 block text-3xl leading-8 text-center font-extrabold tracking-tight text-gray-900 sm:text-4xl"}>
+                <span className={"mt-2 block text-3xl leading-8 text-center font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-4xl"}>
                     {markdownToText(title)}
                 </span>
                 {subtitle || verified ? (

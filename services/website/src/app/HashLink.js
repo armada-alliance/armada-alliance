@@ -11,7 +11,7 @@ export default function HashLink({ href, hash }) {
     return (
         <div className="flex items-center">
             <Tooltip text="Go to CardanoScan explorer">
-                <a href={href} target="_blank" className="inline-flex items-center space-x-2 bg-gray-50 text-gray-500 rounded-lg px-4 py-3 tracking-wider text-xs sm:text-sm hover:underline cursor-pointer">
+                <a href={href} target="_blank" className="inline-flex items-center space-x-2 bg-gray-50 dark:bg-gray-800 text-gray-500 dark:text-gray-300 rounded-lg px-4 py-3 tracking-wider text-xs sm:text-sm hover:underline cursor-pointer">
                     <div>
                         {formatAddress(hash)}
                     </div>

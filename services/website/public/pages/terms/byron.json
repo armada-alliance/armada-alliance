@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"byron\",\"language\":\"en\",\"slug\":\"/terms/byron\",\"url\":\"https:///website.codespace1.sublayer.io/terms/byron\",\"origin\":\"/terms/byron\",\"title\":\"Byron\",\"description\":\"The name of the first ‘boot strap’ phase of Cardano development. The first era of the Cardano blockchain.\",\"aliases\":[\"byron era\",\"cardano bootstrap era\",\"cardano development\"],\"keywords\":[\"byron\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/byron.md\",\"body\":\"The first incarnation of Cardano allowed users to buy and sell the ada cryptocurrency – so named for revolutionary programmer Ada Lovelace – on a federated network running the groundbreaking Ouroboros consensus protocol. The heart of the Cardano network, Ouroboros is the first proof-of-stake protocol created on the basis of academic research, with a mathematically-proven level of security.\\n\\nThe Byron era also saw the delivery of the Daedalus wallet, IOHK's official desktop wallet for ada, as well as Yoroi, a light wallet from IOHK's sister company Emurgo designed for quick transactions and day-to-day use.\\n\\nAs much as the Byron era was about the first crucial technology developments, it was also about building a community and getting people involved in creating the blockchain of the future. Cardano has grown from a small group of enthusiasts to a global community, with ada hosted on more than 30 exchanges and with an average market capitalization that makes it one of the leading cryptocurrencies in the world.\\n<Link url=\\\"https://roadmap.cardano.org/en/byron/\\\"/>\",\"mdxSource\":{\"compiledSource\":\"var u=Object.defineProperty,h=Object.defineProperties;var p=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var s=Object.prototype.hasOwnProperty,i=Object.prototype.propertyIsEnumerable;var l=(o,e,a)=>e in o?u(o,e,{enumerable:!0,configurable:!0,writable:!0,value:a}):o[e]=a,n=(o,e)=>{for(var a in e||(e={}))s.call(e,a)&&l(o,a,e[a]);if(r)for(var a of r(e))i.call(e,a)&&l(o,a,e[a]);return o},c=(o,e)=>h(o,p(e));var d=(o,e)=>{var a={};for(var t in o)s.call(o,t)&&e.indexOf(t)<0&&(a[t]=o[t]);if(o!=null&&r)for(var t of r(o))e.indexOf(t)<0&&i.call(o,t)&&(a[t]=o[t]);return a};const makeShortcode=o=>function(a){return console.warn(\\\"Component \\\"+o+\\\" was not imported, exported, or provided by MDXProvider as global scope\\\"),mdx(\\\"div\\\",n({},a))},Link=makeShortcode(\\\"Link\\\"),layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(a){var t=a,{components:o}=t,e=d(t,[\\\"components\\\"]);return mdx(MDXLayout,c(n(n({},layoutProps),e),{components:o,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"The first incarnation of Cardano allowed users to buy and sell the ada cryptocurrency \\\\u2013 so named for revolutionary programmer Ada Lovelace \\\\u2013 on a federated network running the groundbreaking Ouroboros consensus protocol. The heart of the Cardano network, Ouroboros is the first proof-of-stake protocol created on the basis of academic research, with a mathematically-proven level of security.\\\"),mdx(\\\"p\\\",null,\\\"The Byron era also saw the delivery of the Daedalus wallet, IOHK's official desktop wallet for ada, as well as Yoroi, a light wallet from IOHK's sister company Emurgo designed for quick transactions and day-to-day use.\\\"),mdx(\\\"p\\\",null,\\\"As much as the Byron era was about the first crucial technology developments, it was also about building a community and getting people involved in creating the blockchain of the future. Cardano has grown from a small group of enthusiasts to a global community, with ada hosted on more than 30 exchanges and with an average market capitalization that makes it one of the leading cryptocurrencies in the world.\\\"),mdx(Link,{url:\\\"https://roadmap.cardano.org/en/byron/\\\",mdxType:\\\"Link\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-19T19:40:50.196Z",
-  "_cachedIn": "2.61 ms",
-  "_resolvedIn": "2.61 ms",
+  "_cachedAt": "2021-07-22T19:20:04.397Z",
+  "_cachedIn": "1.21 ms",
+  "_resolvedIn": "1.21 ms",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -43,17 +43,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-19T19:40:50.196Z",
-    "component-cached-in": "2.61 ms",
-    "component-resolved-in": "2.61 ms"
+    "component-cached-at": "2021-07-22T19:20:04.397Z",
+    "component-cached-in": "1.21 ms",
+    "component-resolved-in": "1.21 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-19T19:40:50.196Z",
-      "_cachedIn": "1.79 ms",
-      "_resolvedIn": "1.79 ms",
+      "_cachedAt": "2021-07-22T19:20:04.397Z",
+      "_cachedIn": "842 μs",
+      "_resolvedIn": "842 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -62,17 +62,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-19T19:40:50.196Z",
-        "component-cached-in": "1.79 ms",
-        "component-resolved-in": "1.79 ms"
+        "component-cached-at": "2021-07-22T19:20:04.397Z",
+        "component-cached-in": "842 μs",
+        "component-resolved-in": "842 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-19T19:40:50.196Z",
-          "_cachedIn": "961 μs",
-          "_resolvedIn": "961 μs",
+          "_cachedAt": "2021-07-22T19:20:04.397Z",
+          "_cachedIn": "553 μs",
+          "_resolvedIn": "553 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -80,7 +80,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-19T19:40:36.960Z",
+              "createdAt": "2021-07-22T19:19:49.205Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -94,8 +94,8 @@
                 "description_short": "Alliance of Raspberry Pi and ARM based Stake Pools.",
                 "description_long": "The Armada alliance was formed in efforts to build a sustainable community of decentralized, low-cost, and energy-efficient stake pool operations on the Cardano blockchain 🌍🌿 All Stake Pools in this alliance run on either Raspberry Pis exclusively or on other low power consuming ARM-based machines with an average pool energy consumption of less than 40 Watts💡",
                 "website": "https://armada-alliance.com",
-                "url_png_icon_64x64": "https://github.com/armada-alliance/Logo/blob/main/ship-420-40kb.png?raw=true",
-                "url_png_logo": "https://github.com/armada-alliance/Logo/blob/main/ship-420-50kb.png?raw=true",
+                "url_png_icon_64x64": "https://armada-alliance.com/assets/ship-420-40kb.png",
+                "url_png_logo": "https://armada-alliance.com/assets/ship-420-50kb.png",
                 "social": {
                   "twitter_handle": "",
                   "telegram_handle": "armada_alli",
@@ -262,7 +262,7 @@
                 "url": "https:///website.codespace1.sublayer.io/blogs/register-your-stake-pool",
                 "origin": "/blogs/register-your-stake-pool",
                 "title": "Register your stake pool",
-                "description": "Join the Armada Stake Pool Alliance",
+                "description": "Ahoy Matey!🏴‍☠️",
                 "aliases": [
                   "raspberry pi stake pool",
                   "cardano raspberry pi stake pool",
@@ -294,8 +294,32 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-21T15:04:43.000Z",
                 "filePath": "/en/blogs/register-your-stake-pool.md"
+              },
+              {
+                "id": "rpi-resiliency-sbc-otg-blog",
+                "language": "en",
+                "slug": "/blogs/rpi-resiliency-sbc-otg-blog",
+                "url": "https:///website.codespace1.sublayer.io/blogs/rpi-resiliency-sbc-otg-blog",
+                "origin": "/blogs/rpi-resiliency-sbc-otg-blog",
+                "title": "Proof of Resiliency",
+                "description": null,
+                "aliases": null,
+                "keywords": null,
+                "template": "BlogDetailPage",
+                "identities": [
+                  {
+                    "id": "ken-adams",
+                    "role": "author"
+                  },
+                  {
+                    "id": "wael-ivie",
+                    "role": "author"
+                  }
+                ],
+                "updatedAt": "2021-07-22T06:06:15.000Z",
+                "filePath": "/en/blogs/rpi-resiliency-sbc-otg-blog.md"
               },
               {
                 "id": "what-is-staking",
@@ -811,7 +835,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/alex-qxt.jpg",
-                "updatedAt": "2021-07-14T18:12:31.000Z",
+                "updatedAt": "2021-07-20T17:30:58.000Z",
                 "filePath": "/en/identities/alex-qxt.md"
               },
               {
@@ -828,6 +852,21 @@
                 "image": "/chadi.jpg",
                 "updatedAt": "2021-06-26T18:32:45.000Z",
                 "filePath": "/en/identities/chadi.md"
+              },
+              {
+                "id": "charles-hoskinson",
+                "language": "en",
+                "slug": "/identities/charles-hoskinson",
+                "url": "https:///website.codespace1.sublayer.io/identities/charles-hoskinson",
+                "origin": "/identities/charles-hoskinson",
+                "title": "Charles Hoskinson",
+                "description": "Founder and CEO of Input Output Global the company that invented and maintains the Cardano blockchain.",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "https://ucarecdn.com/de5b3870-401c-48af-acfb-4b91dacb30fd/-/quality/lighter/-/resize/600/-/format/webp/-/quality/best/-/progressive/yes/",
+                "updatedAt": "2021-07-22T03:43:20.000Z",
+                "filePath": "/en/identities/charles-hoskinson.md"
               },
               {
                 "id": "daniel-recuenco",
@@ -858,6 +897,21 @@
                 "image": "https://armada-alliance.com/assets/ship-420.png",
                 "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/geoff.md"
+              },
+              {
+                "id": "iog",
+                "language": "en",
+                "slug": "/identities/iog",
+                "url": "https:///website.codespace1.sublayer.io/identities/iog",
+                "origin": "/identities/iog",
+                "title": "IOG",
+                "description": "Input Output Global, also referred to as Input Output Hong Kong (IOHK), is a technology company committed to using peer-to-peer innovations to provide financial services to the community. In particular, IOG is working on the technology development for Cardano.",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "https://armada-alliance.com/assets/ship-420.png",
+                "updatedAt": "2021-07-22T03:43:20.000Z",
+                "filePath": "/en/identities/iog.md"
               },
               {
                 "id": "jackson-wiebe",
@@ -976,7 +1030,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-14T18:12:31.000Z",
+                "updatedAt": "2021-07-21T14:35:39.000Z",
                 "filePath": "/en/identities/matt-solrp.md"
               },
               {
@@ -1053,6 +1107,21 @@
                 "image": "/raine.png",
                 "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/raine-bhmt.md"
+              },
+              {
+                "id": "raspberrypi",
+                "language": "en",
+                "slug": "/identities/raspberrypi",
+                "url": "https:///website.codespace1.sublayer.io/identities/raspberrypi",
+                "origin": "/identities/raspberrypi",
+                "title": "Raspberry Pi Foundation",
+                "description": "The Raspberry Pi Foundation is a UK-based charity that works to put the power of computing and digital making into the hands of people all over the world.",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "/Raspi_Colour_R.png",
+                "updatedAt": "2021-07-21T01:28:32.000Z",
+                "filePath": "/en/identities/raspberrypi.md"
               },
               {
                 "id": "saad",
@@ -1145,18 +1214,33 @@
                 "filePath": "/en/identities/stale.md"
               },
               {
+                "id": "starlink",
+                "language": "en",
+                "slug": "/identities/starlink",
+                "url": "https:///website.codespace1.sublayer.io/identities/starlink",
+                "origin": "/identities/starlink",
+                "title": "Starlink",
+                "description": "High-speed, low latency broadband internet provided by Elon Musk's SpaceX.",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "https://gcaptain.com/wp-content/uploads/2020/10/share.jpg",
+                "updatedAt": "2021-07-22T03:43:20.000Z",
+                "filePath": "/en/identities/starlink.md"
+              },
+              {
                 "id": "sublayerio",
                 "language": "en",
                 "slug": "/identities/sublayerio",
                 "url": "https:///website.codespace1.sublayer.io/identities/sublayerio",
                 "origin": "/identities/sublayerio",
-                "title": "@sublayerio 🧙‍♂️",
+                "title": "sublayerio 🌱",
                 "description": "Open Sourcerer, SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://cdn.sublayer.io/logo.png",
-                "updatedAt": "2021-07-16T20:06:35.000Z",
+                "updatedAt": "2021-07-20T16:22:05.000Z",
                 "filePath": "/en/identities/sublayerio.md"
               },
               {
@@ -1165,13 +1249,13 @@
                 "slug": "/identities/sudti",
                 "url": "https:///website.codespace1.sublayer.io/identities/sudti",
                 "origin": "/identities/sudti",
-                "title": "Markus",
+                "title": "Markus Fischnaller",
                 "description": "SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-12T10:20:35.000Z",
+                "updatedAt": "2021-07-19T19:48:33.000Z",
                 "filePath": "/en/identities/sudti.md"
               },
               {
@@ -1195,13 +1279,13 @@
                 "slug": "/identities/tony-piada",
                 "url": "https:///website.codespace1.sublayer.io/identities/tony-piada",
                 "origin": "/identities/tony-piada",
-                "title": "Tony Burger 🚵‍♀️",
+                "title": "Tony Burger🚵‍♂️",
                 "description": "SPO, Co-Founder",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/tony.jpg",
-                "updatedAt": "2021-07-03T19:51:06.000Z",
+                "updatedAt": "2021-07-22T05:04:02.000Z",
                 "filePath": "/en/identities/tony-piada.md"
               },
               {
@@ -1210,13 +1294,13 @@
                 "slug": "/identities/wael-ivie",
                 "url": "https:///website.codespace1.sublayer.io/identities/wael-ivie",
                 "origin": "/identities/wael-ivie",
-                "title": "Wael Ivie 🐋",
+                "title": "Wael Ivie🐋",
                 "description": "Founder, SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/wael.jpg",
-                "updatedAt": "2021-07-18T04:43:17.000Z",
+                "updatedAt": "2021-07-22T03:59:07.000Z",
                 "filePath": "/en/identities/wael-ivie.md"
               },
               {
@@ -1484,7 +1568,7 @@
                   }
                 ],
                 "image": "https://raw.githubusercontent.com/sbc-mining/ada-pool/main/512x512.png",
-                "updatedAt": "2021-07-14T18:12:31.000Z",
+                "updatedAt": "2021-07-19T19:42:36.000Z",
                 "filePath": "/en/stake-pools/406a08532d2ca8dd08ea39e082dc8acdc2a3b34d0c517bd0e40af5e1.md"
               },
               {
@@ -1740,7 +1824,7 @@
                   }
                 ],
                 "image": "https://piada.io/piadaFull.png",
-                "updatedAt": "2021-07-14T18:12:31.000Z",
+                "updatedAt": "2021-07-21T21:14:16.000Z",
                 "filePath": "/en/stake-pools/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65.md"
               },
               {
@@ -1803,7 +1887,7 @@
                   }
                 ],
                 "image": "https://adamantium.online/images/sun.jpg",
-                "updatedAt": "2021-07-19T19:34:23.000Z",
+                "updatedAt": "2021-07-20T20:48:32.000Z",
                 "filePath": "/en/stake-pools/c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae.md"
               },
               {
@@ -4188,37 +4272,6 @@
                 "filePath": "/en/terms/interoperability.md"
               },
               {
-                "id": "iog",
-                "language": "en",
-                "slug": "/terms/iog",
-                "url": "https:///website.codespace1.sublayer.io/terms/iog",
-                "origin": "/terms/iog",
-                "title": "IOG",
-                "description": "Input Output Global, also referred to as Input Output Hong Kong (IOHK), is a technology company committed to using peer-to-peer innovations to provide financial services to the community. In particular, IOG is working on the technology development for Cardano.",
-                "aliases": [
-                  "IOHK",
-                  "Input Output Global",
-                  "Input Output Hong Kong"
-                ],
-                "keywords": [
-                  "cardano",
-                  "iog",
-                  "iohk",
-                  "input outout global",
-                  "iog share price",
-                  "iog jobs"
-                ],
-                "template": "TermDetailPage",
-                "identities": [
-                  {
-                    "id": "wael-ivie",
-                    "role": "author"
-                  }
-                ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
-                "filePath": "/en/terms/iog.md"
-              },
-              {
                 "id": "ipfs",
                 "language": "en",
                 "slug": "/terms/ipfs",
@@ -5969,11 +6022,46 @@
                 "filePath": "/en/terms/stablecoin.md"
               },
               {
-                "id": "stake-pool-operator--spo",
+                "id": "stake-pool-alliance",
                 "language": "en",
-                "slug": "/terms/stake-pool-operator--spo",
-                "url": "https:///website.codespace1.sublayer.io/terms/stake-pool-operator--spo",
-                "origin": "/terms/stake-pool-operator--spo",
+                "slug": "/terms/stake-pool-alliance",
+                "url": "https:///website.codespace1.sublayer.io/terms/stake-pool-alliance",
+                "origin": "/terms/stake-pool-alliance",
+                "title": "Stake Pool Alliance",
+                "description": "An alliance of stake pool operators on the Cardano blockchain.",
+                "aliases": [
+                  "cardano-stake-pool-alliance",
+                  "cardano single stake pool alliance",
+                  "stake pool alliance",
+                  "alliance",
+                  "armada alliance"
+                ],
+                "keywords": [
+                  "cardano",
+                  "stake pool",
+                  "alliance",
+                  "single",
+                  "stake",
+                  "pool",
+                  "armada",
+                  "cardano-stake-pool-alliance"
+                ],
+                "template": "TermDetailPage",
+                "identities": [
+                  {
+                    "id": "wael-ivie",
+                    "role": "author"
+                  }
+                ],
+                "updatedAt": "2021-07-21T01:15:44.000Z",
+                "filePath": "/en/terms/stake-pool-alliance.md"
+              },
+              {
+                "id": "stake-pool-operator",
+                "language": "en",
+                "slug": "/terms/stake-pool-operator",
+                "url": "https:///website.codespace1.sublayer.io/terms/stake-pool-operator",
+                "origin": "/terms/stake-pool-operator",
                 "title": "Stake pool operator (SPO)",
                 "description": "The person(s) or organization(s) operating a stake pool.",
                 "aliases": [
@@ -5995,8 +6083,8 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
-                "filePath": "/en/terms/stake-pool-operator--spo.md"
+                "updatedAt": "2021-07-22T06:52:45.000Z",
+                "filePath": "/en/terms/stake-pool-operator.md"
               },
               {
                 "id": "stake-pool-performance",
@@ -6738,6 +6826,104 @@
                 "filePath": "/es/terms/address.md"
               },
               {
+                "id": "airdrop",
+                "language": "es",
+                "slug": "/es/terms/airdrop",
+                "url": "https:///website.codespace1.sublayer.io/es/terms/airdrop",
+                "origin": "/es/terms/airdrop",
+                "title": "Airdrop",
+                "description": "Airdrop es un término para un tipo de campañas de publicidad utilizadas por muchas ICO en las que distribuyen su token al público general.",
+                "aliases": [
+                  "airdrop",
+                  "top crypto airdrops",
+                  "airdrops",
+                  "token launch airdrops",
+                  "ICO airdrops",
+                  "ethereum token airdrops",
+                  "best airdrops 2021"
+                ],
+                "keywords": [
+                  "airdrop",
+                  "crypto"
+                ],
+                "template": "TermDetailPage",
+                "identities": [
+                  {
+                    "id": "alex-qxt",
+                    "role": "author"
+                  }
+                ],
+                "updatedAt": "2021-07-20T15:08:28.000Z",
+                "filePath": "/es/terms/airdrop.md"
+              },
+              {
+                "id": "altcoins",
+                "language": "es",
+                "slug": "/es/terms/altcoins",
+                "url": "https:///website.codespace1.sublayer.io/es/terms/altcoins",
+                "origin": "/es/terms/altcoins",
+                "title": "Altcoins",
+                "description": "Altcoin es una abreviatura de \"Bitcoin Alternativa\".",
+                "aliases": [
+                  "altcoins",
+                  "small caps",
+                  "bitcoin alternative",
+                  "bitcoin alternativa"
+                ],
+                "keywords": [
+                  "altcoins",
+                  "alt",
+                  "coins",
+                  "bitcoin",
+                  "alternative",
+                  "alternativa"
+                ],
+                "template": "TermDetailPage",
+                "identities": [
+                  {
+                    "id": "alex-qxt",
+                    "role": "author"
+                  }
+                ],
+                "updatedAt": "2021-07-20T17:43:53.000Z",
+                "filePath": "/es/terms/altcoins.md"
+              },
+              {
+                "id": "basho",
+                "language": "es",
+                "slug": "/es/terms/basho",
+                "url": "https:///website.codespace1.sublayer.io/es/terms/basho",
+                "origin": "/es/terms/basho",
+                "title": "Basho",
+                "description": "Cuarta fase de desarrollo de Cardano en la que se integrarán mejoras de rendimiento.",
+                "aliases": [
+                  "basho era cardano",
+                  "goguen era of cardano",
+                  "shelly era of cardano",
+                  "voltaire era of cardano",
+                  "what are the phases of cardano",
+                  "cardano road map"
+                ],
+                "keywords": [
+                  "basho",
+                  "goguen",
+                  "shelly",
+                  "voltaire",
+                  "roadmap",
+                  "ada",
+                  "cardano"
+                ],
+                "template": "TermDetailPage",
+                "identities": [
+                  {
+                    "id": "alex-qxt",
+                    "role": "author"
+                  }
+                ],
+                "updatedAt": "2021-07-20T18:18:25.000Z",
+                "filePath": "/es/terms/basho.md"
+              },
+              {
                 "id": "blockchain",
                 "language": "es",
                 "slug": "/es/terms/blockchain",
@@ -6844,6 +7030,173 @@
                 ],
                 "updatedAt": "2021-07-10T20:43:29.000Z",
                 "filePath": "/es/terms/daedalus.md"
+              },
+              {
+                "id": "decentralized",
+                "language": "es",
+                "slug": "/es/terms/decentralized",
+                "url": "https:///website.codespace1.sublayer.io/es/terms/decentralized",
+                "origin": "/es/terms/decentralized",
+                "title": "Descentralizado",
+                "description": "La descentralización se refiere a la propiedad de un sistema en el que los nodos o actores trabajan en concierto de manera distribuida para lograr un objetivo global.",
+                "aliases": [
+                  "decentralization",
+                  "dencentralize",
+                  "decentralized",
+                  "descentralizacion",
+                  "descentralizado"
+                ],
+                "keywords": [
+                  "decentralization",
+                  "dencentralize",
+                  "decentralized"
+                ],
+                "template": "TermDetailPage",
+                "identities": [
+                  {
+                    "id": "alex-qxt",
+                    "role": "author"
+                  }
+                ],
+                "updatedAt": "2021-07-20T17:39:16.000Z",
+                "filePath": "/es/terms/decentralized.md"
+              },
+              {
+                "id": "delegate",
+                "language": "es",
+                "slug": "/es/terms/delegate",
+                "url": "https:///website.codespace1.sublayer.io/es/terms/delegate",
+                "origin": "/es/terms/delegate",
+                "title": "Delegar",
+                "description": "El proceso mediante el cual los propietarios de ADA pueden participar en la red y ganar recompensas al delegar sus ADA directamente desde su billetera a un Stake Pool de Cardano.",
+                "aliases": [
+                  "delegation",
+                  "delegating",
+                  "delegate",
+                  "staking",
+                  "delegar"
+                ],
+                "keywords": [
+                  "delegation",
+                  "delegating",
+                  "delegate",
+                  "staking",
+                  "delegar"
+                ],
+                "template": "TermDetailPage",
+                "identities": [
+                  {
+                    "id": "alex-qxt",
+                    "role": "author"
+                  }
+                ],
+                "updatedAt": "2021-07-20T17:15:16.000Z",
+                "filePath": "/es/terms/delegate.md"
+              },
+              {
+                "id": "ouroboros",
+                "language": "es",
+                "slug": "/es/terms/ouroboros",
+                "url": "https:///website.codespace1.sublayer.io/es/terms/ouroboros",
+                "origin": "/es/terms/ouroboros",
+                "title": "Ouroboros",
+                "description": "Algoritmo de Prueba de Participación (PoS) de Cardano.",
+                "aliases": [
+                  "cardano proof of stake algorithm",
+                  "cardano blockchain",
+                  "cardano blockchain protocol",
+                  "cardano network protocol",
+                  "ouroboros",
+                  "egyptians",
+                  "prueba de participacion",
+                  ""
+                ],
+                "keywords": [
+                  "cardano",
+                  "proof",
+                  "of",
+                  "stake",
+                  "algorithm",
+                  "blockchain",
+                  "ouroboros",
+                  "praos",
+                  "omega",
+                  "prueba",
+                  "participacion"
+                ],
+                "template": "TermDetailPage",
+                "identities": [
+                  {
+                    "id": "alex-qxt",
+                    "role": "author"
+                  }
+                ],
+                "updatedAt": "2021-07-20T15:18:08.000Z",
+                "filePath": "/es/terms/ouroboros.md"
+              },
+              {
+                "id": "proof-of-work",
+                "language": "es",
+                "slug": "/es/terms/proof-of-work",
+                "url": "https:///website.codespace1.sublayer.io/es/terms/proof-of-work",
+                "origin": "/es/terms/proof-of-work",
+                "title": "Prueba de Trabajo (PoW)",
+                "description": "Es el algoritmo de consenso original de las primeras redes blockchain, como Bitcoin. Este algoritmo se utiliza para confirmar transacciones y producir nuevos bloques en la cadena. Con PoW (Proof of Work), los \"mineros\" (aquellos que realizan el trabajo computacional) compiten entre sí para completar transacciones en la red y obtener recompensas.",
+                "aliases": [
+                  "pow",
+                  "proof of work",
+                  "bitcoin",
+                  "prueba de trabajo"
+                ],
+                "keywords": [
+                  "pow",
+                  "proof",
+                  "of",
+                  "work",
+                  "bitcoin",
+                  "prueba",
+                  "trabajo"
+                ],
+                "template": "TermDetailPage",
+                "identities": [
+                  {
+                    "id": "alex-qxt",
+                    "role": "author"
+                  }
+                ],
+                "updatedAt": "2021-07-20T17:47:32.000Z",
+                "filePath": "/es/terms/proof-of-work.md"
+              },
+              {
+                "id": "utility-token",
+                "language": "es",
+                "slug": "/es/terms/utility-token",
+                "url": "https:///website.codespace1.sublayer.io/es/terms/utility-token",
+                "origin": "/es/terms/utility-token",
+                "title": "Utility token",
+                "description": "Un token digital que tiene cierta funcionalidad con respecto a un proyecto o entorno concreto. Estos tokens se pueden usar como unidades de pago, recompensas o otorgar acceso a una red específica.",
+                "aliases": [
+                  "utility token",
+                  "voting token",
+                  "dao",
+                  "utilidad"
+                ],
+                "keywords": [
+                  "utility",
+                  "token",
+                  "voting",
+                  "dao",
+                  "utilidad"
+                ],
+                "template": "TermDetailPage",
+                "identities": [
+                  {
+                    "id": "alex-qxt",
+                    "role": "author"
+                  }
+                ],
+                "updatedAt": "2021-07-20T18:12:02.000Z",
+                "filePath": "/es/terms/utility-token.md"
               },
               {
                 "id": "utxo",
@@ -7159,18 +7512,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-19T19:40:50.196Z",
-            "component-cached-in": "961 μs",
-            "component-resolved-in": "961 μs"
+            "component-cached-at": "2021-07-22T19:20:04.397Z",
+            "component-cached-in": "553 μs",
+            "component-resolved-in": "553 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-19T19:40:50.196Z",
-          "_cachedIn": "1.28 ms",
-          "_resolvedIn": "1.28 ms",
+          "_cachedAt": "2021-07-22T19:20:04.397Z",
+          "_cachedIn": "675 μs",
+          "_resolvedIn": "675 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7181,17 +7534,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-19T19:40:50.196Z",
-            "component-cached-in": "1.28 ms",
-            "component-resolved-in": "1.28 ms"
+            "component-cached-at": "2021-07-22T19:20:04.397Z",
+            "component-cached-in": "675 μs",
+            "component-resolved-in": "675 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-19T19:40:50.196Z",
-              "_cachedIn": "263 μs",
-              "_resolvedIn": "263 μs",
+              "_cachedAt": "2021-07-22T19:20:04.397Z",
+              "_cachedIn": "97 μs",
+              "_resolvedIn": "97 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7251,9 +7604,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-19T19:40:50.196Z",
-                "component-cached-in": "263 μs",
-                "component-resolved-in": "263 μs"
+                "component-cached-at": "2021-07-22T19:20:04.397Z",
+                "component-cached-in": "97 μs",
+                "component-resolved-in": "97 μs"
               },
               "components": {}
             }
@@ -7262,9 +7615,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-19T19:40:50.195Z",
-          "_cachedIn": "458 μs",
-          "_resolvedIn": "458 μs",
+          "_cachedAt": "2021-07-22T19:20:04.397Z",
+          "_cachedIn": "179 μs",
+          "_resolvedIn": "179 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7273,9 +7626,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-19T19:40:50.195Z",
-            "component-cached-in": "458 μs",
-            "component-resolved-in": "458 μs"
+            "component-cached-at": "2021-07-22T19:20:04.397Z",
+            "component-cached-in": "179 μs",
+            "component-resolved-in": "179 μs"
           },
           "components": {}
         }
@@ -7284,9 +7637,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-19T19:40:50.195Z",
-      "_cachedIn": "1.11 ms",
-      "_resolvedIn": "1.11 ms",
+      "_cachedAt": "2021-07-22T19:20:04.397Z",
+      "_cachedIn": "575 μs",
+      "_resolvedIn": "575 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7297,14 +7650,14 @@
         "identities": [
           {
             "id": "wael-ivie",
-            "name": "Wael Ivie 🐋",
+            "name": "Wael Ivie🐋",
             "description": "Founder, SPO",
             "image": "/wael.jpg",
             "telegram": "Qwailman",
             "twitter": "Piada_stakePool",
             "github": "AstroWa3l",
             "link": {
-              "name": "Wael Ivie 🐋",
+              "name": "Wael Ivie🐋",
               "href": "/identities/wael-ivie"
             },
             "pools": [
@@ -7317,18 +7670,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-19T19:40:50.195Z",
-        "component-cached-in": "1.11 ms",
-        "component-resolved-in": "1.11 ms"
+        "component-cached-at": "2021-07-22T19:20:04.397Z",
+        "component-cached-in": "575 μs",
+        "component-resolved-in": "575 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-19T19:40:50.195Z",
-      "_cachedIn": "539 μs",
-      "_resolvedIn": "539 μs",
+      "_cachedAt": "2021-07-22T19:20:04.397Z",
+      "_cachedIn": "160 μs",
+      "_resolvedIn": "160 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7340,18 +7693,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-19T19:40:50.195Z",
-        "component-cached-in": "539 μs",
-        "component-resolved-in": "539 μs"
+        "component-cached-at": "2021-07-22T19:20:04.397Z",
+        "component-cached-in": "160 μs",
+        "component-resolved-in": "160 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-19T19:40:50.195Z",
-      "_cachedIn": "1.11 ms",
-      "_resolvedIn": "1.11 ms",
+      "_cachedAt": "2021-07-22T19:20:04.397Z",
+      "_cachedIn": "578 μs",
+      "_resolvedIn": "578 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7370,9 +7723,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-19T19:40:50.195Z",
-        "component-cached-in": "1.11 ms",
-        "component-resolved-in": "1.11 ms"
+        "component-cached-at": "2021-07-22T19:20:04.397Z",
+        "component-cached-in": "578 μs",
+        "component-resolved-in": "578 μs"
       },
       "components": {}
     }

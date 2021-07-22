@@ -16,7 +16,7 @@ export default function PostDetailPage(props) {
     return (
         <Component use={Layout} data={props.components.Layout}>
             <ContentContainer>
-                <div className="relative px-4 sm:px-6 lg:px-8">
+                <div className="relative">
                     <div className="max-w-prose mx-auto">
                         <div className="text-lg">
                             <Component use={PageHeader} data={components.PageHeader} />

@@ -23,7 +23,7 @@ module.exports = {
       "./src/app/**/*.js",
     ],
   },
-  darkMode: "media",
+  darkMode: "class",
   theme: {
     extend: {
       colors: {
