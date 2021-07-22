@@ -87,7 +87,7 @@ module.exports = {
                             link: type.createLink(props.identity[type.id])
                         }
                     })
-                return { socials }
+                return { socials, badges: props.badges || [] }
             }
         },
         {

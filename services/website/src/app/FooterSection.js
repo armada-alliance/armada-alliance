@@ -54,7 +54,7 @@ function SubscribeForm() {
                 <button
                     disabled={submitting}
                     type="submit"
-                    className="w-full bg-primary-600 flex items-center justify-center border border-transparent rounded-md py-2 px-4 text-base font-medium text-white hover:bg-primary-700 focus:ring-2 focus:ring-offset-2 focus:ring-primary-500"
+                    className="w-full bg-primary-600 flex items-center justify-center border border-transparent rounded-md py-2 px-4 text-base font-medium text-white hover:bg-primary-700 focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 transition-colors"
                 >
                     {submitting ? 'Sending...' : 'Subscribe'}
                 </button>
@@ -70,7 +70,7 @@ export default function Footer() {
     return (
         <>
             <NewsletterSection />
-            <footer className="bg-white" aria-labelledby="footerHeading">
+            <footer className="bg-white dark:bg-gray-900" aria-labelledby="footerHeading">
                 <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
                     <div className="md:flex md:items-center md:justify-between">
                         <div className="flex space-x-6 md:order-2">
@@ -86,7 +86,7 @@ export default function Footer() {
                                 {moment().format('YYYY')} {schema.about.name}
                             </div>
                             <Link href={'/sitemap'}>
-                                <a className="text-xs text-gray-600 font-bold px-2 py-1 rounded-md bg-gray-50 hover:bg-gray-100">{pages.length} pages generated {lowerFirst(moment(schema.createdAt).calendar())}</a>
+                                <a className="text-xs text-gray-600 dark:text-gray-400 font-bold px-2 py-1 rounded-md transition-colors bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700 hover:bg-gray-100">{pages.length} pages generated {lowerFirst(moment(schema.createdAt).calendar())}</a>
                             </Link>
                         </p>
                     </div>

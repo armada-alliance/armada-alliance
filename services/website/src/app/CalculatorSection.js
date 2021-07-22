@@ -28,7 +28,7 @@ function TabItem({
             <div
                 className={cx(
                     "font-medium transition-colors text-xs md:text-base text-center truncate",
-                    active ? "text-gray-800" : "text-gray-500"
+                    active ? "text-gray-800 dark:text-gray-200" : "text-gray-500"
                 )}
             >
                 {title}
@@ -41,7 +41,7 @@ function TabItemGhost({ title, width, left }) {
     return (
         <div
             className={cx(
-                "absolute top-0 bottom-0 flex items-center rounded-xl shadow bg-white"
+                "absolute top-0 bottom-0 flex items-center rounded-xl shadow bg-white dark:bg-gray-900"
             )}
             css={css`
         transition: 200ms ease width, 200ms ease left;
@@ -92,15 +92,15 @@ export default function TabsSection(props) {
     };
 
     return (
-        <div className="bg-gray-50 px-4 py-8 md:py-12 lg:py-20 select-none">
+        <div className="bg-gray-50 dark:bg-gray-800 px-4 py-8 md:py-12 lg:py-20 select-none">
             <div className="lg:max-w-custom mx-auto">
                 <div className="text-center">
-                    <h2 className="leading-none mb-4 text-4xl lg:text-4xl font-extrabold">
+                    <h2 className="leading-none mb-4 text-4xl lg:text-4xl font-extrabold dark:text-gray-100">
                         <DualColorText>Calculate your rewards</DualColorText>
                     </h2>
                 </div>
                 <div className="py-4 flex items-center justify-center">
-                    <div className="bg-gray-100 rounded-xl p-1 overflow-x-auto">
+                    <div className="bg-gray-100 dark:bg-gray-700 rounded-xl p-1 overflow-x-auto">
                         <div className="relative flex items-center">
                             {calculator ? (
                                 <TabItemGhost
@@ -146,7 +146,6 @@ export default function TabsSection(props) {
                                             <calculator.component description={calculator.description} />
                                         </div>
                                     </div>
-
                                 )
                             })}
                         </Slider>

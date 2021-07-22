@@ -3,6 +3,7 @@ import Context from "./Context";
 import templates from './templates'
 import markdownToText from 'markdown-to-text'
 import TestMode from './TestMode'
+import DarkMode from './DarkMode'
 import useTestMode from './useTestMode'
 import formatImage from './formatImage'
 
@@ -59,6 +60,7 @@ export default function DynamicPage(props) {
                 </div>
             ) : null}
             <TestMode />
+            <DarkMode />
         </Context.Provider>
     );
 }

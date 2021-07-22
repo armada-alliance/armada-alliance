@@ -76,9 +76,9 @@ function Page(props) {
 
 function YoutubeVideo({ url, description }) {
     return (
-        <div>
+        <div className="mb-8">
             <div
-                className="bg-gray-100 relative rounded-lg overflow-hidden shadow-md"
+                className="bg-gray-100 dark:bg-gray-700 relative rounded-lg overflow-hidden shadow-md"
                 style={{
                     WebkitMaskImage: "-webkit-radial-gradient(white, black)", // Safari HACK for rounded corners
                 }}
@@ -98,7 +98,7 @@ function YoutubeVideo({ url, description }) {
             </div>
             <div className="flex justify-end">
                 {description ? (
-                    <div className="mt-1.5 uppercase font-light text-sm text-gray-400">
+                    <div className="mt-1.5 uppercase font-light text-sm text-gray-400 dark:text-gray-700">
                         {description}
                     </div>
                 ) : null}
