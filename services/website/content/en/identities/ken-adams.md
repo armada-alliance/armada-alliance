@@ -1,7 +1,7 @@
 ---
 template: IdentityDetailPage
 title: Ken Adams
-description: YouTube content creator 
+description: Community Member and Advocate
 image: /keww.jpg
 website: https://keww.io/
 donationAddress: addr1q803rylypy4ewxp97u7sycffy2tmcaq2tmq5cfrl25t3u8ew9mg36wmcmr39ueas9qauuj2zar74gl5emkv39a9n734q3xeyr9
