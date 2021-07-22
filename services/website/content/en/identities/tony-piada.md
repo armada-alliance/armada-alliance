@@ -1,6 +1,6 @@
 ---
 template: IdentityDetailPage
-title: Tony Burger 🚵‍♀️
+title: Tony Burger🚵‍♂️
 description: SPO, Co-Founder
 image: /tony.jpg
 website: https://piada.io

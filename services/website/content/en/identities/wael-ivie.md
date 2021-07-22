@@ -1,6 +1,6 @@
 ---
 template: IdentityDetailPage
-title: Wael Ivie 🐋
+title: Wael Ivie🐋
 description: Founder, SPO
 image: /wael.jpg
 website: https://piada.io
