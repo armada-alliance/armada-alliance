@@ -6,8 +6,13 @@ export default function DarkMode({ children }) {
 
     const [darkMode, _setDarkMode] = useState(getDarkMode())
 
+    const handleDarkModeToggle = () => {
+        setDarkMode(!darkMode)
+    }
+
     useEffect(() => {
 
+        document.addEventListener('toggleDarkMode', handleDarkModeToggle)
         document.addEventListener('keydown', handleKeyDown)
 
         if (process.browser) {
@@ -21,13 +26,34 @@ export default function DarkMode({ children }) {
         }
 
         return () => {
+            document.removeEventListener('toggleDarkMode', handleDarkModeToggle)
             document.removeEventListener('keydown', handleKeyDown)
         }
     })
 
     useEffect(() => {
 
-        if (darkMode) {
+        let interval = setInterval(() => {
+            const _darkMode = getDarkMode()
+            if (_darkMode !== darkMode) {
+                setDarkMode(_darkMode, false)
+            }
+        }, 1000)
+
+        return () => {
+            if (interval) {
+                clearInterval(interval)
+                interval = null
+            }
+        }
+    })
+
+    useEffect(() => {
+        setClassNames(darkMode)
+    }, [darkMode])
+
+    const setClassNames = (value) => {
+        if (value) {
             document.documentElement.classList.add('dark')
             document.body.classList.remove('bg-white')
             document.body.classList.add('bg-gray-900')
@@ -36,20 +62,23 @@ export default function DarkMode({ children }) {
             document.body.classList.add('bg-white')
             document.documentElement.classList.remove('dark')
         }
+    }
 
-    }, [darkMode])
+    const setDarkMode = (value, store = true) => {
 
-    const setDarkMode = (value) => {
+        if (store) {
+            try {
+                if (value) {
+                    localStorage.theme = "dark"
+                } else {
+                    delete localStorage.theme
+                }
+            } catch (e) {
 
-        try {
-            if (value) {
-                localStorage.theme = "dark"
-            } else {
-                delete localStorage.theme
             }
-        } catch (e) {
-
         }
+
+        setClassNames(value)
 
         const event = new CustomEvent("darkMode", {
             darkMode: value
