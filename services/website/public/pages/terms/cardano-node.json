@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"cardano-node\",\"language\":\"en\",\"slug\":\"/terms/cardano-node\",\"url\":\"https:///website.codespace1.sublayer.io/terms/cardano-node\",\"origin\":\"/terms/cardano-node\",\"title\":\"Cardano node\",\"description\":\"A participant on the Cardano blockchain network, continuously making, sending, receiving, and validating blocks.\",\"aliases\":[\"cardano node\",\"cardano network nodes\",\"cardano network node\",\"cardano validator nodes\",\"cardano mining nodes\",\"cardano proof-of-stake nodes\"],\"keywords\":[\"cardano\",\"network\",\"node\",\"stake\",\"pool\",\"validator\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/cardano-node.md\",\"body\":\"Each Cardano node is responsible to make sure that all the rules of the protocol are followed and the security of the network is maintained.\\n\\nAnyone can run a Cardano node on their local machine, we have \\n\\n<Page url={'/guides/run-a-cardano-node'} />\",\"mdxSource\":{\"compiledSource\":\"var i=Object.defineProperty,l=Object.defineProperties;var h=Object.getOwnPropertyDescriptors;var a=Object.getOwnPropertySymbols;var d=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var c=(o,e,n)=>e in o?i(o,e,{enumerable:!0,configurable:!0,writable:!0,value:n}):o[e]=n,r=(o,e)=>{for(var n in e||(e={}))d.call(e,n)&&c(o,n,e[n]);if(a)for(var n of a(e))s.call(e,n)&&c(o,n,e[n]);return o},p=(o,e)=>l(o,h(e));var u=(o,e)=>{var n={};for(var t in o)d.call(o,t)&&e.indexOf(t)<0&&(n[t]=o[t]);if(o!=null&&a)for(var t of a(o))e.indexOf(t)<0&&s.call(o,t)&&(n[t]=o[t]);return n};const makeShortcode=o=>function(n){return console.warn(\\\"Component \\\"+o+\\\" was not imported, exported, or provided by MDXProvider as global scope\\\"),mdx(\\\"div\\\",r({},n))},Page=makeShortcode(\\\"Page\\\"),layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var t=n,{components:o}=t,e=u(t,[\\\"components\\\"]);return mdx(MDXLayout,p(r(r({},layoutProps),e),{components:o,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"Each Cardano node is responsible to make sure that all the rules of the protocol are followed and the security of the network is maintained.\\\"),mdx(\\\"p\\\",null,\\\"Anyone can run a Cardano node on their local machine, we have \\\"),mdx(Page,{url:\\\"/guides/run-a-cardano-node\\\",mdxType:\\\"Page\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-22T19:20:04.397Z",
-  "_cachedIn": "1.15 ms",
-  "_resolvedIn": "1.15 ms",
+  "_cachedAt": "2021-07-22T20:01:25.641Z",
+  "_cachedIn": "1.14 ms",
+  "_resolvedIn": "1.14 ms",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -51,17 +51,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-22T19:20:04.397Z",
-    "component-cached-in": "1.15 ms",
-    "component-resolved-in": "1.15 ms"
+    "component-cached-at": "2021-07-22T20:01:25.641Z",
+    "component-cached-in": "1.14 ms",
+    "component-resolved-in": "1.14 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-22T19:20:04.397Z",
-      "_cachedIn": "851 μs",
-      "_resolvedIn": "851 μs",
+      "_cachedAt": "2021-07-22T20:01:25.641Z",
+      "_cachedIn": "896 μs",
+      "_resolvedIn": "896 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -70,17 +70,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-22T19:20:04.397Z",
-        "component-cached-in": "851 μs",
-        "component-resolved-in": "851 μs"
+        "component-cached-at": "2021-07-22T20:01:25.641Z",
+        "component-cached-in": "896 μs",
+        "component-resolved-in": "896 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-22T19:20:04.397Z",
-          "_cachedIn": "566 μs",
-          "_resolvedIn": "566 μs",
+          "_cachedAt": "2021-07-22T20:01:25.641Z",
+          "_cachedIn": "531 μs",
+          "_resolvedIn": "531 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -88,7 +88,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-22T19:19:49.205Z",
+              "createdAt": "2021-07-22T20:01:09.902Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -326,7 +326,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-22T06:06:15.000Z",
+                "updatedAt": "2021-07-22T18:31:04.000Z",
                 "filePath": "/en/blogs/rpi-resiliency-sbc-otg-blog.md"
               },
               {
@@ -828,7 +828,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/ales.jpg",
-                "updatedAt": "2021-07-14T18:12:31.000Z",
+                "updatedAt": "2021-07-22T19:21:48.000Z",
                 "filePath": "/en/identities/alessandro-berry.md"
               },
               {
@@ -988,12 +988,12 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/ken-adams",
                 "origin": "/identities/ken-adams",
                 "title": "Ken Adams",
-                "description": "YouTube content creator",
+                "description": "Community Member and Advocate",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/keww.jpg",
-                "updatedAt": "2021-07-14T18:12:31.000Z",
+                "updatedAt": "2021-07-22T18:32:42.000Z",
                 "filePath": "/en/identities/ken-adams.md"
               },
               {
@@ -1308,7 +1308,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/wael.jpg",
-                "updatedAt": "2021-07-22T03:59:07.000Z",
+                "updatedAt": "2021-07-22T19:49:13.000Z",
                 "filePath": "/en/identities/wael-ivie.md"
               },
               {
@@ -7520,18 +7520,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-22T19:20:04.397Z",
-            "component-cached-in": "566 μs",
-            "component-resolved-in": "566 μs"
+            "component-cached-at": "2021-07-22T20:01:25.641Z",
+            "component-cached-in": "531 μs",
+            "component-resolved-in": "531 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-22T19:20:04.397Z",
-          "_cachedIn": "683 μs",
-          "_resolvedIn": "683 μs",
+          "_cachedAt": "2021-07-22T20:01:25.641Z",
+          "_cachedIn": "664 μs",
+          "_resolvedIn": "664 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7542,17 +7542,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-22T19:20:04.397Z",
-            "component-cached-in": "683 μs",
-            "component-resolved-in": "683 μs"
+            "component-cached-at": "2021-07-22T20:01:25.641Z",
+            "component-cached-in": "664 μs",
+            "component-resolved-in": "664 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-22T19:20:04.397Z",
-              "_cachedIn": "105 μs",
-              "_resolvedIn": "105 μs",
+              "_cachedAt": "2021-07-22T20:01:25.641Z",
+              "_cachedIn": "140 μs",
+              "_resolvedIn": "140 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7612,9 +7612,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-22T19:20:04.397Z",
-                "component-cached-in": "105 μs",
-                "component-resolved-in": "105 μs"
+                "component-cached-at": "2021-07-22T20:01:25.641Z",
+                "component-cached-in": "140 μs",
+                "component-resolved-in": "140 μs"
               },
               "components": {}
             }
@@ -7623,9 +7623,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-22T19:20:04.397Z",
-          "_cachedIn": "202 μs",
-          "_resolvedIn": "202 μs",
+          "_cachedAt": "2021-07-22T20:01:25.641Z",
+          "_cachedIn": "342 μs",
+          "_resolvedIn": "342 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7634,9 +7634,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-22T19:20:04.397Z",
-            "component-cached-in": "202 μs",
-            "component-resolved-in": "202 μs"
+            "component-cached-at": "2021-07-22T20:01:25.641Z",
+            "component-cached-in": "342 μs",
+            "component-resolved-in": "342 μs"
           },
           "components": {}
         }
@@ -7645,9 +7645,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-22T19:20:04.397Z",
-      "_cachedIn": "607 μs",
-      "_resolvedIn": "607 μs",
+      "_cachedAt": "2021-07-22T20:01:25.641Z",
+      "_cachedIn": "646 μs",
+      "_resolvedIn": "646 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7678,18 +7678,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-22T19:20:04.397Z",
-        "component-cached-in": "607 μs",
-        "component-resolved-in": "607 μs"
+        "component-cached-at": "2021-07-22T20:01:25.641Z",
+        "component-cached-in": "646 μs",
+        "component-resolved-in": "646 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-22T19:20:04.397Z",
-      "_cachedIn": "220 μs",
-      "_resolvedIn": "220 μs",
+      "_cachedAt": "2021-07-22T20:01:25.641Z",
+      "_cachedIn": "382 μs",
+      "_resolvedIn": "382 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7701,18 +7701,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-22T19:20:04.397Z",
-        "component-cached-in": "220 μs",
-        "component-resolved-in": "220 μs"
+        "component-cached-at": "2021-07-22T20:01:25.641Z",
+        "component-cached-in": "382 μs",
+        "component-resolved-in": "382 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-22T19:20:04.397Z",
-      "_cachedIn": "608 μs",
-      "_resolvedIn": "608 μs",
+      "_cachedAt": "2021-07-22T20:01:25.641Z",
+      "_cachedIn": "647 μs",
+      "_resolvedIn": "647 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7731,9 +7731,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-22T19:20:04.397Z",
-        "component-cached-in": "608 μs",
-        "component-resolved-in": "608 μs"
+        "component-cached-at": "2021-07-22T20:01:25.641Z",
+        "component-cached-in": "647 μs",
+        "component-resolved-in": "647 μs"
       },
       "components": {}
     }

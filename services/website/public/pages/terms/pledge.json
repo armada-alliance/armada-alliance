@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"pledge\",\"language\":\"en\",\"slug\":\"/terms/pledge\",\"url\":\"https:///website.codespace1.sublayer.io/terms/pledge\",\"origin\":\"/terms/pledge\",\"title\":\"Pledge\",\"description\":\"Pledging is an important mechanism that encourages the growth of a healthy ecosystem within the Cardano blockchain.\",\"aliases\":[\"pledge\",\"pledging\",\"pledge ada\",\"stake pool pledge\"],\"keywords\":[\"pledge\",\"pledging\",\"ada\",\"stake\",\"pool\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/pledge.md\",\"body\":\"When you register a stake pool you can choose to pledge some, or all, of your ada to the pool, to make it more attractive to people that want to delegate. Although pledging is not required when setting up a stake pool, it can make the stake pool more attractive to delegators, as the higher the amount of ada that is pledged, the higher the rewards that will be paid out. The a0 protocol parameter defines the influence of the pledge on the pool reward.\",\"mdxSource\":{\"compiledSource\":\"var u=Object.defineProperty,d=Object.defineProperties;var g=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var p=Object.prototype.hasOwnProperty,h=Object.prototype.propertyIsEnumerable;var l=(e,t,o)=>t in e?u(e,t,{enumerable:!0,configurable:!0,writable:!0,value:o}):e[t]=o,n=(e,t)=>{for(var o in t||(t={}))p.call(t,o)&&l(e,o,t[o]);if(r)for(var o of r(t))h.call(t,o)&&l(e,o,t[o]);return e},i=(e,t)=>d(e,g(t));var s=(e,t)=>{var o={};for(var a in e)p.call(e,a)&&t.indexOf(a)<0&&(o[a]=e[a]);if(e!=null&&r)for(var a of r(e))t.indexOf(a)<0&&h.call(e,a)&&(o[a]=e[a]);return o};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(o){var a=o,{components:e}=a,t=s(a,[\\\"components\\\"]);return mdx(MDXLayout,i(n(n({},layoutProps),t),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"When you register a stake pool you can choose to pledge some, or all, of your ada to the pool, to make it more attractive to people that want to delegate. Although pledging is not required when setting up a stake pool, it can make the stake pool more attractive to delegators, as the higher the amount of ada that is pledged, the higher the rewards that will be paid out. The a0 protocol parameter defines the influence of the pledge on the pool reward.\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-22T19:20:05.148Z",
-  "_cachedIn": "605 μs",
-  "_resolvedIn": "605 μs",
+  "_cachedAt": "2021-07-22T20:01:26.290Z",
+  "_cachedIn": "996 μs",
+  "_resolvedIn": "996 μs",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -48,17 +48,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-22T19:20:05.148Z",
-    "component-cached-in": "605 μs",
-    "component-resolved-in": "605 μs"
+    "component-cached-at": "2021-07-22T20:01:26.290Z",
+    "component-cached-in": "996 μs",
+    "component-resolved-in": "996 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-22T19:20:05.148Z",
-      "_cachedIn": "430 μs",
-      "_resolvedIn": "430 μs",
+      "_cachedAt": "2021-07-22T20:01:26.290Z",
+      "_cachedIn": "813 μs",
+      "_resolvedIn": "813 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -67,17 +67,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-22T19:20:05.148Z",
-        "component-cached-in": "430 μs",
-        "component-resolved-in": "430 μs"
+        "component-cached-at": "2021-07-22T20:01:26.290Z",
+        "component-cached-in": "813 μs",
+        "component-resolved-in": "813 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-22T19:20:05.148Z",
-          "_cachedIn": "262 μs",
-          "_resolvedIn": "262 μs",
+          "_cachedAt": "2021-07-22T20:01:26.290Z",
+          "_cachedIn": "557 μs",
+          "_resolvedIn": "557 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -85,7 +85,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-22T19:19:49.205Z",
+              "createdAt": "2021-07-22T20:01:09.902Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -323,7 +323,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-22T06:06:15.000Z",
+                "updatedAt": "2021-07-22T18:31:04.000Z",
                 "filePath": "/en/blogs/rpi-resiliency-sbc-otg-blog.md"
               },
               {
@@ -825,7 +825,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/ales.jpg",
-                "updatedAt": "2021-07-14T18:12:31.000Z",
+                "updatedAt": "2021-07-22T19:21:48.000Z",
                 "filePath": "/en/identities/alessandro-berry.md"
               },
               {
@@ -985,12 +985,12 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/ken-adams",
                 "origin": "/identities/ken-adams",
                 "title": "Ken Adams",
-                "description": "YouTube content creator",
+                "description": "Community Member and Advocate",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/keww.jpg",
-                "updatedAt": "2021-07-14T18:12:31.000Z",
+                "updatedAt": "2021-07-22T18:32:42.000Z",
                 "filePath": "/en/identities/ken-adams.md"
               },
               {
@@ -1305,7 +1305,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/wael.jpg",
-                "updatedAt": "2021-07-22T03:59:07.000Z",
+                "updatedAt": "2021-07-22T19:49:13.000Z",
                 "filePath": "/en/identities/wael-ivie.md"
               },
               {
@@ -7517,18 +7517,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-22T19:20:05.148Z",
-            "component-cached-in": "262 μs",
-            "component-resolved-in": "262 μs"
+            "component-cached-at": "2021-07-22T20:01:26.290Z",
+            "component-cached-in": "557 μs",
+            "component-resolved-in": "557 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-22T19:20:05.148Z",
-          "_cachedIn": "328 μs",
-          "_resolvedIn": "328 μs",
+          "_cachedAt": "2021-07-22T20:01:26.290Z",
+          "_cachedIn": "669 μs",
+          "_resolvedIn": "669 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7539,17 +7539,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-22T19:20:05.148Z",
-            "component-cached-in": "328 μs",
-            "component-resolved-in": "328 μs"
+            "component-cached-at": "2021-07-22T20:01:26.290Z",
+            "component-cached-in": "669 μs",
+            "component-resolved-in": "669 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-22T19:20:05.148Z",
-              "_cachedIn": "65 μs",
-              "_resolvedIn": "65 μs",
+              "_cachedAt": "2021-07-22T20:01:26.290Z",
+              "_cachedIn": "119 μs",
+              "_resolvedIn": "119 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7609,9 +7609,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-22T19:20:05.148Z",
-                "component-cached-in": "65 μs",
-                "component-resolved-in": "65 μs"
+                "component-cached-at": "2021-07-22T20:01:26.290Z",
+                "component-cached-in": "119 μs",
+                "component-resolved-in": "119 μs"
               },
               "components": {}
             }
@@ -7620,9 +7620,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-22T19:20:05.148Z",
-          "_cachedIn": "152 μs",
-          "_resolvedIn": "152 μs",
+          "_cachedAt": "2021-07-22T20:01:26.290Z",
+          "_cachedIn": "392 μs",
+          "_resolvedIn": "392 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7631,9 +7631,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-22T19:20:05.148Z",
-            "component-cached-in": "152 μs",
-            "component-resolved-in": "152 μs"
+            "component-cached-at": "2021-07-22T20:01:26.290Z",
+            "component-cached-in": "392 μs",
+            "component-resolved-in": "392 μs"
           },
           "components": {}
         }
@@ -7642,9 +7642,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-22T19:20:05.148Z",
-      "_cachedIn": "277 μs",
-      "_resolvedIn": "277 μs",
+      "_cachedAt": "2021-07-22T20:01:26.290Z",
+      "_cachedIn": "602 μs",
+      "_resolvedIn": "602 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7675,18 +7675,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-22T19:20:05.148Z",
-        "component-cached-in": "277 μs",
-        "component-resolved-in": "277 μs"
+        "component-cached-at": "2021-07-22T20:01:26.290Z",
+        "component-cached-in": "602 μs",
+        "component-resolved-in": "602 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-22T19:20:05.148Z",
-      "_cachedIn": "146 μs",
-      "_resolvedIn": "146 μs",
+      "_cachedAt": "2021-07-22T20:01:26.289Z",
+      "_cachedIn": "290 μs",
+      "_resolvedIn": "290 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7698,18 +7698,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-22T19:20:05.148Z",
-        "component-cached-in": "146 μs",
-        "component-resolved-in": "146 μs"
+        "component-cached-at": "2021-07-22T20:01:26.289Z",
+        "component-cached-in": "290 μs",
+        "component-resolved-in": "290 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-22T19:20:05.148Z",
-      "_cachedIn": "277 μs",
-      "_resolvedIn": "277 μs",
+      "_cachedAt": "2021-07-22T20:01:26.290Z",
+      "_cachedIn": "603 μs",
+      "_resolvedIn": "603 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7728,9 +7728,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-22T19:20:05.148Z",
-        "component-cached-in": "277 μs",
-        "component-resolved-in": "277 μs"
+        "component-cached-at": "2021-07-22T20:01:26.290Z",
+        "component-cached-in": "603 μs",
+        "component-resolved-in": "603 μs"
       },
       "components": {}
     }

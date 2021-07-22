@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"plutus-platform\",\"language\":\"en\",\"slug\":\"/terms/plutus-platform\",\"url\":\"https:///website.codespace1.sublayer.io/terms/plutus-platform\",\"origin\":\"/terms/plutus-platform\",\"title\":\"Plutus platform\",\"description\":\"The combined software support for writing contract applications\",\"aliases\":[\"plutus platform\"],\"keywords\":[\"plutus\",\"platform\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/plutus-platform.md\",\"body\":\"This includes:\\n\\n1. Plutus Foundation, and\\n\\n2. The Plutus Application Framework\\n\\n[What is the Plutus Platform?](https://docs.cardano.org/projects/plutus/en/terms/latest/plutus/explanations/platform.html#what-is-the-plutus-platform)\",\"mdxSource\":{\"compiledSource\":\"var m=Object.defineProperty,c=Object.defineProperties;var h=Object.getOwnPropertyDescriptors;var e=Object.getOwnPropertySymbols;var n=Object.prototype.hasOwnProperty,r=Object.prototype.propertyIsEnumerable;var s=(t,a,p)=>a in t?m(t,a,{enumerable:!0,configurable:!0,writable:!0,value:p}):t[a]=p,l=(t,a)=>{for(var p in a||(a={}))n.call(a,p)&&s(t,p,a[p]);if(e)for(var p of e(a))r.call(a,p)&&s(t,p,a[p]);return t},u=(t,a)=>c(t,h(a));var i=(t,a)=>{var p={};for(var o in t)n.call(t,o)&&a.indexOf(o)<0&&(p[o]=t[o]);if(t!=null&&e)for(var o of e(t))a.indexOf(o)<0&&r.call(t,o)&&(p[o]=t[o]);return p};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(p){var o=p,{components:t}=o,a=i(o,[\\\"components\\\"]);return mdx(MDXLayout,u(l(l({},layoutProps),a),{components:t,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"This includes:\\\"),mdx(\\\"ol\\\",null,mdx(\\\"li\\\",{parentName:\\\"ol\\\"},mdx(\\\"p\\\",{parentName:\\\"li\\\"},\\\"Plutus Foundation, and\\\")),mdx(\\\"li\\\",{parentName:\\\"ol\\\"},mdx(\\\"p\\\",{parentName:\\\"li\\\"},\\\"The Plutus Application Framework\\\"))),mdx(\\\"p\\\",null,mdx(\\\"a\\\",l({parentName:\\\"p\\\"},{href:\\\"https://docs.cardano.org/projects/plutus/en/terms/latest/plutus/explanations/platform.html#what-is-the-plutus-platform\\\"}),\\\"What is the Plutus Platform?\\\")))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-22T19:20:05.204Z",
-  "_cachedIn": "262 μs",
-  "_resolvedIn": "262 μs",
+  "_cachedAt": "2021-07-22T20:01:26.360Z",
+  "_cachedIn": "205 μs",
+  "_resolvedIn": "205 μs",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -42,17 +42,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-22T19:20:05.204Z",
-    "component-cached-in": "262 μs",
-    "component-resolved-in": "262 μs"
+    "component-cached-at": "2021-07-22T20:01:26.360Z",
+    "component-cached-in": "205 μs",
+    "component-resolved-in": "205 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-22T19:20:05.204Z",
-      "_cachedIn": "218 μs",
-      "_resolvedIn": "218 μs",
+      "_cachedAt": "2021-07-22T20:01:26.360Z",
+      "_cachedIn": "172 μs",
+      "_resolvedIn": "172 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -61,17 +61,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-22T19:20:05.204Z",
-        "component-cached-in": "218 μs",
-        "component-resolved-in": "218 μs"
+        "component-cached-at": "2021-07-22T20:01:26.360Z",
+        "component-cached-in": "172 μs",
+        "component-resolved-in": "172 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-22T19:20:05.204Z",
-          "_cachedIn": "144 μs",
-          "_resolvedIn": "144 μs",
+          "_cachedAt": "2021-07-22T20:01:26.360Z",
+          "_cachedIn": "119 μs",
+          "_resolvedIn": "119 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -79,7 +79,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-22T19:19:49.205Z",
+              "createdAt": "2021-07-22T20:01:09.902Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -317,7 +317,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-22T06:06:15.000Z",
+                "updatedAt": "2021-07-22T18:31:04.000Z",
                 "filePath": "/en/blogs/rpi-resiliency-sbc-otg-blog.md"
               },
               {
@@ -819,7 +819,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/ales.jpg",
-                "updatedAt": "2021-07-14T18:12:31.000Z",
+                "updatedAt": "2021-07-22T19:21:48.000Z",
                 "filePath": "/en/identities/alessandro-berry.md"
               },
               {
@@ -979,12 +979,12 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/ken-adams",
                 "origin": "/identities/ken-adams",
                 "title": "Ken Adams",
-                "description": "YouTube content creator",
+                "description": "Community Member and Advocate",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/keww.jpg",
-                "updatedAt": "2021-07-14T18:12:31.000Z",
+                "updatedAt": "2021-07-22T18:32:42.000Z",
                 "filePath": "/en/identities/ken-adams.md"
               },
               {
@@ -1299,7 +1299,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/wael.jpg",
-                "updatedAt": "2021-07-22T03:59:07.000Z",
+                "updatedAt": "2021-07-22T19:49:13.000Z",
                 "filePath": "/en/identities/wael-ivie.md"
               },
               {
@@ -7511,18 +7511,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-22T19:20:05.204Z",
-            "component-cached-in": "144 μs",
-            "component-resolved-in": "144 μs"
+            "component-cached-at": "2021-07-22T20:01:26.360Z",
+            "component-cached-in": "119 μs",
+            "component-resolved-in": "119 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-22T19:20:05.204Z",
-          "_cachedIn": "165 μs",
-          "_resolvedIn": "165 μs",
+          "_cachedAt": "2021-07-22T20:01:26.360Z",
+          "_cachedIn": "136 μs",
+          "_resolvedIn": "136 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7533,17 +7533,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-22T19:20:05.204Z",
-            "component-cached-in": "165 μs",
-            "component-resolved-in": "165 μs"
+            "component-cached-at": "2021-07-22T20:01:26.360Z",
+            "component-cached-in": "136 μs",
+            "component-resolved-in": "136 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-22T19:20:05.204Z",
-              "_cachedIn": "38 μs",
-              "_resolvedIn": "38 μs",
+              "_cachedAt": "2021-07-22T20:01:26.360Z",
+              "_cachedIn": "26 μs",
+              "_resolvedIn": "26 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7603,9 +7603,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-22T19:20:05.204Z",
-                "component-cached-in": "38 μs",
-                "component-resolved-in": "38 μs"
+                "component-cached-at": "2021-07-22T20:01:26.360Z",
+                "component-cached-in": "26 μs",
+                "component-resolved-in": "26 μs"
               },
               "components": {}
             }
@@ -7614,9 +7614,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-22T19:20:05.204Z",
-          "_cachedIn": "97 μs",
-          "_resolvedIn": "97 μs",
+          "_cachedAt": "2021-07-22T20:01:26.360Z",
+          "_cachedIn": "86 μs",
+          "_resolvedIn": "86 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7625,9 +7625,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-22T19:20:05.204Z",
-            "component-cached-in": "97 μs",
-            "component-resolved-in": "97 μs"
+            "component-cached-at": "2021-07-22T20:01:26.360Z",
+            "component-cached-in": "86 μs",
+            "component-resolved-in": "86 μs"
           },
           "components": {}
         }
@@ -7636,9 +7636,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-22T19:20:05.204Z",
-      "_cachedIn": "160 μs",
-      "_resolvedIn": "160 μs",
+      "_cachedAt": "2021-07-22T20:01:26.360Z",
+      "_cachedIn": "132 μs",
+      "_resolvedIn": "132 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7669,18 +7669,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-22T19:20:05.204Z",
-        "component-cached-in": "160 μs",
-        "component-resolved-in": "160 μs"
+        "component-cached-at": "2021-07-22T20:01:26.360Z",
+        "component-cached-in": "132 μs",
+        "component-resolved-in": "132 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-22T19:20:05.204Z",
-      "_cachedIn": "74 μs",
-      "_resolvedIn": "74 μs",
+      "_cachedAt": "2021-07-22T20:01:26.360Z",
+      "_cachedIn": "63 μs",
+      "_resolvedIn": "63 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7692,18 +7692,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-22T19:20:05.204Z",
-        "component-cached-in": "74 μs",
-        "component-resolved-in": "74 μs"
+        "component-cached-at": "2021-07-22T20:01:26.360Z",
+        "component-cached-in": "63 μs",
+        "component-resolved-in": "63 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-22T19:20:05.204Z",
-      "_cachedIn": "157 μs",
-      "_resolvedIn": "157 μs",
+      "_cachedAt": "2021-07-22T20:01:26.360Z",
+      "_cachedIn": "131 μs",
+      "_resolvedIn": "131 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7722,9 +7722,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-22T19:20:05.204Z",
-        "component-cached-in": "157 μs",
-        "component-resolved-in": "157 μs"
+        "component-cached-at": "2021-07-22T20:01:26.360Z",
+        "component-cached-in": "131 μs",
+        "component-resolved-in": "131 μs"
       },
       "components": {}
     }

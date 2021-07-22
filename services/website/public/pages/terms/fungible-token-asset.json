@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"fungible-token-asset\",\"language\":\"en\",\"slug\":\"/terms/fungible-token-asset\",\"url\":\"https:///website.codespace1.sublayer.io/terms/fungible-token-asset\",\"origin\":\"/terms/fungible-token-asset\",\"title\":\"Fungible token/asset\",\"description\":\"an asset that is interchangeable and indistinguishable with some other asset(s). Same denomination bills and coins are fungible assets, for example, like equal quantities of ada to lovelaces.\",\"aliases\":[\"cardano native assets\",\"cardano fungible tokens\",\"cardano tokens\",\"ada\",\"lovelace\",\"cardano currency\",\"cryptocurrency\"],\"keywords\":[\"cardano\",\"native\",\"assets\",\"fungible\",\"tokens\",\"ada\",\"lovelace\",\"cryptocurrency\",\"crypto\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/fungible-token-asset.md\",\"body\":\"Learn how to mint your own fungible token(s) on the Cardano blockchain using javascript:\\n\\n<Page url=\\\"/guides/create-single-non-fungible-token\\\" />\\n\",\"mdxSource\":{\"compiledSource\":\"var d=Object.defineProperty,l=Object.defineProperties;var g=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var s=Object.prototype.hasOwnProperty,u=Object.prototype.propertyIsEnumerable;var c=(o,n,e)=>n in o?d(o,n,{enumerable:!0,configurable:!0,writable:!0,value:e}):o[n]=e,a=(o,n)=>{for(var e in n||(n={}))s.call(n,e)&&c(o,e,n[e]);if(r)for(var e of r(n))u.call(n,e)&&c(o,e,n[e]);return o},i=(o,n)=>l(o,g(n));var p=(o,n)=>{var e={};for(var t in o)s.call(o,t)&&n.indexOf(t)<0&&(e[t]=o[t]);if(o!=null&&r)for(var t of r(o))n.indexOf(t)<0&&u.call(o,t)&&(e[t]=o[t]);return e};const makeShortcode=o=>function(e){return console.warn(\\\"Component \\\"+o+\\\" was not imported, exported, or provided by MDXProvider as global scope\\\"),mdx(\\\"div\\\",a({},e))},Page=makeShortcode(\\\"Page\\\"),layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(e){var t=e,{components:o}=t,n=p(t,[\\\"components\\\"]);return mdx(MDXLayout,i(a(a({},layoutProps),n),{components:o,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"Learn how to mint your own fungible token(s) on the Cardano blockchain using javascript:\\\"),mdx(Page,{url:\\\"/guides/create-single-non-fungible-token\\\",mdxType:\\\"Page\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-22T19:20:04.794Z",
-  "_cachedIn": "1.93 ms",
-  "_resolvedIn": "1.93 ms",
+  "_cachedAt": "2021-07-22T20:01:25.978Z",
+  "_cachedIn": "2.56 ms",
+  "_resolvedIn": "2.56 ms",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -55,17 +55,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-22T19:20:04.794Z",
-    "component-cached-in": "1.93 ms",
-    "component-resolved-in": "1.93 ms"
+    "component-cached-at": "2021-07-22T20:01:25.978Z",
+    "component-cached-in": "2.56 ms",
+    "component-resolved-in": "2.56 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-22T19:20:04.794Z",
-      "_cachedIn": "1.35 ms",
-      "_resolvedIn": "1.35 ms",
+      "_cachedAt": "2021-07-22T20:01:25.978Z",
+      "_cachedIn": "1.98 ms",
+      "_resolvedIn": "1.98 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -74,17 +74,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-22T19:20:04.794Z",
-        "component-cached-in": "1.35 ms",
-        "component-resolved-in": "1.35 ms"
+        "component-cached-at": "2021-07-22T20:01:25.978Z",
+        "component-cached-in": "1.98 ms",
+        "component-resolved-in": "1.98 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-22T19:20:04.794Z",
-          "_cachedIn": "802 μs",
-          "_resolvedIn": "802 μs",
+          "_cachedAt": "2021-07-22T20:01:25.977Z",
+          "_cachedIn": "1.18 ms",
+          "_resolvedIn": "1.18 ms",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -92,7 +92,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-22T19:19:49.205Z",
+              "createdAt": "2021-07-22T20:01:09.902Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -330,7 +330,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-22T06:06:15.000Z",
+                "updatedAt": "2021-07-22T18:31:04.000Z",
                 "filePath": "/en/blogs/rpi-resiliency-sbc-otg-blog.md"
               },
               {
@@ -832,7 +832,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/ales.jpg",
-                "updatedAt": "2021-07-14T18:12:31.000Z",
+                "updatedAt": "2021-07-22T19:21:48.000Z",
                 "filePath": "/en/identities/alessandro-berry.md"
               },
               {
@@ -992,12 +992,12 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/ken-adams",
                 "origin": "/identities/ken-adams",
                 "title": "Ken Adams",
-                "description": "YouTube content creator",
+                "description": "Community Member and Advocate",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/keww.jpg",
-                "updatedAt": "2021-07-14T18:12:31.000Z",
+                "updatedAt": "2021-07-22T18:32:42.000Z",
                 "filePath": "/en/identities/ken-adams.md"
               },
               {
@@ -1312,7 +1312,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/wael.jpg",
-                "updatedAt": "2021-07-22T03:59:07.000Z",
+                "updatedAt": "2021-07-22T19:49:13.000Z",
                 "filePath": "/en/identities/wael-ivie.md"
               },
               {
@@ -7524,18 +7524,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-22T19:20:04.794Z",
-            "component-cached-in": "802 μs",
-            "component-resolved-in": "802 μs"
+            "component-cached-at": "2021-07-22T20:01:25.977Z",
+            "component-cached-in": "1.18 ms",
+            "component-resolved-in": "1.18 ms"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-22T19:20:04.794Z",
-          "_cachedIn": "1.05 ms",
-          "_resolvedIn": "1.05 ms",
+          "_cachedAt": "2021-07-22T20:01:25.978Z",
+          "_cachedIn": "1.6 ms",
+          "_resolvedIn": "1.6 ms",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7546,17 +7546,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-22T19:20:04.794Z",
-            "component-cached-in": "1.05 ms",
-            "component-resolved-in": "1.05 ms"
+            "component-cached-at": "2021-07-22T20:01:25.978Z",
+            "component-cached-in": "1.6 ms",
+            "component-resolved-in": "1.6 ms"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-22T19:20:04.794Z",
-              "_cachedIn": "197 μs",
-              "_resolvedIn": "197 μs",
+              "_cachedAt": "2021-07-22T20:01:25.978Z",
+              "_cachedIn": "389 μs",
+              "_resolvedIn": "389 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7616,9 +7616,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-22T19:20:04.794Z",
-                "component-cached-in": "197 μs",
-                "component-resolved-in": "197 μs"
+                "component-cached-at": "2021-07-22T20:01:25.978Z",
+                "component-cached-in": "389 μs",
+                "component-resolved-in": "389 μs"
               },
               "components": {}
             }
@@ -7627,9 +7627,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-22T19:20:04.793Z",
-          "_cachedIn": "446 μs",
-          "_resolvedIn": "446 μs",
+          "_cachedAt": "2021-07-22T20:01:25.977Z",
+          "_cachedIn": "611 μs",
+          "_resolvedIn": "611 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7638,9 +7638,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-22T19:20:04.793Z",
-            "component-cached-in": "446 μs",
-            "component-resolved-in": "446 μs"
+            "component-cached-at": "2021-07-22T20:01:25.977Z",
+            "component-cached-in": "611 μs",
+            "component-resolved-in": "611 μs"
           },
           "components": {}
         }
@@ -7649,9 +7649,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-22T19:20:04.794Z",
-      "_cachedIn": "843 μs",
-      "_resolvedIn": "843 μs",
+      "_cachedAt": "2021-07-22T20:01:25.977Z",
+      "_cachedIn": "1.15 ms",
+      "_resolvedIn": "1.15 ms",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7682,18 +7682,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-22T19:20:04.794Z",
-        "component-cached-in": "843 μs",
-        "component-resolved-in": "843 μs"
+        "component-cached-at": "2021-07-22T20:01:25.977Z",
+        "component-cached-in": "1.15 ms",
+        "component-resolved-in": "1.15 ms"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-22T19:20:04.793Z",
-      "_cachedIn": "369 μs",
-      "_resolvedIn": "369 μs",
+      "_cachedAt": "2021-07-22T20:01:25.976Z",
+      "_cachedIn": "537 μs",
+      "_resolvedIn": "537 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7705,18 +7705,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-22T19:20:04.793Z",
-        "component-cached-in": "369 μs",
-        "component-resolved-in": "369 μs"
+        "component-cached-at": "2021-07-22T20:01:25.976Z",
+        "component-cached-in": "537 μs",
+        "component-resolved-in": "537 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-22T19:20:04.794Z",
-      "_cachedIn": "844 μs",
-      "_resolvedIn": "844 μs",
+      "_cachedAt": "2021-07-22T20:01:25.977Z",
+      "_cachedIn": "1.15 ms",
+      "_resolvedIn": "1.15 ms",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7735,9 +7735,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-22T19:20:04.794Z",
-        "component-cached-in": "844 μs",
-        "component-resolved-in": "844 μs"
+        "component-cached-at": "2021-07-22T20:01:25.977Z",
+        "component-cached-in": "1.15 ms",
+        "component-resolved-in": "1.15 ms"
       },
       "components": {}
     }

@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"fake-stake\",\"language\":\"en\",\"slug\":\"/terms/fake-stake\",\"url\":\"https:///website.codespace1.sublayer.io/terms/fake-stake\",\"origin\":\"/terms/fake-stake\",\"title\":\"Fake Stake Attack\",\"description\":\"This is the umbrella term that references the various vulnerabilities of Proof-of-Stake cryptocurrencies like Cardano.\",\"aliases\":[\"fake stake attacks\",\"fake stake attack\",\"fake stake attack cardano\",\"cardano hack\",\"PoS hacks\",\"proof-of-stake hacks\",\"proof-of-stake attacks\",\"proof-of-stake vulnerabilities\",\"utxo model hacks\"],\"keywords\":[\"vulnerabilities\",\"fake\",\"stake\",\"attack\",\"attacks\",\"cardano\",\"hack\",\"hacks\",\"PoSv3\",\"3rd-generation\",\"blockchain\",\"PoS\",\"ada\",\"51%\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/fake-stake.md\",\"body\":\"We call the vulnerabilities we found “Fake Stake” attacks. Fake Stake attacks work because 3rd generation Proof-of-Stake blockchain implementations do not adequately validate network data before committing expensive resources, mainly disk-space and RAM. The consequence is that an attacker without much stake (in some cases none at all) can cause a victim node to crash by filling up its disk or RAM with bogus data. Unlike Cardano, many cryptocurrency blockchains that use the UTXO and longest-chain Proof-of-Stake model are susceptible to these Fake Stake vulnerabilities. For more information please see this blog from IOHK below.\",\"mdxSource\":{\"compiledSource\":\"var k=Object.defineProperty,m=Object.defineProperties;var d=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var i=Object.prototype.hasOwnProperty,c=Object.prototype.propertyIsEnumerable;var r=(e,t,a)=>t in e?k(e,t,{enumerable:!0,configurable:!0,writable:!0,value:a}):e[t]=a,s=(e,t)=>{for(var a in t||(t={}))i.call(t,a)&&r(e,a,t[a]);if(n)for(var a of n(t))c.call(t,a)&&r(e,a,t[a]);return e},l=(e,t)=>m(e,d(t));var u=(e,t)=>{var a={};for(var o in e)i.call(e,o)&&t.indexOf(o)<0&&(a[o]=e[o]);if(e!=null&&n)for(var o of n(e))t.indexOf(o)<0&&c.call(e,o)&&(a[o]=e[o]);return a};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(a){var o=a,{components:e}=o,t=u(o,[\\\"components\\\"]);return mdx(MDXLayout,l(s(s({},layoutProps),t),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"We call the vulnerabilities we found \\\\u201CFake Stake\\\\u201D attacks. Fake Stake attacks work because 3rd generation Proof-of-Stake blockchain implementations do not adequately validate network data before committing expensive resources, mainly disk-space and RAM. The consequence is that an attacker without much stake (in some cases none at all) can cause a victim node to crash by filling up its disk or RAM with bogus data. Unlike Cardano, many cryptocurrency blockchains that use the UTXO and longest-chain Proof-of-Stake model are susceptible to these Fake Stake vulnerabilities. For more information please see this blog from IOHK below.\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-22T19:20:04.794Z",
-  "_cachedIn": "2.05 ms",
-  "_resolvedIn": "2.05 ms",
+  "_cachedAt": "2021-07-22T20:01:25.978Z",
+  "_cachedIn": "2.67 ms",
+  "_resolvedIn": "2.67 ms",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -62,17 +62,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-22T19:20:04.794Z",
-    "component-cached-in": "2.05 ms",
-    "component-resolved-in": "2.05 ms"
+    "component-cached-at": "2021-07-22T20:01:25.978Z",
+    "component-cached-in": "2.67 ms",
+    "component-resolved-in": "2.67 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-22T19:20:04.794Z",
-      "_cachedIn": "1.31 ms",
-      "_resolvedIn": "1.31 ms",
+      "_cachedAt": "2021-07-22T20:01:25.978Z",
+      "_cachedIn": "1.93 ms",
+      "_resolvedIn": "1.93 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -81,17 +81,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-22T19:20:04.794Z",
-        "component-cached-in": "1.31 ms",
-        "component-resolved-in": "1.31 ms"
+        "component-cached-at": "2021-07-22T20:01:25.978Z",
+        "component-cached-in": "1.93 ms",
+        "component-resolved-in": "1.93 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-22T19:20:04.794Z",
-          "_cachedIn": "760 μs",
-          "_resolvedIn": "760 μs",
+          "_cachedAt": "2021-07-22T20:01:25.977Z",
+          "_cachedIn": "1.11 ms",
+          "_resolvedIn": "1.11 ms",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -99,7 +99,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-22T19:19:49.205Z",
+              "createdAt": "2021-07-22T20:01:09.902Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -337,7 +337,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-22T06:06:15.000Z",
+                "updatedAt": "2021-07-22T18:31:04.000Z",
                 "filePath": "/en/blogs/rpi-resiliency-sbc-otg-blog.md"
               },
               {
@@ -839,7 +839,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/ales.jpg",
-                "updatedAt": "2021-07-14T18:12:31.000Z",
+                "updatedAt": "2021-07-22T19:21:48.000Z",
                 "filePath": "/en/identities/alessandro-berry.md"
               },
               {
@@ -999,12 +999,12 @@
                 "url": "https:///website.codespace1.sublayer.io/identities/ken-adams",
                 "origin": "/identities/ken-adams",
                 "title": "Ken Adams",
-                "description": "YouTube content creator",
+                "description": "Community Member and Advocate",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/keww.jpg",
-                "updatedAt": "2021-07-14T18:12:31.000Z",
+                "updatedAt": "2021-07-22T18:32:42.000Z",
                 "filePath": "/en/identities/ken-adams.md"
               },
               {
@@ -1319,7 +1319,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/wael.jpg",
-                "updatedAt": "2021-07-22T03:59:07.000Z",
+                "updatedAt": "2021-07-22T19:49:13.000Z",
                 "filePath": "/en/identities/wael-ivie.md"
               },
               {
@@ -7531,18 +7531,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-22T19:20:04.794Z",
-            "component-cached-in": "760 μs",
-            "component-resolved-in": "760 μs"
+            "component-cached-at": "2021-07-22T20:01:25.977Z",
+            "component-cached-in": "1.11 ms",
+            "component-resolved-in": "1.11 ms"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-22T19:20:04.794Z",
-          "_cachedIn": "993 μs",
-          "_resolvedIn": "993 μs",
+          "_cachedAt": "2021-07-22T20:01:25.978Z",
+          "_cachedIn": "1.55 ms",
+          "_resolvedIn": "1.55 ms",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7553,17 +7553,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-22T19:20:04.794Z",
-            "component-cached-in": "993 μs",
-            "component-resolved-in": "993 μs"
+            "component-cached-at": "2021-07-22T20:01:25.978Z",
+            "component-cached-in": "1.55 ms",
+            "component-resolved-in": "1.55 ms"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-22T19:20:04.794Z",
-              "_cachedIn": "166 μs",
-              "_resolvedIn": "166 μs",
+              "_cachedAt": "2021-07-22T20:01:25.978Z",
+              "_cachedIn": "333 μs",
+              "_resolvedIn": "333 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7623,9 +7623,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-22T19:20:04.794Z",
-                "component-cached-in": "166 μs",
-                "component-resolved-in": "166 μs"
+                "component-cached-at": "2021-07-22T20:01:25.978Z",
+                "component-cached-in": "333 μs",
+                "component-resolved-in": "333 μs"
               },
               "components": {}
             }
@@ -7634,9 +7634,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-22T19:20:04.793Z",
-          "_cachedIn": "331 μs",
-          "_resolvedIn": "331 μs",
+          "_cachedAt": "2021-07-22T20:01:25.977Z",
+          "_cachedIn": "488 μs",
+          "_resolvedIn": "488 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7645,9 +7645,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-22T19:20:04.793Z",
-            "component-cached-in": "331 μs",
-            "component-resolved-in": "331 μs"
+            "component-cached-at": "2021-07-22T20:01:25.977Z",
+            "component-cached-in": "488 μs",
+            "component-resolved-in": "488 μs"
           },
           "components": {}
         }
@@ -7656,9 +7656,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-22T19:20:04.793Z",
-      "_cachedIn": "723 μs",
-      "_resolvedIn": "723 μs",
+      "_cachedAt": "2021-07-22T20:01:25.977Z",
+      "_cachedIn": "997 μs",
+      "_resolvedIn": "997 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7689,18 +7689,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-22T19:20:04.793Z",
-        "component-cached-in": "723 μs",
-        "component-resolved-in": "723 μs"
+        "component-cached-at": "2021-07-22T20:01:25.977Z",
+        "component-cached-in": "997 μs",
+        "component-resolved-in": "997 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-22T19:20:04.793Z",
-      "_cachedIn": "230 μs",
-      "_resolvedIn": "230 μs",
+      "_cachedAt": "2021-07-22T20:01:25.976Z",
+      "_cachedIn": "311 μs",
+      "_resolvedIn": "311 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7712,18 +7712,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-22T19:20:04.793Z",
-        "component-cached-in": "230 μs",
-        "component-resolved-in": "230 μs"
+        "component-cached-at": "2021-07-22T20:01:25.976Z",
+        "component-cached-in": "311 μs",
+        "component-resolved-in": "311 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-22T19:20:04.793Z",
-      "_cachedIn": "725 μs",
-      "_resolvedIn": "725 μs",
+      "_cachedAt": "2021-07-22T20:01:25.977Z",
+      "_cachedIn": "999 μs",
+      "_resolvedIn": "999 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7742,9 +7742,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-22T19:20:04.793Z",
-        "component-cached-in": "725 μs",
-        "component-resolved-in": "725 μs"
+        "component-cached-at": "2021-07-22T20:01:25.977Z",
+        "component-cached-in": "999 μs",
+        "component-resolved-in": "999 μs"
       },
       "components": {}
     }
