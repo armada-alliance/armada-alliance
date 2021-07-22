@@ -8,6 +8,9 @@ verified: true
 telegram: sublayerio
 twitter: sublayerio
 github: sublayerio
+badges:
+    - name: Fully ARMed
+      color: "#EF4444"
 ---
 
 I'm the operator of Sublayer Pool. I'm currently located in the Netherlands and I mainly write web applications for clients. I've been following the crypto space since 2017 and I've been involved in the Cardano community since early 2021. In my spare time I try to educate people about Cardano and true decentralisation by developing (and providing educational content to) the Armada Alliance platform.

@@ -1,32 +1,31 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { Fragment, useContext } from 'react'
 import Link from './Link'
-import Text from './Text'
 import Context from './Context'
 import cx from 'classnames'
-import markdownToText from 'markdown-to-text'
 import { Popover, Transition } from '@headlessui/react'
 import SearchBox from './SearchBox'
 import Component from './Component'
-import {
-    BookmarkAltIcon,
-    CalendarIcon,
-    ChartBarIcon,
-    CursorClickIcon,
-    MenuIcon,
-    PhoneIcon,
-    PlayIcon,
-    RefreshIcon,
-    ShieldCheckIcon,
-    SupportIcon,
-    ViewGridIcon,
-    XIcon,
-    BookOpenIcon,
-} from '@heroicons/react/outline'
-import { ChevronDownIcon } from '@heroicons/react/solid'
+
+import { ChevronDownIcon, MoonIcon } from '@heroicons/react/solid'
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
+}
+
+function DarkModeToggle() {
+
+    const handleToggle = () => {
+        document.dispatchEvent(
+            new CustomEvent("toggleDarkMode")
+        )
+    }
+
+    return (
+        <button type="button" className="h-8 w-8 flex items-center justify-center text-gray-900 dark:text-gray-400 rounded-full bg-gray-50 dark:bg-gray-900 focus:outline-none" onClick={handleToggle}>
+            <MoonIcon className="h-5" />
+        </button>
+    )
 }
 
 function LanguageButton() {
@@ -150,10 +149,11 @@ export default function Header(props) {
                                 </Link>
                             </div>
                             <Component use={SearchBox} data={components.SearchBox} />
-                            <div className="flex items-center justify-end flex-1 lg:w-0">
-                                <Popover.Group>
-                                    <LanguageButton />
-                                </Popover.Group>
+                            <div className="flex items-center justify-end space-x-6 flex-1 lg:w-0">
+                                <LanguageButton />
+                                {process.browser && window.matchMedia('(prefers-color-scheme: dark)').matches ? null : (
+                                    <DarkModeToggle />
+                                )}
                             </div>
                         </div>
                     </div>
