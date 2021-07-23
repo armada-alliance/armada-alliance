@@ -9,6 +9,11 @@ verified: true
 twitter: OTG_WCat
 telegram: WCatz
 github: wcatz
+badges:
+    - name: Fully ARMed
+      color: "#EF4444"
+    - name: ARMada CAP'N
+      color: "#846DCF"
 ---
 
 Ticker: [OTG]. Off The Grid solar powered stake pool. Home made Tesla style powerwall made from reclaimed laptop batteries. Starlink, Mac M1 Mini block producer. SPO with strong Linux administration, network and security skills. Dedicated to #TrueDecentralization on low powered aarch64 processors and the resilience of the Cardano network.
