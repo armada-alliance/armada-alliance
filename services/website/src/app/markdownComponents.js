@@ -22,12 +22,12 @@ function Code({ children }) {
 const markdownComponents = {
     a: (props) => (
         <PageTooltip slug={props.href}>
-            <a {...props} className="text-gray-900 dark:text-gray-100 font-bold underline" />
+            <a {...props} className="text-gray-900 dark:text-gray-100 font-medium underline" />
         </PageTooltip>
     ),
     h1: props => <h2 {...props} className="block text-2xl sm:text-3xl leading-8 font-bold text-gray-900 dark:text-gray-100 mb-3 mt-6">H1 should not be used, use H2 instead</h2>,
-    h2: props => <h2 {...props} className="block text-1xl sm:text-2xl leading-8 font-bold text-gray-900 dark:text-gray-100 mb-2 mt-5" />,
-    h3: props => <h2 {...props} className="block text-xl sm:text-1xl leading-8 font-bold text-gray-900 dark:text-gray-100 mb-1 mt-4" />,
+    h2: props => <h2 {...props} className="block text-1xl sm:text-2xl leading-8 font-bold text-gray-900 dark:text-gray-100 mb-3 mt-5 pb-3 border-b border-gray-200 dark:border-gray-700" />,
+    h3: props => <h3 {...props} className="block text-xl sm:text-1xl leading-8 font-bold text-gray-900 dark:text-gray-100 mb-3 mt-4 pb-2 border-b border-gray-200 dark:border-gray-700" />,
     ul: props => <ul {...props} className="my-8" />,
     strong: props => <strong {...props} className="font-bold text-gray-900 dark:text-gray-100" />,
     li: props => <li
@@ -47,9 +47,14 @@ const markdownComponents = {
     `}
     />,
     p: ({ children }) => (
-        <p className="mb-8 leading-8">
+        <div className="mb-8 leading-8">
             {children}
-        </p>
+        </div>
+    ),
+    blockquote: ({ children }) => (
+        <blockquote className="border-l-4 dark:border-gray-100 pl-4 font-bold italic dark:text-gray-100">
+            {children}
+        </blockquote>
     ),
     pre: props => (
         <pre {...props} className="mb-8" />

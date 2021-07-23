@@ -34,7 +34,7 @@ export default function NewsletterSection() {
     }
 
     return (
-        <div className="bg-white dark:bg-gray-900 pt-16 sm:pt-24">
+        <div className="bg-white dark:bg-gray-900 pt-16 sm:pt-24 overflow-hidden">
             <div className="relative sm:py-16">
                 <div aria-hidden="true" className="hidden sm:block">
                     <div className="absolute inset-y-0 left-0 w-1/2 bg-gray-50 dark:bg-gray-800 rounded-r-3xl" />

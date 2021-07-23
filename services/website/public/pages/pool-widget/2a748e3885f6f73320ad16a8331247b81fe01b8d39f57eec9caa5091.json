@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"Berry BERRY\",\"slug\":\"/pool-widget/2a748e3885f6f73320ad16a8331247b81fe01b8d39f57eec9caa5091\",\"template\":\"PoolWidgetPage\",\"poolId\":\"2a748e3885f6f73320ad16a8331247b81fe01b8d39f57eec9caa5091\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-22T20:01:25.063Z",
-  "_cachedIn": "187 μs",
-  "_resolvedIn": "187 μs",
+  "_cachedAt": "2021-07-23T13:11:56.881Z",
+  "_cachedIn": "154 μs",
+  "_resolvedIn": "154 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -29,10 +29,10 @@
       "ticker": "BERRY",
       "addr": "pool19f6guwy97mmnxg9dz65rxyj8hq07qxud886hamyu4fgfz7dj9gl",
       "website": "https://pipool.online",
-      "totalStake": "17728382635342",
-      "blocksLifetime": 132,
-      "delegators": 297,
-      "saturated": 0.26528222861244655,
+      "totalStake": "17752605577466",
+      "blocksLifetime": 134,
+      "delegators": 300,
+      "saturated": 0.2656004484394949,
       "pledge": "450000000000",
       "pledged": "473351747175",
       "taxRatio": 0.015,
@@ -237,17 +237,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2021-07-22T20:01:25.063Z",
-    "component-cached-in": "187 μs",
-    "component-resolved-in": "187 μs"
+    "component-cached-at": "2021-07-23T13:11:56.881Z",
+    "component-cached-in": "154 μs",
+    "component-resolved-in": "154 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-22T20:01:25.063Z",
-      "_cachedIn": "127 μs",
-      "_resolvedIn": "127 μs",
+      "_cachedAt": "2021-07-23T13:11:56.881Z",
+      "_cachedIn": "103 μs",
+      "_resolvedIn": "103 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -256,17 +256,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-22T20:01:25.063Z",
-        "component-cached-in": "127 μs",
-        "component-resolved-in": "127 μs"
+        "component-cached-at": "2021-07-23T13:11:56.881Z",
+        "component-cached-in": "103 μs",
+        "component-resolved-in": "103 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-22T20:01:25.063Z",
-          "_cachedIn": "76 μs",
-          "_resolvedIn": "76 μs",
+          "_cachedAt": "2021-07-23T13:11:56.881Z",
+          "_cachedIn": "61 μs",
+          "_resolvedIn": "61 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -274,7 +274,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-22T20:01:09.902Z",
+              "createdAt": "2021-07-23T13:11:41.504Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -498,7 +498,7 @@
                 "url": "https:///website.codespace1.sublayer.io/blogs/rpi-resiliency-sbc-otg-blog",
                 "origin": "/blogs/rpi-resiliency-sbc-otg-blog",
                 "title": "Proof of Resiliency",
-                "description": null,
+                "description": "A Short Story of true resiliency and decentralization",
                 "aliases": null,
                 "keywords": null,
                 "template": "BlogDetailPage",
@@ -512,6 +512,7 @@
                     "role": "author"
                   }
                 ],
+                "image": "/flood-disaster.webp",
                 "updatedAt": "2021-07-22T18:31:04.000Z",
                 "filePath": "/en/blogs/rpi-resiliency-sbc-otg-blog.md"
               },
@@ -1033,6 +1034,21 @@
                 "filePath": "/en/identities/alex-qxt.md"
               },
               {
+                "id": "amanuelodicho",
+                "language": "en",
+                "slug": "/identities/amanuelodicho",
+                "url": "https:///website.codespace1.sublayer.io/identities/amanuelodicho",
+                "origin": "/identities/amanuelodicho",
+                "title": "Amanuel",
+                "description": "Software Engineer Intern @ Walmart Global Tech Blockchain Developer - Cardano",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "/amanuel.jpg",
+                "updatedAt": "2021-07-22T20:11:22.000Z",
+                "filePath": "/en/identities/amanuelodicho.md"
+              },
+              {
                 "id": "chadi",
                 "language": "en",
                 "slug": "/identities/chadi",
@@ -1434,7 +1450,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://cdn.sublayer.io/logo.png",
-                "updatedAt": "2021-07-20T16:22:05.000Z",
+                "updatedAt": "2021-07-23T07:53:54.000Z",
                 "filePath": "/en/identities/sublayerio.md"
               },
               {
@@ -1493,8 +1509,8 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
-                "image": "/wael.jpg",
-                "updatedAt": "2021-07-22T19:49:13.000Z",
+                "image": "/wael.png",
+                "updatedAt": "2021-07-23T06:06:21.000Z",
                 "filePath": "/en/identities/wael-ivie.md"
               },
               {
@@ -1867,7 +1883,7 @@
                   }
                 ],
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-22T22:53:31.000Z",
                 "filePath": "/en/stake-pools/7e45a7e6ab3afcf99120e97aedf84e706e43d829ddc610ad667a85a3.md"
               },
               {
@@ -7706,18 +7722,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-22T20:01:25.063Z",
-            "component-cached-in": "76 μs",
-            "component-resolved-in": "76 μs"
+            "component-cached-at": "2021-07-23T13:11:56.881Z",
+            "component-cached-in": "61 μs",
+            "component-resolved-in": "61 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-22T20:01:25.063Z",
-          "_cachedIn": "102 μs",
-          "_resolvedIn": "102 μs",
+          "_cachedAt": "2021-07-23T13:11:56.881Z",
+          "_cachedIn": "82 μs",
+          "_resolvedIn": "82 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7728,17 +7744,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-22T20:01:25.063Z",
-            "component-cached-in": "102 μs",
-            "component-resolved-in": "102 μs"
+            "component-cached-at": "2021-07-23T13:11:56.881Z",
+            "component-cached-in": "82 μs",
+            "component-resolved-in": "82 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-22T20:01:25.063Z",
-              "_cachedIn": "28 μs",
-              "_resolvedIn": "28 μs",
+              "_cachedAt": "2021-07-23T13:11:56.881Z",
+              "_cachedIn": "21 μs",
+              "_resolvedIn": "21 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7798,9 +7814,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-22T20:01:25.063Z",
-                "component-cached-in": "28 μs",
-                "component-resolved-in": "28 μs"
+                "component-cached-at": "2021-07-23T13:11:56.881Z",
+                "component-cached-in": "21 μs",
+                "component-resolved-in": "21 μs"
               },
               "components": {}
             }
@@ -7809,9 +7825,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-22T20:01:25.063Z",
-          "_cachedIn": "26 μs",
-          "_resolvedIn": "26 μs",
+          "_cachedAt": "2021-07-23T13:11:56.881Z",
+          "_cachedIn": "22 μs",
+          "_resolvedIn": "22 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7820,9 +7836,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-22T20:01:25.063Z",
-            "component-cached-in": "26 μs",
-            "component-resolved-in": "26 μs"
+            "component-cached-at": "2021-07-23T13:11:56.881Z",
+            "component-cached-in": "22 μs",
+            "component-resolved-in": "22 μs"
           },
           "components": {}
         }

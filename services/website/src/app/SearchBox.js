@@ -9,6 +9,7 @@ import cx from 'classnames'
 import { useRouter } from 'next/router'
 import formatImage from './formatImage'
 import WithPageTooltip from './WithPageTooltip'
+import { css } from '@emotion/react'
 
 function getHighlightedText(text, highlight) {
     // Split text on highlight term, include term itself into parts, ignore case
@@ -55,24 +56,31 @@ function DefaultView({ templates, results, query, onLinkClick }) {
                                 </Link>
                             </div>
                         </div>
-                        <div className="-mx-3 grid grid-cols-2 sm:grid-cols-3">
+                        <div className="-mx-3 grid grid-cols-1 sm:grid-cols-3">
                             {pages.map(page => {
 
                                 return (
                                     <WithPageTooltip delay={800} slug={page.slug}>
                                         {props => (
                                             <Link href={page.slug}>
-                                                <a {...props} onClick={onLinkClick} className="group flex items-center space-x-2 px-3 py-2 hover:bg-primary-500 hover:text-white rounded-lg text-sm block text-gray-500 dark:text-gray-400 dark:hover:text-white">
+                                                <a {...props} onClick={onLinkClick} className={cx("group flex items-center px-3 py-2 hover:bg-primary-500 hover:text-white rounded-lg text-sm block text-gray-500 dark:text-gray-400 dark:hover:text-white", page.template !== "BlogDetailPage" ? "space-x-2" : "space-x-3")}>
                                                     {page.image ? (
-                                                        <div className="flex-shrink-0 bg-white dark:bg-gray-900 h-8 w-8 rounded-full ring-2 ring-white dark:ring-gray-900 bg-center bg-no-repeat bg-cover" style={{ backgroundImage: `url(${formatImage(page.image)})` }} />
+                                                        <div className={cx("flex-shrink-0 bg-white dark:bg-gray-900 ring-2 ring-white dark:ring-gray-900 bg-center bg-no-repeat bg-cover", page.template !== "BlogDetailPage" ? "rounded-full h-8 w-8" : "rounded-md h-14 w-14")} style={{ backgroundImage: `url(${formatImage(page.image)})` }} />
                                                     ) : null}
                                                     {page.icon ? (
                                                         <div className="flex-shrink-0 bg-gray-50 dark:bg-gray-800 dark:group-hover:bg-gray-700 group-hover:bg-white h-8 w-8 rounded-full ring-2 ring-white dark:ring-gray-800 flex items-center justify-center">
                                                             {page.icon}
                                                         </div>
                                                     ) : null}
-                                                    <div className="truncate">
-                                                        {getHighlightedText(page.title, query)}
+                                                    <div className="space-y-1 w-full overflow-hidden leading-none">
+                                                        <div className={cx("truncate", page.template === "BlogDetailPage" ? "font-bold text-base" : null)}>
+                                                            {getHighlightedText(page.title, query)}
+                                                        </div>
+                                                        {page.template === "BlogDetailPage" ? (
+                                                            <div className="truncate">
+                                                                {getHighlightedText(page.description, query)}
+                                                            </div>
+                                                        ) : null}
                                                     </div>
                                                 </a>
                                             </Link>
@@ -84,6 +92,7 @@ function DefaultView({ templates, results, query, onLinkClick }) {
                     </div>
                 )
             })}
+            <div className="sm:hidden" style={{ height: '50vh' }} />
         </div>
     )
 }
@@ -213,7 +222,7 @@ export default function SearchBox(props) {
             </button>
             <Transition.Root show={open} as={Fragment}>
                 <Dialog as="div" static className="fixed z-10 inset-0 overflow-y-auto" open={open} onClose={setOpen}>
-                    <div className="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+                    <div className="flex sm:items-end justify-center min-h-screen sm:pt-4 sm:px-4 sm:pb-20 text-center sm:block sm:p-0">
                         <Transition.Child
                             as={Fragment}
                             enter="ease-out duration-300"
@@ -239,7 +248,7 @@ export default function SearchBox(props) {
                             leaveFrom="opacity-100 translate-y-0 sm:scale-100"
                             leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
                         >
-                            <div className="inline-block align-bottom bg-white dark:bg-gray-900 dark:text-white rounded-lg pb-4 text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-4xl sm:w-full">
+                            <div className="inline-block align-bottom bg-white dark:bg-gray-900 dark:text-white sm:rounded-lg pb-4 text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-4xl w-full">
                                 <div className="flex items-center py-2 px-4 space-x-4">
                                     <div>
                                         <SearchIcon className="h-6" />
@@ -261,7 +270,15 @@ export default function SearchBox(props) {
                                         esc
                                     </button>
                                 </div>
-                                <div className="overflow-y-auto" style={{ maxHeight: 'calc(100vh - 200px)' }}>
+                                <div
+                                    className="overflow-y-auto"
+                                    css={css`
+                                    max-height: calc(100vh - 56px);
+                                    @media (min-width: 768px) {
+                                        max-height: calc(100vh - 200px);
+                                    }
+                                    `}
+                                >
                                     {results.length ? (
                                         <DefaultView {...props} results={results} query={query} onLinkClick={handleLinkClick} />
                                     ) : (

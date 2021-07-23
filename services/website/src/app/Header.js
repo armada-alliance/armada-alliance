@@ -131,7 +131,7 @@ export default function Header(props) {
     const { components } = props
 
     return (
-        <Popover className="fixed top-0 left-0 w-full bg-white dark:bg-gray-800">
+        <Popover className="fixed top-0 left-0 w-full bg-white dark:bg-gray-800 z-10">
             {({ open }) => (
                 <>
                     <div className="max-w-7xl mx-auto px-4 sm:px-6">
