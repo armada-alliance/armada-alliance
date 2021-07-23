@@ -78,6 +78,5 @@ export default function ContentLayout(props) {
                 </div>
             </Container>
         </div>
-
     )
 }
