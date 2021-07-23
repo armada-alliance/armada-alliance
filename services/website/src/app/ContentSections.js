@@ -10,13 +10,15 @@ export default function ContentSections({ contentSections }) {
         return null
     }
 
-
-
     return (
         <>
             {contentSections.map((section, index) => {
 
                 const ContentSection = sectionTypes[section.type]
+
+                if (!ContentSection) {
+                    return null
+                }
 
                 return (
                     <ContentSection key={index} {...section} />
