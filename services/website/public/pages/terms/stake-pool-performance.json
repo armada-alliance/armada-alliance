@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"stake-pool-performance\",\"language\":\"en\",\"slug\":\"/terms/stake-pool-performance\",\"url\":\"https:///website.codespace1.sublayer.io/terms/stake-pool-performance\",\"origin\":\"/terms/stake-pool-performance\",\"title\":\"Stake pool performance\",\"description\":\"A measure of the efficiency of a stake pool, given as a percentage, is measured by how many blocks the stake pool has produced (and that are recorded on the main chain) compared to how many it was nominated to produce.\",\"aliases\":[\"cardano stake pool performance\",\"block performance\",\"stake pool block performance\",\"stake pool performance\",\"blocks\",\"produced block\",\"rank\"],\"keywords\":[\"cardano\",\"stake\",\"pool\",\"performance\",\"block\",\"blocks\",\"rank\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/stake-pool-performance.md\",\"body\":\"For example, if a pool only produces half the number of blocks that were nominated, its performance rating is 50%. This could happen because the pool has a poor network connection, or has been turned off by its operator. Performance ratings make more sense over a longer period of time.\",\"mdxSource\":{\"compiledSource\":\"var m=Object.defineProperty,f=Object.defineProperties;var l=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var p=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var i=(o,e,n)=>e in o?m(o,e,{enumerable:!0,configurable:!0,writable:!0,value:n}):o[e]=n,a=(o,e)=>{for(var n in e||(e={}))p.call(e,n)&&i(o,n,e[n]);if(r)for(var n of r(e))s.call(e,n)&&i(o,n,e[n]);return o},c=(o,e)=>f(o,l(e));var u=(o,e)=>{var n={};for(var t in o)p.call(o,t)&&e.indexOf(t)<0&&(n[t]=o[t]);if(o!=null&&r)for(var t of r(o))e.indexOf(t)<0&&s.call(o,t)&&(n[t]=o[t]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var t=n,{components:o}=t,e=u(t,[\\\"components\\\"]);return mdx(MDXLayout,c(a(a({},layoutProps),e),{components:o,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"For example, if a pool only produces half the number of blocks that were nominated, its performance rating is 50%. This could happen because the pool has a poor network connection, or has been turned off by its operator. Performance ratings make more sense over a longer period of time.\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-22T20:01:26.598Z",
-  "_cachedIn": "656 μs",
-  "_resolvedIn": "656 μs",
+  "_cachedAt": "2021-07-23T13:11:58.476Z",
+  "_cachedIn": "303 μs",
+  "_resolvedIn": "303 μs",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -53,17 +53,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-22T20:01:26.598Z",
-    "component-cached-in": "656 μs",
-    "component-resolved-in": "656 μs"
+    "component-cached-at": "2021-07-23T13:11:58.476Z",
+    "component-cached-in": "303 μs",
+    "component-resolved-in": "303 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-22T20:01:26.598Z",
-      "_cachedIn": "449 μs",
-      "_resolvedIn": "449 μs",
+      "_cachedAt": "2021-07-23T13:11:58.476Z",
+      "_cachedIn": "246 μs",
+      "_resolvedIn": "246 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -72,17 +72,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-22T20:01:26.598Z",
-        "component-cached-in": "449 μs",
-        "component-resolved-in": "449 μs"
+        "component-cached-at": "2021-07-23T13:11:58.476Z",
+        "component-cached-in": "246 μs",
+        "component-resolved-in": "246 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-22T20:01:26.598Z",
-          "_cachedIn": "273 μs",
-          "_resolvedIn": "273 μs",
+          "_cachedAt": "2021-07-23T13:11:58.476Z",
+          "_cachedIn": "160 μs",
+          "_resolvedIn": "160 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -90,7 +90,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-22T20:01:09.902Z",
+              "createdAt": "2021-07-23T13:11:41.504Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -314,7 +314,7 @@
                 "url": "https:///website.codespace1.sublayer.io/blogs/rpi-resiliency-sbc-otg-blog",
                 "origin": "/blogs/rpi-resiliency-sbc-otg-blog",
                 "title": "Proof of Resiliency",
-                "description": null,
+                "description": "A Short Story of true resiliency and decentralization",
                 "aliases": null,
                 "keywords": null,
                 "template": "BlogDetailPage",
@@ -328,6 +328,7 @@
                     "role": "author"
                   }
                 ],
+                "image": "/flood-disaster.webp",
                 "updatedAt": "2021-07-22T18:31:04.000Z",
                 "filePath": "/en/blogs/rpi-resiliency-sbc-otg-blog.md"
               },
@@ -849,6 +850,21 @@
                 "filePath": "/en/identities/alex-qxt.md"
               },
               {
+                "id": "amanuelodicho",
+                "language": "en",
+                "slug": "/identities/amanuelodicho",
+                "url": "https:///website.codespace1.sublayer.io/identities/amanuelodicho",
+                "origin": "/identities/amanuelodicho",
+                "title": "Amanuel",
+                "description": "Software Engineer Intern @ Walmart Global Tech Blockchain Developer - Cardano",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "/amanuel.jpg",
+                "updatedAt": "2021-07-22T20:11:22.000Z",
+                "filePath": "/en/identities/amanuelodicho.md"
+              },
+              {
                 "id": "chadi",
                 "language": "en",
                 "slug": "/identities/chadi",
@@ -1250,7 +1266,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://cdn.sublayer.io/logo.png",
-                "updatedAt": "2021-07-20T16:22:05.000Z",
+                "updatedAt": "2021-07-23T07:53:54.000Z",
                 "filePath": "/en/identities/sublayerio.md"
               },
               {
@@ -1309,8 +1325,8 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
-                "image": "/wael.jpg",
-                "updatedAt": "2021-07-22T19:49:13.000Z",
+                "image": "/wael.png",
+                "updatedAt": "2021-07-23T06:06:21.000Z",
                 "filePath": "/en/identities/wael-ivie.md"
               },
               {
@@ -1683,7 +1699,7 @@
                   }
                 ],
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-22T22:53:31.000Z",
                 "filePath": "/en/stake-pools/7e45a7e6ab3afcf99120e97aedf84e706e43d829ddc610ad667a85a3.md"
               },
               {
@@ -7522,18 +7538,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-22T20:01:26.598Z",
-            "component-cached-in": "273 μs",
-            "component-resolved-in": "273 μs"
+            "component-cached-at": "2021-07-23T13:11:58.476Z",
+            "component-cached-in": "160 μs",
+            "component-resolved-in": "160 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-22T20:01:26.598Z",
-          "_cachedIn": "348 μs",
-          "_resolvedIn": "348 μs",
+          "_cachedAt": "2021-07-23T13:11:58.476Z",
+          "_cachedIn": "192 μs",
+          "_resolvedIn": "192 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7544,17 +7560,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-22T20:01:26.598Z",
-            "component-cached-in": "348 μs",
-            "component-resolved-in": "348 μs"
+            "component-cached-at": "2021-07-23T13:11:58.476Z",
+            "component-cached-in": "192 μs",
+            "component-resolved-in": "192 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-22T20:01:26.598Z",
-              "_cachedIn": "64 μs",
-              "_resolvedIn": "64 μs",
+              "_cachedAt": "2021-07-23T13:11:58.476Z",
+              "_cachedIn": "40 μs",
+              "_resolvedIn": "40 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7614,9 +7630,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-22T20:01:26.598Z",
-                "component-cached-in": "64 μs",
-                "component-resolved-in": "64 μs"
+                "component-cached-at": "2021-07-23T13:11:58.476Z",
+                "component-cached-in": "40 μs",
+                "component-resolved-in": "40 μs"
               },
               "components": {}
             }
@@ -7625,9 +7641,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-22T20:01:26.598Z",
-          "_cachedIn": "155 μs",
-          "_resolvedIn": "155 μs",
+          "_cachedAt": "2021-07-23T13:11:58.476Z",
+          "_cachedIn": "111 μs",
+          "_resolvedIn": "111 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7636,9 +7652,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-22T20:01:26.598Z",
-            "component-cached-in": "155 μs",
-            "component-resolved-in": "155 μs"
+            "component-cached-at": "2021-07-23T13:11:58.476Z",
+            "component-cached-in": "111 μs",
+            "component-resolved-in": "111 μs"
           },
           "components": {}
         }
@@ -7647,9 +7663,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-22T20:01:26.598Z",
-      "_cachedIn": "284 μs",
-      "_resolvedIn": "284 μs",
+      "_cachedAt": "2021-07-23T13:11:58.476Z",
+      "_cachedIn": "182 μs",
+      "_resolvedIn": "182 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7662,7 +7678,7 @@
             "id": "wael-ivie",
             "name": "Wael Ivie🐋",
             "description": "Founder, SPO",
-            "image": "/wael.jpg",
+            "image": "/wael.png",
             "telegram": "Qwailman",
             "twitter": "Piada_stakePool",
             "github": "AstroWa3l",
@@ -7680,18 +7696,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-22T20:01:26.598Z",
-        "component-cached-in": "284 μs",
-        "component-resolved-in": "284 μs"
+        "component-cached-at": "2021-07-23T13:11:58.476Z",
+        "component-cached-in": "182 μs",
+        "component-resolved-in": "182 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-22T20:01:26.598Z",
-      "_cachedIn": "128 μs",
-      "_resolvedIn": "128 μs",
+      "_cachedAt": "2021-07-23T13:11:58.476Z",
+      "_cachedIn": "111 μs",
+      "_resolvedIn": "111 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7703,18 +7719,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-22T20:01:26.598Z",
-        "component-cached-in": "128 μs",
-        "component-resolved-in": "128 μs"
+        "component-cached-at": "2021-07-23T13:11:58.476Z",
+        "component-cached-in": "111 μs",
+        "component-resolved-in": "111 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-22T20:01:26.598Z",
-      "_cachedIn": "285 μs",
-      "_resolvedIn": "285 μs",
+      "_cachedAt": "2021-07-23T13:11:58.476Z",
+      "_cachedIn": "183 μs",
+      "_resolvedIn": "183 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7733,9 +7749,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-22T20:01:26.598Z",
-        "component-cached-in": "285 μs",
-        "component-resolved-in": "285 μs"
+        "component-cached-at": "2021-07-23T13:11:58.476Z",
+        "component-cached-in": "183 μs",
+        "component-resolved-in": "183 μs"
       },
       "components": {}
     }

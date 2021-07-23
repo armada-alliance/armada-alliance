@@ -57,7 +57,7 @@ export default function StatsSection({ title, pretitle, description, poolCount, 
                     <div className="absolute inset-0 h-1/2 bg-gray-50 dark:bg-gray-800" />
                     <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                         <div className="max-w-4xl mx-auto">
-                            <div className="rounded-lg bg-white dark:bg-gray-900 shadow-lg border-2 dark:border dark:border-gray-800 sm:grid sm:grid-cols-3">
+                            <div className="rounded-lg bg-white dark:bg-gray-900 shadow-lg border-2 border-white dark:border dark:border-gray-800 sm:grid sm:grid-cols-3">
                                 <div className="flex flex-col border-b border-gray-100 dark:border-gray-800 dark:border-gray-800 p-6 text-center sm:border-0 sm:border-r">
                                     <div className="text-5xl font-extrabold text-primary-500">{mintedBlocksCount.value}</div>
                                     {mintedBlocksCount.diff ? (

@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"daedalus\",\"language\":\"en\",\"slug\":\"/terms/daedalus\",\"url\":\"https:///website.codespace1.sublayer.io/terms/daedalus\",\"origin\":\"/terms/daedalus\",\"title\":\"Daedalus\",\"description\":\"A secure wallet for Ada that manages balances and provides the ability to send and receive payments.\",\"aliases\":[\"Hard Fork\"],\"keywords\":[\"Hard Fork\",\"Hard Fork Combinator\",\"HFC\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/daedalus.md\",\"body\":\"Daedalus is a full node wallet which means that it downloads a full copy of the Cardano blockchain and independently validates every transaction in its history. It has a friendly user interface and is recommended for new users to start with. [More information](https://daedaluswallet.io/).\\n\",\"mdxSource\":{\"compiledSource\":\"var u=Object.defineProperty,c=Object.defineProperties;var h=Object.getOwnPropertyDescriptors;var o=Object.getOwnPropertySymbols;var s=Object.prototype.hasOwnProperty,i=Object.prototype.propertyIsEnumerable;var d=(t,a,e)=>a in t?u(t,a,{enumerable:!0,configurable:!0,writable:!0,value:e}):t[a]=e,r=(t,a)=>{for(var e in a||(a={}))s.call(a,e)&&d(t,e,a[e]);if(o)for(var e of o(a))i.call(a,e)&&d(t,e,a[e]);return t},l=(t,a)=>c(t,h(a));var p=(t,a)=>{var e={};for(var n in t)s.call(t,n)&&a.indexOf(n)<0&&(e[n]=t[n]);if(t!=null&&o)for(var n of o(t))a.indexOf(n)<0&&i.call(t,n)&&(e[n]=t[n]);return e};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(e){var n=e,{components:t}=n,a=p(n,[\\\"components\\\"]);return mdx(MDXLayout,l(r(r({},layoutProps),a),{components:t,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"Daedalus is a full node wallet which means that it downloads a full copy of the Cardano blockchain and independently validates every transaction in its history. It has a friendly user interface and is recommended for new users to start with. \\\",mdx(\\\"a\\\",r({parentName:\\\"p\\\"},{href:\\\"https://daedaluswallet.io/\\\"}),\\\"More information\\\"),\\\".\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-22T20:01:25.757Z",
-  "_cachedIn": "226 μs",
-  "_resolvedIn": "226 μs",
+  "_cachedAt": "2021-07-23T13:11:57.588Z",
+  "_cachedIn": "1.75 ms",
+  "_resolvedIn": "1.75 ms",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -43,17 +43,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-22T20:01:25.757Z",
-    "component-cached-in": "226 μs",
-    "component-resolved-in": "226 μs"
+    "component-cached-at": "2021-07-23T13:11:57.588Z",
+    "component-cached-in": "1.75 ms",
+    "component-resolved-in": "1.75 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-22T20:01:25.757Z",
-      "_cachedIn": "190 μs",
-      "_resolvedIn": "190 μs",
+      "_cachedAt": "2021-07-23T13:11:57.588Z",
+      "_cachedIn": "1.42 ms",
+      "_resolvedIn": "1.42 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -62,17 +62,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-22T20:01:25.757Z",
-        "component-cached-in": "190 μs",
-        "component-resolved-in": "190 μs"
+        "component-cached-at": "2021-07-23T13:11:57.588Z",
+        "component-cached-in": "1.42 ms",
+        "component-resolved-in": "1.42 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-22T20:01:25.757Z",
-          "_cachedIn": "126 μs",
-          "_resolvedIn": "126 μs",
+          "_cachedAt": "2021-07-23T13:11:57.588Z",
+          "_cachedIn": "956 μs",
+          "_resolvedIn": "956 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -80,7 +80,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-22T20:01:09.902Z",
+              "createdAt": "2021-07-23T13:11:41.504Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -304,7 +304,7 @@
                 "url": "https:///website.codespace1.sublayer.io/blogs/rpi-resiliency-sbc-otg-blog",
                 "origin": "/blogs/rpi-resiliency-sbc-otg-blog",
                 "title": "Proof of Resiliency",
-                "description": null,
+                "description": "A Short Story of true resiliency and decentralization",
                 "aliases": null,
                 "keywords": null,
                 "template": "BlogDetailPage",
@@ -318,6 +318,7 @@
                     "role": "author"
                   }
                 ],
+                "image": "/flood-disaster.webp",
                 "updatedAt": "2021-07-22T18:31:04.000Z",
                 "filePath": "/en/blogs/rpi-resiliency-sbc-otg-blog.md"
               },
@@ -839,6 +840,21 @@
                 "filePath": "/en/identities/alex-qxt.md"
               },
               {
+                "id": "amanuelodicho",
+                "language": "en",
+                "slug": "/identities/amanuelodicho",
+                "url": "https:///website.codespace1.sublayer.io/identities/amanuelodicho",
+                "origin": "/identities/amanuelodicho",
+                "title": "Amanuel",
+                "description": "Software Engineer Intern @ Walmart Global Tech Blockchain Developer - Cardano",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "/amanuel.jpg",
+                "updatedAt": "2021-07-22T20:11:22.000Z",
+                "filePath": "/en/identities/amanuelodicho.md"
+              },
+              {
                 "id": "chadi",
                 "language": "en",
                 "slug": "/identities/chadi",
@@ -1240,7 +1256,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://cdn.sublayer.io/logo.png",
-                "updatedAt": "2021-07-20T16:22:05.000Z",
+                "updatedAt": "2021-07-23T07:53:54.000Z",
                 "filePath": "/en/identities/sublayerio.md"
               },
               {
@@ -1299,8 +1315,8 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
-                "image": "/wael.jpg",
-                "updatedAt": "2021-07-22T19:49:13.000Z",
+                "image": "/wael.png",
+                "updatedAt": "2021-07-23T06:06:21.000Z",
                 "filePath": "/en/identities/wael-ivie.md"
               },
               {
@@ -1673,7 +1689,7 @@
                   }
                 ],
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-22T22:53:31.000Z",
                 "filePath": "/en/stake-pools/7e45a7e6ab3afcf99120e97aedf84e706e43d829ddc610ad667a85a3.md"
               },
               {
@@ -7512,18 +7528,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-22T20:01:25.757Z",
-            "component-cached-in": "126 μs",
-            "component-resolved-in": "126 μs"
+            "component-cached-at": "2021-07-23T13:11:57.588Z",
+            "component-cached-in": "956 μs",
+            "component-resolved-in": "956 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-22T20:01:25.757Z",
-          "_cachedIn": "143 μs",
-          "_resolvedIn": "143 μs",
+          "_cachedAt": "2021-07-23T13:11:57.588Z",
+          "_cachedIn": "1.12 ms",
+          "_resolvedIn": "1.12 ms",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7534,17 +7550,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-22T20:01:25.757Z",
-            "component-cached-in": "143 μs",
-            "component-resolved-in": "143 μs"
+            "component-cached-at": "2021-07-23T13:11:57.588Z",
+            "component-cached-in": "1.12 ms",
+            "component-resolved-in": "1.12 ms"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-22T20:01:25.757Z",
-              "_cachedIn": "29 μs",
-              "_resolvedIn": "29 μs",
+              "_cachedAt": "2021-07-23T13:11:57.588Z",
+              "_cachedIn": "166 μs",
+              "_resolvedIn": "166 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7604,9 +7620,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-22T20:01:25.757Z",
-                "component-cached-in": "29 μs",
-                "component-resolved-in": "29 μs"
+                "component-cached-at": "2021-07-23T13:11:57.588Z",
+                "component-cached-in": "166 μs",
+                "component-resolved-in": "166 μs"
               },
               "components": {}
             }
@@ -7615,9 +7631,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-22T20:01:25.757Z",
-          "_cachedIn": "91 μs",
-          "_resolvedIn": "91 μs",
+          "_cachedAt": "2021-07-23T13:11:57.588Z",
+          "_cachedIn": "565 μs",
+          "_resolvedIn": "565 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7626,9 +7642,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-22T20:01:25.757Z",
-            "component-cached-in": "91 μs",
-            "component-resolved-in": "91 μs"
+            "component-cached-at": "2021-07-23T13:11:57.588Z",
+            "component-cached-in": "565 μs",
+            "component-resolved-in": "565 μs"
           },
           "components": {}
         }
@@ -7637,9 +7653,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-22T20:01:25.757Z",
-      "_cachedIn": "149 μs",
-      "_resolvedIn": "149 μs",
+      "_cachedAt": "2021-07-23T13:11:57.588Z",
+      "_cachedIn": "1.06 ms",
+      "_resolvedIn": "1.06 ms",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7652,7 +7668,7 @@
             "id": "wael-ivie",
             "name": "Wael Ivie🐋",
             "description": "Founder, SPO",
-            "image": "/wael.jpg",
+            "image": "/wael.png",
             "telegram": "Qwailman",
             "twitter": "Piada_stakePool",
             "github": "AstroWa3l",
@@ -7670,18 +7686,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-22T20:01:25.757Z",
-        "component-cached-in": "149 μs",
-        "component-resolved-in": "149 μs"
+        "component-cached-at": "2021-07-23T13:11:57.588Z",
+        "component-cached-in": "1.06 ms",
+        "component-resolved-in": "1.06 ms"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-22T20:01:25.757Z",
-      "_cachedIn": "75 μs",
-      "_resolvedIn": "75 μs",
+      "_cachedAt": "2021-07-23T13:11:57.587Z",
+      "_cachedIn": "549 μs",
+      "_resolvedIn": "549 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7693,18 +7709,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-22T20:01:25.757Z",
-        "component-cached-in": "75 μs",
-        "component-resolved-in": "75 μs"
+        "component-cached-at": "2021-07-23T13:11:57.587Z",
+        "component-cached-in": "549 μs",
+        "component-resolved-in": "549 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-22T20:01:25.757Z",
-      "_cachedIn": "149 μs",
-      "_resolvedIn": "149 μs",
+      "_cachedAt": "2021-07-23T13:11:57.588Z",
+      "_cachedIn": "1.07 ms",
+      "_resolvedIn": "1.07 ms",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7723,9 +7739,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-22T20:01:25.757Z",
-        "component-cached-in": "149 μs",
-        "component-resolved-in": "149 μs"
+        "component-cached-at": "2021-07-23T13:11:57.588Z",
+        "component-cached-in": "1.07 ms",
+        "component-resolved-in": "1.07 ms"
       },
       "components": {}
     }

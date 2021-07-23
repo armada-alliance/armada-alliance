@@ -1,7 +1,7 @@
 import ImagesSection from './ImagesSection'
 
 const sectionTypes = {
-    ImagesSection
+    ImagesSection: props => <div className="px-4"><ImagesSection {...props} /></div>
 }
 
 export default function ContentSections({ contentSections }) {

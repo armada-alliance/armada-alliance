@@ -2,9 +2,9 @@ import Container from "./Container";
 
 export default function ContentLayout(props) {
     return (
-        <div className="bg-gray-50 dark:bg-gray-900">
+        <div className="bg-gray-50 dark:bg-gray-900 overflow-hidden">
             <Container>
-                <div className="relative py-8 overflow-hidden">
+                <div className="relative py-8">
                     <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
                         <div className="relative h-full text-lg max-w-prose mx-auto" aria-hidden="true">
                             <svg
