@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"utxo\",\"language\":\"nl\",\"slug\":\"/nl/terms/utxo\",\"url\":\"https:///website.codespace1.sublayer.io/nl/terms/utxo\",\"origin\":\"/terms/utxo\",\"title\":\"UTXO\",\"description\":\"UTXO staat voor \\\"Unspent Transaction Output\\\". In cryptocurrencies is een UTXO een abstractie van elektronisch geld. Elke UTXO is analoog aan een munt en heeft een bepaalde waarde in zijn respectieve valuta.\",\"aliases\":[\"utxo\",\"utxo model\",\"cardano utxo model\"],\"keywords\":[\"utxo\",\"cardano\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"sublayerio\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/nl/terms/utxo.md\",\"body\":\"UTXO staat voor \\\"Unspent Transaction Output\\\". In cryptocurrencies is een UTXO een abstractie van elektronisch geld. Elke UTXO is analoog aan een munt en heeft een bepaalde waarde in zijn respectieve valuta. Een andere manier om ernaar te kijken, met behulp van een fiatgeld-analogie, is dat UTXO's verschillende hoeveelheden \\\"wisselgeld\\\" vertegenwoordigen die beschikbaar zijn voor een bepaalde gebruiker. De niet-uitgegeven waarden in elk blok zijn UTXO's en wanneer ze worden \\\"uitgegeven\\\" (gebruikt in een transactie), creëren ze nieuwe \\\"verandering\\\" (nieuwe UTXO's). [Gedetailleerde informatie](https://medium.com/bitbees/what-the-heck-is-utxo-ca68f2651819).\\n\\n<YoutubeVideo url=\\\"https://www.youtube.com/watch?v=hKft6E4K8KY\\\" description=\\\"Video met uitleg over het UTXO Model\\\" />\",\"mdxSource\":{\"compiledSource\":\"var l=Object.defineProperty,p=Object.defineProperties;var h=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var i=Object.prototype.hasOwnProperty,d=Object.prototype.propertyIsEnumerable;var s=(e,n,t)=>n in e?l(e,n,{enumerable:!0,configurable:!0,writable:!0,value:t}):e[n]=t,a=(e,n)=>{for(var t in n||(n={}))i.call(n,t)&&s(e,t,n[t]);if(r)for(var t of r(n))d.call(n,t)&&s(e,t,n[t]);return e},u=(e,n)=>p(e,h(n));var c=(e,n)=>{var t={};for(var o in e)i.call(e,o)&&n.indexOf(o)<0&&(t[o]=e[o]);if(e!=null&&r)for(var o of r(e))n.indexOf(o)<0&&d.call(e,o)&&(t[o]=e[o]);return t};const makeShortcode=e=>function(t){return console.warn(\\\"Component \\\"+e+\\\" was not imported, exported, or provided by MDXProvider as global scope\\\"),mdx(\\\"div\\\",a({},t))},YoutubeVideo=makeShortcode(\\\"YoutubeVideo\\\"),layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(t){var o=t,{components:e}=o,n=c(o,[\\\"components\\\"]);return mdx(MDXLayout,u(a(a({},layoutProps),n),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,`UTXO staat voor \\\"Unspent Transaction Output\\\". In cryptocurrencies is een UTXO een abstractie van elektronisch geld. Elke UTXO is analoog aan een munt en heeft een bepaalde waarde in zijn respectieve valuta. Een andere manier om ernaar te kijken, met behulp van een fiatgeld-analogie, is dat UTXO's verschillende hoeveelheden \\\"wisselgeld\\\" vertegenwoordigen die beschikbaar zijn voor een bepaalde gebruiker. De niet-uitgegeven waarden in elk blok zijn UTXO's en wanneer ze worden \\\"uitgegeven\\\" (gebruikt in een transactie), cre\\\\xEBren ze nieuwe \\\"verandering\\\" (nieuwe UTXO's). `,mdx(\\\"a\\\",a({parentName:\\\"p\\\"},{href:\\\"https://medium.com/bitbees/what-the-heck-is-utxo-ca68f2651819\\\"}),\\\"Gedetailleerde informatie\\\"),\\\".\\\"),mdx(YoutubeVideo,{url:\\\"https://www.youtube.com/watch?v=hKft6E4K8KY\\\",description:\\\"Video met uitleg over het UTXO Model\\\",mdxType:\\\"YoutubeVideo\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-23T13:11:58.843Z",
-  "_cachedIn": "303 μs",
-  "_resolvedIn": "303 μs",
+  "_cachedAt": "2021-07-24T11:15:45.124Z",
+  "_cachedIn": "224 μs",
+  "_resolvedIn": "224 μs",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -44,17 +44,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-23T13:11:58.843Z",
-    "component-cached-in": "303 μs",
-    "component-resolved-in": "303 μs"
+    "component-cached-at": "2021-07-24T11:15:45.124Z",
+    "component-cached-in": "224 μs",
+    "component-resolved-in": "224 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-23T13:11:58.843Z",
-      "_cachedIn": "235 μs",
-      "_resolvedIn": "235 μs",
+      "_cachedAt": "2021-07-24T11:15:45.124Z",
+      "_cachedIn": "176 μs",
+      "_resolvedIn": "176 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -63,17 +63,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-23T13:11:58.843Z",
-        "component-cached-in": "235 μs",
-        "component-resolved-in": "235 μs"
+        "component-cached-at": "2021-07-24T11:15:45.124Z",
+        "component-cached-in": "176 μs",
+        "component-resolved-in": "176 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-23T13:11:58.843Z",
-          "_cachedIn": "157 μs",
-          "_resolvedIn": "157 μs",
+          "_cachedAt": "2021-07-24T11:15:45.124Z",
+          "_cachedIn": "118 μs",
+          "_resolvedIn": "118 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -81,7 +81,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-23T13:11:41.504Z",
+              "createdAt": "2021-07-24T11:15:25.705Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -320,7 +320,7 @@
                   }
                 ],
                 "image": "/flood-disaster.webp",
-                "updatedAt": "2021-07-22T18:31:04.000Z",
+                "updatedAt": "2021-07-23T13:28:15.000Z",
                 "filePath": "/en/blogs/rpi-resiliency-sbc-otg-blog.md"
               },
               {
@@ -1062,7 +1062,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/pascal.jpeg",
-                "updatedAt": "2021-06-18T07:30:31.000Z",
+                "updatedAt": "2021-07-23T15:18:20.000Z",
                 "filePath": "/en/identities/pascal-berry.md"
               },
               {
@@ -1167,7 +1167,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/sayshar.jpg",
-                "updatedAt": "2021-07-14T18:12:31.000Z",
+                "updatedAt": "2021-07-23T15:18:20.000Z",
                 "filePath": "/en/identities/sayshar-srn.md"
               },
               {
@@ -1184,6 +1184,21 @@
                 "image": "/sbc-mining.jpg",
                 "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/sbc-mining.md"
+              },
+              {
+                "id": "skeeter",
+                "language": "en",
+                "slug": "/identities/skeeter",
+                "url": "https:///website.codespace1.sublayer.io/identities/skeeter",
+                "origin": "/identities/skeeter",
+                "title": "Skeeter",
+                "description": "Community member",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "/skeeter.jpg",
+                "updatedAt": "2021-07-23T15:18:20.000Z",
+                "filePath": "/en/identities/skeeter.md"
               },
               {
                 "id": "spacebudz",
@@ -1212,7 +1227,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/s4na.jpg",
-                "updatedAt": "2021-07-14T21:30:10.000Z",
+                "updatedAt": "2021-07-24T10:30:58.000Z",
                 "filePath": "/en/identities/stake-for-nature.md"
               },
               {
@@ -1257,7 +1272,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://cdn.sublayer.io/logo.png",
-                "updatedAt": "2021-07-23T07:53:54.000Z",
+                "updatedAt": "2021-07-23T15:18:20.000Z",
                 "filePath": "/en/identities/sublayerio.md"
               },
               {
@@ -1302,7 +1317,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/tony.jpg",
-                "updatedAt": "2021-07-22T05:04:02.000Z",
+                "updatedAt": "2021-07-23T15:18:20.000Z",
                 "filePath": "/en/identities/tony-piada.md"
               },
               {
@@ -1332,7 +1347,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/wcat.jpeg",
-                "updatedAt": "2021-07-18T08:39:13.000Z",
+                "updatedAt": "2021-07-24T10:36:53.000Z",
                 "filePath": "/en/identities/wcat-otg.md"
               },
               {
@@ -1627,7 +1642,7 @@
                   }
                 ],
                 "image": "https://stakefornature.com/ico.png",
-                "updatedAt": "2021-07-14T21:28:24.000Z",
+                "updatedAt": "2021-07-24T10:21:53.000Z",
                 "filePath": "/en/stake-pools/5707e4254180d481a4f1e690be0c2c54b3a618051d907df7e4434c0b.md"
               },
               {
@@ -1711,7 +1726,7 @@
                   }
                 ],
                 "image": "https://cdn.sublayer.io/logo.png",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-23T14:25:35.000Z",
                 "filePath": "/en/stake-pools/8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8.md"
               },
               {
@@ -1841,7 +1856,7 @@
                   }
                 ],
                 "image": "https://piada.io/piadaFull.png",
-                "updatedAt": "2021-07-21T21:14:16.000Z",
+                "updatedAt": "2021-07-24T06:52:08.000Z",
                 "filePath": "/en/stake-pools/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65.md"
               },
               {
@@ -1904,7 +1919,7 @@
                   }
                 ],
                 "image": "https://adamantium.online/images/sun.jpg",
-                "updatedAt": "2021-07-20T20:48:32.000Z",
+                "updatedAt": "2021-07-24T09:36:58.000Z",
                 "filePath": "/en/stake-pools/c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae.md"
               },
               {
@@ -7529,18 +7544,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-23T13:11:58.843Z",
-            "component-cached-in": "157 μs",
-            "component-resolved-in": "157 μs"
+            "component-cached-at": "2021-07-24T11:15:45.124Z",
+            "component-cached-in": "118 μs",
+            "component-resolved-in": "118 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-23T13:11:58.843Z",
-          "_cachedIn": "184 μs",
-          "_resolvedIn": "184 μs",
+          "_cachedAt": "2021-07-24T11:15:45.124Z",
+          "_cachedIn": "135 μs",
+          "_resolvedIn": "135 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7551,17 +7566,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-23T13:11:58.843Z",
-            "component-cached-in": "184 μs",
-            "component-resolved-in": "184 μs"
+            "component-cached-at": "2021-07-24T11:15:45.124Z",
+            "component-cached-in": "135 μs",
+            "component-resolved-in": "135 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-23T13:11:58.843Z",
-              "_cachedIn": "43 μs",
-              "_resolvedIn": "43 μs",
+              "_cachedAt": "2021-07-24T11:15:45.124Z",
+              "_cachedIn": "30 μs",
+              "_resolvedIn": "30 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7621,9 +7636,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-23T13:11:58.843Z",
-                "component-cached-in": "43 μs",
-                "component-resolved-in": "43 μs"
+                "component-cached-at": "2021-07-24T11:15:45.124Z",
+                "component-cached-in": "30 μs",
+                "component-resolved-in": "30 μs"
               },
               "components": {}
             }
@@ -7632,9 +7647,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-23T13:11:58.843Z",
-          "_cachedIn": "101 μs",
-          "_resolvedIn": "101 μs",
+          "_cachedAt": "2021-07-24T11:15:45.124Z",
+          "_cachedIn": "79 μs",
+          "_resolvedIn": "79 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7643,9 +7658,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-23T13:11:58.843Z",
-            "component-cached-in": "101 μs",
-            "component-resolved-in": "101 μs"
+            "component-cached-at": "2021-07-24T11:15:45.124Z",
+            "component-cached-in": "79 μs",
+            "component-resolved-in": "79 μs"
           },
           "components": {}
         }
@@ -7654,9 +7669,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-23T13:11:58.843Z",
-      "_cachedIn": "172 μs",
-      "_resolvedIn": "172 μs",
+      "_cachedAt": "2021-07-24T11:15:45.124Z",
+      "_cachedIn": "131 μs",
+      "_resolvedIn": "131 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7687,18 +7702,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-23T13:11:58.843Z",
-        "component-cached-in": "172 μs",
-        "component-resolved-in": "172 μs"
+        "component-cached-at": "2021-07-24T11:15:45.124Z",
+        "component-cached-in": "131 μs",
+        "component-resolved-in": "131 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-23T13:11:58.843Z",
-      "_cachedIn": "74 μs",
-      "_resolvedIn": "74 μs",
+      "_cachedAt": "2021-07-24T11:15:45.124Z",
+      "_cachedIn": "55 μs",
+      "_resolvedIn": "55 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7710,18 +7725,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-23T13:11:58.843Z",
-        "component-cached-in": "74 μs",
-        "component-resolved-in": "74 μs"
+        "component-cached-at": "2021-07-24T11:15:45.124Z",
+        "component-cached-in": "55 μs",
+        "component-resolved-in": "55 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-23T13:11:58.843Z",
-      "_cachedIn": "173 μs",
-      "_resolvedIn": "173 μs",
+      "_cachedAt": "2021-07-24T11:15:45.124Z",
+      "_cachedIn": "130 μs",
+      "_resolvedIn": "130 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7740,9 +7755,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-23T13:11:58.843Z",
-        "component-cached-in": "173 μs",
-        "component-resolved-in": "173 μs"
+        "component-cached-at": "2021-07-24T11:15:45.124Z",
+        "component-cached-in": "130 μs",
+        "component-resolved-in": "130 μs"
       },
       "components": {}
     }

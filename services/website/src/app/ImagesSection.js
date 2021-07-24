@@ -78,7 +78,7 @@ export default function ImagesSection(props) {
         infinite: true,
         autoplay: true,
         speed: 500,
-        slidesToShow: props.images.length > 3 ? 3 : 2,
+        slidesToShow: props.images.length >= 3 ? 3 : 2,
         slidesToScroll: 1,
         prevArrow: <PrevArrow />,
         nextArrow: <NextArrow />,

@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"ouroboros\",\"language\":\"es\",\"slug\":\"/es/terms/ouroboros\",\"url\":\"https:///website.codespace1.sublayer.io/es/terms/ouroboros\",\"origin\":\"/es/terms/ouroboros\",\"title\":\"Ouroboros\",\"description\":\"Algoritmo de Prueba de Participación (PoS) de Cardano.\",\"aliases\":[\"cardano proof of stake algorithm\",\"cardano blockchain\",\"cardano blockchain protocol\",\"cardano network protocol\",\"ouroboros\",\"egyptians\",\"prueba de participacion\",\"\"],\"keywords\":[\"cardano\",\"proof\",\"of\",\"stake\",\"algorithm\",\"blockchain\",\"ouroboros\",\"praos\",\"omega\",\"prueba\",\"participacion\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"alex-qxt\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-20T15:18:08.000Z\",\"filePath\":\"/es/terms/ouroboros.md\",\"source\":\"/en/terms/ouroboros.md\",\"body\":\"Ouroboros es el protocolo de consenso subyacente a Cardano. Hay varias implementaciones diferentes, incluidas Classic, Praos, Genesis y más recientemente, Hydra\\ncuyo objetivo es una mejora en la escalabilidad de la red.\\n\",\"mdxSource\":{\"compiledSource\":\"var l=Object.defineProperty,p=Object.defineProperties;var y=Object.getOwnPropertyDescriptors;var s=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,i=Object.prototype.propertyIsEnumerable;var c=(e,o,a)=>o in e?l(e,o,{enumerable:!0,configurable:!0,writable:!0,value:a}):e[o]=a,t=(e,o)=>{for(var a in o||(o={}))r.call(o,a)&&c(e,a,o[a]);if(s)for(var a of s(o))i.call(o,a)&&c(e,a,o[a]);return e},u=(e,o)=>p(e,y(o));var d=(e,o)=>{var a={};for(var n in e)r.call(e,n)&&o.indexOf(n)<0&&(a[n]=e[n]);if(e!=null&&s)for(var n of s(e))o.indexOf(n)<0&&i.call(e,n)&&(a[n]=e[n]);return a};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(a){var n=a,{components:e}=n,o=d(n,[\\\"components\\\"]);return mdx(MDXLayout,u(t(t({},layoutProps),o),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,`Ouroboros es el protocolo de consenso subyacente a Cardano. Hay varias implementaciones diferentes, incluidas Classic, Praos, Genesis y m\\\\xE1s recientemente, Hydra\\ncuyo objetivo es una mejora en la escalabilidad de la red.`))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-23T13:11:58.742Z",
-  "_cachedIn": "1.93 ms",
-  "_resolvedIn": "1.93 ms",
+  "_cachedAt": "2021-07-24T11:15:45.009Z",
+  "_cachedIn": "1.61 ms",
+  "_resolvedIn": "1.61 ms",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -58,17 +58,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-23T13:11:58.742Z",
-    "component-cached-in": "1.93 ms",
-    "component-resolved-in": "1.93 ms"
+    "component-cached-at": "2021-07-24T11:15:45.009Z",
+    "component-cached-in": "1.61 ms",
+    "component-resolved-in": "1.61 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-23T13:11:58.742Z",
-      "_cachedIn": "1.45 ms",
-      "_resolvedIn": "1.45 ms",
+      "_cachedAt": "2021-07-24T11:15:45.009Z",
+      "_cachedIn": "1.19 ms",
+      "_resolvedIn": "1.19 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -77,17 +77,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-23T13:11:58.742Z",
-        "component-cached-in": "1.45 ms",
-        "component-resolved-in": "1.45 ms"
+        "component-cached-at": "2021-07-24T11:15:45.009Z",
+        "component-cached-in": "1.19 ms",
+        "component-resolved-in": "1.19 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-23T13:11:58.742Z",
-          "_cachedIn": "888 μs",
-          "_resolvedIn": "888 μs",
+          "_cachedAt": "2021-07-24T11:15:45.008Z",
+          "_cachedIn": "680 μs",
+          "_resolvedIn": "680 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -95,7 +95,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-23T13:11:41.504Z",
+              "createdAt": "2021-07-24T11:15:25.705Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -334,7 +334,7 @@
                   }
                 ],
                 "image": "/flood-disaster.webp",
-                "updatedAt": "2021-07-22T18:31:04.000Z",
+                "updatedAt": "2021-07-23T13:28:15.000Z",
                 "filePath": "/en/blogs/rpi-resiliency-sbc-otg-blog.md"
               },
               {
@@ -1076,7 +1076,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/pascal.jpeg",
-                "updatedAt": "2021-06-18T07:30:31.000Z",
+                "updatedAt": "2021-07-23T15:18:20.000Z",
                 "filePath": "/en/identities/pascal-berry.md"
               },
               {
@@ -1181,7 +1181,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/sayshar.jpg",
-                "updatedAt": "2021-07-14T18:12:31.000Z",
+                "updatedAt": "2021-07-23T15:18:20.000Z",
                 "filePath": "/en/identities/sayshar-srn.md"
               },
               {
@@ -1198,6 +1198,21 @@
                 "image": "/sbc-mining.jpg",
                 "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/sbc-mining.md"
+              },
+              {
+                "id": "skeeter",
+                "language": "en",
+                "slug": "/identities/skeeter",
+                "url": "https:///website.codespace1.sublayer.io/identities/skeeter",
+                "origin": "/identities/skeeter",
+                "title": "Skeeter",
+                "description": "Community member",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "/skeeter.jpg",
+                "updatedAt": "2021-07-23T15:18:20.000Z",
+                "filePath": "/en/identities/skeeter.md"
               },
               {
                 "id": "spacebudz",
@@ -1226,7 +1241,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/s4na.jpg",
-                "updatedAt": "2021-07-14T21:30:10.000Z",
+                "updatedAt": "2021-07-24T10:30:58.000Z",
                 "filePath": "/en/identities/stake-for-nature.md"
               },
               {
@@ -1271,7 +1286,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://cdn.sublayer.io/logo.png",
-                "updatedAt": "2021-07-23T07:53:54.000Z",
+                "updatedAt": "2021-07-23T15:18:20.000Z",
                 "filePath": "/en/identities/sublayerio.md"
               },
               {
@@ -1316,7 +1331,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/tony.jpg",
-                "updatedAt": "2021-07-22T05:04:02.000Z",
+                "updatedAt": "2021-07-23T15:18:20.000Z",
                 "filePath": "/en/identities/tony-piada.md"
               },
               {
@@ -1346,7 +1361,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/wcat.jpeg",
-                "updatedAt": "2021-07-18T08:39:13.000Z",
+                "updatedAt": "2021-07-24T10:36:53.000Z",
                 "filePath": "/en/identities/wcat-otg.md"
               },
               {
@@ -1641,7 +1656,7 @@
                   }
                 ],
                 "image": "https://stakefornature.com/ico.png",
-                "updatedAt": "2021-07-14T21:28:24.000Z",
+                "updatedAt": "2021-07-24T10:21:53.000Z",
                 "filePath": "/en/stake-pools/5707e4254180d481a4f1e690be0c2c54b3a618051d907df7e4434c0b.md"
               },
               {
@@ -1725,7 +1740,7 @@
                   }
                 ],
                 "image": "https://cdn.sublayer.io/logo.png",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-23T14:25:35.000Z",
                 "filePath": "/en/stake-pools/8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8.md"
               },
               {
@@ -1855,7 +1870,7 @@
                   }
                 ],
                 "image": "https://piada.io/piadaFull.png",
-                "updatedAt": "2021-07-21T21:14:16.000Z",
+                "updatedAt": "2021-07-24T06:52:08.000Z",
                 "filePath": "/en/stake-pools/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65.md"
               },
               {
@@ -1918,7 +1933,7 @@
                   }
                 ],
                 "image": "https://adamantium.online/images/sun.jpg",
-                "updatedAt": "2021-07-20T20:48:32.000Z",
+                "updatedAt": "2021-07-24T09:36:58.000Z",
                 "filePath": "/en/stake-pools/c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae.md"
               },
               {
@@ -7543,18 +7558,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-23T13:11:58.742Z",
-            "component-cached-in": "888 μs",
-            "component-resolved-in": "888 μs"
+            "component-cached-at": "2021-07-24T11:15:45.008Z",
+            "component-cached-in": "680 μs",
+            "component-resolved-in": "680 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-23T13:11:58.742Z",
-          "_cachedIn": "1.13 ms",
-          "_resolvedIn": "1.13 ms",
+          "_cachedAt": "2021-07-24T11:15:45.009Z",
+          "_cachedIn": "887 μs",
+          "_resolvedIn": "887 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7565,17 +7580,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-23T13:11:58.742Z",
-            "component-cached-in": "1.13 ms",
-            "component-resolved-in": "1.13 ms"
+            "component-cached-at": "2021-07-24T11:15:45.009Z",
+            "component-cached-in": "887 μs",
+            "component-resolved-in": "887 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-23T13:11:58.742Z",
-              "_cachedIn": "210 μs",
-              "_resolvedIn": "210 μs",
+              "_cachedAt": "2021-07-24T11:15:45.009Z",
+              "_cachedIn": "208 μs",
+              "_resolvedIn": "208 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7635,9 +7650,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-23T13:11:58.742Z",
-                "component-cached-in": "210 μs",
-                "component-resolved-in": "210 μs"
+                "component-cached-at": "2021-07-24T11:15:45.009Z",
+                "component-cached-in": "208 μs",
+                "component-resolved-in": "208 μs"
               },
               "components": {}
             }
@@ -7646,9 +7661,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-23T13:11:58.742Z",
-          "_cachedIn": "556 μs",
-          "_resolvedIn": "556 μs",
+          "_cachedAt": "2021-07-24T11:15:45.008Z",
+          "_cachedIn": "358 μs",
+          "_resolvedIn": "358 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7657,9 +7672,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-23T13:11:58.742Z",
-            "component-cached-in": "556 μs",
-            "component-resolved-in": "556 μs"
+            "component-cached-at": "2021-07-24T11:15:45.008Z",
+            "component-cached-in": "358 μs",
+            "component-resolved-in": "358 μs"
           },
           "components": {}
         }
@@ -7668,9 +7683,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-23T13:11:58.742Z",
-      "_cachedIn": "949 μs",
-      "_resolvedIn": "949 μs",
+      "_cachedAt": "2021-07-24T11:15:45.008Z",
+      "_cachedIn": "787 μs",
+      "_resolvedIn": "787 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7702,18 +7717,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-23T13:11:58.742Z",
-        "component-cached-in": "949 μs",
-        "component-resolved-in": "949 μs"
+        "component-cached-at": "2021-07-24T11:15:45.008Z",
+        "component-cached-in": "787 μs",
+        "component-resolved-in": "787 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-23T13:11:58.741Z",
-      "_cachedIn": "324 μs",
-      "_resolvedIn": "324 μs",
+      "_cachedAt": "2021-07-24T11:15:45.008Z",
+      "_cachedIn": "403 μs",
+      "_resolvedIn": "403 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7725,18 +7740,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-23T13:11:58.741Z",
-        "component-cached-in": "324 μs",
-        "component-resolved-in": "324 μs"
+        "component-cached-at": "2021-07-24T11:15:45.008Z",
+        "component-cached-in": "403 μs",
+        "component-resolved-in": "403 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-23T13:11:58.742Z",
-      "_cachedIn": "950 μs",
-      "_resolvedIn": "950 μs",
+      "_cachedAt": "2021-07-24T11:15:45.008Z",
+      "_cachedIn": "788 μs",
+      "_resolvedIn": "788 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7755,9 +7770,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-23T13:11:58.742Z",
-        "component-cached-in": "950 μs",
-        "component-resolved-in": "950 μs"
+        "component-cached-at": "2021-07-24T11:15:45.008Z",
+        "component-cached-in": "788 μs",
+        "component-resolved-in": "788 μs"
       },
       "components": {}
     }
