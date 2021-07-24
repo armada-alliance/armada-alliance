@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"cryptocurrency\",\"language\":\"en\",\"slug\":\"/terms/cryptocurrency\",\"url\":\"https:///website.codespace1.sublayer.io/terms/cryptocurrency\",\"origin\":\"/terms/cryptocurrency\",\"title\":\"Cryptocurrency\",\"description\":\"The process by which new coins of creating new\",\"aliases\":[\"crypto\",\"crytpocurrency\",\"Bitcoin\",\"Cardano\",\"Ethereum\",\"Solana\",\"digital asset\"],\"keywords\":[\"crypto\",\"cryptocurrency\",\"cryptocurrencies\",\"crypto-currency\",\"digital asset\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-14T03:39:25.000Z\",\"filePath\":\"/en/terms/cryptocurrency.md\",\"body\":\"A cryptocurrency, crypto-currency, or a digital asset designed to work as a medium of exchange wherein individual coin ownership records are stored in a ledger existing in a form of a computerized database using strong cryptography to secure transaction records, to control the creation of additional coins, and to verify the transfer of coin ownership.\",\"mdxSource\":{\"compiledSource\":\"var u=Object.defineProperty,y=Object.defineProperties;var f=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var i=Object.prototype.hasOwnProperty,c=Object.prototype.propertyIsEnumerable;var s=(o,e,r)=>e in o?u(o,e,{enumerable:!0,configurable:!0,writable:!0,value:r}):o[e]=r,a=(o,e)=>{for(var r in e||(e={}))i.call(e,r)&&s(o,r,e[r]);if(n)for(var r of n(e))c.call(e,r)&&s(o,r,e[r]);return o},d=(o,e)=>y(o,f(e));var p=(o,e)=>{var r={};for(var t in o)i.call(o,t)&&e.indexOf(t)<0&&(r[t]=o[t]);if(o!=null&&n)for(var t of n(o))e.indexOf(t)<0&&c.call(o,t)&&(r[t]=o[t]);return r};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(r){var t=r,{components:o}=t,e=p(t,[\\\"components\\\"]);return mdx(MDXLayout,d(a(a({},layoutProps),e),{components:o,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"A cryptocurrency, crypto-currency, or a digital asset designed to work as a medium of exchange wherein individual coin ownership records are stored in a ledger existing in a form of a computerized database using strong cryptography to secure transaction records, to control the creation of additional coins, and to verify the transfer of coin ownership.\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-24T17:00:14.461Z",
-  "_cachedIn": "320 μs",
-  "_resolvedIn": "320 μs",
+  "_cachedAt": "2021-07-24T17:45:58.783Z",
+  "_cachedIn": "406 μs",
+  "_resolvedIn": "406 μs",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -51,17 +51,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-24T17:00:14.461Z",
-    "component-cached-in": "320 μs",
-    "component-resolved-in": "320 μs"
+    "component-cached-at": "2021-07-24T17:45:58.783Z",
+    "component-cached-in": "406 μs",
+    "component-resolved-in": "406 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T17:00:14.461Z",
-      "_cachedIn": "242 μs",
-      "_resolvedIn": "242 μs",
+      "_cachedAt": "2021-07-24T17:45:58.783Z",
+      "_cachedIn": "338 μs",
+      "_resolvedIn": "338 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -70,17 +70,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-24T17:00:14.461Z",
-        "component-cached-in": "242 μs",
-        "component-resolved-in": "242 μs"
+        "component-cached-at": "2021-07-24T17:45:58.783Z",
+        "component-cached-in": "338 μs",
+        "component-resolved-in": "338 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T17:00:14.460Z",
-          "_cachedIn": "153 μs",
-          "_resolvedIn": "153 μs",
+          "_cachedAt": "2021-07-24T17:45:58.783Z",
+          "_cachedIn": "214 μs",
+          "_resolvedIn": "214 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -88,7 +88,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-24T17:00:01.281Z",
+              "createdAt": "2021-07-24T17:45:46.729Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -2220,6 +2220,118 @@
                 "template": "PoolsPage",
                 "updatedAt": "2021-07-10T20:43:29.000Z",
                 "filePath": "/en/stake-pools.md"
+              },
+              {
+                "id": "rule-1",
+                "language": "en",
+                "slug": "/rules/rule-1",
+                "url": "https:///website.codespace1.sublayer.io/rules/rule-1",
+                "origin": "/rules/rule-1",
+                "title": "Pool should have at least one SPO",
+                "description": "Make sure to define at least one SPO in the pool markdown file.",
+                "aliases": null,
+                "keywords": null,
+                "template": "RuleDetailPage",
+                "updatedAt": "2021-07-24T16:54:43.000Z",
+                "filePath": "/en/rules/rule-1.md"
+              },
+              {
+                "id": "rule-2",
+                "language": "en",
+                "slug": "/rules/rule-2",
+                "url": "https:///website.codespace1.sublayer.io/rules/rule-2",
+                "origin": "/rules/rule-2",
+                "title": "Every SPO should only operate one pool",
+                "description": "It's required to operate a single pool. We do not support pool-splitting.",
+                "aliases": null,
+                "keywords": null,
+                "template": "RuleDetailPage",
+                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "filePath": "/en/rules/rule-2.md"
+              },
+              {
+                "id": "rule-3",
+                "language": "en",
+                "slug": "/rules/rule-3",
+                "url": "https:///website.codespace1.sublayer.io/rules/rule-3",
+                "origin": "/rules/rule-3",
+                "title": "Every SPO should have a Telegram handle",
+                "description": "Make sure to define a Telegram handle for every SPO of your stake pool.",
+                "aliases": null,
+                "keywords": null,
+                "template": "RuleDetailPage",
+                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "filePath": "/en/rules/rule-3.md"
+              },
+              {
+                "id": "rule-4",
+                "language": "en",
+                "slug": "/rules/rule-4",
+                "url": "https:///website.codespace1.sublayer.io/rules/rule-4",
+                "origin": "/rules/rule-4",
+                "title": "Pool should have an image",
+                "description": "Make sure to have a logo of your pool specified in a extended metadata json file.",
+                "aliases": null,
+                "keywords": null,
+                "template": "RuleDetailPage",
+                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "filePath": "/en/rules/rule-4.md"
+              },
+              {
+                "id": "rule-5",
+                "language": "en",
+                "slug": "/rules/rule-5",
+                "url": "https:///website.codespace1.sublayer.io/rules/rule-5",
+                "origin": "/rules/rule-5",
+                "title": "Pool is recommended to have at least 2 relays",
+                "description": "It's a best practice to have at least 2 relays to be able to handle downtime of one of the relays.",
+                "aliases": null,
+                "keywords": null,
+                "template": "RuleDetailPage",
+                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "filePath": "/en/rules/rule-5.md"
+              },
+              {
+                "id": "rule-6",
+                "language": "en",
+                "slug": "/rules/rule-6",
+                "url": "https:///website.codespace1.sublayer.io/rules/rule-6",
+                "origin": "/rules/rule-6",
+                "title": "Pool should have their nodes defined",
+                "description": "Make sure to define your nodes in the pool markdown file.",
+                "aliases": null,
+                "keywords": null,
+                "template": "RuleDetailPage",
+                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "filePath": "/en/rules/rule-6.md"
+              },
+              {
+                "id": "rule-7",
+                "language": "en",
+                "slug": "/rules/rule-7",
+                "url": "https:///website.codespace1.sublayer.io/rules/rule-7",
+                "origin": "/rules/rule-7",
+                "title": "Pool should have at least one node running on ARM",
+                "description": "We validate this by looking at your list of nodes. We'll look for at least one node that is running on an ARM device.",
+                "aliases": null,
+                "keywords": null,
+                "template": "RuleDetailPage",
+                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "filePath": "/en/rules/rule-7.md"
+              },
+              {
+                "id": "rule-8",
+                "language": "en",
+                "slug": "/rules/rule-8",
+                "url": "https:///website.codespace1.sublayer.io/rules/rule-8",
+                "origin": "/rules/rule-8",
+                "title": "Pool is recommended to completely run on ARM",
+                "description": "We validate this by looking at your list of nodes. We'll look for at least one block producer and one relay that run on an ARM device.",
+                "aliases": null,
+                "keywords": null,
+                "template": "RuleDetailPage",
+                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "filePath": "/en/rules/rule-8.md"
               },
               {
                 "id": "sitemap",
@@ -7551,18 +7663,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-24T17:00:14.460Z",
-            "component-cached-in": "153 μs",
-            "component-resolved-in": "153 μs"
+            "component-cached-at": "2021-07-24T17:45:58.783Z",
+            "component-cached-in": "214 μs",
+            "component-resolved-in": "214 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T17:00:14.461Z",
-          "_cachedIn": "184 μs",
-          "_resolvedIn": "184 μs",
+          "_cachedAt": "2021-07-24T17:45:58.783Z",
+          "_cachedIn": "256 μs",
+          "_resolvedIn": "256 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7573,17 +7685,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-24T17:00:14.461Z",
-            "component-cached-in": "184 μs",
-            "component-resolved-in": "184 μs"
+            "component-cached-at": "2021-07-24T17:45:58.783Z",
+            "component-cached-in": "256 μs",
+            "component-resolved-in": "256 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-24T17:00:14.461Z",
-              "_cachedIn": "32 μs",
-              "_resolvedIn": "32 μs",
+              "_cachedAt": "2021-07-24T17:45:58.783Z",
+              "_cachedIn": "48 μs",
+              "_resolvedIn": "48 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7643,9 +7755,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-24T17:00:14.461Z",
-                "component-cached-in": "32 μs",
-                "component-resolved-in": "32 μs"
+                "component-cached-at": "2021-07-24T17:45:58.783Z",
+                "component-cached-in": "48 μs",
+                "component-resolved-in": "48 μs"
               },
               "components": {}
             }
@@ -7654,9 +7766,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T17:00:14.460Z",
-          "_cachedIn": "102 μs",
-          "_resolvedIn": "102 μs",
+          "_cachedAt": "2021-07-24T17:45:58.783Z",
+          "_cachedIn": "154 μs",
+          "_resolvedIn": "154 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7665,9 +7777,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-24T17:00:14.460Z",
-            "component-cached-in": "102 μs",
-            "component-resolved-in": "102 μs"
+            "component-cached-at": "2021-07-24T17:45:58.783Z",
+            "component-cached-in": "154 μs",
+            "component-resolved-in": "154 μs"
           },
           "components": {}
         }
@@ -7676,9 +7788,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T17:00:14.460Z",
-      "_cachedIn": "175 μs",
-      "_resolvedIn": "175 μs",
+      "_cachedAt": "2021-07-24T17:45:58.783Z",
+      "_cachedIn": "254 μs",
+      "_resolvedIn": "254 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7709,18 +7821,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-24T17:00:14.460Z",
-        "component-cached-in": "175 μs",
-        "component-resolved-in": "175 μs"
+        "component-cached-at": "2021-07-24T17:45:58.783Z",
+        "component-cached-in": "254 μs",
+        "component-resolved-in": "254 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T17:00:14.460Z",
-      "_cachedIn": "79 μs",
-      "_resolvedIn": "79 μs",
+      "_cachedAt": "2021-07-24T17:45:58.783Z",
+      "_cachedIn": "168 μs",
+      "_resolvedIn": "168 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7732,18 +7844,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-24T17:00:14.460Z",
-        "component-cached-in": "79 μs",
-        "component-resolved-in": "79 μs"
+        "component-cached-at": "2021-07-24T17:45:58.783Z",
+        "component-cached-in": "168 μs",
+        "component-resolved-in": "168 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T17:00:14.460Z",
-      "_cachedIn": "176 μs",
-      "_resolvedIn": "176 μs",
+      "_cachedAt": "2021-07-24T17:45:58.783Z",
+      "_cachedIn": "255 μs",
+      "_resolvedIn": "255 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7762,9 +7874,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-24T17:00:14.460Z",
-        "component-cached-in": "176 μs",
-        "component-resolved-in": "176 μs"
+        "component-cached-at": "2021-07-24T17:45:58.783Z",
+        "component-cached-in": "255 μs",
+        "component-resolved-in": "255 μs"
       },
       "components": {}
     }
