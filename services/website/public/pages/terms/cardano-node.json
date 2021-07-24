@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"cardano-node\",\"language\":\"en\",\"slug\":\"/terms/cardano-node\",\"url\":\"https:///website.codespace1.sublayer.io/terms/cardano-node\",\"origin\":\"/terms/cardano-node\",\"title\":\"Cardano node\",\"description\":\"A participant on the Cardano blockchain network, continuously making, sending, receiving, and validating blocks.\",\"aliases\":[\"cardano node\",\"cardano network nodes\",\"cardano network node\",\"cardano validator nodes\",\"cardano mining nodes\",\"cardano proof-of-stake nodes\"],\"keywords\":[\"cardano\",\"network\",\"node\",\"stake\",\"pool\",\"validator\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/cardano-node.md\",\"body\":\"Each Cardano node is responsible to make sure that all the rules of the protocol are followed and the security of the network is maintained.\\n\\nAnyone can run a Cardano node on their local machine, we have \\n\\n<Page url={'/guides/run-a-cardano-node'} />\",\"mdxSource\":{\"compiledSource\":\"var i=Object.defineProperty,l=Object.defineProperties;var h=Object.getOwnPropertyDescriptors;var a=Object.getOwnPropertySymbols;var d=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var c=(o,e,n)=>e in o?i(o,e,{enumerable:!0,configurable:!0,writable:!0,value:n}):o[e]=n,r=(o,e)=>{for(var n in e||(e={}))d.call(e,n)&&c(o,n,e[n]);if(a)for(var n of a(e))s.call(e,n)&&c(o,n,e[n]);return o},p=(o,e)=>l(o,h(e));var u=(o,e)=>{var n={};for(var t in o)d.call(o,t)&&e.indexOf(t)<0&&(n[t]=o[t]);if(o!=null&&a)for(var t of a(o))e.indexOf(t)<0&&s.call(o,t)&&(n[t]=o[t]);return n};const makeShortcode=o=>function(n){return console.warn(\\\"Component \\\"+o+\\\" was not imported, exported, or provided by MDXProvider as global scope\\\"),mdx(\\\"div\\\",r({},n))},Page=makeShortcode(\\\"Page\\\"),layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var t=n,{components:o}=t,e=u(t,[\\\"components\\\"]);return mdx(MDXLayout,p(r(r({},layoutProps),e),{components:o,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"Each Cardano node is responsible to make sure that all the rules of the protocol are followed and the security of the network is maintained.\\\"),mdx(\\\"p\\\",null,\\\"Anyone can run a Cardano node on their local machine, we have \\\"),mdx(Page,{url:\\\"/guides/run-a-cardano-node\\\",mdxType:\\\"Page\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-24T16:55:19.349Z",
-  "_cachedIn": "1.63 ms",
-  "_resolvedIn": "1.63 ms",
+  "_cachedAt": "2021-07-24T17:00:14.337Z",
+  "_cachedIn": "1.06 ms",
+  "_resolvedIn": "1.06 ms",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -51,17 +51,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-24T16:55:19.349Z",
-    "component-cached-in": "1.63 ms",
-    "component-resolved-in": "1.63 ms"
+    "component-cached-at": "2021-07-24T17:00:14.337Z",
+    "component-cached-in": "1.06 ms",
+    "component-resolved-in": "1.06 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T16:55:19.349Z",
-      "_cachedIn": "1.3 ms",
-      "_resolvedIn": "1.3 ms",
+      "_cachedAt": "2021-07-24T17:00:14.337Z",
+      "_cachedIn": "721 μs",
+      "_resolvedIn": "721 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -70,17 +70,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-24T16:55:19.349Z",
-        "component-cached-in": "1.3 ms",
-        "component-resolved-in": "1.3 ms"
+        "component-cached-at": "2021-07-24T17:00:14.337Z",
+        "component-cached-in": "721 μs",
+        "component-resolved-in": "721 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T16:55:19.349Z",
-          "_cachedIn": "773 μs",
-          "_resolvedIn": "773 μs",
+          "_cachedAt": "2021-07-24T17:00:14.336Z",
+          "_cachedIn": "407 μs",
+          "_resolvedIn": "407 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -88,7 +88,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-24T16:55:08.510Z",
+              "createdAt": "2021-07-24T17:00:01.281Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1354,7 +1354,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/wcat.jpeg",
-                "updatedAt": "2021-07-24T10:36:53.000Z",
+                "updatedAt": "2021-07-24T14:27:31.000Z",
                 "filePath": "/en/identities/wcat-otg.md"
               },
               {
@@ -1733,7 +1733,7 @@
                   }
                 ],
                 "image": "https://cdn.sublayer.io/logo.png",
-                "updatedAt": "2021-07-24T11:16:51.000Z",
+                "updatedAt": "2021-07-24T16:52:14.000Z",
                 "filePath": "/en/stake-pools/8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8.md"
               },
               {
@@ -1863,7 +1863,7 @@
                   }
                 ],
                 "image": "https://piada.io/piadaFull.png",
-                "updatedAt": "2021-07-24T06:52:08.000Z",
+                "updatedAt": "2021-07-24T16:41:27.000Z",
                 "filePath": "/en/stake-pools/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65.md"
               },
               {
@@ -1926,7 +1926,7 @@
                   }
                 ],
                 "image": "https://adamantium.online/images/sun.jpg",
-                "updatedAt": "2021-07-24T09:36:58.000Z",
+                "updatedAt": "2021-07-24T14:11:45.000Z",
                 "filePath": "/en/stake-pools/c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae.md"
               },
               {
@@ -7551,18 +7551,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-24T16:55:19.349Z",
-            "component-cached-in": "773 μs",
-            "component-resolved-in": "773 μs"
+            "component-cached-at": "2021-07-24T17:00:14.336Z",
+            "component-cached-in": "407 μs",
+            "component-resolved-in": "407 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T16:55:19.349Z",
-          "_cachedIn": "991 μs",
-          "_resolvedIn": "991 μs",
+          "_cachedAt": "2021-07-24T17:00:14.336Z",
+          "_cachedIn": "523 μs",
+          "_resolvedIn": "523 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7573,17 +7573,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-24T16:55:19.349Z",
-            "component-cached-in": "991 μs",
-            "component-resolved-in": "991 μs"
+            "component-cached-at": "2021-07-24T17:00:14.336Z",
+            "component-cached-in": "523 μs",
+            "component-resolved-in": "523 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-24T16:55:19.349Z",
-              "_cachedIn": "196 μs",
-              "_resolvedIn": "196 μs",
+              "_cachedAt": "2021-07-24T17:00:14.336Z",
+              "_cachedIn": "104 μs",
+              "_resolvedIn": "104 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7643,9 +7643,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-24T16:55:19.349Z",
-                "component-cached-in": "196 μs",
-                "component-resolved-in": "196 μs"
+                "component-cached-at": "2021-07-24T17:00:14.336Z",
+                "component-cached-in": "104 μs",
+                "component-resolved-in": "104 μs"
               },
               "components": {}
             }
@@ -7654,9 +7654,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T16:55:19.348Z",
-          "_cachedIn": "475 μs",
-          "_resolvedIn": "475 μs",
+          "_cachedAt": "2021-07-24T17:00:14.336Z",
+          "_cachedIn": "233 μs",
+          "_resolvedIn": "233 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7665,9 +7665,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-24T16:55:19.348Z",
-            "component-cached-in": "475 μs",
-            "component-resolved-in": "475 μs"
+            "component-cached-at": "2021-07-24T17:00:14.336Z",
+            "component-cached-in": "233 μs",
+            "component-resolved-in": "233 μs"
           },
           "components": {}
         }
@@ -7676,9 +7676,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T16:55:19.349Z",
-      "_cachedIn": "898 μs",
-      "_resolvedIn": "898 μs",
+      "_cachedAt": "2021-07-24T17:00:14.336Z",
+      "_cachedIn": "482 μs",
+      "_resolvedIn": "482 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7709,18 +7709,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-24T16:55:19.349Z",
-        "component-cached-in": "898 μs",
-        "component-resolved-in": "898 μs"
+        "component-cached-at": "2021-07-24T17:00:14.336Z",
+        "component-cached-in": "482 μs",
+        "component-resolved-in": "482 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T16:55:19.348Z",
-      "_cachedIn": "504 μs",
-      "_resolvedIn": "504 μs",
+      "_cachedAt": "2021-07-24T17:00:14.336Z",
+      "_cachedIn": "268 μs",
+      "_resolvedIn": "268 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7732,18 +7732,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-24T16:55:19.348Z",
-        "component-cached-in": "504 μs",
-        "component-resolved-in": "504 μs"
+        "component-cached-at": "2021-07-24T17:00:14.336Z",
+        "component-cached-in": "268 μs",
+        "component-resolved-in": "268 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T16:55:19.349Z",
-      "_cachedIn": "896 μs",
-      "_resolvedIn": "896 μs",
+      "_cachedAt": "2021-07-24T17:00:14.336Z",
+      "_cachedIn": "480 μs",
+      "_resolvedIn": "480 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7762,9 +7762,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-24T16:55:19.349Z",
-        "component-cached-in": "896 μs",
-        "component-resolved-in": "896 μs"
+        "component-cached-at": "2021-07-24T17:00:14.336Z",
+        "component-cached-in": "480 μs",
+        "component-resolved-in": "480 μs"
       },
       "components": {}
     }
