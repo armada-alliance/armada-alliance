@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"Behemoth BHMT\",\"slug\":\"/pool-widget/052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e\",\"template\":\"PoolWidgetPage\",\"poolId\":\"052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-24T19:25:19.991Z",
-  "_cachedIn": "292 μs",
-  "_resolvedIn": "292 μs",
+  "_cachedAt": "2021-07-24T19:26:27.003Z",
+  "_cachedIn": "288 μs",
+  "_resolvedIn": "288 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -32,7 +32,7 @@
       "totalStake": "6063054249",
       "blocksLifetime": 0,
       "delegators": 4,
-      "saturated": 0.00009065856188538463,
+      "saturated": 0.00009065850534765281,
       "pledge": "150000000",
       "pledged": "171164676",
       "taxRatio": 0,
@@ -48,12 +48,12 @@
       ],
       "nodes": [
         {
-          "type": "producer",
+          "role": "producer",
           "deviceId": "raspberry-pi-4-8gb",
           "storage": "Samsung SDD 1 Tb"
         },
         {
-          "type": "relay",
+          "role": "relay",
           "deviceId": "raspberry-pi-4-8gb",
           "storage": "Scandisc SDD 250 Gb"
         }
@@ -137,17 +137,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2021-07-24T19:25:19.991Z",
-    "component-cached-in": "292 μs",
-    "component-resolved-in": "292 μs"
+    "component-cached-at": "2021-07-24T19:26:27.003Z",
+    "component-cached-in": "288 μs",
+    "component-resolved-in": "288 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T19:25:19.991Z",
-      "_cachedIn": "107 μs",
-      "_resolvedIn": "107 μs",
+      "_cachedAt": "2021-07-24T19:26:27.003Z",
+      "_cachedIn": "109 μs",
+      "_resolvedIn": "109 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -156,17 +156,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-24T19:25:19.991Z",
-        "component-cached-in": "107 μs",
-        "component-resolved-in": "107 μs"
+        "component-cached-at": "2021-07-24T19:26:27.003Z",
+        "component-cached-in": "109 μs",
+        "component-resolved-in": "109 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T19:25:19.991Z",
-          "_cachedIn": "64 μs",
-          "_resolvedIn": "64 μs",
+          "_cachedAt": "2021-07-24T19:26:27.003Z",
+          "_cachedIn": "65 μs",
+          "_resolvedIn": "65 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -174,7 +174,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-24T19:25:08.428Z",
+              "createdAt": "2021-07-24T19:26:14.947Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -7749,18 +7749,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-24T19:25:19.991Z",
-            "component-cached-in": "64 μs",
-            "component-resolved-in": "64 μs"
+            "component-cached-at": "2021-07-24T19:26:27.003Z",
+            "component-cached-in": "65 μs",
+            "component-resolved-in": "65 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T19:25:19.991Z",
-          "_cachedIn": "85 μs",
-          "_resolvedIn": "85 μs",
+          "_cachedAt": "2021-07-24T19:26:27.003Z",
+          "_cachedIn": "86 μs",
+          "_resolvedIn": "86 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7771,17 +7771,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-24T19:25:19.991Z",
-            "component-cached-in": "85 μs",
-            "component-resolved-in": "85 μs"
+            "component-cached-at": "2021-07-24T19:26:27.003Z",
+            "component-cached-in": "86 μs",
+            "component-resolved-in": "86 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-24T19:25:19.991Z",
-              "_cachedIn": "20 μs",
-              "_resolvedIn": "20 μs",
+              "_cachedAt": "2021-07-24T19:26:27.003Z",
+              "_cachedIn": "23 μs",
+              "_resolvedIn": "23 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7841,9 +7841,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-24T19:25:19.991Z",
-                "component-cached-in": "20 μs",
-                "component-resolved-in": "20 μs"
+                "component-cached-at": "2021-07-24T19:26:27.003Z",
+                "component-cached-in": "23 μs",
+                "component-resolved-in": "23 μs"
               },
               "components": {}
             }
@@ -7852,7 +7852,7 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T19:25:19.991Z",
+          "_cachedAt": "2021-07-24T19:26:27.003Z",
           "_cachedIn": "25 μs",
           "_resolvedIn": "25 μs",
           "id": "Footer",
@@ -7863,7 +7863,7 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-24T19:25:19.991Z",
+            "component-cached-at": "2021-07-24T19:26:27.003Z",
             "component-cached-in": "25 μs",
             "component-resolved-in": "25 μs"
           },
