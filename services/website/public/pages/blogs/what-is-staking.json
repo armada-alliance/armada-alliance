@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"BlogDetailPage\",\"version\":1},\"props\":{\"id\":\"what-is-staking\",\"language\":\"en\",\"slug\":\"/blogs/what-is-staking\",\"url\":\"https:///website.codespace1.sublayer.io/blogs/what-is-staking\",\"origin\":\"/blogs/what-is-staking\",\"title\":\"What is [staking](/en/terms/staking.md)?\",\"description\":\"On the [Cardano](/en/terms/cardano.md) blockchain, the ada held by wallets represents the stake in the network; the ability to use your stake to either [pledge](/en/terms/pledge.md) or delegate is one of the core elements of Cardano.\",\"aliases\":null,\"keywords\":[\"ada\",\"cardano\",\"delegating ada\",\"how to delegate\",\"staking ada\",\"staking\"],\"template\":\"BlogDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/blogs/what-is-staking.md\",\"references\":[{\"url\":\"https://iohk.io/en/blog/posts/2020/11/13/the-general-perspective-on-staking-in-cardano/\"},{\"url\":\"https://heraldsheets.com/why-51-attack-on-cardano-network-is-relatively-impossible/\"},{\"url\":\"https://forum.cardano.org/t/staking-and-delegating-for-beginners-a-step-by-step-guide/36681\"},{\"url\":\"https://forum.cardano.org/t/consensus-on-cardano-vs-other-blockchains/38738\"},{\"url\":\"https://forum.cardano.org/t/how-cardano-uses-significantly-less-energy-while-maintaining-the-same-level-of-security-as-bitcoin/62629\"},{\"url\":\"https://emurgo.io/en/blog/explain-proof-of-stake-pos-dpos\"}],\"body\":\"Pledge is the amount of ada a stake pool owner has decided to delegate to their [stake pool](/terms/stake-pool). Currently, there is no minimum ada requirement to the amount of pledge needed to open a Cardano stake pool. Thus, a stake pool owner may delegate some or all of their ada when creating a stake pool. However, a stake pool owner's pledge does affect things like their stake pool's attractiveness to delegates, a0 parameter, rewards distribution, and security of the network.\\n\\nCardano stake pools are vital for the decentralization of the network along with maintaining its overall well-being. Stake pool operators pledge their ada, time, and skills to continuously keep Cardano nodes online. They do this so that other users can take part in the protocol and gain rewards without having to support the network. \\n\\nDelegation or also known as staking your ADA is a vital feature of Cardano that allows users who choose not to run a stake pool to still share in all the benefits of the ecosystem. Staking is the mechanism by which all users experience things like the rewards sharing schema of Cardano, liquidity pools, De-Fi, and governance. If you are an average user and just want to take part the network staking is the best place to start putting your ada to work today. \\n\\nThe total staked ada currently in Cardano Stake Pools is around 32.5 billion or 71% of the total supply of ada. This amount of stake is impressive for two reasons it shows the faith that the community has in Cardano, and secondly, it signifies the security of the Cardano network. \\n\\n## Why should you delegate your [ada](/terms/ada)? \\n\\nBy delegating your ada to a Cardano Stake Pool, you will support the community, benefit from the rewards sharing scheme, and help to secure the overall network. \\n\\nDelegating is a great way to be a part of the overall Cardano community that is active, engaged, and working together every day to shape the future of decentralization. Choosing a Stake Pool that aligns with your interest can improve Cardano by supporting them and their missions with the delegation of your stake. Many Stake Pool operators are active on social media, YouTube, and forums to engage with their community of delegates.\\n\\nWhile you are delegating with the pool of your choice, you will take part in the rewards sharing scheme <Link url=\\\"https://arxiv.org/abs/1807.11218\\\"/> of Cardano and be paid by a well-performing stake pool around 5% APY on your total stake. On top of this reward, many stake pools offer NFT/token airdrops, ada dividends, and services. \\n\\nSecurity of the Cardano network through pledge and delegation is another benefit of Cardano's groundbreaking Ouroboros PoS and Consensus mechanism research. Proof-of-stake blockchains like Cardano use a virtual resource or stake to achieve consensus on the blockchain. The stake is recorded on the blockchain's ledger as a native token (ada).\\n\\nWithout going into too many technical details, due to Cardano PoS design and the enormous amount of ada staked, it is capable of defending off many attacks like:\\n- [51% Attack](/terms/fifty-one-percent-attack)\\n- [Sybil Attack](/terms/sybil-attack)\\n- [Fake Stake Attack](/terms/fake-stake)\\n\",\"mdxSource\":{\"compiledSource\":\"var p=Object.defineProperty,u=Object.defineProperties;var c=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var i=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var l=(e,a,t)=>a in e?p(e,a,{enumerable:!0,configurable:!0,writable:!0,value:t}):e[a]=t,n=(e,a)=>{for(var t in a||(a={}))i.call(a,t)&&l(e,t,a[t]);if(r)for(var t of r(a))s.call(a,t)&&l(e,t,a[t]);return e},d=(e,a)=>u(e,c(a));var h=(e,a)=>{var t={};for(var o in e)i.call(e,o)&&a.indexOf(o)<0&&(t[o]=e[o]);if(e!=null&&r)for(var o of r(e))a.indexOf(o)<0&&s.call(e,o)&&(t[o]=e[o]);return t};const makeShortcode=e=>function(t){return console.warn(\\\"Component \\\"+e+\\\" was not imported, exported, or provided by MDXProvider as global scope\\\"),mdx(\\\"div\\\",n({},t))},Link=makeShortcode(\\\"Link\\\"),layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(t){var o=t,{components:e}=o,a=h(o,[\\\"components\\\"]);return mdx(MDXLayout,d(n(n({},layoutProps),a),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"Pledge is the amount of ada a stake pool owner has decided to delegate to their \\\",mdx(\\\"a\\\",n({parentName:\\\"p\\\"},{href:\\\"/terms/stake-pool\\\"}),\\\"stake pool\\\"),\\\". Currently, there is no minimum ada requirement to the amount of pledge needed to open a Cardano stake pool. Thus, a stake pool owner may delegate some or all of their ada when creating a stake pool. However, a stake pool owner's pledge does affect things like their stake pool's attractiveness to delegates, a0 parameter, rewards distribution, and security of the network.\\\"),mdx(\\\"p\\\",null,\\\"Cardano stake pools are vital for the decentralization of the network along with maintaining its overall well-being. Stake pool operators pledge their ada, time, and skills to continuously keep Cardano nodes online. They do this so that other users can take part in the protocol and gain rewards without having to support the network. \\\"),mdx(\\\"p\\\",null,\\\"Delegation or also known as staking your ADA is a vital feature of Cardano that allows users who choose not to run a stake pool to still share in all the benefits of the ecosystem. Staking is the mechanism by which all users experience things like the rewards sharing schema of Cardano, liquidity pools, De-Fi, and governance. If you are an average user and just want to take part the network staking is the best place to start putting your ada to work today. \\\"),mdx(\\\"p\\\",null,\\\"The total staked ada currently in Cardano Stake Pools is around 32.5 billion or 71% of the total supply of ada. This amount of stake is impressive for two reasons it shows the faith that the community has in Cardano, and secondly, it signifies the security of the Cardano network. \\\"),mdx(\\\"h2\\\",null,\\\"Why should you delegate your \\\",mdx(\\\"a\\\",n({parentName:\\\"h2\\\"},{href:\\\"/terms/ada\\\"}),\\\"ada\\\"),\\\"?\\\"),mdx(\\\"p\\\",null,\\\"By delegating your ada to a Cardano Stake Pool, you will support the community, benefit from the rewards sharing scheme, and help to secure the overall network. \\\"),mdx(\\\"p\\\",null,\\\"Delegating is a great way to be a part of the overall Cardano community that is active, engaged, and working together every day to shape the future of decentralization. Choosing a Stake Pool that aligns with your interest can improve Cardano by supporting them and their missions with the delegation of your stake. Many Stake Pool operators are active on social media, YouTube, and forums to engage with their community of delegates.\\\"),mdx(\\\"p\\\",null,\\\"While you are delegating with the pool of your choice, you will take part in the rewards sharing scheme \\\",mdx(Link,{url:\\\"https://arxiv.org/abs/1807.11218\\\",mdxType:\\\"Link\\\"}),\\\" of Cardano and be paid by a well-performing stake pool around 5% APY on your total stake. On top of this reward, many stake pools offer NFT/token airdrops, ada dividends, and services. \\\"),mdx(\\\"p\\\",null,\\\"Security of the Cardano network through pledge and delegation is another benefit of Cardano's groundbreaking Ouroboros PoS and Consensus mechanism research. Proof-of-stake blockchains like Cardano use a virtual resource or stake to achieve consensus on the blockchain. The stake is recorded on the blockchain's ledger as a native token (ada).\\\"),mdx(\\\"p\\\",null,\\\"Without going into too many technical details, due to Cardano PoS design and the enormous amount of ada staked, it is capable of defending off many attacks like:\\\"),mdx(\\\"ul\\\",null,mdx(\\\"li\\\",{parentName:\\\"ul\\\"},mdx(\\\"a\\\",n({parentName:\\\"li\\\"},{href:\\\"/terms/fifty-one-percent-attack\\\"}),\\\"51% Attack\\\")),mdx(\\\"li\\\",{parentName:\\\"ul\\\"},mdx(\\\"a\\\",n({parentName:\\\"li\\\"},{href:\\\"/terms/sybil-attack\\\"}),\\\"Sybil Attack\\\")),mdx(\\\"li\\\",{parentName:\\\"ul\\\"},mdx(\\\"a\\\",n({parentName:\\\"li\\\"},{href:\\\"/terms/fake-stake\\\"}),\\\"Fake Stake Attack\\\"))))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-24T11:15:42.771Z",
-  "_cachedIn": "11 ms",
-  "_resolvedIn": "11 ms",
+  "_cachedAt": "2021-07-24T11:20:11.382Z",
+  "_cachedIn": "69 ms",
+  "_resolvedIn": "69 ms",
   "id": "BlogDetailPage",
   "type": "BlogDetailPage",
   "status": "resolved",
@@ -64,17 +64,17 @@
   "attrs": {
     "component-type": "BlogDetailPage",
     "component-id": "BlogDetailPage",
-    "component-cached-at": "2021-07-24T11:15:42.771Z",
-    "component-cached-in": "11 ms",
-    "component-resolved-in": "11 ms"
+    "component-cached-at": "2021-07-24T11:20:11.382Z",
+    "component-cached-in": "69 ms",
+    "component-resolved-in": "69 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T11:15:42.770Z",
-      "_cachedIn": "7.02 ms",
-      "_resolvedIn": "7.02 ms",
+      "_cachedAt": "2021-07-24T11:20:11.382Z",
+      "_cachedIn": "64 ms",
+      "_resolvedIn": "64 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -83,17 +83,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-24T11:15:42.770Z",
-        "component-cached-in": "7.02 ms",
-        "component-resolved-in": "7.02 ms"
+        "component-cached-at": "2021-07-24T11:20:11.382Z",
+        "component-cached-in": "64 ms",
+        "component-resolved-in": "64 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T11:15:42.768Z",
-          "_cachedIn": "1.45 ms",
-          "_resolvedIn": "1.45 ms",
+          "_cachedAt": "2021-07-24T11:20:11.381Z",
+          "_cachedIn": "1.38 ms",
+          "_resolvedIn": "1.38 ms",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -101,7 +101,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-24T11:15:25.705Z",
+              "createdAt": "2021-07-24T11:19:53.909Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1746,7 +1746,7 @@
                   }
                 ],
                 "image": "https://cdn.sublayer.io/logo.png",
-                "updatedAt": "2021-07-23T14:25:35.000Z",
+                "updatedAt": "2021-07-24T11:16:51.000Z",
                 "filePath": "/en/stake-pools/8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8.md"
               },
               {
@@ -7564,18 +7564,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-24T11:15:42.768Z",
-            "component-cached-in": "1.45 ms",
-            "component-resolved-in": "1.45 ms"
+            "component-cached-at": "2021-07-24T11:20:11.381Z",
+            "component-cached-in": "1.38 ms",
+            "component-resolved-in": "1.38 ms"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T11:15:42.770Z",
-          "_cachedIn": "3.9 ms",
-          "_resolvedIn": "3.9 ms",
+          "_cachedAt": "2021-07-24T11:20:11.381Z",
+          "_cachedIn": "1.98 ms",
+          "_resolvedIn": "1.98 ms",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7586,17 +7586,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-24T11:15:42.770Z",
-            "component-cached-in": "3.9 ms",
-            "component-resolved-in": "3.9 ms"
+            "component-cached-at": "2021-07-24T11:20:11.381Z",
+            "component-cached-in": "1.98 ms",
+            "component-resolved-in": "1.98 ms"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-24T11:15:42.770Z",
-              "_cachedIn": "586 μs",
-              "_resolvedIn": "586 μs",
+              "_cachedAt": "2021-07-24T11:20:11.381Z",
+              "_cachedIn": "388 μs",
+              "_resolvedIn": "388 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7656,9 +7656,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-24T11:15:42.770Z",
-                "component-cached-in": "586 μs",
-                "component-resolved-in": "586 μs"
+                "component-cached-at": "2021-07-24T11:20:11.381Z",
+                "component-cached-in": "388 μs",
+                "component-resolved-in": "388 μs"
               },
               "components": {}
             }
@@ -7667,9 +7667,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T11:15:42.766Z",
-          "_cachedIn": "90 μs",
-          "_resolvedIn": "90 μs",
+          "_cachedAt": "2021-07-24T11:20:11.380Z",
+          "_cachedIn": "720 μs",
+          "_resolvedIn": "720 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7678,9 +7678,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-24T11:15:42.766Z",
-            "component-cached-in": "90 μs",
-            "component-resolved-in": "90 μs"
+            "component-cached-at": "2021-07-24T11:20:11.380Z",
+            "component-cached-in": "720 μs",
+            "component-resolved-in": "720 μs"
           },
           "components": {}
         }
@@ -7689,9 +7689,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T11:15:42.767Z",
-      "_cachedIn": "3.78 ms",
-      "_resolvedIn": "3.78 ms",
+      "_cachedAt": "2021-07-24T11:20:11.381Z",
+      "_cachedIn": "63 ms",
+      "_resolvedIn": "63 ms",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7722,18 +7722,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-24T11:15:42.767Z",
-        "component-cached-in": "3.78 ms",
-        "component-resolved-in": "3.78 ms"
+        "component-cached-at": "2021-07-24T11:20:11.381Z",
+        "component-cached-in": "63 ms",
+        "component-resolved-in": "63 ms"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T11:15:42.766Z",
-      "_cachedIn": "2.53 ms",
-      "_resolvedIn": "2.53 ms",
+      "_cachedAt": "2021-07-24T11:20:11.380Z",
+      "_cachedIn": "62 ms",
+      "_resolvedIn": "62 ms",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7745,18 +7745,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-24T11:15:42.766Z",
-        "component-cached-in": "2.53 ms",
-        "component-resolved-in": "2.53 ms"
+        "component-cached-at": "2021-07-24T11:20:11.380Z",
+        "component-cached-in": "62 ms",
+        "component-resolved-in": "62 ms"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T11:15:42.767Z",
-      "_cachedIn": "3.78 ms",
-      "_resolvedIn": "3.78 ms",
+      "_cachedAt": "2021-07-24T11:20:11.381Z",
+      "_cachedIn": "63 ms",
+      "_resolvedIn": "63 ms",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7775,9 +7775,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-24T11:15:42.767Z",
-        "component-cached-in": "3.78 ms",
-        "component-resolved-in": "3.78 ms"
+        "component-cached-at": "2021-07-24T11:20:11.381Z",
+        "component-cached-in": "63 ms",
+        "component-resolved-in": "63 ms"
       },
       "components": {}
     }

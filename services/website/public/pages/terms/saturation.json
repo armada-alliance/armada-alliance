@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"saturation\",\"language\":\"en\",\"slug\":\"/terms/saturation\",\"url\":\"https:///website.codespace1.sublayer.io/terms/saturation\",\"origin\":\"/terms/saturation\",\"title\":\"Saturation\",\"description\":\"A term used to indicate that a particular stake pool has more stake delegated to it than is ideal for the network.\",\"aliases\":[\"cardano stake pool saturation point\",\"cardano stake pool saturation\",\"cardano stake pool over saturated pools\",\"cardano stake pool over saturation\"],\"keywords\":[\"cardano\",\"stake\",\"pool\",\"over\",\"saturated\",\"saturation\",\"point\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/saturation.md\",\"body\":\"Saturation is displayed as a percentage. Once a stake pool reaches 100% saturation, it will offer diminishing rewards.The saturation mechanism was designed to prevent centralization by encouraging delegators to delegate to different stake pools, and operators to set up alternative pools so that they can continue earning maximum rewards. Saturation, therefore, exists to preserve the interests of both ada holders delegating their stake and stake pool operators.\",\"mdxSource\":{\"compiledSource\":\"var l=Object.defineProperty,c=Object.defineProperties;var h=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var s=Object.prototype.hasOwnProperty,i=Object.prototype.propertyIsEnumerable;var p=(e,t,a)=>t in e?l(e,t,{enumerable:!0,configurable:!0,writable:!0,value:a}):e[t]=a,r=(e,t)=>{for(var a in t||(t={}))s.call(t,a)&&p(e,a,t[a]);if(n)for(var a of n(t))i.call(t,a)&&p(e,a,t[a]);return e},d=(e,t)=>c(e,h(t));var u=(e,t)=>{var a={};for(var o in e)s.call(e,o)&&t.indexOf(o)<0&&(a[o]=e[o]);if(e!=null&&n)for(var o of n(e))t.indexOf(o)<0&&i.call(e,o)&&(a[o]=e[o]);return a};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(a){var o=a,{components:e}=o,t=u(o,[\\\"components\\\"]);return mdx(MDXLayout,d(r(r({},layoutProps),t),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"Saturation is displayed as a percentage. Once a stake pool reaches 100% saturation, it will offer diminishing rewards.The saturation mechanism was designed to prevent centralization by encouraging delegators to delegate to different stake pools, and operators to set up alternative pools so that they can continue earning maximum rewards. Saturation, therefore, exists to preserve the interests of both ada holders delegating their stake and stake pool operators.\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-24T11:15:44.617Z",
-  "_cachedIn": "2.36 ms",
-  "_resolvedIn": "2.36 ms",
+  "_cachedAt": "2021-07-24T11:20:13.312Z",
+  "_cachedIn": "1.66 ms",
+  "_resolvedIn": "1.66 ms",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -50,17 +50,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-24T11:15:44.617Z",
-    "component-cached-in": "2.36 ms",
-    "component-resolved-in": "2.36 ms"
+    "component-cached-at": "2021-07-24T11:20:13.312Z",
+    "component-cached-in": "1.66 ms",
+    "component-resolved-in": "1.66 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T11:15:44.617Z",
-      "_cachedIn": "1.84 ms",
-      "_resolvedIn": "1.84 ms",
+      "_cachedAt": "2021-07-24T11:20:13.312Z",
+      "_cachedIn": "1.27 ms",
+      "_resolvedIn": "1.27 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -69,17 +69,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-24T11:15:44.617Z",
-        "component-cached-in": "1.84 ms",
-        "component-resolved-in": "1.84 ms"
+        "component-cached-at": "2021-07-24T11:20:13.312Z",
+        "component-cached-in": "1.27 ms",
+        "component-resolved-in": "1.27 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T11:15:44.616Z",
-          "_cachedIn": "974 μs",
-          "_resolvedIn": "974 μs",
+          "_cachedAt": "2021-07-24T11:20:13.311Z",
+          "_cachedIn": "705 μs",
+          "_resolvedIn": "705 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -87,7 +87,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-24T11:15:25.705Z",
+              "createdAt": "2021-07-24T11:19:53.909Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1732,7 +1732,7 @@
                   }
                 ],
                 "image": "https://cdn.sublayer.io/logo.png",
-                "updatedAt": "2021-07-23T14:25:35.000Z",
+                "updatedAt": "2021-07-24T11:16:51.000Z",
                 "filePath": "/en/stake-pools/8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8.md"
               },
               {
@@ -7550,18 +7550,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-24T11:15:44.616Z",
-            "component-cached-in": "974 μs",
-            "component-resolved-in": "974 μs"
+            "component-cached-at": "2021-07-24T11:20:13.311Z",
+            "component-cached-in": "705 μs",
+            "component-resolved-in": "705 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T11:15:44.617Z",
-          "_cachedIn": "1.38 ms",
-          "_resolvedIn": "1.38 ms",
+          "_cachedAt": "2021-07-24T11:20:13.311Z",
+          "_cachedIn": "949 μs",
+          "_resolvedIn": "949 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7572,17 +7572,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-24T11:15:44.617Z",
-            "component-cached-in": "1.38 ms",
-            "component-resolved-in": "1.38 ms"
+            "component-cached-at": "2021-07-24T11:20:13.311Z",
+            "component-cached-in": "949 μs",
+            "component-resolved-in": "949 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-24T11:15:44.616Z",
-              "_cachedIn": "289 μs",
-              "_resolvedIn": "289 μs",
+              "_cachedAt": "2021-07-24T11:20:13.311Z",
+              "_cachedIn": "224 μs",
+              "_resolvedIn": "224 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7642,9 +7642,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-24T11:15:44.616Z",
-                "component-cached-in": "289 μs",
-                "component-resolved-in": "289 μs"
+                "component-cached-at": "2021-07-24T11:20:13.311Z",
+                "component-cached-in": "224 μs",
+                "component-resolved-in": "224 μs"
               },
               "components": {}
             }
@@ -7653,9 +7653,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T11:15:44.616Z",
-          "_cachedIn": "544 μs",
-          "_resolvedIn": "544 μs",
+          "_cachedAt": "2021-07-24T11:20:13.311Z",
+          "_cachedIn": "397 μs",
+          "_resolvedIn": "397 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7664,9 +7664,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-24T11:15:44.616Z",
-            "component-cached-in": "544 μs",
-            "component-resolved-in": "544 μs"
+            "component-cached-at": "2021-07-24T11:20:13.311Z",
+            "component-cached-in": "397 μs",
+            "component-resolved-in": "397 μs"
           },
           "components": {}
         }
@@ -7675,9 +7675,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T11:15:44.616Z",
-      "_cachedIn": "1.14 ms",
-      "_resolvedIn": "1.14 ms",
+      "_cachedAt": "2021-07-24T11:20:13.311Z",
+      "_cachedIn": "813 μs",
+      "_resolvedIn": "813 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7708,18 +7708,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-24T11:15:44.616Z",
-        "component-cached-in": "1.14 ms",
-        "component-resolved-in": "1.14 ms"
+        "component-cached-at": "2021-07-24T11:20:13.311Z",
+        "component-cached-in": "813 μs",
+        "component-resolved-in": "813 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T11:15:44.616Z",
-      "_cachedIn": "625 μs",
-      "_resolvedIn": "625 μs",
+      "_cachedAt": "2021-07-24T11:20:13.311Z",
+      "_cachedIn": "435 μs",
+      "_resolvedIn": "435 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7731,18 +7731,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-24T11:15:44.616Z",
-        "component-cached-in": "625 μs",
-        "component-resolved-in": "625 μs"
+        "component-cached-at": "2021-07-24T11:20:13.311Z",
+        "component-cached-in": "435 μs",
+        "component-resolved-in": "435 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T11:15:44.616Z",
-      "_cachedIn": "1.14 ms",
-      "_resolvedIn": "1.14 ms",
+      "_cachedAt": "2021-07-24T11:20:13.311Z",
+      "_cachedIn": "813 μs",
+      "_resolvedIn": "813 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7761,9 +7761,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-24T11:15:44.616Z",
-        "component-cached-in": "1.14 ms",
-        "component-resolved-in": "1.14 ms"
+        "component-cached-at": "2021-07-24T11:20:13.311Z",
+        "component-cached-in": "813 μs",
+        "component-resolved-in": "813 μs"
       },
       "components": {}
     }

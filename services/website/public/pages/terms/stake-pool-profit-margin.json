@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"stake-pool-profit-margin\",\"language\":\"en\",\"slug\":\"/terms/stake-pool-profit-margin\",\"url\":\"https:///website.codespace1.sublayer.io/terms/stake-pool-profit-margin\",\"origin\":\"/terms/stake-pool-profit-margin\",\"title\":\"Stake pool profit margin\",\"description\":\"The percentage of total ada rewards that the stake pool operator takes before sharing the rest of the rewards between all the delegators to the pool.\",\"aliases\":[\"cardano stake pool rewards\",\"cardano stake pool profit margin\",\"cardano stake pool revenue\"],\"keywords\":[\"profit\",\"margin\",\"cardano\",\"stake\",\"pool\",\"operator\",\"rewards\",\"revenue\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/stake-pool-profit-margin.md\",\"body\":\"A lower profit margin for the operator means they are taking less, which means that delegators can expect to receive more of the rewards for their delegated stake. A private pool is a pool with a profit margin of 100%, meaning that all the rewards will go to the operator and none to the delegators.\",\"mdxSource\":{\"compiledSource\":\"var m=Object.defineProperty,c=Object.defineProperties;var d=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var p=Object.prototype.hasOwnProperty,i=Object.prototype.propertyIsEnumerable;var s=(e,t,o)=>t in e?m(e,t,{enumerable:!0,configurable:!0,writable:!0,value:o}):e[t]=o,n=(e,t)=>{for(var o in t||(t={}))p.call(t,o)&&s(e,o,t[o]);if(r)for(var o of r(t))i.call(t,o)&&s(e,o,t[o]);return e},h=(e,t)=>c(e,d(t));var l=(e,t)=>{var o={};for(var a in e)p.call(e,a)&&t.indexOf(a)<0&&(o[a]=e[a]);if(e!=null&&r)for(var a of r(e))t.indexOf(a)<0&&i.call(e,a)&&(o[a]=e[a]);return o};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(o){var a=o,{components:e}=a,t=l(a,[\\\"components\\\"]);return mdx(MDXLayout,h(n(n({},layoutProps),t),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"A lower profit margin for the operator means they are taking less, which means that delegators can expect to receive more of the rewards for their delegated stake. A private pool is a pool with a profit margin of 100%, meaning that all the rewards will go to the operator and none to the delegators.\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-24T11:15:44.771Z",
-  "_cachedIn": "1.56 ms",
-  "_resolvedIn": "1.56 ms",
+  "_cachedAt": "2021-07-24T11:20:13.479Z",
+  "_cachedIn": "1.68 ms",
+  "_resolvedIn": "1.68 ms",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -50,17 +50,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-24T11:15:44.771Z",
-    "component-cached-in": "1.56 ms",
-    "component-resolved-in": "1.56 ms"
+    "component-cached-at": "2021-07-24T11:20:13.479Z",
+    "component-cached-in": "1.68 ms",
+    "component-resolved-in": "1.68 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T11:15:44.771Z",
-      "_cachedIn": "1.08 ms",
-      "_resolvedIn": "1.08 ms",
+      "_cachedAt": "2021-07-24T11:20:13.479Z",
+      "_cachedIn": "1.3 ms",
+      "_resolvedIn": "1.3 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -69,17 +69,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-24T11:15:44.771Z",
-        "component-cached-in": "1.08 ms",
-        "component-resolved-in": "1.08 ms"
+        "component-cached-at": "2021-07-24T11:20:13.479Z",
+        "component-cached-in": "1.3 ms",
+        "component-resolved-in": "1.3 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T11:15:44.771Z",
-          "_cachedIn": "566 μs",
-          "_resolvedIn": "566 μs",
+          "_cachedAt": "2021-07-24T11:20:13.479Z",
+          "_cachedIn": "803 μs",
+          "_resolvedIn": "803 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -87,7 +87,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-24T11:15:25.705Z",
+              "createdAt": "2021-07-24T11:19:53.909Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1732,7 +1732,7 @@
                   }
                 ],
                 "image": "https://cdn.sublayer.io/logo.png",
-                "updatedAt": "2021-07-23T14:25:35.000Z",
+                "updatedAt": "2021-07-24T11:16:51.000Z",
                 "filePath": "/en/stake-pools/8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8.md"
               },
               {
@@ -7550,18 +7550,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-24T11:15:44.771Z",
-            "component-cached-in": "566 μs",
-            "component-resolved-in": "566 μs"
+            "component-cached-at": "2021-07-24T11:20:13.479Z",
+            "component-cached-in": "803 μs",
+            "component-resolved-in": "803 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T11:15:44.771Z",
-          "_cachedIn": "777 μs",
-          "_resolvedIn": "777 μs",
+          "_cachedAt": "2021-07-24T11:20:13.479Z",
+          "_cachedIn": "1.02 ms",
+          "_resolvedIn": "1.02 ms",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7572,17 +7572,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-24T11:15:44.771Z",
-            "component-cached-in": "777 μs",
-            "component-resolved-in": "777 μs"
+            "component-cached-at": "2021-07-24T11:20:13.479Z",
+            "component-cached-in": "1.02 ms",
+            "component-resolved-in": "1.02 ms"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-24T11:15:44.771Z",
-              "_cachedIn": "187 μs",
-              "_resolvedIn": "187 μs",
+              "_cachedAt": "2021-07-24T11:20:13.479Z",
+              "_cachedIn": "336 μs",
+              "_resolvedIn": "336 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7642,9 +7642,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-24T11:15:44.771Z",
-                "component-cached-in": "187 μs",
-                "component-resolved-in": "187 μs"
+                "component-cached-at": "2021-07-24T11:20:13.479Z",
+                "component-cached-in": "336 μs",
+                "component-resolved-in": "336 μs"
               },
               "components": {}
             }
@@ -7653,9 +7653,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T11:15:44.771Z",
-          "_cachedIn": "297 μs",
-          "_resolvedIn": "297 μs",
+          "_cachedAt": "2021-07-24T11:20:13.479Z",
+          "_cachedIn": "377 μs",
+          "_resolvedIn": "377 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7664,9 +7664,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-24T11:15:44.771Z",
-            "component-cached-in": "297 μs",
-            "component-resolved-in": "297 μs"
+            "component-cached-at": "2021-07-24T11:20:13.479Z",
+            "component-cached-in": "377 μs",
+            "component-resolved-in": "377 μs"
           },
           "components": {}
         }
@@ -7675,9 +7675,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T11:15:44.771Z",
-      "_cachedIn": "671 μs",
-      "_resolvedIn": "671 μs",
+      "_cachedAt": "2021-07-24T11:20:13.479Z",
+      "_cachedIn": "781 μs",
+      "_resolvedIn": "781 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7708,18 +7708,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-24T11:15:44.771Z",
-        "component-cached-in": "671 μs",
-        "component-resolved-in": "671 μs"
+        "component-cached-at": "2021-07-24T11:20:13.479Z",
+        "component-cached-in": "781 μs",
+        "component-resolved-in": "781 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T11:15:44.771Z",
-      "_cachedIn": "358 μs",
-      "_resolvedIn": "358 μs",
+      "_cachedAt": "2021-07-24T11:20:13.478Z",
+      "_cachedIn": "418 μs",
+      "_resolvedIn": "418 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7731,18 +7731,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-24T11:15:44.771Z",
-        "component-cached-in": "358 μs",
-        "component-resolved-in": "358 μs"
+        "component-cached-at": "2021-07-24T11:20:13.478Z",
+        "component-cached-in": "418 μs",
+        "component-resolved-in": "418 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T11:15:44.771Z",
-      "_cachedIn": "671 μs",
-      "_resolvedIn": "671 μs",
+      "_cachedAt": "2021-07-24T11:20:13.479Z",
+      "_cachedIn": "780 μs",
+      "_resolvedIn": "780 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7761,9 +7761,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-24T11:15:44.771Z",
-        "component-cached-in": "671 μs",
-        "component-resolved-in": "671 μs"
+        "component-cached-at": "2021-07-24T11:20:13.479Z",
+        "component-cached-in": "780 μs",
+        "component-resolved-in": "780 μs"
       },
       "components": {}
     }
