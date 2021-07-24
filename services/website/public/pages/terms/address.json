@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"address\",\"language\":\"en\",\"slug\":\"/terms/address\",\"url\":\"https:///website.codespace1.sublayer.io/terms/address\",\"origin\":\"/terms/address\",\"title\":\"address\",\"description\":\"The address of an UTXO says where the output is “going”.\",\"aliases\":[\"cardano address\",\"UTXO address\"],\"keywords\":[\"cardano\",\"address\",\"utxo\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/address.md\",\"body\":\"The address stipulates the conditions for unlocking the output. This can be a public key hash, or (in the Extended UTXO model) a script hash. \\tMuch like a URL, a blockchain address is the location to or from which transactions occur on the blockchain. \",\"mdxSource\":{\"compiledSource\":\"var p=Object.defineProperty,d=Object.defineProperties;var l=Object.getOwnPropertyDescriptors;var a=Object.getOwnPropertySymbols;var s=Object.prototype.hasOwnProperty,i=Object.prototype.propertyIsEnumerable;var h=(o,t,n)=>t in o?p(o,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):o[t]=n,c=(o,t)=>{for(var n in t||(t={}))s.call(t,n)&&h(o,n,t[n]);if(a)for(var n of a(t))i.call(t,n)&&h(o,n,t[n]);return o},r=(o,t)=>d(o,l(t));var u=(o,t)=>{var n={};for(var e in o)s.call(o,e)&&t.indexOf(e)<0&&(n[e]=o[e]);if(o!=null&&a)for(var e of a(o))t.indexOf(e)<0&&i.call(o,e)&&(n[e]=o[e]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var e=n,{components:o}=e,t=u(e,[\\\"components\\\"]);return mdx(MDXLayout,r(c(c({},layoutProps),t),{components:o,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"The address stipulates the conditions for unlocking the output. This can be a public key hash, or (in the Extended UTXO model) a script hash. \\tMuch like a URL, a blockchain address is the location to or from which transactions occur on the blockchain. \\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-24T11:20:12.470Z",
-  "_cachedIn": "1.68 ms",
-  "_resolvedIn": "1.68 ms",
+  "_cachedAt": "2021-07-24T11:20:48.804Z",
+  "_cachedIn": "3.81 ms",
+  "_resolvedIn": "3.81 ms",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -44,17 +44,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-24T11:20:12.470Z",
-    "component-cached-in": "1.68 ms",
-    "component-resolved-in": "1.68 ms"
+    "component-cached-at": "2021-07-24T11:20:48.804Z",
+    "component-cached-in": "3.81 ms",
+    "component-resolved-in": "3.81 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T11:20:12.470Z",
-      "_cachedIn": "1.28 ms",
-      "_resolvedIn": "1.28 ms",
+      "_cachedAt": "2021-07-24T11:20:48.803Z",
+      "_cachedIn": "3.09 ms",
+      "_resolvedIn": "3.09 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -63,17 +63,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-24T11:20:12.470Z",
-        "component-cached-in": "1.28 ms",
-        "component-resolved-in": "1.28 ms"
+        "component-cached-at": "2021-07-24T11:20:48.803Z",
+        "component-cached-in": "3.09 ms",
+        "component-resolved-in": "3.09 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T11:20:12.469Z",
-          "_cachedIn": "659 μs",
-          "_resolvedIn": "659 μs",
+          "_cachedAt": "2021-07-24T11:20:48.803Z",
+          "_cachedIn": "1.63 ms",
+          "_resolvedIn": "1.63 ms",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -81,7 +81,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-24T11:19:53.909Z",
+              "createdAt": "2021-07-24T11:20:31.054Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -7544,18 +7544,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-24T11:20:12.469Z",
-            "component-cached-in": "659 μs",
-            "component-resolved-in": "659 μs"
+            "component-cached-at": "2021-07-24T11:20:48.803Z",
+            "component-cached-in": "1.63 ms",
+            "component-resolved-in": "1.63 ms"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T11:20:12.470Z",
-          "_cachedIn": "869 μs",
-          "_resolvedIn": "869 μs",
+          "_cachedAt": "2021-07-24T11:20:48.803Z",
+          "_cachedIn": "2.13 ms",
+          "_resolvedIn": "2.13 ms",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7566,17 +7566,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-24T11:20:12.470Z",
-            "component-cached-in": "869 μs",
-            "component-resolved-in": "869 μs"
+            "component-cached-at": "2021-07-24T11:20:48.803Z",
+            "component-cached-in": "2.13 ms",
+            "component-resolved-in": "2.13 ms"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-24T11:20:12.470Z",
-              "_cachedIn": "196 μs",
-              "_resolvedIn": "196 μs",
+              "_cachedAt": "2021-07-24T11:20:48.803Z",
+              "_cachedIn": "492 μs",
+              "_resolvedIn": "492 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7636,9 +7636,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-24T11:20:12.470Z",
-                "component-cached-in": "196 μs",
-                "component-resolved-in": "196 μs"
+                "component-cached-at": "2021-07-24T11:20:48.803Z",
+                "component-cached-in": "492 μs",
+                "component-resolved-in": "492 μs"
               },
               "components": {}
             }
@@ -7647,9 +7647,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T11:20:12.469Z",
-          "_cachedIn": "319 μs",
-          "_resolvedIn": "319 μs",
+          "_cachedAt": "2021-07-24T11:20:48.802Z",
+          "_cachedIn": "879 μs",
+          "_resolvedIn": "879 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7658,9 +7658,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-24T11:20:12.469Z",
-            "component-cached-in": "319 μs",
-            "component-resolved-in": "319 μs"
+            "component-cached-at": "2021-07-24T11:20:48.802Z",
+            "component-cached-in": "879 μs",
+            "component-resolved-in": "879 μs"
           },
           "components": {}
         }
@@ -7669,9 +7669,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T11:20:12.469Z",
-      "_cachedIn": "822 μs",
-      "_resolvedIn": "822 μs",
+      "_cachedAt": "2021-07-24T11:20:48.802Z",
+      "_cachedIn": "2.07 ms",
+      "_resolvedIn": "2.07 ms",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7702,18 +7702,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-24T11:20:12.469Z",
-        "component-cached-in": "822 μs",
-        "component-resolved-in": "822 μs"
+        "component-cached-at": "2021-07-24T11:20:48.802Z",
+        "component-cached-in": "2.07 ms",
+        "component-resolved-in": "2.07 ms"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T11:20:12.469Z",
-      "_cachedIn": "475 μs",
-      "_resolvedIn": "475 μs",
+      "_cachedAt": "2021-07-24T11:20:48.802Z",
+      "_cachedIn": "1.22 ms",
+      "_resolvedIn": "1.22 ms",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7725,18 +7725,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-24T11:20:12.469Z",
-        "component-cached-in": "475 μs",
-        "component-resolved-in": "475 μs"
+        "component-cached-at": "2021-07-24T11:20:48.802Z",
+        "component-cached-in": "1.22 ms",
+        "component-resolved-in": "1.22 ms"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T11:20:12.469Z",
-      "_cachedIn": "821 μs",
-      "_resolvedIn": "821 μs",
+      "_cachedAt": "2021-07-24T11:20:48.802Z",
+      "_cachedIn": "2.06 ms",
+      "_resolvedIn": "2.06 ms",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7755,9 +7755,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-24T11:20:12.469Z",
-        "component-cached-in": "821 μs",
-        "component-resolved-in": "821 μs"
+        "component-cached-at": "2021-07-24T11:20:48.802Z",
+        "component-cached-in": "2.06 ms",
+        "component-resolved-in": "2.06 ms"
       },
       "components": {}
     }
