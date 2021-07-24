@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"private-key\",\"language\":\"en\",\"slug\":\"/terms/private-key\",\"url\":\"https:///website.codespace1.sublayer.io/terms/private-key\",\"origin\":\"/terms/private-key\",\"title\":\"Private key\",\"description\":\"A private key is a randomly generated secret number that should only be known to the owner of the associated address.\",\"aliases\":[\"private key\",\"wallet private key\"],\"keywords\":[\"private\",\"key\",\"keys\",\"wallet\"],\"template\":\"TermDetailPage\",\"updatedAt\":\"2021-06-23T22:12:36.000Z\",\"filePath\":\"/en/terms/private-key.md\",\"body\":\"Private keys are contained in a wallet and are mathematically linked to the corresponding public keys. A private key can be used to spend the funds that are associated with a specific address and should, therefore, be kept private. Publicly sharing a private key will result in a loss of funds.\",\"mdxSource\":{\"compiledSource\":\"var u=Object.defineProperty,c=Object.defineProperties;var y=Object.getOwnPropertyDescriptors;var o=Object.getOwnPropertySymbols;var i=Object.prototype.hasOwnProperty,r=Object.prototype.propertyIsEnumerable;var p=(e,t,a)=>t in e?u(e,t,{enumerable:!0,configurable:!0,writable:!0,value:a}):e[t]=a,s=(e,t)=>{for(var a in t||(t={}))i.call(t,a)&&p(e,a,t[a]);if(o)for(var a of o(t))r.call(t,a)&&p(e,a,t[a]);return e},d=(e,t)=>c(e,y(t));var l=(e,t)=>{var a={};for(var n in e)i.call(e,n)&&t.indexOf(n)<0&&(a[n]=e[n]);if(e!=null&&o)for(var n of o(e))t.indexOf(n)<0&&r.call(e,n)&&(a[n]=e[n]);return a};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(a){var n=a,{components:e}=n,t=l(n,[\\\"components\\\"]);return mdx(MDXLayout,d(s(s({},layoutProps),t),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"Private keys are contained in a wallet and are mathematically linked to the corresponding public keys. A private key can be used to spend the funds that are associated with a specific address and should, therefore, be kept private. Publicly sharing a private key will result in a loss of funds.\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-24T17:45:59.475Z",
-  "_cachedIn": "1.29 ms",
-  "_resolvedIn": "1.29 ms",
+  "_cachedAt": "2021-07-24T19:25:21.648Z",
+  "_cachedIn": "2.17 ms",
+  "_resolvedIn": "2.17 ms",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -39,17 +39,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-24T17:45:59.475Z",
-    "component-cached-in": "1.29 ms",
-    "component-resolved-in": "1.29 ms"
+    "component-cached-at": "2021-07-24T19:25:21.648Z",
+    "component-cached-in": "2.17 ms",
+    "component-resolved-in": "2.17 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T17:45:59.475Z",
-      "_cachedIn": "925 μs",
-      "_resolvedIn": "925 μs",
+      "_cachedAt": "2021-07-24T19:25:21.648Z",
+      "_cachedIn": "1.81 ms",
+      "_resolvedIn": "1.81 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -58,17 +58,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-24T17:45:59.475Z",
-        "component-cached-in": "925 μs",
-        "component-resolved-in": "925 μs"
+        "component-cached-at": "2021-07-24T19:25:21.648Z",
+        "component-cached-in": "1.81 ms",
+        "component-resolved-in": "1.81 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T17:45:59.475Z",
-          "_cachedIn": "544 μs",
-          "_resolvedIn": "544 μs",
+          "_cachedAt": "2021-07-24T19:25:21.647Z",
+          "_cachedIn": "1.1 ms",
+          "_resolvedIn": "1.1 ms",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -76,7 +76,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-24T17:45:46.729Z",
+              "createdAt": "2021-07-24T19:25:08.428Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1057,7 +1057,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/pascal.jpeg",
-                "updatedAt": "2021-07-23T15:18:20.000Z",
+                "updatedAt": "2021-07-24T17:59:52.000Z",
                 "filePath": "/en/identities/pascal-berry.md"
               },
               {
@@ -1423,7 +1423,7 @@
                   }
                 ],
                 "image": "https://static.adapools.org/pool_logo/052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e.png",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-24T19:08:07.000Z",
                 "filePath": "/en/stake-pools/052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e.md"
               },
               {
@@ -1914,7 +1914,7 @@
                   }
                 ],
                 "image": "https://adamantium.online/images/sun.jpg",
-                "updatedAt": "2021-07-24T14:11:45.000Z",
+                "updatedAt": "2021-07-24T18:32:32.000Z",
                 "filePath": "/en/stake-pools/c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae.md"
               },
               {
@@ -2220,7 +2220,7 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "RuleDetailPage",
-                "updatedAt": "2021-07-24T16:54:43.000Z",
+                "updatedAt": "2021-07-24T17:52:06.000Z",
                 "filePath": "/en/rules/rule-1.md"
               },
               {
@@ -2234,7 +2234,7 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "RuleDetailPage",
-                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "updatedAt": "2021-07-24T17:52:06.000Z",
                 "filePath": "/en/rules/rule-2.md"
               },
               {
@@ -2248,7 +2248,7 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "RuleDetailPage",
-                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "updatedAt": "2021-07-24T17:52:06.000Z",
                 "filePath": "/en/rules/rule-3.md"
               },
               {
@@ -2262,7 +2262,7 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "RuleDetailPage",
-                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "updatedAt": "2021-07-24T17:52:06.000Z",
                 "filePath": "/en/rules/rule-4.md"
               },
               {
@@ -2276,7 +2276,7 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "RuleDetailPage",
-                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "updatedAt": "2021-07-24T17:52:06.000Z",
                 "filePath": "/en/rules/rule-5.md"
               },
               {
@@ -2290,7 +2290,7 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "RuleDetailPage",
-                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "updatedAt": "2021-07-24T17:52:06.000Z",
                 "filePath": "/en/rules/rule-6.md"
               },
               {
@@ -2304,7 +2304,7 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "RuleDetailPage",
-                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "updatedAt": "2021-07-24T17:52:06.000Z",
                 "filePath": "/en/rules/rule-7.md"
               },
               {
@@ -2318,7 +2318,7 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "RuleDetailPage",
-                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "updatedAt": "2021-07-24T17:52:06.000Z",
                 "filePath": "/en/rules/rule-8.md"
               },
               {
@@ -7651,18 +7651,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-24T17:45:59.475Z",
-            "component-cached-in": "544 μs",
-            "component-resolved-in": "544 μs"
+            "component-cached-at": "2021-07-24T19:25:21.647Z",
+            "component-cached-in": "1.1 ms",
+            "component-resolved-in": "1.1 ms"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T17:45:59.475Z",
-          "_cachedIn": "693 μs",
-          "_resolvedIn": "693 μs",
+          "_cachedAt": "2021-07-24T19:25:21.648Z",
+          "_cachedIn": "1.39 ms",
+          "_resolvedIn": "1.39 ms",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7673,17 +7673,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-24T17:45:59.475Z",
-            "component-cached-in": "693 μs",
-            "component-resolved-in": "693 μs"
+            "component-cached-at": "2021-07-24T19:25:21.648Z",
+            "component-cached-in": "1.39 ms",
+            "component-resolved-in": "1.39 ms"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-24T17:45:59.475Z",
-              "_cachedIn": "130 μs",
-              "_resolvedIn": "130 μs",
+              "_cachedAt": "2021-07-24T19:25:21.647Z",
+              "_cachedIn": "299 μs",
+              "_resolvedIn": "299 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7743,9 +7743,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-24T17:45:59.475Z",
-                "component-cached-in": "130 μs",
-                "component-resolved-in": "130 μs"
+                "component-cached-at": "2021-07-24T19:25:21.647Z",
+                "component-cached-in": "299 μs",
+                "component-resolved-in": "299 μs"
               },
               "components": {}
             }
@@ -7754,9 +7754,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T17:45:59.475Z",
-          "_cachedIn": "322 μs",
-          "_resolvedIn": "322 μs",
+          "_cachedAt": "2021-07-24T19:25:21.647Z",
+          "_cachedIn": "541 μs",
+          "_resolvedIn": "541 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7765,9 +7765,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-24T17:45:59.475Z",
-            "component-cached-in": "322 μs",
-            "component-resolved-in": "322 μs"
+            "component-cached-at": "2021-07-24T19:25:21.647Z",
+            "component-cached-in": "541 μs",
+            "component-resolved-in": "541 μs"
           },
           "components": {}
         }
@@ -7776,9 +7776,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T17:45:59.475Z",
-      "_cachedIn": "611 μs",
-      "_resolvedIn": "611 μs",
+      "_cachedAt": "2021-07-24T19:25:21.647Z",
+      "_cachedIn": "1.17 ms",
+      "_resolvedIn": "1.17 ms",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7791,18 +7791,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-24T17:45:59.475Z",
-        "component-cached-in": "611 μs",
-        "component-resolved-in": "611 μs"
+        "component-cached-at": "2021-07-24T19:25:21.647Z",
+        "component-cached-in": "1.17 ms",
+        "component-resolved-in": "1.17 ms"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T17:45:59.475Z",
-      "_cachedIn": "309 μs",
-      "_resolvedIn": "309 μs",
+      "_cachedAt": "2021-07-24T19:25:21.646Z",
+      "_cachedIn": "566 μs",
+      "_resolvedIn": "566 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7814,18 +7814,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-24T17:45:59.475Z",
-        "component-cached-in": "309 μs",
-        "component-resolved-in": "309 μs"
+        "component-cached-at": "2021-07-24T19:25:21.646Z",
+        "component-cached-in": "566 μs",
+        "component-resolved-in": "566 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T17:45:59.475Z",
-      "_cachedIn": "617 μs",
-      "_resolvedIn": "617 μs",
+      "_cachedAt": "2021-07-24T19:25:21.647Z",
+      "_cachedIn": "1.18 ms",
+      "_resolvedIn": "1.18 ms",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7844,9 +7844,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-24T17:45:59.475Z",
-        "component-cached-in": "617 μs",
-        "component-resolved-in": "617 μs"
+        "component-cached-at": "2021-07-24T19:25:21.647Z",
+        "component-cached-in": "1.18 ms",
+        "component-resolved-in": "1.18 ms"
       },
       "components": {}
     }
