@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"hardware-wallet\",\"language\":\"en\",\"slug\":\"/terms/hardware-wallet\",\"url\":\"https:///website.codespace1.sublayer.io/terms/hardware-wallet\",\"origin\":\"/terms/hardware-wallet\",\"title\":\"Hardware wallet\",\"description\":\"A hardware wallet is a special type of wallet that stores the user's private keys in a secure hardware device.\",\"aliases\":[\"Hardware wallet\"],\"keywords\":[\"hardware\",\"wallet\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"},{\"id\":\"sublayerio\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/hardware-wallet.md\",\"body\":\"The [private keys](/terms/private-keys) never leave the device, ensuring that there is no risk of losing funds even if the device is exposed to a potentially infected computer. Hardware wallets offer the security of a cold wallet or paper wallet but with the benefit of accessibility similar to hot wallets.\\n\\n## Choose a brand\\n\\n1. [Trezor](/terms/trezor)\\n2. [Ledger Nano S or Ledger Nano X](/terms/ledger-hardware-wallet)\\n\\n## How does it work?\\n\\nThe big difference with signing transactions with a hardware wallet device as opposed to a wallet [private key](/terms/private-key) directly stored in the wallet application on your phone or laptop is the location where the transaction get's signed.\\n\\nWith the wallet directly stored on your computer or phone that's directly connected to the internet it's exposed to potential hacker to be stolen.\\n\\nUsing the hardware wallet device however, you have a device that's not connected to the internet by itself (since it's only connected in a way that the transaction can be received and send back to your computer or phone). This way the transaction can be safely signed.\\n\\nThe steps below can differ a little based on which wallet application or hardware wallet device you use.\\n\\n1. Open up a wallet application that supports your specific hardware wallet device.\\n2. The hardware wallet can either be connected through USB or Bluetooth.\\n3. The wallet application will ask your hardware wallet device to export the [public key](/terms/public-key) so it knows which wallet address to import to your wallet application.\\n4. You're wallet is now listed in the wallet application (usually, depending on the application you use, you don't have to repeat this process and your wallet application will remember the wallet).\\n5. Create a new transaction, specifying the amount and the receiver address.\\n6. Confirm the transaction in the wallet application.\\n7. Once you confirm, the wallet application will send the unsigned transaction to the hardware wallet device to be signed.\\n8. The hardware wallet device will show you the transaction details on it's display for you to check.\\n9. Sign the transaction by confirming it on the hardware wallet device.\\n10. The signed transaction will now be send back to your wallet application and submitted to the blockchain.\\n11. Your transaction has now been successfully send.\",\"mdxSource\":{\"compiledSource\":\"var c=Object.defineProperty,d=Object.defineProperties;var w=Object.getOwnPropertyDescriptors;var l=Object.getOwnPropertySymbols;var n=Object.prototype.hasOwnProperty,r=Object.prototype.propertyIsEnumerable;var s=(e,t,a)=>t in e?c(e,t,{enumerable:!0,configurable:!0,writable:!0,value:a}):e[t]=a,i=(e,t)=>{for(var a in t||(t={}))n.call(t,a)&&s(e,a,t[a]);if(l)for(var a of l(t))r.call(t,a)&&s(e,a,t[a]);return e},p=(e,t)=>d(e,w(t));var h=(e,t)=>{var a={};for(var o in e)n.call(e,o)&&t.indexOf(o)<0&&(a[o]=e[o]);if(e!=null&&l)for(var o of l(e))t.indexOf(o)<0&&r.call(e,o)&&(a[o]=e[o]);return a};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(a){var o=a,{components:e}=o,t=h(o,[\\\"components\\\"]);return mdx(MDXLayout,p(i(i({},layoutProps),t),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"The \\\",mdx(\\\"a\\\",i({parentName:\\\"p\\\"},{href:\\\"/terms/private-keys\\\"}),\\\"private keys\\\"),\\\" never leave the device, ensuring that there is no risk of losing funds even if the device is exposed to a potentially infected computer. Hardware wallets offer the security of a cold wallet or paper wallet but with the benefit of accessibility similar to hot wallets.\\\"),mdx(\\\"h2\\\",null,\\\"Choose a brand\\\"),mdx(\\\"ol\\\",null,mdx(\\\"li\\\",{parentName:\\\"ol\\\"},mdx(\\\"a\\\",i({parentName:\\\"li\\\"},{href:\\\"/terms/trezor\\\"}),\\\"Trezor\\\")),mdx(\\\"li\\\",{parentName:\\\"ol\\\"},mdx(\\\"a\\\",i({parentName:\\\"li\\\"},{href:\\\"/terms/ledger-hardware-wallet\\\"}),\\\"Ledger Nano S or Ledger Nano X\\\"))),mdx(\\\"h2\\\",null,\\\"How does it work?\\\"),mdx(\\\"p\\\",null,\\\"The big difference with signing transactions with a hardware wallet device as opposed to a wallet \\\",mdx(\\\"a\\\",i({parentName:\\\"p\\\"},{href:\\\"/terms/private-key\\\"}),\\\"private key\\\"),\\\" directly stored in the wallet application on your phone or laptop is the location where the transaction get's signed.\\\"),mdx(\\\"p\\\",null,\\\"With the wallet directly stored on your computer or phone that's directly connected to the internet it's exposed to potential hacker to be stolen.\\\"),mdx(\\\"p\\\",null,\\\"Using the hardware wallet device however, you have a device that's not connected to the internet by itself (since it's only connected in a way that the transaction can be received and send back to your computer or phone). This way the transaction can be safely signed.\\\"),mdx(\\\"p\\\",null,\\\"The steps below can differ a little based on which wallet application or hardware wallet device you use.\\\"),mdx(\\\"ol\\\",null,mdx(\\\"li\\\",{parentName:\\\"ol\\\"},\\\"Open up a wallet application that supports your specific hardware wallet device.\\\"),mdx(\\\"li\\\",{parentName:\\\"ol\\\"},\\\"The hardware wallet can either be connected through USB or Bluetooth.\\\"),mdx(\\\"li\\\",{parentName:\\\"ol\\\"},\\\"The wallet application will ask your hardware wallet device to export the \\\",mdx(\\\"a\\\",i({parentName:\\\"li\\\"},{href:\\\"/terms/public-key\\\"}),\\\"public key\\\"),\\\" so it knows which wallet address to import to your wallet application.\\\"),mdx(\\\"li\\\",{parentName:\\\"ol\\\"},\\\"You're wallet is now listed in the wallet application (usually, depending on the application you use, you don't have to repeat this process and your wallet application will remember the wallet).\\\"),mdx(\\\"li\\\",{parentName:\\\"ol\\\"},\\\"Create a new transaction, specifying the amount and the receiver address.\\\"),mdx(\\\"li\\\",{parentName:\\\"ol\\\"},\\\"Confirm the transaction in the wallet application.\\\"),mdx(\\\"li\\\",{parentName:\\\"ol\\\"},\\\"Once you confirm, the wallet application will send the unsigned transaction to the hardware wallet device to be signed.\\\"),mdx(\\\"li\\\",{parentName:\\\"ol\\\"},\\\"The hardware wallet device will show you the transaction details on it's display for you to check.\\\"),mdx(\\\"li\\\",{parentName:\\\"ol\\\"},\\\"Sign the transaction by confirming it on the hardware wallet device.\\\"),mdx(\\\"li\\\",{parentName:\\\"ol\\\"},\\\"The signed transaction will now be send back to your wallet application and submitted to the blockchain.\\\"),mdx(\\\"li\\\",{parentName:\\\"ol\\\"},\\\"Your transaction has now been successfully send.\\\")))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-24T16:55:19.699Z",
-  "_cachedIn": "1.98 ms",
-  "_resolvedIn": "1.98 ms",
+  "_cachedAt": "2021-07-24T17:00:14.636Z",
+  "_cachedIn": "1.48 ms",
+  "_resolvedIn": "1.48 ms",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -46,17 +46,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-24T16:55:19.699Z",
-    "component-cached-in": "1.98 ms",
-    "component-resolved-in": "1.98 ms"
+    "component-cached-at": "2021-07-24T17:00:14.636Z",
+    "component-cached-in": "1.48 ms",
+    "component-resolved-in": "1.48 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T16:55:19.699Z",
-      "_cachedIn": "1.43 ms",
-      "_resolvedIn": "1.43 ms",
+      "_cachedAt": "2021-07-24T17:00:14.635Z",
+      "_cachedIn": "1.11 ms",
+      "_resolvedIn": "1.11 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -65,17 +65,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-24T16:55:19.699Z",
-        "component-cached-in": "1.43 ms",
-        "component-resolved-in": "1.43 ms"
+        "component-cached-at": "2021-07-24T17:00:14.635Z",
+        "component-cached-in": "1.11 ms",
+        "component-resolved-in": "1.11 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T16:55:19.698Z",
-          "_cachedIn": "833 μs",
-          "_resolvedIn": "833 μs",
+          "_cachedAt": "2021-07-24T17:00:14.635Z",
+          "_cachedIn": "663 μs",
+          "_resolvedIn": "663 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -83,7 +83,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-24T16:55:08.510Z",
+              "createdAt": "2021-07-24T17:00:01.281Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1349,7 +1349,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/wcat.jpeg",
-                "updatedAt": "2021-07-24T10:36:53.000Z",
+                "updatedAt": "2021-07-24T14:27:31.000Z",
                 "filePath": "/en/identities/wcat-otg.md"
               },
               {
@@ -1728,7 +1728,7 @@
                   }
                 ],
                 "image": "https://cdn.sublayer.io/logo.png",
-                "updatedAt": "2021-07-24T11:16:51.000Z",
+                "updatedAt": "2021-07-24T16:52:14.000Z",
                 "filePath": "/en/stake-pools/8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8.md"
               },
               {
@@ -1858,7 +1858,7 @@
                   }
                 ],
                 "image": "https://piada.io/piadaFull.png",
-                "updatedAt": "2021-07-24T06:52:08.000Z",
+                "updatedAt": "2021-07-24T16:41:27.000Z",
                 "filePath": "/en/stake-pools/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65.md"
               },
               {
@@ -1921,7 +1921,7 @@
                   }
                 ],
                 "image": "https://adamantium.online/images/sun.jpg",
-                "updatedAt": "2021-07-24T09:36:58.000Z",
+                "updatedAt": "2021-07-24T14:11:45.000Z",
                 "filePath": "/en/stake-pools/c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae.md"
               },
               {
@@ -7546,18 +7546,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-24T16:55:19.698Z",
-            "component-cached-in": "833 μs",
-            "component-resolved-in": "833 μs"
+            "component-cached-at": "2021-07-24T17:00:14.635Z",
+            "component-cached-in": "663 μs",
+            "component-resolved-in": "663 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T16:55:19.699Z",
-          "_cachedIn": "1.1 ms",
-          "_resolvedIn": "1.1 ms",
+          "_cachedAt": "2021-07-24T17:00:14.635Z",
+          "_cachedIn": "858 μs",
+          "_resolvedIn": "858 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7568,17 +7568,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-24T16:55:19.699Z",
-            "component-cached-in": "1.1 ms",
-            "component-resolved-in": "1.1 ms"
+            "component-cached-at": "2021-07-24T17:00:14.635Z",
+            "component-cached-in": "858 μs",
+            "component-resolved-in": "858 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-24T16:55:19.698Z",
-              "_cachedIn": "245 μs",
-              "_resolvedIn": "245 μs",
+              "_cachedAt": "2021-07-24T17:00:14.635Z",
+              "_cachedIn": "197 μs",
+              "_resolvedIn": "197 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7638,9 +7638,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-24T16:55:19.698Z",
-                "component-cached-in": "245 μs",
-                "component-resolved-in": "245 μs"
+                "component-cached-at": "2021-07-24T17:00:14.635Z",
+                "component-cached-in": "197 μs",
+                "component-resolved-in": "197 μs"
               },
               "components": {}
             }
@@ -7649,9 +7649,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T16:55:19.698Z",
-          "_cachedIn": "446 μs",
-          "_resolvedIn": "446 μs",
+          "_cachedAt": "2021-07-24T17:00:14.635Z",
+          "_cachedIn": "393 μs",
+          "_resolvedIn": "393 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7660,9 +7660,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-24T16:55:19.698Z",
-            "component-cached-in": "446 μs",
-            "component-resolved-in": "446 μs"
+            "component-cached-at": "2021-07-24T17:00:14.635Z",
+            "component-cached-in": "393 μs",
+            "component-resolved-in": "393 μs"
           },
           "components": {}
         }
@@ -7671,9 +7671,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T16:55:19.698Z",
-      "_cachedIn": "917 μs",
-      "_resolvedIn": "917 μs",
+      "_cachedAt": "2021-07-24T17:00:14.635Z",
+      "_cachedIn": "744 μs",
+      "_resolvedIn": "744 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7721,18 +7721,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-24T16:55:19.698Z",
-        "component-cached-in": "917 μs",
-        "component-resolved-in": "917 μs"
+        "component-cached-at": "2021-07-24T17:00:14.635Z",
+        "component-cached-in": "744 μs",
+        "component-resolved-in": "744 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T16:55:19.698Z",
-      "_cachedIn": "460 μs",
-      "_resolvedIn": "460 μs",
+      "_cachedAt": "2021-07-24T17:00:14.635Z",
+      "_cachedIn": "407 μs",
+      "_resolvedIn": "407 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7744,18 +7744,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-24T16:55:19.698Z",
-        "component-cached-in": "460 μs",
-        "component-resolved-in": "460 μs"
+        "component-cached-at": "2021-07-24T17:00:14.635Z",
+        "component-cached-in": "407 μs",
+        "component-resolved-in": "407 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T16:55:19.698Z",
-      "_cachedIn": "918 μs",
-      "_resolvedIn": "918 μs",
+      "_cachedAt": "2021-07-24T17:00:14.635Z",
+      "_cachedIn": "744 μs",
+      "_resolvedIn": "744 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7774,9 +7774,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-24T16:55:19.698Z",
-        "component-cached-in": "918 μs",
-        "component-resolved-in": "918 μs"
+        "component-cached-at": "2021-07-24T17:00:14.635Z",
+        "component-cached-in": "744 μs",
+        "component-resolved-in": "744 μs"
       },
       "components": {}
     }

@@ -9,7 +9,7 @@ const getDataForPage = async (filePath) => {
 
     const dirPath = path.join(contentPath)
 
-    const string = await fs.readFile(
+    let string = await fs.readFile(
         path.join(
             dirPath,
             filePath
