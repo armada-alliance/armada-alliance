@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"Behemoth BHMT\",\"slug\":\"/pool-widget/052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e\",\"template\":\"PoolWidgetPage\",\"poolId\":\"052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-24T11:20:48.119Z",
-  "_cachedIn": "278 μs",
-  "_resolvedIn": "278 μs",
+  "_cachedAt": "2021-07-24T16:50:11.315Z",
+  "_cachedIn": "310 μs",
+  "_resolvedIn": "310 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
@@ -29,12 +29,12 @@
       "ticker": "BHMT",
       "addr": "pool1q5h54ekx7wwqpfz78y8dppyl6uv7rpyvvr8nhf4es434un4mpx3",
       "website": "https://www.behemothpool.com",
-      "totalStake": "6063252442",
+      "totalStake": "6063054249",
       "blocksLifetime": 0,
       "delegators": 4,
-      "saturated": 0.00009072636464291954,
-      "pledge": "50000000",
-      "pledged": "171362869",
+      "saturated": 0.0000906515586444268,
+      "pledge": "150000000",
+      "pledged": "171164676",
       "taxRatio": 0,
       "taxFix": "345000000",
       "roa": "0",
@@ -48,10 +48,10 @@
       ],
       "relays": [
         {
-          "addr": "176.93.21.218",
+          "addr": "behemothpool.ddns.net",
           "port": 6000,
           "data": {
-            "ip": "176.93.21.218",
+            "ip": "176.93.23.86",
             "type": "ipv4",
             "continent_code": "EU",
             "continent_name": "Europe",
@@ -125,17 +125,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2021-07-24T11:20:48.119Z",
-    "component-cached-in": "278 μs",
-    "component-resolved-in": "278 μs"
+    "component-cached-at": "2021-07-24T16:50:11.315Z",
+    "component-cached-in": "310 μs",
+    "component-resolved-in": "310 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T11:20:48.119Z",
-      "_cachedIn": "98 μs",
-      "_resolvedIn": "98 μs",
+      "_cachedAt": "2021-07-24T16:50:11.315Z",
+      "_cachedIn": "119 μs",
+      "_resolvedIn": "119 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -144,17 +144,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-24T11:20:48.119Z",
-        "component-cached-in": "98 μs",
-        "component-resolved-in": "98 μs"
+        "component-cached-at": "2021-07-24T16:50:11.315Z",
+        "component-cached-in": "119 μs",
+        "component-resolved-in": "119 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T11:20:48.119Z",
-          "_cachedIn": "58 μs",
-          "_resolvedIn": "58 μs",
+          "_cachedAt": "2021-07-24T16:50:11.315Z",
+          "_cachedIn": "72 μs",
+          "_resolvedIn": "72 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -162,7 +162,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-24T11:20:31.054Z",
+              "createdAt": "2021-07-24T16:49:58.104Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1723,7 +1723,7 @@
                   }
                 ],
                 "image": "https://stakefornature.com/ico.png",
-                "updatedAt": "2021-07-24T10:21:53.000Z",
+                "updatedAt": "2021-07-24T11:24:56.000Z",
                 "filePath": "/en/stake-pools/5707e4254180d481a4f1e690be0c2c54b3a618051d907df7e4434c0b.md"
               },
               {
@@ -7625,18 +7625,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-24T11:20:48.119Z",
-            "component-cached-in": "58 μs",
-            "component-resolved-in": "58 μs"
+            "component-cached-at": "2021-07-24T16:50:11.315Z",
+            "component-cached-in": "72 μs",
+            "component-resolved-in": "72 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T11:20:48.119Z",
-          "_cachedIn": "77 μs",
-          "_resolvedIn": "77 μs",
+          "_cachedAt": "2021-07-24T16:50:11.315Z",
+          "_cachedIn": "92 μs",
+          "_resolvedIn": "92 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7647,17 +7647,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-24T11:20:48.119Z",
-            "component-cached-in": "77 μs",
-            "component-resolved-in": "77 μs"
+            "component-cached-at": "2021-07-24T16:50:11.315Z",
+            "component-cached-in": "92 μs",
+            "component-resolved-in": "92 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-24T11:20:48.119Z",
-              "_cachedIn": "20 μs",
-              "_resolvedIn": "20 μs",
+              "_cachedAt": "2021-07-24T16:50:11.315Z",
+              "_cachedIn": "23 μs",
+              "_resolvedIn": "23 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7717,9 +7717,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-24T11:20:48.119Z",
-                "component-cached-in": "20 μs",
-                "component-resolved-in": "20 μs"
+                "component-cached-at": "2021-07-24T16:50:11.315Z",
+                "component-cached-in": "23 μs",
+                "component-resolved-in": "23 μs"
               },
               "components": {}
             }
@@ -7728,9 +7728,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T11:20:48.119Z",
-          "_cachedIn": "21 μs",
-          "_resolvedIn": "21 μs",
+          "_cachedAt": "2021-07-24T16:50:11.315Z",
+          "_cachedIn": "22 μs",
+          "_resolvedIn": "22 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7739,9 +7739,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-24T11:20:48.119Z",
-            "component-cached-in": "21 μs",
-            "component-resolved-in": "21 μs"
+            "component-cached-at": "2021-07-24T16:50:11.315Z",
+            "component-cached-in": "22 μs",
+            "component-resolved-in": "22 μs"
           },
           "components": {}
         }

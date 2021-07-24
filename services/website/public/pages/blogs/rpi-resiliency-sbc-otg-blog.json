@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"BlogDetailPage\",\"version\":1},\"props\":{\"id\":\"rpi-resiliency-sbc-otg-blog\",\"language\":\"en\",\"slug\":\"/blogs/rpi-resiliency-sbc-otg-blog\",\"url\":\"https:///website.codespace1.sublayer.io/blogs/rpi-resiliency-sbc-otg-blog\",\"origin\":\"/blogs/rpi-resiliency-sbc-otg-blog\",\"title\":\"Proof of Resiliency\",\"description\":\"A Short Story of true resiliency and decentralization\",\"aliases\":null,\"keywords\":null,\"template\":\"BlogDetailPage\",\"identities\":[{\"id\":\"ken-adams\",\"role\":\"author\"},{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"image\":\"/flood-disaster.webp\",\"updatedAt\":\"2021-07-23T13:28:15.000Z\",\"filePath\":\"/en/blogs/rpi-resiliency-sbc-otg-blog.md\",\"imageCaption\":\"Credits to [@jimgade](https://unsplash.com/photos/cKjxGyfNdQc) at Unsplash\",\"body\":\"Are you into blockchain technology and cryptocurrency? Do you already stake 3rd generation blockchain [digital assets](/terms/digital-asset) for a consistent ROI virtually risk-free? If you answered yes to the previous two questions, you are amongst the growing community of like-minded individuals across this planet who seek to bring true [decentralization](/terms/decentralized). And you probably know\\nthat I am talking about [Cardano](/terms/cardano), with its native digital asset, ADA.\\n\\n## German Flooding 2021\\n\\nWith your global mindset and connection to members of the Cardano ecosystem, you may be aware that numerous members of the Cardano community have been affected by the devastating flooding all around Germany.  \\n\\n<YoutubeVideo url=\\\"https://www.youtube.com/watch?v=I9RAh6urs9o\\\" description=\\\"German Flooding 2021\\\" />\\n\\nMany of you know these individuals personally, and some of you reading this are directly affected by lost communications, suffered server and power interruptions taking systems offline. Many are still recovering and possibly have lost much more than just a stake pool or money. Nothing can replace your family, your home, your friends, and the memories you have had with them all. Our best wishes and support go out to all of you affected by this tragedy.\\n \\nBut this is what global decentralization is all about, am I right? No central server, no singular point of control or loss. What if this, what if that, what if…\\n \\nDid you know, that in Hagen, Germany, a town hit especially hard, there is an SPO [SBC](/stake-pools/406a08532d2ca8dd08ea39e082dc8acdc2a3b34d0c517bd0e40af5e1) who already thinks of “what if's” his operation like many others who personally own and operate their hardware and network connections? There is no probable way he could have picked extreme flooding as the impact, or that it would literally run down his street and flood the basement, but his Stake Pool is so low energy, high efficiency, and compact that it operates daily using a [Raspberry Pi?](/identities/raspberrypi) That’s right, and because of that, he actually has a local UPS setup and emergency internet connections established that would keep his Cardano Node running for up to three weeks if ever off-grid!\\n \\n\\n<ImagesSection \\n  images={[\\n    { url: '/sbc-flood-2021_1.jpg' },\\n    { url: '/sbc-flood-2021_2.jpg' },\\n  ]}\\n/>\\n\\n> They lost power multiple times through this event in fact, this event flooded out his basement, but at no time did the node lose its connection to the Cardano network, talk about resilience and efficiency!\\n \\n## Utilizing Starlink as fallback\\n\\nThis is not the first time RPI [SPO’s](/terms/stake-pool-operator) maintained connection through local emergency events. One node from [OTG](/stake-pools/c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae) pool that operates solely on solar panels and recycled computer batteries for UPS recently managed to connect to Starlink while the grid was offline… AND MINTED A [BLOCK](/terms/block)!\\n \\nWhy the all-caps excitement about minting a block you may be asking yourself. Well, first, I personally do not know of any other Cardano SPO's that have produced a block using [Starlink](/identities/starlink) at this point, but that is impressive to me nonetheless.\\n \\n## Making the Cardano network more resilient\\n\\nThe true excitement comes from the fact that very little attention is currently given to the low-impact, high-efficiency community of single pool SPO’s operating on Raspberry Pis in the Cardano Ecosystem. Sure, [Mr. Hoskinson](/identities/charles-hoskinson) held one up on a video of his and said “this is the future” but that was so last month.\\n \\nWhen decisions are made by holders of ADA, measuring the best pools to stake to, few truly consider what it means to support the actual, physical developers not just getting on-line and managing an interface, but building, creating, working with, improving, and networking with people across the globe to make the system better. The documented and freely shared work of these individuals absolutely will be duplicated and applied in future generations of Cardano Stake Pool Operations, when all the other “What-ifs” that are not natural, but political, potentially fall into place.\\n \\nIf you are in this ecosystem for the promise of decentralization and development of a new world, find out what your SPO’s are actually doing. Ask them about their hardware, their networks (digitally and socially), and their resiliency plans… your rewards will be far greater than just a % ROA today, it just might be a return on Freedom in the future.\\n\\nInstances like these are unique, for sure, and not all RPi SPO’s overall systems are alike. But as communities gather to openly discuss, collaborate, hypothesize and grow, your support delegating to their emerging pools allows them to develop the best practices available to ensure the promise of global independence low impact decentralization. \\n \\nA special thanks to [SBC](/stake-pools/406a08532d2ca8dd08ea39e082dc8acdc2a3b34d0c517bd0e40af5e1) and [OTG](/stake-pools/c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae), proud members of the Armada Alliance, for sharing your stories our thoughts and support are always with you and your communities. \\n\",\"mdxSource\":{\"compiledSource\":\"var p=Object.defineProperty,c=Object.defineProperties;var u=Object.getOwnPropertyDescriptors;var i=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var l=(e,t,a)=>t in e?p(e,t,{enumerable:!0,configurable:!0,writable:!0,value:a}):e[t]=a,o=(e,t)=>{for(var a in t||(t={}))r.call(t,a)&&l(e,a,t[a]);if(i)for(var a of i(t))s.call(t,a)&&l(e,a,t[a]);return e},h=(e,t)=>c(e,u(t));var d=(e,t)=>{var a={};for(var n in e)r.call(e,n)&&t.indexOf(n)<0&&(a[n]=e[n]);if(e!=null&&i)for(var n of i(e))t.indexOf(n)<0&&s.call(e,n)&&(a[n]=e[n]);return a};const makeShortcode=e=>function(a){return console.warn(\\\"Component \\\"+e+\\\" was not imported, exported, or provided by MDXProvider as global scope\\\"),mdx(\\\"div\\\",o({},a))},YoutubeVideo=makeShortcode(\\\"YoutubeVideo\\\"),ImagesSection=makeShortcode(\\\"ImagesSection\\\"),layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(a){var n=a,{components:e}=n,t=d(n,[\\\"components\\\"]);return mdx(MDXLayout,h(o(o({},layoutProps),t),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"Are you into blockchain technology and cryptocurrency? Do you already stake 3rd generation blockchain \\\",mdx(\\\"a\\\",o({parentName:\\\"p\\\"},{href:\\\"/terms/digital-asset\\\"}),\\\"digital assets\\\"),\\\" for a consistent ROI virtually risk-free? If you answered yes to the previous two questions, you are amongst the growing community of like-minded individuals across this planet who seek to bring true \\\",mdx(\\\"a\\\",o({parentName:\\\"p\\\"},{href:\\\"/terms/decentralized\\\"}),\\\"decentralization\\\"),`. And you probably know\\nthat I am talking about `,mdx(\\\"a\\\",o({parentName:\\\"p\\\"},{href:\\\"/terms/cardano\\\"}),\\\"Cardano\\\"),\\\", with its native digital asset, ADA.\\\"),mdx(\\\"h2\\\",null,\\\"German Flooding 2021\\\"),mdx(\\\"p\\\",null,\\\"With your global mindset and connection to members of the Cardano ecosystem, you may be aware that numerous members of the Cardano community have been affected by the devastating flooding all around Germany.  \\\"),mdx(YoutubeVideo,{url:\\\"https://www.youtube.com/watch?v=I9RAh6urs9o\\\",description:\\\"German Flooding 2021\\\",mdxType:\\\"YoutubeVideo\\\"}),mdx(\\\"p\\\",null,\\\"Many of you know these individuals personally, and some of you reading this are directly affected by lost communications, suffered server and power interruptions taking systems offline. Many are still recovering and possibly have lost much more than just a stake pool or money. Nothing can replace your family, your home, your friends, and the memories you have had with them all. Our best wishes and support go out to all of you affected by this tragedy.\\\"),mdx(\\\"p\\\",null,\\\"But this is what global decentralization is all about, am I right? No central server, no singular point of control or loss. What if this, what if that, what if\\\\u2026\\\"),mdx(\\\"p\\\",null,\\\"Did you know, that in Hagen, Germany, a town hit especially hard, there is an SPO \\\",mdx(\\\"a\\\",o({parentName:\\\"p\\\"},{href:\\\"/stake-pools/406a08532d2ca8dd08ea39e082dc8acdc2a3b34d0c517bd0e40af5e1\\\"}),\\\"SBC\\\"),\\\" who already thinks of \\\\u201Cwhat if's\\\\u201D his operation like many others who personally own and operate their hardware and network connections? There is no probable way he could have picked extreme flooding as the impact, or that it would literally run down his street and flood the basement, but his Stake Pool is so low energy, high efficiency, and compact that it operates daily using a \\\",mdx(\\\"a\\\",o({parentName:\\\"p\\\"},{href:\\\"/identities/raspberrypi\\\"}),\\\"Raspberry Pi?\\\"),\\\" That\\\\u2019s right, and because of that, he actually has a local UPS setup and emergency internet connections established that would keep his Cardano Node running for up to three weeks if ever off-grid!\\\"),mdx(ImagesSection,{images:[{url:\\\"/sbc-flood-2021_1.jpg\\\"},{url:\\\"/sbc-flood-2021_2.jpg\\\"}],mdxType:\\\"ImagesSection\\\"}),mdx(\\\"blockquote\\\",null,mdx(\\\"p\\\",{parentName:\\\"blockquote\\\"},\\\"They lost power multiple times through this event in fact, this event flooded out his basement, but at no time did the node lose its connection to the Cardano network, talk about resilience and efficiency!\\\")),mdx(\\\"h2\\\",null,\\\"Utilizing Starlink as fallback\\\"),mdx(\\\"p\\\",null,\\\"This is not the first time RPI \\\",mdx(\\\"a\\\",o({parentName:\\\"p\\\"},{href:\\\"/terms/stake-pool-operator\\\"}),\\\"SPO\\\\u2019s\\\"),\\\" maintained connection through local emergency events. One node from \\\",mdx(\\\"a\\\",o({parentName:\\\"p\\\"},{href:\\\"/stake-pools/c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae\\\"}),\\\"OTG\\\"),\\\" pool that operates solely on solar panels and recycled computer batteries for UPS recently managed to connect to Starlink while the grid was offline\\\\u2026 AND MINTED A \\\",mdx(\\\"a\\\",o({parentName:\\\"p\\\"},{href:\\\"/terms/block\\\"}),\\\"BLOCK\\\"),\\\"!\\\"),mdx(\\\"p\\\",null,\\\"Why the all-caps excitement about minting a block you may be asking yourself. Well, first, I personally do not know of any other Cardano SPO's that have produced a block using \\\",mdx(\\\"a\\\",o({parentName:\\\"p\\\"},{href:\\\"/identities/starlink\\\"}),\\\"Starlink\\\"),\\\" at this point, but that is impressive to me nonetheless.\\\"),mdx(\\\"h2\\\",null,\\\"Making the Cardano network more resilient\\\"),mdx(\\\"p\\\",null,\\\"The true excitement comes from the fact that very little attention is currently given to the low-impact, high-efficiency community of single pool SPO\\\\u2019s operating on Raspberry Pis in the Cardano Ecosystem. Sure, \\\",mdx(\\\"a\\\",o({parentName:\\\"p\\\"},{href:\\\"/identities/charles-hoskinson\\\"}),\\\"Mr. Hoskinson\\\"),\\\" held one up on a video of his and said \\\\u201Cthis is the future\\\\u201D but that was so last month.\\\"),mdx(\\\"p\\\",null,\\\"When decisions are made by holders of ADA, measuring the best pools to stake to, few truly consider what it means to support the actual, physical developers not just getting on-line and managing an interface, but building, creating, working with, improving, and networking with people across the globe to make the system better. The documented and freely shared work of these individuals absolutely will be duplicated and applied in future generations of Cardano Stake Pool Operations, when all the other \\\\u201CWhat-ifs\\\\u201D that are not natural, but political, potentially fall into place.\\\"),mdx(\\\"p\\\",null,\\\"If you are in this ecosystem for the promise of decentralization and development of a new world, find out what your SPO\\\\u2019s are actually doing. Ask them about their hardware, their networks (digitally and socially), and their resiliency plans\\\\u2026 your rewards will be far greater than just a % ROA today, it just might be a return on Freedom in the future.\\\"),mdx(\\\"p\\\",null,\\\"Instances like these are unique, for sure, and not all RPi SPO\\\\u2019s overall systems are alike. But as communities gather to openly discuss, collaborate, hypothesize and grow, your support delegating to their emerging pools allows them to develop the best practices available to ensure the promise of global independence low impact decentralization. \\\"),mdx(\\\"p\\\",null,\\\"A special thanks to \\\",mdx(\\\"a\\\",o({parentName:\\\"p\\\"},{href:\\\"/stake-pools/406a08532d2ca8dd08ea39e082dc8acdc2a3b34d0c517bd0e40af5e1\\\"}),\\\"SBC\\\"),\\\" and \\\",mdx(\\\"a\\\",o({parentName:\\\"p\\\"},{href:\\\"/stake-pools/c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae\\\"}),\\\"OTG\\\"),\\\", proud members of the Armada Alliance, for sharing your stories our thoughts and support are always with you and your communities. \\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-24T11:20:47.699Z",
-  "_cachedIn": "26 ms",
-  "_resolvedIn": "26 ms",
+  "_cachedAt": "2021-07-24T16:50:10.721Z",
+  "_cachedIn": "106 ms",
+  "_resolvedIn": "106 ms",
   "id": "BlogDetailPage",
   "type": "BlogDetailPage",
   "status": "resolved",
@@ -43,17 +43,17 @@
   "attrs": {
     "component-type": "BlogDetailPage",
     "component-id": "BlogDetailPage",
-    "component-cached-at": "2021-07-24T11:20:47.699Z",
-    "component-cached-in": "26 ms",
-    "component-resolved-in": "26 ms"
+    "component-cached-at": "2021-07-24T16:50:10.721Z",
+    "component-cached-in": "106 ms",
+    "component-resolved-in": "106 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T11:20:47.699Z",
-      "_cachedIn": "23 ms",
-      "_resolvedIn": "23 ms",
+      "_cachedAt": "2021-07-24T16:50:10.721Z",
+      "_cachedIn": "96 ms",
+      "_resolvedIn": "96 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -62,17 +62,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-24T11:20:47.699Z",
-        "component-cached-in": "23 ms",
-        "component-resolved-in": "23 ms"
+        "component-cached-at": "2021-07-24T16:50:10.721Z",
+        "component-cached-in": "96 ms",
+        "component-resolved-in": "96 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T11:20:47.696Z",
-          "_cachedIn": "1.43 ms",
-          "_resolvedIn": "1.43 ms",
+          "_cachedAt": "2021-07-24T16:50:10.721Z",
+          "_cachedIn": "939 μs",
+          "_resolvedIn": "939 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -80,7 +80,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-24T11:20:31.054Z",
+              "createdAt": "2021-07-24T16:49:58.104Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1641,7 +1641,7 @@
                   }
                 ],
                 "image": "https://stakefornature.com/ico.png",
-                "updatedAt": "2021-07-24T10:21:53.000Z",
+                "updatedAt": "2021-07-24T11:24:56.000Z",
                 "filePath": "/en/stake-pools/5707e4254180d481a4f1e690be0c2c54b3a618051d907df7e4434c0b.md"
               },
               {
@@ -7543,18 +7543,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-24T11:20:47.696Z",
-            "component-cached-in": "1.43 ms",
-            "component-resolved-in": "1.43 ms"
+            "component-cached-at": "2021-07-24T16:50:10.721Z",
+            "component-cached-in": "939 μs",
+            "component-resolved-in": "939 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T11:20:47.698Z",
-          "_cachedIn": "3.28 ms",
-          "_resolvedIn": "3.28 ms",
+          "_cachedAt": "2021-07-24T16:50:10.721Z",
+          "_cachedIn": "1.17 ms",
+          "_resolvedIn": "1.17 ms",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7565,17 +7565,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-24T11:20:47.698Z",
-            "component-cached-in": "3.28 ms",
-            "component-resolved-in": "3.28 ms"
+            "component-cached-at": "2021-07-24T16:50:10.721Z",
+            "component-cached-in": "1.17 ms",
+            "component-resolved-in": "1.17 ms"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-24T11:20:47.698Z",
-              "_cachedIn": "1.22 ms",
-              "_resolvedIn": "1.22 ms",
+              "_cachedAt": "2021-07-24T16:50:10.721Z",
+              "_cachedIn": "168 μs",
+              "_resolvedIn": "168 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7635,9 +7635,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-24T11:20:47.698Z",
-                "component-cached-in": "1.22 ms",
-                "component-resolved-in": "1.22 ms"
+                "component-cached-at": "2021-07-24T16:50:10.721Z",
+                "component-cached-in": "168 μs",
+                "component-resolved-in": "168 μs"
               },
               "components": {}
             }
@@ -7646,9 +7646,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T11:20:47.695Z",
-          "_cachedIn": "188 μs",
-          "_resolvedIn": "188 μs",
+          "_cachedAt": "2021-07-24T16:50:10.720Z",
+          "_cachedIn": "395 μs",
+          "_resolvedIn": "395 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7657,9 +7657,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-24T11:20:47.695Z",
-            "component-cached-in": "188 μs",
-            "component-resolved-in": "188 μs"
+            "component-cached-at": "2021-07-24T16:50:10.720Z",
+            "component-cached-in": "395 μs",
+            "component-resolved-in": "395 μs"
           },
           "components": {}
         }
@@ -7668,9 +7668,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T11:20:47.696Z",
-      "_cachedIn": "20 ms",
-      "_resolvedIn": "20 ms",
+      "_cachedAt": "2021-07-24T16:50:10.721Z",
+      "_cachedIn": "95 ms",
+      "_resolvedIn": "95 ms",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7715,18 +7715,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-24T11:20:47.696Z",
-        "component-cached-in": "20 ms",
-        "component-resolved-in": "20 ms"
+        "component-cached-at": "2021-07-24T16:50:10.721Z",
+        "component-cached-in": "95 ms",
+        "component-resolved-in": "95 ms"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T11:20:47.695Z",
-      "_cachedIn": "19 ms",
-      "_resolvedIn": "19 ms",
+      "_cachedAt": "2021-07-24T16:50:10.720Z",
+      "_cachedIn": "95 ms",
+      "_resolvedIn": "95 ms",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7738,18 +7738,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-24T11:20:47.695Z",
-        "component-cached-in": "19 ms",
-        "component-resolved-in": "19 ms"
+        "component-cached-at": "2021-07-24T16:50:10.720Z",
+        "component-cached-in": "95 ms",
+        "component-resolved-in": "95 ms"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T11:20:47.696Z",
-      "_cachedIn": "20 ms",
-      "_resolvedIn": "20 ms",
+      "_cachedAt": "2021-07-24T16:50:10.721Z",
+      "_cachedIn": "95 ms",
+      "_resolvedIn": "95 ms",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7768,9 +7768,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-24T11:20:47.696Z",
-        "component-cached-in": "20 ms",
-        "component-resolved-in": "20 ms"
+        "component-cached-at": "2021-07-24T16:50:10.721Z",
+        "component-cached-in": "95 ms",
+        "component-resolved-in": "95 ms"
       },
       "components": {}
     }

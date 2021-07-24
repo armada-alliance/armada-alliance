@@ -15,6 +15,10 @@ const getDataForPage = async (filePath) => {
         )
         , 'utf-8')
 
+    string = replaceVariables(string)
+
+    const data = fm(string)
+
     return fm(string).attributes
 }
 

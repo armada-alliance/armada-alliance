@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"IdentityDetailPage\",\"version\":1},\"props\":{\"id\":\"tony-piada\",\"language\":\"en\",\"slug\":\"/identities/tony-piada\",\"url\":\"https:///website.codespace1.sublayer.io/identities/tony-piada\",\"origin\":\"/identities/tony-piada\",\"title\":\"Tony Burger🚵‍♂️\",\"description\":\"SPO, Co-Founder\",\"aliases\":null,\"keywords\":null,\"template\":\"IdentityDetailPage\",\"image\":\"/tony.jpg\",\"updatedAt\":\"2021-07-23T15:18:20.000Z\",\"filePath\":\"/en/identities/tony-piada.md\",\"website\":\"https://piada.io\",\"donationAddress\":\"addr1qx6cahvzc6rj5hn5lny5tpxgr8whqq59dert479fvvwa07dtrgnlfn9pu402t5dcknp56ajc5tk6sawp65mfpqu570psq74738\",\"verified\":true,\"badges\":[{\"name\":\"Fully ARMed\",\"color\":\"#EF4444\"},{\"name\":\"ARMada CAP'N\",\"color\":\"#846DCF\"}],\"body\":\"Hi, I am Tony, stake pool operator of PIADA and the co-founder of the ARMing Cardano Catalyst project from Fund 4. I am a developer by trade and enjoy beach vacations with the family and shredding the local mountain bike trails. Stoked to be supporting the Alliance with my time and talents! Philippians 4:13\\n\\n<YoutubeVideo url=\\\"https://www.youtube.com/watch?v=Py3Xy3ScVas\\\" description=\\\"ARMing Cardano\\\" />\\n\\nhttps://adapulse.io/arming-cardano-an-ecosystem-for-raspberry-pi-stakepool-operators/\\n\",\"mdxSource\":{\"compiledSource\":\"var u=Object.defineProperty,l=Object.defineProperties;var m=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var p=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var i=(o,e,t)=>e in o?u(o,e,{enumerable:!0,configurable:!0,writable:!0,value:t}):o[e]=t,n=(o,e)=>{for(var t in e||(e={}))p.call(e,t)&&i(o,t,e[t]);if(r)for(var t of r(e))s.call(e,t)&&i(o,t,e[t]);return o},d=(o,e)=>l(o,m(e));var c=(o,e)=>{var t={};for(var a in o)p.call(o,a)&&e.indexOf(a)<0&&(t[a]=o[a]);if(o!=null&&r)for(var a of r(o))e.indexOf(a)<0&&s.call(o,a)&&(t[a]=o[a]);return t};const makeShortcode=o=>function(t){return console.warn(\\\"Component \\\"+o+\\\" was not imported, exported, or provided by MDXProvider as global scope\\\"),mdx(\\\"div\\\",n({},t))},YoutubeVideo=makeShortcode(\\\"YoutubeVideo\\\"),layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(t){var a=t,{components:o}=a,e=c(a,[\\\"components\\\"]);return mdx(MDXLayout,d(n(n({},layoutProps),e),{components:o,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"Hi, I am Tony, stake pool operator of PIADA and the co-founder of the ARMing Cardano Catalyst project from Fund 4. I am a developer by trade and enjoy beach vacations with the family and shredding the local mountain bike trails. Stoked to be supporting the Alliance with my time and talents! Philippians 4:13\\\"),mdx(YoutubeVideo,{url:\\\"https://www.youtube.com/watch?v=Py3Xy3ScVas\\\",description:\\\"ARMing Cardano\\\",mdxType:\\\"YoutubeVideo\\\"}),mdx(\\\"p\\\",null,mdx(\\\"a\\\",n({parentName:\\\"p\\\"},{href:\\\"https://adapulse.io/arming-cardano-an-ecosystem-for-raspberry-pi-stakepool-operators/\\\"}),\\\"https://adapulse.io/arming-cardano-an-ecosystem-for-raspberry-pi-stakepool-operators/\\\")))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-24T11:20:48.059Z",
-  "_cachedIn": "7.16 ms",
-  "_resolvedIn": "7.16 ms",
+  "_cachedAt": "2021-07-24T16:50:11.221Z",
+  "_cachedIn": "2.03 ms",
+  "_resolvedIn": "2.03 ms",
   "id": "IdentityDetailPage",
   "type": "IdentityDetailPage",
   "status": "resolved",
@@ -58,17 +58,17 @@
   "attrs": {
     "component-type": "IdentityDetailPage",
     "component-id": "IdentityDetailPage",
-    "component-cached-at": "2021-07-24T11:20:48.059Z",
-    "component-cached-in": "7.16 ms",
-    "component-resolved-in": "7.16 ms"
+    "component-cached-at": "2021-07-24T16:50:11.221Z",
+    "component-cached-in": "2.03 ms",
+    "component-resolved-in": "2.03 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T11:20:48.059Z",
-      "_cachedIn": "6.35 ms",
-      "_resolvedIn": "6.35 ms",
+      "_cachedAt": "2021-07-24T16:50:11.221Z",
+      "_cachedIn": "1.69 ms",
+      "_resolvedIn": "1.69 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -77,17 +77,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-24T11:20:48.059Z",
-        "component-cached-in": "6.35 ms",
-        "component-resolved-in": "6.35 ms"
+        "component-cached-at": "2021-07-24T16:50:11.221Z",
+        "component-cached-in": "1.69 ms",
+        "component-resolved-in": "1.69 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T11:20:48.055Z",
-          "_cachedIn": "1.02 ms",
-          "_resolvedIn": "1.02 ms",
+          "_cachedAt": "2021-07-24T16:50:11.221Z",
+          "_cachedIn": "464 μs",
+          "_resolvedIn": "464 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -95,7 +95,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-24T11:20:31.054Z",
+              "createdAt": "2021-07-24T16:49:58.104Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1656,7 +1656,7 @@
                   }
                 ],
                 "image": "https://stakefornature.com/ico.png",
-                "updatedAt": "2021-07-24T10:21:53.000Z",
+                "updatedAt": "2021-07-24T11:24:56.000Z",
                 "filePath": "/en/stake-pools/5707e4254180d481a4f1e690be0c2c54b3a618051d907df7e4434c0b.md"
               },
               {
@@ -7558,18 +7558,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-24T11:20:48.055Z",
-            "component-cached-in": "1.02 ms",
-            "component-resolved-in": "1.02 ms"
+            "component-cached-at": "2021-07-24T16:50:11.221Z",
+            "component-cached-in": "464 μs",
+            "component-resolved-in": "464 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T11:20:48.056Z",
-          "_cachedIn": "1.37 ms",
-          "_resolvedIn": "1.37 ms",
+          "_cachedAt": "2021-07-24T16:50:11.221Z",
+          "_cachedIn": "574 μs",
+          "_resolvedIn": "574 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7580,17 +7580,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-24T11:20:48.056Z",
-            "component-cached-in": "1.37 ms",
-            "component-resolved-in": "1.37 ms"
+            "component-cached-at": "2021-07-24T16:50:11.221Z",
+            "component-cached-in": "574 μs",
+            "component-resolved-in": "574 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-24T11:20:48.056Z",
-              "_cachedIn": "346 μs",
-              "_resolvedIn": "346 μs",
+              "_cachedAt": "2021-07-24T16:50:11.221Z",
+              "_cachedIn": "119 μs",
+              "_resolvedIn": "119 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7650,9 +7650,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-24T11:20:48.056Z",
-                "component-cached-in": "346 μs",
-                "component-resolved-in": "346 μs"
+                "component-cached-at": "2021-07-24T16:50:11.221Z",
+                "component-cached-in": "119 μs",
+                "component-resolved-in": "119 μs"
               },
               "components": {}
             }
@@ -7661,9 +7661,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T11:20:48.055Z",
-          "_cachedIn": "531 μs",
-          "_resolvedIn": "531 μs",
+          "_cachedAt": "2021-07-24T16:50:11.221Z",
+          "_cachedIn": "287 μs",
+          "_resolvedIn": "287 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7672,9 +7672,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-24T11:20:48.055Z",
-            "component-cached-in": "531 μs",
-            "component-resolved-in": "531 μs"
+            "component-cached-at": "2021-07-24T16:50:11.221Z",
+            "component-cached-in": "287 μs",
+            "component-resolved-in": "287 μs"
           },
           "components": {}
         }
@@ -7683,9 +7683,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T11:20:48.055Z",
-      "_cachedIn": "2.79 ms",
-      "_resolvedIn": "2.79 ms",
+      "_cachedAt": "2021-07-24T16:50:11.221Z",
+      "_cachedIn": "1.47 ms",
+      "_resolvedIn": "1.47 ms",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7701,18 +7701,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-24T11:20:48.055Z",
-        "component-cached-in": "2.79 ms",
-        "component-resolved-in": "2.79 ms"
+        "component-cached-at": "2021-07-24T16:50:11.221Z",
+        "component-cached-in": "1.47 ms",
+        "component-resolved-in": "1.47 ms"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T11:20:48.055Z",
-      "_cachedIn": "2.2 ms",
-      "_resolvedIn": "2.2 ms",
+      "_cachedAt": "2021-07-24T16:50:11.220Z",
+      "_cachedIn": "1.23 ms",
+      "_resolvedIn": "1.23 ms",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7723,18 +7723,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-24T11:20:48.055Z",
-        "component-cached-in": "2.2 ms",
-        "component-resolved-in": "2.2 ms"
+        "component-cached-at": "2021-07-24T16:50:11.220Z",
+        "component-cached-in": "1.23 ms",
+        "component-resolved-in": "1.23 ms"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T11:20:48.055Z",
-      "_cachedIn": "2.79 ms",
-      "_resolvedIn": "2.79 ms",
+      "_cachedAt": "2021-07-24T16:50:11.221Z",
+      "_cachedIn": "1.47 ms",
+      "_resolvedIn": "1.47 ms",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7755,18 +7755,18 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-24T11:20:48.055Z",
-        "component-cached-in": "2.79 ms",
-        "component-resolved-in": "2.79 ms"
+        "component-cached-at": "2021-07-24T16:50:11.221Z",
+        "component-cached-in": "1.47 ms",
+        "component-resolved-in": "1.47 ms"
       },
       "components": {}
     },
     "PageSocials": {
       "_cacheKey": "{\"component\":{\"type\":\"PageSocials\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T11:20:48.055Z",
-      "_cachedIn": "2.2 ms",
-      "_resolvedIn": "2.2 ms",
+      "_cachedAt": "2021-07-24T16:50:11.220Z",
+      "_cachedIn": "1.23 ms",
+      "_resolvedIn": "1.23 ms",
       "id": "PageSocials",
       "type": "PageSocials",
       "status": "resolved",
@@ -7787,18 +7787,18 @@
       "attrs": {
         "component-type": "PageSocials",
         "component-id": "PageSocials",
-        "component-cached-at": "2021-07-24T11:20:48.055Z",
-        "component-cached-in": "2.2 ms",
-        "component-resolved-in": "2.2 ms"
+        "component-cached-at": "2021-07-24T16:50:11.220Z",
+        "component-cached-in": "1.23 ms",
+        "component-resolved-in": "1.23 ms"
       },
       "components": {}
     },
     "PostPagesSection": {
       "_cacheKey": "{\"component\":{\"type\":\"PostPagesSection\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T11:20:48.055Z",
-      "_cachedIn": "2.2 ms",
-      "_resolvedIn": "2.2 ms",
+      "_cachedAt": "2021-07-24T16:50:11.220Z",
+      "_cachedIn": "1.24 ms",
+      "_resolvedIn": "1.24 ms",
       "id": "PostPagesSection",
       "type": "PostPagesSection",
       "status": "resolved",
@@ -7864,9 +7864,9 @@
       "attrs": {
         "component-type": "PostPagesSection",
         "component-id": "PostPagesSection",
-        "component-cached-at": "2021-07-24T11:20:48.055Z",
-        "component-cached-in": "2.2 ms",
-        "component-resolved-in": "2.2 ms"
+        "component-cached-at": "2021-07-24T16:50:11.220Z",
+        "component-cached-in": "1.24 ms",
+        "component-resolved-in": "1.24 ms"
       },
       "components": {}
     }

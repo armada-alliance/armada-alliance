@@ -152,6 +152,7 @@ module.exports = {
                     memberSince: poolPage.memberSince,
                     registeredAt: new Date(adapools.created).toISOString(),
                     identities: poolPage.identities,
+                    nodes: poolPage.nodes,
                     relays,
                     metadata,
                     extended

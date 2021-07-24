@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import { css } from '@emotion/react'
 import PageTooltip from './PageTooltip'
 import Prism from 'prismjs'
+import cx from 'classnames'
 // import "prismjs/themes/prism-tomorrow.css";
 
 function Code({ children }) {
@@ -19,7 +20,7 @@ function Code({ children }) {
     )
 }
 
-const markdownComponents = {
+const markdownComponents = ({ spacingEnabled }) => ({
     a: (props) => (
         <PageTooltip slug={props.href}>
             <a {...props} className="text-gray-900 dark:text-gray-100 font-medium underline" />
@@ -47,7 +48,7 @@ const markdownComponents = {
     `}
     />,
     p: ({ children }) => (
-        <div className="mb-8 leading-8">
+        <div className={cx(spacingEnabled ? "mb-8 leading-8" : null)}>
             {children}
         </div>
     ),
@@ -78,6 +79,6 @@ const markdownComponents = {
 
     ),
     code: Code
-}
+})
 
 export default markdownComponents
