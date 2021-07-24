@@ -7,6 +7,7 @@ import ResourceDetailPage from "./ResourceDetailPage";
 import PoolsPage from "./PoolsPage";
 import IdentityDetailPage from "./IdentityDetailPage";
 import PoolDetailPage from "./PoolDetailPage";
+import RuleDetailPage from "./RuleDetailPage";
 import SitemapPage from "./SitemapPage";
 import BlogDetailPage from "./BlogDetailPage";
 import RoadmapPage from "./RoadmapPage";
@@ -22,6 +23,7 @@ const templates = {
     AAIPDetailPage,
     AAIPsPage,
     BlogsPage,
+    RuleDetailPage,
     PoolsPage,
     DelegationWidgetPage,
     PoolWidgetPage,

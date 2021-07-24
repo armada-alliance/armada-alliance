@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"IdentityDetailPage\",\"version\":1},\"props\":{\"id\":\"tony-piada\",\"language\":\"en\",\"slug\":\"/identities/tony-piada\",\"url\":\"https:///website.codespace1.sublayer.io/identities/tony-piada\",\"origin\":\"/identities/tony-piada\",\"title\":\"Tony Burger🚵‍♂️\",\"description\":\"SPO, Co-Founder\",\"aliases\":null,\"keywords\":null,\"template\":\"IdentityDetailPage\",\"image\":\"/tony.jpg\",\"updatedAt\":\"2021-07-23T15:18:20.000Z\",\"filePath\":\"/en/identities/tony-piada.md\",\"website\":\"https://piada.io\",\"donationAddress\":\"addr1qx6cahvzc6rj5hn5lny5tpxgr8whqq59dert479fvvwa07dtrgnlfn9pu402t5dcknp56ajc5tk6sawp65mfpqu570psq74738\",\"verified\":true,\"badges\":[{\"name\":\"Fully ARMed\",\"color\":\"#EF4444\"},{\"name\":\"ARMada CAP'N\",\"color\":\"#846DCF\"}],\"body\":\"Hi, I am Tony, stake pool operator of PIADA and the co-founder of the ARMing Cardano Catalyst project from Fund 4. I am a developer by trade and enjoy beach vacations with the family and shredding the local mountain bike trails. Stoked to be supporting the Alliance with my time and talents! Philippians 4:13\\n\\n<YoutubeVideo url=\\\"https://www.youtube.com/watch?v=Py3Xy3ScVas\\\" description=\\\"ARMing Cardano\\\" />\\n\\nhttps://adapulse.io/arming-cardano-an-ecosystem-for-raspberry-pi-stakepool-operators/\\n\",\"mdxSource\":{\"compiledSource\":\"var u=Object.defineProperty,l=Object.defineProperties;var m=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var p=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var i=(o,e,t)=>e in o?u(o,e,{enumerable:!0,configurable:!0,writable:!0,value:t}):o[e]=t,n=(o,e)=>{for(var t in e||(e={}))p.call(e,t)&&i(o,t,e[t]);if(r)for(var t of r(e))s.call(e,t)&&i(o,t,e[t]);return o},d=(o,e)=>l(o,m(e));var c=(o,e)=>{var t={};for(var a in o)p.call(o,a)&&e.indexOf(a)<0&&(t[a]=o[a]);if(o!=null&&r)for(var a of r(o))e.indexOf(a)<0&&s.call(o,a)&&(t[a]=o[a]);return t};const makeShortcode=o=>function(t){return console.warn(\\\"Component \\\"+o+\\\" was not imported, exported, or provided by MDXProvider as global scope\\\"),mdx(\\\"div\\\",n({},t))},YoutubeVideo=makeShortcode(\\\"YoutubeVideo\\\"),layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(t){var a=t,{components:o}=a,e=c(a,[\\\"components\\\"]);return mdx(MDXLayout,d(n(n({},layoutProps),e),{components:o,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"Hi, I am Tony, stake pool operator of PIADA and the co-founder of the ARMing Cardano Catalyst project from Fund 4. I am a developer by trade and enjoy beach vacations with the family and shredding the local mountain bike trails. Stoked to be supporting the Alliance with my time and talents! Philippians 4:13\\\"),mdx(YoutubeVideo,{url:\\\"https://www.youtube.com/watch?v=Py3Xy3ScVas\\\",description:\\\"ARMing Cardano\\\",mdxType:\\\"YoutubeVideo\\\"}),mdx(\\\"p\\\",null,mdx(\\\"a\\\",n({parentName:\\\"p\\\"},{href:\\\"https://adapulse.io/arming-cardano-an-ecosystem-for-raspberry-pi-stakepool-operators/\\\"}),\\\"https://adapulse.io/arming-cardano-an-ecosystem-for-raspberry-pi-stakepool-operators/\\\")))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-24T17:00:13.572Z",
-  "_cachedIn": "3.36 ms",
-  "_resolvedIn": "3.36 ms",
+  "_cachedAt": "2021-07-24T17:45:57.858Z",
+  "_cachedIn": "6.74 ms",
+  "_resolvedIn": "6.74 ms",
   "id": "IdentityDetailPage",
   "type": "IdentityDetailPage",
   "status": "resolved",
@@ -58,17 +58,17 @@
   "attrs": {
     "component-type": "IdentityDetailPage",
     "component-id": "IdentityDetailPage",
-    "component-cached-at": "2021-07-24T17:00:13.572Z",
-    "component-cached-in": "3.36 ms",
-    "component-resolved-in": "3.36 ms"
+    "component-cached-at": "2021-07-24T17:45:57.858Z",
+    "component-cached-in": "6.74 ms",
+    "component-resolved-in": "6.74 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T17:00:13.572Z",
-      "_cachedIn": "2.69 ms",
-      "_resolvedIn": "2.69 ms",
+      "_cachedAt": "2021-07-24T17:45:57.858Z",
+      "_cachedIn": "5.89 ms",
+      "_resolvedIn": "5.89 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -77,17 +77,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-24T17:00:13.572Z",
-        "component-cached-in": "2.69 ms",
-        "component-resolved-in": "2.69 ms"
+        "component-cached-at": "2021-07-24T17:45:57.858Z",
+        "component-cached-in": "5.89 ms",
+        "component-resolved-in": "5.89 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T17:00:13.571Z",
-          "_cachedIn": "731 μs",
-          "_resolvedIn": "731 μs",
+          "_cachedAt": "2021-07-24T17:45:57.855Z",
+          "_cachedIn": "888 μs",
+          "_resolvedIn": "888 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -95,7 +95,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-24T17:00:01.281Z",
+              "createdAt": "2021-07-24T17:45:46.729Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -2227,6 +2227,118 @@
                 "template": "PoolsPage",
                 "updatedAt": "2021-07-10T20:43:29.000Z",
                 "filePath": "/en/stake-pools.md"
+              },
+              {
+                "id": "rule-1",
+                "language": "en",
+                "slug": "/rules/rule-1",
+                "url": "https:///website.codespace1.sublayer.io/rules/rule-1",
+                "origin": "/rules/rule-1",
+                "title": "Pool should have at least one SPO",
+                "description": "Make sure to define at least one SPO in the pool markdown file.",
+                "aliases": null,
+                "keywords": null,
+                "template": "RuleDetailPage",
+                "updatedAt": "2021-07-24T16:54:43.000Z",
+                "filePath": "/en/rules/rule-1.md"
+              },
+              {
+                "id": "rule-2",
+                "language": "en",
+                "slug": "/rules/rule-2",
+                "url": "https:///website.codespace1.sublayer.io/rules/rule-2",
+                "origin": "/rules/rule-2",
+                "title": "Every SPO should only operate one pool",
+                "description": "It's required to operate a single pool. We do not support pool-splitting.",
+                "aliases": null,
+                "keywords": null,
+                "template": "RuleDetailPage",
+                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "filePath": "/en/rules/rule-2.md"
+              },
+              {
+                "id": "rule-3",
+                "language": "en",
+                "slug": "/rules/rule-3",
+                "url": "https:///website.codespace1.sublayer.io/rules/rule-3",
+                "origin": "/rules/rule-3",
+                "title": "Every SPO should have a Telegram handle",
+                "description": "Make sure to define a Telegram handle for every SPO of your stake pool.",
+                "aliases": null,
+                "keywords": null,
+                "template": "RuleDetailPage",
+                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "filePath": "/en/rules/rule-3.md"
+              },
+              {
+                "id": "rule-4",
+                "language": "en",
+                "slug": "/rules/rule-4",
+                "url": "https:///website.codespace1.sublayer.io/rules/rule-4",
+                "origin": "/rules/rule-4",
+                "title": "Pool should have an image",
+                "description": "Make sure to have a logo of your pool specified in a extended metadata json file.",
+                "aliases": null,
+                "keywords": null,
+                "template": "RuleDetailPage",
+                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "filePath": "/en/rules/rule-4.md"
+              },
+              {
+                "id": "rule-5",
+                "language": "en",
+                "slug": "/rules/rule-5",
+                "url": "https:///website.codespace1.sublayer.io/rules/rule-5",
+                "origin": "/rules/rule-5",
+                "title": "Pool is recommended to have at least 2 relays",
+                "description": "It's a best practice to have at least 2 relays to be able to handle downtime of one of the relays.",
+                "aliases": null,
+                "keywords": null,
+                "template": "RuleDetailPage",
+                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "filePath": "/en/rules/rule-5.md"
+              },
+              {
+                "id": "rule-6",
+                "language": "en",
+                "slug": "/rules/rule-6",
+                "url": "https:///website.codespace1.sublayer.io/rules/rule-6",
+                "origin": "/rules/rule-6",
+                "title": "Pool should have their nodes defined",
+                "description": "Make sure to define your nodes in the pool markdown file.",
+                "aliases": null,
+                "keywords": null,
+                "template": "RuleDetailPage",
+                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "filePath": "/en/rules/rule-6.md"
+              },
+              {
+                "id": "rule-7",
+                "language": "en",
+                "slug": "/rules/rule-7",
+                "url": "https:///website.codespace1.sublayer.io/rules/rule-7",
+                "origin": "/rules/rule-7",
+                "title": "Pool should have at least one node running on ARM",
+                "description": "We validate this by looking at your list of nodes. We'll look for at least one node that is running on an ARM device.",
+                "aliases": null,
+                "keywords": null,
+                "template": "RuleDetailPage",
+                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "filePath": "/en/rules/rule-7.md"
+              },
+              {
+                "id": "rule-8",
+                "language": "en",
+                "slug": "/rules/rule-8",
+                "url": "https:///website.codespace1.sublayer.io/rules/rule-8",
+                "origin": "/rules/rule-8",
+                "title": "Pool is recommended to completely run on ARM",
+                "description": "We validate this by looking at your list of nodes. We'll look for at least one block producer and one relay that run on an ARM device.",
+                "aliases": null,
+                "keywords": null,
+                "template": "RuleDetailPage",
+                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "filePath": "/en/rules/rule-8.md"
               },
               {
                 "id": "sitemap",
@@ -7558,18 +7670,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-24T17:00:13.571Z",
-            "component-cached-in": "731 μs",
-            "component-resolved-in": "731 μs"
+            "component-cached-at": "2021-07-24T17:45:57.855Z",
+            "component-cached-in": "888 μs",
+            "component-resolved-in": "888 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T17:00:13.572Z",
-          "_cachedIn": "914 μs",
-          "_resolvedIn": "914 μs",
+          "_cachedAt": "2021-07-24T17:45:57.858Z",
+          "_cachedIn": "3.36 ms",
+          "_resolvedIn": "3.36 ms",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7580,17 +7692,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-24T17:00:13.572Z",
-            "component-cached-in": "914 μs",
-            "component-resolved-in": "914 μs"
+            "component-cached-at": "2021-07-24T17:45:57.858Z",
+            "component-cached-in": "3.36 ms",
+            "component-resolved-in": "3.36 ms"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-24T17:00:13.572Z",
-              "_cachedIn": "186 μs",
-              "_resolvedIn": "186 μs",
+              "_cachedAt": "2021-07-24T17:45:57.857Z",
+              "_cachedIn": "2.42 ms",
+              "_resolvedIn": "2.42 ms",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7650,9 +7762,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-24T17:00:13.572Z",
-                "component-cached-in": "186 μs",
-                "component-resolved-in": "186 μs"
+                "component-cached-at": "2021-07-24T17:45:57.857Z",
+                "component-cached-in": "2.42 ms",
+                "component-resolved-in": "2.42 ms"
               },
               "components": {}
             }
@@ -7661,9 +7773,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T17:00:13.571Z",
-          "_cachedIn": "439 μs",
-          "_resolvedIn": "439 μs",
+          "_cachedAt": "2021-07-24T17:45:57.855Z",
+          "_cachedIn": "492 μs",
+          "_resolvedIn": "492 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7672,9 +7784,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-24T17:00:13.571Z",
-            "component-cached-in": "439 μs",
-            "component-resolved-in": "439 μs"
+            "component-cached-at": "2021-07-24T17:45:57.855Z",
+            "component-cached-in": "492 μs",
+            "component-resolved-in": "492 μs"
           },
           "components": {}
         }
@@ -7683,9 +7795,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T17:00:13.571Z",
-      "_cachedIn": "2.33 ms",
-      "_resolvedIn": "2.33 ms",
+      "_cachedAt": "2021-07-24T17:45:57.855Z",
+      "_cachedIn": "3.15 ms",
+      "_resolvedIn": "3.15 ms",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7701,18 +7813,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-24T17:00:13.571Z",
-        "component-cached-in": "2.33 ms",
-        "component-resolved-in": "2.33 ms"
+        "component-cached-at": "2021-07-24T17:45:57.855Z",
+        "component-cached-in": "3.15 ms",
+        "component-resolved-in": "3.15 ms"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T17:00:13.571Z",
-      "_cachedIn": "1.94 ms",
-      "_resolvedIn": "1.94 ms",
+      "_cachedAt": "2021-07-24T17:45:57.854Z",
+      "_cachedIn": "2.63 ms",
+      "_resolvedIn": "2.63 ms",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7723,18 +7835,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-24T17:00:13.571Z",
-        "component-cached-in": "1.94 ms",
-        "component-resolved-in": "1.94 ms"
+        "component-cached-at": "2021-07-24T17:45:57.854Z",
+        "component-cached-in": "2.63 ms",
+        "component-resolved-in": "2.63 ms"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T17:00:13.571Z",
-      "_cachedIn": "2.33 ms",
-      "_resolvedIn": "2.33 ms",
+      "_cachedAt": "2021-07-24T17:45:57.855Z",
+      "_cachedIn": "3.14 ms",
+      "_resolvedIn": "3.14 ms",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7755,18 +7867,18 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-24T17:00:13.571Z",
-        "component-cached-in": "2.33 ms",
-        "component-resolved-in": "2.33 ms"
+        "component-cached-at": "2021-07-24T17:45:57.855Z",
+        "component-cached-in": "3.14 ms",
+        "component-resolved-in": "3.14 ms"
       },
       "components": {}
     },
     "PageSocials": {
       "_cacheKey": "{\"component\":{\"type\":\"PageSocials\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T17:00:13.571Z",
-      "_cachedIn": "1.93 ms",
-      "_resolvedIn": "1.93 ms",
+      "_cachedAt": "2021-07-24T17:45:57.854Z",
+      "_cachedIn": "2.63 ms",
+      "_resolvedIn": "2.63 ms",
       "id": "PageSocials",
       "type": "PageSocials",
       "status": "resolved",
@@ -7787,18 +7899,18 @@
       "attrs": {
         "component-type": "PageSocials",
         "component-id": "PageSocials",
-        "component-cached-at": "2021-07-24T17:00:13.571Z",
-        "component-cached-in": "1.93 ms",
-        "component-resolved-in": "1.93 ms"
+        "component-cached-at": "2021-07-24T17:45:57.854Z",
+        "component-cached-in": "2.63 ms",
+        "component-resolved-in": "2.63 ms"
       },
       "components": {}
     },
     "PostPagesSection": {
       "_cacheKey": "{\"component\":{\"type\":\"PostPagesSection\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T17:00:13.571Z",
-      "_cachedIn": "1.93 ms",
-      "_resolvedIn": "1.93 ms",
+      "_cachedAt": "2021-07-24T17:45:57.854Z",
+      "_cachedIn": "2.63 ms",
+      "_resolvedIn": "2.63 ms",
       "id": "PostPagesSection",
       "type": "PostPagesSection",
       "status": "resolved",
@@ -7864,9 +7976,9 @@
       "attrs": {
         "component-type": "PostPagesSection",
         "component-id": "PostPagesSection",
-        "component-cached-at": "2021-07-24T17:00:13.571Z",
-        "component-cached-in": "1.93 ms",
-        "component-resolved-in": "1.93 ms"
+        "component-cached-at": "2021-07-24T17:45:57.854Z",
+        "component-cached-in": "2.63 ms",
+        "component-resolved-in": "2.63 ms"
       },
       "components": {}
     }

@@ -151,7 +151,7 @@ const rules = [
 
             const checks = [null].map(() => {
 
-                if (pool.relays.length < 1) {
+                if (pool.relays.length < 2) {
                     return {
                         status: 'failed',
                         message: 'Pool does not have enough relays',
@@ -176,31 +176,6 @@ const rules = [
 
             const checks = [null].map(() => {
 
-                if (pool.relays.length < 2) {
-                    return {
-                        status: 'failed',
-                        message: 'Pool does not have enough relays',
-                    }
-                }
-
-                return {
-                    status: 'passed',
-                    message: `Pool has ${pool.relays.length} relays`,
-                }
-            })
-
-            return {
-                checks,
-                status: checks.reduce((prev, curr) => prev.status === 'failed' ? prev.status : curr.status, 'failed'),
-            }
-        }
-    },
-    {
-        id: 'rule-7',
-        resolve: (ctx, { pool }) => {
-
-            const checks = [null].map(() => {
-
                 if (!pool.nodes) {
                     return {
                         status: 'failed',
@@ -221,7 +196,7 @@ const rules = [
         }
     },
     {
-        id: 'rule-8',
+        id: 'rule-7',
         resolve: (ctx, { pool }) => {
 
             const checks = [null].map(() => {
@@ -256,7 +231,7 @@ const rules = [
         }
     },
     {
-        id: 'rule-9',
+        id: 'rule-8',
         resolve: (ctx, { pool }) => {
 
             const checks = [null].map(() => {

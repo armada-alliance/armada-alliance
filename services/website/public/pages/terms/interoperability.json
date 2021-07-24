@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"interoperability\",\"language\":\"en\",\"slug\":\"/terms/interoperability\",\"url\":\"https:///website.codespace1.sublayer.io/terms/interoperability\",\"origin\":\"/terms/interoperability\",\"title\":\"Interoperability\",\"description\":\"One of the significant features within Cardano development that aims to enable interconnection between numerous blockchains and legitimate recognition of activities by central authorities. Enabled cross-chain transfers and the establishment of the internet of blockchains will grant enhanced user experience and functionality.\",\"aliases\":[\"compatibility\"],\"keywords\":[\"interaction\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/interoperability.md\",\"body\":\"\",\"mdxSource\":{\"compiledSource\":\"var M=Object.defineProperty,X=Object.defineProperties;var c=Object.getOwnPropertyDescriptors;var u=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,a=Object.prototype.propertyIsEnumerable;var s=(o,t,n)=>t in o?M(o,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):o[t]=n,p=(o,t)=>{for(var n in t||(t={}))r.call(t,n)&&s(o,n,t[n]);if(u)for(var n of u(t))a.call(t,n)&&s(o,n,t[n]);return o},y=(o,t)=>X(o,c(t));var D=(o,t)=>{var n={};for(var e in o)r.call(o,e)&&t.indexOf(e)<0&&(n[e]=o[e]);if(o!=null&&u)for(var e of u(o))t.indexOf(e)<0&&a.call(o,e)&&(n[e]=o[e]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var e=n,{components:o}=e,t=D(e,[\\\"components\\\"]);return mdx(MDXLayout,y(p(p({},layoutProps),t),{components:o,mdxType:\\\"MDXLayout\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-24T17:00:14.704Z",
-  "_cachedIn": "751 μs",
-  "_resolvedIn": "751 μs",
+  "_cachedAt": "2021-07-24T17:45:59.077Z",
+  "_cachedIn": "848 μs",
+  "_resolvedIn": "848 μs",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -41,17 +41,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-24T17:00:14.704Z",
-    "component-cached-in": "751 μs",
-    "component-resolved-in": "751 μs"
+    "component-cached-at": "2021-07-24T17:45:59.077Z",
+    "component-cached-in": "848 μs",
+    "component-resolved-in": "848 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T17:00:14.704Z",
-      "_cachedIn": "532 μs",
-      "_resolvedIn": "532 μs",
+      "_cachedAt": "2021-07-24T17:45:59.077Z",
+      "_cachedIn": "650 μs",
+      "_resolvedIn": "650 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -60,17 +60,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-24T17:00:14.704Z",
-        "component-cached-in": "532 μs",
-        "component-resolved-in": "532 μs"
+        "component-cached-at": "2021-07-24T17:45:59.077Z",
+        "component-cached-in": "650 μs",
+        "component-resolved-in": "650 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T17:00:14.704Z",
-          "_cachedIn": "323 μs",
-          "_resolvedIn": "323 μs",
+          "_cachedAt": "2021-07-24T17:45:59.077Z",
+          "_cachedIn": "348 μs",
+          "_resolvedIn": "348 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -78,7 +78,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-24T17:00:01.281Z",
+              "createdAt": "2021-07-24T17:45:46.729Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -2210,6 +2210,118 @@
                 "template": "PoolsPage",
                 "updatedAt": "2021-07-10T20:43:29.000Z",
                 "filePath": "/en/stake-pools.md"
+              },
+              {
+                "id": "rule-1",
+                "language": "en",
+                "slug": "/rules/rule-1",
+                "url": "https:///website.codespace1.sublayer.io/rules/rule-1",
+                "origin": "/rules/rule-1",
+                "title": "Pool should have at least one SPO",
+                "description": "Make sure to define at least one SPO in the pool markdown file.",
+                "aliases": null,
+                "keywords": null,
+                "template": "RuleDetailPage",
+                "updatedAt": "2021-07-24T16:54:43.000Z",
+                "filePath": "/en/rules/rule-1.md"
+              },
+              {
+                "id": "rule-2",
+                "language": "en",
+                "slug": "/rules/rule-2",
+                "url": "https:///website.codespace1.sublayer.io/rules/rule-2",
+                "origin": "/rules/rule-2",
+                "title": "Every SPO should only operate one pool",
+                "description": "It's required to operate a single pool. We do not support pool-splitting.",
+                "aliases": null,
+                "keywords": null,
+                "template": "RuleDetailPage",
+                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "filePath": "/en/rules/rule-2.md"
+              },
+              {
+                "id": "rule-3",
+                "language": "en",
+                "slug": "/rules/rule-3",
+                "url": "https:///website.codespace1.sublayer.io/rules/rule-3",
+                "origin": "/rules/rule-3",
+                "title": "Every SPO should have a Telegram handle",
+                "description": "Make sure to define a Telegram handle for every SPO of your stake pool.",
+                "aliases": null,
+                "keywords": null,
+                "template": "RuleDetailPage",
+                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "filePath": "/en/rules/rule-3.md"
+              },
+              {
+                "id": "rule-4",
+                "language": "en",
+                "slug": "/rules/rule-4",
+                "url": "https:///website.codespace1.sublayer.io/rules/rule-4",
+                "origin": "/rules/rule-4",
+                "title": "Pool should have an image",
+                "description": "Make sure to have a logo of your pool specified in a extended metadata json file.",
+                "aliases": null,
+                "keywords": null,
+                "template": "RuleDetailPage",
+                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "filePath": "/en/rules/rule-4.md"
+              },
+              {
+                "id": "rule-5",
+                "language": "en",
+                "slug": "/rules/rule-5",
+                "url": "https:///website.codespace1.sublayer.io/rules/rule-5",
+                "origin": "/rules/rule-5",
+                "title": "Pool is recommended to have at least 2 relays",
+                "description": "It's a best practice to have at least 2 relays to be able to handle downtime of one of the relays.",
+                "aliases": null,
+                "keywords": null,
+                "template": "RuleDetailPage",
+                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "filePath": "/en/rules/rule-5.md"
+              },
+              {
+                "id": "rule-6",
+                "language": "en",
+                "slug": "/rules/rule-6",
+                "url": "https:///website.codespace1.sublayer.io/rules/rule-6",
+                "origin": "/rules/rule-6",
+                "title": "Pool should have their nodes defined",
+                "description": "Make sure to define your nodes in the pool markdown file.",
+                "aliases": null,
+                "keywords": null,
+                "template": "RuleDetailPage",
+                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "filePath": "/en/rules/rule-6.md"
+              },
+              {
+                "id": "rule-7",
+                "language": "en",
+                "slug": "/rules/rule-7",
+                "url": "https:///website.codespace1.sublayer.io/rules/rule-7",
+                "origin": "/rules/rule-7",
+                "title": "Pool should have at least one node running on ARM",
+                "description": "We validate this by looking at your list of nodes. We'll look for at least one node that is running on an ARM device.",
+                "aliases": null,
+                "keywords": null,
+                "template": "RuleDetailPage",
+                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "filePath": "/en/rules/rule-7.md"
+              },
+              {
+                "id": "rule-8",
+                "language": "en",
+                "slug": "/rules/rule-8",
+                "url": "https:///website.codespace1.sublayer.io/rules/rule-8",
+                "origin": "/rules/rule-8",
+                "title": "Pool is recommended to completely run on ARM",
+                "description": "We validate this by looking at your list of nodes. We'll look for at least one block producer and one relay that run on an ARM device.",
+                "aliases": null,
+                "keywords": null,
+                "template": "RuleDetailPage",
+                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "filePath": "/en/rules/rule-8.md"
               },
               {
                 "id": "sitemap",
@@ -7541,18 +7653,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-24T17:00:14.704Z",
-            "component-cached-in": "323 μs",
-            "component-resolved-in": "323 μs"
+            "component-cached-at": "2021-07-24T17:45:59.077Z",
+            "component-cached-in": "348 μs",
+            "component-resolved-in": "348 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T17:00:14.704Z",
-          "_cachedIn": "418 μs",
-          "_resolvedIn": "418 μs",
+          "_cachedAt": "2021-07-24T17:45:59.077Z",
+          "_cachedIn": "504 μs",
+          "_resolvedIn": "504 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7563,17 +7675,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-24T17:00:14.704Z",
-            "component-cached-in": "418 μs",
-            "component-resolved-in": "418 μs"
+            "component-cached-at": "2021-07-24T17:45:59.077Z",
+            "component-cached-in": "504 μs",
+            "component-resolved-in": "504 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-24T17:00:14.704Z",
-              "_cachedIn": "91 μs",
-              "_resolvedIn": "91 μs",
+              "_cachedAt": "2021-07-24T17:45:59.077Z",
+              "_cachedIn": "136 μs",
+              "_resolvedIn": "136 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7633,9 +7745,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-24T17:00:14.704Z",
-                "component-cached-in": "91 μs",
-                "component-resolved-in": "91 μs"
+                "component-cached-at": "2021-07-24T17:45:59.077Z",
+                "component-cached-in": "136 μs",
+                "component-resolved-in": "136 μs"
               },
               "components": {}
             }
@@ -7644,9 +7756,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T17:00:14.704Z",
-          "_cachedIn": "183 μs",
-          "_resolvedIn": "183 μs",
+          "_cachedAt": "2021-07-24T17:45:59.076Z",
+          "_cachedIn": "200 μs",
+          "_resolvedIn": "200 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7655,9 +7767,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-24T17:00:14.704Z",
-            "component-cached-in": "183 μs",
-            "component-resolved-in": "183 μs"
+            "component-cached-at": "2021-07-24T17:45:59.076Z",
+            "component-cached-in": "200 μs",
+            "component-resolved-in": "200 μs"
           },
           "components": {}
         }
@@ -7666,9 +7778,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T17:00:14.704Z",
-      "_cachedIn": "335 μs",
-      "_resolvedIn": "335 μs",
+      "_cachedAt": "2021-07-24T17:45:59.076Z",
+      "_cachedIn": "372 μs",
+      "_resolvedIn": "372 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7699,18 +7811,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-24T17:00:14.704Z",
-        "component-cached-in": "335 μs",
-        "component-resolved-in": "335 μs"
+        "component-cached-at": "2021-07-24T17:45:59.076Z",
+        "component-cached-in": "372 μs",
+        "component-resolved-in": "372 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T17:00:14.704Z",
-      "_cachedIn": "174 μs",
-      "_resolvedIn": "174 μs",
+      "_cachedAt": "2021-07-24T17:45:59.076Z",
+      "_cachedIn": "195 μs",
+      "_resolvedIn": "195 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7722,18 +7834,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-24T17:00:14.704Z",
-        "component-cached-in": "174 μs",
-        "component-resolved-in": "174 μs"
+        "component-cached-at": "2021-07-24T17:45:59.076Z",
+        "component-cached-in": "195 μs",
+        "component-resolved-in": "195 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T17:00:14.704Z",
-      "_cachedIn": "336 μs",
-      "_resolvedIn": "336 μs",
+      "_cachedAt": "2021-07-24T17:45:59.076Z",
+      "_cachedIn": "373 μs",
+      "_resolvedIn": "373 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7752,9 +7864,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-24T17:00:14.704Z",
-        "component-cached-in": "336 μs",
-        "component-resolved-in": "336 μs"
+        "component-cached-at": "2021-07-24T17:45:59.076Z",
+        "component-cached-in": "373 μs",
+        "component-resolved-in": "373 μs"
       },
       "components": {}
     }

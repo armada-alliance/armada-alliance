@@ -17,7 +17,12 @@ module.exports = {
                 return {
                     id: ruleId,
                     name: rulePage.title,
-                    number: rulePage.number
+                    description: rulePage.description,
+                    number: rulePage.number,
+                    link: {
+                        name: rulePage.title,
+                        href: '/rules/' + ruleId
+                    }
                 }
             })
         )

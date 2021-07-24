@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"IdentityDetailPage\",\"version\":1},\"props\":{\"id\":\"saad\",\"language\":\"en\",\"slug\":\"/identities/saad\",\"url\":\"https:///website.codespace1.sublayer.io/identities/saad\",\"origin\":\"/identities/saad\",\"title\":\"Saad\",\"description\":\"SPO\",\"aliases\":null,\"keywords\":null,\"template\":\"IdentityDetailPage\",\"image\":\"https://armada-alliance.com/assets/ship-420.png\",\"updatedAt\":\"2021-07-12T10:41:12.000Z\",\"filePath\":\"/en/identities/saad.md\",\"body\":\"\",\"mdxSource\":{\"compiledSource\":\"var M=Object.defineProperty,X=Object.defineProperties;var c=Object.getOwnPropertyDescriptors;var u=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,a=Object.prototype.propertyIsEnumerable;var s=(o,t,n)=>t in o?M(o,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):o[t]=n,p=(o,t)=>{for(var n in t||(t={}))r.call(t,n)&&s(o,n,t[n]);if(u)for(var n of u(t))a.call(t,n)&&s(o,n,t[n]);return o},y=(o,t)=>X(o,c(t));var D=(o,t)=>{var n={};for(var e in o)r.call(o,e)&&t.indexOf(e)<0&&(n[e]=o[e]);if(o!=null&&u)for(var e of u(o))t.indexOf(e)<0&&a.call(o,e)&&(n[e]=o[e]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var e=n,{components:o}=e,t=D(e,[\\\"components\\\"]);return mdx(MDXLayout,y(p(p({},layoutProps),t),{components:o,mdxType:\\\"MDXLayout\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-24T17:00:13.368Z",
-  "_cachedIn": "1.72 ms",
-  "_resolvedIn": "1.72 ms",
+  "_cachedAt": "2021-07-24T17:45:57.647Z",
+  "_cachedIn": "860 μs",
+  "_resolvedIn": "860 μs",
   "id": "IdentityDetailPage",
   "type": "IdentityDetailPage",
   "status": "resolved",
@@ -45,17 +45,17 @@
   "attrs": {
     "component-type": "IdentityDetailPage",
     "component-id": "IdentityDetailPage",
-    "component-cached-at": "2021-07-24T17:00:13.368Z",
-    "component-cached-in": "1.72 ms",
-    "component-resolved-in": "1.72 ms"
+    "component-cached-at": "2021-07-24T17:45:57.647Z",
+    "component-cached-in": "860 μs",
+    "component-resolved-in": "860 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T17:00:13.368Z",
-      "_cachedIn": "1.23 ms",
-      "_resolvedIn": "1.23 ms",
+      "_cachedAt": "2021-07-24T17:45:57.647Z",
+      "_cachedIn": "616 μs",
+      "_resolvedIn": "616 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -64,17 +64,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-24T17:00:13.368Z",
-        "component-cached-in": "1.23 ms",
-        "component-resolved-in": "1.23 ms"
+        "component-cached-at": "2021-07-24T17:45:57.647Z",
+        "component-cached-in": "616 μs",
+        "component-resolved-in": "616 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T17:00:13.368Z",
-          "_cachedIn": "418 μs",
-          "_resolvedIn": "418 μs",
+          "_cachedAt": "2021-07-24T17:45:57.647Z",
+          "_cachedIn": "225 μs",
+          "_resolvedIn": "225 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -82,7 +82,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-24T17:00:01.281Z",
+              "createdAt": "2021-07-24T17:45:46.729Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -2214,6 +2214,118 @@
                 "template": "PoolsPage",
                 "updatedAt": "2021-07-10T20:43:29.000Z",
                 "filePath": "/en/stake-pools.md"
+              },
+              {
+                "id": "rule-1",
+                "language": "en",
+                "slug": "/rules/rule-1",
+                "url": "https:///website.codespace1.sublayer.io/rules/rule-1",
+                "origin": "/rules/rule-1",
+                "title": "Pool should have at least one SPO",
+                "description": "Make sure to define at least one SPO in the pool markdown file.",
+                "aliases": null,
+                "keywords": null,
+                "template": "RuleDetailPage",
+                "updatedAt": "2021-07-24T16:54:43.000Z",
+                "filePath": "/en/rules/rule-1.md"
+              },
+              {
+                "id": "rule-2",
+                "language": "en",
+                "slug": "/rules/rule-2",
+                "url": "https:///website.codespace1.sublayer.io/rules/rule-2",
+                "origin": "/rules/rule-2",
+                "title": "Every SPO should only operate one pool",
+                "description": "It's required to operate a single pool. We do not support pool-splitting.",
+                "aliases": null,
+                "keywords": null,
+                "template": "RuleDetailPage",
+                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "filePath": "/en/rules/rule-2.md"
+              },
+              {
+                "id": "rule-3",
+                "language": "en",
+                "slug": "/rules/rule-3",
+                "url": "https:///website.codespace1.sublayer.io/rules/rule-3",
+                "origin": "/rules/rule-3",
+                "title": "Every SPO should have a Telegram handle",
+                "description": "Make sure to define a Telegram handle for every SPO of your stake pool.",
+                "aliases": null,
+                "keywords": null,
+                "template": "RuleDetailPage",
+                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "filePath": "/en/rules/rule-3.md"
+              },
+              {
+                "id": "rule-4",
+                "language": "en",
+                "slug": "/rules/rule-4",
+                "url": "https:///website.codespace1.sublayer.io/rules/rule-4",
+                "origin": "/rules/rule-4",
+                "title": "Pool should have an image",
+                "description": "Make sure to have a logo of your pool specified in a extended metadata json file.",
+                "aliases": null,
+                "keywords": null,
+                "template": "RuleDetailPage",
+                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "filePath": "/en/rules/rule-4.md"
+              },
+              {
+                "id": "rule-5",
+                "language": "en",
+                "slug": "/rules/rule-5",
+                "url": "https:///website.codespace1.sublayer.io/rules/rule-5",
+                "origin": "/rules/rule-5",
+                "title": "Pool is recommended to have at least 2 relays",
+                "description": "It's a best practice to have at least 2 relays to be able to handle downtime of one of the relays.",
+                "aliases": null,
+                "keywords": null,
+                "template": "RuleDetailPage",
+                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "filePath": "/en/rules/rule-5.md"
+              },
+              {
+                "id": "rule-6",
+                "language": "en",
+                "slug": "/rules/rule-6",
+                "url": "https:///website.codespace1.sublayer.io/rules/rule-6",
+                "origin": "/rules/rule-6",
+                "title": "Pool should have their nodes defined",
+                "description": "Make sure to define your nodes in the pool markdown file.",
+                "aliases": null,
+                "keywords": null,
+                "template": "RuleDetailPage",
+                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "filePath": "/en/rules/rule-6.md"
+              },
+              {
+                "id": "rule-7",
+                "language": "en",
+                "slug": "/rules/rule-7",
+                "url": "https:///website.codespace1.sublayer.io/rules/rule-7",
+                "origin": "/rules/rule-7",
+                "title": "Pool should have at least one node running on ARM",
+                "description": "We validate this by looking at your list of nodes. We'll look for at least one node that is running on an ARM device.",
+                "aliases": null,
+                "keywords": null,
+                "template": "RuleDetailPage",
+                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "filePath": "/en/rules/rule-7.md"
+              },
+              {
+                "id": "rule-8",
+                "language": "en",
+                "slug": "/rules/rule-8",
+                "url": "https:///website.codespace1.sublayer.io/rules/rule-8",
+                "origin": "/rules/rule-8",
+                "title": "Pool is recommended to completely run on ARM",
+                "description": "We validate this by looking at your list of nodes. We'll look for at least one block producer and one relay that run on an ARM device.",
+                "aliases": null,
+                "keywords": null,
+                "template": "RuleDetailPage",
+                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "filePath": "/en/rules/rule-8.md"
               },
               {
                 "id": "sitemap",
@@ -7545,18 +7657,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-24T17:00:13.368Z",
-            "component-cached-in": "418 μs",
-            "component-resolved-in": "418 μs"
+            "component-cached-at": "2021-07-24T17:45:57.647Z",
+            "component-cached-in": "225 μs",
+            "component-resolved-in": "225 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T17:00:13.368Z",
-          "_cachedIn": "532 μs",
-          "_resolvedIn": "532 μs",
+          "_cachedAt": "2021-07-24T17:45:57.647Z",
+          "_cachedIn": "267 μs",
+          "_resolvedIn": "267 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7567,17 +7679,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-24T17:00:13.368Z",
-            "component-cached-in": "532 μs",
-            "component-resolved-in": "532 μs"
+            "component-cached-at": "2021-07-24T17:45:57.647Z",
+            "component-cached-in": "267 μs",
+            "component-resolved-in": "267 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-24T17:00:13.368Z",
-              "_cachedIn": "106 μs",
-              "_resolvedIn": "106 μs",
+              "_cachedAt": "2021-07-24T17:45:57.647Z",
+              "_cachedIn": "52 μs",
+              "_resolvedIn": "52 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7637,9 +7749,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-24T17:00:13.368Z",
-                "component-cached-in": "106 μs",
-                "component-resolved-in": "106 μs"
+                "component-cached-at": "2021-07-24T17:45:57.647Z",
+                "component-cached-in": "52 μs",
+                "component-resolved-in": "52 μs"
               },
               "components": {}
             }
@@ -7648,9 +7760,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T17:00:13.368Z",
-          "_cachedIn": "227 μs",
-          "_resolvedIn": "227 μs",
+          "_cachedAt": "2021-07-24T17:45:57.647Z",
+          "_cachedIn": "164 μs",
+          "_resolvedIn": "164 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7659,9 +7771,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-24T17:00:13.368Z",
-            "component-cached-in": "227 μs",
-            "component-resolved-in": "227 μs"
+            "component-cached-at": "2021-07-24T17:45:57.647Z",
+            "component-cached-in": "164 μs",
+            "component-resolved-in": "164 μs"
           },
           "components": {}
         }
@@ -7670,9 +7782,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T17:00:13.368Z",
-      "_cachedIn": "992 μs",
-      "_resolvedIn": "992 μs",
+      "_cachedAt": "2021-07-24T17:45:57.647Z",
+      "_cachedIn": "536 μs",
+      "_resolvedIn": "536 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7687,18 +7799,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-24T17:00:13.368Z",
-        "component-cached-in": "992 μs",
-        "component-resolved-in": "992 μs"
+        "component-cached-at": "2021-07-24T17:45:57.647Z",
+        "component-cached-in": "536 μs",
+        "component-resolved-in": "536 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T17:00:13.368Z",
-      "_cachedIn": "716 μs",
-      "_resolvedIn": "716 μs",
+      "_cachedAt": "2021-07-24T17:45:57.647Z",
+      "_cachedIn": "436 μs",
+      "_resolvedIn": "436 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7709,18 +7821,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-24T17:00:13.368Z",
-        "component-cached-in": "716 μs",
-        "component-resolved-in": "716 μs"
+        "component-cached-at": "2021-07-24T17:45:57.647Z",
+        "component-cached-in": "436 μs",
+        "component-resolved-in": "436 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T17:00:13.368Z",
-      "_cachedIn": "992 μs",
-      "_resolvedIn": "992 μs",
+      "_cachedAt": "2021-07-24T17:45:57.647Z",
+      "_cachedIn": "536 μs",
+      "_resolvedIn": "536 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7740,18 +7852,18 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-24T17:00:13.368Z",
-        "component-cached-in": "992 μs",
-        "component-resolved-in": "992 μs"
+        "component-cached-at": "2021-07-24T17:45:57.647Z",
+        "component-cached-in": "536 μs",
+        "component-resolved-in": "536 μs"
       },
       "components": {}
     },
     "PageSocials": {
       "_cacheKey": "{\"component\":{\"type\":\"PageSocials\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T17:00:13.368Z",
-      "_cachedIn": "718 μs",
-      "_resolvedIn": "718 μs",
+      "_cachedAt": "2021-07-24T17:45:57.647Z",
+      "_cachedIn": "442 μs",
+      "_resolvedIn": "442 μs",
       "id": "PageSocials",
       "type": "PageSocials",
       "status": "resolved",
@@ -7763,18 +7875,18 @@
       "attrs": {
         "component-type": "PageSocials",
         "component-id": "PageSocials",
-        "component-cached-at": "2021-07-24T17:00:13.368Z",
-        "component-cached-in": "718 μs",
-        "component-resolved-in": "718 μs"
+        "component-cached-at": "2021-07-24T17:45:57.647Z",
+        "component-cached-in": "442 μs",
+        "component-resolved-in": "442 μs"
       },
       "components": {}
     },
     "PostPagesSection": {
       "_cacheKey": "{\"component\":{\"type\":\"PostPagesSection\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T17:00:13.368Z",
-      "_cachedIn": "720 μs",
-      "_resolvedIn": "720 μs",
+      "_cachedAt": "2021-07-24T17:45:57.647Z",
+      "_cachedIn": "444 μs",
+      "_resolvedIn": "444 μs",
       "id": "PostPagesSection",
       "type": "PostPagesSection",
       "status": "resolved",
@@ -7807,9 +7919,9 @@
       "attrs": {
         "component-type": "PostPagesSection",
         "component-id": "PostPagesSection",
-        "component-cached-at": "2021-07-24T17:00:13.368Z",
-        "component-cached-in": "720 μs",
-        "component-resolved-in": "720 μs"
+        "component-cached-at": "2021-07-24T17:45:57.647Z",
+        "component-cached-in": "444 μs",
+        "component-resolved-in": "444 μs"
       },
       "components": {}
     }
