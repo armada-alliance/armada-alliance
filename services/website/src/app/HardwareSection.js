@@ -4,7 +4,6 @@ import cx from 'classnames'
 
 export default function HardwareSection({ pretitle = 'Hardware', title = 'Shopping List', description, items, totalPrice }) {
 
-    console.log('items', items)
     return (
         <div className="bg-gray-50 dark:bg-gray-800">
             <Container>

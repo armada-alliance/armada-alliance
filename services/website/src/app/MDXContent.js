@@ -121,7 +121,7 @@ const components = {
     YoutubeVideo,
     ImagesSection: (props) => <div className="w-full"><ImagesSection {...props} alternate={true} /></div>,
     Page,
-    ...markdownComponents
+    ...markdownComponents({ spacingEnabled: true })
 }
 
 const MarkdownContent = props => (

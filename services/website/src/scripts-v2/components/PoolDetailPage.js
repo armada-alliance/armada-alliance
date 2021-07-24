@@ -63,6 +63,18 @@ module.exports = {
             })
         },
         {
+            type: 'QualityReportSection',
+            resolve: (ctx, props) => {
+
+                const checks = ctx.tables.get('checks')
+                const result = checks.find(check => check.poolId === props.id)
+
+                return {
+                    rules: result.results,
+                }
+            }
+        },
+        {
             type: 'DelegationSection',
             resolve: (ctx, props) => ({
                 pools: ctx.tables.get('pools'),

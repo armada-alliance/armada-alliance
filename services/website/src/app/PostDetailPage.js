@@ -10,6 +10,7 @@ import Delegation from './Delegation'
 import ContentSections from './ContentSections'
 import formatImage from './formatImage'
 import MarkdownContent from './MarkdownContent'
+import QualityReportSection from './QualityReportSection'
 
 export default function PostDetailPage(props) {
 
@@ -63,6 +64,12 @@ export default function PostDetailPage(props) {
                 <Component
                     use={ContentSections}
                     data={components.ContentSections}
+                />
+            ) : null}
+            {props.props.template === 'PoolDetailPage' ? (
+                <Component
+                    use={QualityReportSection}
+                    data={components.QualityReportSection}
                 />
             ) : null}
         </Component>

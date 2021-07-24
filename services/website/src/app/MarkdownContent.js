@@ -2,10 +2,10 @@ import React from 'react'
 import ReactMarkdown from 'react-markdown'
 import markdownComponents from './markdownComponents'
 
-const MarkdownContent = props => (
+const MarkdownContent = ({ source, spacingEnabled = true }) => (
     <ReactMarkdown
-        children={props.source}
-        components={markdownComponents}
+        children={source}
+        components={markdownComponents({ spacingEnabled })}
     />
 )
 
