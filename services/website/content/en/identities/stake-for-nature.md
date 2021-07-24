@@ -12,4 +12,4 @@ telegram: https://t.me/joinchat/X3OaeQxKgVMwMDE1
 
 This project consists of spread environmental organizations' work, give them a voice, support and help them. Our vision is of a peaceful and sustainable world based on a society living in harmony with nature. We believe that our children’s future will be better because of what we do. Stake with us, stake for nature!
 
-<YoutubeVideo url="https://youtu.be/ovKZXI87bWk" description="Presentation Stake for Nature />
+<YoutubeVideo url="https://youtu.be/ovKZXI87bWk" description="Presentation Stake for Nature" />
