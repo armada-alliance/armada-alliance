@@ -13,7 +13,7 @@ module.exports = {
         const currencies = [
             { id: 'EUR', name: 'Euro', symbol: '€' },
             { id: 'USD', name: 'U.S. Dollar', symbol: '$' },
-            { id: 'AUSD', name: 'Australian Dollar', symbol: '$' },
+            { id: 'AUD', name: 'Australian Dollar', symbol: '$' },
             { id: 'CNY', name: 'Chinese Yuan', symbol: '¥' },
             { id: 'MYR', name: 'Malaysian Ringgit', symbol: 'RM' },
             { id: 'JPY', name: 'Japanese Yen', symbol: '¥' },

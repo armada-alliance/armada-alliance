@@ -45,7 +45,7 @@ export default function AdaPrice({ value, className = 'space-x-1', currencySize 
 
     return (
         <div className={cx("flex select-none", className)}>
-            <div>{numeral(adjustedValue).format('0,0.00a').replace('.00', '')}</div> <button type="button" onClick={handleCurrencyClick} className={cx(currencySize, "focus:outline-none cursor-pointer hover:text-gray-900")}>{currency.label}</button>
+            <div>{numeral(adjustedValue).format('0,0.00a').replace('.00', '')}</div> <button type="button" onClick={handleCurrencyClick} className={cx(currencySize, "focus:outline-none cursor-pointer hover:text-gray-900 dark:hover:text-gray-100")}>{currency.label}</button>
         </div>
     )
 }
