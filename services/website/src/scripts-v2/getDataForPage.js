@@ -1,6 +1,7 @@
 const fs = require('fs/promises')
 const fm = require('front-matter')
 const path = require('path')
+const replaceVariables = require('./replaceVariables')
 
 const getDataForPage = async (filePath) => {
 
