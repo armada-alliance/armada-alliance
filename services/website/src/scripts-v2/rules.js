@@ -247,12 +247,12 @@ const rules = [
                         node.device.platform === 'ARM'
                     )
 
-                const producerOnARM = armNodes.some(node =>
+                const producerOnARM = armNodes.find(node =>
                     node.role === 'producer'
                 )
 
-                const relayOnARM = armNodes.some(node =>
-                    node.role === 'producer'
+                const relayOnARM = armNodes.find(node =>
+                    node.role === 'relay'
                 )
 
                 if (!producerOnARM || !relayOnARM) {

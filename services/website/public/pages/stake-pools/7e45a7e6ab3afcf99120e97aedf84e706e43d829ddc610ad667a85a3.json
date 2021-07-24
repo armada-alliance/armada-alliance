@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolDetailPage\",\"version\":1},\"props\":{\"id\":\"7e45a7e6ab3afcf99120e97aedf84e706e43d829ddc610ad667a85a3\",\"language\":\"en\",\"slug\":\"/stake-pools/7e45a7e6ab3afcf99120e97aedf84e706e43d829ddc610ad667a85a3\",\"url\":\"https:///website.codespace1.sublayer.io/stake-pools/7e45a7e6ab3afcf99120e97aedf84e706e43d829ddc610ad667a85a3\",\"origin\":\"/stake-pools/7e45a7e6ab3afcf99120e97aedf84e706e43d829ddc610ad667a85a3\",\"title\":\"PGWADA Stake pool (PGWAD)\",\"description\":\"Stake pool operated by father and son exploring AI and blockchain\",\"aliases\":null,\"keywords\":null,\"template\":\"PoolDetailPage\",\"identities\":[{\"id\":\"pgwad\",\"role\":\"spo\"}],\"image\":\"https://armada-alliance.com/assets/ship-420.png\",\"updatedAt\":\"2021-07-22T22:53:31.000Z\",\"filePath\":\"/en/stake-pools/7e45a7e6ab3afcf99120e97aedf84e706e43d829ddc610ad667a85a3.md\",\"ticker\":\"pgwad\",\"memberSince\":\"2021-06-15T00:00:00.000Z\",\"body\":\"## About US and Our Mission\\n\\nPGWAD pool is a stakepool run by father and son. My son is still in the learning phase. The best way to learn a blockchain is to start a node on the blockchain.\\nI was introduced to Cardano when I was studying about SingularityNet. I am an Artificial Intelligence (AI) researcher. My day job involves doing Silicon design focused on harnessing their performance/watt to train AI algorithms. The AI field is a centralized system. Big organizations control data which is critical for success of an AI algorithm especially for Deep Learning. Hence SingularityNet was a breath of fresh air. It introduced me to the decentralized AI market place for the first time. When I heard Ben Goertzel talk about Singularitynet on Cardano I was thrilled. I don't want to use the power of my GPU to mine ETH, instead I want it to run my AI training. \\n\\nSo here was a Cardano ecosystem that needed very little power to build a node. Once I started learning about Cardano, I was introduced to the depth of research in Blockchain Proof of Stake. I got into so much depth that 6 months before I started this pool (in Jun-2021) I read all the research papers related to Cardano. What did Cardano help me learn? \\n1) Block Chain basics \\n2) Ouroboros (classic, Praos, Genesis, Hydra, Chronos)\\n3) Networking: mini protocols\\n4) Stakepool operation\\n5) Functional programming (Haskell, Plutus)\\n6) Treasury and sustainability\\n\\nMy main focus right now is the AI+Blockchain. Specifically looking at this paper: J. Weng, J. Weng, J. Zhang, M. Li, Y. Zhang and W. Luo, \\\"DeepChain: Auditable and Privacy-Preserving Deep Learning with Blockchain-based Incentive,\\\" in IEEE Transactions on Dependable and Secure Computing, doi: 10.1109/TDSC.2019.2952332.\\n\\n## Why is this important?\\n\\nAs you might have read, recently the bias in AI algorithms is causing havoc in people's lives. Many people lost their job because of a biased AI. All of this stems out of lack of data for AI training. Think of AI like your child. If you teach your child with bias they will learn with bias. So more diverse data can help. We need a mechanism in which people can share data confidently. Isn't blockchain the solution for such a system? Hence Privacy Preserving based Learning is the future. The paper implements Deepchain but I think the same paper can be implemented on Cardano with Smart contracts.\\n\\n## About Stakepool\\n\\nPGWAD ticker means Packet GateWay for AI and Decentralization.\\nThe stakepool is run using Baremetal ARM raspi core and relays. There is a backup baremetal in case mains go offline. The whole system runs under 14 watts. We have a Mac mini M1 and also other ARM SMB's like Jetson Xavier on standby in case the future needs of Cardano increase.  \\n\\nWe are also exploring the Pi zero based hardware wallet using Trezor open source.\\n\\nThe main aim of the pool is to teach. The first student is my son. I plan to create training modules so that anyone can pick up blockchain and with the right basic skills even AI. I plan to help interested people to start a node so that they can participate in the testing framework of blockchain and AI as part of DeepChainAda.\\nAs we get more delegation and start to mint blocks, we will invest the profits back into the pool as a pledge increase or donating hardware to people who want to start nodes. \\n\\n## Current Focus\\n\\nKeep running the stakepool and focus on learning Plutus. I publish my pool status every week and also the pool running costs and other details on twitter. Please follow me https://twitter.com/PgwadaS\\nI only post updates about the pool, Cardano insight and also AI & Blockchain. I am currently building DeepChainAda using Plutus on Cardano. The Idea is to connect this DeepChainAda to Idris which is the AI domain specific language that SingularityNet is planning to adopt.\\n\\nAI Agent -> AI DSL -> Idris => Plutus -> Haskell\\n\\nSingularityNet=> DeepchainSC on Cardano \\n\\n## Why Stake with PGWAD\\n\\nPGWAD is investing in the future. Many things in the future like smart grid (for electricity distribution) will need the concept of Privacy-preserving and Auditable learning. So if you are intersted in understanding how this area evolves then please follow us and if you can delegate to this pool please do. In Cardano the pool rewards are consistent when delegation is at 10 million or above. Until then the rewards from this pool will be sporadic (depending on how much stake is in the pool). We plan to keep investing in this pool (increase pledge, hardware, etc) and also the task of AI+Blockchain.\\n\\n\",\"mdxSource\":{\"compiledSource\":\"var c=Object.defineProperty,p=Object.defineProperties;var u=Object.getOwnPropertyDescriptors;var o=Object.getOwnPropertySymbols;var s=Object.prototype.hasOwnProperty,r=Object.prototype.propertyIsEnumerable;var l=(e,a,t)=>a in e?c(e,a,{enumerable:!0,configurable:!0,writable:!0,value:t}):e[a]=t,i=(e,a)=>{for(var t in a||(a={}))s.call(a,t)&&l(e,t,a[t]);if(o)for(var t of o(a))r.call(a,t)&&l(e,t,a[t]);return e},h=(e,a)=>p(e,u(a));var d=(e,a)=>{var t={};for(var n in e)s.call(e,n)&&a.indexOf(n)<0&&(t[n]=e[n]);if(e!=null&&o)for(var n of o(e))a.indexOf(n)<0&&r.call(e,n)&&(t[n]=e[n]);return t};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(t){var n=t,{components:e}=n,a=d(n,[\\\"components\\\"]);return mdx(MDXLayout,h(i(i({},layoutProps),a),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"h2\\\",null,\\\"About US and Our Mission\\\"),mdx(\\\"p\\\",null,`PGWAD pool is a stakepool run by father and son. My son is still in the learning phase. The best way to learn a blockchain is to start a node on the blockchain.\\nI was introduced to Cardano when I was studying about SingularityNet. I am an Artificial Intelligence (AI) researcher. My day job involves doing Silicon design focused on harnessing their performance/watt to train AI algorithms. The AI field is a centralized system. Big organizations control data which is critical for success of an AI algorithm especially for Deep Learning. Hence SingularityNet was a breath of fresh air. It introduced me to the decentralized AI market place for the first time. When I heard Ben Goertzel talk about Singularitynet on Cardano I was thrilled. I don't want to use the power of my GPU to mine ETH, instead I want it to run my AI training. `),mdx(\\\"p\\\",null,`So here was a Cardano ecosystem that needed very little power to build a node. Once I started learning about Cardano, I was introduced to the depth of research in Blockchain Proof of Stake. I got into so much depth that 6 months before I started this pool (in Jun-2021) I read all the research papers related to Cardano. What did Cardano help me learn?\\n1) Block Chain basics\\n2) Ouroboros (classic, Praos, Genesis, Hydra, Chronos)\\n3) Networking: mini protocols\\n4) Stakepool operation\\n5) Functional programming (Haskell, Plutus)\\n6) Treasury and sustainability`),mdx(\\\"p\\\",null,'My main focus right now is the AI+Blockchain. Specifically looking at this paper: J. Weng, J. Weng, J. Zhang, M. Li, Y. Zhang and W. Luo, \\\"DeepChain: Auditable and Privacy-Preserving Deep Learning with Blockchain-based Incentive,\\\" in IEEE Transactions on Dependable and Secure Computing, doi: 10.1109/TDSC.2019.2952332.'),mdx(\\\"h2\\\",null,\\\"Why is this important?\\\"),mdx(\\\"p\\\",null,\\\"As you might have read, recently the bias in AI algorithms is causing havoc in people's lives. Many people lost their job because of a biased AI. All of this stems out of lack of data for AI training. Think of AI like your child. If you teach your child with bias they will learn with bias. So more diverse data can help. We need a mechanism in which people can share data confidently. Isn't blockchain the solution for such a system? Hence Privacy Preserving based Learning is the future. The paper implements Deepchain but I think the same paper can be implemented on Cardano with Smart contracts.\\\"),mdx(\\\"h2\\\",null,\\\"About Stakepool\\\"),mdx(\\\"p\\\",null,`PGWAD ticker means Packet GateWay for AI and Decentralization.\\nThe stakepool is run using Baremetal ARM raspi core and relays. There is a backup baremetal in case mains go offline. The whole system runs under 14 watts. We have a Mac mini M1 and also other ARM SMB's like Jetson Xavier on standby in case the future needs of Cardano increase.  `),mdx(\\\"p\\\",null,\\\"We are also exploring the Pi zero based hardware wallet using Trezor open source.\\\"),mdx(\\\"p\\\",null,`The main aim of the pool is to teach. The first student is my son. I plan to create training modules so that anyone can pick up blockchain and with the right basic skills even AI. I plan to help interested people to start a node so that they can participate in the testing framework of blockchain and AI as part of DeepChainAda.\\nAs we get more delegation and start to mint blocks, we will invest the profits back into the pool as a pledge increase or donating hardware to people who want to start nodes. `),mdx(\\\"h2\\\",null,\\\"Current Focus\\\"),mdx(\\\"p\\\",null,\\\"Keep running the stakepool and focus on learning Plutus. I publish my pool status every week and also the pool running costs and other details on twitter. Please follow me \\\",mdx(\\\"a\\\",i({parentName:\\\"p\\\"},{href:\\\"https://twitter.com/PgwadaS\\\"}),\\\"https://twitter.com/PgwadaS\\\"),`\\nI only post updates about the pool, Cardano insight and also AI & Blockchain. I am currently building DeepChainAda using Plutus on Cardano. The Idea is to connect this DeepChainAda to Idris which is the AI domain specific language that SingularityNet is planning to adopt.`),mdx(\\\"p\\\",null,\\\"AI Agent -> AI DSL -> Idris => Plutus -> Haskell\\\"),mdx(\\\"p\\\",null,\\\"SingularityNet=> DeepchainSC on Cardano \\\"),mdx(\\\"h2\\\",null,\\\"Why Stake with PGWAD\\\"),mdx(\\\"p\\\",null,\\\"PGWAD is investing in the future. Many things in the future like smart grid (for electricity distribution) will need the concept of Privacy-preserving and Auditable learning. So if you are intersted in understanding how this area evolves then please follow us and if you can delegate to this pool please do. In Cardano the pool rewards are consistent when delegation is at 10 million or above. Until then the rewards from this pool will be sporadic (depending on how much stake is in the pool). We plan to keep investing in this pool (increase pledge, hardware, etc) and also the task of AI+Blockchain.\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-24T17:45:58.056Z",
-  "_cachedIn": "9.99 ms",
-  "_resolvedIn": "9.99 ms",
+  "_cachedAt": "2021-07-24T19:25:20.268Z",
+  "_cachedIn": "3.58 ms",
+  "_resolvedIn": "3.58 ms",
   "id": "PoolDetailPage",
   "type": "PoolDetailPage",
   "status": "resolved",
@@ -52,7 +52,7 @@
       "totalStake": "2163262514",
       "blocksLifetime": 0,
       "delegators": 4,
-      "saturated": 0.00003235332191772839,
+      "saturated": 0.00003234644791973421,
       "pledge": "100000000",
       "pledged": "628348804",
       "taxRatio": 0,
@@ -114,17 +114,17 @@
   "attrs": {
     "component-type": "PoolDetailPage",
     "component-id": "PoolDetailPage",
-    "component-cached-at": "2021-07-24T17:45:58.056Z",
-    "component-cached-in": "9.99 ms",
-    "component-resolved-in": "9.99 ms"
+    "component-cached-at": "2021-07-24T19:25:20.268Z",
+    "component-cached-in": "3.58 ms",
+    "component-resolved-in": "3.58 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T17:45:58.056Z",
-      "_cachedIn": "6.04 ms",
-      "_resolvedIn": "6.04 ms",
+      "_cachedAt": "2021-07-24T19:25:20.267Z",
+      "_cachedIn": "2.85 ms",
+      "_resolvedIn": "2.85 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -133,17 +133,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-24T17:45:58.056Z",
-        "component-cached-in": "6.04 ms",
-        "component-resolved-in": "6.04 ms"
+        "component-cached-at": "2021-07-24T19:25:20.267Z",
+        "component-cached-in": "2.85 ms",
+        "component-resolved-in": "2.85 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T17:45:58.056Z",
-          "_cachedIn": "2.74 ms",
-          "_resolvedIn": "2.74 ms",
+          "_cachedAt": "2021-07-24T19:25:20.267Z",
+          "_cachedIn": "1.36 ms",
+          "_resolvedIn": "1.36 ms",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -151,7 +151,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-24T17:45:46.729Z",
+              "createdAt": "2021-07-24T19:25:08.428Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1132,7 +1132,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/pascal.jpeg",
-                "updatedAt": "2021-07-23T15:18:20.000Z",
+                "updatedAt": "2021-07-24T17:59:52.000Z",
                 "filePath": "/en/identities/pascal-berry.md"
               },
               {
@@ -1498,7 +1498,7 @@
                   }
                 ],
                 "image": "https://static.adapools.org/pool_logo/052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e.png",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-24T19:08:07.000Z",
                 "filePath": "/en/stake-pools/052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e.md"
               },
               {
@@ -1989,7 +1989,7 @@
                   }
                 ],
                 "image": "https://adamantium.online/images/sun.jpg",
-                "updatedAt": "2021-07-24T14:11:45.000Z",
+                "updatedAt": "2021-07-24T18:32:32.000Z",
                 "filePath": "/en/stake-pools/c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae.md"
               },
               {
@@ -2295,7 +2295,7 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "RuleDetailPage",
-                "updatedAt": "2021-07-24T16:54:43.000Z",
+                "updatedAt": "2021-07-24T17:52:06.000Z",
                 "filePath": "/en/rules/rule-1.md"
               },
               {
@@ -2309,7 +2309,7 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "RuleDetailPage",
-                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "updatedAt": "2021-07-24T17:52:06.000Z",
                 "filePath": "/en/rules/rule-2.md"
               },
               {
@@ -2323,7 +2323,7 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "RuleDetailPage",
-                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "updatedAt": "2021-07-24T17:52:06.000Z",
                 "filePath": "/en/rules/rule-3.md"
               },
               {
@@ -2337,7 +2337,7 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "RuleDetailPage",
-                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "updatedAt": "2021-07-24T17:52:06.000Z",
                 "filePath": "/en/rules/rule-4.md"
               },
               {
@@ -2351,7 +2351,7 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "RuleDetailPage",
-                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "updatedAt": "2021-07-24T17:52:06.000Z",
                 "filePath": "/en/rules/rule-5.md"
               },
               {
@@ -2365,7 +2365,7 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "RuleDetailPage",
-                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "updatedAt": "2021-07-24T17:52:06.000Z",
                 "filePath": "/en/rules/rule-6.md"
               },
               {
@@ -2379,7 +2379,7 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "RuleDetailPage",
-                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "updatedAt": "2021-07-24T17:52:06.000Z",
                 "filePath": "/en/rules/rule-7.md"
               },
               {
@@ -2393,7 +2393,7 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "RuleDetailPage",
-                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "updatedAt": "2021-07-24T17:52:06.000Z",
                 "filePath": "/en/rules/rule-8.md"
               },
               {
@@ -7726,18 +7726,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-24T17:45:58.056Z",
-            "component-cached-in": "2.74 ms",
-            "component-resolved-in": "2.74 ms"
+            "component-cached-at": "2021-07-24T19:25:20.267Z",
+            "component-cached-in": "1.36 ms",
+            "component-resolved-in": "1.36 ms"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T17:45:58.056Z",
-          "_cachedIn": "3.09 ms",
-          "_resolvedIn": "3.09 ms",
+          "_cachedAt": "2021-07-24T19:25:20.267Z",
+          "_cachedIn": "1.69 ms",
+          "_resolvedIn": "1.69 ms",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7748,17 +7748,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-24T17:45:58.056Z",
-            "component-cached-in": "3.09 ms",
-            "component-resolved-in": "3.09 ms"
+            "component-cached-at": "2021-07-24T19:25:20.267Z",
+            "component-cached-in": "1.69 ms",
+            "component-resolved-in": "1.69 ms"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-24T17:45:58.056Z",
-              "_cachedIn": "401 μs",
-              "_resolvedIn": "401 μs",
+              "_cachedAt": "2021-07-24T19:25:20.267Z",
+              "_cachedIn": "372 μs",
+              "_resolvedIn": "372 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7818,9 +7818,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-24T17:45:58.056Z",
-                "component-cached-in": "401 μs",
-                "component-resolved-in": "401 μs"
+                "component-cached-at": "2021-07-24T19:25:20.267Z",
+                "component-cached-in": "372 μs",
+                "component-resolved-in": "372 μs"
               },
               "components": {}
             }
@@ -7829,9 +7829,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T17:45:58.055Z",
-          "_cachedIn": "2.1 ms",
-          "_resolvedIn": "2.1 ms",
+          "_cachedAt": "2021-07-24T19:25:20.267Z",
+          "_cachedIn": "916 μs",
+          "_resolvedIn": "916 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7840,9 +7840,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-24T17:45:58.055Z",
-            "component-cached-in": "2.1 ms",
-            "component-resolved-in": "2.1 ms"
+            "component-cached-at": "2021-07-24T19:25:20.267Z",
+            "component-cached-in": "916 μs",
+            "component-resolved-in": "916 μs"
           },
           "components": {}
         }
@@ -7851,9 +7851,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T17:45:58.056Z",
-      "_cachedIn": "5.37 ms",
-      "_resolvedIn": "5.37 ms",
+      "_cachedAt": "2021-07-24T19:25:20.267Z",
+      "_cachedIn": "2.2 ms",
+      "_resolvedIn": "2.2 ms",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7883,18 +7883,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-24T17:45:58.056Z",
-        "component-cached-in": "5.37 ms",
-        "component-resolved-in": "5.37 ms"
+        "component-cached-at": "2021-07-24T19:25:20.267Z",
+        "component-cached-in": "2.2 ms",
+        "component-resolved-in": "2.2 ms"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T17:45:58.054Z",
-      "_cachedIn": "3.92 ms",
-      "_resolvedIn": "3.92 ms",
+      "_cachedAt": "2021-07-24T19:25:20.266Z",
+      "_cachedIn": "1.56 ms",
+      "_resolvedIn": "1.56 ms",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7905,18 +7905,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-24T17:45:58.054Z",
-        "component-cached-in": "3.92 ms",
-        "component-resolved-in": "3.92 ms"
+        "component-cached-at": "2021-07-24T19:25:20.266Z",
+        "component-cached-in": "1.56 ms",
+        "component-resolved-in": "1.56 ms"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T17:45:58.056Z",
-      "_cachedIn": "5.37 ms",
-      "_resolvedIn": "5.37 ms",
+      "_cachedAt": "2021-07-24T19:25:20.267Z",
+      "_cachedIn": "2.2 ms",
+      "_resolvedIn": "2.2 ms",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7935,18 +7935,18 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-24T17:45:58.056Z",
-        "component-cached-in": "5.37 ms",
-        "component-resolved-in": "5.37 ms"
+        "component-cached-at": "2021-07-24T19:25:20.267Z",
+        "component-cached-in": "2.2 ms",
+        "component-resolved-in": "2.2 ms"
       },
       "components": {}
     },
     "ContentSections": {
       "_cacheKey": "{\"component\":{\"type\":\"ContentSections\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T17:45:58.056Z",
-      "_cachedIn": "5.37 ms",
-      "_resolvedIn": "5.37 ms",
+      "_cachedAt": "2021-07-24T19:25:20.267Z",
+      "_cachedIn": "2.21 ms",
+      "_resolvedIn": "2.21 ms",
       "id": "ContentSections",
       "type": "ContentSections",
       "status": "resolved",
@@ -7955,18 +7955,18 @@
       "attrs": {
         "component-type": "ContentSections",
         "component-id": "ContentSections",
-        "component-cached-at": "2021-07-24T17:45:58.056Z",
-        "component-cached-in": "5.37 ms",
-        "component-resolved-in": "5.37 ms"
+        "component-cached-at": "2021-07-24T19:25:20.267Z",
+        "component-cached-in": "2.21 ms",
+        "component-resolved-in": "2.21 ms"
       },
       "components": {}
     },
     "QualityReportSection": {
       "_cacheKey": "{\"component\":{\"type\":\"QualityReportSection\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T17:45:58.054Z",
-      "_cachedIn": "3.92 ms",
-      "_resolvedIn": "3.92 ms",
+      "_cachedAt": "2021-07-24T19:25:20.266Z",
+      "_cachedIn": "1.56 ms",
+      "_resolvedIn": "1.56 ms",
       "id": "QualityReportSection",
       "type": "QualityReportSection",
       "status": "resolved",
@@ -8114,18 +8114,18 @@
       "attrs": {
         "component-type": "QualityReportSection",
         "component-id": "QualityReportSection",
-        "component-cached-at": "2021-07-24T17:45:58.054Z",
-        "component-cached-in": "3.92 ms",
-        "component-resolved-in": "3.92 ms"
+        "component-cached-at": "2021-07-24T19:25:20.266Z",
+        "component-cached-in": "1.56 ms",
+        "component-resolved-in": "1.56 ms"
       },
       "components": {}
     },
     "DelegationSection": {
       "_cacheKey": "{\"component\":{\"type\":\"DelegationSection\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T17:45:58.054Z",
-      "_cachedIn": "3.92 ms",
-      "_resolvedIn": "3.92 ms",
+      "_cachedAt": "2021-07-24T19:25:20.266Z",
+      "_cachedIn": "1.57 ms",
+      "_resolvedIn": "1.57 ms",
       "id": "DelegationSection",
       "type": "DelegationSection",
       "status": "resolved",
@@ -8148,7 +8148,7 @@
             "totalStake": "6063054249",
             "blocksLifetime": 0,
             "delegators": 4,
-            "saturated": 0.0000906778278886905,
+            "saturated": 0.00009065856188538463,
             "pledge": "150000000",
             "pledged": "171164676",
             "taxRatio": 0,
@@ -8160,6 +8160,18 @@
               {
                 "id": "raine-bhmt",
                 "role": "spo"
+              }
+            ],
+            "nodes": [
+              {
+                "type": "producer",
+                "deviceId": "raspberry-pi-4-8gb",
+                "storage": "Samsung SDD 1 Tb"
+              },
+              {
+                "type": "relay",
+                "deviceId": "raspberry-pi-4-8gb",
+                "storage": "Scandisc SDD 250 Gb"
               }
             ],
             "relays": [
@@ -8253,7 +8265,7 @@
             "totalStake": "4103070829",
             "blocksLifetime": 0,
             "delegators": 4,
-            "saturated": 0.00006136470748361411,
+            "saturated": 0.000061351669537241,
             "pledge": "1000000000",
             "pledged": "1000000000",
             "taxRatio": 0.02,
@@ -8371,7 +8383,7 @@
             "totalStake": "13523874116",
             "blocksLifetime": 0,
             "delegators": 3,
-            "saturated": 0.00020226035907252928,
+            "saturated": 0.00020221738551617853,
             "pledge": "9500000000",
             "pledged": "12938377515",
             "taxRatio": 0,
@@ -8495,10 +8507,10 @@
             "ticker": "BERRY",
             "addr": "pool19f6guwy97mmnxg9dz65rxyj8hq07qxud886hamyu4fgfz7dj9gl",
             "website": "https://pipool.online",
-            "totalStake": "17751732727315",
+            "totalStake": "17751580531827",
             "blocksLifetime": 137,
-            "delegators": 303,
-            "saturated": 0.2654913676945898,
+            "delegators": 305,
+            "saturated": 0.26543268394365094,
             "pledge": "450000000000",
             "pledged": "473351747175",
             "taxRatio": 0.015,
@@ -8715,7 +8727,7 @@
             "totalStake": "4008772925",
             "blocksLifetime": 0,
             "delegators": 3,
-            "saturated": 0.00005995440687306184,
+            "saturated": 0.00005994166856836363,
             "pledge": "1000000000",
             "pledged": "1099502088",
             "taxRatio": 0.035,
@@ -8833,7 +8845,7 @@
             "totalStake": "250317383245",
             "blocksLifetime": 0,
             "delegators": 20,
-            "saturated": 0.0037436967678758913,
+            "saturated": 0.003742901357619763,
             "pledge": "7300000000",
             "pledged": "7777167346",
             "taxRatio": 0,
@@ -8977,7 +8989,7 @@
             "totalStake": "40780460457",
             "blocksLifetime": 0,
             "delegators": 12,
-            "saturated": 0.0006099044182478326,
+            "saturated": 0.0006097748339733542,
             "pledge": "32000000000",
             "pledged": "32846647332",
             "taxRatio": 0.0314,
@@ -9102,7 +9114,7 @@
             "totalStake": "628828781578",
             "blocksLifetime": 1,
             "delegators": 147,
-            "saturated": 0.009404637610951522,
+            "saturated": 0.009402639440246269,
             "pledge": "5000000000",
             "pledged": "5442802499",
             "taxRatio": 0,
@@ -9272,7 +9284,7 @@
             "totalStake": "16364729625",
             "blocksLifetime": 1,
             "delegators": 6,
-            "saturated": 0.00024474762643356726,
+            "saturated": 0.0002446956257550137,
             "pledge": "100000000",
             "pledged": "452728957",
             "taxRatio": 0.015,
@@ -9407,7 +9419,7 @@
             "totalStake": "3208385494",
             "blocksLifetime": 6,
             "delegators": 8,
-            "saturated": 0.000055461872475462404,
+            "saturated": 0.00005545008868395194,
             "pledge": "18000000000",
             "pledged": "0",
             "taxRatio": 0.01,
@@ -9518,7 +9530,7 @@
             "totalStake": "5355631048",
             "blocksLifetime": 0,
             "delegators": 4,
-            "saturated": 0.00008009774784482077,
+            "saturated": 0.00008008072975439335,
             "pledge": "1650204431",
             "pledged": "2967454618",
             "taxRatio": 0,
@@ -9684,7 +9696,7 @@
             "totalStake": "62571053214",
             "blocksLifetime": 0,
             "delegators": 4,
-            "saturated": 0.0009358001695414463,
+            "saturated": 0.0009356013433280289,
             "pledge": "62000000000",
             "pledged": "62571053214",
             "taxRatio": 0.01,
@@ -9817,7 +9829,7 @@
             "totalStake": "11334138812",
             "blocksLifetime": 0,
             "delegators": 10,
-            "saturated": 0.00016951111539709117,
+            "saturated": 0.00016947509995885604,
             "pledge": "800000000",
             "pledged": "808810443",
             "taxRatio": 0,
@@ -9927,7 +9939,7 @@
             "totalStake": "2163262514",
             "blocksLifetime": 0,
             "delegators": 4,
-            "saturated": 0.00003235332191772839,
+            "saturated": 0.00003234644791973421,
             "pledge": "100000000",
             "pledged": "628348804",
             "taxRatio": 0,
@@ -10001,7 +10013,7 @@
             "totalStake": "1664648309232",
             "blocksLifetime": 9,
             "delegators": 22,
-            "saturated": 0.024896147499362236,
+            "saturated": 0.024890857901329354,
             "pledge": "25000000000",
             "pledged": "36722032329",
             "taxRatio": 0.01,
@@ -10117,7 +10129,7 @@
             "totalStake": "62073782426",
             "blocksLifetime": 0,
             "delegators": 7,
-            "saturated": 0.0009283630869958341,
+            "saturated": 0.0009281658409135276,
             "pledge": "3000000000",
             "pledged": "3002007384",
             "taxRatio": 0,
@@ -10244,7 +10256,7 @@
             "totalStake": "3775159429666",
             "blocksLifetime": 37,
             "delegators": 33,
-            "saturated": 0.05646053011517769,
+            "saturated": 0.056448534142345325,
             "pledge": "8000000000",
             "pledged": "8000692982",
             "taxRatio": 0.01,
@@ -10374,7 +10386,7 @@
             "totalStake": "363415787511",
             "blocksLifetime": 7,
             "delegators": 13,
-            "saturated": 0.0054351739038770025,
+            "saturated": 0.005434019111345705,
             "pledge": "52000000000",
             "pledged": "60501827155",
             "taxRatio": 0.01,
@@ -10513,12 +10525,12 @@
             "ticker": "ASTOR",
             "addr": "pool1n6qqnvjfzskcq9zdld5pnp8q3ktd28pqsh5tkmvarqcayr76puv",
             "website": "http://astorpool.net",
-            "totalStake": "1048309218285",
+            "totalStake": "1048305864295",
             "blocksLifetime": 42,
-            "delegators": 68,
-            "saturated": 0.015678303205921867,
+            "delegators": 69,
+            "saturated": 0.015674921940319896,
             "pledge": "150000000000",
-            "pledged": "211570176982",
+            "pledged": "211321706982",
             "taxRatio": 0.01,
             "taxFix": "340000000",
             "roa": "5.852",
@@ -10649,7 +10661,7 @@
             "totalStake": "69109617808",
             "blocksLifetime": 0,
             "delegators": 9,
-            "saturated": 0.001033589635138197,
+            "saturated": 0.0010333700319364975,
             "pledge": "1000000000",
             "pledged": "1004394659",
             "taxRatio": 0.03,
@@ -10786,7 +10798,7 @@
             "totalStake": "14700270031755",
             "blocksLifetime": 21,
             "delegators": 24,
-            "saturated": 0.21985430133279923,
+            "saturated": 0.21980758965261332,
             "pledge": "52000000000",
             "pledged": "53236354533",
             "taxRatio": 0.015,
@@ -10932,10 +10944,10 @@
             "ticker": "STALE",
             "addr": "pool1hysp9sd0h4k8ll8sxnl0k3gqatd9axzjnaxs7488mw9gze40jp9",
             "website": "https://discord.com/invite/yA9cAtD3et",
-            "totalStake": "380462616840",
+            "totalStake": "380426172153",
             "blocksLifetime": 15,
-            "delegators": 141,
-            "saturated": 0.005690122877193197,
+            "delegators": 140,
+            "saturated": 0.005688368972888723,
             "pledge": "2000000000",
             "pledged": "6036045181",
             "taxRatio": 0.02,
@@ -11043,7 +11055,7 @@
             "totalStake": "36813759811",
             "blocksLifetime": 0,
             "delegators": 5,
-            "saturated": 0.0005505792359730294,
+            "saturated": 0.0005504622563140832,
             "pledge": "10000000000",
             "pledged": "10004423945",
             "taxRatio": 0,
@@ -11163,7 +11175,7 @@
             "totalStake": "1067079393571",
             "blocksLifetime": 241,
             "delegators": 37,
-            "saturated": 0.015959026197029064,
+            "saturated": 0.01595563543813431,
             "pledge": "500000000000",
             "pledged": "514310197043",
             "taxRatio": 0.0125,
@@ -11296,7 +11308,7 @@
             "totalStake": "74251226514",
             "blocksLifetime": 2,
             "delegators": 19,
-            "saturated": 0.0011104865075998868,
+            "saturated": 0.001110250566386641,
             "pledge": "69420000000",
             "pledged": "70400385546",
             "taxRatio": 0.01,
@@ -11427,7 +11439,7 @@
             "totalStake": "3278703025894",
             "blocksLifetime": 35,
             "delegators": 18,
-            "saturated": 0.04903562733735733,
+            "saturated": 0.049025208907842815,
             "pledge": "6000000000",
             "pledged": "7592199961",
             "taxRatio": 0.01,
@@ -11571,10 +11583,10 @@
             "ticker": "OYSTR",
             "addr": "pool1l6aeyn35nkqkn9lqqlwqnpraakdzuukjrqprcrj3sctk6hhe32k",
             "website": "https://twitter.com/OystrPool",
-            "totalStake": "5203254453146",
+            "totalStake": "5195699373690",
             "blocksLifetime": 295,
-            "delegators": 328,
-            "saturated": 0.07781883393856392,
+            "delegators": 327,
+            "saturated": 0.07768933178937304,
             "pledge": "555400000000",
             "pledged": "570241066490",
             "taxRatio": 0.03,
@@ -11744,7 +11756,7 @@
           "totalStake": "2163262514",
           "blocksLifetime": 0,
           "delegators": 4,
-          "saturated": 0.00003235332191772839,
+          "saturated": 0.00003234644791973421,
           "pledge": "100000000",
           "pledged": "628348804",
           "taxRatio": 0,
@@ -11806,9 +11818,9 @@
       "attrs": {
         "component-type": "DelegationSection",
         "component-id": "DelegationSection",
-        "component-cached-at": "2021-07-24T17:45:58.054Z",
-        "component-cached-in": "3.92 ms",
-        "component-resolved-in": "3.92 ms"
+        "component-cached-at": "2021-07-24T19:25:20.266Z",
+        "component-cached-in": "1.57 ms",
+        "component-resolved-in": "1.57 ms"
       },
       "components": {}
     }
