@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"GuideDetailPage\",\"version\":1},\"props\":{\"id\":\"create-single-non-fungible-token\",\"language\":\"en\",\"slug\":\"/guides/create-single-non-fungible-token\",\"url\":\"https:///website.codespace1.sublayer.io/guides/create-single-non-fungible-token\",\"origin\":\"/guides/create-single-non-fungible-token\",\"title\":\"Create Single NFT\",\"description\":\"How to create a Non-Fungible token on Cardano with JavaScript.\",\"aliases\":null,\"keywords\":[\"NFT\",\"JavaScript\"],\"template\":\"GuideDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"},{\"id\":\"sublayerio\",\"role\":\"author\"}],\"icon\":\"💰\",\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/guides/create-single-non-fungible-token.md\",\"externalLink\":\"https://docs.armada-alliance.com/learn/cardano-developer-guides/nft-native-assets\",\"body\":\"- In this guide we will go over how to create a [NFT](/terms/nft) on the Cardano blockchain using Javascript and the [cardano-cli-js](/terms/cardano-cli-js) package provided by our friends from BERRY stake pool [Alessandro](/identities/alessandro-berry) and [Pascal](/identities/pascal-berry).\\n\\n\\n\\n<YoutubeVideo url=\\\"https://www.youtube.com/watch?v=OeOliguGn7Y\\\" />\",\"mdxSource\":{\"compiledSource\":\"var c=Object.defineProperty,p=Object.defineProperties;var m=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var i=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var d=(e,o,a)=>o in e?c(e,o,{enumerable:!0,configurable:!0,writable:!0,value:a}):e[o]=a,r=(e,o)=>{for(var a in o||(o={}))i.call(o,a)&&d(e,a,o[a]);if(n)for(var a of n(o))s.call(o,a)&&d(e,a,o[a]);return e},l=(e,o)=>p(e,m(o));var u=(e,o)=>{var a={};for(var t in e)i.call(e,t)&&o.indexOf(t)<0&&(a[t]=e[t]);if(e!=null&&n)for(var t of n(e))o.indexOf(t)<0&&s.call(e,t)&&(a[t]=e[t]);return a};const makeShortcode=e=>function(a){return console.warn(\\\"Component \\\"+e+\\\" was not imported, exported, or provided by MDXProvider as global scope\\\"),mdx(\\\"div\\\",r({},a))},YoutubeVideo=makeShortcode(\\\"YoutubeVideo\\\"),layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(a){var t=a,{components:e}=t,o=u(t,[\\\"components\\\"]);return mdx(MDXLayout,l(r(r({},layoutProps),o),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"ul\\\",null,mdx(\\\"li\\\",{parentName:\\\"ul\\\"},\\\"In this guide we will go over how to create a \\\",mdx(\\\"a\\\",r({parentName:\\\"li\\\"},{href:\\\"/terms/nft\\\"}),\\\"NFT\\\"),\\\" on the Cardano blockchain using Javascript and the \\\",mdx(\\\"a\\\",r({parentName:\\\"li\\\"},{href:\\\"/terms/cardano-cli-js\\\"}),\\\"cardano-cli-js\\\"),\\\" package provided by our friends from BERRY stake pool \\\",mdx(\\\"a\\\",r({parentName:\\\"li\\\"},{href:\\\"/identities/alessandro-berry\\\"}),\\\"Alessandro\\\"),\\\" and \\\",mdx(\\\"a\\\",r({parentName:\\\"li\\\"},{href:\\\"/identities/pascal-berry\\\"}),\\\"Pascal\\\"),\\\".\\\")),mdx(YoutubeVideo,{url:\\\"https://www.youtube.com/watch?v=OeOliguGn7Y\\\",mdxType:\\\"YoutubeVideo\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-23T13:11:56.532Z",
-  "_cachedIn": "184 ms",
-  "_resolvedIn": "184 ms",
+  "_cachedAt": "2021-07-24T11:15:42.965Z",
+  "_cachedIn": "205 ms",
+  "_resolvedIn": "205 ms",
   "id": "GuideDetailPage",
   "type": "GuideDetailPage",
   "status": "resolved",
@@ -47,17 +47,17 @@
   "attrs": {
     "component-type": "GuideDetailPage",
     "component-id": "GuideDetailPage",
-    "component-cached-at": "2021-07-23T13:11:56.532Z",
-    "component-cached-in": "184 ms",
-    "component-resolved-in": "184 ms"
+    "component-cached-at": "2021-07-24T11:15:42.965Z",
+    "component-cached-in": "205 ms",
+    "component-resolved-in": "205 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-23T13:11:56.532Z",
-      "_cachedIn": "222 μs",
-      "_resolvedIn": "222 μs",
+      "_cachedAt": "2021-07-24T11:15:42.965Z",
+      "_cachedIn": "373 μs",
+      "_resolvedIn": "373 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -66,17 +66,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-23T13:11:56.532Z",
-        "component-cached-in": "222 μs",
-        "component-resolved-in": "222 μs"
+        "component-cached-at": "2021-07-24T11:15:42.965Z",
+        "component-cached-in": "373 μs",
+        "component-resolved-in": "373 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-23T13:11:56.532Z",
-          "_cachedIn": "137 μs",
-          "_resolvedIn": "137 μs",
+          "_cachedAt": "2021-07-24T11:15:42.965Z",
+          "_cachedIn": "233 μs",
+          "_resolvedIn": "233 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -84,7 +84,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-23T13:11:41.504Z",
+              "createdAt": "2021-07-24T11:15:25.705Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -323,7 +323,7 @@
                   }
                 ],
                 "image": "/flood-disaster.webp",
-                "updatedAt": "2021-07-22T18:31:04.000Z",
+                "updatedAt": "2021-07-23T13:28:15.000Z",
                 "filePath": "/en/blogs/rpi-resiliency-sbc-otg-blog.md"
               },
               {
@@ -1065,7 +1065,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/pascal.jpeg",
-                "updatedAt": "2021-06-18T07:30:31.000Z",
+                "updatedAt": "2021-07-23T15:18:20.000Z",
                 "filePath": "/en/identities/pascal-berry.md"
               },
               {
@@ -1170,7 +1170,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/sayshar.jpg",
-                "updatedAt": "2021-07-14T18:12:31.000Z",
+                "updatedAt": "2021-07-23T15:18:20.000Z",
                 "filePath": "/en/identities/sayshar-srn.md"
               },
               {
@@ -1187,6 +1187,21 @@
                 "image": "/sbc-mining.jpg",
                 "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/sbc-mining.md"
+              },
+              {
+                "id": "skeeter",
+                "language": "en",
+                "slug": "/identities/skeeter",
+                "url": "https:///website.codespace1.sublayer.io/identities/skeeter",
+                "origin": "/identities/skeeter",
+                "title": "Skeeter",
+                "description": "Community member",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "/skeeter.jpg",
+                "updatedAt": "2021-07-23T15:18:20.000Z",
+                "filePath": "/en/identities/skeeter.md"
               },
               {
                 "id": "spacebudz",
@@ -1215,7 +1230,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/s4na.jpg",
-                "updatedAt": "2021-07-14T21:30:10.000Z",
+                "updatedAt": "2021-07-24T10:30:58.000Z",
                 "filePath": "/en/identities/stake-for-nature.md"
               },
               {
@@ -1260,7 +1275,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://cdn.sublayer.io/logo.png",
-                "updatedAt": "2021-07-23T07:53:54.000Z",
+                "updatedAt": "2021-07-23T15:18:20.000Z",
                 "filePath": "/en/identities/sublayerio.md"
               },
               {
@@ -1305,7 +1320,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/tony.jpg",
-                "updatedAt": "2021-07-22T05:04:02.000Z",
+                "updatedAt": "2021-07-23T15:18:20.000Z",
                 "filePath": "/en/identities/tony-piada.md"
               },
               {
@@ -1335,7 +1350,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/wcat.jpeg",
-                "updatedAt": "2021-07-18T08:39:13.000Z",
+                "updatedAt": "2021-07-24T10:36:53.000Z",
                 "filePath": "/en/identities/wcat-otg.md"
               },
               {
@@ -1630,7 +1645,7 @@
                   }
                 ],
                 "image": "https://stakefornature.com/ico.png",
-                "updatedAt": "2021-07-14T21:28:24.000Z",
+                "updatedAt": "2021-07-24T10:21:53.000Z",
                 "filePath": "/en/stake-pools/5707e4254180d481a4f1e690be0c2c54b3a618051d907df7e4434c0b.md"
               },
               {
@@ -1714,7 +1729,7 @@
                   }
                 ],
                 "image": "https://cdn.sublayer.io/logo.png",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-23T14:25:35.000Z",
                 "filePath": "/en/stake-pools/8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8.md"
               },
               {
@@ -1844,7 +1859,7 @@
                   }
                 ],
                 "image": "https://piada.io/piadaFull.png",
-                "updatedAt": "2021-07-21T21:14:16.000Z",
+                "updatedAt": "2021-07-24T06:52:08.000Z",
                 "filePath": "/en/stake-pools/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65.md"
               },
               {
@@ -1907,7 +1922,7 @@
                   }
                 ],
                 "image": "https://adamantium.online/images/sun.jpg",
-                "updatedAt": "2021-07-20T20:48:32.000Z",
+                "updatedAt": "2021-07-24T09:36:58.000Z",
                 "filePath": "/en/stake-pools/c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae.md"
               },
               {
@@ -7532,18 +7547,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-23T13:11:56.532Z",
-            "component-cached-in": "137 μs",
-            "component-resolved-in": "137 μs"
+            "component-cached-at": "2021-07-24T11:15:42.965Z",
+            "component-cached-in": "233 μs",
+            "component-resolved-in": "233 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-23T13:11:56.532Z",
-          "_cachedIn": "156 μs",
-          "_resolvedIn": "156 μs",
+          "_cachedAt": "2021-07-24T11:15:42.965Z",
+          "_cachedIn": "268 μs",
+          "_resolvedIn": "268 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7554,17 +7569,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-23T13:11:56.532Z",
-            "component-cached-in": "156 μs",
-            "component-resolved-in": "156 μs"
+            "component-cached-at": "2021-07-24T11:15:42.965Z",
+            "component-cached-in": "268 μs",
+            "component-resolved-in": "268 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-23T13:11:56.532Z",
-              "_cachedIn": "32 μs",
-              "_resolvedIn": "32 μs",
+              "_cachedAt": "2021-07-24T11:15:42.965Z",
+              "_cachedIn": "75 μs",
+              "_resolvedIn": "75 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7624,9 +7639,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-23T13:11:56.532Z",
-                "component-cached-in": "32 μs",
-                "component-resolved-in": "32 μs"
+                "component-cached-at": "2021-07-24T11:15:42.965Z",
+                "component-cached-in": "75 μs",
+                "component-resolved-in": "75 μs"
               },
               "components": {}
             }
@@ -7635,9 +7650,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-23T13:11:56.532Z",
-          "_cachedIn": "97 μs",
-          "_resolvedIn": "97 μs",
+          "_cachedAt": "2021-07-24T11:15:42.965Z",
+          "_cachedIn": "149 μs",
+          "_resolvedIn": "149 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7646,9 +7661,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-23T13:11:56.532Z",
-            "component-cached-in": "97 μs",
-            "component-resolved-in": "97 μs"
+            "component-cached-at": "2021-07-24T11:15:42.965Z",
+            "component-cached-in": "149 μs",
+            "component-resolved-in": "149 μs"
           },
           "components": {}
         }
@@ -7657,9 +7672,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-23T13:11:56.532Z",
-      "_cachedIn": "167 μs",
-      "_resolvedIn": "167 μs",
+      "_cachedAt": "2021-07-24T11:15:42.965Z",
+      "_cachedIn": "277 μs",
+      "_resolvedIn": "277 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7707,18 +7722,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-23T13:11:56.532Z",
-        "component-cached-in": "167 μs",
-        "component-resolved-in": "167 μs"
+        "component-cached-at": "2021-07-24T11:15:42.965Z",
+        "component-cached-in": "277 μs",
+        "component-resolved-in": "277 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-23T13:11:56.532Z",
-      "_cachedIn": "88 μs",
-      "_resolvedIn": "88 μs",
+      "_cachedAt": "2021-07-24T11:15:42.965Z",
+      "_cachedIn": "135 μs",
+      "_resolvedIn": "135 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7730,18 +7745,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-23T13:11:56.532Z",
-        "component-cached-in": "88 μs",
-        "component-resolved-in": "88 μs"
+        "component-cached-at": "2021-07-24T11:15:42.965Z",
+        "component-cached-in": "135 μs",
+        "component-resolved-in": "135 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-23T13:11:56.532Z",
-      "_cachedIn": "166 μs",
-      "_resolvedIn": "166 μs",
+      "_cachedAt": "2021-07-24T11:15:42.965Z",
+      "_cachedIn": "277 μs",
+      "_resolvedIn": "277 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7762,9 +7777,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-23T13:11:56.532Z",
-        "component-cached-in": "166 μs",
-        "component-resolved-in": "166 μs"
+        "component-cached-at": "2021-07-24T11:15:42.965Z",
+        "component-cached-in": "277 μs",
+        "component-resolved-in": "277 μs"
       },
       "components": {}
     }

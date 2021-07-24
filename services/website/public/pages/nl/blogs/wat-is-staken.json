@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"BlogDetailPage\",\"version\":1},\"props\":{\"id\":\"wat-is-staken\",\"language\":\"nl\",\"slug\":\"/nl/blogs/wat-is-staken\",\"url\":\"https:///website.codespace1.sublayer.io/nl/blogs/wat-is-staken\",\"origin\":\"/blogs/what-is-staking\",\"title\":\"Wat is staken?\",\"description\":\"Op de [Cardano](/en/terms/cardano.md) blockchain vertegenwoordigt de ada die door wallets wordt gehouden het belang in het netwerk; de mogelijkheid om uw inzet te gebruiken om ofwel [belofte](/en/terms/pledge.md) of delegeren is een van de kernelementen van Cardano.\",\"aliases\":null,\"keywords\":[\"ada\",\"cardano\",\"delegating ada\",\"hoe te delegeren\",\"staking ada\",\"staking\"],\"template\":\"BlogDetailPage\",\"identities\":[{\"id\":\"sublayerio\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/nl/blogs/wat-is-staken.md\",\"body\":\"[Pledge](/terms/pledge) is het bedrag aan ada dat een eigenaar van een stake pool heeft besloten te delegeren aan een [stake pool](/terms/stake-pool). Momenteel is er geen minimum hoeveelheid ada benodigd om een stake pool te starten. Een eigenaar van een stake pool kan dus een deel van of al zijn ada delegeren bij het maken van een stake pool. De pledge van een eigenaar van een stake pool heeft echter wel invloed op zaken als de aantrekkelijkheid van zijn stake pool voor gebruikers die staken (delegators), a0 parameter, beloningsdistributie en veiligheid van het netwerk.\\n\\nCardano stake pools zijn van essentieel voor de decentralisatie en het optimaal functioneren van het netwerk. Stake pool operators zetten hun ada, tijd en vaardigheden in om Cardano nodes continu online te houden. Ze doen dit zodat andere gebruikers kunnen deelnemen aan het protocol en beloningen kunnen ontvangen zonder zelf het netwerk te hoeven ondersteunen.\\n\\nDelegatie of ook bekend als het staken van uw ADA is een essentieel kenmerk van Cardano waarmee gebruikers die ervoor kiezen geen stake pool te beheren, toch kunnen delen in alle voordelen van het ecosysteem. Staking is het mechanisme waarmee alle gebruikers dingen ervaren zoals het schema voor het delen van beloningen van Cardano, liquiditeitspools, De-Fi en governance. Als u een gemiddelde gebruiker bent en gewoon wilt deelnemen, is netwerkstaking de beste plaats om uw ada vandaag aan het werk te zetten.\\n\\nDe totale hoeveelheid \\\"staked\\\" ada die momenteel in Cardano Stake Pools zit, is ongeveer 32,5 miljard of 71% van het totale aanbod van ada. Dit bedrag is indrukwekkend om twee redenen: het toont het vertrouwen van de gemeenschap in Cardano, en het waarborgt de veiligheid van het Cardano netwerk.\\n\\n## Waarom zou u uw [ada](/nl/terms/ada) delegeren?\\n\\nDoor uw ada te delegeren aan een Cardano Stake Pool, ondersteunt u de community, profiteert u van het systeem voor het delen van beloningen en helpt u het algehele netwerk te beveiligen.\\n\\nDelegeren is een geweldige manier om deel uit te maken van de algehele Cardano-gemeenschap die elke dag actief en betrokken is en samenwerkt om de toekomst van decentralisatie vorm te geven. Als u een stake pool kiest die aansluit bij uw interesses, kan Cardano verbeteren door hen en hun missies te ondersteunen met de delegatie van uw inzet. Veel stake pool operators zijn actief op sociale media, YouTube en forums om in contact te komen met hun gemeenschap van afgevaardigden.\\n\\nTerwijl u delegeert met de pool van uw keuze, neemt u deel aan het beloningssysteem <Link url=\\\"https://arxiv.org/abs/1807.11218\\\"/> van Cardano en wordt u betaald, afhankelijk of de stake pool goed presteert, met een gemiddelde rente van 5% per jaar over de totale inzet. Bovenop deze beloning bieden veel stake pools NFT/token airdrops, ada dividenden en diensten.\\n\\nBeveiliging van het Cardano-netwerk door middel van toezegging en delegatie is een ander voordeel van Cardano's baanbrekende onderzoek naar Ouroboros PoS en consensusmechanisme. Proof-of-stake blockchains zoals Cardano gebruiken een virtuele resource of stake om consensus te bereiken over de blockchain. De inzet wordt geregistreerd in het grootboek van de blockchain als een native token (ada).\\n\\nZonder al te veel technische details in te gaan, dankzij het Cardano PoS-ontwerp en de enorme hoeveelheid ada die is ingezet, is Cardano in staat om vele aanvallen af ​​te weren, zoals:\\n- [51% Attack](/terms/fifty-one-percent-attack)\\n- [Sybil Attack](/terms/sybil-attack)\\n- [Fake Stake Attack](/terms/fake-stake)\\n\\n\\n**Referenties**\\n\\n- https://iohk.io/en/blog/posts/2020/11/13/the-general-perspective-on-staking-in-cardano/\\n- https://heraldsheets.com/why-51-attack-on-cardano-network-is-relatively-impossible/\\n- https://forum.cardano.org/t/staking-and-delegating-for-beginners-a-step-by-step-guide/36681\\nhttps://forum.cardano.org/t/consensus-on-cardano-vs-other-blockchains/38738\\n- https://forum.cardano.org/t/how-cardano-uses-significantly-less-energy-while-maintaining-the-same-level-of-security-as-bitcoin/62629\\n- https://emurgo.io/en/blog/explain-proof-of-stake-pos-dpos\",\"mdxSource\":{\"compiledSource\":\"var h=Object.defineProperty,g=Object.defineProperties;var m=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var i=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var l=(e,n,a)=>n in e?h(e,n,{enumerable:!0,configurable:!0,writable:!0,value:a}):e[n]=a,t=(e,n)=>{for(var a in n||(n={}))i.call(n,a)&&l(e,a,n[a]);if(r)for(var a of r(n))s.call(n,a)&&l(e,a,n[a]);return e},d=(e,n)=>g(e,m(n));var p=(e,n)=>{var a={};for(var o in e)i.call(e,o)&&n.indexOf(o)<0&&(a[o]=e[o]);if(e!=null&&r)for(var o of r(e))n.indexOf(o)<0&&s.call(e,o)&&(a[o]=e[o]);return a};const makeShortcode=e=>function(a){return console.warn(\\\"Component \\\"+e+\\\" was not imported, exported, or provided by MDXProvider as global scope\\\"),mdx(\\\"div\\\",t({},a))},Link=makeShortcode(\\\"Link\\\"),layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(a){var o=a,{components:e}=o,n=p(o,[\\\"components\\\"]);return mdx(MDXLayout,d(t(t({},layoutProps),n),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,mdx(\\\"a\\\",t({parentName:\\\"p\\\"},{href:\\\"/terms/pledge\\\"}),\\\"Pledge\\\"),\\\" is het bedrag aan ada dat een eigenaar van een stake pool heeft besloten te delegeren aan een \\\",mdx(\\\"a\\\",t({parentName:\\\"p\\\"},{href:\\\"/terms/stake-pool\\\"}),\\\"stake pool\\\"),\\\". Momenteel is er geen minimum hoeveelheid ada benodigd om een stake pool te starten. Een eigenaar van een stake pool kan dus een deel van of al zijn ada delegeren bij het maken van een stake pool. De pledge van een eigenaar van een stake pool heeft echter wel invloed op zaken als de aantrekkelijkheid van zijn stake pool voor gebruikers die staken (delegators), a0 parameter, beloningsdistributie en veiligheid van het netwerk.\\\"),mdx(\\\"p\\\",null,\\\"Cardano stake pools zijn van essentieel voor de decentralisatie en het optimaal functioneren van het netwerk. Stake pool operators zetten hun ada, tijd en vaardigheden in om Cardano nodes continu online te houden. Ze doen dit zodat andere gebruikers kunnen deelnemen aan het protocol en beloningen kunnen ontvangen zonder zelf het netwerk te hoeven ondersteunen.\\\"),mdx(\\\"p\\\",null,\\\"Delegatie of ook bekend als het staken van uw ADA is een essentieel kenmerk van Cardano waarmee gebruikers die ervoor kiezen geen stake pool te beheren, toch kunnen delen in alle voordelen van het ecosysteem. Staking is het mechanisme waarmee alle gebruikers dingen ervaren zoals het schema voor het delen van beloningen van Cardano, liquiditeitspools, De-Fi en governance. Als u een gemiddelde gebruiker bent en gewoon wilt deelnemen, is netwerkstaking de beste plaats om uw ada vandaag aan het werk te zetten.\\\"),mdx(\\\"p\\\",null,'De totale hoeveelheid \\\"staked\\\" ada die momenteel in Cardano Stake Pools zit, is ongeveer 32,5 miljard of 71% van het totale aanbod van ada. Dit bedrag is indrukwekkend om twee redenen: het toont het vertrouwen van de gemeenschap in Cardano, en het waarborgt de veiligheid van het Cardano netwerk.'),mdx(\\\"h2\\\",null,\\\"Waarom zou u uw \\\",mdx(\\\"a\\\",t({parentName:\\\"h2\\\"},{href:\\\"/nl/terms/ada\\\"}),\\\"ada\\\"),\\\" delegeren?\\\"),mdx(\\\"p\\\",null,\\\"Door uw ada te delegeren aan een Cardano Stake Pool, ondersteunt u de community, profiteert u van het systeem voor het delen van beloningen en helpt u het algehele netwerk te beveiligen.\\\"),mdx(\\\"p\\\",null,\\\"Delegeren is een geweldige manier om deel uit te maken van de algehele Cardano-gemeenschap die elke dag actief en betrokken is en samenwerkt om de toekomst van decentralisatie vorm te geven. Als u een stake pool kiest die aansluit bij uw interesses, kan Cardano verbeteren door hen en hun missies te ondersteunen met de delegatie van uw inzet. Veel stake pool operators zijn actief op sociale media, YouTube en forums om in contact te komen met hun gemeenschap van afgevaardigden.\\\"),mdx(\\\"p\\\",null,\\\"Terwijl u delegeert met de pool van uw keuze, neemt u deel aan het beloningssysteem \\\",mdx(Link,{url:\\\"https://arxiv.org/abs/1807.11218\\\",mdxType:\\\"Link\\\"}),\\\" van Cardano en wordt u betaald, afhankelijk of de stake pool goed presteert, met een gemiddelde rente van 5% per jaar over de totale inzet. Bovenop deze beloning bieden veel stake pools NFT/token airdrops, ada dividenden en diensten.\\\"),mdx(\\\"p\\\",null,\\\"Beveiliging van het Cardano-netwerk door middel van toezegging en delegatie is een ander voordeel van Cardano's baanbrekende onderzoek naar Ouroboros PoS en consensusmechanisme. Proof-of-stake blockchains zoals Cardano gebruiken een virtuele resource of stake om consensus te bereiken over de blockchain. De inzet wordt geregistreerd in het grootboek van de blockchain als een native token (ada).\\\"),mdx(\\\"p\\\",null,\\\"Zonder al te veel technische details in te gaan, dankzij het Cardano PoS-ontwerp en de enorme hoeveelheid ada die is ingezet, is Cardano in staat om vele aanvallen af \\\\u200B\\\\u200Bte weren, zoals:\\\"),mdx(\\\"ul\\\",null,mdx(\\\"li\\\",{parentName:\\\"ul\\\"},mdx(\\\"a\\\",t({parentName:\\\"li\\\"},{href:\\\"/terms/fifty-one-percent-attack\\\"}),\\\"51% Attack\\\")),mdx(\\\"li\\\",{parentName:\\\"ul\\\"},mdx(\\\"a\\\",t({parentName:\\\"li\\\"},{href:\\\"/terms/sybil-attack\\\"}),\\\"Sybil Attack\\\")),mdx(\\\"li\\\",{parentName:\\\"ul\\\"},mdx(\\\"a\\\",t({parentName:\\\"li\\\"},{href:\\\"/terms/fake-stake\\\"}),\\\"Fake Stake Attack\\\"))),mdx(\\\"p\\\",null,mdx(\\\"strong\\\",{parentName:\\\"p\\\"},\\\"Referenties\\\")),mdx(\\\"ul\\\",null,mdx(\\\"li\\\",{parentName:\\\"ul\\\"},mdx(\\\"a\\\",t({parentName:\\\"li\\\"},{href:\\\"https://iohk.io/en/blog/posts/2020/11/13/the-general-perspective-on-staking-in-cardano/\\\"}),\\\"https://iohk.io/en/blog/posts/2020/11/13/the-general-perspective-on-staking-in-cardano/\\\")),mdx(\\\"li\\\",{parentName:\\\"ul\\\"},mdx(\\\"a\\\",t({parentName:\\\"li\\\"},{href:\\\"https://heraldsheets.com/why-51-attack-on-cardano-network-is-relatively-impossible/\\\"}),\\\"https://heraldsheets.com/why-51-attack-on-cardano-network-is-relatively-impossible/\\\")),mdx(\\\"li\\\",{parentName:\\\"ul\\\"},mdx(\\\"a\\\",t({parentName:\\\"li\\\"},{href:\\\"https://forum.cardano.org/t/staking-and-delegating-for-beginners-a-step-by-step-guide/36681\\\"}),\\\"https://forum.cardano.org/t/staking-and-delegating-for-beginners-a-step-by-step-guide/36681\\\"),mdx(\\\"a\\\",t({parentName:\\\"li\\\"},{href:\\\"https://forum.cardano.org/t/consensus-on-cardano-vs-other-blockchains/38738\\\"}),\\\"https://forum.cardano.org/t/consensus-on-cardano-vs-other-blockchains/38738\\\")),mdx(\\\"li\\\",{parentName:\\\"ul\\\"},mdx(\\\"a\\\",t({parentName:\\\"li\\\"},{href:\\\"https://forum.cardano.org/t/how-cardano-uses-significantly-less-energy-while-maintaining-the-same-level-of-security-as-bitcoin/62629\\\"}),\\\"https://forum.cardano.org/t/how-cardano-uses-significantly-less-energy-while-maintaining-the-same-level-of-security-as-bitcoin/62629\\\")),mdx(\\\"li\\\",{parentName:\\\"ul\\\"},mdx(\\\"a\\\",t({parentName:\\\"li\\\"},{href:\\\"https://emurgo.io/en/blog/explain-proof-of-stake-pos-dpos\\\"}),\\\"https://emurgo.io/en/blog/explain-proof-of-stake-pos-dpos\\\"))))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-23T13:11:56.509Z",
-  "_cachedIn": "1.35 ms",
-  "_resolvedIn": "1.35 ms",
+  "_cachedAt": "2021-07-24T11:15:42.897Z",
+  "_cachedIn": "8.16 ms",
+  "_resolvedIn": "8.16 ms",
   "id": "BlogDetailPage",
   "type": "BlogDetailPage",
   "status": "resolved",
@@ -44,17 +44,17 @@
   "attrs": {
     "component-type": "BlogDetailPage",
     "component-id": "BlogDetailPage",
-    "component-cached-at": "2021-07-23T13:11:56.509Z",
-    "component-cached-in": "1.35 ms",
-    "component-resolved-in": "1.35 ms"
+    "component-cached-at": "2021-07-24T11:15:42.897Z",
+    "component-cached-in": "8.16 ms",
+    "component-resolved-in": "8.16 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-23T13:11:56.509Z",
-      "_cachedIn": "1.12 ms",
-      "_resolvedIn": "1.12 ms",
+      "_cachedAt": "2021-07-24T11:15:42.897Z",
+      "_cachedIn": "1.22 ms",
+      "_resolvedIn": "1.22 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -63,17 +63,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-23T13:11:56.509Z",
-        "component-cached-in": "1.12 ms",
-        "component-resolved-in": "1.12 ms"
+        "component-cached-at": "2021-07-24T11:15:42.897Z",
+        "component-cached-in": "1.22 ms",
+        "component-resolved-in": "1.22 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-23T13:11:56.509Z",
-          "_cachedIn": "348 μs",
-          "_resolvedIn": "348 μs",
+          "_cachedAt": "2021-07-24T11:15:42.897Z",
+          "_cachedIn": "416 μs",
+          "_resolvedIn": "416 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -81,7 +81,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-23T13:11:41.504Z",
+              "createdAt": "2021-07-24T11:15:25.705Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -320,7 +320,7 @@
                   }
                 ],
                 "image": "/flood-disaster.webp",
-                "updatedAt": "2021-07-22T18:31:04.000Z",
+                "updatedAt": "2021-07-23T13:28:15.000Z",
                 "filePath": "/en/blogs/rpi-resiliency-sbc-otg-blog.md"
               },
               {
@@ -1062,7 +1062,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/pascal.jpeg",
-                "updatedAt": "2021-06-18T07:30:31.000Z",
+                "updatedAt": "2021-07-23T15:18:20.000Z",
                 "filePath": "/en/identities/pascal-berry.md"
               },
               {
@@ -1167,7 +1167,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/sayshar.jpg",
-                "updatedAt": "2021-07-14T18:12:31.000Z",
+                "updatedAt": "2021-07-23T15:18:20.000Z",
                 "filePath": "/en/identities/sayshar-srn.md"
               },
               {
@@ -1184,6 +1184,21 @@
                 "image": "/sbc-mining.jpg",
                 "updatedAt": "2021-07-14T18:12:31.000Z",
                 "filePath": "/en/identities/sbc-mining.md"
+              },
+              {
+                "id": "skeeter",
+                "language": "en",
+                "slug": "/identities/skeeter",
+                "url": "https:///website.codespace1.sublayer.io/identities/skeeter",
+                "origin": "/identities/skeeter",
+                "title": "Skeeter",
+                "description": "Community member",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "/skeeter.jpg",
+                "updatedAt": "2021-07-23T15:18:20.000Z",
+                "filePath": "/en/identities/skeeter.md"
               },
               {
                 "id": "spacebudz",
@@ -1212,7 +1227,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/s4na.jpg",
-                "updatedAt": "2021-07-14T21:30:10.000Z",
+                "updatedAt": "2021-07-24T10:30:58.000Z",
                 "filePath": "/en/identities/stake-for-nature.md"
               },
               {
@@ -1257,7 +1272,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "https://cdn.sublayer.io/logo.png",
-                "updatedAt": "2021-07-23T07:53:54.000Z",
+                "updatedAt": "2021-07-23T15:18:20.000Z",
                 "filePath": "/en/identities/sublayerio.md"
               },
               {
@@ -1302,7 +1317,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/tony.jpg",
-                "updatedAt": "2021-07-22T05:04:02.000Z",
+                "updatedAt": "2021-07-23T15:18:20.000Z",
                 "filePath": "/en/identities/tony-piada.md"
               },
               {
@@ -1332,7 +1347,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/wcat.jpeg",
-                "updatedAt": "2021-07-18T08:39:13.000Z",
+                "updatedAt": "2021-07-24T10:36:53.000Z",
                 "filePath": "/en/identities/wcat-otg.md"
               },
               {
@@ -1627,7 +1642,7 @@
                   }
                 ],
                 "image": "https://stakefornature.com/ico.png",
-                "updatedAt": "2021-07-14T21:28:24.000Z",
+                "updatedAt": "2021-07-24T10:21:53.000Z",
                 "filePath": "/en/stake-pools/5707e4254180d481a4f1e690be0c2c54b3a618051d907df7e4434c0b.md"
               },
               {
@@ -1711,7 +1726,7 @@
                   }
                 ],
                 "image": "https://cdn.sublayer.io/logo.png",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-23T14:25:35.000Z",
                 "filePath": "/en/stake-pools/8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8.md"
               },
               {
@@ -1841,7 +1856,7 @@
                   }
                 ],
                 "image": "https://piada.io/piadaFull.png",
-                "updatedAt": "2021-07-21T21:14:16.000Z",
+                "updatedAt": "2021-07-24T06:52:08.000Z",
                 "filePath": "/en/stake-pools/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65.md"
               },
               {
@@ -1904,7 +1919,7 @@
                   }
                 ],
                 "image": "https://adamantium.online/images/sun.jpg",
-                "updatedAt": "2021-07-20T20:48:32.000Z",
+                "updatedAt": "2021-07-24T09:36:58.000Z",
                 "filePath": "/en/stake-pools/c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae.md"
               },
               {
@@ -7529,18 +7544,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-23T13:11:56.509Z",
-            "component-cached-in": "348 μs",
-            "component-resolved-in": "348 μs"
+            "component-cached-at": "2021-07-24T11:15:42.897Z",
+            "component-cached-in": "416 μs",
+            "component-resolved-in": "416 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-23T13:11:56.509Z",
-          "_cachedIn": "479 μs",
-          "_resolvedIn": "479 μs",
+          "_cachedAt": "2021-07-24T11:15:42.897Z",
+          "_cachedIn": "526 μs",
+          "_resolvedIn": "526 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7551,17 +7566,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-23T13:11:56.509Z",
-            "component-cached-in": "479 μs",
-            "component-resolved-in": "479 μs"
+            "component-cached-at": "2021-07-24T11:15:42.897Z",
+            "component-cached-in": "526 μs",
+            "component-resolved-in": "526 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-23T13:11:56.509Z",
-              "_cachedIn": "92 μs",
-              "_resolvedIn": "92 μs",
+              "_cachedAt": "2021-07-24T11:15:42.897Z",
+              "_cachedIn": "65 μs",
+              "_resolvedIn": "65 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7621,9 +7636,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-23T13:11:56.509Z",
-                "component-cached-in": "92 μs",
-                "component-resolved-in": "92 μs"
+                "component-cached-at": "2021-07-24T11:15:42.897Z",
+                "component-cached-in": "65 μs",
+                "component-resolved-in": "65 μs"
               },
               "components": {}
             }
@@ -7632,9 +7647,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-23T13:11:56.509Z",
-          "_cachedIn": "184 μs",
-          "_resolvedIn": "184 μs",
+          "_cachedAt": "2021-07-24T11:15:42.897Z",
+          "_cachedIn": "70 μs",
+          "_resolvedIn": "70 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7643,9 +7658,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-23T13:11:56.509Z",
-            "component-cached-in": "184 μs",
-            "component-resolved-in": "184 μs"
+            "component-cached-at": "2021-07-24T11:15:42.897Z",
+            "component-cached-in": "70 μs",
+            "component-resolved-in": "70 μs"
           },
           "components": {}
         }
@@ -7654,9 +7669,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-23T13:11:56.509Z",
-      "_cachedIn": "893 μs",
-      "_resolvedIn": "893 μs",
+      "_cachedAt": "2021-07-24T11:15:42.897Z",
+      "_cachedIn": "1.01 ms",
+      "_resolvedIn": "1.01 ms",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7687,18 +7702,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-23T13:11:56.509Z",
-        "component-cached-in": "893 μs",
-        "component-resolved-in": "893 μs"
+        "component-cached-at": "2021-07-24T11:15:42.897Z",
+        "component-cached-in": "1.01 ms",
+        "component-resolved-in": "1.01 ms"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-23T13:11:56.509Z",
-      "_cachedIn": "682 μs",
-      "_resolvedIn": "682 μs",
+      "_cachedAt": "2021-07-24T11:15:42.897Z",
+      "_cachedIn": "608 μs",
+      "_resolvedIn": "608 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7710,18 +7725,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-23T13:11:56.509Z",
-        "component-cached-in": "682 μs",
-        "component-resolved-in": "682 μs"
+        "component-cached-at": "2021-07-24T11:15:42.897Z",
+        "component-cached-in": "608 μs",
+        "component-resolved-in": "608 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-23T13:11:56.509Z",
-      "_cachedIn": "897 μs",
-      "_resolvedIn": "897 μs",
+      "_cachedAt": "2021-07-24T11:15:42.897Z",
+      "_cachedIn": "1.01 ms",
+      "_resolvedIn": "1.01 ms",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7740,9 +7755,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-23T13:11:56.509Z",
-        "component-cached-in": "897 μs",
-        "component-resolved-in": "897 μs"
+        "component-cached-at": "2021-07-24T11:15:42.897Z",
+        "component-cached-in": "1.01 ms",
+        "component-resolved-in": "1.01 ms"
       },
       "components": {}
     }

@@ -85,7 +85,7 @@ export default function StatsSection({ title, pretitle, description, poolCount, 
                                 <div className="flex flex-col border-t border-b border-gray-100 dark:border-gray-800 p-6 text-center sm:border-0 sm:border-l sm:border-r">
                                     <div className="text-5xl font-extrabold text-primary-500">
                                         <AdaPrice
-                                            className="space-x-3"
+                                            className="space-x-3 justify-center items-end"
                                             currencySize="text-3xl"
                                             value={liveStake.value / 1000000}
                                         />
@@ -96,7 +96,7 @@ export default function StatsSection({ title, pretitle, description, poolCount, 
                                                 <div className="flex items-center space-x-1">
                                                     <div className="text-green-500 flex items-center">+
                                                         <AdaPrice
-                                                            className="space-x-1"
+                                                            className="justify-center items-end space-x-1"
                                                             value={liveStake.diff / 1000000}
                                                         />
                                                     </div>
@@ -107,7 +107,7 @@ export default function StatsSection({ title, pretitle, description, poolCount, 
                                                 <div className="flex items-center space-x-1">
                                                     <div className="text-red-500 flex items-center">
                                                         <AdaPrice
-                                                            className="space-x-1"
+                                                            className="justify-center items-end space-x-1"
                                                             value={liveStake.diff / 1000000}
                                                         />
                                                     </div>
