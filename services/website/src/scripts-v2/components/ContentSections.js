@@ -19,6 +19,10 @@ module.exports = {
     id: 'ContentSections',
     resolve: async (ctx, props) => {
 
+        if (!props.contentSections) {
+            return props
+        }
+
         const contentSections = await Promise.all(
             props.contentSections.map(async contentSection => {
 
