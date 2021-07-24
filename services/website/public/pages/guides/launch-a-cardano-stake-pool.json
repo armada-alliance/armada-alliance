@@ -1,13 +1,13 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"GuideDetailPage\",\"version\":1},\"props\":{\"id\":\"launch-a-cardano-stake-pool\",\"language\":\"en\",\"slug\":\"/guides/launch-a-cardano-stake-pool\",\"url\":\"https:///website.codespace1.sublayer.io/guides/launch-a-cardano-stake-pool\",\"origin\":\"/guides/launch-a-cardano-stake-pool\",\"title\":\"Launch a Cardano Stake Pool\",\"description\":\"A full guide to creating a stake pool in which we set up a Block Producer Node & Relay Node.\",\"aliases\":null,\"keywords\":[\"Coming Soon\",\"Stake Pool Operation\",\"Raspberry Pi\",\"ARM\"],\"template\":\"GuideDetailPage\",\"icon\":\"🚀\",\"updatedAt\":\"2021-06-18T08:52:24.000Z\",\"filePath\":\"/en/guides/launch-a-cardano-stake-pool.md\",\"body\":\"\",\"mdxSource\":{\"compiledSource\":\"var M=Object.defineProperty,X=Object.defineProperties;var c=Object.getOwnPropertyDescriptors;var u=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,a=Object.prototype.propertyIsEnumerable;var s=(o,t,n)=>t in o?M(o,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):o[t]=n,p=(o,t)=>{for(var n in t||(t={}))r.call(t,n)&&s(o,n,t[n]);if(u)for(var n of u(t))a.call(t,n)&&s(o,n,t[n]);return o},y=(o,t)=>X(o,c(t));var D=(o,t)=>{var n={};for(var e in o)r.call(o,e)&&t.indexOf(e)<0&&(n[e]=o[e]);if(o!=null&&u)for(var e of u(o))t.indexOf(e)<0&&a.call(o,e)&&(n[e]=o[e]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var e=n,{components:o}=e,t=D(e,[\\\"components\\\"]);return mdx(MDXLayout,y(p(p({},layoutProps),t),{components:o,mdxType:\\\"MDXLayout\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-24T16:50:11.071Z",
-  "_cachedIn": "455 ms",
-  "_resolvedIn": "455 ms",
+  "_cachedAt": "2021-07-24T16:55:18.628Z",
+  "_cachedIn": "145 ms",
+  "_resolvedIn": "145 ms",
   "id": "GuideDetailPage",
   "type": "GuideDetailPage",
   "status": "error",
-  "error": "replaceVariables is not defined",
+  "error": "Assignment to constant variable.",
   "props": {
     "id": "launch-a-cardano-stake-pool",
     "language": "en",
@@ -37,10 +37,10 @@
   "attrs": {
     "component-type": "GuideDetailPage",
     "component-id": "GuideDetailPage",
-    "component-cached-at": "2021-07-24T16:50:11.071Z",
-    "component-cached-in": "455 ms",
-    "component-resolved-in": "455 ms",
-    "component-error": "replaceVariables is not defined"
+    "component-cached-at": "2021-07-24T16:55:18.628Z",
+    "component-cached-in": "145 ms",
+    "component-resolved-in": "145 ms",
+    "component-error": "Assignment to constant variable."
   },
   "components": {}
 }

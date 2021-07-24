@@ -1,13 +1,13 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"GuideDetailPage\",\"version\":1},\"props\":{\"id\":\"add-widgets-to-your-website\",\"language\":\"en\",\"slug\":\"/guides/add-widgets-to-your-website\",\"url\":\"https:///website.codespace1.sublayer.io/guides/add-widgets-to-your-website\",\"origin\":\"/guides/add-widgets-to-your-website\",\"title\":\"Add widgets to your website\",\"description\":\"A guide to add widgets to your website\",\"aliases\":null,\"keywords\":[\"Widgets\",\"JavaScript\",\"Marketing\"],\"template\":\"GuideDetailPage\",\"identities\":[{\"id\":\"sublayerio\",\"role\":\"author\"}],\"icon\":\"🧸\",\"updatedAt\":\"2021-07-15T11:07:51.000Z\",\"filePath\":\"/en/guides/add-widgets-to-your-website.md\",\"body\":\"Widgets are small pieces of code that can be added to your website to extend its functionality.\\n\\n## Stats widget\\n\\n```html\\n<iframe src=\\\"https:///website.codespace1.sublayer.io/stats-widget\\\" height=\\\"400\\\" />\\n```\\n\\n<iframe src=\\\"https:///website.codespace1.sublayer.io/stats-widget\\\" height=\\\"400\\\" />\\n\\n## Pool widget\\n\\n```html\\n<iframe src=\\\"https:///website.codespace1.sublayer.io/pool-widget/<POOL_ID>\\\" height=\\\"176\\\" />\\n```\\n\\n<iframe src=\\\"https:///website.codespace1.sublayer.io/pool-widget/351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8\\\" height=\\\"176\\\" />\",\"mdxSource\":{\"compiledSource\":\"var n=Object.defineProperty,l=Object.defineProperties;var b=Object.getOwnPropertyDescriptors;var c=Object.getOwnPropertySymbols;var i=Object.prototype.hasOwnProperty,r=Object.prototype.propertyIsEnumerable;var p=(e,t,a)=>t in e?n(e,t,{enumerable:!0,configurable:!0,writable:!0,value:a}):e[t]=a,o=(e,t)=>{for(var a in t||(t={}))i.call(t,a)&&p(e,a,t[a]);if(c)for(var a of c(t))r.call(t,a)&&p(e,a,t[a]);return e},d=(e,t)=>l(e,b(t));var h=(e,t)=>{var a={};for(var s in e)i.call(e,s)&&t.indexOf(s)<0&&(a[s]=e[s]);if(e!=null&&c)for(var s of c(e))t.indexOf(s)<0&&r.call(e,s)&&(a[s]=e[s]);return a};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(a){var s=a,{components:e}=s,t=h(s,[\\\"components\\\"]);return mdx(MDXLayout,d(o(o({},layoutProps),t),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"Widgets are small pieces of code that can be added to your website to extend its functionality.\\\"),mdx(\\\"h2\\\",null,\\\"Stats widget\\\"),mdx(\\\"pre\\\",null,mdx(\\\"code\\\",o({parentName:\\\"pre\\\"},{className:\\\"language-html\\\"}),`<iframe src=\\\"https:///website.codespace1.sublayer.io/stats-widget\\\" height=\\\"400\\\" />\\n`)),mdx(\\\"iframe\\\",{src:\\\"https:///website.codespace1.sublayer.io/stats-widget\\\",height:\\\"400\\\"}),mdx(\\\"h2\\\",null,\\\"Pool widget\\\"),mdx(\\\"pre\\\",null,mdx(\\\"code\\\",o({parentName:\\\"pre\\\"},{className:\\\"language-html\\\"}),`<iframe src=\\\"https:///website.codespace1.sublayer.io/pool-widget/<POOL_ID>\\\" height=\\\"176\\\" />\\n`)),mdx(\\\"iframe\\\",{src:\\\"https:///website.codespace1.sublayer.io/pool-widget/351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8\\\",height:\\\"176\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-24T16:50:11.071Z",
-  "_cachedIn": "456 ms",
-  "_resolvedIn": "456 ms",
+  "_cachedAt": "2021-07-24T16:55:18.625Z",
+  "_cachedIn": "475 ms",
+  "_resolvedIn": "475 ms",
   "id": "GuideDetailPage",
   "type": "GuideDetailPage",
   "status": "error",
-  "error": "replaceVariables is not defined",
+  "error": "Assignment to constant variable.",
   "props": {
     "id": "add-widgets-to-your-website",
     "language": "en",
@@ -42,10 +42,10 @@
   "attrs": {
     "component-type": "GuideDetailPage",
     "component-id": "GuideDetailPage",
-    "component-cached-at": "2021-07-24T16:50:11.071Z",
-    "component-cached-in": "456 ms",
-    "component-resolved-in": "456 ms",
-    "component-error": "replaceVariables is not defined"
+    "component-cached-at": "2021-07-24T16:55:18.625Z",
+    "component-cached-in": "475 ms",
+    "component-resolved-in": "475 ms",
+    "component-error": "Assignment to constant variable."
   },
   "components": {}
 }
