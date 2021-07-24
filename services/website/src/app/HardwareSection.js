@@ -28,8 +28,8 @@ export default function HardwareSection({ pretitle = 'Hardware', title = 'Shoppi
                                         {items.map((item, index) => (
                                             <div key={item.name}>
                                                 <div className={cx("flex items-center space-x-4 px-6 py-2")}>
-                                                    <div className="flex-shrink-0 h-10 w-10">
-                                                        <div className="h-10 w-10 rounded-full bg-white bg-contain bg-no-repeat bg-center" title={item.image} style={{ backgroundImage: `url('${item.image}')` }} />
+                                                    <div className="flex-shrink-0 h-12 w-12 rounded-lg bg-white flex items-center justify-center">
+                                                        <div className="h-10 w-10 rounded-lg bg-white bg-contain bg-no-repeat bg-center" title={item.image} style={{ backgroundImage: `url('${item.image}')` }} />
                                                     </div>
                                                     <div className="flex flex-grow items-center space-x-2">
                                                         <a className="text-sm font-medium text-primary-500" href={item.url} target={"_blank"}>{item.name}</a>
