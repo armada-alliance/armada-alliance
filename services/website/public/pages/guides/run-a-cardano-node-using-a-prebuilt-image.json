@@ -1,13 +1,13 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"GuideDetailPage\",\"version\":1},\"props\":{\"id\":\"run-a-cardano-node-using-a-prebuilt-image\",\"language\":\"en\",\"slug\":\"/guides/run-a-cardano-node-using-a-prebuilt-image\",\"url\":\"https:///website.codespace1.sublayer.io/guides/run-a-cardano-node-using-a-prebuilt-image\",\"origin\":\"/guides/run-a-cardano-node-using-a-prebuilt-image\",\"title\":\"Run a Cardano Node using a prebuilt image\",\"description\":\"Download a preconfigured image with everything installed to run a Cardano Node on a Raspberry Pi out of the box.\",\"aliases\":null,\"keywords\":[\"Stake Pool Operation\",\"Raspberry Pi\",\"ARM\"],\"template\":\"GuideDetailPage\",\"identities\":[{\"id\":\"wcat-otg\",\"role\":\"author\"}],\"icon\":\"🍓\",\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/guides/run-a-cardano-node-using-a-prebuilt-image.md\",\"externalLink\":\"https://docs.armada-alliance.com/learn/intermediate-guide/pi-pool-tutorial\",\"body\":\"Pi-Pool was originally an image Alessandro Konrad hosted on his [GitHub](https://github.com/alessandrokonrad/Pi-Pool). It had a working Grafana dashboard and came with cardano-node 1.23.0. I started using it when he released it somewhere around August 2020.\\n\\nIt was great for learning all the moving parts with it more or less working out of the box. As time went on and Alessandro became busy with the cool shit Alessandro does, the image became outdated, it did not have a working systemd implementation and I saw room for improvement.\\n\\nI tried to hang on to as much as I could from the old image like the default username and password as well as having a 'pi-pool' folder that housed db/ and config files.\\n\\nI am proud to host a snapshot of the database folder that allows one to burn the image pull a chain snapshot with wget and have a passive synced relay in about an hour. Something that would take 2 days to sync on its own on a Raspberry Pi.\\n\",\"mdxSource\":{\"compiledSource\":\"var p=Object.defineProperty,m=Object.defineProperties;var u=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,i=Object.prototype.propertyIsEnumerable;var d=(a,o,e)=>o in a?p(a,o,{enumerable:!0,configurable:!0,writable:!0,value:e}):a[o]=e,s=(a,o)=>{for(var e in o||(o={}))r.call(o,e)&&d(a,e,o[e]);if(n)for(var e of n(o))i.call(o,e)&&d(a,e,o[e]);return a},h=(a,o)=>m(a,u(o));var l=(a,o)=>{var e={};for(var t in a)r.call(a,t)&&o.indexOf(t)<0&&(e[t]=a[t]);if(a!=null&&n)for(var t of n(a))o.indexOf(t)<0&&i.call(a,t)&&(e[t]=a[t]);return e};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(e){var t=e,{components:a}=t,o=l(t,[\\\"components\\\"]);return mdx(MDXLayout,h(s(s({},layoutProps),o),{components:a,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"Pi-Pool was originally an image Alessandro Konrad hosted on his \\\",mdx(\\\"a\\\",s({parentName:\\\"p\\\"},{href:\\\"https://github.com/alessandrokonrad/Pi-Pool\\\"}),\\\"GitHub\\\"),\\\". It had a working Grafana dashboard and came with cardano-node 1.23.0. I started using it when he released it somewhere around August 2020.\\\"),mdx(\\\"p\\\",null,\\\"It was great for learning all the moving parts with it more or less working out of the box. As time went on and Alessandro became busy with the cool shit Alessandro does, the image became outdated, it did not have a working systemd implementation and I saw room for improvement.\\\"),mdx(\\\"p\\\",null,\\\"I tried to hang on to as much as I could from the old image like the default username and password as well as having a 'pi-pool' folder that housed db/ and config files.\\\"),mdx(\\\"p\\\",null,\\\"I am proud to host a snapshot of the database folder that allows one to burn the image pull a chain snapshot with wget and have a passive synced relay in about an hour. Something that would take 2 days to sync on its own on a Raspberry Pi.\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-24T16:50:11.074Z",
-  "_cachedIn": "105 ms",
-  "_resolvedIn": "105 ms",
+  "_cachedAt": "2021-07-24T16:55:18.627Z",
+  "_cachedIn": "145 ms",
+  "_resolvedIn": "145 ms",
   "id": "GuideDetailPage",
   "type": "GuideDetailPage",
   "status": "error",
-  "error": "replaceVariables is not defined",
+  "error": "Assignment to constant variable.",
   "props": {
     "id": "run-a-cardano-node-using-a-prebuilt-image",
     "language": "en",
@@ -43,10 +43,10 @@
   "attrs": {
     "component-type": "GuideDetailPage",
     "component-id": "GuideDetailPage",
-    "component-cached-at": "2021-07-24T16:50:11.074Z",
-    "component-cached-in": "105 ms",
-    "component-resolved-in": "105 ms",
-    "component-error": "replaceVariables is not defined"
+    "component-cached-at": "2021-07-24T16:55:18.627Z",
+    "component-cached-in": "145 ms",
+    "component-resolved-in": "145 ms",
+    "component-error": "Assignment to constant variable."
   },
   "components": {}
 }

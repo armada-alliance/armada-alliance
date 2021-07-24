@@ -1,13 +1,13 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"GuideDetailPage\",\"version\":1},\"props\":{\"id\":\"register-minting-policy-on-pool-pm\",\"language\":\"en\",\"slug\":\"/guides/register-minting-policy-on-pool-pm\",\"url\":\"https:///website.codespace1.sublayer.io/guides/register-minting-policy-on-pool-pm\",\"origin\":\"/guides/register-minting-policy-on-pool-pm\",\"title\":\"Register Minting Policy on pool.pm\",\"description\":\"A guide on how to register your token's minting policy\",\"aliases\":null,\"keywords\":[\"NFT\",\"pool.pm\"],\"template\":\"GuideDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"icon\":\"⛏\",\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/guides/register-minting-policy-on-pool-pm.md\",\"body\":\"<YoutubeVideo url=\\\"https://www.youtube.com/watch?v=v6q66zcFqew\\\" />\",\"mdxSource\":{\"compiledSource\":\"var i=Object.defineProperty,m=Object.defineProperties;var w=Object.getOwnPropertyDescriptors;var u=Object.getOwnPropertySymbols;var c=Object.prototype.hasOwnProperty,d=Object.prototype.propertyIsEnumerable;var p=(o,t,e)=>t in o?i(o,t,{enumerable:!0,configurable:!0,writable:!0,value:e}):o[t]=e,r=(o,t)=>{for(var e in t||(t={}))c.call(t,e)&&p(o,e,t[e]);if(u)for(var e of u(t))d.call(t,e)&&p(o,e,t[e]);return o},a=(o,t)=>m(o,w(t));var s=(o,t)=>{var e={};for(var n in o)c.call(o,n)&&t.indexOf(n)<0&&(e[n]=o[n]);if(o!=null&&u)for(var n of u(o))t.indexOf(n)<0&&d.call(o,n)&&(e[n]=o[n]);return e};const makeShortcode=o=>function(e){return console.warn(\\\"Component \\\"+o+\\\" was not imported, exported, or provided by MDXProvider as global scope\\\"),mdx(\\\"div\\\",r({},e))},YoutubeVideo=makeShortcode(\\\"YoutubeVideo\\\"),layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(e){var n=e,{components:o}=n,t=s(n,[\\\"components\\\"]);return mdx(MDXLayout,a(r(r({},layoutProps),t),{components:o,mdxType:\\\"MDXLayout\\\"}),mdx(YoutubeVideo,{url:\\\"https://www.youtube.com/watch?v=v6q66zcFqew\\\",mdxType:\\\"YoutubeVideo\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-24T16:50:11.074Z",
-  "_cachedIn": "105 ms",
-  "_resolvedIn": "105 ms",
+  "_cachedAt": "2021-07-24T16:55:18.629Z",
+  "_cachedIn": "146 ms",
+  "_resolvedIn": "146 ms",
   "id": "GuideDetailPage",
   "type": "GuideDetailPage",
   "status": "error",
-  "error": "replaceVariables is not defined",
+  "error": "Assignment to constant variable.",
   "props": {
     "id": "register-minting-policy-on-pool-pm",
     "language": "en",
@@ -41,10 +41,10 @@
   "attrs": {
     "component-type": "GuideDetailPage",
     "component-id": "GuideDetailPage",
-    "component-cached-at": "2021-07-24T16:50:11.074Z",
-    "component-cached-in": "105 ms",
-    "component-resolved-in": "105 ms",
-    "component-error": "replaceVariables is not defined"
+    "component-cached-at": "2021-07-24T16:55:18.629Z",
+    "component-cached-in": "146 ms",
+    "component-resolved-in": "146 ms",
+    "component-error": "Assignment to constant variable."
   },
   "components": {}
 }

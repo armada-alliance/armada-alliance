@@ -1,13 +1,13 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"GuideDetailPage\",\"version\":1},\"props\":{\"id\":\"download-static-build\",\"language\":\"en\",\"slug\":\"/guides/download-static-build\",\"url\":\"https:///website.codespace1.sublayer.io/guides/download-static-build\",\"origin\":\"/guides/download-static-build\",\"title\":\"Download Static Build\",\"aliases\":null,\"keywords\":[\"static build\"],\"template\":\"GuideDetailPage\",\"identities\":[{\"id\":\"zw3rk\",\"role\":\"author\"}],\"icon\":\"💰\",\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/guides/download-static-build.md\",\"downloads\":[{\"name\":\"cardano-node 1.27.0\",\"arch\":\"arm64\",\"externalLink\":\"https://ci.zw3rk.com/build/1758\",\"downloadLink\":\"https://ci.zw3rk.com/build/1758/download/1/aarch64-unknown-linux-musl-cardano-node-1.27.0.zip\",\"date\":\"2021-05-11T05:07:36.000Z\"},{\"name\":\"cardano-node 1.27.0\",\"arch\":\"x86\",\"externalLink\":\"https://ci.zw3rk.com/build/1759\",\"downloadLink\":\"https://ci.zw3rk.com/build/1759/download/1/x86_64-unknown-linux-musl-cardano-node-1.27.0.zip\",\"date\":\"2021-05-11T05:04:17.000Z\"}],\"body\":\"A static build is a [compiled](https://en.wikipedia.org/wiki/Compiler) version of a program that has been statically linked against libraries.\\n\\nTo use cardano-node and cardano-cli you can download one of the binaries below provided by Moritz. \\n\\nSimply download one of the zip files below to your Pi's home directory and then move it to the right location so you can call on it later to start the node.\\n\\nUse unzip command on the downloaded zip file and extract its contents.\\n\\n```\\nunzip aarch64-unknown-linux-musl-cardano-node-1.27.0.zip\\n```\\n\\nNext, we need to make sure the newly downloaded \\\"cardano-node\\\" folder and its contents are present.\\n\\n> If you are unsure if the file downloaded properly or need the name of the folder/files, we can use the Linux ls command.\\n\\nNow we need to move the cardano-node folder into our local binary directory.\\n\\n```\\nmv cardano-node/* ~/.local/bin\\n```\\n\\nBefore we proceed let's make sure the cardano-node and cardano-cli is in our $PATH\\n\\n```\\ncardano-node version\\ncardano-cli version\\n```\",\"mdxSource\":{\"compiledSource\":\"var s=Object.defineProperty,u=Object.defineProperties;var m=Object.getOwnPropertyDescriptors;var t=Object.getOwnPropertySymbols;var d=Object.prototype.hasOwnProperty,i=Object.prototype.propertyIsEnumerable;var p=(e,o,n)=>o in e?s(e,o,{enumerable:!0,configurable:!0,writable:!0,value:n}):e[o]=n,r=(e,o)=>{for(var n in o||(o={}))d.call(o,n)&&p(e,n,o[n]);if(t)for(var n of t(o))i.call(o,n)&&p(e,n,o[n]);return e},c=(e,o)=>u(e,m(o));var l=(e,o)=>{var n={};for(var a in e)d.call(e,a)&&o.indexOf(a)<0&&(n[a]=e[a]);if(e!=null&&t)for(var a of t(e))o.indexOf(a)<0&&i.call(e,a)&&(n[a]=e[a]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var a=n,{components:e}=a,o=l(a,[\\\"components\\\"]);return mdx(MDXLayout,c(r(r({},layoutProps),o),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"A static build is a \\\",mdx(\\\"a\\\",r({parentName:\\\"p\\\"},{href:\\\"https://en.wikipedia.org/wiki/Compiler\\\"}),\\\"compiled\\\"),\\\" version of a program that has been statically linked against libraries.\\\"),mdx(\\\"p\\\",null,\\\"To use cardano-node and cardano-cli you can download one of the binaries below provided by Moritz. \\\"),mdx(\\\"p\\\",null,\\\"Simply download one of the zip files below to your Pi's home directory and then move it to the right location so you can call on it later to start the node.\\\"),mdx(\\\"p\\\",null,\\\"Use unzip command on the downloaded zip file and extract its contents.\\\"),mdx(\\\"pre\\\",null,mdx(\\\"code\\\",r({parentName:\\\"pre\\\"},{}),`unzip aarch64-unknown-linux-musl-cardano-node-1.27.0.zip\\n`)),mdx(\\\"p\\\",null,'Next, we need to make sure the newly downloaded \\\"cardano-node\\\" folder and its contents are present.'),mdx(\\\"blockquote\\\",null,mdx(\\\"p\\\",{parentName:\\\"blockquote\\\"},\\\"If you are unsure if the file downloaded properly or need the name of the folder/files, we can use the Linux ls command.\\\")),mdx(\\\"p\\\",null,\\\"Now we need to move the cardano-node folder into our local binary directory.\\\"),mdx(\\\"pre\\\",null,mdx(\\\"code\\\",r({parentName:\\\"pre\\\"},{}),`mv cardano-node/* ~/.local/bin\\n`)),mdx(\\\"p\\\",null,\\\"Before we proceed let's make sure the cardano-node and cardano-cli is in our $PATH\\\"),mdx(\\\"pre\\\",null,mdx(\\\"code\\\",r({parentName:\\\"pre\\\"},{}),`cardano-node version\\ncardano-cli version\\n`)))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-24T16:50:11.073Z",
-  "_cachedIn": "105 ms",
-  "_resolvedIn": "105 ms",
+  "_cachedAt": "2021-07-24T16:55:18.626Z",
+  "_cachedIn": "144 ms",
+  "_resolvedIn": "144 ms",
   "id": "GuideDetailPage",
   "type": "GuideDetailPage",
   "status": "error",
-  "error": "replaceVariables is not defined",
+  "error": "Assignment to constant variable.",
   "props": {
     "id": "download-static-build",
     "language": "en",
@@ -55,10 +55,10 @@
   "attrs": {
     "component-type": "GuideDetailPage",
     "component-id": "GuideDetailPage",
-    "component-cached-at": "2021-07-24T16:50:11.073Z",
-    "component-cached-in": "105 ms",
-    "component-resolved-in": "105 ms",
-    "component-error": "replaceVariables is not defined"
+    "component-cached-at": "2021-07-24T16:55:18.626Z",
+    "component-cached-in": "144 ms",
+    "component-resolved-in": "144 ms",
+    "component-error": "Assignment to constant variable."
   },
   "components": {}
 }

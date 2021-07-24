@@ -18,8 +18,6 @@ const getDataForPage = async (filePath) => {
 
     string = replaceVariables(string)
 
-    const data = fm(string)
-
     return fm(string).attributes
 }
 

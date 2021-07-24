@@ -1,13 +1,13 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"GuideDetailPage\",\"version\":1},\"props\":{\"id\":\"create-single-non-fungible-token\",\"language\":\"en\",\"slug\":\"/guides/create-single-non-fungible-token\",\"url\":\"https:///website.codespace1.sublayer.io/guides/create-single-non-fungible-token\",\"origin\":\"/guides/create-single-non-fungible-token\",\"title\":\"Create Single NFT\",\"description\":\"How to create a Non-Fungible token on Cardano with JavaScript.\",\"aliases\":null,\"keywords\":[\"NFT\",\"JavaScript\"],\"template\":\"GuideDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"},{\"id\":\"sublayerio\",\"role\":\"author\"}],\"icon\":\"💰\",\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/guides/create-single-non-fungible-token.md\",\"externalLink\":\"https://docs.armada-alliance.com/learn/cardano-developer-guides/nft-native-assets\",\"body\":\"- In this guide we will go over how to create a [NFT](/terms/nft) on the Cardano blockchain using Javascript and the [cardano-cli-js](/terms/cardano-cli-js) package provided by our friends from BERRY stake pool [Alessandro](/identities/alessandro-berry) and [Pascal](/identities/pascal-berry).\\n\\n\\n\\n<YoutubeVideo url=\\\"https://www.youtube.com/watch?v=OeOliguGn7Y\\\" />\",\"mdxSource\":{\"compiledSource\":\"var c=Object.defineProperty,p=Object.defineProperties;var m=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var i=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var d=(e,o,a)=>o in e?c(e,o,{enumerable:!0,configurable:!0,writable:!0,value:a}):e[o]=a,r=(e,o)=>{for(var a in o||(o={}))i.call(o,a)&&d(e,a,o[a]);if(n)for(var a of n(o))s.call(o,a)&&d(e,a,o[a]);return e},l=(e,o)=>p(e,m(o));var u=(e,o)=>{var a={};for(var t in e)i.call(e,t)&&o.indexOf(t)<0&&(a[t]=e[t]);if(e!=null&&n)for(var t of n(e))o.indexOf(t)<0&&s.call(e,t)&&(a[t]=e[t]);return a};const makeShortcode=e=>function(a){return console.warn(\\\"Component \\\"+e+\\\" was not imported, exported, or provided by MDXProvider as global scope\\\"),mdx(\\\"div\\\",r({},a))},YoutubeVideo=makeShortcode(\\\"YoutubeVideo\\\"),layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(a){var t=a,{components:e}=t,o=u(t,[\\\"components\\\"]);return mdx(MDXLayout,l(r(r({},layoutProps),o),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"ul\\\",null,mdx(\\\"li\\\",{parentName:\\\"ul\\\"},\\\"In this guide we will go over how to create a \\\",mdx(\\\"a\\\",r({parentName:\\\"li\\\"},{href:\\\"/terms/nft\\\"}),\\\"NFT\\\"),\\\" on the Cardano blockchain using Javascript and the \\\",mdx(\\\"a\\\",r({parentName:\\\"li\\\"},{href:\\\"/terms/cardano-cli-js\\\"}),\\\"cardano-cli-js\\\"),\\\" package provided by our friends from BERRY stake pool \\\",mdx(\\\"a\\\",r({parentName:\\\"li\\\"},{href:\\\"/identities/alessandro-berry\\\"}),\\\"Alessandro\\\"),\\\" and \\\",mdx(\\\"a\\\",r({parentName:\\\"li\\\"},{href:\\\"/identities/pascal-berry\\\"}),\\\"Pascal\\\"),\\\".\\\")),mdx(YoutubeVideo,{url:\\\"https://www.youtube.com/watch?v=OeOliguGn7Y\\\",mdxType:\\\"YoutubeVideo\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-24T16:50:11.071Z",
-  "_cachedIn": "455 ms",
-  "_resolvedIn": "455 ms",
+  "_cachedAt": "2021-07-24T16:55:18.626Z",
+  "_cachedIn": "144 ms",
+  "_resolvedIn": "144 ms",
   "id": "GuideDetailPage",
   "type": "GuideDetailPage",
   "status": "error",
-  "error": "replaceVariables is not defined",
+  "error": "Assignment to constant variable.",
   "props": {
     "id": "create-single-non-fungible-token",
     "language": "en",
@@ -46,10 +46,10 @@
   "attrs": {
     "component-type": "GuideDetailPage",
     "component-id": "GuideDetailPage",
-    "component-cached-at": "2021-07-24T16:50:11.071Z",
-    "component-cached-in": "455 ms",
-    "component-resolved-in": "455 ms",
-    "component-error": "replaceVariables is not defined"
+    "component-cached-at": "2021-07-24T16:55:18.626Z",
+    "component-cached-in": "144 ms",
+    "component-resolved-in": "144 ms",
+    "component-error": "Assignment to constant variable."
   },
   "components": {}
 }

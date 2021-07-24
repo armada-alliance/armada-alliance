@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"faucet\",\"language\":\"en\",\"slug\":\"/terms/faucet\",\"url\":\"https:///website.codespace1.sublayer.io/terms/faucet\",\"origin\":\"/terms/faucet\",\"title\":\"Faucet\",\"description\":\"A web-based service that provides free tokens to users of a testnet.\",\"aliases\":[\"testnet faucet\",\"faucet\",\"test ada\",\"tada\"],\"keywords\":[\"testnet\",\"faucet\",\"test\",\"ada\",\"tada\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/faucet.md\",\"body\":\"\",\"mdxSource\":{\"compiledSource\":\"var M=Object.defineProperty,X=Object.defineProperties;var c=Object.getOwnPropertyDescriptors;var u=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,a=Object.prototype.propertyIsEnumerable;var s=(o,t,n)=>t in o?M(o,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):o[t]=n,p=(o,t)=>{for(var n in t||(t={}))r.call(t,n)&&s(o,n,t[n]);if(u)for(var n of u(t))a.call(t,n)&&s(o,n,t[n]);return o},y=(o,t)=>X(o,c(t));var D=(o,t)=>{var n={};for(var e in o)r.call(o,e)&&t.indexOf(e)<0&&(n[e]=o[e]);if(o!=null&&u)for(var e of u(o))t.indexOf(e)<0&&a.call(o,e)&&(n[e]=o[e]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var e=n,{components:o}=e,t=D(e,[\\\"components\\\"]);return mdx(MDXLayout,y(p(p({},layoutProps),t),{components:o,mdxType:\\\"MDXLayout\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-24T16:50:12.246Z",
-  "_cachedIn": "389 μs",
-  "_resolvedIn": "389 μs",
+  "_cachedAt": "2021-07-24T16:55:19.699Z",
+  "_cachedIn": "2.18 ms",
+  "_resolvedIn": "2.18 ms",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -48,17 +48,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-24T16:50:12.246Z",
-    "component-cached-in": "389 μs",
-    "component-resolved-in": "389 μs"
+    "component-cached-at": "2021-07-24T16:55:19.699Z",
+    "component-cached-in": "2.18 ms",
+    "component-resolved-in": "2.18 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T16:50:12.246Z",
-      "_cachedIn": "304 μs",
-      "_resolvedIn": "304 μs",
+      "_cachedAt": "2021-07-24T16:55:19.699Z",
+      "_cachedIn": "1.39 ms",
+      "_resolvedIn": "1.39 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -67,17 +67,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-24T16:50:12.246Z",
-        "component-cached-in": "304 μs",
-        "component-resolved-in": "304 μs"
+        "component-cached-at": "2021-07-24T16:55:19.699Z",
+        "component-cached-in": "1.39 ms",
+        "component-resolved-in": "1.39 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T16:50:12.246Z",
-          "_cachedIn": "195 μs",
-          "_resolvedIn": "195 μs",
+          "_cachedAt": "2021-07-24T16:55:19.698Z",
+          "_cachedIn": "780 μs",
+          "_resolvedIn": "780 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -85,7 +85,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-24T16:49:58.104Z",
+              "createdAt": "2021-07-24T16:55:08.510Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -7548,18 +7548,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-24T16:50:12.246Z",
-            "component-cached-in": "195 μs",
-            "component-resolved-in": "195 μs"
+            "component-cached-at": "2021-07-24T16:55:19.698Z",
+            "component-cached-in": "780 μs",
+            "component-resolved-in": "780 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T16:50:12.246Z",
-          "_cachedIn": "240 μs",
-          "_resolvedIn": "240 μs",
+          "_cachedAt": "2021-07-24T16:55:19.699Z",
+          "_cachedIn": "1.05 ms",
+          "_resolvedIn": "1.05 ms",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7570,17 +7570,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-24T16:50:12.246Z",
-            "component-cached-in": "240 μs",
-            "component-resolved-in": "240 μs"
+            "component-cached-at": "2021-07-24T16:55:19.699Z",
+            "component-cached-in": "1.05 ms",
+            "component-resolved-in": "1.05 ms"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-24T16:50:12.246Z",
-              "_cachedIn": "49 μs",
-              "_resolvedIn": "49 μs",
+              "_cachedAt": "2021-07-24T16:55:19.698Z",
+              "_cachedIn": "206 μs",
+              "_resolvedIn": "206 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7640,9 +7640,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-24T16:50:12.246Z",
-                "component-cached-in": "49 μs",
-                "component-resolved-in": "49 μs"
+                "component-cached-at": "2021-07-24T16:55:19.698Z",
+                "component-cached-in": "206 μs",
+                "component-resolved-in": "206 μs"
               },
               "components": {}
             }
@@ -7651,9 +7651,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T16:50:12.246Z",
-          "_cachedIn": "123 μs",
-          "_resolvedIn": "123 μs",
+          "_cachedAt": "2021-07-24T16:55:19.698Z",
+          "_cachedIn": "348 μs",
+          "_resolvedIn": "348 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7662,9 +7662,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-24T16:50:12.246Z",
-            "component-cached-in": "123 μs",
-            "component-resolved-in": "123 μs"
+            "component-cached-at": "2021-07-24T16:55:19.698Z",
+            "component-cached-in": "348 μs",
+            "component-resolved-in": "348 μs"
           },
           "components": {}
         }
@@ -7673,9 +7673,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T16:50:12.246Z",
-      "_cachedIn": "209 μs",
-      "_resolvedIn": "209 μs",
+      "_cachedAt": "2021-07-24T16:55:19.698Z",
+      "_cachedIn": "791 μs",
+      "_resolvedIn": "791 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7706,18 +7706,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-24T16:50:12.246Z",
-        "component-cached-in": "209 μs",
-        "component-resolved-in": "209 μs"
+        "component-cached-at": "2021-07-24T16:55:19.698Z",
+        "component-cached-in": "791 μs",
+        "component-resolved-in": "791 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T16:50:12.246Z",
-      "_cachedIn": "118 μs",
-      "_resolvedIn": "118 μs",
+      "_cachedAt": "2021-07-24T16:55:19.698Z",
+      "_cachedIn": "323 μs",
+      "_resolvedIn": "323 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7729,18 +7729,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-24T16:50:12.246Z",
-        "component-cached-in": "118 μs",
-        "component-resolved-in": "118 μs"
+        "component-cached-at": "2021-07-24T16:55:19.698Z",
+        "component-cached-in": "323 μs",
+        "component-resolved-in": "323 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T16:50:12.246Z",
-      "_cachedIn": "210 μs",
-      "_resolvedIn": "210 μs",
+      "_cachedAt": "2021-07-24T16:55:19.698Z",
+      "_cachedIn": "792 μs",
+      "_resolvedIn": "792 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7759,9 +7759,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-24T16:50:12.246Z",
-        "component-cached-in": "210 μs",
-        "component-resolved-in": "210 μs"
+        "component-cached-at": "2021-07-24T16:55:19.698Z",
+        "component-cached-in": "792 μs",
+        "component-resolved-in": "792 μs"
       },
       "components": {}
     }
