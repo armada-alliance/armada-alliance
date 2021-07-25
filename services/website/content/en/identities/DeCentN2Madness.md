@@ -1,6 +1,6 @@
 ---
 template: IdentityDetailPage
-title: DeCentN2Madness 🐇
+title: DeCentN2Madness 🐇 [00000]
 description: SPO
 image: /decentn2madness.png
 website: https://pool.adaberrypi.com
