@@ -4,6 +4,7 @@ title: DeCentN2Madness 🐇 [00000]
 description: SPO
 image: /decentn2madness.png
 website: https://pool.adaberrypi.com
+telegram: DeCentN2Madness
 donationAddress: addr1q8gkda4y9h0lcavmwcyga9yaashxg0gadaluqqwwswzqnhjjql3cn94ma0p79gcyml4j0wp5hvnrglg6dnjtl4ptt65stjekjg
 verified: true
 ---
