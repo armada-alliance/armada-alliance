@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import axios from 'axios'
 import numeral from 'numeral'
+import cx from 'classnames'
 
 const currencies = [
     { name: 'ADA', label: '₳', },
@@ -9,17 +10,17 @@ const currencies = [
     { name: 'EUR', label: 'EUR' }
 ]
 
-export default function AdaPrice({ value }) {
+export default function AdaPrice({ value, className = 'space-x-1', currencySize }) {
 
     const [currencyIndex, setCurrencyIndex] = useState(0)
     const [data, setData] = useState(null)
 
-    // useEffect(async () => {
-    //     if (data) return
-    //     const { data } = await axios.get('https://pool.pm/total.json')
+    useEffect(async () => {
+        if (data) return
+        const { data: _data } = await axios.get('https://pool.pm/total.json')
 
-    //     setData(data)
-    // }, [data])
+        setData(_data)
+    }, [data])
 
     const currency = currencies[currencyIndex]
 
@@ -43,8 +44,8 @@ export default function AdaPrice({ value }) {
     }
 
     return (
-        <div className="flex justify-center items-end select-none">
-            {numeral(adjustedValue).format('0,0.00a').replace('.00', '')} <button type="button" onClick={handleCurrencyClick} className="text-3xl focus:outline-none cursor-pointer ml-3 hover:text-gray-900">{currency.label}</button>
+        <div className={cx("flex select-none", className)}>
+            <div>{numeral(adjustedValue).format('0,0.00a').replace('.00', '')}</div> <button type="button" onClick={handleCurrencyClick} className={cx(currencySize, "focus:outline-none cursor-pointer hover:text-gray-900 dark:hover:text-gray-100")}>{currency.label}</button>
         </div>
     )
 }

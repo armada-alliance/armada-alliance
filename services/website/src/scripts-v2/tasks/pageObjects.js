@@ -9,43 +9,9 @@ const Throttle = require('promise-parallel-throttle')
 const cliProgress = require('cli-progress')
 const fs = require('fs/promises')
 const getDataForComponent = require('../getDataForComponent')
-const contentPath = path.join(__dirname, '..', '..', '..', 'content')
-const preprocessMarkdown = require('../../scripts/preprocessMarkdown')
-const fm = require('front-matter')
-const { serialize } = require('next-mdx-remote/serialize');
-const replaceVariables = require('../replaceVariables')
-
+const getPageData = require('../getPageData')
 let cache = {
     createdDirs: {}
-}
-
-function getAttributes(data) {
-    let attributes = { ...data.attributes }
-    delete attributes.title
-    delete attributes.origin
-    delete attributes.description
-    delete attributes.keywords
-    delete attributes.aliases
-    delete attributes.template
-    return attributes
-}
-
-const getPageData = async (page) => {
-
-    const string = await fs.readFile(path.join(contentPath, page.filePath), 'utf-8')
-
-    const data = fm(string)
-    const attributes = getAttributes(data)
-
-    const body = preprocessMarkdown(
-        replaceVariables(data.body)
-    )
-
-    return {
-        ...attributes,
-        body,
-        mdxSource: await serialize(body)
-    }
 }
 
 async function main() {
@@ -94,7 +60,7 @@ async function main() {
 
 
             if (page.filePath) {
-                const pageData = await getPageData(page)
+                const pageData = await getPageData(page.filePath)
 
                 page = {
                     ...page,

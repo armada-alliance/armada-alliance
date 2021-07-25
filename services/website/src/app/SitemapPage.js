@@ -10,12 +10,12 @@ function PageList(props) {
     const { pages } = props
 
     return (
-        <div className="bg-white shadow overflow-hidden sm:rounded-md">
-            <ul className="divide-y divide-gray-200">
+        <div className="bg-white dark:bg-gray-900 shadow border border-gray-50 dark:border-gray-800 overflow-hidden rounded-md">
+            <ul className="divide-y divide-gray-200 dark:divide-gray-800">
                 {pages.map((page) => (
                     <li key={page.slug}>
                         <Link href={page.slug}>
-                            <a className="block hover:bg-gray-50">
+                            <a className="block hover:bg-gray-50 dark:hover:bg-gray-800">
                                 <div className="px-4 py-4 flex items-center sm:px-6">
                                     <div className="min-w-0 flex-1 sm:flex sm:items-center sm:justify-between">
                                         <div className="truncate">
@@ -68,7 +68,7 @@ function LanguageSection(props) {
 
     return (
         <div className="select-none">
-            <h2 className="flex items-center space-x-3 text-2xl font-bold rounded-lg -mx-4 px-4 py-4 hover:bg-gray-50 cursor-pointer" onClick={() => setOpen(!open)}>
+            <h2 className="flex items-center space-x-3 text-2xl font-bold rounded-lg -mx-4 px-4 py-4 text-gray-900 dark:text-gray-100 hover:bg-gray-50 dark:hover:bg-gray-800 cursor-pointer" onClick={() => setOpen(!open)}>
                 <div>{language.icon}</div>
                 <div>{language.name}</div>
                 <div className="text-gray-400">({pagesForLanguage.length})</div>

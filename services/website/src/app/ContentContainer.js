@@ -2,9 +2,9 @@ import Container from "./Container";
 
 export default function ContentLayout(props) {
     return (
-        <div className="bg-gray-50">
+        <div className="bg-gray-50 dark:bg-gray-900 overflow-hidden">
             <Container>
-                <div className="relative py-8 overflow-hidden">
+                <div className="relative py-8">
                     <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
                         <div className="relative h-full text-lg max-w-prose mx-auto" aria-hidden="true">
                             <svg
@@ -23,7 +23,7 @@ export default function ContentLayout(props) {
                                         height={20}
                                         patternUnits="userSpaceOnUse"
                                     >
-                                        <rect x={0} y={0} width={4} height={4} className="text-gray-200" fill="currentColor" />
+                                        <rect x={0} y={0} width={4} height={4} className="text-gray-200 dark:text-gray-700" fill="currentColor" />
                                     </pattern>
                                 </defs>
                                 <rect width={404} height={384} fill="url(#74b3fd99-0a6f-4271-bef2-e80eeafdf357)" />
@@ -44,7 +44,7 @@ export default function ContentLayout(props) {
                                         height={20}
                                         patternUnits="userSpaceOnUse"
                                     >
-                                        <rect x={0} y={0} width={4} height={4} className="text-gray-200" fill="currentColor" />
+                                        <rect x={0} y={0} width={4} height={4} className="text-gray-200 dark:text-gray-700" fill="currentColor" />
                                     </pattern>
                                 </defs>
                                 <rect width={404} height={384} fill="url(#f210dbf6-a58d-4871-961e-36d5016a0f49)" />
@@ -65,7 +65,7 @@ export default function ContentLayout(props) {
                                         height={20}
                                         patternUnits="userSpaceOnUse"
                                     >
-                                        <rect x={0} y={0} width={4} height={4} className="text-gray-200" fill="currentColor" />
+                                        <rect x={0} y={0} width={4} height={4} className="text-gray-200 dark:text-gray-700" fill="currentColor" />
                                     </pattern>
                                 </defs>
                                 <rect width={404} height={384} fill="url(#d3eb07ae-5182-43e6-857d-35c643af9034)" />
@@ -78,6 +78,5 @@ export default function ContentLayout(props) {
                 </div>
             </Container>
         </div>
-
     )
 }

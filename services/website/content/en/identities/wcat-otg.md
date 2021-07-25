@@ -1,7 +1,7 @@
 ---
 template: IdentityDetailPage
 title: WCat(Wayne)
-description: SPO, Co-Founder
+description: SPO
 image: /wcat.jpeg
 website: https://adamantium.online
 donationAddress: addr1qyzrfl2lf0ugsz25heszl7pp0fd29qh73xqe62axh2u5agdsvcnspa6ljktrhpxj2rfjv09xyxppd9lvg0mkzk3cj7gs3qxxwx
@@ -9,6 +9,17 @@ verified: true
 twitter: OTG_WCat
 telegram: WCatz
 github: wcatz
+badges:
+    - name: Fully ARMed
+      color: "#EF4444"
+    - name: ARMada CAP'N
+      color: "#846DCF"
 ---
+Primarily interested in energy efficient Off The Grid pool operations. I enjoy testing, helping & writing guides so others can work toward building a truly decentralized network.
 
-Ticker: [OTG]. Off The Grid solar powered stake pool. Home made Tesla style powerwall made from reclaimed laptop batteries. Starlink, Mac M1 Mini block producer. SPO with strong Linux administration, network and security skills. Dedicated to #TrueDecentralization on low powered aarch64 processors and the resilience of the Cardano network.
+The mission is to protect everyones investment by having succesful pools on baremetal all around the world. Helping SPO's & talking heads understand that datacenters are the enemy, centralized and a point of failure.
+
+Then having a community in place to guide & support them.
+
+
+I fix stuff and the network is nowhere near resilient enough. Please help me spread awareness.

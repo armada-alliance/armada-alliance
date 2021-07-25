@@ -4,7 +4,6 @@ title: Sayshar
 description: SPO
 image: /sayshar.jpg
 website: https://www.adasrn.com/
-donationAddress: 
-github: sayshar
-telegram: Sayshar
+donationAddress:
+badges:
 ---

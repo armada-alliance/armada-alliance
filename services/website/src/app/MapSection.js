@@ -3,9 +3,11 @@ import ReactDOM from 'react-dom'
 import moment from 'moment'
 import mapboxgl from 'mapbox-gl'
 import cx from 'classnames'
+import { useRouter } from 'next/router'
 mapboxgl.accessToken = 'pk.eyJ1Ijoic3VibGF5ZXJpbyIsImEiOiJja29oMzRwYTMxMXJpMnVxcDJrczh1Zm1oIn0.lHS4NebmckI-T1NfLiwGXA'
 
 import numeral from 'numeral'
+import router from 'next/router'
 
 const toAda = (input, end = false) => numeral(input / 1000000).format('0,0a');
 
@@ -73,6 +75,8 @@ function setTooltip(features) {
 }
 
 export default function MapSection({ pools: allPools }) {
+
+    const router = useRouter()
 
     const pools = allPools.filter(pool => !pool.errors.length)
 

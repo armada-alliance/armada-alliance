@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { MDXRemote } from 'next-mdx-remote'
 import ReactPlayer from 'react-player'
 import markdownComponents from './markdownComponents'
@@ -7,6 +7,7 @@ import * as icons from './icons'
 import Link from './Link'
 import Image from './Image'
 import Context from './Context'
+import ImagesSection from './ImagesSection'
 
 function Page(props) {
 
@@ -75,30 +76,39 @@ function Page(props) {
 }
 
 function YoutubeVideo({ url, description }) {
+
+    const [init, setInit] = useState(true)
+
+    // useEffect(() => {
+    //     if (init) return
+    //     let timeout = null
+    //     if (process.browser) {
+    //         timeout = setTimeout(() => setInit(true), 1000)
+    //     }
+    //     return () => clearTimeout(timeout)
+    // })
     return (
-        <div>
+        <div className="mb-8 w-full">
             <div
-                className="bg-gray-100 relative rounded-lg overflow-hidden shadow-md"
+                className="w-full bg-gray-100 dark:bg-gray-700 relative rounded-lg overflow-hidden shadow-md"
                 style={{
-                    WebkitMaskImage: "-webkit-radial-gradient(white, black)", // Safari HACK for rounded corners
+                    WebkitMaskImage: "-webkit-radial-gradient(white, black)", // Safari HACK for rounded corners,
+                    paddingTop: '56%'
                 }}
             >
-                <ReactPlayer
-                    style={{
-                        position: 'absolute',
-                        top: 0,
-                        left: 0
-                    }}
-                    width={'100%'}
-                    height={'100%'}
-                    url={url}
-                    controls={true}
-                />
-                <div style={{ paddingTop: '56%' }} />
+                {init ? (
+                    <ReactPlayer
+                        className="absolute inset-0"
+                        width={'100%'}
+                        height={'100%'}
+                        url={url}
+                        controls={true}
+                    />
+                ) : null}
             </div>
             <div className="flex justify-end">
                 {description ? (
-                    <div className="mt-1.5 uppercase font-light text-sm text-gray-400">
+                    <div className="mt-1.5 uppercase font-light text-sm text-gray-400 dark:text-gray-600">
                         {description}
                     </div>
                 ) : null}
@@ -109,8 +119,9 @@ function YoutubeVideo({ url, description }) {
 
 const components = {
     YoutubeVideo,
+    ImagesSection: (props) => <div className="w-full"><ImagesSection {...props} alternate={true} /></div>,
     Page,
-    ...markdownComponents
+    ...markdownComponents({ spacingEnabled: true })
 }
 
 const MarkdownContent = props => (
