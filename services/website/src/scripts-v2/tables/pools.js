@@ -81,6 +81,8 @@ module.exports = {
 
         const poolPages = pages.filter(page => page.template === "PoolDetailPage")
 
+        const { data: { pools: poolPingDatas } } = await axios.get('https://api.sublayer.io/armada-api/ping/pools')
+
         return Promise.all(
             poolPages.map(async poolPage => {
 
@@ -103,6 +105,13 @@ module.exports = {
 
                     }
                 }
+
+                let poolPingData = poolPingDatas.map(data => ({
+                    nodeVersion: data.nodeVersion,
+                    remainingKesPeriods: data.remainingKesPeriods,
+                })).find(poolPingData => poolPingData.id === poolId)
+
+                poolPingData = poolPingData || {}
 
                 const relays = await getRelaysForPool(poolId)
 
@@ -155,7 +164,8 @@ module.exports = {
                     nodes: poolPage.nodes,
                     relays,
                     metadata,
-                    extended
+                    extended,
+                    ...poolPingData
                 }
             })
         )

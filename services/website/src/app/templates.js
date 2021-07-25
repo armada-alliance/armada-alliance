@@ -18,6 +18,7 @@ import IdentitiesPage from "./IdentitiesPage";
 import DelegationWidgetPage from "./DelegationWidgetPage";
 import StatsWidgetPage from "./StatsWidgetPage";
 import PoolWidgetPage from "./PoolWidgetPage";
+import StatusPage from "./StatusPage";
 
 const templates = {
     AAIPDetailPage,
@@ -39,6 +40,7 @@ const templates = {
     TermDetailPage,
     RoadmapPage,
     TermsPage,
+    StatusPage,
     PoolDetailPage
 }
 

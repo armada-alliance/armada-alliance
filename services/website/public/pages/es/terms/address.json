@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"address\",\"language\":\"es\",\"slug\":\"/es/terms/address\",\"url\":\"https:///website.codespace1.sublayer.io/es/terms/address\",\"origin\":\"/es/terms/address\",\"title\":\"address\",\"description\":\"La dirección de un UTXO dice hacia dónde “va” la salida.\",\"aliases\":[\"cardano address\",\"UTXO address\"],\"keywords\":[\"cardano\",\"address\",\"utxo\",\"direccion\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"alex-qxt\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/es/terms/address.md\",\"body\":\"La dirección define las condiciones para desbloquear la salida. Puede ser un hash de clave pública o en el modelo eUTXO (UTXO Extendido) un hash de script. \\nAl igual que una URL, una dirección de la Blockchain es la ubicación hacia o desde la cual ocurren las transacciones en la cadena de bloques.\\n\",\"mdxSource\":{\"compiledSource\":\"var r=Object.defineProperty,p=Object.defineProperties;var X=Object.getOwnPropertyDescriptors;var c=Object.getOwnPropertySymbols;var l=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var u=(e,a,n)=>a in e?r(e,a,{enumerable:!0,configurable:!0,writable:!0,value:n}):e[a]=n,i=(e,a)=>{for(var n in a||(a={}))l.call(a,n)&&u(e,n,a[n]);if(c)for(var n of c(a))s.call(a,n)&&u(e,n,a[n]);return e},d=(e,a)=>p(e,X(a));var t=(e,a)=>{var n={};for(var o in e)l.call(e,o)&&a.indexOf(o)<0&&(n[o]=e[o]);if(e!=null&&c)for(var o of c(e))a.indexOf(o)<0&&s.call(e,o)&&(n[o]=e[o]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var o=n,{components:e}=o,a=t(o,[\\\"components\\\"]);return mdx(MDXLayout,d(i(i({},layoutProps),a),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,`La direcci\\\\xF3n define las condiciones para desbloquear la salida. Puede ser un hash de clave p\\\\xFAblica o en el modelo eUTXO (UTXO Extendido) un hash de script.\\nAl igual que una URL, una direcci\\\\xF3n de la Blockchain es la ubicaci\\\\xF3n hacia o desde la cual ocurren las transacciones en la cadena de bloques.`))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-24T19:26:28.939Z",
-  "_cachedIn": "1.26 ms",
-  "_resolvedIn": "1.26 ms",
+  "_cachedAt": "2021-07-25T21:08:26.032Z",
+  "_cachedIn": "1.92 ms",
+  "_resolvedIn": "1.92 ms",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -45,17 +45,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-24T19:26:28.939Z",
-    "component-cached-in": "1.26 ms",
-    "component-resolved-in": "1.26 ms"
+    "component-cached-at": "2021-07-25T21:08:26.032Z",
+    "component-cached-in": "1.92 ms",
+    "component-resolved-in": "1.92 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T19:26:28.939Z",
-      "_cachedIn": "836 μs",
-      "_resolvedIn": "836 μs",
+      "_cachedAt": "2021-07-25T21:08:26.032Z",
+      "_cachedIn": "1.15 ms",
+      "_resolvedIn": "1.15 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -64,17 +64,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-24T19:26:28.939Z",
-        "component-cached-in": "836 μs",
-        "component-resolved-in": "836 μs"
+        "component-cached-at": "2021-07-25T21:08:26.032Z",
+        "component-cached-in": "1.15 ms",
+        "component-resolved-in": "1.15 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T19:26:28.939Z",
-          "_cachedIn": "483 μs",
-          "_resolvedIn": "483 μs",
+          "_cachedAt": "2021-07-25T21:08:26.032Z",
+          "_cachedIn": "637 μs",
+          "_resolvedIn": "637 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -82,7 +82,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-24T19:26:14.947Z",
+              "createdAt": "2021-07-25T21:08:11.891Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1429,7 +1429,7 @@
                   }
                 ],
                 "image": "https://static.adapools.org/pool_logo/052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e.png",
-                "updatedAt": "2021-07-24T19:08:07.000Z",
+                "updatedAt": "2021-07-24T19:26:22.000Z",
                 "filePath": "/en/stake-pools/052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e.md"
               },
               {
@@ -1526,8 +1526,8 @@
                 "slug": "/stake-pools/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
                 "url": "https:///website.codespace1.sublayer.io/stake-pools/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
                 "origin": "/stake-pools/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
-                "title": "Southtyrolpool (sudti)",
-                "description": "A stable pool from South tyrol.",
+                "title": "Southtyrol (SUDTI)",
+                "description": "A stable pool from Southtyrol.",
                 "aliases": null,
                 "keywords": null,
                 "template": "PoolDetailPage",
@@ -1727,7 +1727,7 @@
                   }
                 ],
                 "image": "https://cdn.sublayer.io/logo.png",
-                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "updatedAt": "2021-07-24T19:26:22.000Z",
                 "filePath": "/en/stake-pools/8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8.md"
               },
               {
@@ -2028,7 +2028,7 @@
               },
               {
                 "language": "en",
-                "title": "Southtyrolpool sudti",
+                "title": "Southtyrol SUDTI",
                 "slug": "/pool-widget/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
                 "template": "PoolWidgetPage",
                 "poolId": "2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
@@ -2346,6 +2346,18 @@
                 "slug": "/stats-widget",
                 "template": "StatsWidgetPage",
                 "hidden": true
+              },
+              {
+                "id": "status",
+                "language": "en",
+                "slug": "/status",
+                "url": "https:///website.codespace1.sublayer.io/status",
+                "origin": "/status",
+                "title": "Status Page",
+                "aliases": null,
+                "keywords": null,
+                "template": "StatusPage",
+                "filePath": "/en/status.md"
               },
               {
                 "id": "ada",
@@ -7657,18 +7669,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-24T19:26:28.939Z",
-            "component-cached-in": "483 μs",
-            "component-resolved-in": "483 μs"
+            "component-cached-at": "2021-07-25T21:08:26.032Z",
+            "component-cached-in": "637 μs",
+            "component-resolved-in": "637 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T19:26:28.939Z",
-          "_cachedIn": "638 μs",
-          "_resolvedIn": "638 μs",
+          "_cachedAt": "2021-07-25T21:08:26.032Z",
+          "_cachedIn": "833 μs",
+          "_resolvedIn": "833 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7679,17 +7691,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-24T19:26:28.939Z",
-            "component-cached-in": "638 μs",
-            "component-resolved-in": "638 μs"
+            "component-cached-at": "2021-07-25T21:08:26.032Z",
+            "component-cached-in": "833 μs",
+            "component-resolved-in": "833 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-24T19:26:28.939Z",
-              "_cachedIn": "131 μs",
-              "_resolvedIn": "131 μs",
+              "_cachedAt": "2021-07-25T21:08:26.032Z",
+              "_cachedIn": "181 μs",
+              "_resolvedIn": "181 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7749,9 +7761,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-24T19:26:28.939Z",
-                "component-cached-in": "131 μs",
-                "component-resolved-in": "131 μs"
+                "component-cached-at": "2021-07-25T21:08:26.032Z",
+                "component-cached-in": "181 μs",
+                "component-resolved-in": "181 μs"
               },
               "components": {}
             }
@@ -7760,9 +7772,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T19:26:28.938Z",
-          "_cachedIn": "238 μs",
-          "_resolvedIn": "238 μs",
+          "_cachedAt": "2021-07-25T21:08:26.032Z",
+          "_cachedIn": "333 μs",
+          "_resolvedIn": "333 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7771,9 +7783,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-24T19:26:28.938Z",
-            "component-cached-in": "238 μs",
-            "component-resolved-in": "238 μs"
+            "component-cached-at": "2021-07-25T21:08:26.032Z",
+            "component-cached-in": "333 μs",
+            "component-resolved-in": "333 μs"
           },
           "components": {}
         }
@@ -7782,9 +7794,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T19:26:28.938Z",
-      "_cachedIn": "503 μs",
-      "_resolvedIn": "503 μs",
+      "_cachedAt": "2021-07-25T21:08:26.032Z",
+      "_cachedIn": "734 μs",
+      "_resolvedIn": "734 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7816,18 +7828,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-24T19:26:28.938Z",
-        "component-cached-in": "503 μs",
-        "component-resolved-in": "503 μs"
+        "component-cached-at": "2021-07-25T21:08:26.032Z",
+        "component-cached-in": "734 μs",
+        "component-resolved-in": "734 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T19:26:28.938Z",
-      "_cachedIn": "235 μs",
-      "_resolvedIn": "235 μs",
+      "_cachedAt": "2021-07-25T21:08:26.031Z",
+      "_cachedIn": "394 μs",
+      "_resolvedIn": "394 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7839,18 +7851,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-24T19:26:28.938Z",
-        "component-cached-in": "235 μs",
-        "component-resolved-in": "235 μs"
+        "component-cached-at": "2021-07-25T21:08:26.031Z",
+        "component-cached-in": "394 μs",
+        "component-resolved-in": "394 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T19:26:28.938Z",
-      "_cachedIn": "503 μs",
-      "_resolvedIn": "503 μs",
+      "_cachedAt": "2021-07-25T21:08:26.032Z",
+      "_cachedIn": "733 μs",
+      "_resolvedIn": "733 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7869,9 +7881,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-24T19:26:28.938Z",
-        "component-cached-in": "503 μs",
-        "component-resolved-in": "503 μs"
+        "component-cached-at": "2021-07-25T21:08:26.032Z",
+        "component-cached-in": "733 μs",
+        "component-resolved-in": "733 μs"
       },
       "components": {}
     }

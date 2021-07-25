@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"crypto-mining\",\"language\":\"en\",\"slug\":\"/terms/crypto-mining\",\"url\":\"https:///website.codespace1.sublayer.io/terms/crypto-mining\",\"origin\":\"/terms/crypto-mining\",\"title\":\"Crypto mining\",\"description\":\"In proof-of-work blockchain's like Bitcoin mining is the process by which new crypto-currencies or digital assets are created and distributed to the blockchain's decentralized ledger.\",\"aliases\":[\"crypto-mining\",\"bitcoin-mining\",\"mining\",\"mining-bitcoin\",\"mining-crypto\",\"mining-crypto-currencies\",\"mining-crypto-assets\",\"staking\",\"proof-of-work\",\"proof-of-stake\"],\"keywords\":[\"crypto\",\"mining\",\"mining-bitcoin\",\"mining-crypto\",\"mining-crypto-currencies\",\"mining-crypto-assets\",\"staking\",\"proof-of-work\",\"proof-of-stake\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-18T01:43:37.000Z\",\"filePath\":\"/en/terms/crypto-mining.md\",\"body\":\"The work performed by miners consists of a few main actions:\\n\\n1. Verifying and validating new transactions\\n2. Collecting those transactions and ordering them into a new block\\n3. Adding the block to the ledger’s chain of blocks (the blockchain)\\n4. Broadcasting the new block to the cryptocurrency node network\\n\\nhttps://www.dummies.com/personal-finance/investing/what-is-cryptocurrency-mining/\",\"mdxSource\":{\"compiledSource\":\"var m=Object.defineProperty,h=Object.defineProperties;var w=Object.getOwnPropertyDescriptors;var i=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,c=Object.prototype.propertyIsEnumerable;var s=(n,e,t)=>e in n?m(n,e,{enumerable:!0,configurable:!0,writable:!0,value:t}):n[e]=t,a=(n,e)=>{for(var t in e||(e={}))r.call(e,t)&&s(n,t,e[t]);if(i)for(var t of i(e))c.call(e,t)&&s(n,t,e[t]);return n},l=(n,e)=>h(n,w(e));var p=(n,e)=>{var t={};for(var o in n)r.call(n,o)&&e.indexOf(o)<0&&(t[o]=n[o]);if(n!=null&&i)for(var o of i(n))e.indexOf(o)<0&&c.call(n,o)&&(t[o]=n[o]);return t};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(t){var o=t,{components:n}=o,e=p(o,[\\\"components\\\"]);return mdx(MDXLayout,l(a(a({},layoutProps),e),{components:n,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"The work performed by miners consists of a few main actions:\\\"),mdx(\\\"ol\\\",null,mdx(\\\"li\\\",{parentName:\\\"ol\\\"},\\\"Verifying and validating new transactions\\\"),mdx(\\\"li\\\",{parentName:\\\"ol\\\"},\\\"Collecting those transactions and ordering them into a new block\\\"),mdx(\\\"li\\\",{parentName:\\\"ol\\\"},\\\"Adding the block to the ledger\\\\u2019s chain of blocks (the blockchain)\\\"),mdx(\\\"li\\\",{parentName:\\\"ol\\\"},\\\"Broadcasting the new block to the cryptocurrency node network\\\")),mdx(\\\"p\\\",null,mdx(\\\"a\\\",a({parentName:\\\"p\\\"},{href:\\\"https://www.dummies.com/personal-finance/investing/what-is-cryptocurrency-mining/\\\"}),\\\"https://www.dummies.com/personal-finance/investing/what-is-cryptocurrency-mining/\\\")))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-24T19:26:27.893Z",
-  "_cachedIn": "3.31 ms",
-  "_resolvedIn": "3.31 ms",
+  "_cachedAt": "2021-07-25T21:08:24.776Z",
+  "_cachedIn": "773 μs",
+  "_resolvedIn": "773 μs",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -58,17 +58,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-24T19:26:27.893Z",
-    "component-cached-in": "3.31 ms",
-    "component-resolved-in": "3.31 ms"
+    "component-cached-at": "2021-07-25T21:08:24.776Z",
+    "component-cached-in": "773 μs",
+    "component-resolved-in": "773 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T19:26:27.893Z",
-      "_cachedIn": "3.13 ms",
-      "_resolvedIn": "3.13 ms",
+      "_cachedAt": "2021-07-25T21:08:24.775Z",
+      "_cachedIn": "510 μs",
+      "_resolvedIn": "510 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -77,17 +77,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-24T19:26:27.893Z",
-        "component-cached-in": "3.13 ms",
-        "component-resolved-in": "3.13 ms"
+        "component-cached-at": "2021-07-25T21:08:24.775Z",
+        "component-cached-in": "510 μs",
+        "component-resolved-in": "510 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T19:26:27.893Z",
-          "_cachedIn": "2.94 ms",
-          "_resolvedIn": "2.94 ms",
+          "_cachedAt": "2021-07-25T21:08:24.775Z",
+          "_cachedIn": "304 μs",
+          "_resolvedIn": "304 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -95,7 +95,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-24T19:26:14.947Z",
+              "createdAt": "2021-07-25T21:08:11.891Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1442,7 +1442,7 @@
                   }
                 ],
                 "image": "https://static.adapools.org/pool_logo/052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e.png",
-                "updatedAt": "2021-07-24T19:08:07.000Z",
+                "updatedAt": "2021-07-24T19:26:22.000Z",
                 "filePath": "/en/stake-pools/052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e.md"
               },
               {
@@ -1539,8 +1539,8 @@
                 "slug": "/stake-pools/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
                 "url": "https:///website.codespace1.sublayer.io/stake-pools/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
                 "origin": "/stake-pools/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
-                "title": "Southtyrolpool (sudti)",
-                "description": "A stable pool from South tyrol.",
+                "title": "Southtyrol (SUDTI)",
+                "description": "A stable pool from Southtyrol.",
                 "aliases": null,
                 "keywords": null,
                 "template": "PoolDetailPage",
@@ -1740,7 +1740,7 @@
                   }
                 ],
                 "image": "https://cdn.sublayer.io/logo.png",
-                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "updatedAt": "2021-07-24T19:26:22.000Z",
                 "filePath": "/en/stake-pools/8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8.md"
               },
               {
@@ -2041,7 +2041,7 @@
               },
               {
                 "language": "en",
-                "title": "Southtyrolpool sudti",
+                "title": "Southtyrol SUDTI",
                 "slug": "/pool-widget/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
                 "template": "PoolWidgetPage",
                 "poolId": "2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
@@ -2359,6 +2359,18 @@
                 "slug": "/stats-widget",
                 "template": "StatsWidgetPage",
                 "hidden": true
+              },
+              {
+                "id": "status",
+                "language": "en",
+                "slug": "/status",
+                "url": "https:///website.codespace1.sublayer.io/status",
+                "origin": "/status",
+                "title": "Status Page",
+                "aliases": null,
+                "keywords": null,
+                "template": "StatusPage",
+                "filePath": "/en/status.md"
               },
               {
                 "id": "ada",
@@ -7670,18 +7682,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-24T19:26:27.893Z",
-            "component-cached-in": "2.94 ms",
-            "component-resolved-in": "2.94 ms"
+            "component-cached-at": "2021-07-25T21:08:24.775Z",
+            "component-cached-in": "304 μs",
+            "component-resolved-in": "304 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T19:26:27.893Z",
-          "_cachedIn": "3 ms",
-          "_resolvedIn": "3 ms",
+          "_cachedAt": "2021-07-25T21:08:24.775Z",
+          "_cachedIn": "380 μs",
+          "_resolvedIn": "380 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7692,17 +7704,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-24T19:26:27.893Z",
-            "component-cached-in": "3 ms",
-            "component-resolved-in": "3 ms"
+            "component-cached-at": "2021-07-25T21:08:24.775Z",
+            "component-cached-in": "380 μs",
+            "component-resolved-in": "380 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-24T19:26:27.893Z",
-              "_cachedIn": "58 μs",
-              "_resolvedIn": "58 μs",
+              "_cachedAt": "2021-07-25T21:08:24.775Z",
+              "_cachedIn": "83 μs",
+              "_resolvedIn": "83 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7762,9 +7774,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-24T19:26:27.893Z",
-                "component-cached-in": "58 μs",
-                "component-resolved-in": "58 μs"
+                "component-cached-at": "2021-07-25T21:08:24.775Z",
+                "component-cached-in": "83 μs",
+                "component-resolved-in": "83 μs"
               },
               "components": {}
             }
@@ -7773,9 +7785,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T19:26:27.893Z",
-          "_cachedIn": "2.76 ms",
-          "_resolvedIn": "2.76 ms",
+          "_cachedAt": "2021-07-25T21:08:24.775Z",
+          "_cachedIn": "196 μs",
+          "_resolvedIn": "196 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7784,9 +7796,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-24T19:26:27.893Z",
-            "component-cached-in": "2.76 ms",
-            "component-resolved-in": "2.76 ms"
+            "component-cached-at": "2021-07-25T21:08:24.775Z",
+            "component-cached-in": "196 μs",
+            "component-resolved-in": "196 μs"
           },
           "components": {}
         }
@@ -7795,9 +7807,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T19:26:27.893Z",
-      "_cachedIn": "2.99 ms",
-      "_resolvedIn": "2.99 ms",
+      "_cachedAt": "2021-07-25T21:08:24.775Z",
+      "_cachedIn": "372 μs",
+      "_resolvedIn": "372 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7828,18 +7840,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-24T19:26:27.893Z",
-        "component-cached-in": "2.99 ms",
-        "component-resolved-in": "2.99 ms"
+        "component-cached-at": "2021-07-25T21:08:24.775Z",
+        "component-cached-in": "372 μs",
+        "component-resolved-in": "372 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T19:26:27.890Z",
-      "_cachedIn": "146 μs",
-      "_resolvedIn": "146 μs",
+      "_cachedAt": "2021-07-25T21:08:24.775Z",
+      "_cachedIn": "225 μs",
+      "_resolvedIn": "225 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7851,18 +7863,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-24T19:26:27.890Z",
-        "component-cached-in": "146 μs",
-        "component-resolved-in": "146 μs"
+        "component-cached-at": "2021-07-25T21:08:24.775Z",
+        "component-cached-in": "225 μs",
+        "component-resolved-in": "225 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T19:26:27.893Z",
-      "_cachedIn": "2.99 ms",
-      "_resolvedIn": "2.99 ms",
+      "_cachedAt": "2021-07-25T21:08:24.775Z",
+      "_cachedIn": "373 μs",
+      "_resolvedIn": "373 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7881,9 +7893,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-24T19:26:27.893Z",
-        "component-cached-in": "2.99 ms",
-        "component-resolved-in": "2.99 ms"
+        "component-cached-at": "2021-07-25T21:08:24.775Z",
+        "component-cached-in": "373 μs",
+        "component-resolved-in": "373 μs"
       },
       "components": {}
     }
