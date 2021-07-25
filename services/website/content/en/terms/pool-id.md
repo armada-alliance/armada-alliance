@@ -11,4 +11,4 @@ identities:
 
 Here is an example of a Cardano stake-pool's [hash](/en/terms/hash-function.md) identifier -  `b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65`
 
-You can search these `hash` version of a stake-pool's ID in many [Cardano blockchain explorers](/en/terms/blockchain-explorer) to find statistics, rewards/fees details, and other information associated to a specific stake-pool.
+You can search these `hash` version of a stake-pool's ID in many [Cardano blockchain explorers](/en/terms/blockchain-explorer.md) to find statistics, rewards/fees details, and other information associated to a specific stake-pool.
