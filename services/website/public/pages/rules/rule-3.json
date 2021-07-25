@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"RuleDetailPage\",\"version\":1},\"props\":{\"id\":\"rule-3\",\"language\":\"en\",\"slug\":\"/rules/rule-3\",\"url\":\"https:///website.codespace1.sublayer.io/rules/rule-3\",\"origin\":\"/rules/rule-3\",\"title\":\"Every SPO should have a Telegram handle\",\"description\":\"Make sure to define a Telegram handle for every SPO of your stake pool.\",\"aliases\":null,\"keywords\":null,\"template\":\"RuleDetailPage\",\"updatedAt\":\"2021-07-24T17:52:06.000Z\",\"filePath\":\"/en/rules/rule-3.md\",\"number\":3,\"body\":\"```yaml\\n---\\ntemplate: IdentityDetailPage\\ntitle: \\\"sublayerio 🌱\\\"\\ndescription: Open Sourcerer, SPO\\nimage: https://cdn.sublayer.io/logo.png\\ndonationAddress: addr1qx7e3rg8cq8kgrza3pp9sjv527g9m6pjvm90jwxlpczx7myrq8xs909fhky97vm27e4aylxtsk4rf43rks6cx5sdy3dsngr7e3\\nverified: true\\ntelegram: sublayerio\\ntwitter: sublayerio\\ngithub: sublayerio\\n---\\n```\\n\\n[View source](https://github.com/armada-alliance/armada-alliance/blob/main/services/website/content/en/identities/sublayerio.md)\",\"mdxSource\":{\"compiledSource\":\"var m=Object.defineProperty,u=Object.defineProperties;var d=Object.getOwnPropertyDescriptors;var i=Object.getOwnPropertySymbols;var n=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var p=(e,a,t)=>a in e?m(e,a,{enumerable:!0,configurable:!0,writable:!0,value:t}):e[a]=t,o=(e,a)=>{for(var t in a||(a={}))n.call(a,t)&&p(e,t,a[t]);if(i)for(var t of i(a))s.call(a,t)&&p(e,t,a[t]);return e},l=(e,a)=>u(e,d(a));var c=(e,a)=>{var t={};for(var r in e)n.call(e,r)&&a.indexOf(r)<0&&(t[r]=e[r]);if(e!=null&&i)for(var r of i(e))a.indexOf(r)<0&&s.call(e,r)&&(t[r]=e[r]);return t};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(t){var r=t,{components:e}=r,a=c(r,[\\\"components\\\"]);return mdx(MDXLayout,l(o(o({},layoutProps),a),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"pre\\\",null,mdx(\\\"code\\\",o({parentName:\\\"pre\\\"},{className:\\\"language-yaml\\\"}),`---\\ntemplate: IdentityDetailPage\\ntitle: \\\"sublayerio \\\\u{1F331}\\\"\\ndescription: Open Sourcerer, SPO\\nimage: https://cdn.sublayer.io/logo.png\\ndonationAddress: addr1qx7e3rg8cq8kgrza3pp9sjv527g9m6pjvm90jwxlpczx7myrq8xs909fhky97vm27e4aylxtsk4rf43rks6cx5sdy3dsngr7e3\\nverified: true\\ntelegram: sublayerio\\ntwitter: sublayerio\\ngithub: sublayerio\\n---\\n`)),mdx(\\\"p\\\",null,mdx(\\\"a\\\",o({parentName:\\\"p\\\"},{href:\\\"https://github.com/armada-alliance/armada-alliance/blob/main/services/website/content/en/identities/sublayerio.md\\\"}),\\\"View source\\\")))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-24T19:26:27.579Z",
-  "_cachedIn": "1.35 ms",
-  "_resolvedIn": "1.35 ms",
+  "_cachedAt": "2021-07-25T21:08:24.483Z",
+  "_cachedIn": "1.26 ms",
+  "_resolvedIn": "1.26 ms",
   "id": "RuleDetailPage",
   "type": "RuleDetailPage",
   "status": "resolved",
@@ -32,17 +32,17 @@
   "attrs": {
     "component-type": "RuleDetailPage",
     "component-id": "RuleDetailPage",
-    "component-cached-at": "2021-07-24T19:26:27.579Z",
-    "component-cached-in": "1.35 ms",
-    "component-resolved-in": "1.35 ms"
+    "component-cached-at": "2021-07-25T21:08:24.483Z",
+    "component-cached-in": "1.26 ms",
+    "component-resolved-in": "1.26 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T19:26:27.579Z",
-      "_cachedIn": "873 μs",
-      "_resolvedIn": "873 μs",
+      "_cachedAt": "2021-07-25T21:08:24.483Z",
+      "_cachedIn": "816 μs",
+      "_resolvedIn": "816 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -51,17 +51,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-24T19:26:27.579Z",
-        "component-cached-in": "873 μs",
-        "component-resolved-in": "873 μs"
+        "component-cached-at": "2021-07-25T21:08:24.483Z",
+        "component-cached-in": "816 μs",
+        "component-resolved-in": "816 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T19:26:27.579Z",
-          "_cachedIn": "342 μs",
-          "_resolvedIn": "342 μs",
+          "_cachedAt": "2021-07-25T21:08:24.483Z",
+          "_cachedIn": "416 μs",
+          "_resolvedIn": "416 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -69,7 +69,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-24T19:26:14.947Z",
+              "createdAt": "2021-07-25T21:08:11.891Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1416,7 +1416,7 @@
                   }
                 ],
                 "image": "https://static.adapools.org/pool_logo/052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e.png",
-                "updatedAt": "2021-07-24T19:08:07.000Z",
+                "updatedAt": "2021-07-24T19:26:22.000Z",
                 "filePath": "/en/stake-pools/052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e.md"
               },
               {
@@ -1513,8 +1513,8 @@
                 "slug": "/stake-pools/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
                 "url": "https:///website.codespace1.sublayer.io/stake-pools/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
                 "origin": "/stake-pools/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
-                "title": "Southtyrolpool (sudti)",
-                "description": "A stable pool from South tyrol.",
+                "title": "Southtyrol (SUDTI)",
+                "description": "A stable pool from Southtyrol.",
                 "aliases": null,
                 "keywords": null,
                 "template": "PoolDetailPage",
@@ -1714,7 +1714,7 @@
                   }
                 ],
                 "image": "https://cdn.sublayer.io/logo.png",
-                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "updatedAt": "2021-07-24T19:26:22.000Z",
                 "filePath": "/en/stake-pools/8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8.md"
               },
               {
@@ -2015,7 +2015,7 @@
               },
               {
                 "language": "en",
-                "title": "Southtyrolpool sudti",
+                "title": "Southtyrol SUDTI",
                 "slug": "/pool-widget/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
                 "template": "PoolWidgetPage",
                 "poolId": "2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
@@ -2333,6 +2333,18 @@
                 "slug": "/stats-widget",
                 "template": "StatsWidgetPage",
                 "hidden": true
+              },
+              {
+                "id": "status",
+                "language": "en",
+                "slug": "/status",
+                "url": "https:///website.codespace1.sublayer.io/status",
+                "origin": "/status",
+                "title": "Status Page",
+                "aliases": null,
+                "keywords": null,
+                "template": "StatusPage",
+                "filePath": "/en/status.md"
               },
               {
                 "id": "ada",
@@ -7644,18 +7656,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-24T19:26:27.579Z",
-            "component-cached-in": "342 μs",
-            "component-resolved-in": "342 μs"
+            "component-cached-at": "2021-07-25T21:08:24.483Z",
+            "component-cached-in": "416 μs",
+            "component-resolved-in": "416 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T19:26:27.579Z",
-          "_cachedIn": "451 μs",
-          "_resolvedIn": "451 μs",
+          "_cachedAt": "2021-07-25T21:08:24.483Z",
+          "_cachedIn": "581 μs",
+          "_resolvedIn": "581 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7666,17 +7678,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-24T19:26:27.579Z",
-            "component-cached-in": "451 μs",
-            "component-resolved-in": "451 μs"
+            "component-cached-at": "2021-07-25T21:08:24.483Z",
+            "component-cached-in": "581 μs",
+            "component-resolved-in": "581 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-24T19:26:27.579Z",
-              "_cachedIn": "93 μs",
-              "_resolvedIn": "93 μs",
+              "_cachedAt": "2021-07-25T21:08:24.483Z",
+              "_cachedIn": "148 μs",
+              "_resolvedIn": "148 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7736,9 +7748,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-24T19:26:27.579Z",
-                "component-cached-in": "93 μs",
-                "component-resolved-in": "93 μs"
+                "component-cached-at": "2021-07-25T21:08:24.483Z",
+                "component-cached-in": "148 μs",
+                "component-resolved-in": "148 μs"
               },
               "components": {}
             }
@@ -7747,9 +7759,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T19:26:27.578Z",
-          "_cachedIn": "175 μs",
-          "_resolvedIn": "175 μs",
+          "_cachedAt": "2021-07-25T21:08:24.482Z",
+          "_cachedIn": "185 μs",
+          "_resolvedIn": "185 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7758,9 +7770,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-24T19:26:27.578Z",
-            "component-cached-in": "175 μs",
-            "component-resolved-in": "175 μs"
+            "component-cached-at": "2021-07-25T21:08:24.482Z",
+            "component-cached-in": "185 μs",
+            "component-resolved-in": "185 μs"
           },
           "components": {}
         }
@@ -7769,9 +7781,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T19:26:27.578Z",
-      "_cachedIn": "622 μs",
-      "_resolvedIn": "622 μs",
+      "_cachedAt": "2021-07-25T21:08:24.483Z",
+      "_cachedIn": "495 μs",
+      "_resolvedIn": "495 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7784,18 +7796,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-24T19:26:27.578Z",
-        "component-cached-in": "622 μs",
-        "component-resolved-in": "622 μs"
+        "component-cached-at": "2021-07-25T21:08:24.483Z",
+        "component-cached-in": "495 μs",
+        "component-resolved-in": "495 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T19:26:27.578Z",
-      "_cachedIn": "405 μs",
-      "_resolvedIn": "405 μs",
+      "_cachedAt": "2021-07-25T21:08:24.482Z",
+      "_cachedIn": "246 μs",
+      "_resolvedIn": "246 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7807,18 +7819,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-24T19:26:27.578Z",
-        "component-cached-in": "405 μs",
-        "component-resolved-in": "405 μs"
+        "component-cached-at": "2021-07-25T21:08:24.482Z",
+        "component-cached-in": "246 μs",
+        "component-resolved-in": "246 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T19:26:27.578Z",
-      "_cachedIn": "623 μs",
-      "_resolvedIn": "623 μs",
+      "_cachedAt": "2021-07-25T21:08:24.483Z",
+      "_cachedIn": "496 μs",
+      "_resolvedIn": "496 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7837,9 +7849,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-24T19:26:27.578Z",
-        "component-cached-in": "623 μs",
-        "component-resolved-in": "623 μs"
+        "component-cached-at": "2021-07-25T21:08:24.483Z",
+        "component-cached-in": "496 μs",
+        "component-resolved-in": "496 μs"
       },
       "components": {}
     }

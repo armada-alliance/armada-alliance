@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"fungible-token-asset\",\"language\":\"en\",\"slug\":\"/terms/fungible-token-asset\",\"url\":\"https:///website.codespace1.sublayer.io/terms/fungible-token-asset\",\"origin\":\"/terms/fungible-token-asset\",\"title\":\"Fungible token/asset\",\"description\":\"an asset that is interchangeable and indistinguishable with some other asset(s). Same denomination bills and coins are fungible assets, for example, like equal quantities of ada to lovelaces.\",\"aliases\":[\"cardano native assets\",\"cardano fungible tokens\",\"cardano tokens\",\"ada\",\"lovelace\",\"cardano currency\",\"cryptocurrency\"],\"keywords\":[\"cardano\",\"native\",\"assets\",\"fungible\",\"tokens\",\"ada\",\"lovelace\",\"cryptocurrency\",\"crypto\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/fungible-token-asset.md\",\"body\":\"Learn how to mint your own fungible token(s) on the Cardano blockchain using javascript:\\n\\n<Page url=\\\"/guides/create-single-non-fungible-token\\\" />\\n\",\"mdxSource\":{\"compiledSource\":\"var d=Object.defineProperty,l=Object.defineProperties;var g=Object.getOwnPropertyDescriptors;var r=Object.getOwnPropertySymbols;var s=Object.prototype.hasOwnProperty,u=Object.prototype.propertyIsEnumerable;var c=(o,n,e)=>n in o?d(o,n,{enumerable:!0,configurable:!0,writable:!0,value:e}):o[n]=e,a=(o,n)=>{for(var e in n||(n={}))s.call(n,e)&&c(o,e,n[e]);if(r)for(var e of r(n))u.call(n,e)&&c(o,e,n[e]);return o},i=(o,n)=>l(o,g(n));var p=(o,n)=>{var e={};for(var t in o)s.call(o,t)&&n.indexOf(t)<0&&(e[t]=o[t]);if(o!=null&&r)for(var t of r(o))n.indexOf(t)<0&&u.call(o,t)&&(e[t]=o[t]);return e};const makeShortcode=o=>function(e){return console.warn(\\\"Component \\\"+o+\\\" was not imported, exported, or provided by MDXProvider as global scope\\\"),mdx(\\\"div\\\",a({},e))},Page=makeShortcode(\\\"Page\\\"),layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(e){var t=e,{components:o}=t,n=p(t,[\\\"components\\\"]);return mdx(MDXLayout,i(a(a({},layoutProps),n),{components:o,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"Learn how to mint your own fungible token(s) on the Cardano blockchain using javascript:\\\"),mdx(Page,{url:\\\"/guides/create-single-non-fungible-token\\\",mdxType:\\\"Page\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-24T19:26:28.124Z",
-  "_cachedIn": "1.05 ms",
-  "_resolvedIn": "1.05 ms",
+  "_cachedAt": "2021-07-25T21:08:25.091Z",
+  "_cachedIn": "805 μs",
+  "_resolvedIn": "805 μs",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -55,17 +55,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-24T19:26:28.124Z",
-    "component-cached-in": "1.05 ms",
-    "component-resolved-in": "1.05 ms"
+    "component-cached-at": "2021-07-25T21:08:25.091Z",
+    "component-cached-in": "805 μs",
+    "component-resolved-in": "805 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T19:26:28.123Z",
-      "_cachedIn": "773 μs",
-      "_resolvedIn": "773 μs",
+      "_cachedAt": "2021-07-25T21:08:25.091Z",
+      "_cachedIn": "486 μs",
+      "_resolvedIn": "486 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -74,17 +74,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-24T19:26:28.123Z",
-        "component-cached-in": "773 μs",
-        "component-resolved-in": "773 μs"
+        "component-cached-at": "2021-07-25T21:08:25.091Z",
+        "component-cached-in": "486 μs",
+        "component-resolved-in": "486 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T19:26:28.123Z",
-          "_cachedIn": "470 μs",
-          "_resolvedIn": "470 μs",
+          "_cachedAt": "2021-07-25T21:08:25.091Z",
+          "_cachedIn": "298 μs",
+          "_resolvedIn": "298 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -92,7 +92,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-24T19:26:14.947Z",
+              "createdAt": "2021-07-25T21:08:11.891Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1439,7 +1439,7 @@
                   }
                 ],
                 "image": "https://static.adapools.org/pool_logo/052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e.png",
-                "updatedAt": "2021-07-24T19:08:07.000Z",
+                "updatedAt": "2021-07-24T19:26:22.000Z",
                 "filePath": "/en/stake-pools/052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e.md"
               },
               {
@@ -1536,8 +1536,8 @@
                 "slug": "/stake-pools/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
                 "url": "https:///website.codespace1.sublayer.io/stake-pools/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
                 "origin": "/stake-pools/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
-                "title": "Southtyrolpool (sudti)",
-                "description": "A stable pool from South tyrol.",
+                "title": "Southtyrol (SUDTI)",
+                "description": "A stable pool from Southtyrol.",
                 "aliases": null,
                 "keywords": null,
                 "template": "PoolDetailPage",
@@ -1737,7 +1737,7 @@
                   }
                 ],
                 "image": "https://cdn.sublayer.io/logo.png",
-                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "updatedAt": "2021-07-24T19:26:22.000Z",
                 "filePath": "/en/stake-pools/8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8.md"
               },
               {
@@ -2038,7 +2038,7 @@
               },
               {
                 "language": "en",
-                "title": "Southtyrolpool sudti",
+                "title": "Southtyrol SUDTI",
                 "slug": "/pool-widget/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
                 "template": "PoolWidgetPage",
                 "poolId": "2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
@@ -2356,6 +2356,18 @@
                 "slug": "/stats-widget",
                 "template": "StatsWidgetPage",
                 "hidden": true
+              },
+              {
+                "id": "status",
+                "language": "en",
+                "slug": "/status",
+                "url": "https:///website.codespace1.sublayer.io/status",
+                "origin": "/status",
+                "title": "Status Page",
+                "aliases": null,
+                "keywords": null,
+                "template": "StatusPage",
+                "filePath": "/en/status.md"
               },
               {
                 "id": "ada",
@@ -7667,18 +7679,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-24T19:26:28.123Z",
-            "component-cached-in": "470 μs",
-            "component-resolved-in": "470 μs"
+            "component-cached-at": "2021-07-25T21:08:25.091Z",
+            "component-cached-in": "298 μs",
+            "component-resolved-in": "298 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T19:26:28.123Z",
-          "_cachedIn": "599 μs",
-          "_resolvedIn": "599 μs",
+          "_cachedAt": "2021-07-25T21:08:25.091Z",
+          "_cachedIn": "384 μs",
+          "_resolvedIn": "384 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7689,17 +7701,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-24T19:26:28.123Z",
-            "component-cached-in": "599 μs",
-            "component-resolved-in": "599 μs"
+            "component-cached-at": "2021-07-25T21:08:25.091Z",
+            "component-cached-in": "384 μs",
+            "component-resolved-in": "384 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-24T19:26:28.123Z",
-              "_cachedIn": "133 μs",
-              "_resolvedIn": "133 μs",
+              "_cachedAt": "2021-07-25T21:08:25.091Z",
+              "_cachedIn": "73 μs",
+              "_resolvedIn": "73 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7759,9 +7771,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-24T19:26:28.123Z",
-                "component-cached-in": "133 μs",
-                "component-resolved-in": "133 μs"
+                "component-cached-at": "2021-07-25T21:08:25.091Z",
+                "component-cached-in": "73 μs",
+                "component-resolved-in": "73 μs"
               },
               "components": {}
             }
@@ -7770,9 +7782,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T19:26:28.123Z",
-          "_cachedIn": "277 μs",
-          "_resolvedIn": "277 μs",
+          "_cachedAt": "2021-07-25T21:08:25.091Z",
+          "_cachedIn": "160 μs",
+          "_resolvedIn": "160 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7781,9 +7793,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-24T19:26:28.123Z",
-            "component-cached-in": "277 μs",
-            "component-resolved-in": "277 μs"
+            "component-cached-at": "2021-07-25T21:08:25.091Z",
+            "component-cached-in": "160 μs",
+            "component-resolved-in": "160 μs"
           },
           "components": {}
         }
@@ -7792,9 +7804,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T19:26:28.123Z",
-      "_cachedIn": "527 μs",
-      "_resolvedIn": "527 μs",
+      "_cachedAt": "2021-07-25T21:08:25.091Z",
+      "_cachedIn": "297 μs",
+      "_resolvedIn": "297 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7825,18 +7837,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-24T19:26:28.123Z",
-        "component-cached-in": "527 μs",
-        "component-resolved-in": "527 μs"
+        "component-cached-at": "2021-07-25T21:08:25.091Z",
+        "component-cached-in": "297 μs",
+        "component-resolved-in": "297 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T19:26:28.123Z",
-      "_cachedIn": "281 μs",
-      "_resolvedIn": "281 μs",
+      "_cachedAt": "2021-07-25T21:08:25.091Z",
+      "_cachedIn": "118 μs",
+      "_resolvedIn": "118 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7848,18 +7860,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-24T19:26:28.123Z",
-        "component-cached-in": "281 μs",
-        "component-resolved-in": "281 μs"
+        "component-cached-at": "2021-07-25T21:08:25.091Z",
+        "component-cached-in": "118 μs",
+        "component-resolved-in": "118 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T19:26:28.123Z",
-      "_cachedIn": "527 μs",
-      "_resolvedIn": "527 μs",
+      "_cachedAt": "2021-07-25T21:08:25.091Z",
+      "_cachedIn": "298 μs",
+      "_resolvedIn": "298 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7878,9 +7890,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-24T19:26:28.123Z",
-        "component-cached-in": "527 μs",
-        "component-resolved-in": "527 μs"
+        "component-cached-at": "2021-07-25T21:08:25.091Z",
+        "component-cached-in": "298 μs",
+        "component-resolved-in": "298 μs"
       },
       "components": {}
     }

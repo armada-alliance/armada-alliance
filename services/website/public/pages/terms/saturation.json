@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"saturation\",\"language\":\"en\",\"slug\":\"/terms/saturation\",\"url\":\"https:///website.codespace1.sublayer.io/terms/saturation\",\"origin\":\"/terms/saturation\",\"title\":\"Saturation\",\"description\":\"A term used to indicate that a particular stake pool has more stake delegated to it than is ideal for the network.\",\"aliases\":[\"cardano stake pool saturation point\",\"cardano stake pool saturation\",\"cardano stake pool over saturated pools\",\"cardano stake pool over saturation\"],\"keywords\":[\"cardano\",\"stake\",\"pool\",\"over\",\"saturated\",\"saturation\",\"point\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/saturation.md\",\"body\":\"Saturation is displayed as a percentage. Once a stake pool reaches 100% saturation, it will offer diminishing rewards.The saturation mechanism was designed to prevent centralization by encouraging delegators to delegate to different stake pools, and operators to set up alternative pools so that they can continue earning maximum rewards. Saturation, therefore, exists to preserve the interests of both ada holders delegating their stake and stake pool operators.\",\"mdxSource\":{\"compiledSource\":\"var l=Object.defineProperty,c=Object.defineProperties;var h=Object.getOwnPropertyDescriptors;var n=Object.getOwnPropertySymbols;var s=Object.prototype.hasOwnProperty,i=Object.prototype.propertyIsEnumerable;var p=(e,t,a)=>t in e?l(e,t,{enumerable:!0,configurable:!0,writable:!0,value:a}):e[t]=a,r=(e,t)=>{for(var a in t||(t={}))s.call(t,a)&&p(e,a,t[a]);if(n)for(var a of n(t))i.call(t,a)&&p(e,a,t[a]);return e},d=(e,t)=>c(e,h(t));var u=(e,t)=>{var a={};for(var o in e)s.call(e,o)&&t.indexOf(o)<0&&(a[o]=e[o]);if(e!=null&&n)for(var o of n(e))t.indexOf(o)<0&&i.call(e,o)&&(a[o]=e[o]);return a};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(a){var o=a,{components:e}=o,t=u(o,[\\\"components\\\"]);return mdx(MDXLayout,d(r(r({},layoutProps),t),{components:e,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"Saturation is displayed as a percentage. Once a stake pool reaches 100% saturation, it will offer diminishing rewards.The saturation mechanism was designed to prevent centralization by encouraging delegators to delegate to different stake pools, and operators to set up alternative pools so that they can continue earning maximum rewards. Saturation, therefore, exists to preserve the interests of both ada holders delegating their stake and stake pool operators.\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-24T19:26:28.587Z",
-  "_cachedIn": "793 μs",
-  "_resolvedIn": "793 μs",
+  "_cachedAt": "2021-07-25T21:08:25.685Z",
+  "_cachedIn": "2.24 ms",
+  "_resolvedIn": "2.24 ms",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -50,17 +50,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-24T19:26:28.587Z",
-    "component-cached-in": "793 μs",
-    "component-resolved-in": "793 μs"
+    "component-cached-at": "2021-07-25T21:08:25.685Z",
+    "component-cached-in": "2.24 ms",
+    "component-resolved-in": "2.24 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T19:26:28.587Z",
-      "_cachedIn": "616 μs",
-      "_resolvedIn": "616 μs",
+      "_cachedAt": "2021-07-25T21:08:25.685Z",
+      "_cachedIn": "904 μs",
+      "_resolvedIn": "904 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -69,17 +69,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-24T19:26:28.587Z",
-        "component-cached-in": "616 μs",
-        "component-resolved-in": "616 μs"
+        "component-cached-at": "2021-07-25T21:08:25.685Z",
+        "component-cached-in": "904 μs",
+        "component-resolved-in": "904 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T19:26:28.587Z",
-          "_cachedIn": "367 μs",
-          "_resolvedIn": "367 μs",
+          "_cachedAt": "2021-07-25T21:08:25.685Z",
+          "_cachedIn": "517 μs",
+          "_resolvedIn": "517 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -87,7 +87,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-24T19:26:14.947Z",
+              "createdAt": "2021-07-25T21:08:11.891Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1434,7 +1434,7 @@
                   }
                 ],
                 "image": "https://static.adapools.org/pool_logo/052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e.png",
-                "updatedAt": "2021-07-24T19:08:07.000Z",
+                "updatedAt": "2021-07-24T19:26:22.000Z",
                 "filePath": "/en/stake-pools/052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e.md"
               },
               {
@@ -1531,8 +1531,8 @@
                 "slug": "/stake-pools/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
                 "url": "https:///website.codespace1.sublayer.io/stake-pools/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
                 "origin": "/stake-pools/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
-                "title": "Southtyrolpool (sudti)",
-                "description": "A stable pool from South tyrol.",
+                "title": "Southtyrol (SUDTI)",
+                "description": "A stable pool from Southtyrol.",
                 "aliases": null,
                 "keywords": null,
                 "template": "PoolDetailPage",
@@ -1732,7 +1732,7 @@
                   }
                 ],
                 "image": "https://cdn.sublayer.io/logo.png",
-                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "updatedAt": "2021-07-24T19:26:22.000Z",
                 "filePath": "/en/stake-pools/8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8.md"
               },
               {
@@ -2033,7 +2033,7 @@
               },
               {
                 "language": "en",
-                "title": "Southtyrolpool sudti",
+                "title": "Southtyrol SUDTI",
                 "slug": "/pool-widget/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
                 "template": "PoolWidgetPage",
                 "poolId": "2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
@@ -2351,6 +2351,18 @@
                 "slug": "/stats-widget",
                 "template": "StatsWidgetPage",
                 "hidden": true
+              },
+              {
+                "id": "status",
+                "language": "en",
+                "slug": "/status",
+                "url": "https:///website.codespace1.sublayer.io/status",
+                "origin": "/status",
+                "title": "Status Page",
+                "aliases": null,
+                "keywords": null,
+                "template": "StatusPage",
+                "filePath": "/en/status.md"
               },
               {
                 "id": "ada",
@@ -7662,18 +7674,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-24T19:26:28.587Z",
-            "component-cached-in": "367 μs",
-            "component-resolved-in": "367 μs"
+            "component-cached-at": "2021-07-25T21:08:25.685Z",
+            "component-cached-in": "517 μs",
+            "component-resolved-in": "517 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T19:26:28.587Z",
-          "_cachedIn": "470 μs",
-          "_resolvedIn": "470 μs",
+          "_cachedAt": "2021-07-25T21:08:25.685Z",
+          "_cachedIn": "689 μs",
+          "_resolvedIn": "689 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7684,17 +7696,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-24T19:26:28.587Z",
-            "component-cached-in": "470 μs",
-            "component-resolved-in": "470 μs"
+            "component-cached-at": "2021-07-25T21:08:25.685Z",
+            "component-cached-in": "689 μs",
+            "component-resolved-in": "689 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-24T19:26:28.587Z",
-              "_cachedIn": "109 μs",
-              "_resolvedIn": "109 μs",
+              "_cachedAt": "2021-07-25T21:08:25.685Z",
+              "_cachedIn": "130 μs",
+              "_resolvedIn": "130 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7754,9 +7766,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-24T19:26:28.587Z",
-                "component-cached-in": "109 μs",
-                "component-resolved-in": "109 μs"
+                "component-cached-at": "2021-07-25T21:08:25.685Z",
+                "component-cached-in": "130 μs",
+                "component-resolved-in": "130 μs"
               },
               "components": {}
             }
@@ -7765,9 +7777,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T19:26:28.587Z",
-          "_cachedIn": "213 μs",
-          "_resolvedIn": "213 μs",
+          "_cachedAt": "2021-07-25T21:08:25.685Z",
+          "_cachedIn": "253 μs",
+          "_resolvedIn": "253 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7776,9 +7788,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-24T19:26:28.587Z",
-            "component-cached-in": "213 μs",
-            "component-resolved-in": "213 μs"
+            "component-cached-at": "2021-07-25T21:08:25.685Z",
+            "component-cached-in": "253 μs",
+            "component-resolved-in": "253 μs"
           },
           "components": {}
         }
@@ -7787,9 +7799,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T19:26:28.587Z",
-      "_cachedIn": "416 μs",
-      "_resolvedIn": "416 μs",
+      "_cachedAt": "2021-07-25T21:08:25.685Z",
+      "_cachedIn": "526 μs",
+      "_resolvedIn": "526 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7820,18 +7832,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-24T19:26:28.587Z",
-        "component-cached-in": "416 μs",
-        "component-resolved-in": "416 μs"
+        "component-cached-at": "2021-07-25T21:08:25.685Z",
+        "component-cached-in": "526 μs",
+        "component-resolved-in": "526 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T19:26:28.587Z",
-      "_cachedIn": "231 μs",
-      "_resolvedIn": "231 μs",
+      "_cachedAt": "2021-07-25T21:08:25.685Z",
+      "_cachedIn": "192 μs",
+      "_resolvedIn": "192 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7843,18 +7855,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-24T19:26:28.587Z",
-        "component-cached-in": "231 μs",
-        "component-resolved-in": "231 μs"
+        "component-cached-at": "2021-07-25T21:08:25.685Z",
+        "component-cached-in": "192 μs",
+        "component-resolved-in": "192 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T19:26:28.587Z",
-      "_cachedIn": "416 μs",
-      "_resolvedIn": "416 μs",
+      "_cachedAt": "2021-07-25T21:08:25.685Z",
+      "_cachedIn": "527 μs",
+      "_resolvedIn": "527 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7873,9 +7885,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-24T19:26:28.587Z",
-        "component-cached-in": "416 μs",
-        "component-resolved-in": "416 μs"
+        "component-cached-at": "2021-07-25T21:08:25.685Z",
+        "component-cached-in": "527 μs",
+        "component-resolved-in": "527 μs"
       },
       "components": {}
     }

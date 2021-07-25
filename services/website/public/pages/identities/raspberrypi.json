@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"IdentityDetailPage\",\"version\":1},\"props\":{\"id\":\"raspberrypi\",\"language\":\"en\",\"slug\":\"/identities/raspberrypi\",\"url\":\"https:///website.codespace1.sublayer.io/identities/raspberrypi\",\"origin\":\"/identities/raspberrypi\",\"title\":\"Raspberry Pi Foundation\",\"description\":\"The Raspberry Pi Foundation is a UK-based charity that works to put the power of computing and digital making into the hands of people all over the world.\",\"aliases\":null,\"keywords\":null,\"template\":\"IdentityDetailPage\",\"image\":\"/Raspi_Colour_R.png\",\"updatedAt\":\"2021-07-21T01:28:32.000Z\",\"filePath\":\"/en/identities/raspberrypi.md\",\"donationAddress\":null,\"verified\":null,\"body\":\"We do this so that more people are able to harness the power of computing and digital technologies for work, to solve problems that matter to them, and to express themselves creatively.\\n\\n<YoutubeVideo url=\\\"https://youtu.be/dEzg92g1LHw\\\"/>\\n\\nWe engage millions of young people in learning computing and digital making skills through a thriving network of clubs and events, and through partnerships with youth organisations. We enable any school to offer students the opportunity to study computing and computer science through providing the best possible curriculum, resources, and training for teachers. We work to deepen our understanding of how young people learn about computing and digital making, and to use that knowledge to increase the impact of our own work and to advance the field of computing education. We make computing and digital making accessible to all through providing low-cost, high-performance single-board computers and free software.\\n\\n<YoutubeVideo url=\\\"https://youtu.be/uXUjwk2-qx4\\\"/>\\n\\nSource: [Raspberry Pi Foundation](https://www.raspberrypi.org/)\",\"mdxSource\":{\"compiledSource\":\"var c=Object.defineProperty,l=Object.defineProperties;var g=Object.getOwnPropertyDescriptors;var a=Object.getOwnPropertySymbols;var i=Object.prototype.hasOwnProperty,s=Object.prototype.propertyIsEnumerable;var u=(o,e,t)=>e in o?c(o,e,{enumerable:!0,configurable:!0,writable:!0,value:t}):o[e]=t,r=(o,e)=>{for(var t in e||(e={}))i.call(e,t)&&u(o,t,e[t]);if(a)for(var t of a(e))s.call(e,t)&&u(o,t,e[t]);return o},p=(o,e)=>l(o,g(e));var d=(o,e)=>{var t={};for(var n in o)i.call(o,n)&&e.indexOf(n)<0&&(t[n]=o[n]);if(o!=null&&a)for(var n of a(o))e.indexOf(n)<0&&s.call(o,n)&&(t[n]=o[n]);return t};const makeShortcode=o=>function(t){return console.warn(\\\"Component \\\"+o+\\\" was not imported, exported, or provided by MDXProvider as global scope\\\"),mdx(\\\"div\\\",r({},t))},YoutubeVideo=makeShortcode(\\\"YoutubeVideo\\\"),layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(t){var n=t,{components:o}=n,e=d(n,[\\\"components\\\"]);return mdx(MDXLayout,p(r(r({},layoutProps),e),{components:o,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"We do this so that more people are able to harness the power of computing and digital technologies for work, to solve problems that matter to them, and to express themselves creatively.\\\"),mdx(YoutubeVideo,{url:\\\"https://youtu.be/dEzg92g1LHw\\\",mdxType:\\\"YoutubeVideo\\\"}),mdx(\\\"p\\\",null,\\\"We engage millions of young people in learning computing and digital making skills through a thriving network of clubs and events, and through partnerships with youth organisations. We enable any school to offer students the opportunity to study computing and computer science through providing the best possible curriculum, resources, and training for teachers. We work to deepen our understanding of how young people learn about computing and digital making, and to use that knowledge to increase the impact of our own work and to advance the field of computing education. We make computing and digital making accessible to all through providing low-cost, high-performance single-board computers and free software.\\\"),mdx(YoutubeVideo,{url:\\\"https://youtu.be/uXUjwk2-qx4\\\",mdxType:\\\"YoutubeVideo\\\"}),mdx(\\\"p\\\",null,\\\"Source: \\\",mdx(\\\"a\\\",r({parentName:\\\"p\\\"},{href:\\\"https://www.raspberrypi.org/\\\"}),\\\"Raspberry Pi Foundation\\\")))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-24T19:26:26.703Z",
-  "_cachedIn": "18 ms",
-  "_resolvedIn": "18 ms",
+  "_cachedAt": "2021-07-25T21:08:23.525Z",
+  "_cachedIn": "21 ms",
+  "_resolvedIn": "21 ms",
   "id": "IdentityDetailPage",
   "type": "IdentityDetailPage",
   "status": "resolved",
@@ -45,17 +45,17 @@
   "attrs": {
     "component-type": "IdentityDetailPage",
     "component-id": "IdentityDetailPage",
-    "component-cached-at": "2021-07-24T19:26:26.703Z",
-    "component-cached-in": "18 ms",
-    "component-resolved-in": "18 ms"
+    "component-cached-at": "2021-07-25T21:08:23.525Z",
+    "component-cached-in": "21 ms",
+    "component-resolved-in": "21 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T19:26:26.697Z",
-      "_cachedIn": "11 ms",
-      "_resolvedIn": "11 ms",
+      "_cachedAt": "2021-07-25T21:08:23.525Z",
+      "_cachedIn": "8.85 ms",
+      "_resolvedIn": "8.85 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -64,17 +64,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-24T19:26:26.697Z",
-        "component-cached-in": "11 ms",
-        "component-resolved-in": "11 ms"
+        "component-cached-at": "2021-07-25T21:08:23.525Z",
+        "component-cached-in": "8.85 ms",
+        "component-resolved-in": "8.85 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T19:26:26.696Z",
-          "_cachedIn": "4.54 ms",
-          "_resolvedIn": "4.54 ms",
+          "_cachedAt": "2021-07-25T21:08:23.523Z",
+          "_cachedIn": "4.33 ms",
+          "_resolvedIn": "4.33 ms",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -82,7 +82,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-24T19:26:14.947Z",
+              "createdAt": "2021-07-25T21:08:11.891Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1429,7 +1429,7 @@
                   }
                 ],
                 "image": "https://static.adapools.org/pool_logo/052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e.png",
-                "updatedAt": "2021-07-24T19:08:07.000Z",
+                "updatedAt": "2021-07-24T19:26:22.000Z",
                 "filePath": "/en/stake-pools/052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e.md"
               },
               {
@@ -1526,8 +1526,8 @@
                 "slug": "/stake-pools/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
                 "url": "https:///website.codespace1.sublayer.io/stake-pools/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
                 "origin": "/stake-pools/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
-                "title": "Southtyrolpool (sudti)",
-                "description": "A stable pool from South tyrol.",
+                "title": "Southtyrol (SUDTI)",
+                "description": "A stable pool from Southtyrol.",
                 "aliases": null,
                 "keywords": null,
                 "template": "PoolDetailPage",
@@ -1727,7 +1727,7 @@
                   }
                 ],
                 "image": "https://cdn.sublayer.io/logo.png",
-                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "updatedAt": "2021-07-24T19:26:22.000Z",
                 "filePath": "/en/stake-pools/8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8.md"
               },
               {
@@ -2028,7 +2028,7 @@
               },
               {
                 "language": "en",
-                "title": "Southtyrolpool sudti",
+                "title": "Southtyrol SUDTI",
                 "slug": "/pool-widget/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
                 "template": "PoolWidgetPage",
                 "poolId": "2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
@@ -2346,6 +2346,18 @@
                 "slug": "/stats-widget",
                 "template": "StatsWidgetPage",
                 "hidden": true
+              },
+              {
+                "id": "status",
+                "language": "en",
+                "slug": "/status",
+                "url": "https:///website.codespace1.sublayer.io/status",
+                "origin": "/status",
+                "title": "Status Page",
+                "aliases": null,
+                "keywords": null,
+                "template": "StatusPage",
+                "filePath": "/en/status.md"
               },
               {
                 "id": "ada",
@@ -7657,18 +7669,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-24T19:26:26.696Z",
-            "component-cached-in": "4.54 ms",
-            "component-resolved-in": "4.54 ms"
+            "component-cached-at": "2021-07-25T21:08:23.523Z",
+            "component-cached-in": "4.33 ms",
+            "component-resolved-in": "4.33 ms"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T19:26:26.697Z",
-          "_cachedIn": "5.57 ms",
-          "_resolvedIn": "5.57 ms",
+          "_cachedAt": "2021-07-25T21:08:23.524Z",
+          "_cachedIn": "5.4 ms",
+          "_resolvedIn": "5.4 ms",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7679,17 +7691,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-24T19:26:26.697Z",
-            "component-cached-in": "5.57 ms",
-            "component-resolved-in": "5.57 ms"
+            "component-cached-at": "2021-07-25T21:08:23.524Z",
+            "component-cached-in": "5.4 ms",
+            "component-resolved-in": "5.4 ms"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-24T19:26:26.697Z",
-              "_cachedIn": "1.16 ms",
-              "_resolvedIn": "1.16 ms",
+              "_cachedAt": "2021-07-25T21:08:23.524Z",
+              "_cachedIn": "1.4 ms",
+              "_resolvedIn": "1.4 ms",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7749,9 +7761,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-24T19:26:26.697Z",
-                "component-cached-in": "1.16 ms",
-                "component-resolved-in": "1.16 ms"
+                "component-cached-at": "2021-07-25T21:08:23.524Z",
+                "component-cached-in": "1.4 ms",
+                "component-resolved-in": "1.4 ms"
               },
               "components": {}
             }
@@ -7760,9 +7772,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T19:26:26.694Z",
-          "_cachedIn": "2.34 ms",
-          "_resolvedIn": "2.34 ms",
+          "_cachedAt": "2021-07-25T21:08:23.521Z",
+          "_cachedIn": "2.13 ms",
+          "_resolvedIn": "2.13 ms",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7771,9 +7783,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-24T19:26:26.694Z",
-            "component-cached-in": "2.34 ms",
-            "component-resolved-in": "2.34 ms"
+            "component-cached-at": "2021-07-25T21:08:23.521Z",
+            "component-cached-in": "2.13 ms",
+            "component-resolved-in": "2.13 ms"
           },
           "components": {}
         }
@@ -7782,9 +7794,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T19:26:26.695Z",
-      "_cachedIn": "8.56 ms",
-      "_resolvedIn": "8.56 ms",
+      "_cachedAt": "2021-07-25T21:08:23.523Z",
+      "_cachedIn": "6.95 ms",
+      "_resolvedIn": "6.95 ms",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7800,18 +7812,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-24T19:26:26.695Z",
-        "component-cached-in": "8.56 ms",
-        "component-resolved-in": "8.56 ms"
+        "component-cached-at": "2021-07-25T21:08:23.523Z",
+        "component-cached-in": "6.95 ms",
+        "component-resolved-in": "6.95 ms"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T19:26:26.693Z",
-      "_cachedIn": "5.72 ms",
-      "_resolvedIn": "5.72 ms",
+      "_cachedAt": "2021-07-25T21:08:23.520Z",
+      "_cachedIn": "4.37 ms",
+      "_resolvedIn": "4.37 ms",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7822,18 +7834,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-24T19:26:26.693Z",
-        "component-cached-in": "5.72 ms",
-        "component-resolved-in": "5.72 ms"
+        "component-cached-at": "2021-07-25T21:08:23.520Z",
+        "component-cached-in": "4.37 ms",
+        "component-resolved-in": "4.37 ms"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T19:26:26.695Z",
-      "_cachedIn": "8.56 ms",
-      "_resolvedIn": "8.56 ms",
+      "_cachedAt": "2021-07-25T21:08:23.523Z",
+      "_cachedIn": "6.96 ms",
+      "_resolvedIn": "6.96 ms",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7854,18 +7866,18 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-24T19:26:26.695Z",
-        "component-cached-in": "8.56 ms",
-        "component-resolved-in": "8.56 ms"
+        "component-cached-at": "2021-07-25T21:08:23.523Z",
+        "component-cached-in": "6.96 ms",
+        "component-resolved-in": "6.96 ms"
       },
       "components": {}
     },
     "PageSocials": {
       "_cacheKey": "{\"component\":{\"type\":\"PageSocials\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T19:26:26.693Z",
-      "_cachedIn": "5.72 ms",
-      "_resolvedIn": "5.72 ms",
+      "_cachedAt": "2021-07-25T21:08:23.520Z",
+      "_cachedIn": "4.37 ms",
+      "_resolvedIn": "4.37 ms",
       "id": "PageSocials",
       "type": "PageSocials",
       "status": "resolved",
@@ -7877,18 +7889,18 @@
       "attrs": {
         "component-type": "PageSocials",
         "component-id": "PageSocials",
-        "component-cached-at": "2021-07-24T19:26:26.693Z",
-        "component-cached-in": "5.72 ms",
-        "component-resolved-in": "5.72 ms"
+        "component-cached-at": "2021-07-25T21:08:23.520Z",
+        "component-cached-in": "4.37 ms",
+        "component-resolved-in": "4.37 ms"
       },
       "components": {}
     },
     "PostPagesSection": {
       "_cacheKey": "{\"component\":{\"type\":\"PostPagesSection\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T19:26:26.693Z",
-      "_cachedIn": "5.73 ms",
-      "_resolvedIn": "5.73 ms",
+      "_cachedAt": "2021-07-25T21:08:23.520Z",
+      "_cachedIn": "4.38 ms",
+      "_resolvedIn": "4.38 ms",
       "id": "PostPagesSection",
       "type": "PostPagesSection",
       "status": "resolved",
@@ -7899,9 +7911,9 @@
       "attrs": {
         "component-type": "PostPagesSection",
         "component-id": "PostPagesSection",
-        "component-cached-at": "2021-07-24T19:26:26.693Z",
-        "component-cached-in": "5.73 ms",
-        "component-resolved-in": "5.73 ms"
+        "component-cached-at": "2021-07-25T21:08:23.520Z",
+        "component-cached-in": "4.38 ms",
+        "component-resolved-in": "4.38 ms"
       },
       "components": {}
     }

@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"TermDetailPage\",\"version\":1},\"props\":{\"id\":\"passive-node\",\"language\":\"en\",\"slug\":\"/terms/passive-node\",\"url\":\"https:///website.codespace1.sublayer.io/terms/passive-node\",\"origin\":\"/terms/passive-node\",\"title\":\"Passive node\",\"description\":\"A Cardano node (relay) that has no incoming connections.\",\"aliases\":[\"Cardano passive node\",\"passive node\",\"Cardano relay\",\"Cardano node\"],\"keywords\":[\"Cardano\",\"passive\",\"node\"],\"template\":\"TermDetailPage\",\"identities\":[{\"id\":\"wael-ivie\",\"role\":\"author\"}],\"updatedAt\":\"2021-07-10T20:43:29.000Z\",\"filePath\":\"/en/terms/passive-node.md\",\"body\":\"An example of a Cardano passive node (relay) is the [Daedalus wallet](/terms/daedalus) which acts as a passive relay and wallet. To run a Cardano passive relay node on a raspberry pi 4 please [see our guide](/guides/run-a-cardano-node).\",\"mdxSource\":{\"compiledSource\":\"var i=Object.defineProperty,y=Object.defineProperties;var c=Object.getOwnPropertyDescriptors;var s=Object.getOwnPropertySymbols;var t=Object.prototype.hasOwnProperty,p=Object.prototype.propertyIsEnumerable;var u=(a,e,n)=>e in a?i(a,e,{enumerable:!0,configurable:!0,writable:!0,value:n}):a[e]=n,r=(a,e)=>{for(var n in e||(e={}))t.call(e,n)&&u(a,n,e[n]);if(s)for(var n of s(e))p.call(e,n)&&u(a,n,e[n]);return a},d=(a,e)=>y(a,c(e));var l=(a,e)=>{var n={};for(var o in a)t.call(a,o)&&e.indexOf(o)<0&&(n[o]=a[o]);if(a!=null&&s)for(var o of s(a))e.indexOf(o)<0&&p.call(a,o)&&(n[o]=a[o]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var o=n,{components:a}=o,e=l(o,[\\\"components\\\"]);return mdx(MDXLayout,d(r(r({},layoutProps),e),{components:a,mdxType:\\\"MDXLayout\\\"}),mdx(\\\"p\\\",null,\\\"An example of a Cardano passive node (relay) is the \\\",mdx(\\\"a\\\",r({parentName:\\\"p\\\"},{href:\\\"/terms/daedalus\\\"}),\\\"Daedalus wallet\\\"),\\\" which acts as a passive relay and wallet. To run a Cardano passive relay node on a raspberry pi 4 please \\\",mdx(\\\"a\\\",r({parentName:\\\"p\\\"},{href:\\\"/guides/run-a-cardano-node\\\"}),\\\"see our guide\\\"),\\\".\\\"))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-24T19:26:28.427Z",
-  "_cachedIn": "594 μs",
-  "_resolvedIn": "594 μs",
+  "_cachedAt": "2021-07-25T21:08:25.395Z",
+  "_cachedIn": "633 μs",
+  "_resolvedIn": "633 μs",
   "id": "TermDetailPage",
   "type": "TermDetailPage",
   "status": "resolved",
@@ -46,17 +46,17 @@
   "attrs": {
     "component-type": "TermDetailPage",
     "component-id": "TermDetailPage",
-    "component-cached-at": "2021-07-24T19:26:28.427Z",
-    "component-cached-in": "594 μs",
-    "component-resolved-in": "594 μs"
+    "component-cached-at": "2021-07-25T21:08:25.395Z",
+    "component-cached-in": "633 μs",
+    "component-resolved-in": "633 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T19:26:28.427Z",
-      "_cachedIn": "403 μs",
-      "_resolvedIn": "403 μs",
+      "_cachedAt": "2021-07-25T21:08:25.395Z",
+      "_cachedIn": "434 μs",
+      "_resolvedIn": "434 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -65,17 +65,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-24T19:26:28.427Z",
-        "component-cached-in": "403 μs",
-        "component-resolved-in": "403 μs"
+        "component-cached-at": "2021-07-25T21:08:25.395Z",
+        "component-cached-in": "434 μs",
+        "component-resolved-in": "434 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T19:26:28.427Z",
-          "_cachedIn": "237 μs",
-          "_resolvedIn": "237 μs",
+          "_cachedAt": "2021-07-25T21:08:25.395Z",
+          "_cachedIn": "270 μs",
+          "_resolvedIn": "270 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -83,7 +83,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-24T19:26:14.947Z",
+              "createdAt": "2021-07-25T21:08:11.891Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1430,7 +1430,7 @@
                   }
                 ],
                 "image": "https://static.adapools.org/pool_logo/052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e.png",
-                "updatedAt": "2021-07-24T19:08:07.000Z",
+                "updatedAt": "2021-07-24T19:26:22.000Z",
                 "filePath": "/en/stake-pools/052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e.md"
               },
               {
@@ -1527,8 +1527,8 @@
                 "slug": "/stake-pools/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
                 "url": "https:///website.codespace1.sublayer.io/stake-pools/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
                 "origin": "/stake-pools/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
-                "title": "Southtyrolpool (sudti)",
-                "description": "A stable pool from South tyrol.",
+                "title": "Southtyrol (SUDTI)",
+                "description": "A stable pool from Southtyrol.",
                 "aliases": null,
                 "keywords": null,
                 "template": "PoolDetailPage",
@@ -1728,7 +1728,7 @@
                   }
                 ],
                 "image": "https://cdn.sublayer.io/logo.png",
-                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "updatedAt": "2021-07-24T19:26:22.000Z",
                 "filePath": "/en/stake-pools/8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8.md"
               },
               {
@@ -2029,7 +2029,7 @@
               },
               {
                 "language": "en",
-                "title": "Southtyrolpool sudti",
+                "title": "Southtyrol SUDTI",
                 "slug": "/pool-widget/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
                 "template": "PoolWidgetPage",
                 "poolId": "2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
@@ -2347,6 +2347,18 @@
                 "slug": "/stats-widget",
                 "template": "StatsWidgetPage",
                 "hidden": true
+              },
+              {
+                "id": "status",
+                "language": "en",
+                "slug": "/status",
+                "url": "https:///website.codespace1.sublayer.io/status",
+                "origin": "/status",
+                "title": "Status Page",
+                "aliases": null,
+                "keywords": null,
+                "template": "StatusPage",
+                "filePath": "/en/status.md"
               },
               {
                 "id": "ada",
@@ -7658,18 +7670,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-24T19:26:28.427Z",
-            "component-cached-in": "237 μs",
-            "component-resolved-in": "237 μs"
+            "component-cached-at": "2021-07-25T21:08:25.395Z",
+            "component-cached-in": "270 μs",
+            "component-resolved-in": "270 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T19:26:28.427Z",
-          "_cachedIn": "311 μs",
-          "_resolvedIn": "311 μs",
+          "_cachedAt": "2021-07-25T21:08:25.395Z",
+          "_cachedIn": "346 μs",
+          "_resolvedIn": "346 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7680,17 +7692,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-24T19:26:28.427Z",
-            "component-cached-in": "311 μs",
-            "component-resolved-in": "311 μs"
+            "component-cached-at": "2021-07-25T21:08:25.395Z",
+            "component-cached-in": "346 μs",
+            "component-resolved-in": "346 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-24T19:26:28.427Z",
-              "_cachedIn": "61 μs",
-              "_resolvedIn": "61 μs",
+              "_cachedAt": "2021-07-25T21:08:25.395Z",
+              "_cachedIn": "70 μs",
+              "_resolvedIn": "70 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7750,9 +7762,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-24T19:26:28.427Z",
-                "component-cached-in": "61 μs",
-                "component-resolved-in": "61 μs"
+                "component-cached-at": "2021-07-25T21:08:25.395Z",
+                "component-cached-in": "70 μs",
+                "component-resolved-in": "70 μs"
               },
               "components": {}
             }
@@ -7761,9 +7773,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T19:26:28.427Z",
-          "_cachedIn": "131 μs",
-          "_resolvedIn": "131 μs",
+          "_cachedAt": "2021-07-25T21:08:25.395Z",
+          "_cachedIn": "165 μs",
+          "_resolvedIn": "165 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7772,9 +7784,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-24T19:26:28.427Z",
-            "component-cached-in": "131 μs",
-            "component-resolved-in": "131 μs"
+            "component-cached-at": "2021-07-25T21:08:25.395Z",
+            "component-cached-in": "165 μs",
+            "component-resolved-in": "165 μs"
           },
           "components": {}
         }
@@ -7783,9 +7795,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T19:26:28.427Z",
-      "_cachedIn": "243 μs",
-      "_resolvedIn": "243 μs",
+      "_cachedAt": "2021-07-25T21:08:25.395Z",
+      "_cachedIn": "281 μs",
+      "_resolvedIn": "281 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7816,18 +7828,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-24T19:26:28.427Z",
-        "component-cached-in": "243 μs",
-        "component-resolved-in": "243 μs"
+        "component-cached-at": "2021-07-25T21:08:25.395Z",
+        "component-cached-in": "281 μs",
+        "component-resolved-in": "281 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T19:26:28.427Z",
-      "_cachedIn": "90 μs",
-      "_resolvedIn": "90 μs",
+      "_cachedAt": "2021-07-25T21:08:25.395Z",
+      "_cachedIn": "149 μs",
+      "_resolvedIn": "149 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -7839,18 +7851,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-24T19:26:28.427Z",
-        "component-cached-in": "90 μs",
-        "component-resolved-in": "90 μs"
+        "component-cached-at": "2021-07-25T21:08:25.395Z",
+        "component-cached-in": "149 μs",
+        "component-resolved-in": "149 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T19:26:28.427Z",
-      "_cachedIn": "244 μs",
-      "_resolvedIn": "244 μs",
+      "_cachedAt": "2021-07-25T21:08:25.395Z",
+      "_cachedIn": "281 μs",
+      "_resolvedIn": "281 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -7869,9 +7881,9 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-24T19:26:28.427Z",
-        "component-cached-in": "244 μs",
-        "component-resolved-in": "244 μs"
+        "component-cached-at": "2021-07-25T21:08:25.395Z",
+        "component-cached-in": "281 μs",
+        "component-resolved-in": "281 μs"
       },
       "components": {}
     }

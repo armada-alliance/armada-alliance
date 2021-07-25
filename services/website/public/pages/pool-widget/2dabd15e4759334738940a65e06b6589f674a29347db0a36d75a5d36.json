@@ -1,16 +1,16 @@
 {
-  "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"Southtyrolpool sudti\",\"slug\":\"/pool-widget/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36\",\"template\":\"PoolWidgetPage\",\"poolId\":\"2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36\",\"hidden\":true}}",
+  "_cacheKey": "{\"component\":{\"type\":\"PoolWidgetPage\",\"version\":1},\"props\":{\"language\":\"en\",\"title\":\"Southtyrol SUDTI\",\"slug\":\"/pool-widget/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36\",\"template\":\"PoolWidgetPage\",\"poolId\":\"2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36\",\"hidden\":true}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-24T19:26:27.210Z",
-  "_cachedIn": "138 μs",
-  "_resolvedIn": "138 μs",
+  "_cachedAt": "2021-07-25T21:08:24.217Z",
+  "_cachedIn": "204 μs",
+  "_resolvedIn": "204 μs",
   "id": "PoolWidgetPage",
   "type": "PoolWidgetPage",
   "status": "resolved",
   "error": null,
   "props": {
     "language": "en",
-    "title": "Southtyrolpool sudti",
+    "title": "Southtyrol SUDTI",
     "slug": "/pool-widget/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
     "template": "PoolWidgetPage",
     "poolId": "2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
@@ -18,23 +18,23 @@
     "source": "/pages/pool-widget/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36.json",
     "pool": {
       "id": "2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
-      "name": "Southtyrolpool",
+      "name": "Southtyrol",
       "link": {
-        "name": "Southtyrolpool",
+        "name": "Southtyrol",
         "href": "/stake-pools/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36"
       },
-      "description": "A stable pool from South tyrol.",
+      "description": "A stable pool from Southtyrol.",
       "image": "https://github.com/fisch192/southtyrolpool.github.io/blob/main/logo-512x512@2x.png?raw=true",
       "hasImage": true,
-      "ticker": "sudti",
+      "ticker": "SUDTI",
       "addr": "pool19k4azhj8tye5wwy5pfj7q6m938m8fg5nglds5dkhtfwnvcg3s0k",
       "website": "https://southtyrolpool.it",
-      "totalStake": "250317383245",
+      "totalStake": "250317186984",
       "blocksLifetime": 0,
       "delegators": 20,
-      "saturated": 0.003742899023420447,
-      "pledge": "7300000000",
-      "pledged": "7777167346",
+      "saturated": 0.0037431095310711537,
+      "pledge": "7700000000",
+      "pledged": "7776960925",
       "taxRatio": 0,
       "taxFix": "340000000",
       "roa": "0",
@@ -117,9 +117,9 @@
         }
       ],
       "metadata": {
-        "name": "Southtyrolpool",
-        "description": "A stable pool from South tyrol.",
-        "ticker": "sudti",
+        "name": "Southtyrol",
+        "description": "A stable pool from Southtyrol.",
+        "ticker": "SUDTI",
         "homepage": "https://southtyrolpool.it",
         "extended": "https://raw.githubusercontent.com/fisch192/southtyrolpool.github.io/main/extended.json"
       },
@@ -164,17 +164,17 @@
   "attrs": {
     "component-type": "PoolWidgetPage",
     "component-id": "PoolWidgetPage",
-    "component-cached-at": "2021-07-24T19:26:27.210Z",
-    "component-cached-in": "138 μs",
-    "component-resolved-in": "138 μs"
+    "component-cached-at": "2021-07-25T21:08:24.217Z",
+    "component-cached-in": "204 μs",
+    "component-resolved-in": "204 μs"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-24T19:26:27.210Z",
-      "_cachedIn": "94 μs",
-      "_resolvedIn": "94 μs",
+      "_cachedAt": "2021-07-25T21:08:24.217Z",
+      "_cachedIn": "135 μs",
+      "_resolvedIn": "135 μs",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -183,17 +183,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-24T19:26:27.210Z",
-        "component-cached-in": "94 μs",
-        "component-resolved-in": "94 μs"
+        "component-cached-at": "2021-07-25T21:08:24.217Z",
+        "component-cached-in": "135 μs",
+        "component-resolved-in": "135 μs"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T19:26:27.210Z",
-          "_cachedIn": "58 μs",
-          "_resolvedIn": "58 μs",
+          "_cachedAt": "2021-07-25T21:08:24.217Z",
+          "_cachedIn": "85 μs",
+          "_resolvedIn": "85 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -201,7 +201,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-24T19:26:14.947Z",
+              "createdAt": "2021-07-25T21:08:11.891Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -1548,7 +1548,7 @@
                   }
                 ],
                 "image": "https://static.adapools.org/pool_logo/052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e.png",
-                "updatedAt": "2021-07-24T19:08:07.000Z",
+                "updatedAt": "2021-07-24T19:26:22.000Z",
                 "filePath": "/en/stake-pools/052f4ae6c6f39c00a45e390ed0849fd719e1848c60cf3ba6b985635e.md"
               },
               {
@@ -1645,8 +1645,8 @@
                 "slug": "/stake-pools/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
                 "url": "https:///website.codespace1.sublayer.io/stake-pools/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
                 "origin": "/stake-pools/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
-                "title": "Southtyrolpool (sudti)",
-                "description": "A stable pool from South tyrol.",
+                "title": "Southtyrol (SUDTI)",
+                "description": "A stable pool from Southtyrol.",
                 "aliases": null,
                 "keywords": null,
                 "template": "PoolDetailPage",
@@ -1846,7 +1846,7 @@
                   }
                 ],
                 "image": "https://cdn.sublayer.io/logo.png",
-                "updatedAt": "2021-07-24T16:52:14.000Z",
+                "updatedAt": "2021-07-24T19:26:22.000Z",
                 "filePath": "/en/stake-pools/8264de3cdb1798dd8758e24cda5101184b44543e7c4421c7815f9ed8.md"
               },
               {
@@ -2147,7 +2147,7 @@
               },
               {
                 "language": "en",
-                "title": "Southtyrolpool sudti",
+                "title": "Southtyrol SUDTI",
                 "slug": "/pool-widget/2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
                 "template": "PoolWidgetPage",
                 "poolId": "2dabd15e4759334738940a65e06b6589f674a29347db0a36d75a5d36",
@@ -2465,6 +2465,18 @@
                 "slug": "/stats-widget",
                 "template": "StatsWidgetPage",
                 "hidden": true
+              },
+              {
+                "id": "status",
+                "language": "en",
+                "slug": "/status",
+                "url": "https:///website.codespace1.sublayer.io/status",
+                "origin": "/status",
+                "title": "Status Page",
+                "aliases": null,
+                "keywords": null,
+                "template": "StatusPage",
+                "filePath": "/en/status.md"
               },
               {
                 "id": "ada",
@@ -7776,18 +7788,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-24T19:26:27.210Z",
-            "component-cached-in": "58 μs",
-            "component-resolved-in": "58 μs"
+            "component-cached-at": "2021-07-25T21:08:24.217Z",
+            "component-cached-in": "85 μs",
+            "component-resolved-in": "85 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T19:26:27.210Z",
-          "_cachedIn": "76 μs",
-          "_resolvedIn": "76 μs",
+          "_cachedAt": "2021-07-25T21:08:24.217Z",
+          "_cachedIn": "109 μs",
+          "_resolvedIn": "109 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7798,17 +7810,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-24T19:26:27.210Z",
-            "component-cached-in": "76 μs",
-            "component-resolved-in": "76 μs"
+            "component-cached-at": "2021-07-25T21:08:24.217Z",
+            "component-cached-in": "109 μs",
+            "component-resolved-in": "109 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-24T19:26:27.210Z",
-              "_cachedIn": "20 μs",
-              "_resolvedIn": "20 μs",
+              "_cachedAt": "2021-07-25T21:08:24.217Z",
+              "_cachedIn": "26 μs",
+              "_resolvedIn": "26 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7868,9 +7880,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-24T19:26:27.210Z",
-                "component-cached-in": "20 μs",
-                "component-resolved-in": "20 μs"
+                "component-cached-at": "2021-07-25T21:08:24.217Z",
+                "component-cached-in": "26 μs",
+                "component-resolved-in": "26 μs"
               },
               "components": {}
             }
@@ -7879,9 +7891,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-24T19:26:27.210Z",
-          "_cachedIn": "21 μs",
-          "_resolvedIn": "21 μs",
+          "_cachedAt": "2021-07-25T21:08:24.217Z",
+          "_cachedIn": "25 μs",
+          "_resolvedIn": "25 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7890,9 +7902,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-24T19:26:27.210Z",
-            "component-cached-in": "21 μs",
-            "component-resolved-in": "21 μs"
+            "component-cached-at": "2021-07-25T21:08:24.217Z",
+            "component-cached-in": "25 μs",
+            "component-resolved-in": "25 μs"
           },
           "components": {}
         }
