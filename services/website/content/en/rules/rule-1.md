@@ -1,6 +1,6 @@
 ---
 template: RuleDetailPage
-title: Pool should have at **least** one SPO
+title: Pool should have at least one SPO
 description: Make sure to define at **least** one SPO in your pool markdown file.
 number: 1
 ---
