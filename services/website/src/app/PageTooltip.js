@@ -5,6 +5,7 @@ import Popover from "./Popover";
 import Portal from "./Portal";
 import Markdown from "./Markdown";
 import Context from "./Context";
+import formatImage from "./formatImage";
 
 function QuestionIcon(props) {
 
@@ -34,16 +35,7 @@ const PageTooltip = (props) => {
                             {props.children}
                         </div>
                         <div
-                            className="-mt-2 ml-1 mr-1 w-4 h-4 bg-white rounded-full flex items-center justify-center text-primary-500 bg-primary-100"
-                            css={css`
-                                &:hover {
-                                    background-color: rgba(1, 145, 251, 0.2);
-                                }
-                                &:active {
-                                    background-color: var(--color-primary);
-                                    color: #fff;
-                                }
-                            `}
+                            className="-mt-2 ml-1 mr-1 w-4 h-4 flex items-center justify-center text-primary-500"
                         >
                             <QuestionIcon className="h-4" />
                         </div>
@@ -65,7 +57,7 @@ const PageTooltip = (props) => {
                                 <Popover placement={placement}>
                                     <div className="p-4 flex items-center space-x-4" style={{ minWidth: 120 }}>
                                         {page.image ? (
-                                            <div className="bg-white h-12 w-12 rounded-full ring-2 ring-white bg-center bg-no-repeat bg-cover" style={{ backgroundImage: `url(https://armada-alliance.com/assets/${page.image})` }} />
+                                            <div className="flex-shrink-0 bg-white h-12 w-12 rounded-full ring-2 ring-white bg-center bg-no-repeat bg-cover" style={{ backgroundImage: `url(${formatImage(page.image)})` }} />
                                         ) : null}
                                         <div>
                                             <div className="font-bold">{page.title}</div>

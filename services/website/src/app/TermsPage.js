@@ -13,17 +13,17 @@ export default function TermsPage(props) {
         <Component use={Layout} data={props.components.Layout}>
             <ContentContainer>
                 <h1>
-                    <span className={"mt-2 block text-3xl leading-8 text-center font-extrabold tracking-tight text-gray-900 sm:text-4xl"}>
+                    <span className={"mt-2 block text-3xl leading-8 text-center font-extrabold tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl"}>
                         {title}
                     </span>
                 </h1>
                 <div className="mt-8">
-                    <div className="bg-white shadow overflow-hidden sm:rounded-md">
-                        <ul className="divide-y divide-gray-200">
+                    <div className="bg-white dark:bg-gray-900 shadow border border-gray-50 dark:border-gray-800 overflow-hidden rounded-md">
+                        <ul className="divide-y divide-gray-200 dark:divide-gray-800">
                             {terms.map((term) => (
                                 <li key={term.slug}>
                                     <Link href={term.slug}>
-                                        <a className="block hover:bg-gray-50">
+                                        <a className="block hover:bg-gray-50 dark:hover:bg-gray-800">
                                             <div className="px-4 py-4 flex items-center sm:px-6">
                                                 <div className="min-w-0 flex-1 sm:flex sm:items-center sm:justify-between">
                                                     <div className="truncate">

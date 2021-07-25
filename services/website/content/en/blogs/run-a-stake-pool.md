@@ -2,6 +2,7 @@
 template: BlogDetailPage
 title: Run a stake pool
 description: Find out if running a stake pool is something for you.
+status: concept
 keywords: 
 identities: 
     - id: wael-ivie

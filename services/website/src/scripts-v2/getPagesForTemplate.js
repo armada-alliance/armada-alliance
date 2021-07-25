@@ -47,6 +47,10 @@ const getPagesForTemplate = async (template) => {
                     return null
                 }
 
+                if (data.attributes.status === 'concept') {
+                    return null
+                }
+
                 const filename = slug.split("/").pop()
 
                 return {

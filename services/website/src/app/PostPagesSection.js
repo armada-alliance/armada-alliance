@@ -17,12 +17,12 @@ function Pages({ pages }) {
 
     return (
         <div className="mt-8">
-            <div className="bg-white shadow overflow-hidden sm:rounded-md">
-                <ul className="divide-y divide-gray-200">
+            <div className="bg-white dark:bg-gray-900 shadow border border-gray-50 dark:border-gray-800 overflow-hidden rounded-md">
+                <ul className="divide-y divide-gray-200 dark:divide-gray-800">
                     {sortedPages.map((page) => (
                         <li key={page.slug}>
                             <Link href={page.slug}>
-                                <a className="block hover:bg-gray-50">
+                                <a className="block hover:bg-gray-50 dark:hover:bg-gray-800">
                                     <div className="px-4 py-4 flex items-center sm:px-6">
                                         <div className="min-w-0 flex-1 sm:flex sm:items-center sm:justify-between">
                                             <div className="truncate">
@@ -53,10 +53,10 @@ export default function PostPagesSection({ pages }) {
             {pages && pages.length ? (
                 <div className="mt-8">
                     <div className="flex items-center">
-                        <h2 className="text-2xl font-bold">
+                        <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
                             Pages
-                </h2>
-                        <span className="bg-primary-100 text-primary-800 ml-3 py-1 px-3 rounded-full text-sm font-medium">
+                        </h2>
+                        <span className="bg-primary-100 dark:bg-gray-800 text-primary-800 dark:text-gray-100 ml-3 py-1 px-3 rounded-full text-sm font-medium">
                             {pages.length}
                         </span>
                     </div>

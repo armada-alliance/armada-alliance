@@ -154,7 +154,7 @@ export default function StakingRewardsCalculator({ description }) {
                                 </label>
                                 <div className="mt-1">
                                     {toCurrency(getReturnsPerMonth(data))} ₳
-                        </div>
+                                </div>
                             </div>
                             <div>
                                 <label htmlFor="first_name" className="block text-sm font-medium text-gray-700">
@@ -162,7 +162,7 @@ export default function StakingRewardsCalculator({ description }) {
                                 </label>
                                 <div className="mt-1">
                                     {toCurrency(getReturnsPerYear(data))} ₳
-                        </div>
+                                </div>
                             </div>
                             <div>
                                 <label htmlFor="first_name" className="block text-sm font-medium text-gray-700">
@@ -170,7 +170,7 @@ export default function StakingRewardsCalculator({ description }) {
                                 </label>
                                 <div className="mt-1">
                                     {toCurrency(getAvgReturnsPerEpoch(data))} ₳
-                        </div>
+                                </div>
                             </div>
                             <div>
                                 <label htmlFor="first_name" className="block text-sm font-medium text-gray-700">
@@ -178,7 +178,7 @@ export default function StakingRewardsCalculator({ description }) {
                                 </label>
                                 <div className="mt-1">
                                     {toCurrency(getFinalBalance(data))} ₳
-                        </div>
+                                </div>
                             </div>
                             <div>
                                 <label htmlFor="first_name" className="block text-sm font-medium text-gray-700">
@@ -186,7 +186,7 @@ export default function StakingRewardsCalculator({ description }) {
                                 </label>
                                 <div className="mt-1">
                                     {toCurrency(getTotalRewardsEarned(data))} ₳
-                        </div>
+                                </div>
                             </div>
                         </div>
                     </div>
