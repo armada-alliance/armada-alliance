@@ -1,6 +1,6 @@
 ---
 template: RuleDetailPage
-title: Every SPO should only operate one pool
-description: It's required to operate a single pool. We do not support pool-splitting.
+title: Member must be a Single Pool Operator
+description: It's a requirement that each member operates **a single pool**. No pool-splitting or operation of multiple pools.
 number: 2
 ---

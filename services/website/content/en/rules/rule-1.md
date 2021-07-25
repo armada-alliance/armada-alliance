@@ -19,10 +19,10 @@ identities:
 
 ## How to edit
 
-1. To edit your stake pools markdown file head over to the Armada Alliance's GitHub by following this [link](https://github.com/armada-alliance/armada-alliance)
+1. Head over to the Armada Alliance's [GitHub](https://github.com/armada-alliance/armada-alliance).
 
-2. Locate your specific stake-pool's `.md` markdown file based on your pool's [pool ID](/en/terms/pool-id.md) by using the `Go to file` search function,  then simply paste in your `pool ID`.
+2. Locate your specific `stake-pool` markdown file based on your pool's [pool ID](/en/terms/pool-id.md) by using the `Go to file` search function,  then simply paste in your `pool ID`.
 
 ![Go to file](https://github.com/armada-alliance/assets/blob/gh-pages/rule1.png?raw=true)
 
-3. Then edit your pool's markdown file to look like the example shown above. Make sure you enter your specific `identities.md` filename in the `id:` field so that it matches. You can find your identity filename located [here](https://github.com/armada-alliance/armada-alliance/tree/main/services/website/content/en/identities).
+3. Then edit your pool's markdown file to look like the example shown above, then submit a pull request on GitHub to merge your edit. Make sure you enter your specific `identities.md` filename in the `id:` field so that it matches. You can find your identity filename located [here](https://github.com/armada-alliance/armada-alliance/tree/main/services/website/content/en/identities).
