@@ -8,6 +8,7 @@ identities:
     - id: wael-ivie
       role: author
 ---
+
 ##
 
 Block explorers can serve as blockchain analysis and provide information such as total network hash rate, coin supply, transaction growth, mining or staking pools data, transactions, and more. The type of data being displayed on these block explorers is what we call `on-chain` real-time data/metrics.

@@ -8,6 +8,7 @@ identities:
     - id: wael-ivie
       role: author
 ---
+
 ##
 
 The Cardano-cli-js Javascript package is a useful resource for software developers and stake pool operators who wish to interact with the Cardano Node and command-line-interface. This great tool was created by [Alessandro](/en/identities/alessandro-berry.md) the stake pool operator of BERRY pool.

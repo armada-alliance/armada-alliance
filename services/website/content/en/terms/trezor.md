@@ -8,6 +8,7 @@ identities:
     - id: wael-ivie
       role: author
 ---
+
 ##
 
 The primary function of Trezor is to serve as a hardware wallet for cryptocurrencies. In addition to its primary function, it has many other security applications, such as password management and second-factor authentication.

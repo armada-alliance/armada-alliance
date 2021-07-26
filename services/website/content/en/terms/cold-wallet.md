@@ -8,6 +8,7 @@ identities:
     - id: wael-ivie
       role: author
 ---
+
 ##
 
 Unlike [hot wallets](/en/terms/hot-wallets.md), cold wallets never expose the seed or individual private keys to an insecure environment connected to the internet (such as a PC or a smartphone).

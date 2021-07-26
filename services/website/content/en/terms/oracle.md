@@ -11,6 +11,7 @@ references:
     - url: https://town-crier.org
     - url: https://chainlinklabs.com
 ---
+
 ##
 
 Cardano has steadily been working on partnerships to connect to a variety of data sources to serve as Oracles for the Cardano network. 

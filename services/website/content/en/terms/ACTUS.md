@@ -8,6 +8,7 @@ identities:
     - id: wael-ivie
       role: author
 ---
+
 ##
 
 Recent financial crises laid bare serious shortcomings in risk management and financial regulation. In retrospect, the lack of timely granular data reported in a data standard capable of supporting financial analysis contributed much to the crises. The ACTUS project aims to remedy this weakness by creating a global standard for the consistent representation of financial instruments.

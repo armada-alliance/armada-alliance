@@ -8,6 +8,7 @@ identities:
     - id: wael-ivie
       role: author
 ---
+
 ##
 
 On the Cardano ledger there is a special currency called Ada which can never be forged and which is controlled separately.

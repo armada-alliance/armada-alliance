@@ -8,6 +8,7 @@ identities:
     - id: wael-ivie
       role: author
 ---
+
 ##
 
 The amount forged can be negative, in which case the tokens will be destroyed instead of created.

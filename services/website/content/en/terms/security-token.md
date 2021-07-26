@@ -8,6 +8,7 @@ identities:
     - id: wael-ivie
       role: author
 ---
+
 ##
 
 Usually, it represents stocks, bonds, or revenue participation notes. Security tokens are subject to federal law governing regulations.
