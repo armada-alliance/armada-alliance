@@ -8,6 +8,7 @@ identities:
     - id: wael-ivie
       role: author
 ---
+
 ##
 
 Plutus programming language is based on Haskell programming language. Haskell is a well known functional programming language that is widely adopt in many industries where rigour formal methods are needed to ensure a program does exactly what it was interned to do like in the fields of finance and health. 

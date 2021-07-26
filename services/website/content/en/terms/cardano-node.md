@@ -8,6 +8,7 @@ identities:
     - id: wael-ivie
       role: author
 ---
+
 ##
 
 Each Cardano node is responsible to make sure that all the rules of the protocol are followed and the security of the network is maintained.

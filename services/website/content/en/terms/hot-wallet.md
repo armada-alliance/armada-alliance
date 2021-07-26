@@ -8,6 +8,7 @@ identities:
     - id: wael-ivie
       role: author
 ---
+
 ##
 
 However, using it to keep larger amounts of coins is not recommended, as it is vulnerable to attacks. One of the most common types of hot wallets is software wallets and its subtypes.

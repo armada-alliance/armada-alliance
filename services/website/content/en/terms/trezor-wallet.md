@@ -8,6 +8,7 @@ identities:
     - id: wael-ivie
       role: author
 ---
+
 ##
 
 Using the Wallet, you can easily setup the device, manage your cryptocurrency assets, initiate transfers to other services or friends, and more.

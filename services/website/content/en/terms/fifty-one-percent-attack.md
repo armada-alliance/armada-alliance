@@ -8,6 +8,7 @@ identities:
     - id: wael-ivie
       role: author
 ---
+
 ##
 
 This means this entity has full control of the network and can negatively affect a cryptocurrency by halting mining, disabling staking, stopping or changing transactions, and reusing coins.

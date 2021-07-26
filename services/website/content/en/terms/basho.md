@@ -8,6 +8,7 @@ identities:
     - id: wael-ivie
       role: author
 ---
+
 ##
 
 The Basho era of Cardano is an era of optimization, improving the scalability and interoperability of the network. Whereas previous development eras focused on decentralization and new functionality, Basho is about improving the underlying performance of the Cardano network to better support growth and adoption for applications with high transaction volume.

@@ -8,6 +8,7 @@ identities:
     - id: wael-ivie
       role: author
 ---
+
 ##
 
 To delegate to more than one stake pool, you will need to create multiple Rewards wallets and distribute ada among them.
