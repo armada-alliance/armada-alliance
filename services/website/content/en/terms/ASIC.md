@@ -8,5 +8,6 @@ identities:
     - id: wael-ivie
       role: author
 ---
+##
 
 In the case of Bitcoin, they are designed to process SHA-256 hashing problems to mine new bitcoins. ASICs are considered to be much more efficient than conventional hardware(CPUs, GPUs). Using a regular computer for Bitcoin mining is seen as unprofitable and only results in higher electricity bill

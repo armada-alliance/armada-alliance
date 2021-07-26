@@ -8,5 +8,6 @@ identities:
     - id: wael-ivie
       role: author
 ---
+##
 
 It is usually initiated by the creator of a cryptocurrency in order to encourage the use and build the popularity of the coin or token. Most airdrop campaigns run with mechanics such as receiving coins or tokens in exchange for simple tasks like sharing news, referring friends, or downloading an app.
