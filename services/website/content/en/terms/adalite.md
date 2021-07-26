@@ -8,6 +8,7 @@ identities:
     - id: wael-ivie
       role: author
 ---
+
 ##
 
  You can also stake ADA from your [Ledger](https://www.ledger.com/) or [Trezor](https://trezor.io/) [hardware wallet](/en/terms/hardware-wallet.md) using [Adalite](https://adalite.io/).
