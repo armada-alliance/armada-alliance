@@ -8,5 +8,6 @@ identities:
     - id: wael-ivie
       role: author
 ---
+##
 
 Indicates that the contract application instance is waiting for input. The set of active endpoints is part of the state of the contract application instance and changes over time.
