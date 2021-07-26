@@ -8,5 +8,6 @@ identities:
     - id: wael-ivie
       role: author
 ---
+##
 
 The stake from this wallet cannot be delegated but can be transferred to and delegated from a Rewards wallet.

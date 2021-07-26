@@ -8,5 +8,6 @@ identities:
     - id: wael-ivie
       role: author
 ---
+##
 
 Currently, the majority of altcoins are forks of Bitcoin with usually minor changes to the [Proof-of-work](/en/terms/proof-of-work.md) (POW) algorithm of the Bitcoin blockchain.
