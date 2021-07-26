@@ -9,4 +9,5 @@ identities:
       role: author
 ---
 
+
 The transactions of the contract are automatically executed by the smart contract code when predetermined conditions are met. Smart contracts are self executing and reliable and do not require the actions or presence of third parties. The smart contract code is stored on, and distributed across, a decentralized blockchain network, making it transparent and irreversible.

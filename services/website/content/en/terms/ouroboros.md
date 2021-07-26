@@ -8,5 +8,6 @@ identities:
     - id: wael-ivie
       role: author
 ---
+##
 
 Ouroboros is the consensus protocol underlying Cardano. There are several different implementations including Classic, Praos, Genesis, and more recently Hydra for scalability.

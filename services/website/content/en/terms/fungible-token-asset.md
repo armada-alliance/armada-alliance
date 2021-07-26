@@ -8,6 +8,8 @@ identities:
     - id: wael-ivie
       role: author
 ---
+##
+
 
 Learn how to mint your own fungible token(s) on the Cardano blockchain using javascript:
 

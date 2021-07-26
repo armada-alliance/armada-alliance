@@ -8,5 +8,6 @@ identities:
     - id: wael-ivie
       role: author
 ---
+##
 
 Cardano has undergone a hard fork to transition from a federated model (Byron) to a decentralized one (Shelley). And now there will be the next hard fork event coming to bring smart contracts live on Cardano (Alonzo).

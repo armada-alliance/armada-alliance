@@ -8,7 +8,6 @@ identities:
     - id: wael-ivie
       role: author
 ---
-
 ## ***It all started as a drunken rant*** 🥃 
 
 Back in December of 2013, Bitcoin was on another huge upwards swing, from November to early December the price of BTC rose from around $250 USD all the way up to $1,151 USD. This massive 300x move to the upside led many to take to the ***[Bitcoin forum](https://bitcointalk.org/index.php)*** to discuss various trading strategies. 

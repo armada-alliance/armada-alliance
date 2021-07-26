@@ -8,5 +8,6 @@ identities:
     - id: wael-ivie
       role: author
 ---
+##
 
 Incentives aim to ensure equality and fairness in a distributed network of participants by encouraging consistent, active, and strong participation. Cardano’s incentives model uses game theory to calculate the incentives required.

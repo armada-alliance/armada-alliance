@@ -8,6 +8,7 @@ identities:
     - id: wael-ivie
       role: author
 ---
+##
 
 Here is an example of a Cardano stake-pool's [hash](/en/terms/hash-function.md) identifier -  `b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65`
 
