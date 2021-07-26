@@ -8,6 +8,7 @@ identities:
     - id: wael-ivie
       role: author
 ---
+##
 
 A unique asset that is not interchangeable with any other asset(s). 
 Non-fungible assets represent specific information (IP rights for example), and act as one unit that cannot be divided into smaller fractions. Non-fungible tokens have unique attributes; they are usually linked to a specific asset. They can be used to prove the ownership of digital items like game skins right through to the ownership of physical assets.

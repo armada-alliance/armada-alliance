@@ -8,5 +8,6 @@ identities:
     - id: wael-ivie
       role: author
 ---
+##
 
 Ledgers that support accounting or transaction of more than one type of asset are considered to have \'multi-asset\' functionality. These ledgers can include blockchains, wallets, cryptocurrencies, or banking platforms, for example. Multi-assets usually include a platform\'s primary currency and multiple, user-defined assets.

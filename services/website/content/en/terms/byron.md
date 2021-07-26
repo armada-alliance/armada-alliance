@@ -8,6 +8,7 @@ identities:
     - id: wael-ivie
       role: author
 ---
+##
 
 The first incarnation of Cardano allowed users to buy and sell the ada cryptocurrency – so named for revolutionary programmer Ada Lovelace – on a federated network running the groundbreaking Ouroboros consensus protocol. The heart of the Cardano network, Ouroboros is the first proof-of-stake protocol created on the basis of academic research, with a mathematically-proven level of security.
 

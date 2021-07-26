@@ -8,6 +8,7 @@ identities:
     - id: wael-ivie
       role: author
 ---
+##
 
 The work performed by miners consists of a few main actions:
 

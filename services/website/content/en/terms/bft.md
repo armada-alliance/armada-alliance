@@ -8,6 +8,7 @@ identities:
     - id: wael-ivie
       role: author
 ---
+##
 
 A BFT system can continue to operate even if some nodes fail or malicious behavior occurs in the system.
 

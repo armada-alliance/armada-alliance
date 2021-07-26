@@ -8,6 +8,7 @@ identities:
     - id: wael-ivie
       role: author
 ---
+##
 
 Located in Prague, in the heart of Europe, the company projects tackle a wide range of topics in cryptocurrency security and accessibility. [SatoshiLabs](https://wiki.trezor.io/SatoshiLabs) are ambitious pioneers bringing new technologies and cryptography to the masses. SatoshiLabs raises public awareness about Bitcoin, cryptocurrencies and cryptography. Currently, the company team counts more than 50 highly motivated people.
 

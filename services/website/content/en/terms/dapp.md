@@ -8,5 +8,4 @@ identities:
     - id: wael-ivie
       role: author
 ---
-
-Decentralized application.
+##
