@@ -8,7 +8,7 @@ github: https://github.com/Berry-Pool/nami-wallet
 verified: true
 ---
 
-# What is Nami Wallet?
+## What is Nami Wallet?
 
 Similar to [Metamask](/en/identities/meta-mask.md) on Ethereum, Nami wallet is meant to be the gateway for users looking to experience the vast ocean of [decentralized applications also known as DApps](/en/terms/dapp.md) that are being built on the Cardano blockchain. It can be used to send and store multiple assets, to delegate, to mint tokens, supports multi-sigs transactions, and much more. Smart contract support will be added when available.
 
