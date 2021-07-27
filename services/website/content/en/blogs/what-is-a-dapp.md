@@ -1,9 +1,10 @@
 ---
 template: BlogDetailPage
 title: What is a DApp?
-description: General purpose of Decentralized applications.
+description: ***General purpose of Decentralized applications***
 aliases: dapp, dapps, decentralized applications, what is a dapp
 keywords: dapps, dapp, decentalized, applications, what is a dapp
+icon: 📱
 identities: 
     - id: wael-ivie
       role: author
