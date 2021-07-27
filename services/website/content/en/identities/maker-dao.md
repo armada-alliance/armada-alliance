@@ -3,7 +3,7 @@ template: IdentityDetailPage
 title: Maker DAO
 description: MakerDAO is a decentralized organization dedicated to bringing stability to the cryptocurrency economy.
 verified: true
-image: https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F183adaee-ac10-4b18-afa9-c64bb2770d87%2F1mm2.png?table=block&id=d86a9381-1ec3-48ca-b6df-02f4dce44116&spaceId=19f3db86-4eb6-40e0-be7f-9c7a9cfdcd3d&width=2260&userId=&cache=v2
+image: https://dextf.com/images/assets/mkr.png
 website: https://makerdao.com/en/   
 ---
 
