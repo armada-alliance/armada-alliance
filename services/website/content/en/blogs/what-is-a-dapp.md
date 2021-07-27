@@ -9,7 +9,6 @@ identities:
       role: author
 ---
 
-##
 ### ***The Basics***
 
 Decentralized applications or DApps are essentially the same as software applications or Apps you use every day. Unlike centralized applications often used today, for example, Facebook, a DApp has no central authority and control of its user's data. It achieves this decentralized autonomy by using various smart contracts running on a blockchain network. Smart contracts control and run the DApps in the backend while the end-user has a graphical user interface to interact with the smart contracts. As far as a user experience point-of-view you won't know if you are using a regular App downloaded from the Apple or Google App store from a DApp. 
@@ -22,7 +21,6 @@ DApps often pay users in the form of a cryptocurrency or token for using their a
 The Cardano blockchain is close to rolling out their own smart contract functionality after the Goguen era [Alonzo hard fork](/en/terms/hard-fork.md ) in Fall of 2021. Here is a list of popular use cases for DApps currently:
 - Lending and Borrowing
 - Token swaps
-- Trading and prediction markets
 - Investments
 - Trading and prediction markets
 - Payments
