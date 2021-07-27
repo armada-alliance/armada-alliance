@@ -15,4 +15,5 @@ Decentralized applications or DApps are similar to standard software application
 
 Read our short blog post for further reading:
 
-<Page url="/blogs/whats-is-a-dapp" />
+
+<Page url={'/en/blogs/what-is-a-dapp'} />
