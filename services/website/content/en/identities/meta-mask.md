@@ -2,7 +2,7 @@
 template: IdentityDetailPage
 title: "MetaMask"
 description: An Ethereum Wallet in your Browser
-image: https://metamask.io/images/mm-logo.svg
+image: https://screenshots.imgix.net/lil/baseth/metamask-logo/0.1.0/5e04df0d1d89960012f27991/7ddf215a-bd39-4d16-8ff9-d73afbd066aa.png
 website: https://metamask.io/ 
 github: https://github.com/MetaMask/metamask-extension
 youtube: https://www.youtube.com/channel/UCcizsiFcuxMrSWcPAuSNbuA
