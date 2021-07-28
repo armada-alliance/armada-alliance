@@ -2,6 +2,7 @@
 template: IdentityDetailPage
 title: IOG
 description: Input Output Global, also referred to as Input Output Hong Kong (IOHK), is a technology company committed to using peer-to-peer innovations to provide financial services to the community. In particular, IOG is working on the technology development for Cardano.
+image: https://ucarecdn.com/75b74f03-ff04-47ba-821c-5e477d3d46d4/-/format/png/
 website: https://iohk.io/en/technology/ 
 twitter: https://twitter.com/inputoutputHK
 github: https://www.github.com/input-output-hk
