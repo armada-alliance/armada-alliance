@@ -4,12 +4,10 @@ title: Trezor
 description: Trezor (or Trezor device) is the original and most trusted cryptocurrency hardware wallet designed and marketed by [SatoshiLabs](/en/terms/satoshi-labs.md).
 aliases: Trezor wallet, Trezor device
 keywords: Trezor, wallet
-identities: 
-    - id: wael-ivie
-      role: author
+identities:
+  - id: wael-ivie
+    role: author
 ---
-
-##
 
 The primary function of Trezor is to serve as a hardware wallet for cryptocurrencies. In addition to its primary function, it has many other security applications, such as password management and second-factor authentication.
 

@@ -4,12 +4,10 @@ title: Plutus platform
 description: The combined software support for writing contract applications
 aliases: plutus platform
 keywords: plutus, platform
-identities: 
-    - id: wael-ivie
-      role: author
+identities:
+  - id: wael-ivie
+    role: author
 ---
-
-##
 
 This includes:
 

@@ -2,14 +2,12 @@
 template: TermDetailPage
 title: Basho
 description: Fourth phase of Cardano development in which performance improvements will be integrated.
-aliases: basho era cardano, goguen era of cardano, shelly era of cardano, voltaire era of cardano, what are the phases of cardano, cardano road map 
+aliases: basho era cardano, goguen era of cardano, shelly era of cardano, voltaire era of cardano, what are the phases of cardano, cardano road map
 keywords: basho, goguen, shelly, voltaire, roadmap, ada, cardano
-identities: 
-    - id: wael-ivie
-      role: author
+identities:
+  - id: wael-ivie
+    role: author
 ---
-
-##
 
 The Basho era of Cardano is an era of optimization, improving the scalability and interoperability of the network. Whereas previous development eras focused on decentralization and new functionality, Basho is about improving the underlying performance of the Cardano network to better support growth and adoption for applications with high transaction volume.
 

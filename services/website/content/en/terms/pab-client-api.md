@@ -4,12 +4,10 @@ title: PAB client API
 description: A program which interacts with a contract application instance via the PAB’s client API.
 aliases: PAB client API
 keywords: PAB, client, api
-identities: 
-    - id: wael-ivie
-      role: author
+identities:
+  - id: wael-ivie
+    role: author
 ---
-
-##
 
 Examples of PAB clients include:
 

@@ -4,9 +4,7 @@ title: EUTXO
 description: Extended unspent transaction output model of Cardano.
 aliases: eutxo, extended utxo model, cardano
 keywords: eutxo, extended, utxo, model, cardano
-identities: 
-    - id: wael-ivie
-      role: author
+identities:
+  - id: wael-ivie
+    role: author
 ---
-
-##

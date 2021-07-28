@@ -14,7 +14,7 @@ import { css } from '@emotion/react'
 function getHighlightedText(text, highlight) {
     // Split text on highlight term, include term itself into parts, ignore case
     const parts = text.split(new RegExp(`(${highlight})`, 'gi'));
-    return <span>{parts.map(part => part.toLowerCase() === highlight.toLowerCase() ? <b>{part}</b> : part)}</span>;
+    return <span>{parts.map(part => part.toLowerCase() === highlight.toLowerCase() ? <b className="text-primary-500">{part}</b> : part)}</span>;
 }
 
 function DefaultView({ templates, results, query, onLinkClick }) {
@@ -73,7 +73,7 @@ function DefaultView({ templates, results, query, onLinkClick }) {
                                                         </div>
                                                     ) : null}
                                                     <div className="space-y-1 w-full overflow-hidden leading-none">
-                                                        <div className={cx("truncate", page.template === "BlogDetailPage" ? "font-bold text-base" : null)}>
+                                                        <div className={cx("truncate text-gray-900 group-hover:text-white dark:text-gray-200 dark:group-hover:text-white", page.template === "BlogDetailPage" ? "font-bold text-base" : null)}>
                                                             {getHighlightedText(page.title, query)}
                                                         </div>
                                                         {page.template === "BlogDetailPage" ? (
