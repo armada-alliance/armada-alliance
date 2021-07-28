@@ -31,13 +31,13 @@ function Page(props) {
             <div
                 key={page.title}
                 className={cx(
-                    'rounded-lg shadow-sm hover:shadow-md cursor-pointer relative group bg-white p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-primary-500'
+                    'rounded-lg shadow-sm hover:shadow-md cursor-pointer relative group bg-white dark:bg-gray-800 p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-primary-500'
                 )}
             >
                 <div>
                     <span
                         className={cx(
-                            'inline-flex p-3 ring-4 ring-white bg-gray-100 relative',
+                            'inline-flex p-3 ring-4 ring-white dark:ring-gray-700 bg-gray-100 dark:bg-gray-700 relative',
                             page.template === "IdentityDetailPage" ? "rounded-full" : "rounded-lg"
                         )}
                     >
@@ -51,7 +51,7 @@ function Page(props) {
                     </span>
                 </div>
                 <div className="mt-4">
-                    <h3 className="text-lg font-medium">
+                    <h3 className="text-lg font-medium dark:text-gray-100 dark:group-hover:text-white">
                         <div>
                             <span className="absolute inset-0" aria-hidden="true" />
                             {page.title}
@@ -62,7 +62,7 @@ function Page(props) {
                     </p>
                 </div>
                 <span
-                    className="pointer-events-none absolute top-6 right-6 text-gray-300 group-hover:text-gray-400"
+                    className="pointer-events-none absolute top-6 right-6 text-gray-300 group-hover:text-gray-400 dark:text-gray-400 dark:group-hover:text-gray-200"
                     aria-hidden="true"
                 >
                     <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">

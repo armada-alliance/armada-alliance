@@ -9,9 +9,7 @@ verified: true
 twitter: southtyrolpool
 telegram: fisch192
 github: fisch192
-badges:
-    - name: Fully ARMed
-      color: "#EF4444"
 ---
+
 Hi, I´m Markus and the operator of Southtyrol Pool. I’m from Italy and a passionate tecnician. I’ve been involved in Cardano since the end of 2020
 If you want to support me or decentralization really matters to you, just delegate to my Pool.

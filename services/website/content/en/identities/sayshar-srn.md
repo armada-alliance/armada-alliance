@@ -9,8 +9,6 @@ verified: true
 telegram: Sayshar
 twitter: ADASRN1
 github: sayshar
-badges:
 ---
-##
 
 Sayshar is the SPO for [SRN] ADASRN which is run from Malaysia with help of the Raspberry Pi single board computers. His background is in Mechanical Engineering with a Masters in Computational Fluid Dynamics from Cranfield University, UK. He is now working towards his PhD in Engineering with Monash Univeristy Malaysia. He has more than 10 years of experience in running and working with Linux OSes.

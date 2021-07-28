@@ -37,11 +37,11 @@ function Button(props) {
     )
 }
 
-function SquareButton({ image, name, href }) {
+function SquareButton({ image, name, href, rounded = false }) {
 
     return (
-        <a href={href} target="_blank" className="border border-gray-200 rounded-lg shadow p-4 inline-block focus:ring-2 focus:ring-primary-600">
-            <div className="bg-contain bg-center bg-no-repeat w-12 h-12 m-2" style={{ backgroundImage: `url(${image})` }} />
+        <a href={href} target="_blank" className="border border-gray-200 dark:border-gray-800 rounded-lg shadow p-4 inline-block focus:ring-2 focus:ring-primary-600">
+            <div className={cx("bg-contain bg-center bg-no-repeat w-12 h-12 m-2", rounded ? "rounded-full" : null)} style={{ backgroundImage: `url(${image})` }} />
             <div className="font-bold text-sm">
                 {name}
             </div>
@@ -73,7 +73,7 @@ function AlternateTab({ pool }) {
                     <h2 className="font-bold">3. Go to staking / delegation center</h2>
                     <p className="text-gray-400 text-sm">Search for my pool, select delegate and choose the wallet you want to use for staking</p>
                     <div className="space-x-4">
-                        <SquareButton image={pool.image} name={pool.ticker} href={pool.website} />
+                        <SquareButton image={pool.image} name={pool.ticker} href={pool.website} rounded={true} />
                     </div>
                 </div>
                 <div className="space-y-4">
@@ -130,7 +130,7 @@ function ToastMessage({ show, onClose }) {
                                                 className="ml-3 inline-flex items-center px-3 py-2 border border-gray-300 shadow-sm text-sm leading-4 font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500"
                                             >
                                                 Decline
-                      </button>
+                                            </button>
                                         </div>
                                     </div>
                                     <div className="ml-4 flex-shrink-0 flex">
@@ -288,13 +288,13 @@ function NamiTab({ ctx, pool, toast, setToast }) {
                         onClick={handleConnect}
                     >
                         Connect
-                                        </Button>
+                    </Button>
                 </div>
-                <div className="w-0.5 bg-gray-100 h-12" />
+                <div className="w-0.5 bg-gray-100 dark:bg-gray-800 h-12" />
                 {currentPool ? (
                     <>
-                        <div className="flex text-gray-700 items-center space-x-2 text-xs">
-                            <div className="text-gray-400">Currently delegated to</div>
+                        <div className="flex text-gray-700 dark:text-gray-300 items-center space-x-2 text-xs">
+                            <div className="text-gray-400 dark:text-gray-700">Currently delegated to</div>
                             <div className="flex flex-nowrap items-center px-2 py-1 space-x-2 rounded-lg bg-gray-50">
                                 {currentPool.image ? (
                                     <div className="h-5 w-5 rounded-full overflow-hidden bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${formatImage(currentPool.image)})` }} />
@@ -304,7 +304,7 @@ function NamiTab({ ctx, pool, toast, setToast }) {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-0.5 bg-gray-100 h-12" />
+                        <div className="w-0.5 bg-gray-100 dark:bg-gray-800 h-12" />
                     </>
                 ) : null}
                 <div className="flex flex-col items-center">
@@ -315,21 +315,21 @@ function NamiTab({ ctx, pool, toast, setToast }) {
                         disabled={connectState !== 'completed'}
                     >
                         Delegate
-                </Button>
+                    </Button>
                     {delegateError ? (
                         <div className="mt-2 text-red-500 text-xs">
                             {delegateError}
                         </div>
                     ) : null}
                 </div>
-                <div className="w-0.5 bg-gray-100 h-12" />
+                <div className="w-0.5 bg-gray-100 dark:bg-gray-800 h-12" />
                 {txHash ? (
                     <>
                         <div className="flex flex-col items-center">
                             <div className="mb-2 text-gray-500 text-sm">Transaction submitted </div>
                             <HashLink href={`https://cardanoscan.io/transaction/${txHash}`} hash={txHash} />
                         </div>
-                        <div className="w-0.5 bg-gray-100 h-12" />
+                        <div className="w-0.5 bg-gray-100 dark:bg-gray-800 h-12" />
                     </>
                 ) : null}
                 {transactionState === 'default' ? (
@@ -359,7 +359,7 @@ function NamiTab({ ctx, pool, toast, setToast }) {
                 ) : null}
                 {!init ? (
                     <div
-                        className="absolute inset-0 bg-white animate animate-pulse"
+                        className="absolute inset-0 bg-white dark:bg-gray-900 animate animate-pulse"
                     />
                 ) : null}
             </div>
@@ -387,7 +387,7 @@ function Delegation(props) {
 
     return (
         <>
-            <div className="pt-44 pb-44">
+            <div className="pt-44 pb-44 dark:bg-gray-900 dark:text-white">
                 {tabId === 'nami' ? (
                     <NamiTab {...props} toast={toast} setToast={setToast} />
                 ) : null}
@@ -395,11 +395,11 @@ function Delegation(props) {
                     <AlternateTab {...props} />
                 ) : null}
             </div>
-            <div className="fixed top-0 left-0 w-full bg-white">
-                <div className="flex justify-center py-6 px-6 border-b border-gray-100">
+            <div className="fixed top-0 left-0 w-full bg-white  dark:bg-gray-900 dark:text-white">
+                <div className="flex justify-center py-6 px-6 border-b border-gray-100 dark:border-gray-800">
                     <div className="font-bold text-xl flex items-center space-x-2">
                         <div>Delegate to</div>
-                        <div className="flex flex-nowrap items-center px-2 py-1 space-x-2 rounded-lg bg-gray-50">
+                        <div className="flex flex-nowrap items-center px-2 py-1 space-x-2 rounded-lg bg-gray-50 dark:bg-gray-800">
                             <div className="h-5 w-5 rounded-full overflow-hidden bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${formatImage(pool.image)})` }} />
                             <div className="font-bold truncate">
                                 {pool.name}
@@ -408,14 +408,14 @@ function Delegation(props) {
                     </div>
                 </div>
                 {isChrome ? (
-                    <div className="py-2 flex justify-center border-b border-gray-100">
+                    <div className="py-2 flex justify-center border-b border-gray-100 dark:border-gray-800">
                         <nav className="flex space-x-4">
                             {tabs.map((tab) => (
                                 <button
                                     type="button"
                                     key={tab.id}
                                     className={cx(
-                                        tab.id === tabId ? 'bg-gray-100 text-gray-700' : 'text-gray-500 hover:text-gray-700',
+                                        tab.id === tabId ? 'bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300' : 'text-gray-500 hover:text-gray-700',
                                         'px-3 py-2 font-medium text-sm rounded-md cursor-pointer focus:outline-none'
                                     )}
                                     onClick={() => setTabId(tab.id)}
@@ -428,7 +428,7 @@ function Delegation(props) {
                 ) : null}
             </div>
             {tabId === 'nami' ? (
-                <div className="bg-white fixed bottom-0 left-0 w-full flex items-center space-x-4 px-6 py-4 border-t border-gray-100 select-none">
+                <div className="bg-white dark:bg-gray-900 dark:text-white fixed bottom-0 left-0 w-full flex items-center space-x-4 px-6 py-4 border-t border-gray-100 dark:border-gray-800 select-none">
                     <div className="ml-auto flex space-x-4 items-center">
                         <div className="flex-1 text-right text-xs text-gray-300">Powered by</div>
                         <a href="https://namiwallet.io/" title="Nami Wallet" target="_blank" className="transition-all hover:opacity-50">
@@ -443,7 +443,7 @@ function Delegation(props) {
                 </div>
             ) : null}
             {tabId === 'alternate' ? (
-                <div className="bg-white fixed bottom-0 left-0 w-full flex items-center justify-evenly py-4 border-t border-gray-100 select-none">
+                <div className="bg-white dark:bg-gray-900 dark:text-white fixed bottom-0 left-0 w-full flex items-center justify-evenly py-4 border-t border-gray-100  dark:border-gray-800 select-none">
                     <button type="button" className="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-full w-40 justify-center text-white bg-primary-500 transition ease-in-out duration-150 focus:outline-none hover:bg-primary-400 focus:border-primary-600 active:bg-primary-600" onClick={onClose}>
                         Got it!
                     </button>
