@@ -1,9 +1,9 @@
 {
   "_cacheKey": "{\"component\":{\"type\":\"PoolDetailPage\",\"version\":1},\"props\":{\"id\":\"351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8\",\"language\":\"en\",\"slug\":\"/stake-pools/351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8\",\"url\":\"https:///website.codespace1.sublayer.io/stake-pools/351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8\",\"origin\":\"/stake-pools/351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8\",\"title\":\"Quixote Dream Pool (QXT)\",\"description\":\"Dream the impossible dream like Quixote! Support Tech Projects in La Mancha, one of the most under-developed Regions in Europe\",\"aliases\":null,\"keywords\":null,\"template\":\"PoolDetailPage\",\"identities\":[{\"id\":\"alex-qxt\",\"role\":\"spo\"}],\"image\":\"https://static.adapools.org/pool_logo/351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8.png\",\"updatedAt\":\"2021-07-14T18:12:31.000Z\",\"filePath\":\"/en/stake-pools/351a90a0253fb3595ccc460438b9947cd8a0b9a7f457f3478bbb31d8.md\",\"ticker\":\"QXT\",\"memberSince\":\"2021-04-28T00:00:00.000Z\",\"body\":\"\",\"mdxSource\":{\"compiledSource\":\"var M=Object.defineProperty,X=Object.defineProperties;var c=Object.getOwnPropertyDescriptors;var u=Object.getOwnPropertySymbols;var r=Object.prototype.hasOwnProperty,a=Object.prototype.propertyIsEnumerable;var s=(o,t,n)=>t in o?M(o,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):o[t]=n,p=(o,t)=>{for(var n in t||(t={}))r.call(t,n)&&s(o,n,t[n]);if(u)for(var n of u(t))a.call(t,n)&&s(o,n,t[n]);return o},y=(o,t)=>X(o,c(t));var D=(o,t)=>{var n={};for(var e in o)r.call(o,e)&&t.indexOf(e)<0&&(n[e]=o[e]);if(o!=null&&u)for(var e of u(o))t.indexOf(e)<0&&a.call(o,e)&&(n[e]=o[e]);return n};const layoutProps={},MDXLayout=\\\"wrapper\\\";function MDXContent(n){var e=n,{components:o}=e,t=D(e,[\\\"components\\\"]);return mdx(MDXLayout,y(p(p({},layoutProps),t),{components:o,mdxType:\\\"MDXLayout\\\"}))}MDXContent.isMDXComponent=!0;\\n\",\"scope\":{}}}}",
   "_fromCache": false,
-  "_cachedAt": "2021-07-25T21:08:23.963Z",
-  "_cachedIn": "9.19 ms",
-  "_resolvedIn": "9.19 ms",
+  "_cachedAt": "2021-07-28T12:17:48.416Z",
+  "_cachedIn": "1.8 ms",
+  "_resolvedIn": "1.8 ms",
   "id": "PoolDetailPage",
   "type": "PoolDetailPage",
   "status": "resolved",
@@ -49,12 +49,12 @@
       "ticker": "QXT",
       "addr": "pool1x5dfpgp987e4jhxvgczr3wv50nv2pwd873tlx3uthvcasm422q6",
       "website": "https://quixote.systems",
-      "totalStake": "630965129922",
+      "totalStake": "674031179977",
       "blocksLifetime": 1,
-      "delegators": 147,
-      "saturated": 0.009435115582916601,
+      "delegators": 177,
+      "saturated": 0.01030926961854628,
       "pledge": "5000000000",
-      "pledged": "5442802499",
+      "pledged": "5441146410",
       "taxRatio": 0,
       "taxFix": "340000000",
       "roa": "0.71",
@@ -210,17 +210,17 @@
   "attrs": {
     "component-type": "PoolDetailPage",
     "component-id": "PoolDetailPage",
-    "component-cached-at": "2021-07-25T21:08:23.963Z",
-    "component-cached-in": "9.19 ms",
-    "component-resolved-in": "9.19 ms"
+    "component-cached-at": "2021-07-28T12:17:48.416Z",
+    "component-cached-in": "1.8 ms",
+    "component-resolved-in": "1.8 ms"
   },
   "components": {
     "Layout": {
       "_cacheKey": "{\"component\":{\"type\":\"Layout\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-25T21:08:23.963Z",
-      "_cachedIn": "8.08 ms",
-      "_resolvedIn": "8.08 ms",
+      "_cachedAt": "2021-07-28T12:17:48.416Z",
+      "_cachedIn": "1.2 ms",
+      "_resolvedIn": "1.2 ms",
       "id": "Layout",
       "type": "Layout",
       "status": "resolved",
@@ -229,17 +229,17 @@
       "attrs": {
         "component-type": "Layout",
         "component-id": "Layout",
-        "component-cached-at": "2021-07-25T21:08:23.963Z",
-        "component-cached-in": "8.08 ms",
-        "component-resolved-in": "8.08 ms"
+        "component-cached-at": "2021-07-28T12:17:48.416Z",
+        "component-cached-in": "1.2 ms",
+        "component-resolved-in": "1.2 ms"
       },
       "components": {
         "Context": {
           "_cacheKey": "{\"component\":{\"type\":\"Context\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-25T21:08:23.962Z",
-          "_cachedIn": "4.07 ms",
-          "_resolvedIn": "4.07 ms",
+          "_cachedAt": "2021-07-28T12:17:48.416Z",
+          "_cachedIn": "653 μs",
+          "_resolvedIn": "653 μs",
           "id": "Context",
           "type": "Context",
           "status": "resolved",
@@ -247,7 +247,7 @@
           "props": {
             "host": "https:///website.codespace1.sublayer.io",
             "schema": {
-              "createdAt": "2021-07-25T21:08:11.891Z",
+              "createdAt": "2021-07-28T12:17:34.390Z",
               "about": {
                 "twitter": "https://twitter.com/alliance_armada",
                 "youtube": "https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg",
@@ -429,7 +429,7 @@
                 "url": "https:///website.codespace1.sublayer.io/blogs/register-your-stake-pool",
                 "origin": "/blogs/register-your-stake-pool",
                 "title": "Register your stake pool",
-                "description": "Ahoy Matey!🏴‍☠️",
+                "description": "Ahoy Matey",
                 "aliases": [
                   "raspberry pi stake pool",
                   "cardano raspberry pi stake pool",
@@ -461,7 +461,8 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-21T15:04:43.000Z",
+                "icon": "🏴‍☠️",
+                "updatedAt": "2021-07-28T04:02:48.000Z",
                 "filePath": "/en/blogs/register-your-stake-pool.md"
               },
               {
@@ -488,6 +489,38 @@
                 "image": "/flood-disaster.webp",
                 "updatedAt": "2021-07-23T13:28:15.000Z",
                 "filePath": "/en/blogs/rpi-resiliency-sbc-otg-blog.md"
+              },
+              {
+                "id": "what-is-a-dapp",
+                "language": "en",
+                "slug": "/blogs/what-is-a-dapp",
+                "url": "https:///website.codespace1.sublayer.io/blogs/what-is-a-dapp",
+                "origin": "/blogs/what-is-a-dapp",
+                "title": "What is a DApp?",
+                "description": "General purpose of Decentralized applications",
+                "aliases": [
+                  "dapp",
+                  "dapps",
+                  "decentralized applications",
+                  "what is a dapp"
+                ],
+                "keywords": [
+                  "dapps",
+                  "dapp",
+                  "decentalized",
+                  "applications",
+                  "what is a dapp"
+                ],
+                "template": "BlogDetailPage",
+                "identities": [
+                  {
+                    "id": "wael-ivie",
+                    "role": "author"
+                  }
+                ],
+                "icon": "📱",
+                "updatedAt": "2021-07-28T01:40:59.000Z",
+                "filePath": "/en/blogs/what-is-a-dapp.md"
               },
               {
                 "id": "what-is-staking",
@@ -952,13 +985,13 @@
                 "slug": "/identities/DeCentN2Madness",
                 "url": "https:///website.codespace1.sublayer.io/identities/DeCentN2Madness",
                 "origin": "/identities/DeCentN2Madness",
-                "title": "DeCentN2Madness 🐇",
+                "title": "DeCentN2Madness 🐇 [00000]",
                 "description": "SPO",
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/decentn2madness.png",
-                "updatedAt": "2021-07-16T16:09:48.000Z",
+                "updatedAt": "2021-07-25T21:12:28.000Z",
                 "filePath": "/en/identities/DeCentN2Madness.md"
               },
               {
@@ -988,7 +1021,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/ales.jpg",
-                "updatedAt": "2021-07-22T19:21:48.000Z",
+                "updatedAt": "2021-07-25T16:04:10.000Z",
                 "filePath": "/en/identities/alessandro-berry.md"
               },
               {
@@ -1020,6 +1053,21 @@
                 "image": "/amanuel.jpg",
                 "updatedAt": "2021-07-22T20:11:22.000Z",
                 "filePath": "/en/identities/amanuelodicho.md"
+              },
+              {
+                "id": "atala-prism",
+                "language": "en",
+                "slug": "/identities/atala-prism",
+                "url": "https:///website.codespace1.sublayer.io/identities/atala-prism",
+                "origin": "/identities/atala-prism",
+                "title": "Atala PRISM",
+                "description": "Atala PRISM is a decentralized identity solution that enables people to own their personal data and interact with organizations seamlessly, privately, and securely.",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "https://atalaprism.io/images/atala-prism-logo-suite.svg",
+                "updatedAt": "2021-07-27T13:47:42.000Z",
+                "filePath": "/en/identities/atala-prism.md"
               },
               {
                 "id": "chadi",
@@ -1092,8 +1140,8 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
-                "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-22T03:43:20.000Z",
+                "image": "https://ucarecdn.com/75b74f03-ff04-47ba-821c-5e477d3d46d4/-/format/png/",
+                "updatedAt": "2021-07-28T04:21:43.000Z",
                 "filePath": "/en/identities/iog.md"
               },
               {
@@ -1187,6 +1235,21 @@
                 "filePath": "/en/identities/krista-611.md"
               },
               {
+                "id": "maker-dao",
+                "language": "en",
+                "slug": "/identities/maker-dao",
+                "url": "https:///website.codespace1.sublayer.io/identities/maker-dao",
+                "origin": "/identities/maker-dao",
+                "title": "Maker DAO",
+                "description": "MakerDAO is a decentralized organization dedicated to bringing stability to the cryptocurrency economy.",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "https://dextf.com/images/assets/mkr.png",
+                "updatedAt": "2021-07-27T14:14:39.000Z",
+                "filePath": "/en/identities/maker-dao.md"
+              },
+              {
                 "id": "marshall-chow",
                 "language": "en",
                 "slug": "/identities/marshall-chow",
@@ -1217,6 +1280,36 @@
                 "filePath": "/en/identities/matt-solrp.md"
               },
               {
+                "id": "meta-mask",
+                "language": "en",
+                "slug": "/identities/meta-mask",
+                "url": "https:///website.codespace1.sublayer.io/identities/meta-mask",
+                "origin": "/identities/meta-mask",
+                "title": "MetaMask",
+                "description": "An Ethereum Wallet in your Browser",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "https://screenshots.imgix.net/lil/baseth/metamask-logo/0.1.0/5e04df0d1d89960012f27991/7ddf215a-bd39-4d16-8ff9-d73afbd066aa.png",
+                "updatedAt": "2021-07-28T04:21:43.000Z",
+                "filePath": "/en/identities/meta-mask.md"
+              },
+              {
+                "id": "nami",
+                "language": "en",
+                "slug": "/identities/nami",
+                "url": "https:///website.codespace1.sublayer.io/identities/nami",
+                "origin": "/identities/nami",
+                "title": "Nami Wallet",
+                "description": "Nami Wallet is a browser based wallet extension to interact with the Cardano blockchain and is non-custodial.",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "/nami.png",
+                "updatedAt": "2021-07-27T19:48:05.000Z",
+                "filePath": "/en/identities/nami.md"
+              },
+              {
                 "id": "pascal-berry",
                 "language": "en",
                 "slug": "/identities/pascal-berry",
@@ -1228,7 +1321,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/pascal.jpeg",
-                "updatedAt": "2021-07-24T17:59:52.000Z",
+                "updatedAt": "2021-07-25T18:48:53.000Z",
                 "filePath": "/en/identities/pascal-berry.md"
               },
               {
@@ -1257,8 +1350,8 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
-                "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-12T10:20:35.000Z",
+                "image": "https://github.com/pgwadapool/poolpage/blob/main/logo.JPG?raw=true",
+                "updatedAt": "2021-07-24T21:16:29.000Z",
                 "filePath": "/en/identities/pgwad.md"
               },
               {
@@ -1333,7 +1426,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/sayshar.jpg",
-                "updatedAt": "2021-07-23T15:18:20.000Z",
+                "updatedAt": "2021-07-28T04:38:16.000Z",
                 "filePath": "/en/identities/sayshar-srn.md"
               },
               {
@@ -1452,8 +1545,8 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "IdentityDetailPage",
-                "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-19T19:48:33.000Z",
+                "image": "https://southtyrolpool.it/wp-content/uploads/2021/03/fotoio-1.png",
+                "updatedAt": "2021-07-22T20:28:25.000Z",
                 "filePath": "/en/identities/sudti.md"
               },
               {
@@ -1483,7 +1576,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/tony.jpg",
-                "updatedAt": "2021-07-23T15:18:20.000Z",
+                "updatedAt": "2021-07-24T21:09:26.000Z",
                 "filePath": "/en/identities/tony-piada.md"
               },
               {
@@ -1498,7 +1591,7 @@
                 "keywords": null,
                 "template": "IdentityDetailPage",
                 "image": "/wael.png",
-                "updatedAt": "2021-07-23T06:06:21.000Z",
+                "updatedAt": "2021-07-26T22:41:07.000Z",
                 "filePath": "/en/identities/wael-ivie.md"
               },
               {
@@ -1530,6 +1623,21 @@
                 "image": "/wintifrosch.jpg",
                 "updatedAt": "2021-06-18T20:53:53.000Z",
                 "filePath": "/en/identities/wintifrosh.md"
+              },
+              {
+                "id": "world-mobile",
+                "language": "en",
+                "slug": "/identities/world-mobile",
+                "url": "https:///website.codespace1.sublayer.io/identities/world-mobile",
+                "origin": "/identities/world-mobile",
+                "title": "World Mobile",
+                "description": "We’re building a mesh network using hybrid spectrum, renewable energy, and blockchain technology.",
+                "aliases": null,
+                "keywords": null,
+                "template": "IdentityDetailPage",
+                "image": "https://worldmobiletoken.com/img/worldwide-tree.png",
+                "updatedAt": "2021-07-27T13:47:42.000Z",
+                "filePath": "/en/identities/world-mobile.md"
               },
               {
                 "id": "zenent",
@@ -1724,7 +1832,7 @@
                   }
                 ],
                 "image": "https://illustratorandweb.com/ext/pool-00000-24bit-1000x1000.png",
-                "updatedAt": "2021-07-16T09:50:36.000Z",
+                "updatedAt": "2021-07-25T21:16:52.000Z",
                 "filePath": "/en/stake-pools/33708d590f4549170125524fcbd6bc189fa8711fba52f8ead4276ca4.md"
               },
               {
@@ -1871,7 +1979,7 @@
                   }
                 ],
                 "image": "https://armada-alliance.com/assets/ship-420.png",
-                "updatedAt": "2021-07-22T22:53:31.000Z",
+                "updatedAt": "2021-07-24T20:59:04.000Z",
                 "filePath": "/en/stake-pools/7e45a7e6ab3afcf99120e97aedf84e706e43d829ddc610ad667a85a3.md"
               },
               {
@@ -2022,7 +2130,7 @@
                   }
                 ],
                 "image": "https://piada.io/piadaFull.png",
-                "updatedAt": "2021-07-24T16:41:27.000Z",
+                "updatedAt": "2021-07-24T22:48:31.000Z",
                 "filePath": "/en/stake-pools/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65.md"
               },
               {
@@ -2085,7 +2193,7 @@
                   }
                 ],
                 "image": "https://adamantium.online/images/sun.jpg",
-                "updatedAt": "2021-07-24T18:32:32.000Z",
+                "updatedAt": "2021-07-28T06:05:45.000Z",
                 "filePath": "/en/stake-pools/c825168836c5bf850dec38567eb4771c2e03eea28658ff291df768ae.md"
               },
               {
@@ -2106,7 +2214,7 @@
                   }
                 ],
                 "image": "https://meme.best/icons/apple-touch-icon.png",
-                "updatedAt": "2021-07-14T18:12:31.000Z",
+                "updatedAt": "2021-07-26T19:39:57.000Z",
                 "filePath": "/en/stake-pools/c9aa8e864d5cc292f0e93669a79b41d67f8ea62481a0d85b14bea386.md"
               },
               {
@@ -2127,7 +2235,7 @@
                   }
                 ],
                 "image": "https://sayshar.github.io/ADASRN_1024x1024.png",
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-28T10:04:26.000Z",
                 "filePath": "/en/stake-pools/cc1b1c03798884c636703443a23b8d9e827d6c0417921600394198a0.md"
               },
               {
@@ -2387,11 +2495,11 @@
                 "url": "https:///website.codespace1.sublayer.io/rules/rule-1",
                 "origin": "/rules/rule-1",
                 "title": "Pool should have at least one SPO",
-                "description": "Make sure to define at least one SPO in the pool markdown file.",
+                "description": "Make sure to define at **least** one SPO in your pool markdown file.",
                 "aliases": null,
                 "keywords": null,
                 "template": "RuleDetailPage",
-                "updatedAt": "2021-07-24T17:52:06.000Z",
+                "updatedAt": "2021-07-25T23:00:31.000Z",
                 "filePath": "/en/rules/rule-1.md"
               },
               {
@@ -2400,12 +2508,12 @@
                 "slug": "/rules/rule-2",
                 "url": "https:///website.codespace1.sublayer.io/rules/rule-2",
                 "origin": "/rules/rule-2",
-                "title": "Every SPO should only operate one pool",
-                "description": "It's required to operate a single pool. We do not support pool-splitting.",
+                "title": "Member must be a Single Pool Operator",
+                "description": "It's a requirement that each member operates **a single pool**. No pool-splitting or operation of multiple pools.",
                 "aliases": null,
                 "keywords": null,
                 "template": "RuleDetailPage",
-                "updatedAt": "2021-07-24T17:52:06.000Z",
+                "updatedAt": "2021-07-25T23:00:31.000Z",
                 "filePath": "/en/rules/rule-2.md"
               },
               {
@@ -2415,11 +2523,11 @@
                 "url": "https:///website.codespace1.sublayer.io/rules/rule-3",
                 "origin": "/rules/rule-3",
                 "title": "Every SPO should have a Telegram handle",
-                "description": "Make sure to define a Telegram handle for every SPO of your stake pool.",
+                "description": "Make sure to define a Telegram handle in your `identity` file for your stake pool.",
                 "aliases": null,
                 "keywords": null,
                 "template": "RuleDetailPage",
-                "updatedAt": "2021-07-24T17:52:06.000Z",
+                "updatedAt": "2021-07-25T23:00:31.000Z",
                 "filePath": "/en/rules/rule-3.md"
               },
               {
@@ -2475,7 +2583,7 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "RuleDetailPage",
-                "updatedAt": "2021-07-24T17:52:06.000Z",
+                "updatedAt": "2021-07-25T23:00:31.000Z",
                 "filePath": "/en/rules/rule-7.md"
               },
               {
@@ -2484,12 +2592,12 @@
                 "slug": "/rules/rule-8",
                 "url": "https:///website.codespace1.sublayer.io/rules/rule-8",
                 "origin": "/rules/rule-8",
-                "title": "Pool is recommended to completely run on ARM",
+                "title": "Pool is recommended to completely run on ARM devices",
                 "description": "We validate this by looking at your list of nodes. We'll look for at least one block producer and one relay that run on an ARM device.",
                 "aliases": null,
                 "keywords": null,
                 "template": "RuleDetailPage",
-                "updatedAt": "2021-07-24T17:52:06.000Z",
+                "updatedAt": "2021-07-25T23:00:31.000Z",
                 "filePath": "/en/rules/rule-8.md"
               },
               {
@@ -2522,6 +2630,7 @@
                 "aliases": null,
                 "keywords": null,
                 "template": "StatusPage",
+                "updatedAt": "2021-07-25T22:18:14.000Z",
                 "filePath": "/en/status.md"
               },
               {
@@ -2596,7 +2705,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-18T02:25:03.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/ACTUS.md"
               },
               {
@@ -2624,7 +2733,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/ASIC.md"
               },
               {
@@ -2648,7 +2757,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/active-endpoint.md"
               },
               {
@@ -2694,7 +2803,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-18T02:25:03.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/ada.md"
               },
               {
@@ -2740,7 +2849,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:15:17.000Z",
                 "filePath": "/en/terms/adalite.md"
               },
               {
@@ -2767,7 +2876,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/address.md"
               },
               {
@@ -2801,7 +2910,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/adrestia.md"
               },
               {
@@ -2832,7 +2941,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/airdrop.md"
               },
               {
@@ -2867,7 +2976,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/alice-bob.md"
               },
               {
@@ -2897,7 +3006,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/altcoins.md"
               },
               {
@@ -2936,7 +3045,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/asset-group.md"
               },
               {
@@ -2979,7 +3088,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/atomic-swap.md"
               },
               {
@@ -3007,7 +3116,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/balance-wallet.md"
               },
               {
@@ -3042,7 +3151,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/basho.md"
               },
               {
@@ -3076,7 +3185,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/bft.md"
               },
               {
@@ -3102,7 +3211,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/block.md"
               },
               {
@@ -3128,7 +3237,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/blockchain-explorer.md"
               },
               {
@@ -3173,7 +3282,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/blockchain.md"
               },
               {
@@ -3199,7 +3308,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/byron.md"
               },
               {
@@ -3226,7 +3335,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/cardano-cli-js.md"
               },
               {
@@ -3260,7 +3369,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/cardano-cli.md"
               },
               {
@@ -3285,7 +3394,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/cardano-foundation.md"
               },
               {
@@ -3319,7 +3428,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/cardano-node.md"
               },
               {
@@ -3350,7 +3459,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/cardano.md"
               },
               {
@@ -3380,7 +3489,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/cfd.md"
               },
               {
@@ -3406,7 +3515,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/chain.md"
               },
               {
@@ -3434,7 +3543,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/cold-wallet.md"
               },
               {
@@ -3465,7 +3574,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/consensus.md"
               },
               {
@@ -3493,7 +3602,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/contract-application.md"
               },
               {
@@ -3524,7 +3633,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/contract-executable.md"
               },
               {
@@ -3560,7 +3669,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/cost-per-epoch.md"
               },
               {
@@ -3601,7 +3710,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-18T01:43:37.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/crypto-mining.md"
               },
               {
@@ -3626,7 +3735,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-14T03:39:25.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/cryptocurrency-wallet.md"
               },
               {
@@ -3660,7 +3769,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-14T03:39:25.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/cryptocurrency.md"
               },
               {
@@ -3690,7 +3799,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/currency.md"
               },
               {
@@ -3716,8 +3825,38 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/daedalus.md"
+              },
+              {
+                "id": "dao",
+                "language": "en",
+                "slug": "/terms/dao",
+                "url": "https:///website.codespace1.sublayer.io/terms/dao",
+                "origin": "/terms/dao",
+                "title": "DAO",
+                "description": "A decentralized autonomous organization.",
+                "aliases": [
+                  "Cardano currency",
+                  "ADA",
+                  "Cardano tokens",
+                  "Cardano"
+                ],
+                "keywords": [
+                  "Cardano",
+                  "tokens",
+                  "currency",
+                  "ada"
+                ],
+                "template": "TermDetailPage",
+                "identities": [
+                  {
+                    "id": "wael-ivie",
+                    "role": "author"
+                  }
+                ],
+                "updatedAt": "2021-07-27T13:13:48.000Z",
+                "filePath": "/en/terms/dao.md"
               },
               {
                 "id": "dapp",
@@ -3745,7 +3884,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-27T17:04:13.000Z",
                 "filePath": "/en/terms/dapp.md"
               },
               {
@@ -3778,7 +3917,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/datum.md"
               },
               {
@@ -3788,7 +3927,7 @@
                 "url": "https:///website.codespace1.sublayer.io/terms/de-fi",
                 "origin": "/terms/de-fi",
                 "title": "DeFi",
-                "description": "Decentralized finance. Refers to financial instruments and mechanisms built on the blockchain using smart contracts. Examples include swaps, bonding curves, and escrow.",
+                "description": "Decentralized finance.",
                 "aliases": [
                   "Hard Fork"
                 ],
@@ -3804,7 +3943,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-27T12:01:58.000Z",
                 "filePath": "/en/terms/de-fi.md"
               },
               {
@@ -3832,7 +3971,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/decentralized.md"
               },
               {
@@ -3862,7 +4001,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/delegate.md"
               },
               {
@@ -3904,7 +4043,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/digital-asset.md"
               },
               {
@@ -3930,7 +4069,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/double-spending-problem.md"
               },
               {
@@ -3954,39 +4093,8 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/emurgo.md"
-              },
-              {
-                "id": "endpoint",
-                "language": "en",
-                "slug": "/terms/endpoint",
-                "url": "https:///website.codespace1.sublayer.io/terms/endpoint",
-                "origin": "/terms/endpoint",
-                "title": "Endpoint",
-                "description": "A potential request made by a contract application for user input. Every endpoint has a name and a type.",
-                "aliases": [
-                  "plutus endpoint",
-                  "marlowe endpoints",
-                  "plutus smart contract endpoints",
-                  "utxo smart contracts"
-                ],
-                "keywords": [
-                  "plutus",
-                  "cardano",
-                  "endpoint",
-                  "marlowe",
-                  "smart"
-                ],
-                "template": "TermDetailPage",
-                "identities": [
-                  {
-                    "id": "wael-ivie",
-                    "role": "author"
-                  }
-                ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
-                "filePath": "/en/terms/endpoint.md"
               },
               {
                 "id": "epoch",
@@ -4011,7 +4119,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/epoch.md"
               },
               {
@@ -4041,7 +4149,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/eutxo.md"
               },
               {
@@ -4086,7 +4194,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/fake-stake.md"
               },
               {
@@ -4117,7 +4225,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/faucet.md"
               },
               {
@@ -4146,7 +4254,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/fee.md"
               },
               {
@@ -4178,7 +4286,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/fifty-one-percent-attack.md"
               },
               {
@@ -4203,7 +4311,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/forging-context.md"
               },
               {
@@ -4230,7 +4338,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/forging-policy-script.md"
               },
               {
@@ -4271,7 +4379,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/forging.md"
               },
               {
@@ -4297,7 +4405,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/fork.md"
               },
               {
@@ -4335,7 +4443,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/fungible-token-asset.md"
               },
               {
@@ -4366,7 +4474,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/genesis-block.md"
               },
               {
@@ -4390,7 +4498,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/goguen.md"
               },
               {
@@ -4424,7 +4532,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/hard-fork.md"
               },
               {
@@ -4453,8 +4561,39 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/hardware-wallet.md"
+              },
+              {
+                "id": "hash-function",
+                "language": "en",
+                "slug": "/terms/hash-function",
+                "url": "https:///website.codespace1.sublayer.io/terms/hash-function",
+                "origin": "/terms/hash-function",
+                "title": "Hash function",
+                "description": "A hash function is a type of Hash-based cryptography algorithm which encrypts a large, possibly variable-sized amount of data into a small datum, usually a single integer that may serve as an index to an array.",
+                "aliases": [
+                  "hash",
+                  "hash function",
+                  "cryptographic hash function",
+                  "crypto hash algorithm"
+                ],
+                "keywords": [
+                  "Hash-based cryptography",
+                  "hash",
+                  "hash function",
+                  "cryptographic hash function",
+                  "crypto hash algorithm"
+                ],
+                "template": "TermDetailPage",
+                "identities": [
+                  {
+                    "id": "wael-ivie",
+                    "role": "author"
+                  }
+                ],
+                "updatedAt": "2021-07-26T07:31:41.000Z",
+                "filePath": "/en/terms/hash-function.md"
               },
               {
                 "id": "hodl",
@@ -4487,7 +4626,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/hodl.md"
               },
               {
@@ -4512,7 +4651,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/hot-wallet.md"
               },
               {
@@ -4541,7 +4680,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/hydra.md"
               },
               {
@@ -4566,7 +4705,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/incentive.md"
               },
               {
@@ -4590,7 +4729,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/interoperability.md"
               },
               {
@@ -4617,7 +4756,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/ipfs.md"
               },
               {
@@ -4642,7 +4781,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/key-pair.md"
               },
               {
@@ -4668,7 +4807,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/ledger-wallet.md"
               },
               {
@@ -4704,7 +4843,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/ledger.md"
               },
               {
@@ -4730,7 +4869,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/live-stake.md"
               },
               {
@@ -4760,7 +4899,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/lovelace.md"
               },
               {
@@ -4792,7 +4931,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-18T02:25:03.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/mainnet.md"
               },
               {
@@ -4823,7 +4962,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/marlowe.md"
               },
               {
@@ -4864,7 +5003,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/metadata.md"
               },
               {
@@ -4904,7 +5043,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/minting-transaction.md"
               },
               {
@@ -4931,7 +5070,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/minting.md"
               },
               {
@@ -4964,7 +5103,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/multi-asset.md"
               },
               {
@@ -4998,7 +5137,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/multisig.md"
               },
               {
@@ -5033,7 +5172,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/native-token.md"
               },
               {
@@ -5075,7 +5214,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/network.md"
               },
               {
@@ -5115,7 +5254,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/nft.md"
               },
               {
@@ -5153,7 +5292,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/obft.md"
               },
               {
@@ -5183,7 +5322,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/off-chain-code.md"
               },
               {
@@ -5210,7 +5349,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/on-chain-code.md"
               },
               {
@@ -5230,7 +5369,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/oracle-pool.md"
               },
               {
@@ -5255,7 +5394,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/oracle.md"
               },
               {
@@ -5292,7 +5431,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/ouroboros.md"
               },
               {
@@ -5318,7 +5457,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/pab-client-api.md"
               },
               {
@@ -5347,7 +5486,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/passive-node.md"
               },
               {
@@ -5380,7 +5519,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/peer-discovery.md"
               },
               {
@@ -5421,7 +5560,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/peer-to-peer.md"
               },
               {
@@ -5452,7 +5591,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/pledge.md"
               },
               {
@@ -5479,7 +5618,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/plutus-application-backend.md"
               },
               {
@@ -5508,7 +5647,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/plutus-application.md"
               },
               {
@@ -5533,7 +5672,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/plutus-core.md"
               },
               {
@@ -5558,7 +5697,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/plutus-ir.md"
               },
               {
@@ -5583,7 +5722,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/plutus-platform.md"
               },
               {
@@ -5608,7 +5747,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/plutus-sdk.md"
               },
               {
@@ -5633,7 +5772,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/plutus-tx.md"
               },
               {
@@ -5665,8 +5804,37 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/plutus.md"
+              },
+              {
+                "id": "pool-id",
+                "language": "en",
+                "slug": "/terms/pool-id",
+                "url": "https:///website.codespace1.sublayer.io/terms/pool-id",
+                "origin": "/terms/pool-id",
+                "title": "Pool ID",
+                "description": "This is the `hash` of you stake-pool's metadata JSON file that you have registered on chain when setting up your stake-pool.",
+                "aliases": [
+                  "stake-pool-address",
+                  "pool-id",
+                  "stake-pool-id"
+                ],
+                "keywords": [
+                  "stake-pool-address",
+                  "pool-id",
+                  "stake-pool-id",
+                  "cardano stake-pool id"
+                ],
+                "template": "TermDetailPage",
+                "identities": [
+                  {
+                    "id": "wael-ivie",
+                    "role": "author"
+                  }
+                ],
+                "updatedAt": "2021-07-26T07:31:41.000Z",
+                "filePath": "/en/terms/pool-id.md"
               },
               {
                 "id": "private-key",
@@ -5687,7 +5855,7 @@
                   "wallet"
                 ],
                 "template": "TermDetailPage",
-                "updatedAt": "2021-06-23T22:12:36.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/private-key.md"
               },
               {
@@ -5721,7 +5889,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/produced-blocks.md"
               },
               {
@@ -5756,7 +5924,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/proof-of-stake--po-s.md"
               },
               {
@@ -5786,7 +5954,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/proof-of-work.md"
               },
               {
@@ -5829,7 +5997,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/protocol.md"
               },
               {
@@ -5858,7 +6026,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/public-key.md"
               },
               {
@@ -5882,7 +6050,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/redeemer.md"
               },
               {
@@ -5913,7 +6081,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/reward.md"
               },
               {
@@ -5952,7 +6120,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/rewards-wallet.md"
               },
               {
@@ -5976,7 +6144,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/satoshi-labs.md"
               },
               {
@@ -6005,7 +6173,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/satoshi.md"
               },
               {
@@ -6038,7 +6206,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/saturation.md"
               },
               {
@@ -6066,7 +6234,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/schema.md"
               },
               {
@@ -6097,7 +6265,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/script-output.md"
               },
               {
@@ -6122,7 +6290,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/script.md"
               },
               {
@@ -6147,7 +6315,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/securitization.md"
               },
               {
@@ -6181,7 +6349,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/security-token.md"
               },
               {
@@ -6209,7 +6377,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/shelly.md"
               },
               {
@@ -6237,7 +6405,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/slot-leader.md"
               },
               {
@@ -6271,7 +6439,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/slot.md"
               },
               {
@@ -6311,7 +6479,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/smart-contract.md"
               },
               {
@@ -6340,7 +6508,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/stablecoin.md"
               },
               {
@@ -6375,7 +6543,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-21T01:15:44.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/stake-pool-alliance.md"
               },
               {
@@ -6405,7 +6573,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-22T06:52:45.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/stake-pool-operator.md"
               },
               {
@@ -6441,7 +6609,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/stake-pool-performance.md"
               },
               {
@@ -6474,7 +6642,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/stake-pool-profit-margin.md"
               },
               {
@@ -6505,7 +6673,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/stake-pool.md"
               },
               {
@@ -6547,7 +6715,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/staking.md"
               },
               {
@@ -6572,7 +6740,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/sybil-attack.md"
               },
               {
@@ -6612,7 +6780,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/testnet.md"
               },
               {
@@ -6659,7 +6827,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/token-minting.md"
               },
               {
@@ -6689,7 +6857,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/token.md"
               },
               {
@@ -6727,7 +6895,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/tokenization.md"
               },
               {
@@ -6757,7 +6925,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/tps.md"
               },
               {
@@ -6782,7 +6950,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/trezor-wallet.md"
               },
               {
@@ -6808,7 +6976,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/trezor.md"
               },
               {
@@ -6833,7 +7001,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/trusted-peer.md"
               },
               {
@@ -6862,7 +7030,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/utility-token.md"
               },
               {
@@ -6889,7 +7057,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/utxo.md"
               },
               {
@@ -6914,7 +7082,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/validation-context.md"
               },
               {
@@ -6940,7 +7108,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/validator-script.md"
               },
               {
@@ -6966,7 +7134,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/voltaire.md"
               },
               {
@@ -6997,7 +7165,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/whale.md"
               },
               {
@@ -7022,7 +7190,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/yoroi.md"
               },
               {
@@ -7056,7 +7224,7 @@
                     "role": "author"
                   }
                 ],
-                "updatedAt": "2021-07-10T20:43:29.000Z",
+                "updatedAt": "2021-07-26T07:31:41.000Z",
                 "filePath": "/en/terms/zero-knowledge-proof.md"
               },
               {
@@ -7834,18 +8002,18 @@
           "attrs": {
             "component-type": "Context",
             "component-id": "Context",
-            "component-cached-at": "2021-07-25T21:08:23.962Z",
-            "component-cached-in": "4.07 ms",
-            "component-resolved-in": "4.07 ms"
+            "component-cached-at": "2021-07-28T12:17:48.416Z",
+            "component-cached-in": "653 μs",
+            "component-resolved-in": "653 μs"
           },
           "components": {}
         },
         "Header": {
           "_cacheKey": "{\"component\":{\"type\":\"Header\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-25T21:08:23.963Z",
-          "_cachedIn": "4.51 ms",
-          "_resolvedIn": "4.51 ms",
+          "_cachedAt": "2021-07-28T12:17:48.416Z",
+          "_cachedIn": "807 μs",
+          "_resolvedIn": "807 μs",
           "id": "Header",
           "type": "Header",
           "status": "resolved",
@@ -7856,17 +8024,17 @@
           "attrs": {
             "component-type": "Header",
             "component-id": "Header",
-            "component-cached-at": "2021-07-25T21:08:23.963Z",
-            "component-cached-in": "4.51 ms",
-            "component-resolved-in": "4.51 ms"
+            "component-cached-at": "2021-07-28T12:17:48.416Z",
+            "component-cached-in": "807 μs",
+            "component-resolved-in": "807 μs"
           },
           "components": {
             "SearchBox": {
               "_cacheKey": "{\"component\":{\"type\":\"SearchBox\",\"version\":1}}",
               "_fromCache": false,
-              "_cachedAt": "2021-07-25T21:08:23.962Z",
-              "_cachedIn": "535 μs",
-              "_resolvedIn": "535 μs",
+              "_cachedAt": "2021-07-28T12:17:48.416Z",
+              "_cachedIn": "130 μs",
+              "_resolvedIn": "130 μs",
               "id": "SearchBox",
               "type": "SearchBox",
               "status": "resolved",
@@ -7926,9 +8094,9 @@
               "attrs": {
                 "component-type": "SearchBox",
                 "component-id": "SearchBox",
-                "component-cached-at": "2021-07-25T21:08:23.962Z",
-                "component-cached-in": "535 μs",
-                "component-resolved-in": "535 μs"
+                "component-cached-at": "2021-07-28T12:17:48.416Z",
+                "component-cached-in": "130 μs",
+                "component-resolved-in": "130 μs"
               },
               "components": {}
             }
@@ -7937,9 +8105,9 @@
         "Footer": {
           "_cacheKey": "{\"component\":{\"type\":\"Footer\",\"version\":1}}",
           "_fromCache": false,
-          "_cachedAt": "2021-07-25T21:08:23.961Z",
-          "_cachedIn": "3.25 ms",
-          "_resolvedIn": "3.25 ms",
+          "_cachedAt": "2021-07-28T12:17:48.415Z",
+          "_cachedIn": "329 μs",
+          "_resolvedIn": "329 μs",
           "id": "Footer",
           "type": "Footer",
           "status": "resolved",
@@ -7948,9 +8116,9 @@
           "attrs": {
             "component-type": "Footer",
             "component-id": "Footer",
-            "component-cached-at": "2021-07-25T21:08:23.961Z",
-            "component-cached-in": "3.25 ms",
-            "component-resolved-in": "3.25 ms"
+            "component-cached-at": "2021-07-28T12:17:48.415Z",
+            "component-cached-in": "329 μs",
+            "component-resolved-in": "329 μs"
           },
           "components": {}
         }
@@ -7959,9 +8127,9 @@
     "PageHeader": {
       "_cacheKey": "{\"component\":{\"type\":\"PageHeader\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-25T21:08:23.962Z",
-      "_cachedIn": "7.18 ms",
-      "_resolvedIn": "7.18 ms",
+      "_cachedAt": "2021-07-28T12:17:48.415Z",
+      "_cachedIn": "899 μs",
+      "_resolvedIn": "899 μs",
       "id": "PageHeader",
       "type": "PageHeader",
       "status": "resolved",
@@ -7995,18 +8163,18 @@
       "attrs": {
         "component-type": "PageHeader",
         "component-id": "PageHeader",
-        "component-cached-at": "2021-07-25T21:08:23.962Z",
-        "component-cached-in": "7.18 ms",
-        "component-resolved-in": "7.18 ms"
+        "component-cached-at": "2021-07-28T12:17:48.415Z",
+        "component-cached-in": "899 μs",
+        "component-resolved-in": "899 μs"
       },
       "components": {}
     },
     "PageExcerpt": {
       "_cacheKey": "{\"component\":{\"type\":\"PageExcerpt\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-25T21:08:23.960Z",
-      "_cachedIn": "5.3 ms",
-      "_resolvedIn": "5.3 ms",
+      "_cachedAt": "2021-07-28T12:17:48.415Z",
+      "_cachedIn": "443 μs",
+      "_resolvedIn": "443 μs",
       "id": "PageExcerpt",
       "type": "PageExcerpt",
       "status": "resolved",
@@ -8017,18 +8185,18 @@
       "attrs": {
         "component-type": "PageExcerpt",
         "component-id": "PageExcerpt",
-        "component-cached-at": "2021-07-25T21:08:23.960Z",
-        "component-cached-in": "5.3 ms",
-        "component-resolved-in": "5.3 ms"
+        "component-cached-at": "2021-07-28T12:17:48.415Z",
+        "component-cached-in": "443 μs",
+        "component-resolved-in": "443 μs"
       },
       "components": {}
     },
     "PageContent": {
       "_cacheKey": "{\"component\":{\"type\":\"PageContent\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-25T21:08:23.962Z",
-      "_cachedIn": "7.18 ms",
-      "_resolvedIn": "7.18 ms",
+      "_cachedAt": "2021-07-28T12:17:48.415Z",
+      "_cachedIn": "900 μs",
+      "_resolvedIn": "900 μs",
       "id": "PageContent",
       "type": "PageContent",
       "status": "resolved",
@@ -8047,18 +8215,18 @@
       "attrs": {
         "component-type": "PageContent",
         "component-id": "PageContent",
-        "component-cached-at": "2021-07-25T21:08:23.962Z",
-        "component-cached-in": "7.18 ms",
-        "component-resolved-in": "7.18 ms"
+        "component-cached-at": "2021-07-28T12:17:48.415Z",
+        "component-cached-in": "900 μs",
+        "component-resolved-in": "900 μs"
       },
       "components": {}
     },
     "ContentSections": {
       "_cacheKey": "{\"component\":{\"type\":\"ContentSections\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-25T21:08:23.962Z",
-      "_cachedIn": "7.18 ms",
-      "_resolvedIn": "7.18 ms",
+      "_cachedAt": "2021-07-28T12:17:48.415Z",
+      "_cachedIn": "902 μs",
+      "_resolvedIn": "902 μs",
       "id": "ContentSections",
       "type": "ContentSections",
       "status": "resolved",
@@ -8067,18 +8235,18 @@
       "attrs": {
         "component-type": "ContentSections",
         "component-id": "ContentSections",
-        "component-cached-at": "2021-07-25T21:08:23.962Z",
-        "component-cached-in": "7.18 ms",
-        "component-resolved-in": "7.18 ms"
+        "component-cached-at": "2021-07-28T12:17:48.415Z",
+        "component-cached-in": "902 μs",
+        "component-resolved-in": "902 μs"
       },
       "components": {}
     },
     "QualityReportSection": {
       "_cacheKey": "{\"component\":{\"type\":\"QualityReportSection\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-25T21:08:23.960Z",
-      "_cachedIn": "5.31 ms",
-      "_resolvedIn": "5.31 ms",
+      "_cachedAt": "2021-07-28T12:17:48.415Z",
+      "_cachedIn": "446 μs",
+      "_resolvedIn": "446 μs",
       "id": "QualityReportSection",
       "type": "QualityReportSection",
       "status": "resolved",
@@ -8088,7 +8256,7 @@
           {
             "id": "rule-1",
             "name": "Pool should have at least one SPO",
-            "description": "Make sure to define at least one SPO in the pool markdown file.",
+            "description": "Make sure to define at **least** one SPO in your pool markdown file.",
             "number": 1,
             "link": {
               "name": "Pool should have at least one SPO",
@@ -8104,11 +8272,11 @@
           },
           {
             "id": "rule-2",
-            "name": "Every SPO should only operate one pool",
-            "description": "It's required to operate a single pool. We do not support pool-splitting.",
+            "name": "Member must be a Single Pool Operator",
+            "description": "It's a requirement that each member operates **a single pool**. No pool-splitting or operation of multiple pools.",
             "number": 2,
             "link": {
-              "name": "Every SPO should only operate one pool",
+              "name": "Member must be a Single Pool Operator",
               "href": "/rules/rule-2"
             },
             "checks": [
@@ -8122,7 +8290,7 @@
           {
             "id": "rule-3",
             "name": "Every SPO should have a Telegram handle",
-            "description": "Make sure to define a Telegram handle for every SPO of your stake pool.",
+            "description": "Make sure to define a Telegram handle in your `identity` file for your stake pool.",
             "number": 3,
             "link": {
               "name": "Every SPO should have a Telegram handle",
@@ -8206,11 +8374,11 @@
           },
           {
             "id": "rule-8",
-            "name": "Pool is recommended to completely run on ARM",
+            "name": "Pool is recommended to completely run on ARM devices",
             "description": "We validate this by looking at your list of nodes. We'll look for at least one block producer and one relay that run on an ARM device.",
             "number": 8,
             "link": {
-              "name": "Pool is recommended to completely run on ARM",
+              "name": "Pool is recommended to completely run on ARM devices",
               "href": "/rules/rule-8"
             },
             "checks": [
@@ -8226,18 +8394,18 @@
       "attrs": {
         "component-type": "QualityReportSection",
         "component-id": "QualityReportSection",
-        "component-cached-at": "2021-07-25T21:08:23.960Z",
-        "component-cached-in": "5.31 ms",
-        "component-resolved-in": "5.31 ms"
+        "component-cached-at": "2021-07-28T12:17:48.415Z",
+        "component-cached-in": "446 μs",
+        "component-resolved-in": "446 μs"
       },
       "components": {}
     },
     "DelegationSection": {
       "_cacheKey": "{\"component\":{\"type\":\"DelegationSection\",\"version\":1}}",
       "_fromCache": false,
-      "_cachedAt": "2021-07-25T21:08:23.960Z",
-      "_cachedIn": "5.31 ms",
-      "_resolvedIn": "5.31 ms",
+      "_cachedAt": "2021-07-28T12:17:48.415Z",
+      "_cachedIn": "449 μs",
+      "_resolvedIn": "449 μs",
       "id": "DelegationSection",
       "type": "DelegationSection",
       "status": "resolved",
@@ -8257,12 +8425,12 @@
             "ticker": "BHMT",
             "addr": "pool1q5h54ekx7wwqpfz78y8dppyl6uv7rpyvvr8nhf4es434un4mpx3",
             "website": "https://www.behemothpool.com",
-            "totalStake": "6064704249",
+            "totalStake": "6065379569",
             "blocksLifetime": 0,
             "delegators": 4,
-            "saturated": 0.00009068834845531657,
+            "saturated": 0.00009276964504487273,
             "pledge": "150000000",
-            "pledged": "171164676",
+            "pledged": "172683193",
             "taxRatio": 0,
             "taxFix": "345000000",
             "roa": "0",
@@ -8374,10 +8542,10 @@
             "ticker": "YYC",
             "addr": "pool1z724xxqgzf9a30eejsa4edznmv8hgy27ssxqfcpqz42sc6lfqwu",
             "website": "https://bit.ly/3cRZRen",
-            "totalStake": "4103070829",
+            "totalStake": "5070185631",
             "blocksLifetime": 0,
-            "delegators": 4,
-            "saturated": 0.00006135512991232041,
+            "delegators": 5,
+            "saturated": 0.0000775482088051799,
             "pledge": "1000000000",
             "pledged": "1000000000",
             "taxRatio": 0.02,
@@ -8495,7 +8663,7 @@
             "totalStake": "13523874116",
             "blocksLifetime": 0,
             "delegators": 3,
-            "saturated": 0.000202228791041191,
+            "saturated": 0.00020684690662808907,
             "pledge": "9500000000",
             "pledged": "12938377515",
             "taxRatio": 0,
@@ -8619,10 +8787,10 @@
             "ticker": "BERRY",
             "addr": "pool19f6guwy97mmnxg9dz65rxyj8hq07qxud886hamyu4fgfz7dj9gl",
             "website": "https://pipool.online",
-            "totalStake": "17768695799466",
-            "blocksLifetime": 140,
-            "delegators": 311,
-            "saturated": 0.2657035875284761,
+            "totalStake": "17766825551908",
+            "blocksLifetime": 148,
+            "delegators": 323,
+            "saturated": 0.27174261417186507,
             "pledge": "450000000000",
             "pledged": "473770147588",
             "taxRatio": 0.015,
@@ -8839,7 +9007,7 @@
             "totalStake": "4008772925",
             "blocksLifetime": 0,
             "delegators": 3,
-            "saturated": 0.00005994504941614979,
+            "saturated": 0.00006131396017134344,
             "pledge": "1000000000",
             "pledged": "1099502088",
             "taxRatio": 0.035,
@@ -8954,12 +9122,12 @@
             "ticker": "SUDTI",
             "addr": "pool19k4azhj8tye5wwy5pfj7q6m938m8fg5nglds5dkhtfwnvcg3s0k",
             "website": "https://southtyrolpool.it",
-            "totalStake": "250317186984",
+            "totalStake": "413353058653",
             "blocksLifetime": 0,
-            "delegators": 20,
-            "saturated": 0.0037431095310711537,
+            "delegators": 24,
+            "saturated": 0.006322212170436925,
             "pledge": "7700000000",
-            "pledged": "7776960925",
+            "pledged": "7756700820",
             "taxRatio": 0,
             "taxFix": "340000000",
             "roa": "0",
@@ -9098,12 +9266,12 @@
             "ticker": "00000",
             "addr": "pool1xdcg6kg0g4y3wqf92f8uh44urz06suglhff036k5yak2g0m8zlc",
             "website": "https://adaberrypi.com",
-            "totalStake": "39018934186",
+            "totalStake": "39020452703",
             "blocksLifetime": 0,
             "delegators": 11,
-            "saturated": 0.0005834683035695434,
+            "saturated": 0.0005968156659558192,
             "pledge": "32000000000",
-            "pledged": "32846647332",
+            "pledged": "32848165849",
             "taxRatio": 0.0314,
             "taxFix": "340000000",
             "roa": "0",
@@ -9113,6 +9281,23 @@
               {
                 "id": "DeCentN2Madness",
                 "role": "spo"
+              }
+            ],
+            "nodes": [
+              {
+                "role": "producer",
+                "deviceId": "raspberry-pi-4-8gb",
+                "storage": "WD_BLACK 500GB SN750 NVMe"
+              },
+              {
+                "role": "relay",
+                "deviceId": "raspberry-pi-4-8gb",
+                "storage": "Kingston SA400S37 Internal SSD 240GB"
+              },
+              {
+                "role": "relay",
+                "deviceId": "raspberry-pi-4-8gb",
+                "storage": "Kingston SA400S37 Internal SSD 240GB"
               }
             ],
             "relays": [
@@ -9223,12 +9408,12 @@
             "ticker": "QXT",
             "addr": "pool1x5dfpgp987e4jhxvgczr3wv50nv2pwd873tlx3uthvcasm422q6",
             "website": "https://quixote.systems",
-            "totalStake": "630965129922",
+            "totalStake": "674031179977",
             "blocksLifetime": 1,
-            "delegators": 147,
-            "saturated": 0.009435115582916601,
+            "delegators": 177,
+            "saturated": 0.01030926961854628,
             "pledge": "5000000000",
-            "pledged": "5442802499",
+            "pledged": "5441146410",
             "taxRatio": 0,
             "taxFix": "340000000",
             "roa": "0.71",
@@ -9396,7 +9581,7 @@
             "totalStake": "16156058106",
             "blocksLifetime": 1,
             "delegators": 6,
-            "saturated": 0.0002415890646972371,
+            "saturated": 0.00024710601517475433,
             "pledge": "100000000",
             "pledged": "452728957",
             "taxRatio": 0.015,
@@ -9531,7 +9716,7 @@
             "totalStake": "3208385494",
             "blocksLifetime": 6,
             "delegators": 8,
-            "saturated": 0.000055453216196316,
+            "saturated": 0.000056719551027975415,
             "pledge": "18000000000",
             "pledged": "0",
             "taxRatio": 0.01,
@@ -9639,12 +9824,12 @@
             "ticker": "ST4NA",
             "addr": "pool12ur7gf2psr2grf83u6gturpv2je6vxq9rkg8malygdxqkwnqc5h",
             "website": "https://stakefornature.com",
-            "totalStake": "5355631048",
+            "totalStake": "5457149565",
             "blocksLifetime": 0,
             "delegators": 4,
-            "saturated": 0.00008008524649148745,
+            "saturated": 0.00008346680077357442,
             "pledge": "1650204431",
-            "pledged": "2967454618",
+            "pledged": "2968973135",
             "taxRatio": 0,
             "taxFix": "340000000",
             "roa": "0",
@@ -9775,7 +9960,8 @@
                 "social": {
                   "twitter_handle": "NatureStake",
                   "telegram_handle": "ST_4_NA",
-                  "youtube_handle": "channel/UCK4NaspZepg1_t7TOKltxIw"
+                  "youtube_handle": "channel/UCK4NaspZepg1_t7TOKltxIw",
+                  "instagram": "estherstakefornature"
                 },
                 "about": {
                   "me": "We are Esther and Juan Carlos. We are a couple passionate by Nature and at the same time we love new technologies",
@@ -9805,12 +9991,12 @@
             "ticker": "RPI",
             "addr": "pool1wmzuwpa0ax5zf0v5d5ewexv4nts9lzlsaq5smmc3uqayym8muef",
             "website": "https://raspberryrpi.com/",
-            "totalStake": "62571053214",
+            "totalStake": "63343787735",
             "blocksLifetime": 0,
             "delegators": 4,
-            "saturated": 0.000935654113392758,
+            "saturated": 0.0009688397299993796,
             "pledge": "62000000000",
-            "pledged": "62571053214",
+            "pledged": "63343787735",
             "taxRatio": 0.01,
             "taxFix": "340000000",
             "roa": "0",
@@ -9941,7 +10127,7 @@
             "totalStake": "11334138812",
             "blocksLifetime": 0,
             "delegators": 10,
-            "saturated": 0.00016948465874375794,
+            "saturated": 0.00017335502626291706,
             "pledge": "800000000",
             "pledged": "808810443",
             "taxRatio": 0,
@@ -10051,7 +10237,7 @@
             "totalStake": "10182973421",
             "blocksLifetime": 0,
             "delegators": 5,
-            "saturated": 0.0001522707462721114,
+            "saturated": 0.00015574801527603184,
             "pledge": "100000000",
             "pledged": "628348804",
             "taxRatio": 0,
@@ -10063,6 +10249,23 @@
               {
                 "id": "pgwad",
                 "role": "spo"
+              }
+            ],
+            "nodes": [
+              {
+                "role": "producer",
+                "deviceId": "raspberry-pi-4-8gb",
+                "storage": "WD_Black NVMe SSD 512GB"
+              },
+              {
+                "role": "relay",
+                "deviceId": "raspberry-pi-4-8gb",
+                "storage": "WD_Black NVMe SSD 512GB"
+              },
+              {
+                "role": "relay",
+                "deviceId": "raspberry-pi-4-8gb",
+                "storage": "WD_Black NVMe SSD 512GB"
               }
             ],
             "relays": [
@@ -10122,12 +10325,12 @@
             "ticker": "SBLYR",
             "addr": "pool1sfjdu0xmz7vdmp6cufxd55gprp95g4p703zzr3upt70dst0fur2",
             "website": "https://pool.sublayer.io",
-            "totalStake": "1664707748859",
-            "blocksLifetime": 9,
+            "totalStake": "1664709267376",
+            "blocksLifetime": 10,
             "delegators": 21,
-            "saturated": 0.02489315063132448,
+            "saturated": 0.025461636173058712,
             "pledge": "25000000000",
-            "pledged": "37077798539",
+            "pledged": "37079317056",
             "taxRatio": 0.01,
             "taxFix": "340000000",
             "roa": "1.41",
@@ -10241,7 +10444,7 @@
             "totalStake": "62073782426",
             "blocksLifetime": 0,
             "delegators": 7,
-            "saturated": 0.0009282181915988421,
+            "saturated": 0.0009494150690394623,
             "pledge": "3000000000",
             "pledged": "3002007384",
             "taxRatio": 0,
@@ -10365,10 +10568,10 @@
             "ticker": "SOLRP",
             "addr": "pool1ju5tzz5jdszg47fcuhzjq5e3nk6mays73d5csskr4lfucg397c3",
             "website": "https://solarcardano.com/",
-            "totalStake": "3778820285303",
-            "blocksLifetime": 39,
-            "delegators": 33,
-            "saturated": 0.05650646044942483,
+            "totalStake": "3778871353275",
+            "blocksLifetime": 42,
+            "delegators": 34,
+            "saturated": 0.05779762834716662,
             "pledge": "8000000000",
             "pledged": "8000692982",
             "taxRatio": 0.01,
@@ -10495,10 +10698,10 @@
             "ticker": "BONE",
             "addr": "pool1j742gcsul7u8c05rsqmkgpkvj5qadj0pew69nctu6crqy9wjjn4",
             "website": "https://poolbone.github.io/meta/",
-            "totalStake": "363453317142",
-            "blocksLifetime": 7,
-            "delegators": 13,
-            "saturated": 0.005434886800563979,
+            "totalStake": "497507137569",
+            "blocksLifetime": 8,
+            "delegators": 14,
+            "saturated": 0.007609344153077653,
             "pledge": "52000000000",
             "pledged": "60501827155",
             "taxRatio": 0.01,
@@ -10637,10 +10840,10 @@
             "ticker": "ASTOR",
             "addr": "pool1n6qqnvjfzskcq9zdld5pnp8q3ktd28pqsh5tkmvarqcayr76puv",
             "website": "http://astorpool.net",
-            "totalStake": "1048323483995",
-            "blocksLifetime": 42,
-            "delegators": 69,
-            "saturated": 0.015676069517504686,
+            "totalStake": "1048011700785",
+            "blocksLifetime": 43,
+            "delegators": 70,
+            "saturated": 0.01602928100025356,
             "pledge": "150000000000",
             "pledged": "211566822992",
             "taxRatio": 0.01,
@@ -10770,10 +10973,10 @@
             "ticker": "CRYPO",
             "addr": "pool15dp6dchtfwml32ls8xuzu4u3xx6kjekc3kvn0enexefxj90hw3c",
             "website": "https://cryptopool.dev/",
-            "totalStake": "69109617808",
+            "totalStake": "69111136325",
             "blocksLifetime": 0,
             "delegators": 9,
-            "saturated": 0.0010334283163798274,
+            "saturated": 0.001057051007703894,
             "pledge": "1000000000",
             "pledged": "1004394659",
             "taxRatio": 0.03,
@@ -10907,10 +11110,10 @@
             "ticker": "PIADA",
             "addr": "pool1hrv8gtrm0dgjg6zyss5uwa4nkruzfnh5vrdkr2sayj7x2nw6mjc",
             "website": "https://piada.io",
-            "totalStake": "14865706135203",
-            "blocksLifetime": 26,
-            "delegators": 27,
-            "saturated": 0.22229383044456302,
+            "totalStake": "15029674712143",
+            "blocksLifetime": 27,
+            "delegators": 34,
+            "saturated": 0.22987804346353283,
             "pledge": "52000000000",
             "pledged": "53236354533",
             "taxRatio": 0.015,
@@ -10926,6 +11129,32 @@
               {
                 "id": "wael-ivie",
                 "role": "spo"
+              }
+            ],
+            "nodes": [
+              {
+                "role": "producer",
+                "deviceId": "raspberry-pi-4-8gb",
+                "storage": "Crucial BX500 Internal SSD 120GB",
+                "isBackup": false
+              },
+              {
+                "role": "relay",
+                "deviceId": "raspberry-pi-4-8gb",
+                "storage": "Crucial BX500 Internal SSD 120GB",
+                "isBackup": false
+              },
+              {
+                "role": "relay",
+                "deviceId": "raspberry-pi-4-8gb",
+                "storage": "Crucial BX500 Internal SSD 120GB",
+                "isBackup": false
+              },
+              {
+                "role": "relay",
+                "deviceId": "raspberry-pi-4-8gb",
+                "storage": "Crucial BX500 Internal SSD 120GB",
+                "isBackup": true
               }
             ],
             "relays": [
@@ -11056,10 +11285,10 @@
             "ticker": "STALE",
             "addr": "pool1hysp9sd0h4k8ll8sxnl0k3gqatd9axzjnaxs7488mw9gze40jp9",
             "website": "https://discord.com/invite/yA9cAtD3et",
-            "totalStake": "385588978921",
+            "totalStake": "368899006810",
             "blocksLifetime": 15,
-            "delegators": 141,
-            "saturated": 0.005765891665151397,
+            "delegators": 142,
+            "saturated": 0.005642289906155383,
             "pledge": "2000000000",
             "pledged": "6036045181",
             "taxRatio": 0.02,
@@ -11167,7 +11396,7 @@
             "totalStake": "36813759811",
             "blocksLifetime": 0,
             "delegators": 5,
-            "saturated": 0.0005504933036496858,
+            "saturated": 0.0005630644202200746,
             "pledge": "10000000000",
             "pledged": "10004423945",
             "taxRatio": 0,
@@ -11284,12 +11513,12 @@
             "ticker": "OTG",
             "addr": "pool1eqj3dzpkcklc2r0v8pt8adrhrshq8m4zsev072ga7a52uj5wv5c",
             "website": "https://adamantium.online",
-            "totalStake": "1068093520258",
-            "blocksLifetime": 241,
-            "delegators": 37,
-            "saturated": 0.015971700081499427,
+            "totalStake": "1069534622042",
+            "blocksLifetime": 242,
+            "delegators": 38,
+            "saturated": 0.016358472890493303,
             "pledge": "500000000000",
-            "pledged": "515029593469",
+            "pledged": "515031093469",
             "taxRatio": 0.0125,
             "taxFix": "340000000",
             "roa": "4.182",
@@ -11299,6 +11528,22 @@
               {
                 "id": "wcat-otg",
                 "role": "spo"
+              }
+            ],
+            "nodes": [
+              {
+                "role": "producer",
+                "deviceId": "mac-mini-m1-16gb"
+              },
+              {
+                "role": "relay",
+                "deviceId": "raspberry-pi-4-8gb",
+                "storage": "Samsung NVME 256GB"
+              },
+              {
+                "role": "relay",
+                "deviceId": "raspberry-pi-4-8gb",
+                "storage": "Samsung NVME 256GB"
               }
             ],
             "relays": [
@@ -11420,7 +11665,7 @@
             "totalStake": "74251226514",
             "blocksLifetime": 2,
             "delegators": 19,
-            "saturated": 0.0011103131870686992,
+            "saturated": 0.0011356684028574146,
             "pledge": "69420000000",
             "pledged": "70400385546",
             "taxRatio": 0.01,
@@ -11432,6 +11677,23 @@
               {
                 "id": "geoff",
                 "role": "spo"
+              }
+            ],
+            "nodes": [
+              {
+                "role": "producer",
+                "deviceId": "raspberry-pi-4-8gb",
+                "storage": "USB 3.1 SSD 250GB"
+              },
+              {
+                "role": "relay",
+                "deviceId": "raspberry-pi-4-8gb",
+                "storage": "USB 3.1 SSD 250GB"
+              },
+              {
+                "role": "relay",
+                "deviceId": "raspberry-pi-4-8gb",
+                "storage": "USB 3.1 SSD 250GB"
               }
             ],
             "relays": [
@@ -11548,10 +11810,10 @@
             "ticker": "SRN",
             "addr": "pool1esd3cqme3zzvvdnsx3p6ywudn6p86mqyz7fpvqpegxv2qzmtes0",
             "website": "https://www.adasrn.com",
-            "totalStake": "3279433538014",
-            "blocksLifetime": 36,
+            "totalStake": "3279435056531",
+            "blocksLifetime": 37,
             "delegators": 18,
-            "saturated": 0.049038897730339315,
+            "saturated": 0.050158777811204945,
             "pledge": "6000000000",
             "pledged": "7936917913",
             "taxRatio": 0.01,
@@ -11563,6 +11825,24 @@
               {
                 "id": "sayshar-srn",
                 "role": "spo"
+              }
+            ],
+            "nodes": [
+              {
+                "role": "producer",
+                "deviceId": "raspberry-pi-4-8gb",
+                "storage": "M.2 2280 MakerDisk SATA III SSD 120GB"
+              },
+              {
+                "role": "relay",
+                "deviceId": "raspberry-pi-4-8gb",
+                "storage": "M.2 2280 MakerDisk SATA III SSD 120GB"
+              },
+              {
+                "role": "relay",
+                "deviceId": "amd-ryzen-5-1600",
+                "memory": "16GB",
+                "storage": "Western Digital Blue WD2500AAKX 250GB 7200 RPM 16MB Cache SATA 6.0Gb/s 3.5\""
               }
             ],
             "relays": [
@@ -11695,10 +11975,10 @@
             "ticker": "OYSTR",
             "addr": "pool1l6aeyn35nkqkn9lqqlwqnpraakdzuukjrqprcrj3sctk6hhe32k",
             "website": "https://twitter.com/OystrPool",
-            "totalStake": "4665182184804",
-            "blocksLifetime": 298,
-            "delegators": 327,
-            "saturated": 0.06976064292876291,
+            "totalStake": "4847514410001",
+            "blocksLifetime": 299,
+            "delegators": 326,
+            "saturated": 0.07414246479546224,
             "pledge": "555400000000",
             "pledged": "571193170340",
             "taxRatio": 0.03,
@@ -11865,12 +12145,12 @@
           "ticker": "QXT",
           "addr": "pool1x5dfpgp987e4jhxvgczr3wv50nv2pwd873tlx3uthvcasm422q6",
           "website": "https://quixote.systems",
-          "totalStake": "630965129922",
+          "totalStake": "674031179977",
           "blocksLifetime": 1,
-          "delegators": 147,
-          "saturated": 0.009435115582916601,
+          "delegators": 177,
+          "saturated": 0.01030926961854628,
           "pledge": "5000000000",
-          "pledged": "5442802499",
+          "pledged": "5441146410",
           "taxRatio": 0,
           "taxFix": "340000000",
           "roa": "0.71",
@@ -12026,9 +12306,9 @@
       "attrs": {
         "component-type": "DelegationSection",
         "component-id": "DelegationSection",
-        "component-cached-at": "2021-07-25T21:08:23.960Z",
-        "component-cached-in": "5.31 ms",
-        "component-resolved-in": "5.31 ms"
+        "component-cached-at": "2021-07-28T12:17:48.415Z",
+        "component-cached-in": "449 μs",
+        "component-resolved-in": "449 μs"
       },
       "components": {}
     }

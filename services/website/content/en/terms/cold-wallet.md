@@ -9,8 +9,6 @@ identities:
       role: author
 ---
 
-##
-
 Unlike [hot wallets](/en/terms/hot-wallets.md), cold wallets never expose the seed or individual private keys to an insecure environment connected to the internet (such as a PC or a smartphone).
 
 One of the most reliable types of cold storage is a hardware wallet, such as [Trezor](/en/terms/trezor-device.md).

@@ -1,19 +1,17 @@
 ---
 template: TermDetailPage
 title: DAO
-description: A decentralized autonomous organization. 
+description: A decentralized autonomous organization.
 aliases: Cardano currency, ADA, Cardano tokens, Cardano
 keywords: Cardano, tokens, currency, ada
-identities: 
-    - id: wael-ivie
-      role: author
+identities:
+  - id: wael-ivie
+    role: author
 ---
-
-##
 
 A DAO is a decentralized autonomous organization that is self-govern and financially sustainable by its tokenomics, protocol, and community of users.
 
-***Basics-***
+**_Basics-_**
 
 - Member-owned communities without centralized leadership.
 - A safe way to collaborate with internet strangers.

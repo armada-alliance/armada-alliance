@@ -207,7 +207,7 @@ const rules = [
                     .map(node =>
                         devices.find(device => device.id === node.deviceId)
                     ).filter(device =>
-                        device.platform === 'ARM'
+                        device && device.platform === 'ARM'
                     )
 
                 if (armDevices.length < 1) {
@@ -244,7 +244,7 @@ const rules = [
                         device: devices.find(device => device.id === node.deviceId),
                     }))
                     .filter(node =>
-                        node.device.platform === 'ARM'
+                        node.device && node.device.platform === 'ARM'
                     )
 
                 const producerOnARM = armNodes.find(node =>
