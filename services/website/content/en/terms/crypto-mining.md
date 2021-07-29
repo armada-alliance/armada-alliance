@@ -4,12 +4,10 @@ title: Crypto mining
 description: In proof-of-work blockchain's like Bitcoin mining is the process by which new crypto-currencies or digital assets are created and distributed to the blockchain's decentralized ledger.
 aliases: crypto-mining, bitcoin-mining, mining, mining-bitcoin, mining-crypto, mining-crypto-currencies, mining-crypto-assets, staking, proof-of-work, proof-of-stake
 keywords: crypto, mining, mining-bitcoin, mining-crypto, mining-crypto-currencies, mining-crypto-assets, staking, proof-of-work, proof-of-stake
-identities: 
-    - id: wael-ivie
-      role: author
+identities:
+  - id: wael-ivie
+    role: author
 ---
-
-##
 
 The work performed by miners consists of a few main actions:
 

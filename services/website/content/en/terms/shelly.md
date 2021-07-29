@@ -4,9 +4,7 @@ title: Shelly
 description: Second phase of Cardano development in which network decentralization will be delivered.
 aliases: shelly era, shelly, cardano shelly
 keywords: shelly, era, cardano
-identities: 
-    - id: wael-ivie
-      role: author
+identities:
+  - id: wael-ivie
+    role: author
 ---
-
-##
