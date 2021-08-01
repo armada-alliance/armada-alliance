@@ -8,6 +8,8 @@ async function main() {
     echo "$(git log -1 --format="%aD" -- $filename) === $filename"
   done`).toString()
 
+    console.log(result)
+
     const items = result
         .split('\n')
         .filter(line => line.length)
