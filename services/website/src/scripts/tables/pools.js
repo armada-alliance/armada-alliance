@@ -75,6 +75,14 @@ const getDataForAddresses = async (addresses) => {
 
 module.exports = {
     id: "pools",
+    transformRow: (ctx, row) => {
+        const checks = ctx.tables.get('checks')
+        const check = checks.find(check => check.poolId === row.id)
+        return {
+            ...row,
+            qualityScore: check.qualityScore
+        }
+    },
     create: async () => {
 
         const pages = await readMarkdownPages()

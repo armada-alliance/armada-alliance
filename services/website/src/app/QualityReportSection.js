@@ -4,6 +4,7 @@ import cx from 'classnames'
 import { CheckCircleIcon, ChevronDownIcon, XCircleIcon, ExternalLinkIcon } from '@heroicons/react/outline'
 import MarkdownContent from './MarkdownContent'
 import Link from './Link'
+import QualityIndicator from './QualityIndicator'
 
 function RuleItem({ rule, open, onToggle }) {
 
@@ -62,7 +63,7 @@ function RuleItem({ rule, open, onToggle }) {
     )
 }
 
-export default function HardwareSection({ rules }) {
+export default function QualityReportSection({ qualityScore, rules }) {
 
     const [open, setOpen] = useState([])
 
@@ -89,9 +90,12 @@ export default function HardwareSection({ rules }) {
                         <h2 className="mt-2 text-3xl font-extrabold text-gray-900 dark:text-gray-100 sm:text-4xl">
                             Quality Report
                         </h2>
-                        <p className="mt-3 text-xl text-gray-500 dark:text-gray-400 sm:mt-4">
+                        <div className="mt-2">
+                            <QualityIndicator qualityScore={qualityScore} />
+                        </div>
+                        {/* <p className="mt-3 text-xl text-gray-500 dark:text-gray-400 sm:mt-4">
 
-                        </p>
+                        </p> */}
                     </div>
                 </div>
                 <div className="mt-12 flex flex-col">
