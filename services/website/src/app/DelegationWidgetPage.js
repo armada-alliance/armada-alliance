@@ -41,7 +41,7 @@ function SquareButton({ image, name, href, rounded = false }) {
 
     return (
         <a href={href} target="_blank" className="border border-gray-200 dark:border-gray-800 rounded-lg shadow p-4 inline-block focus:ring-2 focus:ring-primary-600">
-            <div className={cx("bg-contain bg-center bg-no-repeat w-12 h-12 m-2", rounded ? "rounded-full" : null)} style={{ backgroundImage: `url(${image})` }} />
+            <div className={cx("bg-contain bg-center bg-no-repeat w-12 h-12 m-2", rounded ? "rounded-full" : "rounded-sm", image ? null : "bg-white dark:bg-gray-700")} style={{ backgroundImage: image ? `url(${image})` : null }} />
             <div className="font-bold text-sm">
                 {name}
             </div>
@@ -400,7 +400,9 @@ function Delegation(props) {
                     <div className="font-bold text-xl flex items-center space-x-2">
                         <div>Delegate to</div>
                         <div className="flex flex-nowrap items-center px-2 py-1 space-x-2 rounded-lg bg-gray-50 dark:bg-gray-800">
-                            <div className="h-5 w-5 rounded-full overflow-hidden bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${formatImage(pool.image)})` }} />
+                            {pool.image ? (
+                                <div className="h-5 w-5 rounded-full overflow-hidden bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${formatImage(pool.image)})` }} />
+                            ) : null}
                             <div className="font-bold truncate">
                                 {pool.name}
                             </div>
@@ -464,7 +466,8 @@ const getPool = async (pool_id) => {
         return {
             id: pool_id,
             name: data.db_name,
-            image: data.handles.icon,
+            ticker: data.db_ticker,
+            image: data.handles.icon ? data.handles.icon : null,
             addr: data.pool_id_bech32
         }
     } catch (e) {
