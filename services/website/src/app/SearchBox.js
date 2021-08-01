@@ -14,7 +14,7 @@ import { css } from '@emotion/react'
 function getHighlightedText(text, highlight) {
     // Split text on highlight term, include term itself into parts, ignore case
     const parts = text.split(new RegExp(`(${highlight})`, 'gi'));
-    return <span>{parts.map(part => part.toLowerCase() === highlight.toLowerCase() ? <b className="text-primary-500">{part}</b> : part)}</span>;
+    return <span>{parts.map(part => part.toLowerCase() === highlight.toLowerCase() ? <b className="text-primary-500 group-hover:text-white">{part}</b> : part)}</span>;
 }
 
 function DefaultView({ templates, results, query, onLinkClick }) {
