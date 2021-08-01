@@ -1,32 +1,17 @@
-import { useEffect, useState } from "react"
-import axios from 'axios'
+import { useContext, useState } from "react"
 import numeral from 'numeral'
 import cx from 'classnames'
-
-const currencies = [
-    { name: 'ADA', label: '₳', },
-    { name: 'BTC', label: 'BTC' },
-    { name: 'USD', label: 'USD' },
-    { name: 'EUR', label: 'EUR' }
-]
+import Context from "./Context"
 
 export default function AdaPrice({ value, className = 'space-x-1', currencySize }) {
 
+    const { currencies } = useContext(Context)
+
     const [currencyIndex, setCurrencyIndex] = useState(0)
-    const [data, setData] = useState(null)
-
-    useEffect(async () => {
-        if (data) return
-        const { data: _data } = await axios.get('https://pool.pm/total.json')
-
-        setData(_data)
-    }, [data])
 
     const currency = currencies[currencyIndex]
 
     const handleCurrencyClick = () => {
-
-        if (!data) return
 
         setCurrencyIndex(
             currencyIndex === currencies.length - 1 ? 0 : currencyIndex + 1
@@ -35,17 +20,14 @@ export default function AdaPrice({ value, className = 'space-x-1', currencySize 
 
     let adjustedValue = value
 
-    if (currency.name !== 'ADA') {
+    if (currency.id !== 'ADA') {
 
-        const rateKey = `ADA${currency.name}`
-        const rate = data[rateKey]
-
-        adjustedValue = value * rate
+        adjustedValue = value * currency.rate
     }
 
     return (
         <div className={cx("flex select-none", className)}>
-            <div>{numeral(adjustedValue).format('0,0.00a').replace('.00', '')}</div> <button type="button" onClick={handleCurrencyClick} className={cx(currencySize, "focus:outline-none cursor-pointer hover:text-gray-900 dark:hover:text-gray-100")}>{currency.label}</button>
+            <div>{numeral(adjustedValue).format('0,0.00a').replace('.00', '')}</div> <button type="button" onClick={handleCurrencyClick} className={cx(currencySize, "focus:outline-none cursor-pointer hover:text-gray-900 dark:hover:text-gray-100")}>{currency.symbol}</button>
         </div>
     )
 }

@@ -7,12 +7,14 @@ module.exports = {
 
         const languages = ctx.tables.get('languages')
         const pages = ctx.tables.get('pages')
+        const currencies = ctx.tables.get('currencies')
 
         return {
             host: process.env.HOST,
             schema,
             languages,
-            pages
+            pages,
+            currencies,
         }
     },
 }
