@@ -49,8 +49,8 @@ export default function PageContent({ mdxSource, externalLink, pageType, donatio
             ) : null}
             <div className="mt-8 flex items-center justify-end">
                 <div className="ml-auto flex items-center">
-                    <div className="mr-4 text-gray-400 dark:text-gray-700 text-sm">
-                        Last updated on {moment(updatedAt).format('MMM DD, YYYY')}
+                    <div className="mr-4 text-gray-400 dark:text-gray-600 text-sm">
+                        Last updated on {moment(updatedAt).fromNow()}
                     </div>
                     <Link href={editOnGitHubLink.href}>
                         <a
