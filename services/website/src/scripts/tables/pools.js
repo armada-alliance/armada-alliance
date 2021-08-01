@@ -77,6 +77,11 @@ module.exports = {
     id: "pools",
     transformRow: (ctx, row) => {
         const checks = ctx.tables.get('checks')
+
+        if (!checks) {
+            return row
+        }
+
         const check = checks.find(check => check.poolId === row.id)
         return {
             ...row,

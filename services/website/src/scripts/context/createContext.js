@@ -4,12 +4,16 @@ let ctx = {}
 
 const tablesClient = {
     get: (name) => {
-        const table = tables.find(table => table.id === name)
-        const rows = require(__dirname + '/../../../public/tables/' + name + '.json')
-        if (table.transformRow) {
-            return rows.map(row => table.transformRow(ctx, row))
+        try {
+            const table = tables.find(table => table.id === name)
+            const rows = require(__dirname + '/../../../public/tables/' + name + '.json')
+            if (table.transformRow) {
+                return rows.map(row => table.transformRow(ctx, row))
+            }
+            return rows
+        } catch (e) {
+            return null
         }
-        return rows
     }
 }
 
