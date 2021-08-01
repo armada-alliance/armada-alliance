@@ -1,14 +1,10 @@
-const fetch = require('./fetch')
-const pools = require('../pools_extended.json')
-const fs = require('fs/promises')
-const fm = require('front-matter')
 const path = require('path')
-const preprocessMarkdown = require('./preprocessMarkdown')
-const { serialize } = require('next-mdx-remote/serialize')
-const compact = require('lodash/compact')
-const { identity } = require('lodash')
-
+const fs = require('fs/promises')
 const contentPath = path.join(__dirname, '..', '..', 'content')
+const preprocessMarkdown = require('./preprocessMarkdown')
+const fm = require('front-matter')
+const { serialize } = require('next-mdx-remote/serialize');
+const replaceVariables = require('./replaceVariables')
 
 function getAttributes(data) {
     let attributes = { ...data.attributes }
@@ -21,109 +17,21 @@ function getAttributes(data) {
     return attributes
 }
 
-async function getPostProps(page, pages) {
+const getPageData = async (filePath) => {
 
-    const string = await fs.readFile(path.join(contentPath, page.params.source), 'utf-8')
+    const string = await fs.readFile(path.join(contentPath, filePath), 'utf-8')
 
     const data = fm(string)
     const attributes = getAttributes(data)
 
-    const body = preprocessMarkdown(data.body)
-
-    let identities = []
-
-    if (attributes.identities) {
-
-        identities = await Promise.all(
-            attributes.identities.map(
-                async identity => {
-                    const page = pages.find(page => page.slug === identity.slug)
-                    if (!page) {
-                        return null
-                    }
-                    const pageData = await getPageData(page, pages)
-
-                    if (!pageData) {
-                        return null
-                    }
-                    return {
-                        ...pageData,
-                        meta: {
-                            role: identity.role
-                        },
-                    }
-                }
-            )
-        ).then(compact)
-    }
+    const body = preprocessMarkdown(
+        replaceVariables(data.body)
+    )
 
     return {
         ...attributes,
-        identities,
         body,
-        source: await serialize(body)
-    }
-}
-
-const templates = {
-    StakePoolDetailPage: {
-        getProps: getPostProps
-    },
-    GuideDetailPage: {
-        getProps: getPostProps
-    },
-    BlogDetailPage: {
-        getProps: getPostProps
-    },
-    TermDetailPage: {
-        getProps: getPostProps
-    },
-    IdentityDetailPage: {
-        getProps: async (page, pages) => {
-
-            const props = await getPostProps(page, pages)
-
-            const authorPages = pages.filter(p =>
-                (p.identities || []).find(identity => identity.slug === page.slug)
-            )
-
-            return {
-                ...props,
-                pages: authorPages
-            }
-        }
-    },
-    PoolDetailPage: {
-        getProps: async ({ params }) => {
-
-            const pool = pools.find(pool => pool.id === params.poolId)
-            const { data: feed } = await fetch(`https://pool.pm/feed/${params.poolId}`)
-            const { data: stake } = await fetch(`https://pool.pm/stake/${params.poolId}`)
-            // const { data: { data: { devices } } } = await fetch(`https://pool.sublayer.io/metrics`)
-            const devices = []
-
-            return {
-                feed,
-                stake,
-                devices,
-                pool
-            }
-        }
-    }
-}
-
-async function getPageData(page, pages) {
-
-    const template = templates[page.template]
-
-    let props = {}
-    if (template) {
-        props = await template.getProps(page, pages)
-    }
-
-    return {
-        ...page,
-        props
+        mdxSource: await serialize(body)
     }
 }
 

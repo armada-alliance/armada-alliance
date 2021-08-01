@@ -20,12 +20,12 @@ export default function PageContent({ mdxSource, externalLink, pageType, donatio
             ) : null}
             {externalLink ? (
                 <div className="mt-12 flex justify-center">
-                    <Link href={externalLink}>
+                    <Link href={externalLink.url}>
                         <a
                             target="_blank"
                             className="inline-flex items-center px-5 py-2 border border-transparent text-base font-medium rounded-full shadow-sm text-white bg-primary-600 hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500"
                         >
-                            Open the full {pageType.toLowerCase()}
+                            {externalLink.name}
                         </a>
                     </Link>
                 </div>

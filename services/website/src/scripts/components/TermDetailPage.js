@@ -19,7 +19,7 @@ module.exports = {
         {
             type: 'PageExcerpt',
             resolve: (ctx, props) => ({
-                alignLeft: !!props.mdxSource,
+                alignLeft: !!props.body,
                 excerpt: props.description
             })
         },

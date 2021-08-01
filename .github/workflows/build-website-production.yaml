@@ -37,7 +37,7 @@ jobs:
           IPSTACK_API_KEY: ${{ secrets.IPSTACK_API_KEY }}
           HOST: https://armada-alliance.com
         run: |
-          node src/scripts-v2/tasks/all.js
+          node src/scripts/tasks/all.js
           npm run build
           npm run export
           git config --global user.name "${{ secrets.CI_USERNAME }}"

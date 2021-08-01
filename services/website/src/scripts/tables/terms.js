@@ -1,4 +1,4 @@
-const readMarkdownPages = require('../../scripts/readMarkdownPages')
+const readMarkdownPages = require('../readMarkdownPages')
 
 module.exports = {
     id: "terms",

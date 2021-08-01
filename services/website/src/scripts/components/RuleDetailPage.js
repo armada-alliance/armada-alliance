@@ -1,33 +1,24 @@
 const getPagesForTemplate = require('../getPagesForTemplate')
-const getDataForPage = require('../getDataForPage')
 
 module.exports = {
-    id: 'GuideDetailPage',
-    name: 'Guide',
+    id: 'RuleDetailPage',
+    name: 'Rule',
     type: 'Template',
     getPages: async (ctx, { component }) => getPagesForTemplate(component.id),
-    resolve: async (ctx, props) => {
-        const data = await getDataForPage(props.filePath)
-        return {
-            ...props,
-            pageType: 'Guide',
-            externalLink: data.externalLink
-        }
-    },
     components: [
         { type: 'Layout' },
         {
             type: 'PageHeader',
             resolve: (ctx, props) => ({
                 title: props.title,
-                pageType: 'Guide',
+                pageType: 'Rule ' + props.number,
                 identities: props.identities
             })
         },
         {
             type: 'PageExcerpt',
             resolve: (ctx, props) => ({
-                alignLeft: !!props.mdxSource,
+                alignLeft: !!props.body,
                 excerpt: props.description
             })
         },
@@ -36,9 +27,7 @@ module.exports = {
             resolve: (ctx, props) => ({
                 mdxSource: props.mdxSource,
                 filePath: props.filePath,
-                updatedAt: props.updatedAt,
-                pageType: props.pageType,
-                externalLink: props.externalLink
+                updatedAt: props.updatedAt
             })
         }
     ]
