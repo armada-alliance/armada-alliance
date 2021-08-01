@@ -29,7 +29,7 @@ const rules = [
 
             return {
                 checks,
-                status: checks.reduce((prev, curr) => prev.status === 'failed' ? prev.status : curr.status, 'failed'),
+                status: checks.reduce((prev, curr) => curr.status === 'failed' ? 'failed' : prev, 'passed'),
             }
         }
     },
@@ -77,7 +77,7 @@ const rules = [
 
             return {
                 checks,
-                status: checks.reduce((prev, curr) => prev.status === 'failed' ? prev.status : curr.status, 'failed'),
+                status: checks.reduce((prev, curr) => curr.status === 'failed' ? 'failed' : prev, 'passed'),
             }
         }
     },
@@ -116,7 +116,7 @@ const rules = [
 
             return {
                 checks,
-                status: checks.reduce((prev, curr) => prev.status === 'failed' ? prev.status : curr.status, 'failed'),
+                status: checks.reduce((prev, curr) => curr.status === 'failed' ? 'failed' : prev, 'passed'),
             }
         }
     },
@@ -141,7 +141,7 @@ const rules = [
 
             return {
                 checks,
-                status: checks.reduce((prev, curr) => prev.status === 'failed' ? prev.status : curr.status, 'failed'),
+                status: checks.reduce((prev, curr) => curr.status === 'failed' ? 'failed' : prev, 'passed'),
             }
         }
     },
@@ -166,7 +166,7 @@ const rules = [
 
             return {
                 checks,
-                status: checks.reduce((prev, curr) => prev.status === 'failed' ? prev.status : curr.status, 'failed'),
+                status: checks.reduce((prev, curr) => curr.status === 'failed' ? 'failed' : prev, 'passed'),
             }
         }
     },
@@ -191,7 +191,7 @@ const rules = [
 
             return {
                 checks,
-                status: checks.reduce((prev, curr) => prev.status === 'failed' ? prev.status : curr.status, 'failed'),
+                status: checks.reduce((prev, curr) => curr.status === 'failed' ? 'failed' : prev, 'passed'),
             }
         }
     },
@@ -226,7 +226,7 @@ const rules = [
 
             return {
                 checks,
-                status: checks.reduce((prev, curr) => prev.status === 'failed' ? prev.status : curr.status, 'failed'),
+                status: checks.reduce((prev, curr) => curr.status === 'failed' ? 'failed' : prev, 'passed'),
             }
         }
     },
@@ -271,7 +271,7 @@ const rules = [
 
             return {
                 checks,
-                status: checks.reduce((prev, curr) => prev.status === 'failed' ? prev.status : curr.status, 'failed'),
+                status: checks.reduce((prev, curr) => curr.status === 'failed' ? 'failed' : prev, 'passed'),
             }
         }
     }
