@@ -6,13 +6,13 @@ const convertPrice = ctx => (from, to, value) => {
     const fromCurrency = currencies.find(currency => currency.id === from)
     const toCurrency = currencies.find(currency => currency.id === to)
 
-    let adaPrice = fromCurrency.adaPrice * value
+    const adaPrice = value / fromCurrency.rate
 
     if (to === 'ADA') {
         return adaPrice
     }
 
-    return toCurrency.adaPrice / adaPrice
+    return adaPrice * toCurrency.rate
 }
 
 module.exports = {

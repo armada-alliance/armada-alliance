@@ -11,15 +11,16 @@ module.exports = {
     create: async () => {
 
         const currencies = [
+            { id: 'ADA', name: 'ADA', symbol: '₳' },
             { id: 'EUR', name: 'Euro', symbol: '€' },
             { id: 'USD', name: 'U.S. Dollar', symbol: '$' },
-            { id: 'AUD', name: 'Australian Dollar', symbol: '$' },
+            { id: 'BTC', name: 'Bitcoin', symbol: 'BTC' },
+            { id: 'BTC', name: 'Ethereum', symbol: 'ETH' },
+            { id: 'AUD', name: 'Australian Dollar', symbol: 'AUD' },
             { id: 'CNY', name: 'Chinese Yuan', symbol: '¥' },
             { id: 'MYR', name: 'Malaysian Ringgit', symbol: 'RM' },
             { id: 'JPY', name: 'Japanese Yen', symbol: '¥' },
             { id: 'THB', name: 'Thai Baht', symbol: '฿' },
-            { id: 'BTC', name: 'Bitcoin', symbol: 'BTC' },
-            { id: 'ADA', name: 'Cardano', symbol: 'ADA' }
         ]
 
         const currency_names = currencies.map(cur => cur.id).join(',')
@@ -34,7 +35,7 @@ module.exports = {
 
             return {
                 ...currency,
-                adaPrice: currency_data[currency.id.toLowerCase()]
+                rate: currency.id === 'ADA' ? 1 : currency_data[currency.id.toLowerCase()]
             }
         })
     }

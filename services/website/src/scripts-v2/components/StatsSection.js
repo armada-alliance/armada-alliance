@@ -21,14 +21,14 @@ module.exports = {
             return result + parseInt(pool.delegators, 10)
         }, 0)
 
-        const yesterday = moment().subtract(1, 'day')
+        const twentyFourHoursAgo = moment().subtract(1, 'day')
 
         const timeSerie = timeSeries
             .sort((a, b) =>
-                moment(a.timestamp) - moment(b.timestamp)
+                moment(b.timestamp) - moment(a.timestamp)
             )
             .find(timeSerie =>
-                moment(timeSerie.timestamp).isAfter(yesterday.startOf('day')) && moment(timeSerie.timestamp).isBefore(yesterday.endOf('day'))
+                moment(timeSerie.timestamp).isSameOrBefore(twentyFourHoursAgo)
             )
 
         let fields = [
@@ -72,6 +72,7 @@ module.exports = {
         return {
             ...props,
             fields,
+            comparedToTimeSerie: timeSerie,
             delegatorCount: getDelegators(pools),
             mintedBlocksCount: getBlocksMinted(pools),
             liveStake: getLiveStake(pools),
