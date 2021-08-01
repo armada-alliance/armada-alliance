@@ -1,5 +1,5 @@
 const axios = require('axios')
-const readMarkdownPages = require('../../scripts/readMarkdownPages')
+const readMarkdownPages = require('../readMarkdownPages')
 const Throttle = require("promise-parallel-throttle")
 const { getCacheItem, setCacheItem } = require('../cache')
 
@@ -140,7 +140,7 @@ module.exports = {
                     hasImage,
                     ticker: adapools.data.db_ticker,
                     addr: adapools.data.pool_id_bech32,
-                    website: adapools.data.db_url,
+                    website: poolPage.website ? poolPage.website : adapools.data.db_url,
                     // totalStake: adapools.data.total_stake,
                     totalStake: data.live_stake,
                     // blocksLifetime: adapools.data.blocks_lifetime,
@@ -165,6 +165,15 @@ module.exports = {
                     relays,
                     metadata,
                     extended,
+                    telegram: adapools.data.handles.tg ? adapools.data.handles.tg : poolPage.telegram,
+                    twitter: adapools.data.handles.tw ? adapools.data.handles.tw : poolPage.twitter,
+                    github: adapools.data.handles.gh ? adapools.data.handles.gh : poolPage.github,
+                    facebook: adapools.data.handles.fb ? adapools.data.handles.fb : poolPage.facebook,
+                    youtube: adapools.data.handles.yt ? adapools.data.handles.yt : poolPage.youtube,
+                    discord: adapools.data.handles.di ? adapools.data.handles.di : poolPage.discord,
+                    instagram: poolPage.instagram,
+                    email: poolPage.email,
+                    linkedin: poolPage.linkedin,
                     ...poolPingData
                 }
             })

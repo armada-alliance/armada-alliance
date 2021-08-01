@@ -73,3 +73,5 @@ export function EmailIcon(props) {
     )
 
 }
+
+export { GlobeAltIcon as WebsiteIcon } from '@heroicons/react/outline'

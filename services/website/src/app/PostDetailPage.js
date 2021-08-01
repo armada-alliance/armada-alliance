@@ -23,18 +23,20 @@ export default function PostDetailPage(props) {
                     <div className="max-w-prose mx-auto">
                         <div className="text-lg">
                             <Component use={PageHeader} data={components.PageHeader} />
-                            {props.props.template === 'PoolDetailPage' ? (
-                                <Component
-                                    use={Delegation}
-                                    data={components.DelegationSection}
-                                />
-                            ) : null}
                             {components.PageSocials ? (
                                 <div className="mt-4">
                                     <Component use={PageSocials} data={components.PageSocials} />
                                 </div>
                             ) : null}
-                            <Component use={PageExcerpt} data={components.PageExcerpt} />
+                            {props.props.template === 'PoolDetailPage' ? (
+                                <div className="mt-4">
+                                    <Component
+                                        use={Delegation}
+                                        data={components.DelegationSection}
+                                    />
+                                </div>
+                            ) : null}
+                            <Component use={PageExcerpt} data={components.PageExcerpt} template={props.props.template} />
                         </div>
                         {props.props.template === 'BlogDetailPage' && props.props.image ? (
                             <div className="relative">

@@ -1,5 +1,7 @@
 const getPagesForTemplate = require('../getPagesForTemplate')
 
+const createSocialLink = (baseURL, value) => value.indexOf('https://') === 0 ? value : `${baseURL}/${value}`
+
 module.exports = {
     id: 'IdentityDetailPage',
     name: 'Identity',
@@ -47,6 +49,7 @@ module.exports = {
         {
             type: 'PageExcerpt',
             resolve: (ctx, props) => ({
+                alignLeft: !!props.body,
                 excerpt: props.identity.description
             })
         },
@@ -57,6 +60,10 @@ module.exports = {
                 return {
                     mdxSource: props.mdxSource,
                     filePath: props.filePath,
+                    externalLink: props.externalLink ? ({
+                        url: props.externalLink,
+                        name: 'Go to website'
+                    }) : null,
                     updatedAt: props.updatedAt,
                     donationName: props.identity.name,
                     donationAddress: props.donationAddress,
@@ -68,13 +75,15 @@ module.exports = {
             resolve: (ctx, props) => {
                 const types = [
                     { id: 'email', color: '#202020', icon: 'EmailIcon', createLink: value => ({ title: 'E-mail', href: `mailto:${value}` }) },
-                    { id: 'telegram', color: '#24a1dd', icon: 'TelegramIcon', createLink: value => ({ title: 'Telegram', href: `https://t.me/${value}` }) },
-                    { id: 'twitter', color: '#1DA1F1', icon: 'TwitterIcon', createLink: value => ({ title: 'Twitter', href: `https://twitter.com/${value}` }) },
-                    { id: 'github', color: '#202020', icon: 'GitHubIcon', createLink: value => ({ title: 'GitHub', href: `https://github.com/${value}` }) },
+                    { id: 'telegram', color: '#24a1dd', icon: 'TelegramIcon', createLink: value => ({ title: 'Telegram', href: createSocialLink(`https://t.me`, value) }) },
+                    { id: 'twitter', color: '#1DA1F1', icon: 'TwitterIcon', createLink: value => ({ title: 'Twitter', href: createSocialLink(`https://twitter.com`, value) }) },
+                    { id: 'github', color: '#202020', icon: 'GitHubIcon', createLink: value => ({ title: 'GitHub', href: createSocialLink(`https://github.com`, value) }) },
                     { id: 'facebook', color: '#4867AA', icon: 'FacebookIcon', createLink: value => ({ title: 'Facebook', href: value }) },
                     { id: 'instagram', color: '#BE32AB', icon: 'InstagramIcon', createLink: value => ({ title: 'Instagram', href: value }) },
-                    { id: 'linkedin', color: '#0177B5', icon: 'LinkedInIcon', createLink: value => ({ title: 'LinkedIn', href: `https://www.linkedin.com/in/${value}` }) },
-                    { id: 'youtube', color: '#FF0000', icon: 'YouTubeIcon', createLink: value => ({ title: 'YouTube', href: value }) }
+                    { id: 'linkedin', color: '#0177B5', icon: 'LinkedInIcon', createLink: value => ({ title: 'LinkedIn', href: createSocialLink(`https://www.linkedin.com/in`, value) }) },
+                    { id: 'youtube', color: '#FF0000', icon: 'YouTubeIcon', createLink: value => ({ title: 'YouTube', href: createSocialLink('https://youtube.com', value) }) },
+                    { id: 'discord', color: '#404eed', icon: 'DiscordIcon', createLink: value => ({ title: 'Discord', href: value }) },
+                    { id: 'website', color: '#0ea5e9', icon: 'WebsiteIcon', createLink: value => ({ title: 'Website', href: value }) }
                 ]
 
                 const socials = types

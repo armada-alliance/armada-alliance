@@ -4,7 +4,7 @@ const fm = require('front-matter')
 const path = require('path')
 const compact = require('lodash/compact')
 const trim = require('lodash/trim')
-const decodeUrlPartsFromFilePath = require('../scripts/decodeUrlPartsFromFilePath')
+const decodeUrlPartsFromFilePath = require('./decodeUrlPartsFromFilePath')
 const files = require('../../public/files.json')
 const replaceVariables = require('./replaceVariables')
 

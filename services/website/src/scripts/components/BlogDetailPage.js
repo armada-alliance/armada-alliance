@@ -1,8 +1,8 @@
 const getPagesForTemplate = require('../getPagesForTemplate')
 
 module.exports = {
-    id: 'RuleDetailPage',
-    name: 'Rule',
+    id: 'BlogDetailPage',
+    name: 'Blog',
     type: 'Template',
     getPages: async (ctx, { component }) => getPagesForTemplate(component.id),
     components: [
@@ -11,14 +11,14 @@ module.exports = {
             type: 'PageHeader',
             resolve: (ctx, props) => ({
                 title: props.title,
-                pageType: 'Rule ' + props.number,
+                pageType: 'Blog',
                 identities: props.identities
             })
         },
         {
             type: 'PageExcerpt',
             resolve: (ctx, props) => ({
-                alignLeft: !!props.mdxSource,
+                alignLeft: !!props.body,
                 excerpt: props.description
             })
         },

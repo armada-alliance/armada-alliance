@@ -5,7 +5,6 @@ const path = require('path')
 const compact = require('lodash/compact')
 const trim = require('lodash/trim')
 const decodeUrlPartsFromFilePath = require('./decodeUrlPartsFromFilePath')
-const { getGitCreatedTimeForFile, getGitUpdatedTimeForFile } = require('./git')
 
 module.exports = async () => {
 
