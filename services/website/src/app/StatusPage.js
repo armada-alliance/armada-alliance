@@ -86,10 +86,10 @@ const getMetricMeta = (uptimePct) => {
     const hasUptime = uptimePct === 0 || !!uptimePct
     const green = hasUptime && uptimePct >= 98
     const opacity = hasUptime && uptimePct >= 98 && uptimePct < 100
-    const orange = hasUptime && uptimePct >= 95 && uptimePct < 98
+    const yellow = hasUptime && uptimePct >= 95 && uptimePct < 98
     const red = hasUptime && uptimePct < 95
     const gray = !hasUptime
-    return { hasUptime, green, opacity, orange, red, gray }
+    return { hasUptime, green, opacity, yellow, red, gray }
 }
 
 function PoolMetrics({ metrics }) {
@@ -104,7 +104,7 @@ function PoolMetrics({ metrics }) {
                 const dateString = date.format('YYYY-MM-DD')
                 const uptimePct = metrics[dateString]
 
-                const { hasUptime, gray, green, orange, red, opacity } = getMetricMeta(uptimePct)
+                const { hasUptime, gray, green, yellow, red, opacity } = getMetricMeta(uptimePct)
 
                 let title = date.format('MMM D, YYYY')
                 let subtitle = hasUptime ? `${uptimePct}%` : 'No Records'
@@ -117,9 +117,9 @@ function PoolMetrics({ metrics }) {
                                 {
                                     "bg-gray-200 dark:bg-gray-700": gray,
                                     "bg-green-500": green,
-                                    "bg-orange-500": orange,
+                                    "bg-yellow-500": yellow,
                                     "bg-red-500": red,
-                                    "bg-opacity-75": opacity
+                                    "bg-opacity-60": opacity
                                 }
                             )}
                         />
@@ -143,6 +143,13 @@ export default function StatusPage(props) {
         setPools(_pools)
     })
 
+    let sortedPools = null
+    if (pools) {
+        sortedPools = pools.sort((a, b) =>
+            b.avgUptimePct - a.avgUptimePct
+        )
+    }
+
     return (
         <Component use={Layout} data={props.components.Layout}>
             <ContentContainer>
@@ -154,9 +161,9 @@ export default function StatusPage(props) {
                 <div className="mt-12 mx-auto flex justify-center">
                     {pools ? (
                         <div className="space-y-4">
-                            {pools.map(pool => {
+                            {sortedPools.map(pool => {
                                 const { avgUptimePct } = pool
-                                const { hasUptime, gray, green, orange, red, opacity } = getMetricMeta(avgUptimePct)
+                                const { hasUptime, gray, green, yellow, red } = getMetricMeta(avgUptimePct)
 
                                 return (
                                     <div className="p-4 shadow-sm bg-white dark:bg-gray-800 rounded-lg space-y-2">
@@ -169,20 +176,21 @@ export default function StatusPage(props) {
                                                     className={cx({
                                                         "text-gray-400 dark:text-gray-700": gray,
                                                         "text-green-500": green,
-                                                        "text-orange-500": orange,
-                                                        "text-red-500": red,
-                                                        "text-opacity-75": opacity
+                                                        "text-yellow-500": yellow,
+                                                        "text-red-500": red
                                                     })}
                                                 >
                                                     {hasUptime ? `${avgUptimePct}%` : 'No Data'}
                                                 </div>
                                             </div>
-                                            <div className="ml-auto flex items-center space-x-2 text-green-500 text-sm">
-                                                <Pulsate />
-                                                <div>
-                                                    Operational
+                                            {hasUptime ? (
+                                                <div className="ml-auto flex items-center space-x-2 text-green-500 text-sm">
+                                                    <Pulsate />
+                                                    <div>
+                                                        Operational
+                                                    </div>
                                                 </div>
-                                            </div>
+                                            ) : null}
                                         </div>
                                         <div>
                                             <PoolMetrics metrics={pool.metrics} />
@@ -192,7 +200,7 @@ export default function StatusPage(props) {
                             })}
                         </div>
                     ) : (
-                        <div>
+                        <div className="text-gray-900 dark:text-white">
                             loading...
                         </div>
                     )}
