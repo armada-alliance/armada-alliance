@@ -29,9 +29,11 @@ module.exports = {
 
                 const pools = ctx.tables.get('pools')
                 const relays = ctx.tables.get('relays')
+                const checks = ctx.tables.get('checks')
 
                 return {
                     pools,
+                    checks,
                     relays
                 }
             }

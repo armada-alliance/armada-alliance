@@ -102,6 +102,7 @@ module.exports = {
                 const result = checks.find(check => check.poolId === props.id)
 
                 return {
+                    qualityScore: props.pool.qualityScore,
                     rules: result.results,
                 }
             }

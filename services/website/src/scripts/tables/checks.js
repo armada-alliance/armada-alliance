@@ -25,10 +25,22 @@ module.exports = {
                     })
                 )
 
+                const checksFailed = results.filter(result => result.status === "failed").length
+                const checksPassed = results.filter(result => result.status === "passed").length
+                const checksTotal = results.length
+
+                const qualityScore = checksPassed / checksTotal * 100
+
                 return {
                     poolId: pool.id,
                     name: pool.name,
                     ticker: pool.ticker,
+                    checks: {
+                        total: checksTotal,
+                        failed: checksFailed,
+                        passed: checksPassed
+                    },
+                    qualityScore,
                     results,
                 }
             })

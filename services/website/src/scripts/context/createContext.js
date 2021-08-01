@@ -1,12 +1,19 @@
+const tables = require('../tables')
+
+let ctx = {}
+
 const tablesClient = {
     get: (name) => {
-        return require(__dirname + '/../../../public/tables/' + name + '.json')
+        const table = tables.find(table => table.id === name)
+        const rows = require(__dirname + '/../../../public/tables/' + name + '.json')
+        if (table.transformRow) {
+            return rows.map(row => table.transformRow(ctx, row))
+        }
+        return rows
     }
 }
 
-const ctx = {
-    tables: tablesClient
-}
+ctx.tables = tablesClient
 
 module.exports = () => {
 
