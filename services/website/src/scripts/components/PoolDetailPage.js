@@ -20,7 +20,8 @@ module.exports = {
             title: `${pool.name} (${pool.ticker})`,
             image: pool.image,
             description: pool.description,
-            verified: data.verified
+            verified: data.verified,
+            rank: 100 - ~~pool.qualityScore
         }
     },
     resolve: (ctx, props) => {

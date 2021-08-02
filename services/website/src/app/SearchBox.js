@@ -124,6 +124,9 @@ export default function SearchBox(props) {
     const handleMove = () => setMoved(true)
 
     const pagesForLanguage = ctx.pages
+        .sort((b, a) =>
+            b.rank - a.rank
+        )
         .filter(page =>
             page.language === ctx.language
         )
