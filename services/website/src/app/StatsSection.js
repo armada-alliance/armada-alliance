@@ -14,7 +14,9 @@ import EpochClock from './EpochClock'
 export default function StatsSection({ title, pretitle, description, poolCount, countryCount, fields, pools }) {
 
     const [poolSelection] = useState(
-        shuffle(pools).slice(0, 10)
+        shuffle(pools)
+            .slice(0, 10)
+            .filter(pool => pool.hasImage)
     )
 
     const testMode = useTestMode()
