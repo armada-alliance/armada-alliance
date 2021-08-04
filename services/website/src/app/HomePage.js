@@ -1,6 +1,6 @@
 import CalculatorSection from './CalculatorSection'
 import USPSection from './USPSection'
-import GlobeSection from './GlobeSection'
+// import GlobeSection from './GlobeSection'
 import HeroSection from './HeroSection'
 import StatsSection from './StatsSection'
 import Layout from './Layout'
