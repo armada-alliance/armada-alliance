@@ -135,7 +135,7 @@ module.exports = {
 
                 let image = adapools.data.handles.icon || (extended && extended.info.url_png_logo ? extended.info.url_png_logo : null)
 
-                image = image.indexOf('http://') === -1 ? image : null
+                image = image && image.indexOf('http://') === -1 ? image : null
 
                 const hasImage = !!image
 
