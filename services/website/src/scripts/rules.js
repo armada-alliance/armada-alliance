@@ -245,7 +245,7 @@ const rules = [
                         device: devices.find(device => device.id === node.deviceId),
                     }))
                     .filter(node =>
-                        node.device && node.device.platform === 'ARM'
+                        node.device && node.device.platform === 'ARM' && !device.isBackup
                     )
 
                 const producerOnARM = armNodes.find(node =>
