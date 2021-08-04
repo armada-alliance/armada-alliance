@@ -9,7 +9,7 @@ export default function Text({ children }) {
     const suffix = parts.slice(parts.length - 1, parts.length)
     return (
         <>
-            {prefix}{' '}<span className="text-primary-500">{suffix}</span>
+            {prefix}{' '}<span className="text-primary-500 bg-gradient-to-r from-primary-400 dark:from-primary-300 via-primary-500 to-primary-700 text-gradient">{suffix}</span>
         </>
     )
 }

@@ -2,6 +2,7 @@ import { useContext, useEffect, useState } from 'react'
 import Link from './Link'
 import Context from './Context'
 import { css, keyframes } from '@emotion/react'
+import Logo from './Logo'
 
 const wave = keyframes`
     0% {
@@ -80,16 +81,19 @@ export default function HeroSection({ text, poolCount, pools }) {
                 </div> */}
                 <main className="mt-8 mx-auto max-w-7xl px-4 sm:mt-16 relative">
                     <div className="flex items-center justify-items-center">
-                        <img
+                        <div className="w-auto mx-auto mb-10">
+                            <Logo />
+                        </div>
+                        {/* <img
                             className="h-20 w-auto sm:h-36 mx-auto mb-10"
                             src={'/ship-420.png'}
                             alt={schema.about.name}
-                        />
+                        /> */}
                     </div>
                     <div className="text-center">
                         <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white sm:text-5xl md:text-6xl">
                             <span className="block xl:inline">Armada</span>{' '}
-                            <span className="block text-primary-500 xl:inline">Alliance</span>
+                            <span className="block text-primary-500 xl:inline bg-gradient-to-r from-primary-400 dark:from-primary-300 via-primary-500 to-primary-700 text-gradient">Alliance</span>
                         </h1>
                         <p className="mt-3 max-w-md mx-auto text-base text-gray-500 dark:text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
                             {text}
