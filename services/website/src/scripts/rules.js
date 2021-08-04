@@ -206,8 +206,9 @@ const rules = [
                 const armDevices = (pool.nodes || [])
                     .map(node =>
                         devices.find(device => device.id === node.deviceId)
-                    ).filter(device =>
-                        device && device.platform === 'ARM'
+                    )
+                    .filter(device =>
+                        device && device.platform === 'ARM' && !device.isBackup
                     )
 
                 if (armDevices.length < 1) {
