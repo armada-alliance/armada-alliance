@@ -133,12 +133,14 @@ module.exports = {
 
                 const name = adapools.data.db_name
 
-                let hasImage = !!adapools.data.handles.icon
-                let image = adapools.data.handles.icon || 'https://armada-alliance.com/assets/ship-420.png'
+                let image = adapools.data.handles.icon || (extended && extended.info.url_png_logo ? extended.info.url_png_logo : null)
 
-                if (extended && extended.info.url_png_logo) {
-                    image = extended.info.url_png_logo
-                    hasImage = true
+                image = image.indexOf('http://') === -1 ? image : null
+
+                const hasImage = !!image
+
+                if (!hasImage) {
+                    image = 'https://armada-alliance.com/assets/ship-420.png'
                 }
 
                 return {
