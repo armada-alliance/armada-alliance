@@ -1,15 +1,38 @@
-import { useContext } from 'react'
+import { useContext, useEffect, useState } from 'react'
 import Link from './Link'
 import Context from './Context'
+import { css, keyframes } from '@emotion/react'
+
+const wave = keyframes`
+    0% {
+        -webkit-transform: translate(85px, 0%);
+        -moz-transform: translate(85px, 0%);
+        -ms-transform: translate(85px, 0%);
+        transform: translate(85px, 0%);
+    }
+    100% {
+        -webkit-transform: translate(-90px, 0%);
+        -moz-transform: translate(-90px, 0%);
+        -ms-transform: translate(-90px, 0%);
+        transform: translate(-90px, 0%);
+    }
+`
 
 export default function HeroSection({ text, poolCount, pools }) {
     const ctx = useContext(Context)
     const { schema } = ctx
 
+    const [wave1, setWave1] = useState(false)
+    const [wave2, setWave2] = useState(true)
+    const [wave3, setWave3] = useState(true)
+
+    // useEffect(() => setWave2(false), 4000)
+    // useEffect(() => setWave3(false), 8000)
+
     return (
         <div className="relative bg-gray-50 dark:bg-gray-900 overflow-hidden">
-            <div className="pb-16 sm:pb-24">
-                <div className="hidden sm:block sm:absolute sm:inset-y-0 sm:h-full sm:w-full" aria-hidden="true">
+            <div className="pb-8 sm:pb-16">
+                {/* <div className="hidden sm:block sm:absolute sm:inset-y-0 sm:h-full sm:w-full" aria-hidden="true">
                     <div className="relative h-full max-w-7xl mx-auto">
                         <svg
                             className="absolute right-full transform translate-y-1/4 translate-x-1/4 lg:translate-x-1/2"
@@ -54,8 +77,8 @@ export default function HeroSection({ text, poolCount, pools }) {
                             <rect width={404} height={784} fill="url(#5d0dd344-b041-4d26-bec4-8d33ea57ec9b)" />
                         </svg>
                     </div>
-                </div>
-                <main className="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 relative">
+                </div> */}
+                <main className="mt-8 mx-auto max-w-7xl px-4 sm:mt-16 relative">
                     <div className="flex items-center justify-items-center">
                         <img
                             className="h-20 w-auto sm:h-36 mx-auto mb-10"
@@ -93,6 +116,70 @@ export default function HeroSection({ text, poolCount, pools }) {
                         </div>
                     </div>
                 </main>
+            </div>
+            <div className="relative" style={{ height: 48 }}>
+                <svg
+                    css={css`
+                position: absolute;
+    bottom: 0;
+    left: 0px;
+    display: block;
+    width: 100%;
+    max-height: 48px;
+    margin: 0;
+    z-index: 1;
+                `}
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 24 150 28"
+                    preserveAspectRatio="none"
+                    role="img"
+                    ariaLabel="Animating waves dividing two sections."
+                >
+                    <defs>
+                        <path
+                            id="gentle-wave"
+                            d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+                        >
+                        </path>
+                    </defs>
+                    <g
+                        css={css`
+                            -webkit-animation: ${wave} 10s linear infinite;
+                            animation: ${wave} 10s linear infinite;
+                        `}
+                        className="text-primary-600"
+                    >
+                        <use xlinkHref="#gentle-wave" x="48" y="3" fill="currentColor">
+                        </use>
+                    </g>
+                    <g
+                        css={css`
+                        -webkit-animation: ${wave} 8s linear infinite;
+                        animation: ${wave} 8s linear infinite;
+                        `}
+                        className="text-primary-400"
+                    >
+                        <use xlinkHref="#gentle-wave" x="48" y="0" fill="currentColor"></use>
+                    </g>
+                    <g
+                        css={css`
+                        -webkit-animation: ${wave} 6s linear infinite;
+                        animation: ${wave} 6s linear infinite;
+                        `}
+                        className="text-primary-500"
+                    >
+                        <use xlinkHref="#gentle-wave" x="48" y="9" fill="currentColor"></use>
+                    </g>
+                    <g
+                        css={css`
+                        -webkit-animation: ${wave} 4s linear infinite;
+                        animation: ${wave} 4s linear infinite;
+                        `}
+                        className="text-gray-50 dark:text-gray-800"
+                    >
+                        <use xlinkHref="#gentle-wave" x="48" y="6" fill="currentColor"></use>
+                    </g>
+                </svg>
             </div>
         </div>
     )
