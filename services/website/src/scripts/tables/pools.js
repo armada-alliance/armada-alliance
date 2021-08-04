@@ -133,7 +133,11 @@ module.exports = {
 
                 const name = adapools.data.db_name
 
-                let image = adapools.data.handles.icon || (extended && extended.info.url_png_logo ? extended.info.url_png_logo : null)
+                let image = adapools.data.handles.icon
+
+                if (extended) {
+                    image = extended.info.url_png_logo
+                }
 
                 image = image && image.indexOf('http://') === -1 ? image : null
 
