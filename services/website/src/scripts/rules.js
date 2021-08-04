@@ -203,12 +203,13 @@ const rules = [
 
                 const devices = ctx.tables.get('devices')
 
-                const armDevices = (pool.nodes || [])
-                    .map(node =>
-                        devices.find(device => device.id === node.deviceId)
-                    )
-                    .filter(device =>
-                        device && device.platform === 'ARM' && !device.isBackup
+                const armNodes = (pool.nodes || [])
+                    .map(node => ({
+                        ...node,
+                        device: devices.find(device => device.id === node.deviceId),
+                    }))
+                    .filter(node =>
+                        node.device && node.device.platform === 'ARM' && !node.isBackup
                     )
 
                 if (armDevices.length < 1) {
@@ -245,7 +246,7 @@ const rules = [
                         device: devices.find(device => device.id === node.deviceId),
                     }))
                     .filter(node =>
-                        node.device && node.device.platform === 'ARM' && !device.isBackup
+                        node.device && node.device.platform === 'ARM' && !node.isBackup
                     )
 
                 const producerOnARM = armNodes.find(node =>
