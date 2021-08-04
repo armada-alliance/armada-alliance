@@ -81,7 +81,7 @@ export default function HeroSection({ text, poolCount, pools }) {
                 </div> */}
                 <main className="mt-8 mx-auto max-w-7xl px-4 sm:mt-16 relative">
                     <div className="flex items-center justify-items-center">
-                        <div className="w-auto mx-auto mb-10">
+                        <div className="w-auto mx-auto mb-6 sm:mb-10">
                             <Logo />
                         </div>
                         {/* <img
