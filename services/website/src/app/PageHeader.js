@@ -51,7 +51,7 @@ export default function PageHeader({ title, subtitle, image, verified, pageType,
                 </div>
             ) : null}
             <h1>
-                <span className="block text-base text-center text-primary-500 font-semibold tracking-wide uppercase">
+                <span className="block text-base text-center text-primary-500 bg-gradient-to-r from-primary-400 dark:from-primary-300 via-primary-500 to-primary-700 text-gradient font-semibold tracking-wide uppercase">
                     {pageType}
                 </span>
                 <span className={"mt-2 block text-3xl leading-8 text-center font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-4xl"}>

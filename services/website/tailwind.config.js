@@ -30,6 +30,9 @@ module.exports = {
         primary: primaryColor,
         secondary: secondaryColor,
       },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--gradient-color-stops))',
+      }
     },
   },
   variants: {

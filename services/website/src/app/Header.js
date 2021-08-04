@@ -6,6 +6,7 @@ import cx from 'classnames'
 import { Popover, Transition } from '@headlessui/react'
 import SearchBox from './SearchBox'
 import Component from './Component'
+import LogoSmall from './LogoSmall'
 
 import { ChevronDownIcon, MoonIcon } from '@heroicons/react/solid'
 
@@ -135,21 +136,17 @@ export default function Header(props) {
             {({ open }) => (
                 <>
                     <div className="max-w-7xl mx-auto px-4 sm:px-6">
-                        <div className="flex items-center h-16 sm:h-24 py-4 sm:py-6 space-x-10">
+                        <div className="flex items-center h-16 sm:h-24 py-4 sm:py-6 space-x-6 sm:space-x-10">
                             <div className="flex justify-start lg:w-0 flex-1">
                                 <Link internal={true} href="/">
-                                    <a>
+                                    <a className="transition-opacity transform sm:scale-95 hover:opacity-75">
                                         <span className="sr-only">Armada Alliance</span>
-                                        <img
-                                            className="h-8 w-auto sm:h-10"
-                                            src={'/ship-420.png'}
-                                            alt={schema.about.name}
-                                        />
+                                        <LogoSmall />
                                     </a>
                                 </Link>
                             </div>
                             <Component use={SearchBox} data={components.SearchBox} />
-                            <div className="flex items-center justify-end space-x-6 flex-1 lg:w-0">
+                            <div className="flex items-center justify-end space-x-4 sm:space-x-6 flex-1 lg:w-0">
                                 <LanguageButton />
                                 {process.browser && window.matchMedia('(prefers-color-scheme: dark)').matches ? null : (
                                     <DarkModeToggle />

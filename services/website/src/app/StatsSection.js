@@ -29,11 +29,11 @@ export default function StatsSection({ title, pretitle, description, poolCount, 
         <div className="bg-gray-50 dark:bg-gray-800 pt-12 sm:pt-16">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="max-w-4xl mx-auto text-center">
-                    <h2 className="text-base font-semibold tracking-wider text-primary-500 uppercase">{pretitle}</h2>
+                    <h2 className="text-base font-semibold tracking-wider text-primary-500 bg-gradient-to-r from-primary-400 dark:from-primary-300 via-primary-500 to-primary-700 text-gradient uppercase">{pretitle}</h2>
                     <h2 className="mt-2 text-3xl font-extrabold text-gray-900 dark:text-gray-100 sm:text-4xl">
                         <DualColorText>{title}</DualColorText>
                     </h2>
-                    <p className="mt-3 text-xl text-gray-500 dark:text-gray-400 sm:mt-4">
+                    <p className="mt-3 text-xl text-gray-500 dark:text-gray-300 sm:mt-4">
                         {template(description)({ data: { poolCount, countryCount } })}
                     </p>
                 </div>
@@ -61,7 +61,7 @@ export default function StatsSection({ title, pretitle, description, poolCount, 
                         <div className="max-w-4xl mx-auto">
                             <div className="rounded-lg bg-white dark:bg-gray-900 shadow-lg border-2 border-white dark:border dark:border-gray-800 sm:grid sm:grid-cols-3">
                                 <div className="flex flex-col border-b border-gray-100 dark:border-gray-800 dark:border-gray-800 p-6 text-center sm:border-0 sm:border-r">
-                                    <div className="text-5xl font-extrabold text-primary-500">{mintedBlocksCount.value}</div>
+                                    <div className="text-5xl font-extrabold text-primary-500 bg-gradient-to-r from-primary-400 dark:from-primary-300 via-primary-500 to-primary-700 text-gradient">{mintedBlocksCount.value}</div>
                                     {mintedBlocksCount.diff ? (
                                         <div className="flex items-center justify-center text-sm">
                                             {mintedBlocksCount.diff > 0 ? (
@@ -125,7 +125,7 @@ export default function StatsSection({ title, pretitle, description, poolCount, 
                                     </div>
                                 </div>
                                 <div className="flex flex-col border-t border-gray-100 dark:border-gray-800 p-6 text-center sm:border-0 sm:border-l">
-                                    <div className="text-5xl font-extrabold text-primary-500">{delegatorCount.value}</div>
+                                    <div className="text-5xl font-extrabold text-primary-500 bg-gradient-to-r from-primary-400 dark:from-primary-300 via-primary-500 to-primary-700 text-gradient">{delegatorCount.value}</div>
                                     {delegatorCount.diff ? (
                                         <div className="flex items-center justify-center text-sm">
                                             {delegatorCount.diff > 0 ? (

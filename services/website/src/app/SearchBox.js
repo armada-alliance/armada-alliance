@@ -1,7 +1,7 @@
 import { Fragment, useState, useContext, useRef, useEffect } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import * as JsSearch from 'js-search'
-import { ChevronRightIcon, SearchIcon } from '@heroicons/react/outline'
+import { ChevronRightIcon, SearchIcon, XIcon } from '@heroicons/react/outline'
 import Context from './Context'
 import markdownToText from 'markdown-to-text'
 import Link from './Link'
@@ -205,19 +205,19 @@ export default function SearchBox(props) {
         <>
             <button
                 type="button"
-                className="text-gray-500 dark:text-gray-400 group leading-6 font-medium flex items-center space-x-3 sm:space-x-4 hover:text-gray-600 dark:hover:text-white transition-colors duration-200 w-92 py-2 px-3 bg-gray-50 dark:bg-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-700 focus:ring-primary-500"
+                className="text-sm text-gray-500 dark:text-gray-400 group leading-6 font-medium flex flex-shrink-0 w-full items-center space-x-2 sm:space-x-4 hover:text-gray-600 dark:hover:text-white transition-colors duration-200 w-92 py-2 px-4 sm:px-3 bg-gray-50 dark:bg-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-700 focus:ring-primary-500"
                 onClick={() => {
                     setOpen(true)
                 }}
             >
-                <svg width="24" height="24" fill="none" className="text-gray-400 dark:text-gray-500 group-hover:text-gray-500 dark:group-hover:text-gray-200 transition-colors duration-200"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path></svg>
+                <svg fill="none" viewBox="0 0 24 24" className="h-5 text-gray-400 dark:text-gray-500 group-hover:text-gray-500 dark:group-hover:text-gray-200 transition-colors duration-200"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path></svg>
                 {/* <input
                 type="text"
                 placeholder="Quick search for anything"
                 value={query}
                 onChange={e => setQuery(e.target.value)}
             /> */}
-                <span>Quick search<span className="hidden sm:inline"> for anything</span></span>
+                <span><span className="sm:hidden">Search</span><span className="hidden sm:inline">Quick search for anything</span></span>
                 <div className="hidden sm:block text-gray-400 dark:text-gray-500 dark:group-hover:text-gray-300 text-sm leading-5 py-0.5 px-1.5 border border-gray-300 dark:border-gray-500 dark:group-hover:border-gray-300 rounded-md transition-colors">
                     <kbd className="font-sans"><abbr className="no-underline">⌘</abbr></kbd>
                     <kbd className="font-sans">K</kbd>
@@ -271,6 +271,13 @@ export default function SearchBox(props) {
                                         onClick={() => setOpen(false)}
                                     >
                                         esc
+                                    </button>
+                                    <button
+                                        type="button"
+                                        className="block sm:hidden text-gray-400 text-sm leading-5 py-0.5 px-1.5 rounded-md focus:outline-none"
+                                        onClick={() => setOpen(false)}
+                                    >
+                                        <XIcon className="h-5" />
                                     </button>
                                 </div>
                                 <div
