@@ -212,7 +212,7 @@ const rules = [
                         node.device && node.device.platform === 'ARM' && !node.isBackup
                     )
 
-                if (armDevices.length < 1) {
+                if (armNodes.length < 1) {
 
                     return {
                         status: 'failed',
@@ -222,7 +222,7 @@ const rules = [
 
                 return {
                     status: 'passed',
-                    message: `Pool has ${armDevices.length} ARM devices`,
+                    message: `Pool has ${armNodes.length} ARM devices`,
                 }
             })
 
