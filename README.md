@@ -1,4 +1,4 @@
-<p align="center"><img width="200px" src="https://armada-alliance.com/ship-420.png"></img></p>
+<p align="center"><img width="200px" src="https://armada-alliance.com/ship.gif"></img></p>
 
 # Armada Alliance Website
 
