@@ -35,18 +35,19 @@ export default function Logo(props) {
                 xmlnsXlink="http://www.w3.org/1999/xlink"
             >
                 <defs>
-                    <radialGradient cx="48.7681042%" cy="50%" fx="48.7681042%" fy="50%" r="41.6700591%" id="radialGradient-1">
-                        <stop stop-color="#0285AE" offset="0%"></stop>
-                        <stop stop-color="#0285AE" offset="22.1709463%"></stop>
-                        <stop stop-color="#0A2F59" offset="100%"></stop>
-                    </radialGradient>
-                    <linearGradient x1="50%" y1="61.9197999%" x2="48.7681042%" y2="5.30207712%" id="linearGradient-2">
-                        <stop stop-color="#0285AE" offset="0%"></stop>
+                    <linearGradient x1="50%" y1="61.9197999%" x2="48.7681042%" y2="5.30207712%" id="linearGradient-1">
+                        <stop stop-color="#03A6D9" offset="0%"></stop>
                         <stop stop-color="#0A2F59" offset="100%"></stop>
                     </linearGradient>
+                    <radialGradient cx="48.7681042%" cy="50%" fx="48.7681042%" fy="50%" r="41.5711535%" id="radialGradient-2">
+                        <stop stop-color="#0285AE" stop-opacity="0" offset="0%"></stop>
+                        <stop stop-color="#065882" stop-opacity="0" offset="53.2411318%"></stop>
+                        <stop stop-color="#0A2F59" stop-opacity="0.777097902" offset="86.3175676%"></stop>
+                        <stop stop-color="#0A2F59" offset="99.6648015%"></stop>
+                    </radialGradient>
                 </defs>
-                <circle fill="url(#radialGradient-1)" cx="200" cy="200" r="200"></circle>
-                <circle fill="url(#linearGradient-2)" opacity="0.124325707" cx="200" cy="201" r="200"></circle>
+                <circle fill="url(#linearGradient-1)" cx="200" cy="201" r="200"></circle>
+                <circle fill="url(#radialGradient-2)" opacity="0.500279018" cx="200" cy="200" r="200"></circle>
             </svg>
             <div className="absolute inset-0 rounded-full overflow-hidden">
                 <Wave
