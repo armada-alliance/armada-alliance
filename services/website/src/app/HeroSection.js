@@ -32,7 +32,7 @@ export default function HeroSection({ text, poolCount, pools }) {
 
     return (
         <div className="relative bg-gray-50 dark:bg-gray-900 overflow-hidden">
-            <div className="pb-8 sm:pb-16">
+            <div className="pb-6 sm:pb-12">
                 {/* <div className="hidden sm:block sm:absolute sm:inset-y-0 sm:h-full sm:w-full" aria-hidden="true">
                     <div className="relative h-full max-w-7xl mx-auto">
                         <svg
@@ -79,10 +79,13 @@ export default function HeroSection({ text, poolCount, pools }) {
                         </svg>
                     </div>
                 </div> */}
-                <main className="mt-8 mx-auto max-w-7xl px-4 sm:mt-16 relative">
+                <main className="mt-6 mx-auto max-w-7xl px-4 sm:mt-12 relative">
                     <div className="flex items-center justify-items-center">
                         <div className="w-auto mx-auto mb-6 sm:mb-10">
-                            <Logo />
+                            <Logo
+                                className="h-24 w-24 sm:h-44 sm:w-44"
+                                waveClassName="h-11 bottom-0.5 sm:h-20 sm:-bottom-1"
+                            />
                         </div>
                         {/* <img
                             className="h-20 w-auto sm:h-36 mx-auto mb-10"

@@ -6,7 +6,7 @@ import cx from 'classnames'
 import { Popover, Transition } from '@headlessui/react'
 import SearchBox from './SearchBox'
 import Component from './Component'
-import LogoSmall from './LogoSmall'
+import Logo from './Logo'
 
 import { ChevronDownIcon, MoonIcon } from '@heroicons/react/solid'
 
@@ -141,7 +141,14 @@ export default function Header(props) {
                                 <Link internal={true} href="/">
                                     <a className="transition-opacity transform sm:scale-95 hover:opacity-75">
                                         <span className="sr-only">Armada Alliance</span>
-                                        <LogoSmall />
+                                        <Logo
+                                            className="h-10 w-10 sm:h-12 sm:w-12"
+                                            waveClassName="h-7 -bottom-2 sm:h-8 sm:-bottom-2.5"
+                                            waveOptions={{
+                                                height: 2,
+                                                amplitude: 1
+                                            }}
+                                        />
                                     </a>
                                 </Link>
                             </div>
