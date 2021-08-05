@@ -36,12 +36,17 @@ export default function Logo(props) {
             >
                 <defs>
                     <radialGradient cx="48.7681042%" cy="50%" fx="48.7681042%" fy="50%" r="41.6700591%" id="radialGradient-1">
-                        <stop stopColor="#7DD3FC" offset="0%"></stop>
-                        <stop stopColor="#7DD3FC" offset="22.1709463%"></stop>
-                        <stop stopColor="#0369A1" offset="100%"></stop>
+                        <stop stop-color="#0285AE" offset="0%"></stop>
+                        <stop stop-color="#0285AE" offset="22.1709463%"></stop>
+                        <stop stop-color="#0A2F59" offset="100%"></stop>
                     </radialGradient>
+                    <linearGradient x1="50%" y1="61.9197999%" x2="48.7681042%" y2="5.30207712%" id="linearGradient-2">
+                        <stop stop-color="#0285AE" offset="0%"></stop>
+                        <stop stop-color="#0A2F59" offset="100%"></stop>
+                    </linearGradient>
                 </defs>
                 <circle fill="url(#radialGradient-1)" cx="200" cy="200" r="200"></circle>
+                <circle fill="url(#linearGradient-2)" opacity="0.124325707" cx="200" cy="201" r="200"></circle>
             </svg>
             <div className="absolute inset-0 rounded-full overflow-hidden">
                 <Wave
