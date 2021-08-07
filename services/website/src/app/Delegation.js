@@ -346,10 +346,12 @@ function NamiTab({ pools, pool }) {
                     </div>
                 ) : null}
                 {transactionState === 'completed' ? (
-                    <div className="font-bold text-gray-700 flex items-center space-x-2">
+                    <div className="font-bold text-gray-700 dark:text-gray-100 flex items-center space-x-2">
                         <div>Delegated to</div>
-                        <div className="flex flex-nowrap items-center px-2 py-1 space-x-2 rounded-lg bg-gray-50">
-                            <div className="h-5 w-5 rounded-full overflow-hidden bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${formatImage(pool.image)})` }} />
+                        <div className="flex flex-nowrap items-center px-2 py-1 space-x-2 rounded-lg bg-gray-50 dark:bg-gray-800">
+                            {pool.image ? (
+                                <div className="h-5 w-5 rounded-full overflow-hidden bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${formatImage(pool.image)})` }} />
+                            ) : null}
                             <div className="font-bold truncate">
                                 {pool.name}
                             </div>
