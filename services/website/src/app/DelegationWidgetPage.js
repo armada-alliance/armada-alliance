@@ -294,8 +294,8 @@ function NamiTab({ ctx, pool, toast, setToast }) {
                 {currentPool ? (
                     <>
                         <div className="flex text-gray-700 dark:text-gray-300 items-center space-x-2 text-xs">
-                            <div className="text-gray-400 dark:text-gray-700">Currently delegated to</div>
-                            <div className="flex flex-nowrap items-center px-2 py-1 space-x-2 rounded-lg bg-gray-50">
+                            <div className="text-gray-400 dark:text-gray-300">Currently delegated to</div>
+                            <div className="flex flex-nowrap items-center px-2 py-1 space-x-2 rounded-lg bg-gray-50 dark:bg-gray-800">
                                 {currentPool.image ? (
                                     <div className="h-5 w-5 rounded-full overflow-hidden bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${formatImage(currentPool.image)})` }} />
                                 ) : null}
