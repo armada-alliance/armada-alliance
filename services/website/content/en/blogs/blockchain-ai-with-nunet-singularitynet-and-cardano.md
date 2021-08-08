@@ -5,7 +5,7 @@ description: In this video we talk about distributed computing. NuNET is the fra
 keywords: Cardano, singularityNet, NuNet, DeepchainAda, AI, Deeplearning
 icon: 💰
 identities:
-  - id: wadi
+  - id: pgwad
     role: author
 ---
 
