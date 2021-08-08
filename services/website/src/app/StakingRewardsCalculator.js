@@ -10,7 +10,7 @@ const getReturnsPerMonth = data => {
     const { stake, duration, percentage } = data
 
     if (stake && duration && percentage) {
-        return Math.ceil(stake * (percentage / 100) / 12)
+        return Math.round(stake * (percentage / 100) / 12)
     }
 
     return null
@@ -22,7 +22,7 @@ const getReturnsPerYear = data => {
     const { stake, duration, percentage } = data
 
     if (stake && duration && percentage) {
-        return Math.ceil(stake * (percentage / 100))
+        return Math.round(stake * (percentage / 100))
     }
 
     return null
@@ -34,7 +34,7 @@ const getAvgReturnsPerEpoch = data => {
     const { stake, duration, percentage } = data
 
     if (stake && duration && percentage) {
-        return Math.ceil(stake * (percentage / 100) / 73)
+        return (stake * (percentage / 100) / 73)
     }
 
     return null
@@ -46,7 +46,7 @@ const getTotalRewardsEarned = data => {
     const { stake, duration, percentage } = data
 
     if (stake && duration && percentage) {
-        return Math.ceil(stake * (percentage / 100) * duration)
+        return Math.round(((stake * ((1 + ((percentage / 100) / 73))) ** (73 * duration))) - stake)
     }
 
     return null
@@ -57,7 +57,7 @@ const getFinalBalance = data => {
     const { stake, duration, percentage } = data
 
     if (stake && duration && percentage) {
-        return Math.ceil(stake + (stake * (percentage / 100) * duration))
+        return Math.round(((stake * ((1 + ((percentage / 100) / 73))) ** (73 * duration))))
     }
 
     return null
@@ -168,8 +168,9 @@ export default function StakingRewardsCalculator({ description }) {
                                 <label htmlFor="first_name" className="block text-sm font-medium text-gray-700">
                                     <Text>Average returns per epoch</Text>
                                 </label>
-                                <div className="mt-1">
-                                    {toCurrency(getAvgReturnsPerEpoch(data))} ₳
+                                <div className="mt-1 flex items-center space-x-2">
+                                    <div>{toCurrency(getAvgReturnsPerEpoch(data), '0,0.00')} ₳</div>
+                                    <div className="text-gray-400 text-sm">every 5 days</div>
                                 </div>
                             </div>
                             <div>
