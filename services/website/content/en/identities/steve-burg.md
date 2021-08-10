@@ -4,7 +4,7 @@ title: Steve Burg
 description: SPO
 image: 
 website: https://twitter.com/Signlpool
-donationAddress: addr1q8ae4ja0yrqy49g9pj48t4hhnc6zpamy4kecm7ay3d8m930k7hlxjrthyxvhjkjkxc5xjffs5w2tjqyh9ruv0kwqwv4qrq0gdt
+donationAddress: addr1q9sv9hnmucyu7vmzlfs08suj2cugctg0zfy5zes2ts43z3dgxp48354mgpeq8xestme5267k6g04vq3w3lvqvy9j9p0ql62hv7
 verified: false
 ---
 
