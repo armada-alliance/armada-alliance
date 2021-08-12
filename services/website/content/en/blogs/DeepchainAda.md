@@ -1,9 +1,7 @@
 ---
 template: BlogDetailPage
-title: Data Privacy
-description: What is PGWAD and what is the DeepchainAda project
-![image](https://user-images.githubusercontent.com/85845340/129134036-47dc401c-8891-44f6-bb0a-60958a1937f5.png)
-
+title: PGWAD Stake-Pool & DeepchainAda
+description: What is PGWAD and what is the DeepchainAda project?
 keywords: data privacy, Federated Learning,  blockchain, ai, artificial intelligence
 icon: 🔒
 identities: 
@@ -15,6 +13,7 @@ identities:
 ![PGWAD](https://github.com/pgwadapool/poolpage/blob/main/logo.JPG?raw=true)
 ##
 
+## What is PGWAD and DeepchainAda?
 PGWAD is a cardano stakepool running on RaspberryPI. PGWAD is part of the armada-alliance. This is an alliance of independent stake pool operators using low powered ARM cores to help decentralize Cardano.
 
 PGWAD means Packet GateWay for AI and Decentralization. PGWAD has been focusing on the DeepchainAda project. This short blog and video below explain the project and future plans.
