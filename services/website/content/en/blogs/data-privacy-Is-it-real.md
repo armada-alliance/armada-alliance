@@ -7,8 +7,6 @@ icon: 🔒
 identities: 
     - id: pgwad
       role: author
-    - id: wael-ivie
-      role: editor
 ---
 
 ##
