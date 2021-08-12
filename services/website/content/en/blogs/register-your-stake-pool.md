@@ -23,7 +23,7 @@ identities:
 
 ***Who are we?*** 🗺️ ⛵
 
-- We are an [***alliance***](/en/terms/alliance.md) of Cardano single-stake-pool operators around the world that use Arm-based computers, including single board computers like the Raspberry Pi, to run their Cardano stake pools. Using Arm-based CPUs, this alliance can maintain efficient block-producing stake pools at lower costs both economically and environmentally. 
+- We are an [***alliance***](/en/terms/stake-pool-alliance.md) of Cardano single-stake-pool operators around the world that use Arm-based computers, including single board computers like the Raspberry Pi, to run their Cardano stake pools. Using Arm-based CPUs, this alliance can maintain efficient block-producing stake pools at lower costs both economically and environmentally. 
 
 
 ***Why should I join?*** 🔱
