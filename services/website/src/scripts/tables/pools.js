@@ -83,6 +83,11 @@ module.exports = {
         }
 
         const check = checks.find(check => check.poolId === row.id)
+
+        if (!check) {
+            return row
+        }
+
         return {
             ...row,
             qualityScore: check.qualityScore

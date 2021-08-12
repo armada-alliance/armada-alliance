@@ -10,6 +10,7 @@ module.exports = {
         const identityPages = pages.filter(page => page.template === "IdentityDetailPage")
 
         const pools = ctx.tables.get('pools')
+
         const poolsByIdentity = pools.reduce((result, pool) => {
 
             pool.identities.forEach(identity => {
