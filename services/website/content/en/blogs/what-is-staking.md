@@ -14,7 +14,7 @@ references:
     - url: https://emurgo.io/en/blog/explain-proof-of-stake-pos-dpos
 ---
 
-![Stacking coins Pixpay](https://pixabay.com/get/g9d96dd62c6b817401681283d65e5e7a893d5487b9083d4837e6822812b916c6df7c2298abe563c293acaa0a6f04b1d29_640.jpg)
+![Stacking coins Pixpay](https://pixabay.com/get/gc2d9bcce2ef33c77707db9c2b4b06ecdfadeedca274b630e4b5e5e16c4d0a29b3b6369a15bd40a8319a1deaa0c6c4fde45884e6b797659280bd038f3a9d634f5_1920.jpg)
 
 ## ***Cardano staking overview***
 
