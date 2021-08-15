@@ -1,7 +1,6 @@
 ---
 template: BlogDetailPage
-title: What is [staking](/en/terms/staking.md)?
-description: On the [Cardano](/en/terms/cardano.md) blockchain, the ada held by wallets represents the stake in the network; the ability to use your stake to either [pledge](/en/terms/pledge.md) or delegate is one of the core elements of Cardano.
+title: Cardano Staking
 keywords: ada, cardano, delegating ada, how to delegate, staking ada, staking
 identities: 
     - id: wael-ivie
@@ -15,6 +14,12 @@ references:
     - url: https://emurgo.io/en/blog/explain-proof-of-stake-pos-dpos
 ---
 
+![Stacking coins Pixpay](https://pixabay.com/get/g9d96dd62c6b817401681283d65e5e7a893d5487b9083d4837e6822812b916c6df7c2298abe563c293acaa0a6f04b1d29_640.jpg)
+
+## ***Cardano staking overview***
+
+On the [Cardano](/en/terms/cardano.md) blockchain, the ada held by wallets represents the stake in the network; the ability to use your stake to either [pledge](/en/terms/pledge.md) or delegate is one of the core elements of Cardano.
+
 Pledge is the amount of ada a stake pool owner has decided to delegate to their [stake pool](/en/terms/stake-pool.md). Currently, there is no minimum ada requirement to the amount of pledge needed to open a Cardano stake pool. Thus, a stake pool owner may delegate some or all of their ada when creating a stake pool. However, a stake pool owner's pledge does affect things like their stake pool's attractiveness to delegates, a0 parameter, rewards distribution, and security of the network.
 
 Cardano stake pools are vital for the decentralization of the network along with maintaining its overall well-being. Stake pool operators pledge their ada, time, and skills to continuously keep Cardano nodes online. They do this so that other users can take part in the protocol and gain rewards without having to support the network. 
@@ -23,7 +28,7 @@ Delegation or also known as staking your ADA is a vital feature of Cardano that 
 
 The total staked ada currently in Cardano Stake Pools is around 32.5 billion or 71% of the total supply of ada. This amount of stake is impressive for two reasons it shows the faith that the community has in Cardano, and secondly, it signifies the security of the Cardano network. 
 
-## Why should you delegate your [ada](/en/terms/ada.md)? 
+## ***Why should you delegate your [ada](/en/terms/ada.md)?***
 
 By delegating your ada to a Cardano Stake Pool, you will support the community, benefit from the rewards sharing scheme, and help to secure the overall network. 
 
