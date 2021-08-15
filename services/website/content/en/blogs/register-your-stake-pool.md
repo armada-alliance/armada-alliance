@@ -9,7 +9,8 @@ identities:
     - id: wael-ivie
       role: author
 ---
-<Logo url="https://github.com/armada-alliance/Logo/blob/main/banner-armada%20copy.png?raw=true" />
+
+![Armada Banner](https://github.com/armada-alliance/assets/blob/gh-pages/banner-armada.png?raw=true)
 
 ## ☠️ Welcome to the Armada Alliance 🏖️
 
