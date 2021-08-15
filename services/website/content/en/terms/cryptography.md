@@ -9,7 +9,7 @@ identities:
       role: author
 ---
 
-![Cipher](https://pixabay.com/get/g65e5a1025ca401374ee41b8320cdfcccdef6e60714962d18e1ba0aeb5fd83b8e05693b92b790c2e9c8abc9eb8d41f4a0_1920.jpg)
+![Cipher](https://github.com/armada-alliance/assets/blob/gh-pages/enigma.jpg?raw=true)
 
 ## What is Cryptography?
 
