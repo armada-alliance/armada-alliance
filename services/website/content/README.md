@@ -15,6 +15,13 @@ identities:
 ---
 ```
 
+### Identity Roles
+
+There's currently two roles available that can be given to people contributing to a page.
+
+- `author` — This is the person that has created the post and has done the most work on it. This can be multiple people working on a post equally.
+- `editor` — This is the person that has edited the post to improve it's grammar slightly or added other small improvements to the post. 
+
 Per template different metadata properties are supported:
 
 Term: aliases (names the term also is known as)
