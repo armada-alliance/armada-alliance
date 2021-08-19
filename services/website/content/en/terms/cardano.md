@@ -8,9 +8,3 @@ identities:
   - id: wael-ivie
     role: author
 ---
-
-It combines pioneering technologies to provide unparalleled security and sustainability to decentralized applications, systems, and societies.
-
-With a leading team of engineers, Cardano exists to redistribute power from unaccountable structures to the margins – to individuals – and be an enabling force for positive change and progress.
-
-Read our blog ["What is Cardano"](/en/blogs/what-is-cardano.md) to learn more.
