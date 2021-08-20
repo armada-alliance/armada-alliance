@@ -3,13 +3,15 @@ template: BlogDetailPage
 title: A Brief History of PoW
 image: /PoW.webp
 imageCaption: Credits to [@Peggy_Marco](https://pixabay.com/users/peggy_marco-1553824/) at Pixbay
-description: From E-mail to Bitcoin
-aliases: dapp, dapps, decentralized applications, what is a dapp
-keywords: dapps, dapp, decentalized, applications, what is a dapp
+description:
+aliases: proof-of-work, pow, mining crypto, mining btc, mining bitcoin, bitcoin
+keywords: bitcoin, bitcoin network, crypto, proof-of-work
 identities: 
     - id: wael-ivie
       role: author
 ---
+
+
 
 ## ***Intro***
 
@@ -48,7 +50,9 @@ There were some issues however with the RPoW approach, sort of like Hashcash the
 Then in 2008, amidst the global financial crisis known as the [Great Recession](https://www.thebalance.com/the-great-recession-of-2008-explanation-with-dates-4056832), upon a cryptography mailing list appeared a new piece of innovation from a member known as Satoshi Nakamoto. The Email's
 title is ["Bitcoin P2P e-cash paper"]((https://satoshi.nakamotoinstitute.org/emails/cryptography/1/)), and the first line of this Email Nakamoto states "I've been working on a new electronic cash system that's fully peer-to-peer, with no trusted third party.". Included in the message was the link to the Bitcoin whitepaper marking the beginning of Bitcoin. 
 
-**Here are the key elements of Bitcoin according to Satoshi Nakamoto:**
+![BTC Privacy Model](https://github.com/armada-alliance/assets/raw/gh-pages/btc-privacy.png)
+
+***Here are the key elements of Bitcoin according to Satoshi Nakamoto:***
 
 - ***Double-spending is prevented with a peer-to-peer network.***
 - ***No mint or other trusted parties.***
