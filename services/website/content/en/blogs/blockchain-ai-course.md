@@ -18,33 +18,34 @@ In short the goal of this is that you will be able to write an AI agent and or s
 Also if someone wants to learn on blockchain or only AI then that should also be possible. Once SingularityNet becomes available on Cardano you will be able to try out this also.
 
 ## ***Topics***
+
 Part 1 : Blockchain
-	1) Blockchain Basics and Why Cardano [2 hours]
-	2) DeepDive in Cardano (Networking and Ouroboros) [6 hours]
-	3) Smart contract basics and Plutus Basics [6 hours] {Recap of Plutus Pioneer. Participants expected to watch the Plutus Pioneer} 
-	4) Blockchain Sustainability [2 hours]
-	5) Advanced Topics like Hydra [TBD]
+	1) Blockchain Basics and Why Cardano 2 hours
+	2) DeepDive in Cardano (Networking and Ouroboros) 6 hours
+	3) Smart contract basics and Plutus Basics 6 hours {Recap of Plutus Pioneer. Participants expected to watch the Plutus Pioneer} 
+	4) Blockchain Sustainability 2 hours
+	5) Advanced Topics like Hydra TBD
 Part 2a: ML
-	1) Machine learning Math [4 hours]
-	2) Machine learning basics [15 hours]
-	3) Neural Networks and Deeplearning [12 hours]
-	4) Advanced topics [15 Hours]
+	1) Machine learning Math 4 hours
+	2) Machine learning basics 15 hours
+	3) Neural Networks and Deeplearning 12 hours
+	4) Advanced topics 15 Hours
 
 Part 2b: SingularityNet
-	1) Interfacing AI agent [3 hours]
-	2) Introduction Opencog hyperon [3 hours]
+	1) Interfacing AI agent 3 hours
+	2) Introduction Opencog hyperon 3 hours
 	
 Part 3: Practical. At appropriate stages in part 1 and Part2.
 	1) Plutus modules for DeepchainAda
-	2) Pytorch and Pysyft
+	2) Pytorch and Pysyft	
 	3) SingulartyNet and NuNET adaptors
-  4) HW boards like Raspi and Jetson Nano will be used. Not mandatory.
+	4) HW boards like Raspi and Jetson Nano will be used. Not mandatory.
 
 ## ***Reference materials***
 I will be creating slides which will be shared after every important milestone. I will upload all necessary code for practicals in github. 
 On need basis I will have live sessions for any questions that may arise. Will try and ensure 2 way communication to give better experience to participants.
 I will have some challenge questions and will donate HW (Raspi and Jetson) to few lucky participants who solve it. 
-I will also share additional reading/watching materials and will be aviable for discussion if there are doubts in that. As I said I dont want to dump the videos.
+I will also share additional reading/watching materials and will be available for discussion if there are doubts in that. As I said I dont want to dump the videos.
 I will also explore google classroom if the class strength increases. 
 
 ## *** Cost of the course***
