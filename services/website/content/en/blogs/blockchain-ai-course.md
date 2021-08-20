@@ -19,27 +19,28 @@ Also if someone wants to learn on blockchain or only AI then that should also be
 
 ## ***Topics***
 
-Part 1 : Blockchain
-	1) Blockchain Basics and Why Cardano 2 hours
-	2) DeepDive in Cardano (Networking and Ouroboros) 6 hours
-	3) Smart contract basics and Plutus Basics 6 hours {Recap of Plutus Pioneer. Participants expected to watch the Plutus Pioneer} 
-	4) Blockchain Sustainability 2 hours
-	5) Advanced Topics like Hydra TBD
+Part 1 Blockchain
+- Blockchain Basics and Why Cardano 2 hours
+- DeepDive in Cardano (Networking and Ouroboros) 6 hours
+- Smart contract basics and Plutus Basics 6 hours {Recap of Plutus Pioneer. Participants expected to watch the Plutus Pioneer} 
+- Blockchain Sustainability 2 hours
+- Advanced Topics like Hydra TBD
+
 Part 2a: ML
-	1) Machine learning Math 4 hours
-	2) Machine learning basics 15 hours
-	3) Neural Networks and Deeplearning 12 hours
-	4) Advanced topics 15 Hours
+- Machine learning Math 4 hours
+- Machine learning basics 15 hours
+- Neural Networks and Deeplearning 12 hours
+- Advanced topics 15 Hours
 
 Part 2b: SingularityNet
-	1) Interfacing AI agent 3 hours
-	2) Introduction Opencog hyperon 3 hours
+- Interfacing AI agent 3 hours
+- Introduction Opencog hyperon 3 hours
 	
 Part 3: Practical. At appropriate stages in part 1 and Part2.
-	1) Plutus modules for DeepchainAda
-	2) Pytorch and Pysyft	
-	3) SingulartyNet and NuNET adaptors
-	4) HW boards like Raspi and Jetson Nano will be used. Not mandatory.
+- Plutus modules for DeepchainAda
+- Pytorch and Pysyft	
+- SingulartyNet and NuNET adaptors
+- HW boards like Raspi and Jetson Nano will be used. Not mandatory.
 
 ## ***Reference materials***
 I will be creating slides which will be shared after every important milestone. I will upload all necessary code for practicals in github. 
@@ -53,7 +54,8 @@ Free! Yes, IOHK and many great universities and professors have provided knowled
 So how will i fund these videos and HW? This course will run with profits from PGWAD pool (if i get enough stakes) else it will come from my pockets. I have earmarked some budget for this.
 Ofourse if you own ADA then please consider staking to PGWAD pool.
 
-
+## *** Start of the course***
+The course will start around 1st week of Sep.
 
 To find the details of the topics please watch the video 
 <YoutubeVideo url="https://www.youtube.com/watch?v=jJoVFlZlI94" />
