@@ -47,7 +47,7 @@ jobs:
           rm -rf /tmp/repo/_next
           rm -rf /tmp/repo/pages
           cp -R out/* /tmp/repo
-          cp public/tables/topology.json public/tables/timeSeries.json public/sitemap.xml /tmp/repo/
+          cp public/tables/topology.json public/tables/pools.json public/tables/relays.json public/tables/timeSeries.json public/sitemap.xml /tmp/repo/
           mkdir -p /tmp/repo/pages
           cp -R public/pages/* /tmp/repo/pages
       - name: Push changes to GitHub Pages repo
