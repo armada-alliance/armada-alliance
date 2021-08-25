@@ -4,7 +4,7 @@ title: Raspberry Pi Stake Pool
 description: Download a pre-configured image with everything installed to run a
   Cardano Node on a Raspberry Pi out of the box.
 keywords: Stake Pool Operation, Raspberry Pi, ARM
-icon: 
+icon: 🥧
 externalLink: https://docs.armada-alliance.com/learn/intermediate-guide/pi-pool-tutorial
 identities:
     - id: wcat-otg
