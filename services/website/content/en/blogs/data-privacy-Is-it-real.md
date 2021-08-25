@@ -3,7 +3,7 @@ template: BlogDetailPage
 title: Data Privacy
 description: Emperor Wears no clothes!
 keywords: data privacy, amazon, google, facebook, blockchain, ai, artificial intelligence, data science, cardano, blockchain
-icon: 🔒
+icon: 🔐
 identities: 
     - id: pgwad
       role: author

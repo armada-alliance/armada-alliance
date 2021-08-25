@@ -3,7 +3,7 @@ template: BlogDetailPage
 title: PGWAD Stake-Pool & DeepchainAda
 description: What is PGWAD and what is the DeepchainAda project?
 keywords: data privacy, Federated Learning,  blockchain, ai, artificial intelligence
-icon: 🔒
+icon: 👨‍💻
 identities:
   - id: pgwad
     role: author
