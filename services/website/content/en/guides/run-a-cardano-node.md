@@ -25,5 +25,5 @@ If you answered yes to any of the previous questions, check out our guide on get
 - This guide will walk you through step-by-step on how to setup a [Raspberry Pi](/en/identities/raspberrypi.md) Cardano Node by using a pre-configured version of the Raspberry Pi Operating System.
 
 - If you rather use a different version of Linux OS here is a list of other guides we have made for other Linux OS:
-  1. [Ubuntu 20.04 LTS](/en/guides/run-a-cardano-node-on-alpine-linux-os.md)
-  2. [Alpine Linux OS](/en/guides/run-a-cardano-node-using-a-prebuilt-image.md)
+  1. [Ubuntu 20.04 LTS](/en/guides/run-a-cardano-node-using-a-prebuilt-image.md)
+  2. [Alpine Linux OS](/en/guides/run-a-cardano-node-on-alpine-linux-os.md) 
