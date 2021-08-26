@@ -22,3 +22,6 @@ It was great for learning all the moving parts with it more or less working out 
 I tried to hang on to as much as I could from the old image like the default username and password as well as having a 'pi-pool' folder that housed db/ and config files.
 
 I am proud to host a snapshot of the database folder that allows one to burn the image pull a chain snapshot with wget and have a passive synced relay in about an hour. Something that would take 2 days to sync on its own on a [Raspberry Pi](/en/identities/raspberrypi.md).
+
+
+<YoutubeVideo url="https://www.youtube.com/watch?v=0ESufjRxAyI" description="Raspberry Pi Cardano Relay"/>
