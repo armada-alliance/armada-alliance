@@ -2,7 +2,7 @@
 template: BlogDetailPage
 title: A course on Cardano Blockchain and Machine learning
 keywords: blockchain, ai, artificial intelligence, data science, cardano, blockchain, SingularityNet
-identities: 📚
+identities:
   - id: pgwad
     role: author
 ---
