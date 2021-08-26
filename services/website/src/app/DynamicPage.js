@@ -37,6 +37,9 @@ export default function DynamicPage(props) {
             <Head>
                 <title>{markdownToText(page.title)}</title>
                 <meta name="description" content={markdownToText(page.description)} />
+                {page.meta ? (
+                    <meta name="keywords" content={page.keywords.join(', ')} />
+                ) : null}
                 <meta property="og:title" content={markdownToText(page.title)} />
                 <meta property="og:description" content={markdownToText(page.description)} />
                 {page.image ? (
