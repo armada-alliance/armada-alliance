@@ -1,6 +1,7 @@
 ---
 template: BlogDetailPage
 title: "Marlowe: The Future of Decentralized Finance"
+status: concept
 identities:
   - id: sublayerio
     role: author
