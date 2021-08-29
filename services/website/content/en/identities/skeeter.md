@@ -9,4 +9,4 @@ telegram: Skeeder
 github: Skeeter69
 ---
 
-Hi, my name is Timo. I'm a buddhist, kindergarten teacher, tech enthusiast and SPO of [BOA] (/en/stake-pools/9cbaa13cc5fdaae9c2b517c8596d184620375b5b77191f50bb46abcd.md) - for the Benefit Of All stake pool. My goal is to help people - in various ways, as you can see above - and make the world a little bit better, as far as I can reach. By joining this wonderful community, the Armada Alliance, I feel I am in the best of company to do so. Let's go, for the benefit of all!
+Hi, my name is Timo and I'm based in northern Germany. I'm a buddhist, kindergarten teacher, tech enthusiast and SPO of [BOA](/en/stake-pools/9cbaa13cc5fdaae9c2b517c8596d184620375b5b77191f50bb46abcd.md) - for the Benefit Of All stake pool. My goal is to help people in various ways and make the world just a little better, as far as I can reach. By joining this wonderful community, the Armada Alliance, I feel I am in the best of company to do so. Let's go, for the Benefit Of All!
