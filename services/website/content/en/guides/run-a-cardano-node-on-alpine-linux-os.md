@@ -1,6 +1,6 @@
 ---
 template: GuideDetailPage
-title: Run Alpine Linux OS RPi with Cardano Node
+title: Alpine Linux OS RPi Cardano Node
 description: Set up and run a Cardano Node on a very lightweight Linux distribution.
 keywords: Stake Pool Operation, Raspberry Pi, ARM
 icon: 🗻
