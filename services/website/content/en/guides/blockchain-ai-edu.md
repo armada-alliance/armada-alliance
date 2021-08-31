@@ -17,3 +17,6 @@ One of the initial goals of PGWAD pool was to create educational videos on block
 A right mix of balance is needed when both fields are in focus. Hence the video series will try to tackle these challenges. Another important point is that certain knowledge of mathematics is required. However the videos will cover all that.
 In short the goal of this is that you will be able to write an AI agent and or smart contracts with Plutus.
 Also if someone wants to learn on blockchain or only AI then that should also be possible. Once SingularityNet becomes available on Cardano you will be able to try out this also.
+
+The video gives a quick update on the contents for the first part of the video series. This will mainly be focussed on blockchain basics and Cardano.
+<YoutubeVideo url="https://www.youtube.com/watch?v=xL2wtQj4DuE" />
