@@ -36,15 +36,15 @@ The next major milestone in the journey of Proof-of-Stake took place in 2012 whe
 
 But how does King and Nadal's PPcoin use Proof-of-Stake to accomplish an even more decentralized and efficient cryptocurrency without sacrificing security?
 
-The way King and Nadal solved the security concerns of Proof-of-Stake was by creating a hybrid protocol model. In this model, the issuance of new coins is a Proof-of-Work mining process known as minting. The PPcoin Proof-of-Stake consensus model uses "coin age" and a hashing scheme similar to Bitcoin.  
+The way King and Nadal solved the security concerns of Proof-of-Stake was by creating a hybrid protocol model. In this model, the issuance of new coins is a Proof-of-Work mining process known as minting. The PPcoin Proof-of-Stake consensus model uses **coin age** and a hashing scheme similar to Bitcoin.  
 
-Satoshi Nakamoto knew of coin age as early as 2010, and he used it for prioritizing Bitcoin transactions, but not as a security feature. Coin age means a currency amount multiplied by the holding period of the currency. An example is Bob received 100 coins from Alice and held it for 10-days, then Bob accumulates (100 x 10) 1000 coin-days of coin age. Then by using block and transaction timestamps, the computation of coin age is facilitated and secured.
+Satoshi Nakamoto knew of coin age as early as 2010, and he used it for prioritizing Bitcoin transactions, but not as a security feature. Coin age means a currency amount multiplied by the holding period of the currency. An example is Bob received 100 coins from Alice and held it for 10-days, thus Bob accumulates `(100 x 10) = 1000` coin-days of coin age. Then by using block and transaction timestamps, the computation of coin age is facilitated and secured.
 
 Block generation in the PPcoin hybrid model consists of two parts, proof-of-work blocks, and proof-of-stake blocks. 
 
 ![Hybrid Model](https://github.com/armada-alliance/assets/raw/gh-pages/hybrid-pos-pow.png)
 
-In what is known as the "coinstake" transaction block owner pays himself consuming his coin age while gaining the right of creating a block for the network and minting for proof-of-stake. The first input called kernel is required to meet a hash target protocol similar to proof-of-work protocols.
+In what is known as the **coinstake** transaction block owner pays himself consuming his coin age while gaining the right of creating a block for the network and minting for proof-of-stake. The first input called kernel is required to meet a hash target protocol similar to proof-of-work protocols.
 
 But the hashing operation is done on a limited search space (one hash per unspent output per second), unlike in proof-of-work, which significantly reduces the consumption of energy resources. The hash target that the stake kernel must meet is a target per unit coin age consumed in the stake kernel. Thus the more coin age consumed by the stake kernel, the easier it is to meet the hash target protocol. 
 
