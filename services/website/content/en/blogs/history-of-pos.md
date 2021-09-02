@@ -54,7 +54,7 @@ Applying this hybrid model, PPcoin maintains similar levels of security to Bitco
 
 Later in 2012, King founded Peercoin, the world's first real proof-of-stake-based blockchain that is still around to this day. To learn more about Peercoin, I highly recommend visiting [Peercoin University](https://university.peercoin.net/), or you can watch the video below.
 
-<YoutubeVideo url="https://youtu.be/x8KAsime9EI" description="peersoin intro"/>
+<YoutubeVideo url="https://youtu.be/x8KAsime9EI" description="peercoin intro"/>
 
 ## The Next Generation
 
@@ -76,6 +76,6 @@ But What makes the Ouroboros protocol so different from other proof-of-stake pro
 
 Randomness prevents the formation of patterns, which is critical for maintaining a protocol’s security. This along with the ability to facilitate the proliferation of global, permissionless systems with minimal energy consumption is what makes Ouroboros a significant milestone.
 
-<YoutubeVideo url="https://youtu.be/Do8rHvr65ZA" description=Cardano Simply Explained/>
+<YoutubeVideo url="https://youtu.be/Do8rHvr65ZA" description="Cardano Simply Explained"/>
 
 Today most cryptocurrencies have moved away from proof-of-work consensus due to the heavy amount of resources used by various mining pools. Other chains like Qtum, Cosmos Network, NEO, Polkadot, and Ethereum 2.0 utilize various proof-of-stake consensus protocols. By solving the main issues of scalability, security, and interoperability in a much more efficient manner proof-of-stake has an attractive future ahead.
