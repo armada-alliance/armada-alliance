@@ -12,4 +12,4 @@ linkedin: eltontay
 github: eltontay
 ---
 
-Hi, my name is Elton Tay and I am the operator behind WottleNFT[WOT]. I am from Singapore and I love to drink black coffee. Therefore I go by the name Kopy-O, which is a Singaporean word for black coffee. I am a NUS business analytics undergraduate who is involved in Cardano since the start of 2020. Looking to be in this space for a long time. Please support me by delegating to my pool or through donations!
+Hi, my name is Elton Tay and I am the operator behind WottleNFT [WOT]. I am from Singapore and I love to drink black coffee. Therefore I go by the name Kopy-O, which is a Singaporean word for black coffee. I am a NUS business analytics undergraduate who is involved in Cardano since the start of 2020. Looking to be in this space for a long time. Please support me by delegating to my pool or through donations!
