@@ -7,6 +7,6 @@ donationAddress: addr1qx2lfexyckxwtzwvfs8n6krlrqs9f944rsgdrr2r5zuy89p2u8z2f43hk4
 verified: true
 ---
 
-Hi, I am Thomas, stake pool operator of ASTOR and ARMada Captain. With [Nessus Cardano](https://github.com/tdiesler/nessus-cardano) we explore, praise, contribute to various technical aspects of Cardano especially in the area containerized deployments.
+Hi, I am Thomas, stake pool operator of ASTOR. With [Nessus Cardano](https://github.com/tdiesler/nessus-cardano) we explore, praise, contribute to various technical aspects of Cardano especially in the area containerized deployments.
 
 This is our contribution to "Making The World Work Better For All".
