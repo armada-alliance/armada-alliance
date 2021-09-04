@@ -6,7 +6,7 @@ description: SPO
 website: https://astorpool.net
 donationAddress: addr1qx2lfexyckxwtzwvfs8n6krlrqs9f944rsgdrr2r5zuy89p2u8z2f43hk493xhd5qpwpmvzegs68z33qvx940mmzt2vq8n5v3n
 verified: true
-# telegram: eastpiada
+telegram: iusediscord
 badges:
   # - name: Fully ARMed
   #   color: "#EF4444"
