@@ -2,7 +2,7 @@
 template: IdentityDetailPage
 title: George (Vela Pool)
 description: SPO
-image: /george-vela.jpg
+image: https://adacardano.cl/george-vela.jpg
 website: https://adacardano.cl
 donationAddress: addr1qxkrq6ehgjerjw474ukj7mfukrr2l0kgzmv8cpdz3lpvma386770zmpjhjyuh4jk4cgxwyk2n2ap2959v2upky5ncnxq2ul6j4
 twitter: georgeACL1
