@@ -24,7 +24,7 @@ Recall that consensus protocols like proof-of-work determine how individual node
 
 Just a few days after the paper by Ben Laurie, a post on the [bitcointalk forum](https://bitcointalk.org/index.php?topic=27787.0) by a user named "QuantumMechanic"  introduced the term and principles of Proof-of-Stake. According to the QuantumMechanic:
 
-***What I mean by proof of stake is that instead of your "vote" on the accepted transaction history being weighted by the share of computing resources you bring to the network, it's weighted by the number of bitcoins you can prove you own, using your private keys.***
+> "What I mean by proof of stake is that instead of your "vote" on the accepted transaction history being weighted by the share of computing resources you bring to the network, it's weighted by the number of bitcoins you can prove you own, using your private keys."
 
 In simple terms, you can think of Proof-of-Stake as simply proof of ownership of a [currency](/en/terms/currency.md). This concept may seem trivial, but it is not when thinking about digital currencies. With traditional [fiat currencies](/en/terms/fiat.md), proof of ownership is easy to solve because fiat currencies are material and can only be in one place at a time.
 
