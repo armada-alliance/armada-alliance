@@ -5,7 +5,6 @@ image: /fintech.webp
 imageCaption: Credits to [@macrovector](https://www.freepik.com/macrovector) at freepik.com
 description:
 keywords: defi, cardano, ethereum, bitcoin, crypto, cryptocurrency, nft, solana, avalanche, smart contracts, defi summer, what is defi, how to earn money in crypto, dapp
-status: concept
 identities: 
     - id: wael-ivie
       role: author
@@ -108,7 +107,7 @@ The DeFi smart contracts are open-source and publicly available to allow for ana
 
 ### **The Application Layer**
 
-The way users interact with various DeFi protocols varies, but typically they have what are known as Dapps or decentralized applications. These applications provide a user interface and the ability to interact with the underlying protocol's functionality. A few examples of Dapps are wallets like Metamask, governance or voting applications, digital identity apps, liquidity pools, DEXs, and AMMs. For more information about Dapps, please [read our previous blog](/en/blogs/what-is-a-dapp.md) in which we discuss them in greater detail.
+The way users interact with various DeFi protocols varies, but typically they have what are known as Dapps or decentralized applications. These applications provide a user interface and the ability to interact with the underlying protocol's functionality. A few examples of Dapps are wallets like Metamask, governance or voting applications, digital identity apps, [liquidity pools](/en/terms/liquidity-pools.md), [DEXs](/en/terms/dex.md), and [AMMs](/en/terms/amm.md). For more information about Dapps, please [read our previous blog](/en/blogs/what-is-a-dapp.md) in which we discuss them in greater detail.
 
 ***Here is a video that walks through how exactly DeFi layers interact***
 

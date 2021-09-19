@@ -1,10 +1,11 @@
 ---
 template: TermDetailPage
-title: Term XYZ
-description: A definition of a term
-aliases: Term XYZ alias 1, Term XYZ alias 2, Term XYZ alias 3
-keywords: X, Y, Z
+title: Liquidity Pools
+description: A liquidity pool is a smart contract that locks up tokens to be used in DeFi services like lending, borrowing, and trading.
+keywords: liquidity, pool, liquid, pools, uniswap, maker dao, bancor, ethereum
 identities: 
     - id: wael-ivie
       role: author
 ---
+
+<YoutubeVideo url="https://youtu.be/cizLhxSKrAc" description="What is a Liquidity Pool?"/>

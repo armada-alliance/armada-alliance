@@ -1,9 +1,8 @@
 ---
 template: TermDetailPage
-title: Term XYZ
-description: A definition of a term
-aliases: Term XYZ alias 1, Term XYZ alias 2, Term XYZ alias 3
-keywords: X, Y, Z
+title: Decentralized Exchange
+description: A decentralized exchange for cyptocurrencies and other digital assets that has no central authority or traditional KYC required.
+keywords: exchange, decentralized exchange, dex, dexs, uniswap, sushiswap, crypto exchange
 identities: 
     - id: wael-ivie
       role: author
