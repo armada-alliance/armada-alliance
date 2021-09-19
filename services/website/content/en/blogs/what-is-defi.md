@@ -106,8 +106,9 @@ The way users interact with various DeFi protocols varies, but typically they ha
 
 Here is a small list of some of the top projects that are currently in the DeFi space:
 
-|    Project    	|   	| DeFi Service 	|
-|:-------------:	|:-:	|--------------	|
+
+|    Project    	|   	    | DeFi Service 	|
+|:-------------:	|:--------:	|--------------	|
 | [AAve](https://aave.com/)          	|   	| Lending      	|
 | [Maker](/en/identities/maker-dao.md)         	|   	| Lending      	|
 | [Curve Finance](https://curve.fi/) 	|   	| DEX          	|
@@ -115,6 +116,8 @@ Here is a small list of some of the top projects that are currently in the DeFi 
 | [yearn.finance](https://yearn.finance/) 	|   	| Assets       	|
 | [Synthetix](https://synthetix.io/)     	|   	| Derivatives  	|
 | [Flexa](https://flexa.network/)         	|   	| Payments     	|
+
+
 
 
 If you would like to see all the projects in the DeFi ecosystem please visit [DeFi Prime](https://defiprime.com/#defi_projects).
