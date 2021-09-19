@@ -5,7 +5,6 @@ image: /fintech.webp
 imageCaption: Credits to [@macrovector](https://www.freepik.com/macrovector) at freepik.com
 description:
 keywords: defi, cardano, ethereum, bitcoin, crypto, cryptocurrency, nft, solana, avalanche, smart contracts, defi summer, what is defi, how to earn money in crypto, dapp
-status: 
 identities: 
     - id: wael-ivie
       role: author
