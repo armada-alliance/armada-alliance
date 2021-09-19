@@ -1,11 +1,10 @@
 ---
 template: BlogDetailPage
 title: What is DeFi
-image: 
-imageCaption: Credits to [@nattanan23](https://pixabay.com/users/nattanan23-6312362/) at Pixbay
+image: /fintech.webp
+imageCaption: Credits to [@macrovector](https://www.freepik.com/macrovector) at freepik.com
 description:
-aliases: 
-keywords:
+keywords: defi, cardano, ethereum, bitcoin, crypto, cryptocurrency, nft, solana, avalanche, smart contracts, defi summer, what is defi, how to earn money in crypto, dapp
 status: concept 
 identities: 
     - id: wael-ivie
@@ -14,9 +13,9 @@ identities:
 
 ##
 
-Since the DeFi summer of 2020, one of the hottest topics discussed in the cryptocurrency and digital asset space is decentralized finance or DeFi. With massive growths in "total value locked" and active users of various protocols, we have seen a sort of crypto Gold Rush accompanied by a Wild West-style code of conduct. 
+Since the DeFi summer of 2020, one of the hottest topics discussed in the [cryptocurrency](/en/terms/cryptocurrency.md) and [digital asset](/en/terms/digital-asset.md) space is decentralized finance or DeFi. With massive growths in [total value locked](/en/terms/total-value-locked.md) and active users of various protocols, we have seen a sort of crypto Gold Rush accompanied by a Wild West-style code of conduct. 
 
-In DeFi, we see the great benefits of decentralization, unheard-of returns on investment, equal access to all users, and much more. But we also see the flip side of this financial freedom like scams, rug-pulls, insider trading, network outages, and hacks. Let's take a closer look into what DeFi is and why it is vital to the future success of cryptocurrencies and digital assets.
+In DeFi, we see the great benefits of [decentralization](en/terms/decentralized.md), unheard-of returns on investment, equal access to all users, and much more. But we also see the flip side of this financial freedom like scams, rug-pulls, insider trading, network outages, and hacks. Let's take a closer look into what DeFi is and why it is vital to the future success of cryptocurrencies and digital assets.
 
 ## What is DeFi?
 
@@ -66,7 +65,7 @@ All of these factors make DeFi a higher risk, but what in life is not a risk? Wh
 - Options Trading
 - Yield Farming
 - Global Payment Solutions
-- Stable coins
+- [Stable coins](/en/terms/stablecoin.md)
 - Synthetics
 - Crowd Funding
 - Liquidity Pools
@@ -75,8 +74,44 @@ All of these factors make DeFi a higher risk, but what in life is not a risk? Wh
 
 ## How does DeFi work?
 
-DeFi protocols are just a collection of smart contracts that run various services. It is why the DeFi ecosystem today is primarily built on Ethereum using ERC-20 tokens and Etherem Smart contracts. However, this won't be the case anymore since Cardano has launched native asset support and smart contract functionality on its blockchain this year. Cardano is not the only smart contract capable blockchain out there trying to get into the DeFi space. Two notable mentions are Solana and Avalanche.
+![DeFi Layers](https://github.com/armada-alliance/assets/blob/gh-pages/defi_layers.png?raw=true)
 
-The smart contracts that run DeFi protocols replace the need for a centralized authority or intermediaries when settling transactions. A smart contract is similar to a financial institution in the way it works. You deposit your assets as collateral into a DeFi protocol, which has a set of smart contracts that are the services. These can be lending, borrowing, transferring, swapping tokens, and payments. Unlike with traditional finance, you never actually give up custodianship of your digital assets using smart contracts. Another benefit is that smart contracts are immutable once they are live on the blockchain. This adds security and trust that the contract will always execute as planned by the two parties. 
+We can think about how DeFi works as these four layers:
+1. ***The blockchain Layer***
+    - The host blockchain that the DeFi project is built on. It maintains the transaction history and state of accounts or UTXOs.
+2. ***The asset layer*** 
+    - Where the native assets like ADA, ETH, and the other tokens live.
+3. ***The protocol layer***
+    - The collection of smart contracts which operate the protocol and provide the various DeFi services.
+4. ***The Application Layer***
+    - The various decentralized applications or products used by the community to manage, interact and govern the protocol. 
 
-The DeFi smart contracts are open-source and publicly available to allow for analysis, audits, and improvements. As I declared earlier, smart contracts are immutable so even the bad contracts once live will be identified and flushed out quickly by users. As smart contracts become even easier to understand for the non-experience programmer the trust level in DeFi will continue to grow.
+### **The Blockchain Layer**
+
+The host blockchain plays a key role in DeFi applications and services. They affect the speed of txs, security, interoperability between protocols, smart contract functionality, and more. DeFi protocols are just a collection of smart contracts that run various services. 
+
+It is why the DeFi ecosystem today is primarily built on Ethereum using ERC-20 tokens and Ethereum Smart contracts. However, this won't be the case anymore since Cardano has launched native asset support and smart contract functionality on its blockchain this year. Cardano is not the only smart contract capable blockchain out there trying to get into the DeFi space. Two notable mentions are Solana and Avalanche. 
+
+### **The Asset Layer**
+
+Each blockchain has a native cryptocurrency or digital asset that is vital in using various DeFi protocols. The tokens are used as collateral in DeFi protocols, traded for other tokens like governance tokens, or [staked](/en/terms/staking.md) to earn interest or governance tokens. 
+
+![](https://cdn.filestackcontent.com/Z2yRkCoKT8uTZUF4jJkl)
+
+### **The Protocol Layer**
+
+The smart contracts that run DeFi protocols replace the need for a centralized authority or intermediaries when settling transactions. A smart contract is similar to a financial institution in the way it works. You deposit your assets as collateral into a DeFi protocol, which has a set of smart contracts that are the services. These can be lending, borrowing, transferring, swapping tokens, and payments. Unlike with traditional finance, you never actually give up custodianship of your digital assets using smart contracts. 
+
+Another benefit is that smart contracts are immutable once they are live on the blockchain. Adding security and trust in the fact a contract will execute as planned by the parties involved. 
+
+The DeFi smart contracts are open-source and publicly available to allow for analysis, audits, and improvements. As I declared earlier, smart contracts are immutable that suggests bad contracts are identified and flushed out quickly by users. As smart contracts become even easier to understand for non-experienced programmers, the trust level in DeFi will continue to grow. 
+
+### **The Application Layer**
+
+The way users interact with various DeFi protocols varies, but typically they have what are known as Dapps or decentralized applications. These applications provide a user interface and the ability to interact with the underlying protocol's functionality. A few examples of Dapps are wallets like Metamask, governance or voting applications, digital identity apps, liquidity pools, DEXs, and AMMs. For more information about Dapps, please [read our previous blog](/en/blogs/what-is-a-dapp.md) in which we discuss them in greater detail.
+
+***Here is a video that walks through how exactly DeFi layers interact***
+
+<YoutubeVideo url="https://www.youtube.com/watch?v=k9HYC0EJU6E"/>
+
+If you would like to see all the projects in the DeFi ecosystem please visit [DeFi Prime](https://defiprime.com/#defi_projects).
