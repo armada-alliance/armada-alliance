@@ -36,16 +36,7 @@ Many problems exist with the conventional custodial financial services offered t
 
 **When we compare DeFi against the traditional financial system we can clearly see the benefits**
 
-|                    DeFi                   | vs |                    Centralized Finance                    |
-|:-----------------------------------------:|:--:|:---------------------------------------------------------:|
-|              Decentralization             |    |                       Centralization                      |
-|       Code is Law "smart contracts"       |    |                   Elites make the rules                   |
-|            Community Governance           |    |                   Full custodian control                  |
-|      You own your private information     |    | Custodian has equal ownership to your private information |
-| Transaction Speed ( almost instantaneous) |    |           Transactions and settlement takes days          |
-|         No premiums for middlemen         |    |         Premiums charged for intermediary services        |
-|       Trade globally freely anytime       |    |       Trade through central or regional authorities       |
-
+![Defi Vs. Cefi](https://github.com/armada-alliance/assets/blob/gh-pages/defi_cefi.png?raw=true)
 
 ## Why use Defi?
 
@@ -113,6 +104,17 @@ The way users interact with various DeFi protocols varies, but typically they ha
 
 <YoutubeVideo url="https://www.youtube.com/watch?v=k9HYC0EJU6E"/>
 
+Here is a small list of some of the top projects that are currently in the DeFi space:
+
+|    Project    	|   	| DeFi Service 	|
+|:-------------:	|:-:	|--------------	|
+| [AAve](https://aave.com/)          	|   	| Lending      	|
+| [Maker](/en/identities/maker-dao.md)         	|   	| Lending      	|
+| [Curve Finance](https://curve.fi/) 	|   	| DEX          	|
+| [Uniswap](https://uniswap.org/)       	|   	| DEX          	|
+| [yearn.finance](https://yearn.finance/) 	|   	| Assets       	|
+| [Synthetix](https://synthetix.io/)     	|   	| Derivatives  	|
+| [Flexa](https://flexa.network/)         	|   	| Payments     	|
 
 
 If you would like to see all the projects in the DeFi ecosystem please visit [DeFi Prime](https://defiprime.com/#defi_projects).
