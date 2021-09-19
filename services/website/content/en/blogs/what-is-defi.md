@@ -56,20 +56,20 @@ All of these factors make DeFi a higher risk, but what in life is not a risk? Wh
 ***Here is a list of some of the current and future applications for DeFi:***
 
 - Asset management
-- Decentralized Autonomous Organizations
-- Decentralized Exchanges
+- [Decentralized Autonomous Organizations](/en/terms/dao.md)
+- [Decentralized Exchanges](/en/terms/dex.md)
 - Lending 
 - Borrowing
-- Derivatives
+- Derivatives Trading
 - Options Trading
-- Yield Farming
+- [Yield Farming](/en/terms/yield-farming.md)
 - Global Payment Solutions
 - [Stable coins](/en/terms/stablecoin.md)
-- Synthetics
+- [Synthetic Tokens/Assets](/en/terms/synthetic-assets.md)
 - Crowd Funding
-- Liquidity Pools
+- [Liquidity Pools](/en/terms/liquidity-pools.md)
 - Insurance
-- Digital Identity
+- [NFT Marketplaces](/en/terms/nft.md)
 
 ## How does DeFi work?
 
@@ -112,5 +112,7 @@ The way users interact with various DeFi protocols varies, but typically they ha
 ***Here is a video that walks through how exactly DeFi layers interact***
 
 <YoutubeVideo url="https://www.youtube.com/watch?v=k9HYC0EJU6E"/>
+
+
 
 If you would like to see all the projects in the DeFi ecosystem please visit [DeFi Prime](https://defiprime.com/#defi_projects).
