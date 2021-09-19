@@ -12,7 +12,7 @@ identities:
 
 ##
 
-Since the DeFi summer of 2020, one of the hottest topics discussed in the [cryptocurrency](/en/terms/cryptocurrency.md) and [digital asset](/en/terms/digital-asset.md) space is decentralized finance or DeFi. With massive growths in [total value locked](/en/terms/total-value-locked.md) and active users of various protocols, we have seen a sort of crypto Gold Rush accompanied by a Wild West-style code of conduct. 
+Since the DeFi summer of 2020, one of the hottest topics discussed in the [cryptocurrency](/en/terms/cryptocurrency.md) and [digital asset](/en/terms/digital-asset.md) space is decentralized finance or DeFi. With massive growths in [total value locked](https://defipulse.com) and active users of various protocols, we have seen a sort of crypto Gold Rush accompanied by a Wild West-style code of conduct. 
 
 In DeFi, we see the great benefits of [decentralization](en/terms/decentralized.md), unheard-of returns on investment, equal access to all users, and much more. But we also see the flip side of this financial freedom like scams, rug-pulls, insider trading, network outages, and hacks. Let's take a closer look into what DeFi is and why it is vital to the future success of cryptocurrencies and digital assets.
 
@@ -36,16 +36,16 @@ Many problems exist with the conventional custodial financial services offered t
 
 **When we compare DeFi against the traditional financial system we can clearly see the benefits**
 
-| DeFi          | vs               | Centralized Finance  |
-|:-------------:|:-------------:   |:-----:|
-| Decentralization|                | Centralization |
-| Code is Law "smart contracts"    |   | Elites make the rules |
-| Community Governance             |   |Centralized Governance |
-| Non-custodian control |                  |    Full custodian control | 
-| You own your private information | | Custodian has equal ownership to your private information|
-| Transaction Speed ( almost instantaneous)| | Transactions and settlement takes days|
-| No premiums for middlemen | | Premiums charged for intermediary services |
-| Trade globally freely anytime | | Trade through central or regional authorities |
+|                    DeFi                   | vs |                    Centralized Finance                    |
+|:-----------------------------------------:|:--:|:---------------------------------------------------------:|
+|              Decentralization             |    |                       Centralization                      |
+|       Code is Law "smart contracts"       |    |                   Elites make the rules                   |
+|            Community Governance           |    |                   Full custodian control                  |
+|      You own your private information     |    | Custodian has equal ownership to your private information |
+| Transaction Speed ( almost instantaneous) |    |           Transactions and settlement takes days          |
+|         No premiums for middlemen         |    |         Premiums charged for intermediary services        |
+|       Trade globally freely anytime       |    |       Trade through central or regional authorities       |
+
 
 ## Why use Defi?
 
