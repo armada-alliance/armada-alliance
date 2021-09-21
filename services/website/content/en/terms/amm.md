@@ -1,7 +1,7 @@
 ---
 template: TermDetailPage
 title: Automated Market Maker
-description: A definition of a term
+description: Automated Market Maker (AMM).
 keywords: amm, automated market maker, automated market makers, uniswap, ethereum, dex
 identities: 
     - id: wael-ivie
