@@ -152,6 +152,8 @@ module.exports = {
                     image = 'https://armada-alliance.com/assets/ship-420.png'
                 }
 
+                console.log('adapools', poolId, adapools.created)
+
                 return {
                     id: poolId,
                     name,
@@ -183,7 +185,7 @@ module.exports = {
                     taxFix: data.fixed_cost,
                     roa: adapools.data.roa,
                     memberSince: poolPage.memberSince,
-                    registeredAt: new Date(adapools.created).toISOString(),
+                    registeredAt: adapools.created ? new Date(adapools.created).toISOString() : null,
                     identities: poolPage.identities,
                     nodes: poolPage.nodes,
                     relays,

@@ -17,6 +17,11 @@ module.exports = {
 
                 let country = result.find(country => country.id === data.country_code)
 
+                if (data.success === false) {
+                    console.log('ip stack error', pool.id, data)
+                    return
+                }
+
                 if (!country) {
                     country = {
                         id: data.country_code,
