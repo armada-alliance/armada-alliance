@@ -2,7 +2,7 @@
 template: GuideDetailPage
 title: Download Static Build
 keywords: static build
-icon: 💰
+icon: 📡 
 identities: 
     - id: zw3rk
       role: author
@@ -19,11 +19,20 @@ downloads:
       date: 2021-05-11 05:04:17
 ---
 
+![Glitch](https://github.com/armada-alliance/assets/blob/gh-pages/static-glitch.jpeg?raw=true)
+
 A static build is a [compiled](https://en.wikipedia.org/wiki/Compiler) version of a program that has been statically linked against libraries.
 
-To use cardano-node and cardano-cli you can download one of the binaries below provided by Moritz. 
+To use cardano-node and cardano-cli you can download one of the binaries below provided by Mortiz the stake pool operator of [[ZW3rk] Pool](/en/identities/zw3rk.md). 
 
 Simply download one of the zip files below to your Pi's home directory and then move it to the right location so you can call on it later to start the node.
+
+The binaries are found here 
+
+***If you are using Linux you can use the following command to download the binaries***
+```
+wget https://ci.zw3rk.com/build/1758/download/1/aarch64-unknown-linux-musl-cardano-node-1.27.0.zip
+```
 
 Use unzip command on the downloaded zip file and extract its contents.
 
