@@ -5,9 +5,9 @@ description: Software Engineering Lead at IOG
 image: /zw3rk.jpeg
 verified: true
 telegram: zw3rk
-email: moritz.angermann@iohk.io
 twitter: angerman_io
 linkedin: mangermann
+website: https://zw3rk.com/
 github: angerman
 ---
 
