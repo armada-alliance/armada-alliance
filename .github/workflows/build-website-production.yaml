@@ -1,0 +1,62 @@
+name: Build Website (Production)
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          clean: false
+          fetch-depth: 0
+      - name: Use Node.js 14.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+      - name: Cache Node Modules
+        id: cache-node-modules
+        uses: actions/cache@v2
+        with:
+          path: services/website/node_modules
+          key: node-modules-${{ hashFiles('services/website/package-lock.json') }}
+      - name: Install Dependencies
+        working-directory: ./services/website
+        if: steps.cache-node-modules.outputs.cache-hit != 'true'
+        run: npm install
+      - name: Build static website
+        working-directory: ./services/website
+        env: # Or as an environment variable
+          BLOCKFROST_PROJECT_ID: ${{ secrets.BLOCKFROST_PROJECT_ID }}
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          IPSTACK_API_KEY: ${{ secrets.IPSTACK_API_KEY }}
+          HOST: https://armada-alliance.com
+        run: |
+          node src/scripts/tasks/all.js
+          npm run build
+          npm run export
+          git config --global user.name "${{ secrets.CI_USERNAME }}"
+          git config --global user.email "${{ secrets.CI_EMAIL }}"
+          PAT64=$(echo ":${{ secrets.PERSONAL_ACCESS_TOKEN }}" | base64)
+          git -c http.extraHeader="Authorization: Basic $PAT64" clone https://${{ secrets.CI_USERNAME }}:${{ secrets.CI_PASSWORD }}@github.com/armada-alliance/armada-alliance.github.io.git /tmp/repo
+          rm -rf /tmp/repo/_next
+          rm -rf /tmp/repo/pages
+          cp -R out/* /tmp/repo
+          cp public/tables/topology.json public/tables/pools.json public/tables/relays.json public/tables/timeSeries.json public/sitemap.xml /tmp/repo/
+          mkdir -p /tmp/repo/pages
+          cp -R public/pages/* /tmp/repo/pages
+      - name: Push changes to GitHub Pages repo
+        working-directory: /tmp/repo
+        run: |
+          pwd
+          git add --all 
+          git commit -m 'update build' 
+          git config --global user.name "${{ secrets.CI_USERNAME }}"
+          git config --global user.email "${{ secrets.CI_EMAIL }}"
+          git remote set-url origin https://${{ secrets.CI_USERNAME }}:${{ secrets.CI_PASSWORD }}@github.com/armada-alliance/armada-alliance.github.io.git
+          git push origin master
