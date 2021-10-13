@@ -5,6 +5,35 @@ import lowerFirst from 'lodash/lowerFirst'
 import Link from './Link'
 import Context from './Context'
 import NewsletterSection from '../NewsletterSection'
+import { YouTubeIcon, DiscordIcon, TelegramIcon, GitHubIcon, TwitterIcon } from './icons'
+
+const socials = [
+    {
+        name: 'YouTube',
+        icon: YouTubeIcon,
+        href: 'https://www.youtube.com/channel/UCligunhcmbMYaBUMvONsKwg'
+    },
+    {
+        name: 'Discord',
+        icon: DiscordIcon,
+        href: 'https://discord.gg/Sqc398qk5a'
+    },
+    {
+        name: 'Telegram',
+        icon: TelegramIcon,
+        href: 'https://t.me/armada_alli'
+    },
+    {
+        name: 'Twitter',
+        icon: TwitterIcon,
+        href: 'https://twitter.com/alliance_armada'
+    },
+    {
+        name: 'GitHub',
+        icon: GitHubIcon,
+        href: 'https://github.com/armada-alliance'
+    }
+]
 
 function SubscribeForm() {
 
@@ -71,17 +100,9 @@ export default function Footer() {
         <>
             <NewsletterSection />
             <footer className="bg-white dark:bg-gray-900" aria-labelledby="footerHeading">
-                <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+                <div className="max-w-7xl mx-auto py-12 px-4 md:px-6 lg:py-16 lg:px-8">
                     <div className="md:flex md:items-center md:justify-between">
-                        <div className="flex space-x-6 md:order-2">
-                            {/* {navigation.social.map((item) => (
-                            <a key={item.name} href={item.href} target="_blank" className="text-gray-400 hover:text-gray-500">
-                                <span className="sr-only">{item.name}</span>
-                                <item.icon className="h-6 w-6" aria-hidden="true" />
-                            </a>
-                        ))} */}
-                        </div>
-                        <p className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-2 items-center text-base text-gray-400 md:mt-0 md:order-1">
+                        <p className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-2 items-center text-base text-gray-400 md:mt-0">
                             <div>
                                 {moment().format('YYYY')} {schema.about.name}
                             </div>
@@ -89,6 +110,14 @@ export default function Footer() {
                                 <a className="text-xs text-gray-600 dark:text-gray-400 font-bold px-2 py-1 rounded-md transition-colors bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700 hover:bg-gray-100">{pages.length} pages generated {lowerFirst(moment(schema.createdAt).calendar())}</a>
                             </Link>
                         </p>
+                        <div className="mt-6 md:mt-0 flex items-center justify-center md:justify-end space-x-3">
+                            {socials.map(social => (
+                                <a key={social.name} href={social.href} target="_blank" className="text-gray-300 hover:text-gray-500">
+                                    <span className="sr-only">{social.name}</span>
+                                    <social.icon className="h-6 w-6" aria-hidden="true" />
+                                </a>
+                            ))}
+                        </div>
                     </div>
                 </div>
             </footer>
