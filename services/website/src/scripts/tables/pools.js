@@ -140,7 +140,7 @@ module.exports = {
 
                 let image = adapools.data.handles.icon
 
-                if (extended) {
+                if (extended && extended.info) {
                     image = extended.info.url_png_logo
                 }
 

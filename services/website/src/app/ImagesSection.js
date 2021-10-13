@@ -91,7 +91,7 @@ export default function ImagesSection(props) {
                             <li style={{ width: 6, height: 6, marginLeft: 12, marginRight: 12 }} className={cx("rounded-full", dot.props.className === "slick-active" ? "bg-gray-500 dark:bg-gray-200" : "bg-gray-200 dark:bg-gray-700")} />
                         )
 
-                        console.log('dot', dot)
+                        // console.log('dot', dot)
 
                         return React.cloneElement(dot, {})
                     })}
@@ -125,7 +125,7 @@ export default function ImagesSection(props) {
             },
         ],
     };
-    console.log(settings)
+    // console.log(settings)
     return (
         <>
             <div className={cx("select-none", alternate ? "bg-gray-50 dark:bg-gray-900" : "bg-white dark:bg-gray-900")}>

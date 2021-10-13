@@ -7,14 +7,7 @@ services:
     ports:
       - 80:80
     restart: always
-
-  sqlite:
-    image: acttaiwan/phpliteadmin
-    volumes:
-      - ./services/website/db:/db
-    ports:
-      - 2015:2015
-
+    
   website:
     image: node:14
     env_file:

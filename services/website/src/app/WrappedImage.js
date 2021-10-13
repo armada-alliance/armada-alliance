@@ -4,7 +4,7 @@ import cx from "classnames"
 
 export default function WrappedImage(props) {
 
-    console.log('props', props)
+    // console.log('props', props)
 
     const [loaded, setLoaded] = useState(false)
 
