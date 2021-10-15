@@ -1,6 +1,7 @@
 ---
 template: IdentityDetailPage
-title: Thomas Diesler
+title: Thomas
+image: /tomd-rogger.jpg
 description: SPO
 website: https://astorpool.net
 telegram: astorpool
