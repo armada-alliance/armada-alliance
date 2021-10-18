@@ -10,8 +10,6 @@ verified: true
 badges:
   - name: Fully ARMed
     color: "#EF4444"
-  - name: ARMada CAP'N
-    color: "#846DCF"
 ---
 
 Hi, I am Thomas, stake pool operator of ASTOR. With [Nessus Cardano](https://github.com/tdiesler/nessus-cardano) we explore, praise, contribute to various technical aspects of Cardano especially in the area containerized deployments.
