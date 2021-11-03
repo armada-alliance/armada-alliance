@@ -9,7 +9,7 @@ module.exports = {
 
             pool.relays.forEach(relay => {
 
-                if (!relay.data) {
+                if (!relay.data || !relay.data.latitude || !relay.data.longitude) {
                     return
                 }
 

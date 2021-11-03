@@ -62,7 +62,9 @@ const getDataForAddresses = async (addresses) => {
             try {
                 const { data } = await ipstack.get(address)
                 result[address] = data
-                setCacheItem(address, data)
+                if (!data.error) {
+                    setCacheItem(address, data)
+                }
             } catch (e) {
                 console.log('e', e.response)
             }
@@ -220,13 +222,20 @@ module.exports = {
 
             return {
                 ...row,
-                relays: row.relays.map(relay => {
+                relays: row.relays.reduce((result, relay) => {
 
-                    return {
-                        ...relay,
-                        data: locationsByAddress[relay.addr]
+                    const data = locationsByAddress[relay.addr]
+
+                    if (!data.error) {
+
+                        result.push({
+                            ...relay,
+                            data
+                        })
                     }
-                })
+
+                    return result
+                }, [])
             }
         })
     }

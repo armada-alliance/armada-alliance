@@ -26,7 +26,7 @@ module.exports = {
                     country = {
                         id: data.country_code,
                         name: data.country_name,
-                        icon: data?.location?.country_flag_emoji,
+                        icon: data.location.country_flag_emoji,
                         continentCode: data.continent_code,
                         continentName: data.continent_name,
                         pools: []

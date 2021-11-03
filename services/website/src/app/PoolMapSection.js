@@ -92,6 +92,10 @@ export default function PoolMapSection({ pools, relays }) {
 
     const bounds = relays
         .reduce((result, relay) => {
+            if (!relay.longitude) {
+                console.log(JSON.stringify(relay, null, 2))
+            }
+            console.log('relay', relay.longitude, relay.latitude)
             result.extend(
                 [relay.longitude, relay.latitude]
             )
