@@ -6,19 +6,20 @@ identities:
   - id: Rhys_STOIC
     role: spo
 nodes:
-  - id: Core
-    device ID: RaspberryPi 4 8Gb
+  - role: producer
+    deviceId: raspberry-pi-4-8gb
     storage: Samsung 980 Pro NVME SSD 250Gb
-  - id: Relay 1
-    device ID: RaspberryPi 4 8Gb
+  - role: relay
+    deviceId: raspberry-pi-4-8gb
     storage: Samsung 980 Pro NVME SSD 250Gb
-  - id: Relay 2
-    device ID: RaspberryPi 4 8Gb
+  - id: relay
+    deviceId: raspberry-pi-4-8gb
     storage: Samsung 980 Pro NVME SSD 250Gb
-content:
-  - images: URL
-    construction: https://stoicpool.com/wp-content/uploads/2021/11/Raspberry-Pi-Stake-Pool-Construction.jpg
-    operation: https://stoicpool.com/wp-content/uploads/2021/11/Raspberry-Pi-Stake-Pool-Running.jpg.png
+contentSections:
+  - type: ImagesSection
+    images:
+      - url: https://stoicpool.com/wp-content/uploads/2021/11/Raspberry-Pi-Stake-Pool-Construction.jpg
+      - url: https://stoicpool.com/wp-content/uploads/2021/11/Raspberry-Pi-Stake-Pool-Running.jpg.png
 ---
 
 # About STOIC
@@ -37,6 +38,6 @@ The proposal wll be based on creating real world utility for the Cardano Blockch
 
 ## Pool Stats
 
-<url="https://adapools.org/pool/099d512b6ffedd552ae38a9ae2123c116b1d20e1f01bb42a1f539fba" description="ADAPools.org" />
-<url="https://pool.pm/099d512b6ffedd552ae38a9ae2123c116b1d20e1f01bb42a1f539fba" description="Pool.pm" />
-<url="https://pooltool.io/pool/099d512b6ffedd552ae38a9ae2123c116b1d20e1f01bb42a1f539fba/epochs" description="PoolTool.io" />
+- [ADAPools.org](https://adapools.org/pool/099d512b6ffedd552ae38a9ae2123c116b1d20e1f01bb42a1f539fba)
+- [Pool.pm](https://pool.pm/099d512b6ffedd552ae38a9ae2123c116b1d20e1f01bb42a1f539fba)
+- [PoolTool.io](https://pooltool.io/pool/099d512b6ffedd552ae38a9ae2123c116b1d20e1f01bb42a1f539fba/epochs)
