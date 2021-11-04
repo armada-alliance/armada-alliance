@@ -6,7 +6,7 @@ aliases: ASIC
 keywords: ASIC, Application, Specific, Integrated, Circuit
 origin: /terms/asic
 identities:
-  - id: wael-ivie
+  - id: raine-bhmt
     role: author
 ---
 
