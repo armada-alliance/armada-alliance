@@ -2,6 +2,6 @@
 template: IdentityDetailPage
 title: Antonello
 description: SPO
-telegram: @ollenotnA
+telegram: ollenotnA
 github: CardenPool
 ---
