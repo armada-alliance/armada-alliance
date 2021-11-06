@@ -3,8 +3,8 @@ template: IdentityDetailPage
 title: "Raspberry Pi Foundation"
 description: The Raspberry Pi Foundation is a UK-based charity that works to put the power of computing and digital making into the hands of people all over the world.
 image: /Raspi_Colour_R.png
-donationAddress: 
-verified: 
+website: https://www.raspberrypi.com/
+verified: True
 ---
 
 We do this so that more people are able to harness the power of computing and digital technologies for work, to solve problems that matter to them, and to express themselves creatively.

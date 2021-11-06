@@ -2,14 +2,11 @@
 template: BlogDetailPage
 title: A course on Cardano Blockchain and Machine learning
 keywords: blockchain, ai, artificial intelligence, data science, cardano, blockchain, SingularityNet
+image: /ai_privacy.webp
 identities:
   - id: pgwad
     role: author
 ---
-
-##
-
-![AI and Privacy](https://github.com/armada-alliance/assets/blob/gh-pages/ai_privacy.png?raw=true)
 
 ##
 
