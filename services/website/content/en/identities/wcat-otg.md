@@ -7,7 +7,7 @@ website: https://adamantium.online
 donationAddress: addr1qyzrfl2lf0ugsz25heszl7pp0fd29qh73xqe62axh2u5agdsvcnspa6ljktrhpxj2rfjv09xyxppd9lvg0mkzk3cj7gs3qxxwx
 verified: true
 twitter: OTG_WCat
-telegram: WCatz
+telegram: WCat13
 github: wcatz
 badges:
     - name: Fully ARMed
