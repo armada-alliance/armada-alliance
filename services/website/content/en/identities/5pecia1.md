@@ -10,7 +10,7 @@ verified: true
 telegram: pdpxpd
 ---
 
-Hi I am 5pecia1, In 2017, I started studying blockchain with Bitcoin and Ethereum, and since 2018, I have been using Hyperledger Fabric to develop a full blockchain stack(blockchain-backend-frontend) in enterprise and contribute to blockchain open source.
+Hi I am 5pecia1. In 2017, I started studying blockchain with Bitcoin and Ethereum, and since 2018, I have been using Hyperledger Fabric to develop a full blockchain stack(blockchain-backend-frontend) in enterprise and contribute to blockchain open source.
 I have the skills and soon I will have time. I will leave the company :)
 Now I want to work for Cardano and the blockchain ecosystem.
 If you support me, please stake my pool.
