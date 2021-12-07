@@ -3,7 +3,6 @@ template: IdentityDetailPage
 title: Wael Ivie🐋
 description: Founder, SPO
 image: /wael.png
-website: https://piada.io
 telegram: Qwailman
 twitter: Piada_stakePool
 github: AstroWa3l
