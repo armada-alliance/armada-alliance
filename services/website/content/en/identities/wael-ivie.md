@@ -6,6 +6,7 @@ image: /wael.png
 telegram: Qwailman
 twitter: Piada_stakePool
 github: AstroWa3l
+website: https://piada.io
 donationAddress: addr1q8ae4ja0yrqy49g9pj48t4hhnc6zpamy4kecm7ay3d8m930k7hlxjrthyxvhjkjkxc5xjffs5w2tjqyh9ruv0kwqwv4qrq0gdt
 verified: true
 badges:
