@@ -12,7 +12,7 @@ const tablesClient = {
             }
             return rows
         } catch (e) {
-            console.log(e)
+            // console.log(e)
             return null
         }
     }
