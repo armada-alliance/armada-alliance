@@ -14,29 +14,34 @@ async function main() {
 
     async function resolveTable(table) {
 
-        if (resolvedTables.includes(table.id)) {
-            return
-        }
-
-        if (table.dependsOn) {
-
-            for (const tableId of table.dependsOn) {
-                const table = tables.find(table => table.id === tableId)
-                await resolveTable(table)
+        try {
+            if (resolvedTables.includes(table.id)) {
+                return
             }
+    
+            if (table.dependsOn) {
+    
+                for (const tableId of table.dependsOn) {
+                    const table = tables.find(table => table.id === tableId)
+                    await resolveTable(table)
+                }
+            }
+    
+            let rows = await table.create(ctx)
+    
+            if (table.afterCreate) {
+                rows = await table.afterCreate(ctx, rows)
+            }
+    
+            rowCounts[table.id] = rows.length
+    
+            await fs.writeFile(__dirname + '/../../../public/tables/' + table.id + '.json', JSON.stringify(rows, null, 2))
+    
+            resolvedTables.push(table.id)
+        } catch (e) {
+            console.log(`Error resolving table ${table.id}:`)
+            throw e
         }
-
-        let rows = await table.create(ctx)
-
-        if (table.afterCreate) {
-            rows = await table.afterCreate(ctx, rows)
-        }
-
-        rowCounts[table.id] = rows.length
-
-        await fs.writeFile(__dirname + '/../../../public/tables/' + table.id + '.json', JSON.stringify(rows, null, 2))
-
-        resolvedTables.push(table.id)
     }
 
     for (const table of tables) {
