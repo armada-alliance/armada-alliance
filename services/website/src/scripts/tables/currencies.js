@@ -25,10 +25,16 @@ module.exports = {
 
         const currency_names = currencies.map(cur => cur.id).join(',')
 
+        console.log(`https://api.coingecko.com/api/v3/simple/price?ids=cardano&vs_currencies=${currency_names}`)
+
         const currency_data = await axios
-            .get(
-                `https://api.coingecko.com/api/v3/simple/price?ids=cardano&vs_currencies=${currency_names}`
-            )
+            .request({
+                method: 'get',
+                url: `https://api.coingecko.com/api/v3/simple/price?ids=cardano&vs_currencies=${currency_names}`,
+                headers: {
+                    'content-type': 'application/json'
+                }
+            })
             .then((res) => res.data.cardano)
 
         return currencies.map(currency => {
