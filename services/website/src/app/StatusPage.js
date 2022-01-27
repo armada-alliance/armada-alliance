@@ -134,13 +134,18 @@ export default function StatusPage(props) {
 
     const { title } = props.props
     const [pools, setPools] = useState(null)
+    const [error, setError] = useState(false)
 
     useEffect(async () => {
-        if (pools) return
+        if (pools || error) return
 
-        const { data: { pools: _pools } } = await axios.get('https://api.sublayer.io/armada-api/ping/pools?includeMetrics=true')
-
-        setPools(_pools)
+        try {
+            const { data: { pools: _pools } } = await axios.get('https://api.sublayer.io/armada-api/ping/pools?includeMetrics=true')
+            setPools(_pools)
+        
+        } catch (e) {
+            setError(true)
+        }
     })
 
     let sortedPools = null
