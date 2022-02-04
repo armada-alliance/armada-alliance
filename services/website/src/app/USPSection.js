@@ -9,9 +9,9 @@ import Text from './Text'
 import DualColorText from './DualColorText'
 
 const features = [
-    { name: 'Sustainable', description: 'All Stake Pools in this alliance run on either Raspberry Pis exclusively or on other low power consuming ARM-based machines with an average pool energy consumption of less than 40 Watts💡', icon: RefreshIcon },
-    { name: 'True Decentralization', description: 'All independently owned stake pools, who promise to never split our pools, and work together to provide optimal rewards for our delegators', icon: LockClosedIcon },
-    { name: 'Community Support', description: 'We offer high quality support for both our stake pool operators and delegates. With many forms of communication channels, tutorials, and personal SPO sessions as needed.', icon: CloudUploadIcon }
+    { name: 'Sustainable', description: 'All Stake Pools in this alliance run on low power consuming ARM or RISC-V machines with an average pool energy consumption of 60 Watts💡', icon: RefreshIcon },
+    { name: 'True Decentralization', description: 'All independently owned stake pools ran by single pool operators. We work together to provide optimal rewards, education, and decentralization of hardware', icon: LockClosedIcon },
+    { name: 'Community Support', description: 'We offer high quality support, educational content, and tools for both our stake pool operators and delegators. With many forms of communication channels, tutorials, and personal SPO sessions as needed.', icon: CloudUploadIcon }
 ]
 
 export default function USPSection() {
@@ -28,7 +28,7 @@ export default function USPSection() {
                 </p>
                 <p className="mt-5 max-w-prose mx-auto text-xl text-gray-500 dark:text-gray-300">
                     <Text>
-                        The Armada Alliance was formed with a single mission in mind, achieving true decentralization on the Cardano blockchain. We will do our part to accomplish this goal by aiding in the creation of many independent, eco-friendly, rpi & arm based stake pools around the globe.
+                        The Armada Alliance was formed with a single mission in mind, achieving true decentralization on the Cardano blockchain. We will do our part to accomplish this goal by aiding in the creation of many independent, eco-friendly, ARM and RISC-V based stake pools around the globe.
                     </Text>
                 </p>
                 <div className="mt-12">
