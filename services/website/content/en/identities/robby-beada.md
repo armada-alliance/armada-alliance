@@ -4,8 +4,8 @@ title: Robby
 description: BEADA stake pool operator
 image: /beada.jpeg
 verified: true
-telegram: @BeADApool
-twitter: @BeadaPool
+telegram: BeADApool
+twitter: BeadaPool
 website: http://www.beadapool.com/
 github: robbyja
 ---
