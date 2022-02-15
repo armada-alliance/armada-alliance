@@ -18,18 +18,20 @@ https://armada-alliance.com
 
 4. Head back to the armada-alliance github and submit a pull request to add your pool to the website
 
-#### Here is an example of an identity md file.
+#### Here is an example of an identity markdown file.
 
 `wael-ivie.md`
 
 ```md
 ---
 template: IdentityDetailPage
-title: Wael Ivie 🐋
-description: SPO
-image: /wael.jpg
-website: https://piada.io
-donationAddress: addr1q8ae4ja0yrqy49g9pj48t4hhnc6zpamy4kecm7ay3d8m930k7hlxjrthyxvhjkjkxc5xjffs5w2tjqyh9ruv0kwqwv4qrq0gdt
+title: Wael Ivie🐋
+description: Founder, SPO
+image: /wael.png
+telegram: Qwailman
+twitter: Piada_stakePool
+github: AstroWa3l
+donationAddress: addr1qyqydvg5wzd6twvernsjcdjd9akmygyqp7gky7zpm0hrmq3ccwlnumzzuum6k6ja2k47g5dv2p4kwt753mpjjzx8fsmsruqjr7 
 verified: true
 ---
 
@@ -40,6 +42,11 @@ Hi I am Wael Ivie, the founder of the Armada Alliance and the ARMing Cardano pro
 https://adapulse.io/arming-cardano-an-ecosystem-for-raspberry-pi-stakepool-operators/
 ```
 
+>**If you would like to include an image in your markdown file, you can use the following syntax: `/myimage.png` as we have above after you upload the image to our asset repo via a pull request. For more information on how to add your image to the asset repo please read our guide [here](https://github.com/armada-alliance/assets).** 
+>
+>**Alternatively, if you would like to just link an image you may do that as well by inserting the raw link to the image into the image field using the direct link as follows:** `https://url-to-image.com/image.png`
+
+
 #### Here is an example of a pool's registration md file.
 
 `b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65.md`
@@ -48,13 +55,34 @@ https://adapulse.io/arming-cardano-an-ecosystem-for-raspberry-pi-stakepool-opera
 ---
 template: PoolDetailPage
 ticker: PIADA
-memberSince: 2021-04-18 # the date on which you joined the alliance
+memberSince: 2021-04-18
 identities:
   - id: tony-piada
     role: spo
   - id: wael-ivie
     role: spo
+telegram: piadapool
+github: AstroWa3l
+nodes:
+  - role: producer
+    deviceId: raspberry-pi-4-8gb
+    storage: Crucial BX500 Internal SSD 120GB
+    isBackup: false
+  - role: relay
+    deviceId: raspberry-pi-4-8gb
+    storage: Crucial BX500 Internal SSD 120GB
+    isBackup: false
+  - role: relay
+    deviceId: raspberry-pi-4-8gb
+    storage: Crucial BX500 Internal SSD 120GB
+    isBackup: false
+  - role: relay
+    deviceId: raspberry-pi-4-8gb
+    storage: Crucial BX500 Internal SSD 120GB
+    isBackup: true
 ---
+
+Write about your Pool details...
 ```
 
 

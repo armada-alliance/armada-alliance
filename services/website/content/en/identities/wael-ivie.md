@@ -17,7 +17,7 @@ badges:
 
 Hi, I am Wael Ivie, my partner [Tony](en/identities/tony-piada.md) and I run [PIADA](/en/stake-pools/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65.md) stake pool. I am the one of the founders of the Armada Alliance and love to share our passion for open-source hardware/software, blockchain technology like [Cardano](en/terms/cardano.md), and low-cost energy efficient computers like the [Raspberry Pi](https://www.raspberrypi.com/). Part of my mission with blockchain technology and Cardano is to help bring about a true change in the way the world's industries and society operate by advocating for true decentralization and sustainability.
 
-Cardano is a very unique blockchain in the sense it choose a more difficult route by focusing on truly decentralizing the way the world financial systems and governance operate. Cardano is a blockchain that is not only a platform for the creation of new digital assets but also a platform for the creation of new digital services like project Catalyst. By focusing on scalability, governance, community, and decentralization, Cardano has a community like no other blockchain.
+Cardano is a very unique blockchain because it choose a more difficult path by focusing on truly decentralizing the way the world financial systems and governance operate. Cardano is a blockchain that is not only a platform for the creation of new digital assets but also a platform for the creation of new digital services like project Catalyst. By focusing on scalability, governance, community, and decentralization, Cardano has a community like no other blockchain.
 
 
 
