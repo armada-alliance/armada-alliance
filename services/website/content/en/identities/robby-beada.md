@@ -2,7 +2,7 @@
 template: IdentityDetailPage
 title: Robby
 description: BEADA stake pool operator
-image: /beada.jpeg
+image: /logoklein.png
 verified: true
 telegram: BeADApool
 twitter: BeadaPool
