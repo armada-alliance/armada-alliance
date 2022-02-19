@@ -4,7 +4,7 @@ title: Updating a Cardano Node
 description: 
 keywords: cardano, node, update, stake, pool, stake pool, ada, how to update
 icon: 🤓
-externalLink: https://docs.armada-alliance.com/learn/intermediate-guide/updating-a-cardano-node
+externalLink: https://docs.armada-alliance.com/learn/stake-pool-guides/updating-a-cardano-node
 identities: 
     - id: wael-ivie
       role: author
