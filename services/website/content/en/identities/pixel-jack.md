@@ -1,6 +1,6 @@
 ---
 template: IdentityDetailPage
-title: Jack 🐋
+title: Jack
 description: Founder, SPO, Software engineer
 image: https://pixelpool.io/assets/pool/pool_logo.png
 website: https://pixelpool.io
@@ -13,6 +13,3 @@ verified: true
 
 Hello, I'm Jack. Sole owner and operator of Pixel pool and fulltime software engineer.
 Join Pixel if you want to support a decentralized and carbon negative stake pool.
-
-
-https://adapulse.io/arming-cardano-an-ecosystem-for-raspberry-pi-stakepool-operators/
