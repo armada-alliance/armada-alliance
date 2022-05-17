@@ -9,9 +9,8 @@ verified: true
 telegram: mini1pool
 github: jterrier84
 twitter: mini1pool
-linkedin: julien-terrier-94115693
 ---
 
 Hi, I am Julien and I am the administrator of Mini Stake Pool. I studied microtechnology and have a diploma in engineering. By profession, I am a product manager. 
 
-I have been interested in cryptocurrencies, blockchain and Cardano for over 3 years. I am fascinated by the wide range of applications that Blockchain offers. Cardano is in my opinion the Blockchain that has the real potential to become mainstream and make the world a fairer place. I'd like to contribute to this, even if only in a small way, by supporting the network with a stake pool that I maintain in my home with low-power hardware and supply with renewable energy.
+I have been interested in cryptocurrencies, blockchain and Cardano since late 2017. I am fascinated by the wide range of applications that Blockchain offers. Cardano is in my opinion the Blockchain that has the real potential to become mainstream and make the world a fairer place. I'd like to contribute to this, even if only in a small way, by supporting the network with a stake pool that I maintain in my home with low-power hardware and supply with renewable energy.
