@@ -4,7 +4,7 @@ title: Alpine Linux OS RPi Cardano Node
 description: Set up and run a Cardano Node on a very lightweight Linux distribution.
 keywords: Stake Pool Operation, Raspberry Pi, ARM
 icon: 🗻
-externalLink: https://docs.armada-alliance.com/learn/stake-pool-guides/alpine-linux-os
+externalLink: https://armada-alliance.gitbook.io/welcome/stake-pool-guides/alpine-linux-os
 identities:
   - id: sayshar-srn
     role: author
