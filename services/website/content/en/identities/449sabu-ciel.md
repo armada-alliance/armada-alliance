@@ -2,6 +2,7 @@
 template: IdentityDetailPage
 title: Yoshiki
 description: SPO
+image: 
 telegram: Yoshiki
 twitter: CIEL_Stake_Pool
 website: https://449sabu.github.io/
