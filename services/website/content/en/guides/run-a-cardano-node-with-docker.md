@@ -4,7 +4,7 @@ title: Docker Image Cardano Node
 description: Run a Cardano Node in a Docker container
 keywords: Stake Pool Operation, Docker, Raspberry Pi, Mac M1, ARM
 icon: 🐳
-externalLink: https://armada-alliance.gitbook.io/welcome/stake-pool-guides/docker-pool-guide
+externalLink: https://armada-alliance.com/docs/stake-pool-guides/docker-pool-guide
 identities:
   - id: julien-terrier
     role: author

@@ -1,10 +1,10 @@
 ---
 template: GuideDetailPage
 title: Create Single NFT
-description: How to create a Non-Fungible token on Cardano with JavaScript.
+description: How to create a NFT on Cardano with JavaScript.
 keywords: NFT, JavaScript
 icon: 👛 
-externalLink: https://armada-alliance.gitbook.io/welcome/cardano-developer-guides/nft-native-assets
+externalLink: https://armada-alliance.com/docs/cardano-developer-guides/nft-native-assets
 identities: 
     - id: wael-ivie
       role: author
