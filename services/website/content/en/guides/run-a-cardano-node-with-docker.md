@@ -12,10 +12,10 @@ identities:
 
 ## Why using docker image to run a Cardano node?
 
-The advantage of deploying a Cardano node as a Docker image is that it can be installed seamlessly and launched right out of the box. 
-If you ever decide to remove it, you only have to delete one file - the image. Another advantage is that the created image can run on any 
-operating system where Docker is installed. Using Docker reduces the complexity and effort of setting up a Cardano node compared to the 
-traditional way (for example, you don't have to deal with systemd settings).
+The advantage of running a Cardano node as a Docker image is, that it can be installed seamlessly and started right out of the box (provided that 
+you know how to use Docker). If you ever decide to remove the node, you only have to delete one file - the image. Another advantage is that the created image can run on any 
+operating system where Docker is installed. If you use our Docker image, you will save a lot of time during installation and avoid the hassle of 
+building the Cardano node from scratch, as taught in most tutorials on the web.
 
 **The docker image includes all necessary tools to run and monitor a Cardano node:**
 1. cardano-node & cardano-cli - Cardano binaries to run the node (Download compiled binaries from [Armada Alliance GitHub](https://github.com/armada-alliance/cardano-node-binaries)) 
