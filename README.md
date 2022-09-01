@@ -42,7 +42,7 @@ Hi I am Wael Ivie, the founder of the Armada Alliance and the ARMing Cardano pro
 https://adapulse.io/arming-cardano-an-ecosystem-for-raspberry-pi-stakepool-operators/
 ```
 
->**If you would like to include an image in your markdown file, you can use the following syntax: `/myimage.png` as we have above after you upload the image to our asset repo via a pull request. For more information on how to add your image to the asset repo please read our guide [here](https://github.com/armada-alliance/assets).**
+>**If you would like to include an image in your markdown file, you can use the following syntax: `/myimage.png` as we have above after you upload the image to our asset repo via a pull request. For more information on how to add your image to the asset repo please read our guide [here](https://github.com/armada-alliance/assets).** 
 >
 >**Alternatively, if you would like to just link an image you may do that as well by inserting the raw link to the image into the image field using the direct link as follows:** `https://url-to-image.com/image.png`
 
