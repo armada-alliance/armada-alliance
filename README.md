@@ -54,15 +54,15 @@ https://adapulse.io/arming-cardano-an-ecosystem-for-raspberry-pi-stakepool-opera
 ```md
 ---
 template: PoolDetailPage
-ticker: PIADA
-memberSince: 2021-04-18
+ticker: ORCA
+memberSince: 2022-09-01
 identities:
-  - id: tony-piada
+  - id: sean-doyle
     role: spo
-  - id: wael-ivie
+  - id: rob-ferguson
     role: spo
-telegram: piadapool
-github: AstroWa3l
+telegram: Sean_Orcada
+github: seanstartsup
 nodes:
   - role: producer
     deviceId: raspberry-pi-4-8gb
