@@ -86,4 +86,4 @@ Write about your Pool details...
 ```
 
 
-Please join our alliance's telegram channel https://t.me/armada_alli because this will be the main place we discuss and vote on the future of our alliance. Thank You for Joining the Armada Alliance :smile: 
+Please join our alliance's telegram channel https://t.me/armada_alli because this will be the main place we discuss and vote on the future of our alliance. Thank You for Joining the Armada Alliance :smile:
