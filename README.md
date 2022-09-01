@@ -42,7 +42,7 @@ Hi I am Wael Ivie, the founder of the Armada Alliance and the ARMing Cardano pro
 https://adapulse.io/arming-cardano-an-ecosystem-for-raspberry-pi-stakepool-operators/
 ```
 
->**If you would like to include an image in your markdown file, you can use the following syntax: `/myimage.png` as we have above after you upload the image to our asset repo via a pull request. For more information on how to add your image to the asset repo please read our guide [here](https://github.com/armada-alliance/assets).** 
+>**If you would like to include an image in your markdown file, you can use the following syntax: `/myimage.png` as we have above after you upload the image to our asset repo via a pull request. For more information on how to add your image to the asset repo please read our guide [here](https://github.com/armada-alliance/assets).**
 >
 >**Alternatively, if you would like to just link an image you may do that as well by inserting the raw link to the image into the image field using the direct link as follows:** `https://url-to-image.com/image.png`
 
@@ -54,15 +54,15 @@ https://adapulse.io/arming-cardano-an-ecosystem-for-raspberry-pi-stakepool-opera
 ```md
 ---
 template: PoolDetailPage
-ticker: ORCA
-memberSince: 2022-09-01
+ticker: PIADA
+memberSince: 2021-04-18
 identities:
-  - id: sean-doyle
+  - id: tony-piada
     role: spo
-  - id: rob-ferguson
+  - id: wael-ivie
     role: spo
-telegram: Sean_Orcada
-github: seanstartsup
+telegram: piadapool
+github: AstroWa3l
 nodes:
   - role: producer
     deviceId: raspberry-pi-4-8gb
@@ -86,4 +86,4 @@ Write about your Pool details...
 ```
 
 
-Please join our alliance's telegram channel https://t.me/armada_alli because this will be the main place we discuss and vote on the future of our alliance. Thank You for Joining the Armada Alliance :smile:
+Please join our alliance's telegram channel https://t.me/armada_alli because this will be the main place we discuss and vote on the future of our alliance. Thank You for Joining the Armada Alliance :smile: 
