@@ -1,7 +1,7 @@
 ---
 template: IdentityDetailPage
 title: BLABS
-description: Founder, SPO
+description: SPO
 image: https://www.blocklabs.info/blocks-logo.svg
 twitter: Block Labs
 github: mogog
