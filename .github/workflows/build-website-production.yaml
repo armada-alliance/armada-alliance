@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: "0 * * * *"
   push:
-    branches: [wael-patch]
+    branches: [main]
 
 jobs:
   build:
