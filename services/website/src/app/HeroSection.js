@@ -101,7 +101,7 @@ export default function HeroSection({ text, poolCount, pools }) {
                         <p className="mt-3 max-w-md mx-auto text-base text-gray-500 dark:text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
                             {text}
                         </p>
-                        <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
+                        <div className="mt-5 mx-auto sm:flex sm:justify-center md:mt-8">
                             <div className="rounded-md shadow">
                                 <Link internal={true} href={'/stake-pools'}>
                                     <a
@@ -110,6 +110,15 @@ export default function HeroSection({ text, poolCount, pools }) {
                                         Choose a pool
                                     </a>
                                 </Link>
+                            </div>
+                            <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
+                                <a
+                                  href={'/docs'}
+                                  target="_blank"
+                                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-gray-700 bg-gray-300 hover:text-gray-200 hover:bg-gray-400 md:py-4 md:text-lg md:px-10"
+                                >
+                                    Docs & Guides
+                                </a>
                             </div>
                             <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
                                 <a
