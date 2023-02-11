@@ -188,13 +188,14 @@ function NamiTab({ ctx, pool, toast, setToast }) {
 
         if (nami) return
 
-        const { default: createNami } = await import('./nami')
-        const _nami = createNami(ctx)
-        setNami(_nami)
+        if (process.browser && window.cardano && window.cardano.nami) {
+            const walletAPI = await window.cardano.nami.enable()
+            if (walletAPI) {
 
-        if (process.browser && window.cardano) {
-            const enabled = await window.cardano.isEnabled()
-            if (enabled) {
+                const { default: createNami } = await import('./nami')
+                const _nami = createNami({ blockfrost_project_id: 'gvIrp8FwB2oK1dpCI1ZxhUHkY8Bb5H9e', walletAPI })
+                setNami(_nami)
+
                 setConnectState('completed')
                 await refreshDelegationState(_nami)
             }
@@ -223,7 +224,17 @@ function NamiTab({ ctx, pool, toast, setToast }) {
 
         try {
 
-            await window.cardano.enable()
+            if (!nami) {
+                if (process.browser && window.cardano && window.cardano.nami) {
+                    const walletAPI = await window.cardano.nami.enable()
+                    if (walletAPI) {
+                        const { default: createNami } = await import('./nami')
+                        const _nami = createNami({ blockfrost_project_id: 'gvIrp8FwB2oK1dpCI1ZxhUHkY8Bb5H9e', walletAPI })
+                        setNami(_nami)
+                    }
+                }
+            }
+
             await refreshDelegationState(nami)
             setConnectState('completed')
         } catch (e) {

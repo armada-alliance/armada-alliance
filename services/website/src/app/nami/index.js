@@ -3,8 +3,8 @@ import { getPoolId, delegationTx, signTx, submitTx, getDelegation, blockfrostReq
 export default ctx => ({
   delegationTx: delegationTx(ctx),
   getPoolId,
-  signTx,
-  submitTx,
+  signTx: signTx(ctx),
+  submitTx: submitTx(ctx),
   getDelegation: getDelegation(ctx),
   blockfrostRequest: blockfrostRequest(ctx)
 })
