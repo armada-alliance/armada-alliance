@@ -35,13 +35,13 @@ export const getPoolId = (poolId) => {
 export const delegationTx = ctx => async (delegation, targetPoolId) => {
   await Loader.load();
   const protocolParameters = await initTx(ctx)();
-  let address = (await window.cardano.getUsedAddresses())[0];
+  let address = (await ctx.walletAPI.getUsedAddresses())[0];
   address = Loader.Cardano.Address.from_bytes(Buffer.from(address, "hex"));
-  const rewardAddress = await window.cardano.getRewardAddress();
+  const rewardAddress = await ctx.walletAPI.getRewardAddresses();
   const stakeCredential = Loader.Cardano.RewardAddress.from_address(
-    Loader.Cardano.Address.from_bytes(Buffer.from(rewardAddress, "hex"))
+    Loader.Cardano.Address.from_bytes(Buffer.from(rewardAddress[0], "hex"))
   ).payment_cred();
-  let utxos = await window.cardano.getUtxos();
+  let utxos = await ctx.walletAPI.getUtxos();
   utxos = utxos.map((utxo) =>
     Loader.Cardano.TransactionUnspentOutput.from_bytes(Buffer.from(utxo, "hex"))
   );
@@ -160,9 +160,9 @@ export const delegationTx = ctx => async (delegation, targetPoolId) => {
   return transaction;
 };
 
-export const signTx = async (transaction) => {
+export const signTx = ctx => async (transaction) => {
   await Loader.load();
-  const witnesses = await window.cardano.signTx(
+  const witnesses = await ctx.walletAPI.signTx(
     Buffer.from(transaction.to_bytes(), "hex").toString("hex")
   );
   const signedTx = await Loader.Cardano.Transaction.new(
@@ -174,8 +174,8 @@ export const signTx = async (transaction) => {
   return signedTx;
 };
 
-export const submitTx = async (signedTx) => {
-  const txHash = await window.cardano.submitTx(
+export const submitTx = ctx => async (signedTx) => {
+  const txHash = await ctx.walletAPI.submitTx(
     Buffer.from(signedTx.to_bytes(), "hex").toString("hex")
   );
   return txHash;
@@ -183,9 +183,9 @@ export const submitTx = async (signedTx) => {
 
 export const getDelegation = ctx => async () => {
   await Loader.load();
-  const rawAddress = await window.cardano.getRewardAddress();
+  const rawAddress = await ctx.walletAPI.getRewardAddresses();
   const rewardAddress = Loader.Cardano.Address.from_bytes(
-    Buffer.from(rawAddress, "hex")
+    Buffer.from(rawAddress[0], "hex")
   ).to_bech32();
   const stake = await blockfrostRequest(ctx)(`/accounts/${rewardAddress}`);
   if (!stake || stake.error || !stake.pool_id) return {};
