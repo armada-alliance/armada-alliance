@@ -5,6 +5,7 @@ description: Founder, SPO
 image: /wael.png
 telegram: Qwailman
 twitter: Piada_stakePool
+website: https://piada.io/
 github: AstroWa3l
 donationAddress: addr1qyqydvg5wzd6twvernsjcdjd9akmygyqp7gky7zpm0hrmq3ccwlnumzzuum6k6ja2k47g5dv2p4kwt753mpjjzx8fsmsruqjr7 
 verified: true
