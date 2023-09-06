@@ -4,7 +4,7 @@ title: Create a NFT Collection
 description: A guide to creating a NFT collection on Cardano using JavaScript.
 keywords: NFT, JavaScript
 icon: 💰
-externalLink: https://armada-alliance.gitbook.io/welcome/cardano-developer-guides/cardano-nft-collection-tutorial-coming-soon 
+externalLink: https://armada-alliance.com/docs/cardano-developer-guides/nft-native-assets
 identities: 
     - id: wael-ivie
       role: author
