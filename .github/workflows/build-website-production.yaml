@@ -11,12 +11,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           clean: false
           fetch-depth: 0
       - name: Use Node.js 18.7.1
-        uses: actions/setup-node@v1
+      - uses: actions/setup-node@v3
         with:
           node-version: 18.7.1
       - name: Cache Node Modules
