@@ -37,6 +37,10 @@ jobs:
           IPSTACK_API_KEY: ${{ secrets.IPSTACK_API_KEY }}
           HOST: https://armada-alliance.com
         run: |
+          sudo rm -rf /usr/share/dotnet
+          sudo rm -rf /opt/ghc
+          sudo rm -rf "/usr/local/share/boost"
+          sudo rm -rf "$AGENT_TOOLSDIRECTORY"
           node src/scripts/tasks/all.js
           npm run build
           npm run export
