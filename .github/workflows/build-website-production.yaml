@@ -44,7 +44,7 @@ jobs:
           sudo rm -rf "/usr/local/share/boost"
           sudo rm -rf "$AGENT_TOOLSDIRECTORY"
           node src/scripts/tasks/all.js
-          npm run build
+          npm run --openssl-legacy-provider build
           npm run export
           git config --global user.name "${{ secrets.CI_USERNAME }}"
           git config --global user.email "${{ secrets.CI_EMAIL }}"
