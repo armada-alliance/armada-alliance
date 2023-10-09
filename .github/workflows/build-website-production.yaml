@@ -2,7 +2,7 @@ name: Build Website (Production)
 
 on:
   schedule:
-    - cron: "0 */5 * * *"
+    - cron: "0 */4 * * *"
   push:
     branches: [main]
 
