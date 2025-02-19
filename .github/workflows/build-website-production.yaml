@@ -37,6 +37,7 @@ jobs:
           BLOCKFROST_PROJECT_ID: ${{ secrets.BLOCKFROST_PROJECT_ID }}
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           IPSTACK_API_KEY: ${{ secrets.IPSTACK_API_KEY }}
+          IP_GEOLOCATION_API_KEY: ${{ secrets.IP_GEOLOCATION_API_KEY }}
           HOST: https://armada-alliance.com
         run: |
           sudo rm -rf /usr/share/dotnet
