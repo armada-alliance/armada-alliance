@@ -47,6 +47,13 @@ const getAdapoolsData = async (poolId) => {
     return data
 }
 
+const getCexplorerData = async (poolIdBech32) => {
+
+    const { data } = await axios.get(`https://js.cexplorer.io/api-static/pool/${poolIdBech32}.json`)
+
+    return data
+}
+
 const getDataForAddresses = async (addresses) => {
 
     let result = {}
@@ -137,14 +144,36 @@ module.exports = {
                 const relays = await getRelaysForPool(poolId)
 
                 const adapools = await getAdapoolsData(poolId)
+
+                let cexplorerData = null
+                if (metadata && metadata.pool_id) {
+                    cexplorerData = await getCexplorerData(metadata.pool_id)
+                }
+                
+                const cexplorer = cexplorerData
+                
                 const data = await getDataForPool(poolId)
 
-                const name = adapools.data.db_name
+                //const name = adapools.data.db_name
+                const name = cexplorer.data.name ? cexplorer.data.name : adapools.data.db_name
 
-                let image = adapools.data.handles.icon
-
+                // let image = adapools.data.handles.icon
+                let image = cexplorer.data.img ? cexplorer.data.img : adapools.data.handles.icon
+                
+                let tg, tw, gh, fb, yt, di, li
+                
                 if (extended && extended.info) {
                     image = extended.info.url_png_logo
+
+                    if (extended.info.social) {
+                        tg = extended.info.social.telegram_handle ? extended.info.social.telegram_handle : adapools.data.handles.tg
+                        tw = extended.info.social.twitter_handle ? extended.info.social.twitter_handle : adapools.data.handles.tw 
+                        gh = extended.info.social.github_handle ? extended.info.social.github_handle : adapools.data.handles.gh 
+                        fb = extended.info.social.facebook_handle ? extended.info.social.facebook_handle : adapools.data.handles.fb
+                        yt = extended.info.social.youtube_handle ? extended.info.social.youtube_handle : adapools.data.handles.yt 
+                        di = extended.info.social.discord_handle ? extended.info.social.discord_handle : adapools.data.handles.di 
+                        li = extended.info.social.linkedin_handle ? extended.info.social.linkedin_handle : null
+                    }
                 }
 
                 image = image && image.indexOf('http://') === -1 ? image : null
@@ -156,6 +185,9 @@ module.exports = {
                 }
 
                 console.log('adapools', poolId, adapools.created)
+                if (cexplorer) {
+                    console.log('cexplorer', metadata.pool_id, cexplorer.time)
+                }
 
                 return {
                     id: poolId,
@@ -164,12 +196,16 @@ module.exports = {
                         name,
                         href: '/stake-pools/' + poolId
                     },
-                    description: adapools.data.db_description,
+                    // description: adapools.data.db_description,
+                    description: metadata.description ? metadata.description : adapools.data.db_description,
                     image,
                     hasImage,
-                    ticker: adapools.data.db_ticker,
-                    addr: adapools.data.pool_id_bech32,
-                    website: poolPage.website ? poolPage.website : adapools.data.db_url,
+                    // ticker: adapools.data.db_ticker,
+                    ticker: metadata.ticker ? metadata.ticker : adapools.data.db_ticker,
+                    // addr: adapools.data.pool_id_bech32,
+                    addr: metadata.pool_id ? metadata.pool_id : adapools.data.pool_id_bech32,
+                    // website: poolPage.website ? poolPage.website : adapools.data.db_url,
+                    website: poolPage.website ? poolPage.website : metadata.homepage,
                     // totalStake: adapools.data.total_stake,
                     totalStake: data.live_stake,
                     // blocksLifetime: adapools.data.blocks_lifetime,
@@ -186,7 +222,9 @@ module.exports = {
                     taxRatio: data.margin_cost,
                     // taxFix: adapools.data.tax_fix,
                     taxFix: data.fixed_cost,
-                    roa: adapools.data.roa,
+                    // roa: adapools.data.roa,
+                    roa: cexplorer.data.roa_lifetime ? cexplorer.data.roa_lifetime : adapools.data.roa,
+                    
                     memberSince: poolPage.memberSince,
                     registeredAt: adapools.created ? new Date(adapools.created).toISOString() : null,
                     identities: poolPage.identities,
@@ -194,15 +232,15 @@ module.exports = {
                     relays,
                     metadata,
                     extended,
-                    telegram: adapools.data.handles.tg ? adapools.data.handles.tg : poolPage.telegram,
-                    twitter: adapools.data.handles.tw ? adapools.data.handles.tw : poolPage.twitter,
-                    github: adapools.data.handles.gh ? adapools.data.handles.gh : poolPage.github,
-                    facebook: adapools.data.handles.fb ? adapools.data.handles.fb : poolPage.facebook,
-                    youtube: adapools.data.handles.yt ? adapools.data.handles.yt : poolPage.youtube,
-                    discord: adapools.data.handles.di ? adapools.data.handles.di : poolPage.discord,
+                    telegram: tg ? tg : poolPage.telegram,
+                    twitter: tw ? tw : poolPage.twitter,
+                    github: gh ? gh : poolPage.github,
+                    facebook: fb ? fb : poolPage.facebook,
+                    youtube: yt ? yt : poolPage.youtube,
+                    discord: di ? di : poolPage.discord,
                     instagram: poolPage.instagram,
                     email: poolPage.email,
-                    linkedin: poolPage.linkedin,
+                    linkedin: li ? li : poolPage.linkedin,
                     ...poolPingData
                 }
             })
