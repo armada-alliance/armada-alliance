@@ -79,7 +79,7 @@ const getDataForAddresses = async (addresses) => {
                     });
                 }
 
-                const { data } = await ipstack.get(`?ip=${ipAddress}`);
+                const { data } = await ipgeolocation.get(`?ip=${ipAddress}`);
                 result[address] = data;
 
                 if (!data.error) {
