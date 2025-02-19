@@ -15,7 +15,7 @@ module.exports = {
             { id: 'EUR', name: 'Euro', symbol: '€' },
             { id: 'USD', name: 'U.S. Dollar', symbol: '$' },
             { id: 'BTC', name: 'Bitcoin', symbol: 'BTC' },
-            { id: 'BTC', name: 'Ethereum', symbol: 'ETH' },
+            { id: 'ETH', name: 'Ethereum', symbol: 'ETH' },
             { id: 'AUD', name: 'Australian Dollar', symbol: 'AUD' },
             { id: 'CNY', name: 'Chinese Yuan', symbol: '¥' },
             { id: 'MYR', name: 'Malaysian Ringgit', symbol: 'RM' },

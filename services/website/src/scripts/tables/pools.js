@@ -56,30 +56,44 @@ const getCexplorerData = async (poolIdBech32) => {
 
 const getDataForAddresses = async (addresses) => {
 
-    let result = {}
+    let result = {};
     await Throttle.sync(
         addresses.map(address => async () => {
 
-            let cached = getCacheItem(address)
+            let cached = getCacheItem(address);
             if (cached) {
-                result[address] = cached
-                return
+                result[address] = cached;
+                return;
             }
 
             try {
-                const { data } = await ipstack.get(address)
-                result[address] = data
+                let ipAddress = address;
+
+                // Check if the address is a domain, and use dns.lookup to get its IP address
+                if (!/^\d+\.\d+\.\d+\.\d+$/.test(address)) {
+                    ipAddress = await new Promise((resolve, reject) => {
+                        dns.lookup(address, (err, ip) => {
+                            if (err) console.log(err);
+                            else resolve(ip);
+                        });
+                    });
+                }
+
+                const { data } = await ipstack.get(`?ip=${ipAddress}`);
+                result[address] = data;
+
                 if (!data.error) {
-                    setCacheItem(address, data)
+                    setCacheItem(address, data);
                 }
             } catch (e) {
-                console.log('e', e.response)
+                console.log('Error:', e.response);
             }
 
-        })
-        , { maxInProgress: 1 })
+        }),
+        { maxInProgress: 1 }
+    );
 
-    return result
+    return result;
 }
 
 module.exports = {
