@@ -169,10 +169,10 @@ module.exports = {
                 const data = await getDataForPool(poolId)
 
                 //const name = adapools.data.db_name
-                const name = cexplorer.data.name ? cexplorer.data.name : adapools.data.db_name
+                const name = (cexplorer && cexplorer.data && cexplorer.data.name) ? cexplorer.data.name : (adapools && adapools.data && adapools.data.db_name)
 
                 // let image = adapools.data.handles.icon
-                let image = cexplorer.data.img ? cexplorer.data.img : adapools.data.handles.icon
+                let image = (cexplorer && cexplorer.data && cexplorer.data.img) ? cexplorer.data.img : (adapools && adapools.data && adapools.data.handles.icon)
                 
                 let tg, tw, gh, fb, yt, di, li
                 
@@ -180,12 +180,12 @@ module.exports = {
                     image = extended.info.url_png_logo
 
                     if (extended.info.social) {
-                        tg = extended.info.social.telegram_handle ? extended.info.social.telegram_handle : adapools.data.handles.tg
-                        tw = extended.info.social.twitter_handle ? extended.info.social.twitter_handle : adapools.data.handles.tw 
-                        gh = extended.info.social.github_handle ? extended.info.social.github_handle : adapools.data.handles.gh 
-                        fb = extended.info.social.facebook_handle ? extended.info.social.facebook_handle : adapools.data.handles.fb
-                        yt = extended.info.social.youtube_handle ? extended.info.social.youtube_handle : adapools.data.handles.yt 
-                        di = extended.info.social.discord_handle ? extended.info.social.discord_handle : adapools.data.handles.di 
+                        tg = extended.info.social.telegram_handle ? extended.info.social.telegram_handle : (adapools && adapools.data && adapools.data.handles.tg)
+                        tw = extended.info.social.twitter_handle ? extended.info.social.twitter_handle : (adapools && adapools.data && adapools.data.handles.tw)
+                        gh = extended.info.social.github_handle ? extended.info.social.github_handle : (adapools && adapools.data && adapools.data.handles.gh)
+                        fb = extended.info.social.facebook_handle ? extended.info.social.facebook_handle : (adapools && adapools.data && adapools.data.handles.fb)
+                        yt = extended.info.social.youtube_handle ? extended.info.social.youtube_handle : (adapools && adapools.data && adapools.data.handles.yt)
+                        di = extended.info.social.discord_handle ? extended.info.social.discord_handle : (adapools && adapools.data && adapools.data.handles.di)
                         li = extended.info.social.linkedin_handle ? extended.info.social.linkedin_handle : null
                     }
                 }
@@ -211,15 +211,15 @@ module.exports = {
                         href: '/stake-pools/' + poolId
                     },
                     // description: adapools.data.db_description,
-                    description: metadata.description ? metadata.description : adapools.data.db_description,
+                    description: (metadata && metadata.description) ? metadata.description : (adapools && adapools.data && adapools.data.db_description),
                     image,
                     hasImage,
                     // ticker: adapools.data.db_ticker,
-                    ticker: metadata.ticker ? metadata.ticker : adapools.data.db_ticker,
-                    // addr: adapools.data.pool_id_bech32,
-                    addr: metadata.pool_id ? metadata.pool_id : adapools.data.pool_id_bech32,
+                    ticker: (metadata && metadata.ticker) ? metadata.ticker : (adapools && adapools.data && adapools.data.db_ticker),
+                    // addr: (metadata && metadata.pool_id) ? metadata.pool_id : (adapools && adapools.data && adapools.data.pool_id_bech32),
+                    addr: (metadata && metadata.pool_id) ? metadata.pool_id : (adapools && adapools.data && adapools.data.pool_id_bech32),
                     // website: poolPage.website ? poolPage.website : adapools.data.db_url,
-                    website: poolPage.website ? poolPage.website : metadata.homepage,
+                    website: poolPage.website ? poolPage.website : ((metadata && metadata.homepage) ? metadata.homepage : null),
                     // totalStake: adapools.data.total_stake,
                     totalStake: data.live_stake,
                     // blocksLifetime: adapools.data.blocks_lifetime,
@@ -237,7 +237,7 @@ module.exports = {
                     // taxFix: adapools.data.tax_fix,
                     taxFix: data.fixed_cost,
                     // roa: adapools.data.roa,
-                    roa: cexplorer.data.roa_lifetime ? cexplorer.data.roa_lifetime : adapools.data.roa,
+                    roa: (cexplorer && cexplorer.data && cexplorer.data.roa_lifetime) ? cexplorer.data.roa_lifetime : (adapools && adapools.data && adapools.data.roa),
                     
                     memberSince: poolPage.memberSince,
                     registeredAt: adapools.created ? new Date(adapools.created).toISOString() : null,
@@ -262,34 +262,27 @@ module.exports = {
     },
     afterCreate: async (ctx, rows) => {
 
-        const addresses = rows.reduce((result, row) => {
-            return [
-                ...result,
-                ...row.relays.map(relay => relay.addr)
-            ]
-        }, [])
+        const addresses = rows.reduce((result, row) => [
+            ...result,
+            ...row.relays.map(relay => relay.addr)
+        ], []);
 
-        const locationsByAddress = await getDataForAddresses(addresses)
+        const locationsByAddress = await getDataForAddresses(addresses);
 
         return rows.map(row => {
-
             return {
                 ...row,
                 relays: row.relays.reduce((result, relay) => {
-
-                    const data = locationsByAddress[relay.addr]
-
-                    if (!data.error) {
-
+                    const data = locationsByAddress[relay.addr];
+                    if (data && !data.error) {
                         result.push({
                             ...relay,
                             data
-                        })
+                        });
                     }
-
-                    return result
+                    return result;
                 }, [])
-            }
-        })
+            };
+        });
     }
 }
