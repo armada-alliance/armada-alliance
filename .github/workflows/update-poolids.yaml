@@ -1,0 +1,55 @@
+name: Update poolids.json
+
+# Regenerates poolids.json (bech32 IDs of all Armada Alliance pools, used by
+# cexplorer) from the stake-pool pages. Replaces the scheduled job that ran on
+# gitlab.armada-alliance.com (armada-pirate-list), which used Blockfrost.
+
+on:
+  schedule:
+    - cron: "0 22 * * 4"
+  push:
+    branches: [main]
+    paths:
+      - "services/website/content/en/stake-pools/**"
+      - ".github/scripts/update_poolids.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: update-poolids
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Regenerate poolids.json from Koios
+        run: python3 .github/scripts/update_poolids.py
+
+      # main is protected (1 approving review), so changes go through a PR
+      # from the bot/update-poolids branch instead of a direct push.
+      - name: Open or update PR if changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BRANCH: bot/update-poolids
+        run: |
+          if git diff --quiet -- poolids.json; then
+            echo "poolids.json unchanged"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898732+github-actions[bot]@users.noreply.github.com"
+          git checkout -B "$BRANCH"
+          git add poolids.json
+          git commit -m "chore: update poolids.json"
+          git push --force origin "$BRANCH"
+          if [ -z "$(gh pr list --head "$BRANCH" --state open --json number --jq '.[].number')" ]; then
+            gh pr create --base main --head "$BRANCH" \
+              --title "chore: update poolids.json" \
+              --body "Automated update of poolids.json from the stake-pool pages (bech32 IDs resolved via Koios)."
+          fi
